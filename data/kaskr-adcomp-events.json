@@ -1,0 +1,2245 @@
+[
+    {
+        "id": "32768546968",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "ref": "sqrtm",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T11:09:26Z"
+    },
+    {
+        "id": "32738043152",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 42149171,
+            "login": "sebastiandig",
+            "display_login": "sebastiandig",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sebastiandig",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42149171?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T04:07:31Z"
+    },
+    {
+        "id": "32729883114",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15504051018,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/gh-pages",
+            "head": "5e1d2656cb6a4d693c151380094964c18d800f9b",
+            "before": "6ae40c8c7be7327f34aeedbf6f3451bfc36a5fff",
+            "commits": [
+                {
+                    "sha": "5e1d2656cb6a4d693c151380094964c18d800f9b",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Travis CI"
+                    },
+                    "message": "Deploy to GitHub Pages: a1c33b203d02d072944a77fe4fbd972a46c34473",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/5e1d2656cb6a4d693c151380094964c18d800f9b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T17:36:02Z"
+    },
+    {
+        "id": "32728581413",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 10,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-20T16:36:36Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1773053592",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1773053592",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1773053592,
+                "node_id": "IC_kwDOAMI7Ds5prqaY",
+                "user": {
+                    "login": "kaskr",
+                    "id": 5426937,
+                    "node_id": "MDQ6VXNlcjU0MjY5Mzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5426937?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kaskr",
+                    "html_url": "https://github.com/kaskr",
+                    "followers_url": "https://api.github.com/users/kaskr/followers",
+                    "following_url": "https://api.github.com/users/kaskr/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kaskr/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kaskr/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kaskr/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kaskr/orgs",
+                    "repos_url": "https://api.github.com/users/kaskr/repos",
+                    "events_url": "https://api.github.com/users/kaskr/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kaskr/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T16:36:36Z",
+                "updated_at": "2023-10-20T16:36:36Z",
+                "author_association": "OWNER",
+                "body": "As a reminder for myself, the new `Matrix::Matrix.Version()` can give the ABI for the current installation of Matrix, but it doesn't provide a way to compare ABIs across different Matrix versions.\r\n\r\n```\r\n> Matrix:::Matrix.Version()\r\n$package\r\n[1] \u20181.6.2\u2019\r\n\r\n$abi\r\n[1] \u20181\u2019\r\n\r\n$suitesparse\r\n[1] \u20185.10.1\u2019\r\n```\r\n\r\nIn the future we should store and test on Matrix 'abi' rather than 'package version' (there is no way to lookup ABI from package version).\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1773053592/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:36:37Z"
+    },
+    {
+        "id": "32728216786",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15503204892,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a1c33b203d02d072944a77fe4fbd972a46c34473",
+            "before": "46f6a996d9752f61f051d499ba5dac45ed855ad7",
+            "commits": [
+                {
+                    "sha": "a1c33b203d02d072944a77fe4fbd972a46c34473",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Kasper Kristensen"
+                    },
+                    "message": "Add sqrtm atomic #370",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/a1c33b203d02d072944a77fe4fbd972a46c34473"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:20:48Z"
+    },
+    {
+        "id": "32728192185",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/388",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/388",
+                "id": 1952925735,
+                "node_id": "I_kwDOAMI7Ds50Z0gn",
+                "number": 388,
+                "title": "don't rely on partial matching",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-19T19:28:41Z",
+                "updated_at": "2023-10-20T16:19:45Z",
+                "closed_at": "2023-10-20T16:19:44Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Maintainers and even some casual users may set options\r\n\r\n```\r\noptions(warn = 1L,\r\n        warnPartialMatchArgs = TRUE,\r\n        warnPartialMatchAttr = TRUE,\r\n        warnPartialMatchDollar = TRUE)\r\n```\r\n\r\nto ensure that partial matching results in `grep`-able warnings in script output.  Doing so for your `inst/examples/*.R` reveals two places in `MakeADFun` and one place in `newton` where you rely on partial matching:\r\n\r\n```\r\n$ grep -h *.Rout -e \"Warning in\" | sort | uniq\r\nWarning in determinant(L, sqrt = TRUE)$mod :     # MakeADFun\r\nWarning in rep(0, length = length(e$Hfull@x)) :  # MakeADFun\r\nWarning in seq.default(0, 10, length = 50001) :  # one of the inst/examples/*.R\r\nWarning in seq.default(length = maxit) :         # newton\r\n```\r\n\r\nhttps://github.com/kaskr/adcomp/blob/92ab18478aa4ec8a24aa8821960f835c48a038a2/TMB/R/TMB.R#L702\r\nhttps://github.com/kaskr/adcomp/blob/92ab18478aa4ec8a24aa8821960f835c48a038a2/TMB/R/TMB.R#L771\r\nhttps://github.com/kaskr/adcomp/blob/92ab18478aa4ec8a24aa8821960f835c48a038a2/TMB/R/TMB.R#L1754\r\n\r\nSo that users of your package do not see these spurious warnings, do use complete names (`modulus`, `length.out`) there.  (The `newton` case is particularly bad as the warning is signaled inside of a loop ...)\r\n\r\nHaving said that, I would simply replace `rep(0, length.out=n)` with `double(n)` and `seq(length.out=n)` with `seq_len(n)` ...",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/388/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:19:45Z"
+    },
+    {
+        "id": "32728191649",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15503192375,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "46f6a996d9752f61f051d499ba5dac45ed855ad7",
+            "before": "92ab18478aa4ec8a24aa8821960f835c48a038a2",
+            "commits": [
+                {
+                    "sha": "46f6a996d9752f61f051d499ba5dac45ed855ad7",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Kasper Kristensen"
+                    },
+                    "message": "Fix #388",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/46f6a996d9752f61f051d499ba5dac45ed855ad7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:19:44Z"
+    },
+    {
+        "id": "32722176538",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "ref": "sqrtm",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "AD computation with Template Model Builder (TMB)",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-20T12:44:48Z"
+    },
+    {
+        "id": "32702547362",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 28061575,
+            "login": "jaganmn",
+            "display_login": "jaganmn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaganmn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28061575?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/388",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/388",
+                "id": 1952925735,
+                "node_id": "I_kwDOAMI7Ds50Z0gn",
+                "number": 388,
+                "title": "don't rely on partial matching",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-19T19:28:41Z",
+                "updated_at": "2023-10-19T19:28:41Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Maintainers and even some casual users may set options\r\n\r\n```\r\noptions(warn = 1L,\r\n        warnPartialMatchArgs = TRUE,\r\n        warnPartialMatchAttr = TRUE,\r\n        warnPartialMatchDollar = TRUE)\r\n```\r\n\r\nto ensure that partial matching results in `grep`-able warnings in script output.  Doing so for your `inst/examples/*.R` reveals two places in `MakeADFun` and one place in `newton` where you rely on partial matching:\r\n\r\n```\r\n$ grep -h *.Rout -e \"Warning in\" | sort | uniq\r\nWarning in determinant(L, sqrt = TRUE)$mod :     # MakeADFun\r\nWarning in rep(0, length = length(e$Hfull@x)) :  # MakeADFun\r\nWarning in seq.default(0, 10, length = 50001) :  # one of the inst/examples/*.R\r\nWarning in seq.default(length = maxit) :         # newton\r\n```\r\n\r\nhttps://github.com/kaskr/adcomp/blob/92ab18478aa4ec8a24aa8821960f835c48a038a2/TMB/R/TMB.R#L702\r\nhttps://github.com/kaskr/adcomp/blob/92ab18478aa4ec8a24aa8821960f835c48a038a2/TMB/R/TMB.R#L771\r\nhttps://github.com/kaskr/adcomp/blob/92ab18478aa4ec8a24aa8821960f835c48a038a2/TMB/R/TMB.R#L1754\r\n\r\nSo that users of your package do not see these spurious warnings, do use complete names (`modulus`, `length.out`) there.  (The `newton` case is particularly bad as the warning is signaled inside of a loop ...)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/388/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/388/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T19:28:42Z"
+    },
+    {
+        "id": "32671228861",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 28061575,
+            "login": "jaganmn",
+            "display_login": "jaganmn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaganmn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28061575?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 9,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-18T20:55:53Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1769306852",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1769306852",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1769306852,
+                "node_id": "IC_kwDOAMI7Ds5pdXrk",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-18T20:55:52Z",
+                "updated_at": "2023-10-18T20:55:52Z",
+                "author_association": "NONE",
+                "body": "Done now, with `NEWS`:\r\n\r\n```\r\n      \\item New \\R{} function \\code{Matrix.Version}, taking no\r\n      arguments and returning \\code{list(Package, ABI, SuiteSparse)}\r\n      giving the numeric versions of each.  ABI versioning is new:\r\n      the ABI version is 1 in this release and will be incremented\r\n      by 1 in each future release that changes the ABI.\r\n      Versions and their components are defined for packages with\r\n      \\code{LinkingTo: Matrix}.  See \\file{inst/include/Matrix/Matrix.h}.\r\n```\r\n\r\nSo you can start comparing ABI versions defined backwards compatibly as:\r\n\r\n```\r\nabi <-\r\n    if(packageVersion(\"Matrix\") >= \"1.6-2\")\r\n        Matrix.Version()[[\"ABI\"]]\r\n    else as.numeric_version(\"0\")\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1769306852/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-18T20:55:53Z"
+    },
+    {
+        "id": "32660131403",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 28061575,
+            "login": "jaganmn",
+            "display_login": "jaganmn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaganmn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28061575?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-18T14:10:05Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1768546815",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1768546815",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1768546815,
+                "node_id": "IC_kwDOAMI7Ds5paeH_",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-18T14:10:05Z",
+                "updated_at": "2023-10-18T14:10:05Z",
+                "author_association": "NONE",
+                "body": "Eventually (actually TODO for 1.6-2), **Matrix** will associate with three \"versions\" detectable from C and R code: a package version, a SuiteSparse version, and an ABI version.  The ABI version will obviate the need for a hard-coded list of ABI-breaking package versions.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1768546815/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-18T14:10:06Z"
+    },
+    {
+        "id": "32654465328",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15466636557,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/gh-pages",
+            "head": "6ae40c8c7be7327f34aeedbf6f3451bfc36a5fff",
+            "before": "62e268a60d0cbf7d15e82e0129513b641ae4984f",
+            "commits": [
+                {
+                    "sha": "6ae40c8c7be7327f34aeedbf6f3451bfc36a5fff",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Travis CI"
+                    },
+                    "message": "Deploy to GitHub Pages: 92ab18478aa4ec8a24aa8821960f835c48a038a2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/6ae40c8c7be7327f34aeedbf6f3451bfc36a5fff"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T11:09:57Z"
+    },
+    {
+        "id": "32652366603",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15465595020,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "92ab18478aa4ec8a24aa8821960f835c48a038a2",
+            "before": "05c2ddc97e6e33e395927d0c2856f691d43c9d0b",
+            "commits": [
+                {
+                    "sha": "92ab18478aa4ec8a24aa8821960f835c48a038a2",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Kasper Kristensen"
+                    },
+                    "message": "Check Matrix package version intervals #387",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/92ab18478aa4ec8a24aa8821960f835c48a038a2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T09:56:41Z"
+    },
+    {
+        "id": "32652330725",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-18T09:55:31Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1768097300",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1768097300",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1768097300,
+                "node_id": "IC_kwDOAMI7Ds5pYwYU",
+                "user": {
+                    "login": "kaskr",
+                    "id": 5426937,
+                    "node_id": "MDQ6VXNlcjU0MjY5Mzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5426937?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kaskr",
+                    "html_url": "https://github.com/kaskr",
+                    "followers_url": "https://api.github.com/users/kaskr/followers",
+                    "following_url": "https://api.github.com/users/kaskr/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kaskr/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kaskr/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kaskr/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kaskr/orgs",
+                    "repos_url": "https://api.github.com/users/kaskr/repos",
+                    "events_url": "https://api.github.com/users/kaskr/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kaskr/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-18T09:55:30Z",
+                "updated_at": "2023-10-18T09:55:30Z",
+                "author_association": "OWNER",
+                "body": "@jaganmn Thanks for dealing so thoroughly with this issue! I'm going to follow your advice to only check the few versions that might cause trouble.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1768097300/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-18T09:55:31Z"
+    },
+    {
+        "id": "32644553408",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 28061575,
+            "login": "jaganmn",
+            "display_login": "jaganmn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaganmn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28061575?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-18T04:29:01Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1767618707",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1767618707",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1767618707,
+                "node_id": "IC_kwDOAMI7Ds5pW7iT",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-18T04:29:01Z",
+                "updated_at": "2023-10-18T04:29:01Z",
+                "author_association": "NONE",
+                "body": "Perhaps **TMB** could change to only warning about version mismatch when the mismatch involves **Matrix** versions _known_ to introduce an ABI change.  For now, the list would contain only 1.6-2, unless you recall the much older (and now probably irrelevant) instances.  When we update SuiteSparse in 1.7-0, we may ask you to add 1.7-0, and so on ...",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1767618707/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-18T04:29:02Z"
+    },
+    {
+        "id": "32633753169",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 28061575,
+            "login": "jaganmn",
+            "display_login": "jaganmn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaganmn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28061575?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-17T18:16:02Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1766928993",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1766928993",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1766928993,
+                "node_id": "IC_kwDOAMI7Ds5pUTJh",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-17T18:16:01Z",
+                "updated_at": "2023-10-17T18:16:01Z",
+                "author_association": "NONE",
+                "body": "Yes, **Matrix** 1.6-2 fixes some bugs in its headers, resulting in ABI changes.  Here are the `NEWS` entries concerning the ABI or API:\r\n\r\n```\r\n      \\item The prototype of API function \\code{M_cholmod_band_inplace}\r\n      was wrongly copied from \\code{cholmod_band},\r\n      instead of from \\code{cholmod_band_inplace}.\r\n\r\n      \\item Many API function prototypes wrongly used \\code{const}\r\n      qualifiers where the registered routines do not.\r\n\r\n      \\item Some API declarations and macros not used by \\emph{any}\r\n      (recursive) reverse \\code{LinkingTo} are removed or remapped.\r\n\r\n      \\item API headers are now nested under \\file{inst/include/Matrix/}\r\n      for better namespacing.  Where possible, packages should start to\r\n      use \\code{LinkingTo: Matrix (>= 1.6-2)} and include files from the\r\n      new subdirectory, e.g., with \\code{#include <Matrix/Matrix.h>}.\r\n\r\n      \\item Users including API headers can define macro\r\n      \\code{R_MATRIX_INLINE},\r\n      typically with \\code{#define R_MATRIX_INLINE inline},\r\n      to allow the compiler to inline stubs for registered routines.\r\n```\r\n\r\nSo, indeed, 1.6-2 breaks a long run of **Matrix** releases without ABI changes.  But that does _not_ imply that **TMB** should continue to warn about version mismatch by default.\r\n\r\nWhen we release new versions of **Matrix**, it is _our_ responsibility to notify the CRAN team about ABI changes and to ask for rev. dep. binaries to be rebuilt.  And we will do that when we submit 1.6-2.\r\n\r\nBut rebuilds do not affect package versions: currently, users must \"know\" to use `install.packages` and not `update.packages`.  That is not a reasonable expectation, so it _also_ our responsibility to test for breakage attributable to the ABI (by installing rev. dep. under **Matrix**-release and checking them under **Matrix**-devel) and to ask \"broken\" packages to submit an update coinciding with the next **Matrix** release.\r\n\r\nThe updates serve only to ensure that `update.packages` installs compatible builds, so they should be minimal, typically only changing the `Date` and `Version` fields in `DESCRIPTION` and ideally also changing to `LinkingTo: Matrix (>= x.y-z)`, if x.y-z is the new version.  Such updates do _not_ require extensive rev. dep. checking.\r\n\r\nThis whole situation should be considered exceptional, happening only if we update SuiteSparse or discover bugs.  For as long as I am/have been a co-author, we do not change the ABI without determining and consulting affected rev. dep. maintainers.  (And had I not seen this thread I'd have notified you about the 1.6-2 changes.  Well, you might still receive an e-mail.)\r\n\r\nI am really not convinced that **TMB** and others should continue defending against problems that arise only exceptionally and which should be handled as much as possible by the maintainers introducing ABI changes (by asking CRAN for rebuilds, rev. dep. maintainers for version bumps) and as little as possible by end users.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1766928993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-17T18:16:02Z"
+    },
+    {
+        "id": "32545766658",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-13T14:37:27Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1761630071",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1761630071",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1761630071,
+                "node_id": "IC_kwDOAMI7Ds5pAFd3",
+                "user": {
+                    "login": "kaskr",
+                    "id": 5426937,
+                    "node_id": "MDQ6VXNlcjU0MjY5Mzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5426937?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kaskr",
+                    "html_url": "https://github.com/kaskr",
+                    "followers_url": "https://api.github.com/users/kaskr/followers",
+                    "following_url": "https://api.github.com/users/kaskr/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kaskr/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kaskr/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kaskr/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kaskr/orgs",
+                    "repos_url": "https://api.github.com/users/kaskr/repos",
+                    "events_url": "https://api.github.com/users/kaskr/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kaskr/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-13T14:37:26Z",
+                "updated_at": "2023-10-13T14:37:26Z",
+                "author_association": "OWNER",
+                "body": "There's no API change. That is demonstrated by the fact that I can recompile TMB and make things work again.\r\n\r\nIn case of the Matrix package, the 'API' contains a number of macros e.g. `AS_CHM_SP  (x) := as_cholmod_sparse(...)`.\r\nIt seems the new Matrix package no longer has `as_cholmod_factor`. Perhaps it has been renamed... In any case, the API `AS_CHM_SP(x)` hasn't changed. However, the *binaries* 'TMB.so' compiled with old Matrix is not compatible with new 'Matrix.so'.\r\nThis analysis might not be entirely accurate, but the important point is that a binary incompatibility can arise without there being an API change.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1761630071/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T14:37:27Z"
+    },
+    {
+        "id": "32544663156",
+        "type": "CommitCommentEvent",
+        "actor": {
+            "id": 78918,
+            "login": "bbolker",
+            "display_login": "bbolker",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bbolker",
+            "avatar_url": "https://avatars.githubusercontent.com/u/78918?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/comments/129916931",
+                "html_url": "https://github.com/kaskr/adcomp/commit/05c2ddc97e6e33e395927d0c2856f691d43c9d0b#commitcomment-129916931",
+                "id": 129916931,
+                "node_id": "CC_kwDOAMI7Ds4HvmAD",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "position": null,
+                "line": null,
+                "path": null,
+                "commit_id": "05c2ddc97e6e33e395927d0c2856f691d43c9d0b",
+                "created_at": "2023-10-13T13:58:36Z",
+                "updated_at": "2023-10-13T13:58:36Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "By the way, `getOption` allows you to specify a default value: `getOption(\"TMB.check.Matrix\", TRUE)` might be nicer",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/comments/129916931/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                }
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T13:58:36Z"
+    },
+    {
+        "id": "32544589458",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 78918,
+            "login": "bbolker",
+            "display_login": "bbolker",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bbolker",
+            "avatar_url": "https://avatars.githubusercontent.com/u/78918?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-13T13:56:00Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1761565109",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1761565109",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1761565109,
+                "node_id": "IC_kwDOAMI7Ds5o_1m1",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-13T13:56:00Z",
+                "updated_at": "2023-10-13T13:56:00Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Thanks. It would still be nice to know **why** it fails, as I don't  ...  although at least this nice reproducible example will make it a little easier to investigate?  (There's nothing obvious in the Matrix [devel-version NEWS file](https://r-forge.r-project.org/scm/viewvc.php/pkg/Matrix/inst/NEWS.Rd?revision=4450&root=matrix) that indicates API breakage ...)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1761565109/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T13:56:01Z"
+    },
+    {
+        "id": "32542526148",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15408118005,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "05c2ddc97e6e33e395927d0c2856f691d43c9d0b",
+            "before": "8181d4bf5a778e8c0dc2074f9093ed9f7420d023",
+            "commits": [
+                {
+                    "sha": "05c2ddc97e6e33e395927d0c2856f691d43c9d0b",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Kasper Kristensen"
+                    },
+                    "message": "Add option to disable Matrix version check (but keep enabled by default) #387\n- options(\"TMB.check.Matrix\"=FALSE)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/05c2ddc97e6e33e395927d0c2856f691d43c9d0b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-13T12:41:14Z"
+    },
+    {
+        "id": "32540575616",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-13T11:20:02Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1761348219",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1761348219",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1761348219,
+                "node_id": "IC_kwDOAMI7Ds5o_Ap7",
+                "user": {
+                    "login": "kaskr",
+                    "id": 5426937,
+                    "node_id": "MDQ6VXNlcjU0MjY5Mzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5426937?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kaskr",
+                    "html_url": "https://github.com/kaskr",
+                    "followers_url": "https://api.github.com/users/kaskr/followers",
+                    "following_url": "https://api.github.com/users/kaskr/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kaskr/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kaskr/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kaskr/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kaskr/orgs",
+                    "repos_url": "https://api.github.com/users/kaskr/repos",
+                    "events_url": "https://api.github.com/users/kaskr/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kaskr/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-13T11:20:01Z",
+                "updated_at": "2023-10-13T11:20:01Z",
+                "author_association": "OWNER",
+                "body": "@bbolker I was wrong - we really need to keep the version test. Here's an example:\r\n\r\nI start out with consistent build from source of the 3 packages:\r\n\r\n```r\r\ninstall.packages(c(\"Matrix\",\"TMB\",\"glmmTMB\"))\r\n## trying URL 'https://cloud.r-project.org/src/contrib/Matrix_1.6-1.1.tar.gz'\r\n## trying URL 'https://cloud.r-project.org/src/contrib/TMB_1.9.6.tar.gz'\r\n## trying URL 'https://cloud.r-project.org/src/contrib/glmmTMB_1.1.8.tar.gz'\r\n```\r\n\r\nI can run `example(glmmTMB)` without problems. But then I upgrade Matrix to the current development version (presumably next release):\r\n\r\n```\r\ninstall.packages(\"Matrix\", repos=\"http://R-Forge.R-project.org\")\r\n## trying URL 'http://R-Forge.R-project.org/src/contrib/Matrix_1.6-2.tar.gz'\r\n```\r\n\r\nNow TMB is broken:\r\n\r\n```r\r\n> library(glmmTMB)\r\nWarning message:\r\nIn checkMatrixPackageVersion() : Package version inconsistency detected.\r\nTMB was built with Matrix version 1.6.1.1\r\nCurrent Matrix version is 1.6.2\r\nPlease re-install 'TMB' from source using install.packages('TMB', type = 'source') or ask CRAN for a binary version of 'TMB' matching CRAN's 'Matrix' package\r\n> example(glmmTMB)\r\n\r\nglmTMB> ## No test: \r\nglmTMB> (m1 <- glmmTMB(count ~ mined + (1|site),\r\nglmTMB+   zi=~mined,\r\nglmTMB+   family=poisson, data=Salamanders))\r\nError in fitTMB(TMBStruc) : \r\n  negative log-likelihood is NaN at starting parameter values\r\n```\r\n\r\nI follow the advice of the warning:\r\n\r\n```r\r\ninstall.packages('TMB', type = 'source')\r\n```\r\n\r\nand it fixes the problem!\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1761348219/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T11:20:02Z"
+    },
+    {
+        "id": "32520125877",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15396763974,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "8181d4bf5a778e8c0dc2074f9093ed9f7420d023",
+            "before": "09de3e740ae92f404f7f89c92a9ef883b1ab7a29",
+            "commits": [
+                {
+                    "sha": "8181d4bf5a778e8c0dc2074f9093ed9f7420d023",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Kasper Kristensen"
+                    },
+                    "message": "Matrix version check disable by default #387\n- Use options(\"TMB.check.Matrix\"=TRUE) to re-enable",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/8181d4bf5a778e8c0dc2074f9093ed9f7420d023"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-12T16:35:31Z"
+    },
+    {
+        "id": "32463728614",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-10T21:57:36Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1756324957",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387#issuecomment-1756324957",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "id": 1756324957,
+                "node_id": "IC_kwDOAMI7Ds5or2Rd",
+                "user": {
+                    "login": "kaskr",
+                    "id": 5426937,
+                    "node_id": "MDQ6VXNlcjU0MjY5Mzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5426937?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kaskr",
+                    "html_url": "https://github.com/kaskr",
+                    "followers_url": "https://api.github.com/users/kaskr/followers",
+                    "following_url": "https://api.github.com/users/kaskr/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kaskr/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kaskr/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kaskr/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kaskr/orgs",
+                    "repos_url": "https://api.github.com/users/kaskr/repos",
+                    "events_url": "https://api.github.com/users/kaskr/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kaskr/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-10T21:57:35Z",
+                "updated_at": "2023-10-10T21:57:35Z",
+                "author_association": "OWNER",
+                "body": "I don't remember the exact details, but the motivation for making the Matrix package version test was definitely a binary incompatibility issue (perhaps in `CHM_FR` or `AS_CHM_FR`). What I do remember is, that the problem could be triggered by installing TMB using one Matrix version and then switching to another Matrix version. After that, everything would fail, even `TMB::runExample(\"simple\")`.\r\n\r\nGood news is that the problem is hard to reproduce today. If I install TMB using `Matrix 1.6-1`, I can switch to any other Matrix version without breaking TMB! (I tested down to `Matrix 1.2-3` from 2015-11-19, the earliest I can install).\r\n\r\nBased on this, I think the version test isn't justified anymore and can be omitted by default.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1756324957/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-10T21:57:36Z"
+    },
+    {
+        "id": "32446195632",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1755487,
+            "login": "yonicd",
+            "display_login": "yonicd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yonicd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1755487?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-10T11:11:07Z"
+    },
+    {
+        "id": "32433637504",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 78918,
+            "login": "bbolker",
+            "display_login": "bbolker",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bbolker",
+            "avatar_url": "https://avatars.githubusercontent.com/u/78918?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/387",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/387",
+                "id": 1934092473,
+                "node_id": "I_kwDOAMI7Ds5zR-i5",
+                "number": 387,
+                "title": "more detailed explanation of Matrix/TMB compatibility requirements?",
+                "user": {
+                    "login": "bbolker",
+                    "id": 78918,
+                    "node_id": "MDQ6VXNlcjc4OTE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78918?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bbolker",
+                    "html_url": "https://github.com/bbolker",
+                    "followers_url": "https://api.github.com/users/bbolker/followers",
+                    "following_url": "https://api.github.com/users/bbolker/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bbolker/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bbolker/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bbolker/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bbolker/orgs",
+                    "repos_url": "https://api.github.com/users/bbolker/repos",
+                    "events_url": "https://api.github.com/users/bbolker/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bbolker/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-10T01:04:40Z",
+                "updated_at": "2023-10-10T01:04:40Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI'm well aware of the need for Matrix/TMB compatibility, as added in [this commit](https://github.com/kaskr/adcomp/commit/d076d456c1c72ed800ed3fa474623b679764d06a).\r\n\r\nThis is a continuing source of friction in packages/stacks that use TMB (e.g. [wham](https://github.com/timjmiller/wham/issues/33), [macpan2](https://github.com/canmod/macpan2/issues/123), [glmmTMB](https://github.com/glmmTMB/glmmTMB/issues/886). It's very easy to make the warning go away *if* you have development tools installed and you know what to do, but despite our attempts to document this in glmmTMB (e.g. [here](https://github.com/glmmTMB/glmmTMB/issues/886#issuecomment-1461074619), [here](https://glmmtmb.github.io/glmmTMB/#glmmtmbtmbmatrix-mismatches)), it continues to be a source of concern and confusion for end-users. When this comes up on the r-devel list, we've tried to suggest that there be a way to ask CRAN to re-build binary packages when a new version of a lower-level package (Matrix > TMB > glmmTMB) is posted, but we haven't had much response. The other alternative is to make sure that we bump the versions ourselves and re-post to CRAN as necessary, but so far this also seems to be a source of friction (i.e. in order to do this we have to at least make sure that we are up to date on all CRAN checks, run tests on `r-hub` etc., check downstream packages for breakage ...)\r\n\r\nWe could try to reduce developer friction, e.g. by  making  it easier for ourselves to push new `glmmTMB` versions (e.g. we could maintain a tag/branch with the HEAD equal to the last CRAN submission, or even keep the last-submitted tarball around, so that we could resubmit it without doing any more checks).\r\n\r\nHowever, it would be really useful to me at least to understand the **exact** reason why this incompatibility arises, to be able to do a better job explaining and resolving the issue ...\r\n\r\nIf this is more suited for the `glmmTMB` issues list, or the TMB mailing list, please let me know.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/387/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/387/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-10T01:04:41Z"
+    },
+    {
+        "id": "32380400898",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 28061575,
+            "login": "jaganmn",
+            "display_login": "jaganmn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaganmn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28061575?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/379",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/379",
+                "id": 1664015921,
+                "node_id": "I_kwDOAMI7Ds5jLt4x",
+                "number": 379,
+                "title": "Misuse of `M_chm_sparse_to_SEXP` by `tmb_invQ_tril_halfdiag`",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-04-12T07:36:57Z",
+                "updated_at": "2023-10-06T19:41:36Z",
+                "closed_at": "2023-10-06T19:41:36Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Forthcoming improvements to subscript methods in **Matrix** have uncovered that you are misusing `M_chm_sparse_to_SEXP` in `tmb_invQ_tril_halfdiag`:\r\n\r\nhttps://github.com/kaskr/adcomp/blob/bb2e1432638a8af60aee9b6f1868cc38cb5731dc/TMB/src/solve_subset.c#L318\r\n\r\nHere, the fifth argument is used to set the `diag` slot of the resulting `dtCMatrix` and so must be `\"N\"` (non-unit triangular) or `\"U\"` (unit triangular) but never `\"\"`.  Please correct, then test your patch against Matrix-devel:\r\n\r\n```\r\n$ svn checkout svn://svn.r-forge.r-project.org/svnroot/matrix/pkg/Matrix\r\n$ R CMD build Matrix\r\n$ R CMD INSTALL Matrix_1.5-5.tar.gz\r\n```\r\n\r\nTrouble with the invalid `ihessian` (having `diag = \"\"`) seems to start inside of this `lookup` call and result in a gradient with `NA` in the \"simple\" example (and for several packages depending on **TMB**):\r\n\r\nhttps://github.com/kaskr/adcomp/blob/bb2e1432638a8af60aee9b6f1868cc38cb5731dc/TMB/R/TMB.R#L767",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/379/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-06T19:41:37Z"
+    },
+    {
+        "id": "32229017608",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "repository_id": 12729102,
+            "push_id": 15247180463,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "09de3e740ae92f404f7f89c92a9ef883b1ab7a29",
+            "before": "5de4200fd8ca0c74dfb297e228c31dd6ce1e8cc2",
+            "commits": [
+                {
+                    "sha": "09de3e740ae92f404f7f89c92a9ef883b1ab7a29",
+                    "author": {
+                        "email": "kaskr@dtu.dk",
+                        "name": "Kasper Kristensen"
+                    },
+                    "message": "Fix misuse of M_chm_sparse_to_SEXP #379",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kaskr/adcomp/commits/09de3e740ae92f404f7f89c92a9ef883b1ab7a29"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-01T13:02:56Z"
+    },
+    {
+        "id": "32212826962",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 28061575,
+            "login": "jaganmn",
+            "display_login": "jaganmn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jaganmn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28061575?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/379",
+                "repository_url": "https://api.github.com/repos/kaskr/adcomp",
+                "labels_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/comments",
+                "events_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/events",
+                "html_url": "https://github.com/kaskr/adcomp/issues/379",
+                "id": 1664015921,
+                "node_id": "I_kwDOAMI7Ds5jLt4x",
+                "number": 379,
+                "title": "Misuse of `M_chm_sparse_to_SEXP` by `tmb_invQ_tril_halfdiag`",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-04-12T07:36:57Z",
+                "updated_at": "2023-09-29T21:56:34Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Forthcoming improvements to subscript methods in **Matrix** have uncovered that you are misusing `M_chm_sparse_to_SEXP` in `tmb_invQ_tril_halfdiag`:\r\n\r\nhttps://github.com/kaskr/adcomp/blob/bb2e1432638a8af60aee9b6f1868cc38cb5731dc/TMB/src/solve_subset.c#L318\r\n\r\nHere, the fifth argument is used to set the `diag` slot of the resulting `dtCMatrix` and so must be `\"N\"` (non-unit triangular) or `\"U\"` (unit triangular) but never `\"\"`.  Please correct, then test your patch against Matrix-devel:\r\n\r\n```\r\n$ svn checkout svn://svn.r-forge.r-project.org/svnroot/matrix/pkg/Matrix\r\n$ R CMD build Matrix\r\n$ R CMD INSTALL Matrix_1.5-5.tar.gz\r\n```\r\n\r\nTrouble with the invalid `ihessian` (having `diag = \"\"`) seems to start inside of this `lookup` call and result in a gradient with `NA` in the \"simple\" example (and for several packages depending on **TMB**):\r\n\r\nhttps://github.com/kaskr/adcomp/blob/bb2e1432638a8af60aee9b6f1868cc38cb5731dc/TMB/R/TMB.R#L767",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/379/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kaskr/adcomp/issues/379/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1741528994",
+                "html_url": "https://github.com/kaskr/adcomp/issues/379#issuecomment-1741528994",
+                "issue_url": "https://api.github.com/repos/kaskr/adcomp/issues/379",
+                "id": 1741528994,
+                "node_id": "IC_kwDOAMI7Ds5nzZ-i",
+                "user": {
+                    "login": "jaganmn",
+                    "id": 28061575,
+                    "node_id": "MDQ6VXNlcjI4MDYxNTc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28061575?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaganmn",
+                    "html_url": "https://github.com/jaganmn",
+                    "followers_url": "https://api.github.com/users/jaganmn/followers",
+                    "following_url": "https://api.github.com/users/jaganmn/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaganmn/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaganmn/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaganmn/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaganmn/orgs",
+                    "repos_url": "https://api.github.com/users/jaganmn/repos",
+                    "events_url": "https://api.github.com/users/jaganmn/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaganmn/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-09-29T21:56:34Z",
+                "updated_at": "2023-09-29T21:56:34Z",
+                "author_association": "NONE",
+                "body": "Somehow, I didn't notice that the bug appears twice, i.e., also here:\r\n\r\nhttps://github.com/kaskr/adcomp/blob/5de4200fd8ca0c74dfb297e228c31dd6ce1e8cc2/TMB/src/solve_subset.c#L297",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kaskr/adcomp/issues/comments/1741528994/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-29T21:56:34Z"
+    },
+    {
+        "id": "32131620663",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 10041819,
+            "login": "talegari",
+            "display_login": "talegari",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/talegari",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10041819?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-27T05:48:20Z"
+    },
+    {
+        "id": "31827989012",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 5426937,
+            "login": "kaskr",
+            "display_login": "kaskr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaskr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5426937?"
+        },
+        "repo": {
+            "id": 12729102,
+            "name": "kaskr/adcomp",
+            "url": "https://api.github.com/repos/kaskr/adcomp"
+        },
+        "payload": {
+            "ref": "ldl_broken",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "AD computation with Template Model Builder (TMB)",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-09-14T08:46:52Z"
+    }
+]

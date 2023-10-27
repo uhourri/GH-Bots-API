@@ -1,0 +1,2977 @@
+[
+    {
+        "id": "32896741007",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5310238,
+            "login": "delanym",
+            "display_login": "delanym",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/delanym",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5310238?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/3515",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/3515",
+                "id": 1965069409,
+                "node_id": "I_kwDOAbwRH851IJRh",
+                "number": 3515,
+                "title": "Introduce `ConsoleLauncher` option to fail if no tests are run",
+                "user": {
+                    "login": "delanym",
+                    "id": 5310238,
+                    "node_id": "MDQ6VXNlcjUzMTAyMzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5310238?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/delanym",
+                    "html_url": "https://github.com/delanym",
+                    "followers_url": "https://api.github.com/users/delanym/followers",
+                    "following_url": "https://api.github.com/users/delanym/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/delanym/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/delanym/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/delanym/subscriptions",
+                    "organizations_url": "https://api.github.com/users/delanym/orgs",
+                    "repos_url": "https://api.github.com/users/delanym/repos",
+                    "events_url": "https://api.github.com/users/delanym/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/delanym/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 420912036,
+                        "node_id": "MDU6TGFiZWw0MjA5MTIwMzY=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Platform",
+                        "name": "component: Platform",
+                        "color": "11dd99",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 650399673,
+                        "node_id": "MDU6TGFiZWw2NTAzOTk2NzM=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/status:%20waiting-for-feedback",
+                        "name": "status: waiting-for-feedback",
+                        "color": "d93f0b",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 1041356926,
+                        "node_id": "MDU6TGFiZWwxMDQxMzU2OTI2",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/type:%20new%20feature",
+                        "name": "type: new feature",
+                        "color": "85d31f",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-27T08:53:46Z",
+                "updated_at": "2023-10-27T11:12:58Z",
+                "closed_at": "2023-10-27T11:12:57Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "As discussed https://github.com/sormuras/junit-platform-maven-plugin/issues/111\r\n\r\nThe `ConsoleLauncher` has an option to `--fail-if-no-tests`. But if there ARE tests and they're just `@Disabled` then I would expect this option to have no effect.\r\n\r\nFor cases where one wants a failure when no tests are run, I propose to include another switch `--fail-if-no-tests-run`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/3515/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:12:58Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32896740886",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5310238,
+            "login": "delanym",
+            "display_login": "delanym",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/delanym",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5310238?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/3515",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/3515",
+                "id": 1965069409,
+                "node_id": "I_kwDOAbwRH851IJRh",
+                "number": 3515,
+                "title": "Introduce `ConsoleLauncher` option to fail if no tests are run",
+                "user": {
+                    "login": "delanym",
+                    "id": 5310238,
+                    "node_id": "MDQ6VXNlcjUzMTAyMzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5310238?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/delanym",
+                    "html_url": "https://github.com/delanym",
+                    "followers_url": "https://api.github.com/users/delanym/followers",
+                    "following_url": "https://api.github.com/users/delanym/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/delanym/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/delanym/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/delanym/subscriptions",
+                    "organizations_url": "https://api.github.com/users/delanym/orgs",
+                    "repos_url": "https://api.github.com/users/delanym/repos",
+                    "events_url": "https://api.github.com/users/delanym/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/delanym/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 420912036,
+                        "node_id": "MDU6TGFiZWw0MjA5MTIwMzY=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Platform",
+                        "name": "component: Platform",
+                        "color": "11dd99",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 650399673,
+                        "node_id": "MDU6TGFiZWw2NTAzOTk2NzM=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/status:%20waiting-for-feedback",
+                        "name": "status: waiting-for-feedback",
+                        "color": "d93f0b",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 1041356926,
+                        "node_id": "MDU6TGFiZWwxMDQxMzU2OTI2",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/type:%20new%20feature",
+                        "name": "type: new feature",
+                        "color": "85d31f",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-27T08:53:46Z",
+                "updated_at": "2023-10-27T11:12:58Z",
+                "closed_at": "2023-10-27T11:12:57Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "As discussed https://github.com/sormuras/junit-platform-maven-plugin/issues/111\r\n\r\nThe `ConsoleLauncher` has an option to `--fail-if-no-tests`. But if there ARE tests and they're just `@Disabled` then I would expect this option to have no effect.\r\n\r\nFor cases where one wants a failure when no tests are run, I propose to include another switch `--fail-if-no-tests-run`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/3515/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782732744",
+                "html_url": "https://github.com/junit-team/junit5/issues/3515#issuecomment-1782732744",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/3515",
+                "id": 1782732744,
+                "node_id": "IC_kwDOAbwRH85qQlfI",
+                "user": {
+                    "login": "delanym",
+                    "id": 5310238,
+                    "node_id": "MDQ6VXNlcjUzMTAyMzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5310238?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/delanym",
+                    "html_url": "https://github.com/delanym",
+                    "followers_url": "https://api.github.com/users/delanym/followers",
+                    "following_url": "https://api.github.com/users/delanym/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/delanym/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/delanym/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/delanym/subscriptions",
+                    "organizations_url": "https://api.github.com/users/delanym/orgs",
+                    "repos_url": "https://api.github.com/users/delanym/repos",
+                    "events_url": "https://api.github.com/users/delanym/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/delanym/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T11:12:57Z",
+                "updated_at": "2023-10-27T11:12:57Z",
+                "author_association": "NONE",
+                "body": "My mistake. I probably got confused with parallel build output",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782732744/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:12:58Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32895947513",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/3030",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/3030",
+                "id": 1368831057,
+                "node_id": "I_kwDOAbwRH85RlrRR",
+                "number": 3030,
+                "title": "Assumptions should support most/all features of Assertions",
+                "user": {
+                    "login": "voomdoon",
+                    "id": 9573863,
+                    "node_id": "MDQ6VXNlcjk1NzM4NjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9573863?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/voomdoon",
+                    "html_url": "https://github.com/voomdoon",
+                    "followers_url": "https://api.github.com/users/voomdoon/followers",
+                    "following_url": "https://api.github.com/users/voomdoon/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/voomdoon/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/voomdoon/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/voomdoon/subscriptions",
+                    "organizations_url": "https://api.github.com/users/voomdoon/orgs",
+                    "repos_url": "https://api.github.com/users/voomdoon/repos",
+                    "events_url": "https://api.github.com/users/voomdoon/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/voomdoon/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 165165180,
+                        "node_id": "MDU6TGFiZWwxNjUxNjUxODA=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/type:%20enhancement",
+                        "name": "type: enhancement",
+                        "color": "84b6eb",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 420911923,
+                        "node_id": "MDU6TGFiZWw0MjA5MTE5MjM=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Jupiter",
+                        "name": "component: Jupiter",
+                        "color": "11ee99",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 3071833340,
+                        "node_id": "MDU6TGFiZWwzMDcxODMzMzQw",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/status:%20new",
+                        "name": "status: new",
+                        "color": "0e8a16",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-09-11T04:57:47Z",
+                "updated_at": "2023-10-27T10:39:58Z",
+                "closed_at": "2023-10-27T10:39:58Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I am trying to use something like\r\n```\r\nAssumptions.assumeThrows(Exception.class, () -> program.run());\r\n```\r\nto ignore the test if no exception was thrown.\r\nThe test should e.g. check whether cleanup/rollback is done correctly on error.\r\n\r\nBut `assumeThrows` does not exist.\r\n\r\nThe idea behind is: There is a separate test with\r\n```\r\nAssertions.assertThrows(Exception.class, () -> program.run());\r\n```\r\nthat will fail if the method does not throw an exception.\r\n\r\nIf the method does not throw an exception, there should be one failing test only pointing to the problem.\r\n\r\n-----\r\n\r\nThe idea of this feature request is to add all features of Assertions also at Assumptions.\r\nA think this could be easily doable if we would generate the code using Assertions as source and replace all assertions by assumptions?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/3030/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:39:59Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32895947436",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/3030",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/3030",
+                "id": 1368831057,
+                "node_id": "I_kwDOAbwRH85RlrRR",
+                "number": 3030,
+                "title": "Assumptions should support most/all features of Assertions",
+                "user": {
+                    "login": "voomdoon",
+                    "id": 9573863,
+                    "node_id": "MDQ6VXNlcjk1NzM4NjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9573863?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/voomdoon",
+                    "html_url": "https://github.com/voomdoon",
+                    "followers_url": "https://api.github.com/users/voomdoon/followers",
+                    "following_url": "https://api.github.com/users/voomdoon/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/voomdoon/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/voomdoon/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/voomdoon/subscriptions",
+                    "organizations_url": "https://api.github.com/users/voomdoon/orgs",
+                    "repos_url": "https://api.github.com/users/voomdoon/repos",
+                    "events_url": "https://api.github.com/users/voomdoon/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/voomdoon/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 165165180,
+                        "node_id": "MDU6TGFiZWwxNjUxNjUxODA=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/type:%20enhancement",
+                        "name": "type: enhancement",
+                        "color": "84b6eb",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 420911923,
+                        "node_id": "MDU6TGFiZWw0MjA5MTE5MjM=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Jupiter",
+                        "name": "component: Jupiter",
+                        "color": "11ee99",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 3071833340,
+                        "node_id": "MDU6TGFiZWwzMDcxODMzMzQw",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/status:%20new",
+                        "name": "status: new",
+                        "color": "0e8a16",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-09-11T04:57:47Z",
+                "updated_at": "2023-10-27T10:39:58Z",
+                "closed_at": "2023-10-27T10:39:58Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I am trying to use something like\r\n```\r\nAssumptions.assumeThrows(Exception.class, () -> program.run());\r\n```\r\nto ignore the test if no exception was thrown.\r\nThe test should e.g. check whether cleanup/rollback is done correctly on error.\r\n\r\nBut `assumeThrows` does not exist.\r\n\r\nThe idea behind is: There is a separate test with\r\n```\r\nAssertions.assertThrows(Exception.class, () -> program.run());\r\n```\r\nthat will fail if the method does not throw an exception.\r\n\r\nIf the method does not throw an exception, there should be one failing test only pointing to the problem.\r\n\r\n-----\r\n\r\nThe idea of this feature request is to add all features of Assertions also at Assumptions.\r\nA think this could be easily doable if we would generate the code using Assertions as source and replace all assertions by assumptions?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/3030/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782692328",
+                "html_url": "https://github.com/junit-team/junit5/issues/3030#issuecomment-1782692328",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/3030",
+                "id": 1782692328,
+                "node_id": "IC_kwDOAbwRH85qQbno",
+                "user": {
+                    "login": "marcphilipp",
+                    "id": 214207,
+                    "node_id": "MDQ6VXNlcjIxNDIwNw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/214207?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marcphilipp",
+                    "html_url": "https://github.com/marcphilipp",
+                    "followers_url": "https://api.github.com/users/marcphilipp/followers",
+                    "following_url": "https://api.github.com/users/marcphilipp/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marcphilipp/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marcphilipp/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marcphilipp/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marcphilipp/orgs",
+                    "repos_url": "https://api.github.com/users/marcphilipp/repos",
+                    "events_url": "https://api.github.com/users/marcphilipp/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marcphilipp/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T10:39:58Z",
+                "updated_at": "2023-10-27T10:39:58Z",
+                "author_association": "MEMBER",
+                "body": "**Team decision:** `Assumptions` is intentionally simpler than `Assertions` and even only contains a subset of the assumptions that were available in JUnit 4. In light of that we don't have any plans to extend the `Assumptions` API.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782692328/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:39:59Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32895667999",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/3515",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/3515",
+                "id": 1965069409,
+                "node_id": "I_kwDOAbwRH851IJRh",
+                "number": 3515,
+                "title": "Introduce `ConsoleLauncher` option to fail if no tests are run",
+                "user": {
+                    "login": "delanym",
+                    "id": 5310238,
+                    "node_id": "MDQ6VXNlcjUzMTAyMzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5310238?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/delanym",
+                    "html_url": "https://github.com/delanym",
+                    "followers_url": "https://api.github.com/users/delanym/followers",
+                    "following_url": "https://api.github.com/users/delanym/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/delanym/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/delanym/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/delanym/subscriptions",
+                    "organizations_url": "https://api.github.com/users/delanym/orgs",
+                    "repos_url": "https://api.github.com/users/delanym/repos",
+                    "events_url": "https://api.github.com/users/delanym/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/delanym/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 420912036,
+                        "node_id": "MDU6TGFiZWw0MjA5MTIwMzY=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Platform",
+                        "name": "component: Platform",
+                        "color": "11dd99",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 1041356926,
+                        "node_id": "MDU6TGFiZWwxMDQxMzU2OTI2",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/type:%20new%20feature",
+                        "name": "type: new feature",
+                        "color": "85d31f",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 3071833340,
+                        "node_id": "MDU6TGFiZWwzMDcxODMzMzQw",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/status:%20new",
+                        "name": "status: new",
+                        "color": "0e8a16",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-27T08:53:46Z",
+                "updated_at": "2023-10-27T10:28:26Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "As discussed https://github.com/sormuras/junit-platform-maven-plugin/issues/111\r\n\r\nThe `ConsoleLauncher` has an option to `--fail-if-no-tests`. But if there ARE tests and they're just `@Disabled` then I would expect this option to have no effect.\r\n\r\nFor cases where one wants a failure when no tests are run, I propose to include another switch `--fail-if-no-tests-run`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/3515/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782677589",
+                "html_url": "https://github.com/junit-team/junit5/issues/3515#issuecomment-1782677589",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/3515",
+                "id": 1782677589,
+                "node_id": "IC_kwDOAbwRH85qQYBV",
+                "user": {
+                    "login": "marcphilipp",
+                    "id": 214207,
+                    "node_id": "MDQ6VXNlcjIxNDIwNw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/214207?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marcphilipp",
+                    "html_url": "https://github.com/marcphilipp",
+                    "followers_url": "https://api.github.com/users/marcphilipp/followers",
+                    "following_url": "https://api.github.com/users/marcphilipp/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marcphilipp/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marcphilipp/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marcphilipp/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marcphilipp/orgs",
+                    "repos_url": "https://api.github.com/users/marcphilipp/repos",
+                    "events_url": "https://api.github.com/users/marcphilipp/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marcphilipp/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T10:28:26Z",
+                "updated_at": "2023-10-27T10:28:26Z",
+                "author_association": "MEMBER",
+                "body": "@delanym This already seems to work in the way you want for `@Disabled` test classes with at least one `@Test` method. Could you please post an example test class where it doesn't?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782677589/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:28:26Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32893153296",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5310238,
+            "login": "delanym",
+            "display_login": "delanym",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/delanym",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5310238?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/3515",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/3515",
+                "id": 1965069409,
+                "node_id": "I_kwDOAbwRH851IJRh",
+                "number": 3515,
+                "title": "ConsoleLauncher fail if no tests run",
+                "user": {
+                    "login": "delanym",
+                    "id": 5310238,
+                    "node_id": "MDQ6VXNlcjUzMTAyMzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5310238?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/delanym",
+                    "html_url": "https://github.com/delanym",
+                    "followers_url": "https://api.github.com/users/delanym/followers",
+                    "following_url": "https://api.github.com/users/delanym/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/delanym/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/delanym/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/delanym/subscriptions",
+                    "organizations_url": "https://api.github.com/users/delanym/orgs",
+                    "repos_url": "https://api.github.com/users/delanym/repos",
+                    "events_url": "https://api.github.com/users/delanym/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/delanym/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T08:53:46Z",
+                "updated_at": "2023-10-27T08:53:46Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "As discussed https://github.com/sormuras/junit-platform-maven-plugin/issues/111\r\n\r\nThe `ConsoleLauncher` has an option to `--fail-if-no-tests`. But if there ARE tests and they're just `@Disabled` then I would expect this option to have no effect.\r\n\r\nFor cases where one wants a failure when no tests are run, I propose to include another switch `--fail-if-no-tests-run`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/3515/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/3515/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:53:47Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32890243795",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 10473142,
+            "login": "hashhar",
+            "display_login": "hashhar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hashhar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10473142?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/1511",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/1511/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/1511/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/1511/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/1511",
+                "id": 345326764,
+                "node_id": "MDU6SXNzdWUzNDUzMjY3NjQ=",
+                "number": 1511,
+                "title": "Parallel execution and @TestInstance(PER_CLASS) result in concurrency issues for instance fields mutated in test and lifecycle methods",
+                "user": {
+                    "login": "dlanaghen",
+                    "id": 627949,
+                    "node_id": "MDQ6VXNlcjYyNzk0OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/627949?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dlanaghen",
+                    "html_url": "https://github.com/dlanaghen",
+                    "followers_url": "https://api.github.com/users/dlanaghen/followers",
+                    "following_url": "https://api.github.com/users/dlanaghen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dlanaghen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dlanaghen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dlanaghen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dlanaghen/orgs",
+                    "repos_url": "https://api.github.com/users/dlanaghen/repos",
+                    "events_url": "https://api.github.com/users/dlanaghen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dlanaghen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 165165178,
+                        "node_id": "MDU6TGFiZWwxNjUxNjUxNzg=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "fc2929",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 293473932,
+                        "node_id": "MDU6TGFiZWwyOTM0NzM5MzI=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/theme:%20programming%20model",
+                        "name": "theme: programming model",
+                        "color": "c7def8",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 293488747,
+                        "node_id": "MDU6TGFiZWwyOTM0ODg3NDc=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/theme:%20execution",
+                        "name": "theme: execution",
+                        "color": "fbca04",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 318079877,
+                        "node_id": "MDU6TGFiZWwzMTgwNzk4Nzc=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/theme:%20concurrency",
+                        "name": "theme: concurrency",
+                        "color": "eeccff",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 420911923,
+                        "node_id": "MDU6TGFiZWw0MjA5MTE5MjM=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Jupiter",
+                        "name": "component: Jupiter",
+                        "color": "11ee99",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "marcphilipp",
+                    "id": 214207,
+                    "node_id": "MDQ6VXNlcjIxNDIwNw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/214207?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marcphilipp",
+                    "html_url": "https://github.com/marcphilipp",
+                    "followers_url": "https://api.github.com/users/marcphilipp/followers",
+                    "following_url": "https://api.github.com/users/marcphilipp/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marcphilipp/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marcphilipp/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marcphilipp/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marcphilipp/orgs",
+                    "repos_url": "https://api.github.com/users/marcphilipp/repos",
+                    "events_url": "https://api.github.com/users/marcphilipp/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marcphilipp/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "marcphilipp",
+                        "id": 214207,
+                        "node_id": "MDQ6VXNlcjIxNDIwNw==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/214207?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marcphilipp",
+                        "html_url": "https://github.com/marcphilipp",
+                        "followers_url": "https://api.github.com/users/marcphilipp/followers",
+                        "following_url": "https://api.github.com/users/marcphilipp/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marcphilipp/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marcphilipp/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marcphilipp/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marcphilipp/orgs",
+                        "repos_url": "https://api.github.com/users/marcphilipp/repos",
+                        "events_url": "https://api.github.com/users/marcphilipp/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marcphilipp/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/milestones/27",
+                    "html_url": "https://github.com/junit-team/junit5/milestone/27",
+                    "labels_url": "https://api.github.com/repos/junit-team/junit5/milestones/27/labels",
+                    "id": 3427464,
+                    "node_id": "MDk6TWlsZXN0b25lMzQyNzQ2NA==",
+                    "number": 27,
+                    "title": "5.3 RC1",
+                    "description": "*Scope:* Finishing touches on parallel test execution and output capturing, bug fixes and miscellaneous usability improvements.",
+                    "creator": {
+                        "login": "sormuras",
+                        "id": 2319838,
+                        "node_id": "MDQ6VXNlcjIzMTk4Mzg=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/2319838?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sormuras",
+                        "html_url": "https://github.com/sormuras",
+                        "followers_url": "https://api.github.com/users/sormuras/followers",
+                        "following_url": "https://api.github.com/users/sormuras/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sormuras/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sormuras/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sormuras/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sormuras/orgs",
+                        "repos_url": "https://api.github.com/users/sormuras/repos",
+                        "events_url": "https://api.github.com/users/sormuras/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sormuras/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 0,
+                    "closed_issues": 42,
+                    "state": "closed",
+                    "created_at": "2018-06-15T10:22:15Z",
+                    "updated_at": "2018-08-14T19:11:27Z",
+                    "due_on": "2018-08-13T07:00:00Z",
+                    "closed_at": "2018-08-13T19:14:17Z"
+                },
+                "comments": 23,
+                "created_at": "2018-07-27T18:38:58Z",
+                "updated_at": "2023-10-27T06:53:27Z",
+                "closed_at": "2018-08-13T18:51:07Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "`@TestInstance` annotation seems to cause threading problems with tests in Spring Boot.\r\n\r\n```xml\r\n<junit5.jupiter.version>5.3.0-M1</junit5.jupiter.version>\r\n<junit5.platform.version>1.2.0</junit5.platform.version>\r\n```\r\n\r\nI was able to replicate this problem by creating a small Spring Boot application using the Spring Initializer (https://start.spring.io/).\r\n\r\nThe application:\r\n\r\n```java\r\npackage com.example.demo;\r\n\r\nimport org.springframework.boot.SpringApplication;\r\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\r\n\r\n@SpringBootApplication\r\npublic class DemoApplication {\r\n\r\n\tpublic static void main(String[] args) {\r\n\t\tSpringApplication.run(DemoApplication.class, args);\r\n\t}\r\n}\r\n```\r\n\r\nA dummy class for testing:\r\n\r\n```java\r\npackage com.example.demo;\r\n\r\npublic class Klass {\r\n    public Klass(String field) {\r\n        this.field = field;\r\n    }\r\n\r\n    public String getField() {\r\n        return field;\r\n    }\r\n\r\n    public void setField(String field) {\r\n        this.field = field;\r\n    }\r\n\r\n    String field;\r\n}\r\n```\r\n\r\n\r\nMy test class:\r\n\r\n```java\r\npackage com.example.demo;\r\n\r\nimport org.junit.Test;\r\nimport org.junit.jupiter.api.AfterEach;\r\nimport org.junit.jupiter.api.BeforeEach;\r\nimport org.junit.jupiter.api.RepeatedTest;\r\nimport org.junit.jupiter.api.TestInstance;\r\nimport org.junit.jupiter.api.extension.ExtendWith;\r\nimport org.junit.runner.RunWith;\r\nimport org.springframework.boot.test.context.SpringBootTest;\r\nimport org.springframework.test.context.junit.jupiter.SpringExtension;\r\nimport org.springframework.test.context.junit4.SpringRunner;\r\n\r\n// @TestInstance(TestInstance.Lifecycle.PER_CLASS) // Needed for BeforeAll annotation but causes threading issues. \r\n@ExtendWith(SpringExtension.class)\r\n@SpringBootTest(classes = {DemoApplication.class})\r\npublic class DemoApplicationTests {\r\n\r\n\t@Test\r\n\tpublic void contextLoads() {\r\n\t}\r\n\r\n\tKlass klass = null;\r\n\r\n\t@BeforeEach\r\n\tpublic void beforeEach() {\r\n\t\tklass = new Klass(Thread.currentThread().getName());\r\n\t}\r\n\r\n\t@RepeatedTest(8)\r\n\tpublic void parallel() {\r\n\t\tklass.setField(\"Modified: \" + klass.getField());\r\n\t}\r\n\r\n\t@AfterEach\r\n\tpublic void afterEach() {\r\n\t\tSystem.out.println(String.format(\"%s - %s\", Thread.currentThread().getName(), klass.field ));\r\n\t}\r\n}\r\n```\r\n\r\n\r\nOutput when not using `@TestInstance`:\r\n\r\n```\r\nForkJoinPool-1-worker-3 - Modified: ForkJoinPool-1-worker-3\r\nForkJoinPool-1-worker-0 - Modified: ForkJoinPool-1-worker-0\r\nForkJoinPool-1-worker-2 - Modified: ForkJoinPool-1-worker-2\r\nForkJoinPool-1-worker-3 - Modified: ForkJoinPool-1-worker-3\r\nForkJoinPool-1-worker-4 - Modified: ForkJoinPool-1-worker-4\r\nForkJoinPool-1-worker-4 - Modified: ForkJoinPool-1-worker-4\r\nForkJoinPool-1-worker-6 - Modified: ForkJoinPool-1-worker-6\r\nForkJoinPool-1-worker-2 - Modified: ForkJoinPool-1-worker-2\r\n```\r\n\r\nOutput when using `@TestInstance`:\r\n\r\n```\r\nForkJoinPool-1-worker-0 - Modified: ForkJoinPool-1-worker-4 <<< oops\r\nForkJoinPool-1-worker-2 - Modified: ForkJoinPool-1-worker-4 <<<\r\nForkJoinPool-1-worker-3 - Modified: ForkJoinPool-1-worker-3\r\nForkJoinPool-1-worker-0 - Modified: ForkJoinPool-1-worker-0\r\nForkJoinPool-1-worker-4 - Modified: ForkJoinPool-1-worker-0 <<<\r\nForkJoinPool-1-worker-2 - Modified: ForkJoinPool-1-worker-2\r\nForkJoinPool-1-worker-3 - Modified: ForkJoinPool-1-worker-3\r\n```\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/1511/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/1511/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782393790",
+                "html_url": "https://github.com/junit-team/junit5/issues/1511#issuecomment-1782393790",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/1511",
+                "id": 1782393790,
+                "node_id": "IC_kwDOAbwRH85qPSu-",
+                "user": {
+                    "login": "hashhar",
+                    "id": 10473142,
+                    "node_id": "MDQ6VXNlcjEwNDczMTQy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10473142?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hashhar",
+                    "html_url": "https://github.com/hashhar",
+                    "followers_url": "https://api.github.com/users/hashhar/followers",
+                    "following_url": "https://api.github.com/users/hashhar/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hashhar/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hashhar/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hashhar/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hashhar/orgs",
+                    "repos_url": "https://api.github.com/users/hashhar/repos",
+                    "events_url": "https://api.github.com/users/hashhar/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hashhar/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T06:53:27Z",
+                "updated_at": "2023-10-27T06:53:27Z",
+                "author_association": "NONE",
+                "body": "@marcphilipp Sorry to bump such an old issue but after this change how can I configure my tests such that I don't need to add `@Execution` annotations to ALL test classes if none of my tests are thread-unsafe and I've set `PER_CLASS` as the global default (because all my test classes are safe because the objects on the test class instance are \"immutable\")?\r\n\r\nOne option is to remove `PER_CLASS` and use `@BeforeAll` to instantiate the \"costly\" objects on the class once per test class? Would this even work?\r\n\r\nAre there other options?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1782393790/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:53:27Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32884782066",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16123556,
+            "login": "junit-builds",
+            "display_login": "junit-builds",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/junit-builds",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16123556?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "ref": "combined-prs-branch",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "\u2705 The 5th major version of the programmer-friendly testing framework for Java and the JVM",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:16:54Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32884781874",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16123556,
+            "login": "junit-builds",
+            "display_login": "junit-builds",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/junit-builds",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16123556?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 3514,
+            "pull_request": {
+                "url": "https://api.github.com/repos/junit-team/junit5/pulls/3514",
+                "id": 1575748275,
+                "node_id": "PR_kwDOAbwRH85d7AKz",
+                "html_url": "https://github.com/junit-team/junit5/pull/3514",
+                "diff_url": "https://github.com/junit-team/junit5/pull/3514.diff",
+                "patch_url": "https://github.com/junit-team/junit5/pull/3514.patch",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/3514",
+                "number": 3514,
+                "state": "open",
+                "locked": false,
+                "title": "Combined PRs",
+                "user": {
+                    "login": "junit-builds",
+                    "id": 16123556,
+                    "node_id": "MDQ6VXNlcjE2MTIzNTU2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16123556?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/junit-builds",
+                    "html_url": "https://github.com/junit-builds",
+                    "followers_url": "https://api.github.com/users/junit-builds/followers",
+                    "following_url": "https://api.github.com/users/junit-builds/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/junit-builds/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/junit-builds/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/junit-builds/subscriptions",
+                    "organizations_url": "https://api.github.com/users/junit-builds/orgs",
+                    "repos_url": "https://api.github.com/users/junit-builds/repos",
+                    "events_url": "https://api.github.com/users/junit-builds/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/junit-builds/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "# Combined PRs \u27a1\ufe0f\ud83d\udce6\u2b05\ufe0f\n\n\u2705 The following pull requests have been successfully combined on this PR:\n- Closes #3504 Bump io.github.classgraph:classgraph from 4.8.162 to 4.8.163\n- Closes #3502 Bump org.asciidoctor:asciidoctorj-diagram from 2.2.9 to 2.2.13\n\n> This PR was created by the [`github/combine-prs`](https://github.com/github/combine-prs) action",
+                "created_at": "2023-10-27T00:16:51Z",
+                "updated_at": "2023-10-27T00:16:51Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "31ebd6f79f5cfdb84387355c0eafb0262f475c0b",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/junit-team/junit5/pulls/3514/commits",
+                "review_comments_url": "https://api.github.com/repos/junit-team/junit5/pulls/3514/comments",
+                "review_comment_url": "https://api.github.com/repos/junit-team/junit5/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3514/comments",
+                "statuses_url": "https://api.github.com/repos/junit-team/junit5/statuses/6bb517a61240631dbd595b62fb6b9e0207bf2a51",
+                "head": {
+                    "label": "junit-team:combined-prs-branch",
+                    "ref": "combined-prs-branch",
+                    "sha": "6bb517a61240631dbd595b62fb6b9e0207bf2a51",
+                    "user": {
+                        "login": "junit-team",
+                        "id": 874086,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/junit-team",
+                        "html_url": "https://github.com/junit-team",
+                        "followers_url": "https://api.github.com/users/junit-team/followers",
+                        "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                        "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                        "repos_url": "https://api.github.com/users/junit-team/repos",
+                        "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 29102367,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyOTEwMjM2Nw==",
+                        "name": "junit5",
+                        "full_name": "junit-team/junit5",
+                        "private": false,
+                        "owner": {
+                            "login": "junit-team",
+                            "id": 874086,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/junit-team",
+                            "html_url": "https://github.com/junit-team",
+                            "followers_url": "https://api.github.com/users/junit-team/followers",
+                            "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                            "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                            "repos_url": "https://api.github.com/users/junit-team/repos",
+                            "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/junit-team/junit5",
+                        "description": "\u2705 The 5th major version of the programmer-friendly testing framework for Java and the JVM",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/junit-team/junit5",
+                        "forks_url": "https://api.github.com/repos/junit-team/junit5/forks",
+                        "keys_url": "https://api.github.com/repos/junit-team/junit5/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/junit-team/junit5/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/junit-team/junit5/teams",
+                        "hooks_url": "https://api.github.com/repos/junit-team/junit5/hooks",
+                        "issue_events_url": "https://api.github.com/repos/junit-team/junit5/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/junit-team/junit5/events",
+                        "assignees_url": "https://api.github.com/repos/junit-team/junit5/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/junit-team/junit5/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/junit-team/junit5/tags",
+                        "blobs_url": "https://api.github.com/repos/junit-team/junit5/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/junit-team/junit5/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/junit-team/junit5/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/junit-team/junit5/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/junit-team/junit5/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/junit-team/junit5/languages",
+                        "stargazers_url": "https://api.github.com/repos/junit-team/junit5/stargazers",
+                        "contributors_url": "https://api.github.com/repos/junit-team/junit5/contributors",
+                        "subscribers_url": "https://api.github.com/repos/junit-team/junit5/subscribers",
+                        "subscription_url": "https://api.github.com/repos/junit-team/junit5/subscription",
+                        "commits_url": "https://api.github.com/repos/junit-team/junit5/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/junit-team/junit5/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/junit-team/junit5/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/junit-team/junit5/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/junit-team/junit5/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/junit-team/junit5/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/junit-team/junit5/merges",
+                        "archive_url": "https://api.github.com/repos/junit-team/junit5/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/junit-team/junit5/downloads",
+                        "issues_url": "https://api.github.com/repos/junit-team/junit5/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/junit-team/junit5/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/junit-team/junit5/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/junit-team/junit5/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/junit-team/junit5/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/junit-team/junit5/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/junit-team/junit5/deployments",
+                        "created_at": "2015-01-11T19:06:10Z",
+                        "updated_at": "2023-10-26T20:21:49Z",
+                        "pushed_at": "2023-10-27T00:16:52Z",
+                        "git_url": "git://github.com/junit-team/junit5.git",
+                        "ssh_url": "git@github.com:junit-team/junit5.git",
+                        "clone_url": "https://github.com/junit-team/junit5.git",
+                        "svn_url": "https://github.com/junit-team/junit5",
+                        "homepage": "https://junit.org",
+                        "size": 644915,
+                        "stargazers_count": 5952,
+                        "watchers_count": 5952,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": true,
+                        "forks_count": 1374,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 140,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "java",
+                            "junit",
+                            "junit-jupiter",
+                            "junit-platform",
+                            "junit-vintage",
+                            "kotlin",
+                            "kotlin-testing",
+                            "test-framework"
+                        ],
+                        "visibility": "public",
+                        "forks": 1374,
+                        "open_issues": 140,
+                        "watchers": 5952,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "junit-team:main",
+                    "ref": "main",
+                    "sha": "54836624ce650b8045024540c48a60ed3c41243f",
+                    "user": {
+                        "login": "junit-team",
+                        "id": 874086,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/junit-team",
+                        "html_url": "https://github.com/junit-team",
+                        "followers_url": "https://api.github.com/users/junit-team/followers",
+                        "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                        "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                        "repos_url": "https://api.github.com/users/junit-team/repos",
+                        "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 29102367,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyOTEwMjM2Nw==",
+                        "name": "junit5",
+                        "full_name": "junit-team/junit5",
+                        "private": false,
+                        "owner": {
+                            "login": "junit-team",
+                            "id": 874086,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/junit-team",
+                            "html_url": "https://github.com/junit-team",
+                            "followers_url": "https://api.github.com/users/junit-team/followers",
+                            "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                            "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                            "repos_url": "https://api.github.com/users/junit-team/repos",
+                            "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/junit-team/junit5",
+                        "description": "\u2705 The 5th major version of the programmer-friendly testing framework for Java and the JVM",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/junit-team/junit5",
+                        "forks_url": "https://api.github.com/repos/junit-team/junit5/forks",
+                        "keys_url": "https://api.github.com/repos/junit-team/junit5/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/junit-team/junit5/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/junit-team/junit5/teams",
+                        "hooks_url": "https://api.github.com/repos/junit-team/junit5/hooks",
+                        "issue_events_url": "https://api.github.com/repos/junit-team/junit5/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/junit-team/junit5/events",
+                        "assignees_url": "https://api.github.com/repos/junit-team/junit5/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/junit-team/junit5/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/junit-team/junit5/tags",
+                        "blobs_url": "https://api.github.com/repos/junit-team/junit5/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/junit-team/junit5/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/junit-team/junit5/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/junit-team/junit5/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/junit-team/junit5/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/junit-team/junit5/languages",
+                        "stargazers_url": "https://api.github.com/repos/junit-team/junit5/stargazers",
+                        "contributors_url": "https://api.github.com/repos/junit-team/junit5/contributors",
+                        "subscribers_url": "https://api.github.com/repos/junit-team/junit5/subscribers",
+                        "subscription_url": "https://api.github.com/repos/junit-team/junit5/subscription",
+                        "commits_url": "https://api.github.com/repos/junit-team/junit5/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/junit-team/junit5/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/junit-team/junit5/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/junit-team/junit5/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/junit-team/junit5/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/junit-team/junit5/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/junit-team/junit5/merges",
+                        "archive_url": "https://api.github.com/repos/junit-team/junit5/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/junit-team/junit5/downloads",
+                        "issues_url": "https://api.github.com/repos/junit-team/junit5/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/junit-team/junit5/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/junit-team/junit5/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/junit-team/junit5/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/junit-team/junit5/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/junit-team/junit5/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/junit-team/junit5/deployments",
+                        "created_at": "2015-01-11T19:06:10Z",
+                        "updated_at": "2023-10-26T20:21:49Z",
+                        "pushed_at": "2023-10-27T00:16:52Z",
+                        "git_url": "git://github.com/junit-team/junit5.git",
+                        "ssh_url": "git@github.com:junit-team/junit5.git",
+                        "clone_url": "https://github.com/junit-team/junit5.git",
+                        "svn_url": "https://github.com/junit-team/junit5",
+                        "homepage": "https://junit.org",
+                        "size": 644915,
+                        "stargazers_count": 5952,
+                        "watchers_count": 5952,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": true,
+                        "forks_count": 1374,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 140,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "java",
+                            "junit",
+                            "junit-jupiter",
+                            "junit-platform",
+                            "junit-vintage",
+                            "kotlin",
+                            "kotlin-testing",
+                            "test-framework"
+                        ],
+                        "visibility": "public",
+                        "forks": 1374,
+                        "open_issues": 140,
+                        "watchers": 5952,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/3514"
+                    },
+                    "html": {
+                        "href": "https://github.com/junit-team/junit5/pull/3514"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/issues/3514"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/issues/3514/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/3514/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/3514/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/statuses/6bb517a61240631dbd595b62fb6b9e0207bf2a51"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": true,
+                "rebaseable": true,
+                "mergeable_state": "clean",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 4,
+                "additions": 2,
+                "deletions": 2,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:16:54Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32884781563",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16123556,
+            "login": "junit-builds",
+            "display_login": "junit-builds",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/junit-builds",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16123556?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "repository_id": 29102367,
+            "push_id": 15584668310,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/combined-prs-branch",
+            "head": "6bb517a61240631dbd595b62fb6b9e0207bf2a51",
+            "before": "8a50ba88b36a75f920a30627482908e5e976f9cc",
+            "commits": [
+                {
+                    "sha": "36c6a6fcfc9e72c77c5b29679a543fb7d1267b7f",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump org.asciidoctor:asciidoctorj-diagram from 2.2.9 to 2.2.13\n\nBumps [org.asciidoctor:asciidoctorj-diagram](https://github.com/asciidoctor/asciidoctorj-diagram) from 2.2.9 to 2.2.13.\n- [Release notes](https://github.com/asciidoctor/asciidoctorj-diagram/releases)\n- [Commits](https://github.com/asciidoctor/asciidoctorj-diagram/compare/v2.2.9...v2.2.13)\n\n---\nupdated-dependencies:\n- dependency-name: org.asciidoctor:asciidoctorj-diagram\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/junit-team/junit5/commits/36c6a6fcfc9e72c77c5b29679a543fb7d1267b7f"
+                },
+                {
+                    "sha": "6bb517a61240631dbd595b62fb6b9e0207bf2a51",
+                    "author": {
+                        "email": "team@junit.org",
+                        "name": "JUnit Builds"
+                    },
+                    "message": "Merge dependabot/gradle/org.asciidoctor-asciidoctorj-diagram-2.2.13 into combined-prs-branch",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/junit-team/junit5/commits/6bb517a61240631dbd595b62fb6b9e0207bf2a51"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:16:52Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32884781428",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16123556,
+            "login": "junit-builds",
+            "display_login": "junit-builds",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/junit-builds",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16123556?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "repository_id": 29102367,
+            "push_id": 15584668247,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/combined-prs-branch",
+            "head": "8a50ba88b36a75f920a30627482908e5e976f9cc",
+            "before": "766561f5884600ee91c1845c647c8ce21c7c38da",
+            "commits": [
+                {
+                    "sha": "0ca1347b38764ef525ab8ac2e6d5e3be83fc10ac",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump io.github.classgraph:classgraph from 4.8.162 to 4.8.163\n\nBumps [io.github.classgraph:classgraph](https://github.com/classgraph/classgraph) from 4.8.162 to 4.8.163.\n- [Release notes](https://github.com/classgraph/classgraph/releases)\n- [Commits](https://github.com/classgraph/classgraph/compare/classgraph-4.8.162...classgraph-4.8.163)\n\n---\nupdated-dependencies:\n- dependency-name: io.github.classgraph:classgraph\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/junit-team/junit5/commits/0ca1347b38764ef525ab8ac2e6d5e3be83fc10ac"
+                },
+                {
+                    "sha": "8a50ba88b36a75f920a30627482908e5e976f9cc",
+                    "author": {
+                        "email": "team@junit.org",
+                        "name": "JUnit Builds"
+                    },
+                    "message": "Merge dependabot/gradle/io.github.classgraph-classgraph-4.8.163 into combined-prs-branch",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/junit-team/junit5/commits/8a50ba88b36a75f920a30627482908e5e976f9cc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:16:51Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32880959762",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 31300566,
+            "login": "XReaper95",
+            "display_login": "XReaper95",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/XReaper95",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31300566?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:21:49Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32875747278",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22982151,
+            "login": "MorrisMorrison",
+            "display_login": "MorrisMorrison",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MorrisMorrison",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22982151?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:43:59Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32870878729",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 16692912,
+            "login": "mrsofiane",
+            "display_login": "mrsofiane",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mrsofiane",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16692912?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:06:18Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32844845901",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 75391049,
+            "login": "etrandafir93",
+            "display_login": "etrandafir93",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/etrandafir93",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75391049?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709948167,
+                "node_id": "R_kgDOKlDzBw",
+                "name": "junit5",
+                "full_name": "etrandafir93/junit5",
+                "private": false,
+                "owner": {
+                    "login": "etrandafir93",
+                    "id": 75391049,
+                    "node_id": "MDQ6VXNlcjc1MzkxMDQ5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/75391049?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/etrandafir93",
+                    "html_url": "https://github.com/etrandafir93",
+                    "followers_url": "https://api.github.com/users/etrandafir93/followers",
+                    "following_url": "https://api.github.com/users/etrandafir93/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/etrandafir93/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/etrandafir93/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/etrandafir93/subscriptions",
+                    "organizations_url": "https://api.github.com/users/etrandafir93/orgs",
+                    "repos_url": "https://api.github.com/users/etrandafir93/repos",
+                    "events_url": "https://api.github.com/users/etrandafir93/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/etrandafir93/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/etrandafir93/junit5",
+                "description": "\u2705 The 5th major version of the programmer-friendly testing framework for Java and the JVM",
+                "fork": true,
+                "url": "https://api.github.com/repos/etrandafir93/junit5",
+                "forks_url": "https://api.github.com/repos/etrandafir93/junit5/forks",
+                "keys_url": "https://api.github.com/repos/etrandafir93/junit5/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/etrandafir93/junit5/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/etrandafir93/junit5/teams",
+                "hooks_url": "https://api.github.com/repos/etrandafir93/junit5/hooks",
+                "issue_events_url": "https://api.github.com/repos/etrandafir93/junit5/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/etrandafir93/junit5/events",
+                "assignees_url": "https://api.github.com/repos/etrandafir93/junit5/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/etrandafir93/junit5/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/etrandafir93/junit5/tags",
+                "blobs_url": "https://api.github.com/repos/etrandafir93/junit5/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/etrandafir93/junit5/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/etrandafir93/junit5/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/etrandafir93/junit5/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/etrandafir93/junit5/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/etrandafir93/junit5/languages",
+                "stargazers_url": "https://api.github.com/repos/etrandafir93/junit5/stargazers",
+                "contributors_url": "https://api.github.com/repos/etrandafir93/junit5/contributors",
+                "subscribers_url": "https://api.github.com/repos/etrandafir93/junit5/subscribers",
+                "subscription_url": "https://api.github.com/repos/etrandafir93/junit5/subscription",
+                "commits_url": "https://api.github.com/repos/etrandafir93/junit5/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/etrandafir93/junit5/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/etrandafir93/junit5/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/etrandafir93/junit5/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/etrandafir93/junit5/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/etrandafir93/junit5/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/etrandafir93/junit5/merges",
+                "archive_url": "https://api.github.com/repos/etrandafir93/junit5/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/etrandafir93/junit5/downloads",
+                "issues_url": "https://api.github.com/repos/etrandafir93/junit5/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/etrandafir93/junit5/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/etrandafir93/junit5/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/etrandafir93/junit5/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/etrandafir93/junit5/labels{/name}",
+                "releases_url": "https://api.github.com/repos/etrandafir93/junit5/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/etrandafir93/junit5/deployments",
+                "created_at": "2023-10-25T17:54:10Z",
+                "updated_at": "2023-10-25T17:54:10Z",
+                "pushed_at": "2023-10-23T08:33:34Z",
+                "git_url": "git://github.com/etrandafir93/junit5.git",
+                "ssh_url": "git@github.com:etrandafir93/junit5.git",
+                "clone_url": "https://github.com/etrandafir93/junit5.git",
+                "svn_url": "https://github.com/etrandafir93/junit5",
+                "homepage": "https://junit.org",
+                "size": 644915,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:54:11Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32839089782",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 13507796,
+            "login": "jonnytest1",
+            "display_login": "jonnytest1",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jonnytest1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13507796?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/2990",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/2990/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/2990/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/2990/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/2990",
+                "id": 1319750572,
+                "node_id": "I_kwDOAbwRH85Oqcus",
+                "number": 2990,
+                "title": "Impose an order for `@Before*` and `@After*` lifecycle methods",
+                "user": {
+                    "login": "Cs4r",
+                    "id": 1312782,
+                    "node_id": "MDQ6VXNlcjEzMTI3ODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1312782?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Cs4r",
+                    "html_url": "https://github.com/Cs4r",
+                    "followers_url": "https://api.github.com/users/Cs4r/followers",
+                    "following_url": "https://api.github.com/users/Cs4r/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Cs4r/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Cs4r/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Cs4r/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Cs4r/orgs",
+                    "repos_url": "https://api.github.com/users/Cs4r/repos",
+                    "events_url": "https://api.github.com/users/Cs4r/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Cs4r/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 165165184,
+                        "node_id": "MDU6TGFiZWwxNjUxNjUxODQ=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/status:%20declined",
+                        "name": "status: declined",
+                        "color": "dfdfdf",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 289029845,
+                        "node_id": "MDU6TGFiZWwyODkwMjk4NDU=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/theme:%20ordering",
+                        "name": "theme: ordering",
+                        "color": "d4c5f9",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 420911923,
+                        "node_id": "MDU6TGFiZWw0MjA5MTE5MjM=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Jupiter",
+                        "name": "component: Jupiter",
+                        "color": "11ee99",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2022-07-27T15:39:50Z",
+                "updated_at": "2023-10-25T14:35:55Z",
+                "closed_at": "2023-05-05T15:31:50Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi all,\r\n\r\nI just wanted  to know if there's a possibility we can impose a particular order in execution of methods annotated with `@BeforeEach`. If so, which interface should I implement or which class should I touch? \r\n\r\nFor me it would be very useful since I use several `beforeEach` methods to improve readability of my tests.\r\n\r\nThanks in advance.\r\n\r\nRegards.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/2990/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/2990/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1779424927",
+                "html_url": "https://github.com/junit-team/junit5/issues/2990#issuecomment-1779424927",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/2990",
+                "id": 1779424927,
+                "node_id": "IC_kwDOAbwRH85qD96f",
+                "user": {
+                    "login": "jonnytest1",
+                    "id": 13507796,
+                    "node_id": "MDQ6VXNlcjEzNTA3Nzk2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13507796?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jonnytest1",
+                    "html_url": "https://github.com/jonnytest1",
+                    "followers_url": "https://api.github.com/users/jonnytest1/followers",
+                    "following_url": "https://api.github.com/users/jonnytest1/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jonnytest1/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jonnytest1/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jonnytest1/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jonnytest1/orgs",
+                    "repos_url": "https://api.github.com/users/jonnytest1/repos",
+                    "events_url": "https://api.github.com/users/jonnytest1/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jonnytest1/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T14:35:54Z",
+                "updated_at": "2023-10-25T14:35:54Z",
+                "author_association": "NONE",
+                "body": "not a huge fan  cause now i need to pass TestInfo through a few hundres beforeEach calls :/",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1779424927/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:35:55Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32821908782",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 23325862,
+            "login": "wangluyu",
+            "display_login": "wangluyu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wangluyu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23325862?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T03:15:24Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32814759195",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 8929213,
+            "login": "ttymonkey",
+            "display_login": "ttymonkey",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ttymonkey",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8929213?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T19:49:05Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32812027122",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 9216831,
+            "login": "AlexisJehan",
+            "display_login": "AlexisJehan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AlexisJehan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9216831?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T17:54:08Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32809318753",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 16674617,
+            "login": "SamGurtler",
+            "display_login": "SamGurtler",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SamGurtler",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16674617?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T16:07:41Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32783773686",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 23444368,
+            "login": "shubhwip",
+            "display_login": "shubhwip",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shubhwip",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23444368?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T20:09:31Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32782371975",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 46851726,
+            "login": "haytham-c01",
+            "display_login": "haytham-c01",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haytham-c01",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46851726?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T19:10:20Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32777542166",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48352653,
+            "login": "vicheanath",
+            "display_login": "vicheanath",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vicheanath",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48352653?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T16:02:20Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32764195796",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16123556,
+            "login": "junit-builds",
+            "display_login": "junit-builds",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/junit-builds",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16123556?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "repository_id": 29102367,
+            "push_id": 15524998329,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/gh-pages",
+            "head": "0d2c981ad670b2c88b3dbeaffeb1c42708d01ed2",
+            "before": "c393e49b76d743bc150c0f23f9d01c0d7bc13c9c",
+            "commits": [
+                {
+                    "sha": "0d2c981ad670b2c88b3dbeaffeb1c42708d01ed2",
+                    "author": {
+                        "email": "team@junit.org",
+                        "name": "JUnit Team"
+                    },
+                    "message": "Generated by gradle-git-publish.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/junit-team/junit5/commits/0d2c981ad670b2c88b3dbeaffeb1c42708d01ed2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:33:36Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32763987796",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "ref": "dependabot/gradle/org.ajoberstar.git-publish-4.2.1",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:26:02Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32763986160",
+        "type": "PushEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "repository_id": 29102367,
+            "push_id": 15524900848,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "54836624ce650b8045024540c48a60ed3c41243f",
+            "before": "2c9a318984a0bd8007bc28150849bb653e2b6c86",
+            "commits": [
+                {
+                    "sha": "54836624ce650b8045024540c48a60ed3c41243f",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump org.ajoberstar.git-publish from 4.2.0 to 4.2.1\n\nBumps [org.ajoberstar.git-publish](https://github.com/ajoberstar/gradle-git-publish) from 4.2.0 to 4.2.1.\n- [Release notes](https://github.com/ajoberstar/gradle-git-publish/releases)\n- [Commits](https://github.com/ajoberstar/gradle-git-publish/compare/4.2.0...4.2.1)\n\n---\nupdated-dependencies:\n- dependency-name: org.ajoberstar.git-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/junit-team/junit5/commits/54836624ce650b8045024540c48a60ed3c41243f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:25:58Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32763985831",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 3512,
+            "pull_request": {
+                "url": "https://api.github.com/repos/junit-team/junit5/pulls/3512",
+                "id": 1568484625,
+                "node_id": "PR_kwDOAbwRH85dfS0R",
+                "html_url": "https://github.com/junit-team/junit5/pull/3512",
+                "diff_url": "https://github.com/junit-team/junit5/pull/3512.diff",
+                "patch_url": "https://github.com/junit-team/junit5/pull/3512.patch",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/3512",
+                "number": 3512,
+                "state": "closed",
+                "locked": false,
+                "title": "Bump org.ajoberstar.git-publish from 4.2.0 to 4.2.1",
+                "user": {
+                    "login": "dependabot[bot]",
+                    "id": 49699333,
+                    "node_id": "MDM6Qm90NDk2OTkzMzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/dependabot",
+                    "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "body": "Bumps [org.ajoberstar.git-publish](https://github.com/ajoberstar/gradle-git-publish) from 4.2.0 to 4.2.1.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/ajoberstar/gradle-git-publish/releases\">org.ajoberstar.git-publish's releases</a>.</em></p>\n<blockquote>\n<h2>4.2.1</h2>\n<p>Small patch to update dependencies.</p>\n<h2>Breaking Changes</h2>\n<p><em>None</em></p>\n<h2>Enhancements</h2>\n<p><em>None</em></p>\n<h2>Fixes</h2>\n<ul>\n<li><a href=\"https://redirect.github.com/ajoberstar/gradle-git-publish/issues/107\">#107</a> Update dependencies</li>\n</ul>\n<h2>Deprecations</h2>\n<p><em>None</em></p>\n<h2>Compatibility</h2>\n<p>Tested on the following version:</p>\n<table>\n<thead>\n<tr>\n<th>Java Version</th>\n<th>Gradle Versions</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>11</td>\n<td>7.0.2, 7.6.1, 8.0.2, 8.4</td>\n</tr>\n<tr>\n<td>17</td>\n<td>7.3.3, 7.6.1, 8.0.2, 8.4</td>\n</tr>\n<tr>\n<td>21</td>\n<td>8.4</td>\n</tr>\n</tbody>\n</table>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/ajoberstar/gradle-git-publish/commit/052e388837359c063d3d97a6b6ace9b25f28101e\"><code>052e388</code></a> Merge pull request <a href=\"https://redirect.github.com/ajoberstar/gradle-git-publish/issues/107\">#107</a> from ajoberstar/update</li>\n<li><a href=\"https://github.com/ajoberstar/gradle-git-publish/commit/52984044f655604d89f8344270680250738de226\"><code>5298404</code></a> Update Gradle and dependencies</li>\n<li><a href=\"https://github.com/ajoberstar/gradle-git-publish/commit/65ac5444e78fba0f7438a71a06ccef699f578404\"><code>65ac544</code></a> Update plugins and build config</li>\n<li>See full diff in <a href=\"https://github.com/ajoberstar/gradle-git-publish/compare/4.2.0...4.2.1\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.ajoberstar.git-publish&package-manager=gradle&previous-version=4.2.0&new-version=4.2.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>",
+                "created_at": "2023-10-23T05:27:35Z",
+                "updated_at": "2023-10-23T08:25:57Z",
+                "closed_at": "2023-10-23T08:25:57Z",
+                "merged_at": "2023-10-23T08:25:56Z",
+                "merge_commit_sha": "54836624ce650b8045024540c48a60ed3c41243f",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/junit-team/junit5/pulls/3512/commits",
+                "review_comments_url": "https://api.github.com/repos/junit-team/junit5/pulls/3512/comments",
+                "review_comment_url": "https://api.github.com/repos/junit-team/junit5/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3512/comments",
+                "statuses_url": "https://api.github.com/repos/junit-team/junit5/statuses/5f78da94f53a1a4e8cedbe2b54e2d2cfedb3460a",
+                "head": {
+                    "label": "junit-team:dependabot/gradle/org.ajoberstar.git-publish-4.2.1",
+                    "ref": "dependabot/gradle/org.ajoberstar.git-publish-4.2.1",
+                    "sha": "5f78da94f53a1a4e8cedbe2b54e2d2cfedb3460a",
+                    "user": {
+                        "login": "junit-team",
+                        "id": 874086,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/junit-team",
+                        "html_url": "https://github.com/junit-team",
+                        "followers_url": "https://api.github.com/users/junit-team/followers",
+                        "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                        "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                        "repos_url": "https://api.github.com/users/junit-team/repos",
+                        "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 29102367,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyOTEwMjM2Nw==",
+                        "name": "junit5",
+                        "full_name": "junit-team/junit5",
+                        "private": false,
+                        "owner": {
+                            "login": "junit-team",
+                            "id": 874086,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/junit-team",
+                            "html_url": "https://github.com/junit-team",
+                            "followers_url": "https://api.github.com/users/junit-team/followers",
+                            "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                            "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                            "repos_url": "https://api.github.com/users/junit-team/repos",
+                            "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/junit-team/junit5",
+                        "description": "\u2705 The 5th major version of the programmer-friendly testing framework for Java and the JVM",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/junit-team/junit5",
+                        "forks_url": "https://api.github.com/repos/junit-team/junit5/forks",
+                        "keys_url": "https://api.github.com/repos/junit-team/junit5/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/junit-team/junit5/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/junit-team/junit5/teams",
+                        "hooks_url": "https://api.github.com/repos/junit-team/junit5/hooks",
+                        "issue_events_url": "https://api.github.com/repos/junit-team/junit5/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/junit-team/junit5/events",
+                        "assignees_url": "https://api.github.com/repos/junit-team/junit5/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/junit-team/junit5/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/junit-team/junit5/tags",
+                        "blobs_url": "https://api.github.com/repos/junit-team/junit5/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/junit-team/junit5/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/junit-team/junit5/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/junit-team/junit5/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/junit-team/junit5/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/junit-team/junit5/languages",
+                        "stargazers_url": "https://api.github.com/repos/junit-team/junit5/stargazers",
+                        "contributors_url": "https://api.github.com/repos/junit-team/junit5/contributors",
+                        "subscribers_url": "https://api.github.com/repos/junit-team/junit5/subscribers",
+                        "subscription_url": "https://api.github.com/repos/junit-team/junit5/subscription",
+                        "commits_url": "https://api.github.com/repos/junit-team/junit5/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/junit-team/junit5/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/junit-team/junit5/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/junit-team/junit5/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/junit-team/junit5/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/junit-team/junit5/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/junit-team/junit5/merges",
+                        "archive_url": "https://api.github.com/repos/junit-team/junit5/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/junit-team/junit5/downloads",
+                        "issues_url": "https://api.github.com/repos/junit-team/junit5/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/junit-team/junit5/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/junit-team/junit5/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/junit-team/junit5/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/junit-team/junit5/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/junit-team/junit5/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/junit-team/junit5/deployments",
+                        "created_at": "2015-01-11T19:06:10Z",
+                        "updated_at": "2023-10-23T00:50:20Z",
+                        "pushed_at": "2023-10-23T08:25:56Z",
+                        "git_url": "git://github.com/junit-team/junit5.git",
+                        "ssh_url": "git@github.com:junit-team/junit5.git",
+                        "clone_url": "https://github.com/junit-team/junit5.git",
+                        "svn_url": "https://github.com/junit-team/junit5",
+                        "homepage": "https://junit.org",
+                        "size": 644818,
+                        "stargazers_count": 5942,
+                        "watchers_count": 5942,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": true,
+                        "forks_count": 1374,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 139,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "java",
+                            "junit",
+                            "junit-jupiter",
+                            "junit-platform",
+                            "junit-vintage",
+                            "kotlin",
+                            "kotlin-testing",
+                            "test-framework"
+                        ],
+                        "visibility": "public",
+                        "forks": 1374,
+                        "open_issues": 139,
+                        "watchers": 5942,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "junit-team:main",
+                    "ref": "main",
+                    "sha": "766561f5884600ee91c1845c647c8ce21c7c38da",
+                    "user": {
+                        "login": "junit-team",
+                        "id": 874086,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/junit-team",
+                        "html_url": "https://github.com/junit-team",
+                        "followers_url": "https://api.github.com/users/junit-team/followers",
+                        "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                        "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                        "repos_url": "https://api.github.com/users/junit-team/repos",
+                        "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 29102367,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyOTEwMjM2Nw==",
+                        "name": "junit5",
+                        "full_name": "junit-team/junit5",
+                        "private": false,
+                        "owner": {
+                            "login": "junit-team",
+                            "id": 874086,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3NDA4Ng==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/874086?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/junit-team",
+                            "html_url": "https://github.com/junit-team",
+                            "followers_url": "https://api.github.com/users/junit-team/followers",
+                            "following_url": "https://api.github.com/users/junit-team/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/junit-team/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/junit-team/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/junit-team/subscriptions",
+                            "organizations_url": "https://api.github.com/users/junit-team/orgs",
+                            "repos_url": "https://api.github.com/users/junit-team/repos",
+                            "events_url": "https://api.github.com/users/junit-team/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/junit-team/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/junit-team/junit5",
+                        "description": "\u2705 The 5th major version of the programmer-friendly testing framework for Java and the JVM",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/junit-team/junit5",
+                        "forks_url": "https://api.github.com/repos/junit-team/junit5/forks",
+                        "keys_url": "https://api.github.com/repos/junit-team/junit5/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/junit-team/junit5/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/junit-team/junit5/teams",
+                        "hooks_url": "https://api.github.com/repos/junit-team/junit5/hooks",
+                        "issue_events_url": "https://api.github.com/repos/junit-team/junit5/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/junit-team/junit5/events",
+                        "assignees_url": "https://api.github.com/repos/junit-team/junit5/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/junit-team/junit5/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/junit-team/junit5/tags",
+                        "blobs_url": "https://api.github.com/repos/junit-team/junit5/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/junit-team/junit5/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/junit-team/junit5/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/junit-team/junit5/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/junit-team/junit5/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/junit-team/junit5/languages",
+                        "stargazers_url": "https://api.github.com/repos/junit-team/junit5/stargazers",
+                        "contributors_url": "https://api.github.com/repos/junit-team/junit5/contributors",
+                        "subscribers_url": "https://api.github.com/repos/junit-team/junit5/subscribers",
+                        "subscription_url": "https://api.github.com/repos/junit-team/junit5/subscription",
+                        "commits_url": "https://api.github.com/repos/junit-team/junit5/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/junit-team/junit5/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/junit-team/junit5/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/junit-team/junit5/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/junit-team/junit5/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/junit-team/junit5/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/junit-team/junit5/merges",
+                        "archive_url": "https://api.github.com/repos/junit-team/junit5/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/junit-team/junit5/downloads",
+                        "issues_url": "https://api.github.com/repos/junit-team/junit5/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/junit-team/junit5/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/junit-team/junit5/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/junit-team/junit5/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/junit-team/junit5/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/junit-team/junit5/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/junit-team/junit5/deployments",
+                        "created_at": "2015-01-11T19:06:10Z",
+                        "updated_at": "2023-10-23T00:50:20Z",
+                        "pushed_at": "2023-10-23T08:25:56Z",
+                        "git_url": "git://github.com/junit-team/junit5.git",
+                        "ssh_url": "git@github.com:junit-team/junit5.git",
+                        "clone_url": "https://github.com/junit-team/junit5.git",
+                        "svn_url": "https://github.com/junit-team/junit5",
+                        "homepage": "https://junit.org",
+                        "size": 644818,
+                        "stargazers_count": 5942,
+                        "watchers_count": 5942,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": true,
+                        "forks_count": 1374,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 139,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "java",
+                            "junit",
+                            "junit-jupiter",
+                            "junit-platform",
+                            "junit-vintage",
+                            "kotlin",
+                            "kotlin-testing",
+                            "test-framework"
+                        ],
+                        "visibility": "public",
+                        "forks": 1374,
+                        "open_issues": 139,
+                        "watchers": 5942,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/3512"
+                    },
+                    "html": {
+                        "href": "https://github.com/junit-team/junit5/pull/3512"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/issues/3512"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/issues/3512/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/3512/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/pulls/3512/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/junit-team/junit5/statuses/5f78da94f53a1a4e8cedbe2b54e2d2cfedb3460a"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "marcphilipp",
+                    "id": 214207,
+                    "node_id": "MDQ6VXNlcjIxNDIwNw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/214207?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marcphilipp",
+                    "html_url": "https://github.com/marcphilipp",
+                    "followers_url": "https://api.github.com/users/marcphilipp/followers",
+                    "following_url": "https://api.github.com/users/marcphilipp/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marcphilipp/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marcphilipp/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marcphilipp/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marcphilipp/orgs",
+                    "repos_url": "https://api.github.com/users/marcphilipp/repos",
+                    "events_url": "https://api.github.com/users/marcphilipp/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marcphilipp/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 1,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:25:58Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32763766971",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 104798,
+            "login": "sbrannen",
+            "display_login": "sbrannen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbrannen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/104798?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/3030",
+                "repository_url": "https://api.github.com/repos/junit-team/junit5",
+                "labels_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/labels{/name}",
+                "comments_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/comments",
+                "events_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/events",
+                "html_url": "https://github.com/junit-team/junit5/issues/3030",
+                "id": 1368831057,
+                "node_id": "I_kwDOAbwRH85RlrRR",
+                "number": 3030,
+                "title": "Assumptions should support most/all features of Assertions",
+                "user": {
+                    "login": "voomdoon",
+                    "id": 9573863,
+                    "node_id": "MDQ6VXNlcjk1NzM4NjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9573863?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/voomdoon",
+                    "html_url": "https://github.com/voomdoon",
+                    "followers_url": "https://api.github.com/users/voomdoon/followers",
+                    "following_url": "https://api.github.com/users/voomdoon/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/voomdoon/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/voomdoon/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/voomdoon/subscriptions",
+                    "organizations_url": "https://api.github.com/users/voomdoon/orgs",
+                    "repos_url": "https://api.github.com/users/voomdoon/repos",
+                    "events_url": "https://api.github.com/users/voomdoon/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/voomdoon/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 165165180,
+                        "node_id": "MDU6TGFiZWwxNjUxNjUxODA=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/type:%20enhancement",
+                        "name": "type: enhancement",
+                        "color": "84b6eb",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 420911923,
+                        "node_id": "MDU6TGFiZWw0MjA5MTE5MjM=",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/component:%20Jupiter",
+                        "name": "component: Jupiter",
+                        "color": "11ee99",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 3071833340,
+                        "node_id": "MDU6TGFiZWwzMDcxODMzMzQw",
+                        "url": "https://api.github.com/repos/junit-team/junit5/labels/status:%20new",
+                        "name": "status: new",
+                        "color": "0e8a16",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2022-09-11T04:57:47Z",
+                "updated_at": "2023-10-23T08:18:08Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I am trying to use something like\r\n```\r\nAssumptions.assumeThrows(Exception.class, () -> program.run());\r\n```\r\nto ignore the test if no exception was thrown.\r\nThe test should e.g. check whether cleanup/rollback is done correctly on error.\r\n\r\nBut `assumeThrows` does not exist.\r\n\r\nThe idea behind is: There is a separate test with\r\n```\r\nAssertions.assertThrows(Exception.class, () -> program.run());\r\n```\r\nthat will fail if the method does not throw an exception.\r\n\r\nIf the method does not throw an exception, there should be one failing test only pointing to the problem.\r\n\r\n-----\r\n\r\nThe idea of this feature request is to add all features of Assertions also at Assumptions.\r\nA think this could be easily doable if we would generate the code using Assertions as source and replace all assertions by assumptions?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/3030/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/junit-team/junit5/issues/3030/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1774662931",
+                "html_url": "https://github.com/junit-team/junit5/issues/3030#issuecomment-1774662931",
+                "issue_url": "https://api.github.com/repos/junit-team/junit5/issues/3030",
+                "id": 1774662931,
+                "node_id": "IC_kwDOAbwRH85pxzUT",
+                "user": {
+                    "login": "sbrannen",
+                    "id": 104798,
+                    "node_id": "MDQ6VXNlcjEwNDc5OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/104798?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbrannen",
+                    "html_url": "https://github.com/sbrannen",
+                    "followers_url": "https://api.github.com/users/sbrannen/followers",
+                    "following_url": "https://api.github.com/users/sbrannen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbrannen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbrannen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbrannen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbrannen/orgs",
+                    "repos_url": "https://api.github.com/users/sbrannen/repos",
+                    "events_url": "https://api.github.com/users/sbrannen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbrannen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T08:18:08Z",
+                "updated_at": "2023-10-23T08:18:08Z",
+                "author_association": "MEMBER",
+                "body": "@Ilpyo-Yang, the team has not yet decided to implement this proposal. \r\n\r\nA PR would therefore be premature at this stage. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/junit-team/junit5/issues/comments/1774662931/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:18:09Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32761439950",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "ref": "dependabot/gradle/log4j-2.21.0",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T06:41:07Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    },
+    {
+        "id": "32761438921",
+        "type": "PushEvent",
+        "actor": {
+            "id": 214207,
+            "login": "marcphilipp",
+            "display_login": "marcphilipp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marcphilipp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/214207?"
+        },
+        "repo": {
+            "id": 29102367,
+            "name": "junit-team/junit5",
+            "url": "https://api.github.com/repos/junit-team/junit5"
+        },
+        "payload": {
+            "repository_id": 29102367,
+            "push_id": 15523703198,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2c9a318984a0bd8007bc28150849bb653e2b6c86",
+            "before": "766561f5884600ee91c1845c647c8ce21c7c38da",
+            "commits": [
+                {
+                    "sha": "2c9a318984a0bd8007bc28150849bb653e2b6c86",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump log4j from 2.20.0 to 2.21.0\n\nBumps `log4j` from 2.20.0 to 2.21.0.\n\nUpdates `org.apache.logging.log4j:log4j-core` from 2.20.0 to 2.21.0\n\nUpdates `org.apache.logging.log4j:log4j-jul` from 2.20.0 to 2.21.0\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-core\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n- dependency-name: org.apache.logging.log4j:log4j-jul\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/junit-team/junit5/commits/2c9a318984a0bd8007bc28150849bb653e2b6c86"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T06:41:03Z",
+        "org": {
+            "id": 874086,
+            "login": "junit-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/junit-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/874086?"
+        }
+    }
+]

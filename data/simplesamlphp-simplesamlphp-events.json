@@ -1,0 +1,2480 @@
+[
+    {
+        "id": "32876803560",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1884",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1884/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1884/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1884/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1884",
+                "id": 1964023606,
+                "node_id": "I_kwDOAQXzIM51EJ82",
+                "number": 1884,
+                "title": "admin: UI glitch in debug-information",
+                "user": {
+                    "login": "tvdijen",
+                    "id": 841045,
+                    "node_id": "MDQ6VXNlcjg0MTA0NQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/841045?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tvdijen",
+                    "html_url": "https://github.com/tvdijen",
+                    "followers_url": "https://api.github.com/users/tvdijen/followers",
+                    "following_url": "https://api.github.com/users/tvdijen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tvdijen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tvdijen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tvdijen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tvdijen/orgs",
+                    "repos_url": "https://api.github.com/users/tvdijen/repos",
+                    "events_url": "https://api.github.com/users/tvdijen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tvdijen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T17:25:03Z",
+                "updated_at": "2023-10-26T17:25:03Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "**Specifics of your environment**\r\nN/A\r\n\r\n**Describe the bug**\r\nWhen testing an auhtsource from the admin-pages, an overview of attributes is shown. Underneath is also 'Debug information' with a json-array. Complex attributes like `eduPersonTargetedID` are shown there as an empty array\r\n\r\n**To Reproduce**\r\nSteps to reproduce the behavior:\r\n1. Go to admin pages\r\n2. Test an authsource that releases a complex attribute.\r\n3. Scroll down to 'Debug information'\r\n4. See the empty array as attribute-value\r\n\r\n**Expected behavior**\r\nThe complex content should somehow be displayed\r\n\r\n**Screenshots or logs**\r\n![afbeelding](https://github.com/simplesamlphp/simplesamlphp/assets/841045/9c15c042-1ff5-4550-b53a-2180099bb55f)\r\n\r\n**Additional context**\r\nN/A\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1884/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1884/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:25:05Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32870041072",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 111799,
+            "login": "safetypins",
+            "display_login": "safetypins",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/safetypins",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111799?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1961541077,
+                "node_id": "I_kwDOAQXzIM506r3V",
+                "number": 1881,
+                "title": "Error Installing 2.1RC",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-10-25T14:17:29Z",
+                "updated_at": "2023-10-26T13:41:48Z",
+                "closed_at": "2023-10-26T13:41:48Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm working in a local docker development environment, testing an upgrade to Drupal 10. When trying to actually perform the upgrade, I get the following error, which seems to be related to this code:\r\n\r\n`Unable to install module simplesamlphp/simplesamlphp-assets-base, package name must be on the form \"VENDOR/simplesamlphp-module-MODULENAME\".`\r\n\r\nI believe this error is being generated by composer v2.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:41:49Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32870016109",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 111799,
+            "login": "safetypins",
+            "display_login": "safetypins",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/safetypins",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111799?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1961541077,
+                "node_id": "I_kwDOAQXzIM506r3V",
+                "number": 1881,
+                "title": "Error Installing 2.1RC",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-10-25T14:17:29Z",
+                "updated_at": "2023-10-26T13:41:04Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm working in a local docker development environment, testing an upgrade to Drupal 10. When trying to actually perform the upgrade, I get the following error, which seems to be related to this code:\r\n\r\n`Unable to install module simplesamlphp/simplesamlphp-assets-base, package name must be on the form \"VENDOR/simplesamlphp-module-MODULENAME\".`\r\n\r\nI believe this error is being generated by composer v2.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1781152567",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881#issuecomment-1781152567",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1781152567,
+                "node_id": "IC_kwDOAQXzIM5qKjs3",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T13:41:03Z",
+                "updated_at": "2023-10-26T13:41:03Z",
+                "author_association": "NONE",
+                "body": "Removing vendor folder worked. Thanks!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1781152567/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:41:04Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32863094407",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15573969164,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f214b09c5075e6d6b933b93dea0133081f2a0b76",
+            "before": "3c59e96fcfe8bc2b189c607e1861c0be5f4cf5fc",
+            "commits": [
+                {
+                    "sha": "f214b09c5075e6d6b933b93dea0133081f2a0b76",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Fix code-box overflowing parent container",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/f214b09c5075e6d6b933b93dea0133081f2a0b76"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:44:26Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32863089095",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15573966714,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.2",
+            "head": "bc00994701982eb330ca18424f9c008cf78da39c",
+            "before": "98dc1c56b291ed0d31ae839cdc5d05e050d8bc8c",
+            "commits": [
+                {
+                    "sha": "bc00994701982eb330ca18424f9c008cf78da39c",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Fix code-box overflowing parent container",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/bc00994701982eb330ca18424f9c008cf78da39c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:44:15Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32863084854",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15573964594,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.0",
+            "head": "7db281c7e4244ab1101837678fd963f4dd39fc0b",
+            "before": "9eb8eca346ccd301c38cc699a77e8ca5f3d4a61f",
+            "commits": [
+                {
+                    "sha": "7db281c7e4244ab1101837678fd963f4dd39fc0b",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Fix code-box overflowing parent container",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/7db281c7e4244ab1101837678fd963f4dd39fc0b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:44:07Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32863073702",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15573959188,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.1",
+            "head": "115f28f5cf134c17a50bf0846f9783642c167157",
+            "before": "e6956d4abb642d82dd822bfc3ea2b7cdbf1aed3a",
+            "commits": [
+                {
+                    "sha": "115f28f5cf134c17a50bf0846f9783642c167157",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Fix code-box overflowing parent container",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/115f28f5cf134c17a50bf0846f9783642c167157"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:43:45Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32860215923",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15572596770,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3c59e96fcfe8bc2b189c607e1861c0be5f4cf5fc",
+            "before": "0c6d6485f68f68db5b13522917f7cbc8c7fc862f",
+            "commits": [
+                {
+                    "sha": "3c59e96fcfe8bc2b189c607e1861c0be5f4cf5fc",
+                    "author": {
+                        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                        "name": "github-actions"
+                    },
+                    "message": "[skip ci] Auto-rebuild translations",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/3c59e96fcfe8bc2b189c607e1861c0be5f4cf5fc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:06:14Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32860213742",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15572595719,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.1",
+            "head": "e6956d4abb642d82dd822bfc3ea2b7cdbf1aed3a",
+            "before": "b56f5553e91887fab720269393f02a9d5a7e61d3",
+            "commits": [
+                {
+                    "sha": "e6956d4abb642d82dd822bfc3ea2b7cdbf1aed3a",
+                    "author": {
+                        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                        "name": "github-actions"
+                    },
+                    "message": "[skip ci] Auto-rebuild translations",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/e6956d4abb642d82dd822bfc3ea2b7cdbf1aed3a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:06:10Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32860204747",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15572591312,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.2",
+            "head": "98dc1c56b291ed0d31ae839cdc5d05e050d8bc8c",
+            "before": "fc3515138327126715d689a97773c82caaebaea3",
+            "commits": [
+                {
+                    "sha": "98dc1c56b291ed0d31ae839cdc5d05e050d8bc8c",
+                    "author": {
+                        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                        "name": "github-actions"
+                    },
+                    "message": "[skip ci] Auto-rebuild translations",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/98dc1c56b291ed0d31ae839cdc5d05e050d8bc8c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:05:50Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32860176901",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15572578124,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "0c6d6485f68f68db5b13522917f7cbc8c7fc862f",
+            "before": "5f1cf0cf4cc2e851dbbb6c869ef99f707b81f985",
+            "commits": [
+                {
+                    "sha": "0c6d6485f68f68db5b13522917f7cbc8c7fc862f",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Try and get a more consistent output by sorting the Twig-translations alphabetically",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/0c6d6485f68f68db5b13522917f7cbc8c7fc862f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:04:50Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32860174129",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15572576754,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.1",
+            "head": "b56f5553e91887fab720269393f02a9d5a7e61d3",
+            "before": "296b7d8d2bd1219ccd0bdcc21fe69dc6c29d38b2",
+            "commits": [
+                {
+                    "sha": "b56f5553e91887fab720269393f02a9d5a7e61d3",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Try and get a more consistent output by sorting the Twig-translations alphabetically",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/b56f5553e91887fab720269393f02a9d5a7e61d3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:04:44Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32860163741",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15572571982,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.2",
+            "head": "fc3515138327126715d689a97773c82caaebaea3",
+            "before": "88b9da220b5395caf626a642afddc900f18146d3",
+            "commits": [
+                {
+                    "sha": "fc3515138327126715d689a97773c82caaebaea3",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Try and get a more consistent output by sorting the Twig-translations alphabetically",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/fc3515138327126715d689a97773c82caaebaea3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:04:21Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32859189808",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1883",
+                "id": 1962705742,
+                "node_id": "I_kwDOAQXzIM50_INO",
+                "number": 1883,
+                "title": "Upgrade notes for 2.1rc1 from the releases page leads to 404",
+                "user": {
+                    "login": "aj-dol",
+                    "id": 147968394,
+                    "node_id": "U_kgDOCNHRig",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/147968394?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aj-dol",
+                    "html_url": "https://github.com/aj-dol",
+                    "followers_url": "https://api.github.com/users/aj-dol/followers",
+                    "following_url": "https://api.github.com/users/aj-dol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aj-dol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aj-dol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aj-dol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aj-dol/orgs",
+                    "repos_url": "https://api.github.com/users/aj-dol/repos",
+                    "events_url": "https://api.github.com/users/aj-dol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aj-dol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T04:58:16Z",
+                "updated_at": "2023-10-26T07:27:33Z",
+                "closed_at": "2023-10-26T07:27:32Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "The link https://simplesamlphp.org/docs/simplesamlphp-2.1/simplesamlphp-upgrade-notes-2.1 \r\n\r\nlinked from \"upgrade notes\" under SimpleSAMLphp 2.1.0-RC1 \r\n\r\non this page\r\n\r\nhttps://github.com/simplesamlphp/simplesamlphp/releases\r\n\r\nleads to a 404 page.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:27:33Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32859189639",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1883",
+                "id": 1962705742,
+                "node_id": "I_kwDOAQXzIM50_INO",
+                "number": 1883,
+                "title": "Upgrade notes for 2.1rc1 from the releases page leads to 404",
+                "user": {
+                    "login": "aj-dol",
+                    "id": 147968394,
+                    "node_id": "U_kgDOCNHRig",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/147968394?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aj-dol",
+                    "html_url": "https://github.com/aj-dol",
+                    "followers_url": "https://api.github.com/users/aj-dol/followers",
+                    "following_url": "https://api.github.com/users/aj-dol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aj-dol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aj-dol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aj-dol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aj-dol/orgs",
+                    "repos_url": "https://api.github.com/users/aj-dol/repos",
+                    "events_url": "https://api.github.com/users/aj-dol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aj-dol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T04:58:16Z",
+                "updated_at": "2023-10-26T07:27:33Z",
+                "closed_at": "2023-10-26T07:27:32Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "The link https://simplesamlphp.org/docs/simplesamlphp-2.1/simplesamlphp-upgrade-notes-2.1 \r\n\r\nlinked from \"upgrade notes\" under SimpleSAMLphp 2.1.0-RC1 \r\n\r\non this page\r\n\r\nhttps://github.com/simplesamlphp/simplesamlphp/releases\r\n\r\nleads to a 404 page.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1780560717",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1883#issuecomment-1780560717",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883",
+                "id": 1780560717,
+                "node_id": "IC_kwDOAQXzIM5qITNN",
+                "user": {
+                    "login": "tvdijen",
+                    "id": 841045,
+                    "node_id": "MDQ6VXNlcjg0MTA0NQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/841045?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tvdijen",
+                    "html_url": "https://github.com/tvdijen",
+                    "followers_url": "https://api.github.com/users/tvdijen/followers",
+                    "following_url": "https://api.github.com/users/tvdijen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tvdijen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tvdijen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tvdijen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tvdijen/orgs",
+                    "repos_url": "https://api.github.com/users/tvdijen/repos",
+                    "events_url": "https://api.github.com/users/tvdijen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tvdijen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T07:27:32Z",
+                "updated_at": "2023-10-26T07:27:32Z",
+                "author_association": "MEMBER",
+                "body": "Fixed",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1780560717/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:27:33Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32858529415",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1882",
+                "id": 1962639634,
+                "node_id": "I_kwDOAQXzIM50-4ES",
+                "number": 1882,
+                "title": "Composer install does not install simplesamlphp/simplesamlphp-assets-base",
+                "user": {
+                    "login": "aj-dol",
+                    "id": 147968394,
+                    "node_id": "U_kgDOCNHRig",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/147968394?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aj-dol",
+                    "html_url": "https://github.com/aj-dol",
+                    "followers_url": "https://api.github.com/users/aj-dol/followers",
+                    "following_url": "https://api.github.com/users/aj-dol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aj-dol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aj-dol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aj-dol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aj-dol/orgs",
+                    "repos_url": "https://api.github.com/users/aj-dol/repos",
+                    "events_url": "https://api.github.com/users/aj-dol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aj-dol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T03:38:29Z",
+                "updated_at": "2023-10-26T07:00:26Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I have installed SimpleSAMLphp 2.1rc1 on a Drupal installation with dependencies managed via composer. \r\n\r\nI have the following in the root composer.json\r\n\r\n        \"simplesamlphp/simplesamlphp\": \"*\",\r\n        \"simplesamlphp/composer-module-installer\": \"*\",\r\n        \"simplesamlphp/simplesamlphp-assets-base\": \"*\",\r\n\r\nThe first composer install command does not install assets/base/* into the public folder. This however gets installed when you run composer install the second time.\r\n\r\nI was able to work around this by using a composer post-install-cmd and running \"composer install --no-scripts  --no-interaction\" there.\r\n\r\nAm I missing something or is this something that should be addressed as a bug? \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1780526256",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1882#issuecomment-1780526256",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882",
+                "id": 1780526256,
+                "node_id": "IC_kwDOAQXzIM5qIKyw",
+                "user": {
+                    "login": "tvdijen",
+                    "id": 841045,
+                    "node_id": "MDQ6VXNlcjg0MTA0NQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/841045?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tvdijen",
+                    "html_url": "https://github.com/tvdijen",
+                    "followers_url": "https://api.github.com/users/tvdijen/followers",
+                    "following_url": "https://api.github.com/users/tvdijen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tvdijen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tvdijen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tvdijen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tvdijen/orgs",
+                    "repos_url": "https://api.github.com/users/tvdijen/repos",
+                    "events_url": "https://api.github.com/users/tvdijen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tvdijen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T07:00:26Z",
+                "updated_at": "2023-10-26T07:00:26Z",
+                "author_association": "MEMBER",
+                "body": "Try setting the composer file to:\r\n\r\n```\r\n\"simplesamlphp/simplesamlphp\": \"^2.1.0-rc1\",\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1780526256/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:00:26Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32856308207",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 147968394,
+            "login": "aj-dol",
+            "display_login": "aj-dol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aj-dol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/147968394?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1883",
+                "id": 1962705742,
+                "node_id": "I_kwDOAQXzIM50_INO",
+                "number": 1883,
+                "title": "Upgrade notes for 2.1rc1 from the releases page leads to 404",
+                "user": {
+                    "login": "aj-dol",
+                    "id": 147968394,
+                    "node_id": "U_kgDOCNHRig",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/147968394?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aj-dol",
+                    "html_url": "https://github.com/aj-dol",
+                    "followers_url": "https://api.github.com/users/aj-dol/followers",
+                    "following_url": "https://api.github.com/users/aj-dol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aj-dol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aj-dol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aj-dol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aj-dol/orgs",
+                    "repos_url": "https://api.github.com/users/aj-dol/repos",
+                    "events_url": "https://api.github.com/users/aj-dol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aj-dol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T04:58:16Z",
+                "updated_at": "2023-10-26T04:58:16Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "The link https://simplesamlphp.org/docs/simplesamlphp-2.1/simplesamlphp-upgrade-notes-2.1 \r\n\r\nlinked from \"upgrade notes\" under SimpleSAMLphp 2.1.0-RC1 \r\n\r\non this page\r\n\r\nhttps://github.com/simplesamlphp/simplesamlphp/releases\r\n\r\nleads to a 404 page.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1883/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:58:18Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32855257367",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 147968394,
+            "login": "aj-dol",
+            "display_login": "aj-dol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aj-dol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/147968394?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1882",
+                "id": 1962639634,
+                "node_id": "I_kwDOAQXzIM50-4ES",
+                "number": 1882,
+                "title": "Composer install does not install simplesamlphp/simplesamlphp-assets-base",
+                "user": {
+                    "login": "aj-dol",
+                    "id": 147968394,
+                    "node_id": "U_kgDOCNHRig",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/147968394?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aj-dol",
+                    "html_url": "https://github.com/aj-dol",
+                    "followers_url": "https://api.github.com/users/aj-dol/followers",
+                    "following_url": "https://api.github.com/users/aj-dol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aj-dol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aj-dol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aj-dol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aj-dol/orgs",
+                    "repos_url": "https://api.github.com/users/aj-dol/repos",
+                    "events_url": "https://api.github.com/users/aj-dol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aj-dol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T03:38:29Z",
+                "updated_at": "2023-10-26T03:38:29Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I have installed SimpleSAMLphp 2.1rc1 on a Drupal installation with dependencies managed via composer. \r\n\r\nI have the following in the root composer.json\r\n\r\n        \"simplesamlphp/simplesamlphp\": \"*\",\r\n        \"simplesamlphp/composer-module-installer\": \"*\",\r\n        \"simplesamlphp/simplesamlphp-assets-base\": \"*\",\r\n\r\nThe first composer install command does not install assets/base/* into the public folder. This however gets installed when you run composer install the second time.\r\n\r\nI was able to work around this by using a composer post-install-cmd and running \"composer install --no-scripts\" there.\r\n\r\nAm I missing something or is this something that should be addressed as a bug? \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1882/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T03:38:31Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32853043780",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 147968394,
+            "login": "aj-dol",
+            "display_login": "aj-dol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aj-dol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/147968394?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1961541077,
+                "node_id": "I_kwDOAQXzIM506r3V",
+                "number": 1881,
+                "title": "Error Installing 2.1RC",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-25T14:17:29Z",
+                "updated_at": "2023-10-26T00:52:07Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm working in a local docker development environment, testing an upgrade to Drupal 10. When trying to actually perform the upgrade, I get the following error, which seems to be related to this code:\r\n\r\n`Unable to install module simplesamlphp/simplesamlphp-assets-base, package name must be on the form \"VENDOR/simplesamlphp-module-MODULENAME\".`\r\n\r\nI believe this error is being generated by composer v2.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1780251598",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881#issuecomment-1780251598",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1780251598,
+                "node_id": "IC_kwDOAQXzIM5qHHvO",
+                "user": {
+                    "login": "aj-dol",
+                    "id": 147968394,
+                    "node_id": "U_kgDOCNHRig",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/147968394?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aj-dol",
+                    "html_url": "https://github.com/aj-dol",
+                    "followers_url": "https://api.github.com/users/aj-dol/followers",
+                    "following_url": "https://api.github.com/users/aj-dol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aj-dol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aj-dol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aj-dol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aj-dol/orgs",
+                    "repos_url": "https://api.github.com/users/aj-dol/repos",
+                    "events_url": "https://api.github.com/users/aj-dol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aj-dol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T00:52:07Z",
+                "updated_at": "2023-10-26T00:52:07Z",
+                "author_association": "NONE",
+                "body": "@safetypins - Delete the vendors folder and try installing again. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1780251598/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T00:52:07Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32843272887",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1961541077,
+                "node_id": "I_kwDOAQXzIM506r3V",
+                "number": 1881,
+                "title": "Error Installing 2.1RC",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-25T14:17:29Z",
+                "updated_at": "2023-10-25T16:53:09Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm working in a local docker development environment, testing an upgrade to Drupal 10. When trying to actually perform the upgrade, I get the following error, which seems to be related to this code:\r\n\r\n`Unable to install module simplesamlphp/simplesamlphp-assets-base, package name must be on the form \"VENDOR/simplesamlphp-module-MODULENAME\".`\r\n\r\nI believe this error is being generated by composer v2.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779682027",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881#issuecomment-1779682027",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1779682027,
+                "node_id": "IC_kwDOAQXzIM5qE8rr",
+                "user": {
+                    "login": "tvdijen",
+                    "id": 841045,
+                    "node_id": "MDQ6VXNlcjg0MTA0NQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/841045?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tvdijen",
+                    "html_url": "https://github.com/tvdijen",
+                    "followers_url": "https://api.github.com/users/tvdijen/followers",
+                    "following_url": "https://api.github.com/users/tvdijen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tvdijen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tvdijen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tvdijen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tvdijen/orgs",
+                    "repos_url": "https://api.github.com/users/tvdijen/repos",
+                    "events_url": "https://api.github.com/users/tvdijen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tvdijen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T16:53:09Z",
+                "updated_at": "2023-10-25T16:53:09Z",
+                "author_association": "MEMBER",
+                "body": "Then maybe an in-place upgrade is not the best approach for you.. Hard to tell, since I have zero knowledge of Drupal.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779682027/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:53:09Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32842199257",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 111799,
+            "login": "safetypins",
+            "display_login": "safetypins",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/safetypins",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111799?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1961541077,
+                "node_id": "I_kwDOAQXzIM506r3V",
+                "number": 1881,
+                "title": "Error Installing 2.1RC",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T14:17:29Z",
+                "updated_at": "2023-10-25T16:12:52Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm working in a local docker development environment, testing an upgrade to Drupal 10. When trying to actually perform the upgrade, I get the following error, which seems to be related to this code:\r\n\r\n`Unable to install module simplesamlphp/simplesamlphp-assets-base, package name must be on the form \"VENDOR/simplesamlphp-module-MODULENAME\".`\r\n\r\nI believe this error is being generated by composer v2.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779618768",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881#issuecomment-1779618768",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1779618768,
+                "node_id": "IC_kwDOAQXzIM5qEtPQ",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T16:12:51Z",
+                "updated_at": "2023-10-25T16:12:51Z",
+                "author_association": "NONE",
+                "body": "It doesn't appear that I am able to upgrade that component separately. There's a cascade effect of dependencies that require several things, including simplesamlphp/simplesamlphp to be upgraded to the 2.1 RC at the same time as Drupal 10. Drupal 9.5 (the version I'm currently on) requires `psr/log:^1.1` and the 2.1.0-rc version of this library requires `psr/log:^3.0`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779618768/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:12:52Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32841209712",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1961541077,
+                "node_id": "I_kwDOAQXzIM506r3V",
+                "number": 1881,
+                "title": "Error Installing 2.1RC",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T14:17:29Z",
+                "updated_at": "2023-10-25T15:39:40Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm working in a local docker development environment, testing an upgrade to Drupal 10. When trying to actually perform the upgrade, I get the following error, which seems to be related to this code:\r\n\r\n`Unable to install module simplesamlphp/simplesamlphp-assets-base, package name must be on the form \"VENDOR/simplesamlphp-module-MODULENAME\".`\r\n\r\nI believe this error is being generated by composer v2.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779558280",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881#issuecomment-1779558280",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1779558280,
+                "node_id": "IC_kwDOAQXzIM5qEeeI",
+                "user": {
+                    "login": "tvdijen",
+                    "id": 841045,
+                    "node_id": "MDQ6VXNlcjg0MTA0NQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/841045?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tvdijen",
+                    "html_url": "https://github.com/tvdijen",
+                    "followers_url": "https://api.github.com/users/tvdijen/followers",
+                    "following_url": "https://api.github.com/users/tvdijen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tvdijen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tvdijen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tvdijen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tvdijen/orgs",
+                    "repos_url": "https://api.github.com/users/tvdijen/repos",
+                    "events_url": "https://api.github.com/users/tvdijen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tvdijen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T15:39:40Z",
+                "updated_at": "2023-10-25T15:39:40Z",
+                "author_association": "MEMBER",
+                "body": "Try upgrading `simplesamlphp/composer-module-installer` prior to upgrading SimpleSAMLphp.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779558280/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T15:39:41Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32838417490",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 111799,
+            "login": "safetypins",
+            "display_login": "safetypins",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/safetypins",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111799?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1881",
+                "id": 1961541077,
+                "node_id": "I_kwDOAQXzIM506r3V",
+                "number": 1881,
+                "title": "Error Installing 2.1RC",
+                "user": {
+                    "login": "safetypins",
+                    "id": 111799,
+                    "node_id": "MDQ6VXNlcjExMTc5OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111799?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/safetypins",
+                    "html_url": "https://github.com/safetypins",
+                    "followers_url": "https://api.github.com/users/safetypins/followers",
+                    "following_url": "https://api.github.com/users/safetypins/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/safetypins/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/safetypins/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/safetypins/subscriptions",
+                    "organizations_url": "https://api.github.com/users/safetypins/orgs",
+                    "repos_url": "https://api.github.com/users/safetypins/repos",
+                    "events_url": "https://api.github.com/users/safetypins/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/safetypins/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T14:17:29Z",
+                "updated_at": "2023-10-25T14:17:29Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm working in a local docker development environment, testing an upgrade to Drupal 10. When trying to actually perform the upgrade, I get the following error, which seems to be related to this code:\r\n\r\n`Unable to install module simplesamlphp/simplesamlphp-assets-base, package name must be on the form \"VENDOR/simplesamlphp-module-MODULENAME\".`\r\n\r\nI believe this error is being generated by composer v2.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1881/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:17:31Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32837439320",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15561169315,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.1",
+            "head": "296b7d8d2bd1219ccd0bdcc21fe69dc6c29d38b2",
+            "before": "791d013ac5235283fac14f79a71b52509e9cdd4e",
+            "commits": [
+                {
+                    "sha": "296b7d8d2bd1219ccd0bdcc21fe69dc6c29d38b2",
+                    "author": {
+                        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                        "name": "github-actions"
+                    },
+                    "message": "[skip ci] Auto-rebuild translations",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/296b7d8d2bd1219ccd0bdcc21fe69dc6c29d38b2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:49:35Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32837404003",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15561152417,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.2",
+            "head": "88b9da220b5395caf626a642afddc900f18146d3",
+            "before": "981d5fcf11fe54838ed7ec04a3a5d66ea0f1a37d",
+            "commits": [
+                {
+                    "sha": "88b9da220b5395caf626a642afddc900f18146d3",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Replace exceptions with assertions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/88b9da220b5395caf626a642afddc900f18146d3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:48:32Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32837399475",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15561150144,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/simplesamlphp-2.1",
+            "head": "791d013ac5235283fac14f79a71b52509e9cdd4e",
+            "before": "c0975e304acc73ba747018b82831c9155fdebae6",
+            "commits": [
+                {
+                    "sha": "791d013ac5235283fac14f79a71b52509e9cdd4e",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Replace exceptions with assertions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/791d013ac5235283fac14f79a71b52509e9cdd4e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:48:23Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32837375118",
+        "type": "PushEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "repository_id": 17167136,
+            "push_id": 15561138676,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "5f1cf0cf4cc2e851dbbb6c869ef99f707b81f985",
+            "before": "bde0dd46dee405682770fc70888093d360aa541f",
+            "commits": [
+                {
+                    "sha": "5f1cf0cf4cc2e851dbbb6c869ef99f707b81f985",
+                    "author": {
+                        "email": "tvdijen@gmail.com",
+                        "name": "Tim van Dijen"
+                    },
+                    "message": "Replace exceptions with assertions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/commits/5f1cf0cf4cc2e851dbbb6c869ef99f707b81f985"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:47:40Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32836129968",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 92458621,
+            "login": "RhiannonPurnell",
+            "display_login": "RhiannonPurnell",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RhiannonPurnell",
+            "avatar_url": "https://avatars.githubusercontent.com/u/92458621?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1880",
+                "id": 1961303548,
+                "node_id": "I_kwDOAQXzIM505x38",
+                "number": 1880,
+                "title": "Nullcheck to prevent exception being thrown when attribute is null in StatisticsWithAttribute",
+                "user": {
+                    "login": "RhiannonPurnell",
+                    "id": 92458621,
+                    "node_id": "U_kgDOBYLOfQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/92458621?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/RhiannonPurnell",
+                    "html_url": "https://github.com/RhiannonPurnell",
+                    "followers_url": "https://api.github.com/users/RhiannonPurnell/followers",
+                    "following_url": "https://api.github.com/users/RhiannonPurnell/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/RhiannonPurnell/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/RhiannonPurnell/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/RhiannonPurnell/subscriptions",
+                    "organizations_url": "https://api.github.com/users/RhiannonPurnell/orgs",
+                    "repos_url": "https://api.github.com/users/RhiannonPurnell/repos",
+                    "events_url": "https://api.github.com/users/RhiannonPurnell/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/RhiannonPurnell/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T12:26:09Z",
+                "updated_at": "2023-10-25T13:11:06Z",
+                "closed_at": "2023-10-25T13:11:06Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I've been having an exception thrown - and am adding a null check to overcome it. Perhaps not the best way to address this, but I'm just making an issue to add it as a Pull Request in case it is helpful to others.\r\n\r\nLine 48 of simplesamlphp/simplesamlphp/modules/core/src/Auth/Process/StatisticsWithAttribute.php\r\n\r\n`Invalid attribute name given to core:StatisticsWithAttribute filter.`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:11:07Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32836129710",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 92458621,
+            "login": "RhiannonPurnell",
+            "display_login": "RhiannonPurnell",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RhiannonPurnell",
+            "avatar_url": "https://avatars.githubusercontent.com/u/92458621?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1880",
+                "id": 1961303548,
+                "node_id": "I_kwDOAQXzIM505x38",
+                "number": 1880,
+                "title": "Nullcheck to prevent exception being thrown when attribute is null in StatisticsWithAttribute",
+                "user": {
+                    "login": "RhiannonPurnell",
+                    "id": 92458621,
+                    "node_id": "U_kgDOBYLOfQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/92458621?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/RhiannonPurnell",
+                    "html_url": "https://github.com/RhiannonPurnell",
+                    "followers_url": "https://api.github.com/users/RhiannonPurnell/followers",
+                    "following_url": "https://api.github.com/users/RhiannonPurnell/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/RhiannonPurnell/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/RhiannonPurnell/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/RhiannonPurnell/subscriptions",
+                    "organizations_url": "https://api.github.com/users/RhiannonPurnell/orgs",
+                    "repos_url": "https://api.github.com/users/RhiannonPurnell/repos",
+                    "events_url": "https://api.github.com/users/RhiannonPurnell/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/RhiannonPurnell/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T12:26:09Z",
+                "updated_at": "2023-10-25T13:11:06Z",
+                "closed_at": "2023-10-25T13:11:06Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I've been having an exception thrown - and am adding a null check to overcome it. Perhaps not the best way to address this, but I'm just making an issue to add it as a Pull Request in case it is helpful to others.\r\n\r\nLine 48 of simplesamlphp/simplesamlphp/modules/core/src/Auth/Process/StatisticsWithAttribute.php\r\n\r\n`Invalid attribute name given to core:StatisticsWithAttribute filter.`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779244158",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1880#issuecomment-1779244158",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880",
+                "id": 1779244158,
+                "node_id": "IC_kwDOAQXzIM5qDRx-",
+                "user": {
+                    "login": "RhiannonPurnell",
+                    "id": 92458621,
+                    "node_id": "U_kgDOBYLOfQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/92458621?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/RhiannonPurnell",
+                    "html_url": "https://github.com/RhiannonPurnell",
+                    "followers_url": "https://api.github.com/users/RhiannonPurnell/followers",
+                    "following_url": "https://api.github.com/users/RhiannonPurnell/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/RhiannonPurnell/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/RhiannonPurnell/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/RhiannonPurnell/subscriptions",
+                    "organizations_url": "https://api.github.com/users/RhiannonPurnell/orgs",
+                    "repos_url": "https://api.github.com/users/RhiannonPurnell/repos",
+                    "events_url": "https://api.github.com/users/RhiannonPurnell/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/RhiannonPurnell/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T13:11:06Z",
+                "updated_at": "2023-10-25T13:11:06Z",
+                "author_association": "NONE",
+                "body": "You're right, apologies - this is in code that has already been refactored. My composer was pinning an old dev version of this module - closing.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779244158/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:11:07Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    },
+    {
+        "id": "32834900033",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 841045,
+            "login": "tvdijen",
+            "display_login": "tvdijen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tvdijen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/841045?"
+        },
+        "repo": {
+            "id": 17167136,
+            "name": "simplesamlphp/simplesamlphp",
+            "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880",
+                "repository_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp",
+                "labels_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/labels{/name}",
+                "comments_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/comments",
+                "events_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/events",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1880",
+                "id": 1961303548,
+                "node_id": "I_kwDOAQXzIM505x38",
+                "number": 1880,
+                "title": "Nullcheck to prevent exception being thrown when attribute is null in StatisticsWithAttribute",
+                "user": {
+                    "login": "RhiannonPurnell",
+                    "id": 92458621,
+                    "node_id": "U_kgDOBYLOfQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/92458621?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/RhiannonPurnell",
+                    "html_url": "https://github.com/RhiannonPurnell",
+                    "followers_url": "https://api.github.com/users/RhiannonPurnell/followers",
+                    "following_url": "https://api.github.com/users/RhiannonPurnell/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/RhiannonPurnell/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/RhiannonPurnell/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/RhiannonPurnell/subscriptions",
+                    "organizations_url": "https://api.github.com/users/RhiannonPurnell/orgs",
+                    "repos_url": "https://api.github.com/users/RhiannonPurnell/repos",
+                    "events_url": "https://api.github.com/users/RhiannonPurnell/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/RhiannonPurnell/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T12:26:09Z",
+                "updated_at": "2023-10-25T12:33:17Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I've been having an exception thrown - and am adding a null check to overcome it. Perhaps not the best way to address this, but I'm just making an issue to add it as a Pull Request in case it is helpful to others.\r\n\r\nLine 48 of simplesamlphp/simplesamlphp/modules/core/src/Auth/Process/StatisticsWithAttribute.php\r\n\r\n`Invalid attribute name given to core:StatisticsWithAttribute filter.`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779174496",
+                "html_url": "https://github.com/simplesamlphp/simplesamlphp/issues/1880#issuecomment-1779174496",
+                "issue_url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/1880",
+                "id": 1779174496,
+                "node_id": "IC_kwDOAQXzIM5qDAxg",
+                "user": {
+                    "login": "tvdijen",
+                    "id": 841045,
+                    "node_id": "MDQ6VXNlcjg0MTA0NQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/841045?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tvdijen",
+                    "html_url": "https://github.com/tvdijen",
+                    "followers_url": "https://api.github.com/users/tvdijen/followers",
+                    "following_url": "https://api.github.com/users/tvdijen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tvdijen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tvdijen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tvdijen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tvdijen/orgs",
+                    "repos_url": "https://api.github.com/users/tvdijen/repos",
+                    "events_url": "https://api.github.com/users/tvdijen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tvdijen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T12:33:16Z",
+                "updated_at": "2023-10-25T12:33:16Z",
+                "author_association": "MEMBER",
+                "body": "I'm not sure I follow.. You're using the `core:StatisticsWithAttribute` filter, but your haven't configured the `attributename`?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/issues/comments/1779174496/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:33:17Z",
+        "org": {
+            "id": 5774640,
+            "login": "simplesamlphp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/simplesamlphp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5774640?"
+        }
+    }
+]

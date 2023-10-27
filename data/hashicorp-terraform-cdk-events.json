@@ -1,0 +1,1987 @@
+[
+    {
+        "id": "32895537303",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15590174289,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "cc2102757049b3cdc0ccd62e65875b2b3e48dd26",
+            "before": "82c81356015d2cf5047cdd4093695f2b1e7c92cb",
+            "commits": [
+                {
+                    "sha": "cc2102757049b3cdc0ccd62e65875b2b3e48dd26",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "build lambda",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/cc2102757049b3cdc0ccd62e65875b2b3e48dd26"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:23:38Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32894236846",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 88225527,
+            "login": "frankpengau",
+            "display_login": "frankpengau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/frankpengau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88225527?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:34:26Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32894160483",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15589496220,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "82c81356015d2cf5047cdd4093695f2b1e7c92cb",
+            "before": "365e4bcc234b48a6e6ee427871a341de710b75a6",
+            "commits": [
+                {
+                    "sha": "82c81356015d2cf5047cdd4093695f2b1e7c92cb",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "add lifecycle hooks to make build possible",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/82c81356015d2cf5047cdd4093695f2b1e7c92cb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:31:32Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32885738573",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3134",
+                "repository_url": "https://api.github.com/repos/hashicorp/terraform-cdk",
+                "labels_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3134/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3134/comments",
+                "events_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3134/events",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3134",
+                "id": 1900233146,
+                "node_id": "PR_kwDODd1Amc5aiCyk",
+                "number": 3134,
+                "title": "chore(deps): pin trusted workflows based on HashiCorp TSCCR",
+                "user": {
+                    "login": "hashicorp-tsccr[bot]",
+                    "id": 129506189,
+                    "node_id": "BOT_kgDOB7gbjQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/312369?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D",
+                    "html_url": "https://github.com/apps/hashicorp-tsccr",
+                    "followers_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hashicorp-tsccr%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 2209167158,
+                        "node_id": "MDU6TGFiZWwyMjA5MTY3MTU4",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/dependencies",
+                        "name": "dependencies",
+                        "color": "FF9999",
+                        "default": false,
+                        "description": "Auto-pinning"
+                    },
+                    {
+                        "id": 3136329600,
+                        "node_id": "MDU6TGFiZWwzMTM2MzI5NjAw",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/security",
+                        "name": "security",
+                        "color": "FF9999",
+                        "default": false,
+                        "description": "Auto-pinning"
+                    },
+                    {
+                        "id": 4815254908,
+                        "node_id": "LA_kwDODd1Amc8AAAABHwL1fA",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-integration",
+                        "name": "ci/run-integration",
+                        "color": "618939",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 4815256140,
+                        "node_id": "LA_kwDODd1Amc8AAAABHwL6TA",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-examples",
+                        "name": "ci/run-examples",
+                        "color": "FAD72E",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 4829091204,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVhA",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/commons",
+                        "name": "ci/run-unit/@cdktf/commons",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829091210,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVig",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/hcl2cdk",
+                        "name": "ci/run-unit/@cdktf/hcl2cdk",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829091228,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVnA",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/hcl2json",
+                        "name": "ci/run-unit/@cdktf/hcl2json",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829091233,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVoQ",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/provider-generator",
+                        "name": "ci/run-unit/@cdktf/provider-generator",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829091239,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVpw",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/cdktf-cli",
+                        "name": "ci/run-unit/cdktf-cli",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829091243,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVqw",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/cdktf",
+                        "name": "ci/run-unit/cdktf",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829471287,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9viNw",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/cli-core",
+                        "name": "ci/run-unit/@cdktf/cli-core",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4862325638,
+                        "node_id": "LA_kwDODd1Amc8AAAABIdEzhg",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/provider-integration",
+                        "name": "ci/provider-integration",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-09-18T06:07:06Z",
+                "updated_at": "2023-10-27T01:32:40Z",
+                "closed_at": "2023-09-26T09:01:11Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/pulls/3134",
+                    "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3134",
+                    "diff_url": "https://github.com/hashicorp/terraform-cdk/pull/3134.diff",
+                    "patch_url": "https://github.com/hashicorp/terraform-cdk/pull/3134.patch",
+                    "merged_at": null
+                },
+                "body": "This PR was auto-generated by [hashicorp/security-tsccr/actions/runs/6218789042](https://github.com/hashicorp/security-tsccr/actions/runs/6218789042)\n\nYou can alter the configuration of this automation via the hcl config in [hashicorp/security-tsccr/automation](https://github.com/hashicorp/security-tsccr/tree/main/automation)\n\nThis is in support of RFC SEC-090 which is due to be implemented by EOQ2 FY24.\n\nPlease do the following:\n- Approve and merge this PR if you are happy with the changes.\n- Check if there are any untrusted third-party Actions in the workflow files and onboard them to the [TSCCR](https://github.com/hashicorp/security-public-tsccr).\n- The yaml comments \"# TSCCR: no entry for repository...\" or \"# TSCCR: no version of...\" in the workflow files identifies an untrusted Action. \n- If you have to onboard any third-party Actions, update and pin your workflows using the tsccr-helper tool after the Actions have been onboarded OR reach out to #team-prodsec and we can run this automation again.\n- Verify that your Actions are still working as expected after pinning.\n\nPlease reach out to #team-prodsec if you have any questions.\n[](https://github.com/hashicorp/security-tsccr/issues/193)\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3134/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3134/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1782153927",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3134#issuecomment-1782153927",
+                "issue_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3134",
+                "id": 1782153927,
+                "node_id": "IC_kwDODd1Amc5qOYLH",
+                "user": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T01:32:40Z",
+                "updated_at": "2023-10-27T01:32:40Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "I'm going to lock this pull request because it has been closed for 30 days. This helps our maintainers find and focus on the active issues. If you've found a problem that seems related to this change, please open a new issue and complete the issue template so we can capture all the details necessary to investigate further.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1782153927/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:32:41Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32885737984",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3146",
+                "repository_url": "https://api.github.com/repos/hashicorp/terraform-cdk",
+                "labels_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3146/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3146/comments",
+                "events_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3146/events",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3146",
+                "id": 1913027697,
+                "node_id": "PR_kwDODd1Amc5bNJbm",
+                "number": 3146,
+                "title": "fix(cli): fix help template spelling",
+                "user": {
+                    "login": "ansgarm",
+                    "id": 1112056,
+                    "node_id": "MDQ6VXNlcjExMTIwNTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1112056?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ansgarm",
+                    "html_url": "https://github.com/ansgarm",
+                    "followers_url": "https://api.github.com/users/ansgarm/followers",
+                    "following_url": "https://api.github.com/users/ansgarm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ansgarm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ansgarm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ansgarm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ansgarm/orgs",
+                    "repos_url": "https://api.github.com/users/ansgarm/repos",
+                    "events_url": "https://api.github.com/users/ansgarm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ansgarm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4829471287,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9viNw",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/cli-core",
+                        "name": "ci/run-unit/@cdktf/cli-core",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-09-26T08:54:58Z",
+                "updated_at": "2023-10-27T01:32:38Z",
+                "closed_at": "2023-09-26T09:33:21Z",
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/pulls/3146",
+                    "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3146",
+                    "diff_url": "https://github.com/hashicorp/terraform-cdk/pull/3146.diff",
+                    "patch_url": "https://github.com/hashicorp/terraform-cdk/pull/3146.patch",
+                    "merged_at": "2023-09-26T09:33:21Z"
+                },
+                "body": "<!--\r\n\r\nUnless this is a very simple 1-line-of-code change, please create a new issue describing the change you're proposing first, then link to it from this PR.\r\n\r\nRead more about our process in our contributing guide: https://github.com/hashicorp/terraform-cdk/blob/main/CONTRIBUTING.md\r\n\r\n-->\r\n\r\n### Related issue\r\n\r\nFixes # <!-- INSERT ISSUE NUMBER -->\r\n\r\n### Description\r\n\r\nIn plain English, describe your approach to addressing the issue linked above. For example, if you made a particular design decision, let us know why you chose this path instead of another solution.\r\n\r\n### Checklist\r\n\r\n- [x] I have updated the PR title to match [CDKTF's style guide](https://github.com/hashicorp/terraform-cdk/blob/main/CONTRIBUTING.md#pull-requests-1)\r\n- [ ] I have run the linter on my code locally\r\n- [x] I have performed a self-review of my code\r\n- [ ] I have commented my code, particularly in hard-to-understand areas\r\n- [ ] I have made corresponding changes to the documentation if applicable\r\n- [ ] My changes generate no new warnings\r\n- [ ] I have added tests that prove my fix is effective or that my feature works if applicable\r\n- [ ] New and existing unit tests pass locally with my changes\r\n\r\n<!-- If this is still a work in progress, feel free to open a draft PR until you're able to check off all the items on the list above -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3146/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3146/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1782153892",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3146#issuecomment-1782153892",
+                "issue_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3146",
+                "id": 1782153892,
+                "node_id": "IC_kwDODd1Amc5qOYKk",
+                "user": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T01:32:37Z",
+                "updated_at": "2023-10-27T01:32:37Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "I'm going to lock this pull request because it has been closed for 30 days. This helps our maintainers find and focus on the active issues. If you've found a problem that seems related to this change, please open a new issue and complete the issue template so we can capture all the details necessary to investigate further.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1782153892/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:32:38Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32881987732",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15583222079,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "365e4bcc234b48a6e6ee427871a341de710b75a6",
+            "before": "bf6cd8bf98e141b5a8994ae2e81fc02d4ef95fd0",
+            "commits": [
+                {
+                    "sha": "365e4bcc234b48a6e6ee427871a341de710b75a6",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "allow custom constructs to connect",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/365e4bcc234b48a6e6ee427871a341de710b75a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:10:40Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32881321199",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15582888240,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "bf6cd8bf98e141b5a8994ae2e81fc02d4ef95fd0",
+            "before": "97f27a3011d1824256331c92879f2fee337b28e1",
+            "commits": [
+                {
+                    "sha": "742296935aef7b6e473e2e224745d73e05a27ba8",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "add another lambda",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/742296935aef7b6e473e2e224745d73e05a27ba8"
+                },
+                {
+                    "sha": "bf6cd8bf98e141b5a8994ae2e81fc02d4ef95fd0",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "and another lambda",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/bf6cd8bf98e141b5a8994ae2e81fc02d4ef95fd0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:38:45Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32881063362",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15582761226,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "97f27a3011d1824256331c92879f2fee337b28e1",
+            "before": "946259f88c680566ac87c0651b8f26dbb0070996",
+            "commits": [
+                {
+                    "sha": "97f27a3011d1824256331c92879f2fee337b28e1",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "remove comment",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/97f27a3011d1824256331c92879f2fee337b28e1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:26:34Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32871012392",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15577863077,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "946259f88c680566ac87c0651b8f26dbb0070996",
+            "before": "7e26c2f3ef2ba5005761924946771cd6407efdd8",
+            "commits": [
+                {
+                    "sha": "946259f88c680566ac87c0651b8f26dbb0070996",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "add stage",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/946259f88c680566ac87c0651b8f26dbb0070996"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:10:11Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32870813084",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15577768115,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "7e26c2f3ef2ba5005761924946771cd6407efdd8",
+            "before": "ddb3f17f8e27ccfec32d14a58ee3da5a7e4a0971",
+            "commits": [
+                {
+                    "sha": "7e26c2f3ef2ba5005761924946771cd6407efdd8",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "introduce api gateway",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/7e26c2f3ef2ba5005761924946771cd6407efdd8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:04:23Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32868278542",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15576539884,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "ddb3f17f8e27ccfec32d14a58ee3da5a7e4a0971",
+            "before": "bd35c535cc49e23631223b89f4f09e96b22d0f10",
+            "commits": [
+                {
+                    "sha": "ddb3f17f8e27ccfec32d14a58ee3da5a7e4a0971",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "add connections",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/ddb3f17f8e27ccfec32d14a58ee3da5a7e4a0971"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T12:49:10Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32864844075",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15574835260,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "bd35c535cc49e23631223b89f4f09e96b22d0f10",
+            "before": "74b96880f016b5baa2fbbccb6db1e4926ba1f63c",
+            "commits": [
+                {
+                    "sha": "bd35c535cc49e23631223b89f4f09e96b22d0f10",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "add database",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/bd35c535cc49e23631223b89f4f09e96b22d0f10"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:45:17Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32864509205",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1061893,
+            "login": "dfsp-spirit",
+            "display_login": "dfsp-spirit",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfsp-spirit",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1061893?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:32:37Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32864426564",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1112056,
+            "login": "ansgarm",
+            "display_login": "ansgarm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ansgarm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1112056?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205",
+                "repository_url": "https://api.github.com/repos/hashicorp/terraform-cdk",
+                "labels_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/comments",
+                "events_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/events",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/issues/3205",
+                "id": 1958050726,
+                "node_id": "I_kwDODd1Amc50tXum",
+                "number": 3205,
+                "title": "COMPONENT: allow continuous synth applications",
+                "user": {
+                    "login": "Froazin",
+                    "id": 40861351,
+                    "node_id": "MDQ6VXNlcjQwODYxMzUx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/40861351?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Froazin",
+                    "html_url": "https://github.com/Froazin",
+                    "followers_url": "https://api.github.com/users/Froazin/followers",
+                    "following_url": "https://api.github.com/users/Froazin/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Froazin/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Froazin/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Froazin/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Froazin/orgs",
+                    "repos_url": "https://api.github.com/users/Froazin/repos",
+                    "events_url": "https://api.github.com/users/Froazin/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Froazin/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1775712787,
+                        "node_id": "MDU6TGFiZWwxNzc1NzEyNzg3",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    },
+                    {
+                        "id": 2968904999,
+                        "node_id": "MDU6TGFiZWwyOTY4OTA0OTk5",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/new",
+                        "name": "new",
+                        "color": "3A7F17",
+                        "default": false,
+                        "description": "Un-triaged issue"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-23T21:26:08Z",
+                "updated_at": "2023-10-26T10:29:35Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Description\r\n\r\nHi!\r\n\r\nI think it would be helpful if the cdktf.json file did not enforce the \"app\" field, but instead returned something like \"this application does not support synthesizing via the cli, to use cdktf synth, add an app field to cdktf.json\" or something similar.\r\n\r\nI'm working on a small PoC project whereby I'm using CDKTF running behind a rest api: the point of which is to synthesize new TF configurations depending on the args supplied via rest call and drop the synthed config into a directory where a worker process then picks up the config, deploys it and checks/corrects drift with terraform-exec. The intention is that this can sit behind an internal developer platform allowing users to quickly and easily deploy applications from a GUI and the likes with little-to-no effort.\r\n\r\n![image](https://github.com/hashicorp/terraform-cdk/assets/40861351/b8d86cc3-86df-4108-bc3d-9bcf4520699e)\r\n\r\nGiven this is a rest api, the app field here is misleading to future maintainers or users of the project. It's something we can just solve with documentation for sure - but the above would effectively serve as a safety catch :) \r\n\r\n\r\n### References\r\n\r\n_No response_\r\n\r\n### Help Wanted\r\n\r\n- [ ] I'm interested in contributing a fix myself\r\n\r\n### Community Note\r\n\r\n- Please vote on this issue by adding a \ud83d\udc4d [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue to help the community and maintainers prioritize this request\r\n- Please do not leave \"+1\" or other comments that do not add relevant new information or questions, they generate extra noise for issue followers and do not help prioritize the request\r\n- If you are interested in working on this issue or have submitted a pull request, please leave a comment\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1780848206",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/issues/3205#issuecomment-1780848206",
+                "issue_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205",
+                "id": 1780848206,
+                "node_id": "IC_kwDODd1Amc5qJZZO",
+                "user": {
+                    "login": "ansgarm",
+                    "id": 1112056,
+                    "node_id": "MDQ6VXNlcjExMTIwNTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1112056?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ansgarm",
+                    "html_url": "https://github.com/ansgarm",
+                    "followers_url": "https://api.github.com/users/ansgarm/followers",
+                    "following_url": "https://api.github.com/users/ansgarm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ansgarm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ansgarm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ansgarm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ansgarm/orgs",
+                    "repos_url": "https://api.github.com/users/ansgarm/repos",
+                    "events_url": "https://api.github.com/users/ansgarm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ansgarm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T10:29:35Z",
+                "updated_at": "2023-10-26T10:29:35Z",
+                "author_association": "MEMBER",
+                "body": "Hi @Froazin \ud83d\udc4b\r\n\r\nInteresting idea! You should be able to achieve such a warning on your own by supplying\r\n`\"app\": \"echo 'Warning: This application is not supposed to be invoked via the CDKTF CLI' && exit 1\"`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1780848206/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:29:48Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32863644679",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15574233182,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "74b96880f016b5baa2fbbccb6db1e4926ba1f63c",
+            "before": "353f0513a48620344bcc0eb52c4623d20476a4c7",
+            "commits": [
+                {
+                    "sha": "74b96880f016b5baa2fbbccb6db1e4926ba1f63c",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "fix lambda",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/74b96880f016b5baa2fbbccb6db1e4926ba1f63c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:02:56Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32862019610",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15573450957,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "353f0513a48620344bcc0eb52c4623d20476a4c7",
+            "before": "4d274a9c67e9567ba151624daf19c9992e9aba98",
+            "commits": [
+                {
+                    "sha": "9deaad83b14411def55db42b95988426a2489343",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "start again with real-world l1 constructs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/9deaad83b14411def55db42b95988426a2489343"
+                },
+                {
+                    "sha": "b61ee9dae8fc111ea87d0d9154ddd48f24b3af67",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "move to real world",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/b61ee9dae8fc111ea87d0d9154ddd48f24b3af67"
+                },
+                {
+                    "sha": "353f0513a48620344bcc0eb52c4623d20476a4c7",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "fix typo",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/353f0513a48620344bcc0eb52c4623d20476a4c7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:08:25Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32861260289",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 198344,
+            "login": "anuraaga",
+            "display_login": "anuraaga",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anuraaga",
+            "avatar_url": "https://avatars.githubusercontent.com/u/198344?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3201",
+                "repository_url": "https://api.github.com/repos/hashicorp/terraform-cdk",
+                "labels_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3201/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3201/comments",
+                "events_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3201/events",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3201",
+                "id": 1954281735,
+                "node_id": "PR_kwDODd1Amc5dYc2T",
+                "number": 3201,
+                "title": "fix: include all package depdencies",
+                "user": {
+                    "login": "DanielMSchmidt",
+                    "id": 1337046,
+                    "node_id": "MDQ6VXNlcjEzMzcwNDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1337046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/DanielMSchmidt",
+                    "html_url": "https://github.com/DanielMSchmidt",
+                    "followers_url": "https://api.github.com/users/DanielMSchmidt/followers",
+                    "following_url": "https://api.github.com/users/DanielMSchmidt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/DanielMSchmidt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/DanielMSchmidt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/DanielMSchmidt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/DanielMSchmidt/orgs",
+                    "repos_url": "https://api.github.com/users/DanielMSchmidt/repos",
+                    "events_url": "https://api.github.com/users/DanielMSchmidt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/DanielMSchmidt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4829091204,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVhA",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/commons",
+                        "name": "ci/run-unit/@cdktf/commons",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829091210,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVig",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/hcl2cdk",
+                        "name": "ci/run-unit/@cdktf/hcl2cdk",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829091233,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9YVoQ",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/provider-generator",
+                        "name": "ci/run-unit/@cdktf/provider-generator",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4829471287,
+                        "node_id": "LA_kwDODd1Amc8AAAABH9viNw",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/run-unit/@cdktf/cli-core",
+                        "name": "ci/run-unit/@cdktf/cli-core",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 4862325638,
+                        "node_id": "LA_kwDODd1Amc8AAAABIdEzhg",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/ci/provider-integration",
+                        "name": "ci/provider-integration",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-20T13:20:55Z",
+                "updated_at": "2023-10-26T08:42:56Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/pulls/3201",
+                    "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3201",
+                    "diff_url": "https://github.com/hashicorp/terraform-cdk/pull/3201.diff",
+                    "patch_url": "https://github.com/hashicorp/terraform-cdk/pull/3201.patch",
+                    "merged_at": null
+                },
+                "body": "Fixes #3199\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3201/reactions",
+                    "total_count": 1,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 1,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3201/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1780672597",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/pull/3201#issuecomment-1780672597",
+                "issue_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3201",
+                "id": 1780672597,
+                "node_id": "IC_kwDODd1Amc5qIuhV",
+                "user": {
+                    "login": "anuraaga",
+                    "id": 198344,
+                    "node_id": "MDQ6VXNlcjE5ODM0NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/198344?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/anuraaga",
+                    "html_url": "https://github.com/anuraaga",
+                    "followers_url": "https://api.github.com/users/anuraaga/followers",
+                    "following_url": "https://api.github.com/users/anuraaga/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/anuraaga/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/anuraaga/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/anuraaga/subscriptions",
+                    "organizations_url": "https://api.github.com/users/anuraaga/orgs",
+                    "repos_url": "https://api.github.com/users/anuraaga/repos",
+                    "events_url": "https://api.github.com/users/anuraaga/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/anuraaga/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T08:42:56Z",
+                "updated_at": "2023-10-26T08:42:56Z",
+                "author_association": "NONE",
+                "body": "Hi @DanielMSchmidt - I was also interested in running cdktf through `yarn` and found the dependencies within `cdktf` may still be missing after this PR.\r\n\r\nThe extensions file that finally got it to work for me is this PR plus a few `cdktf` cross dependencies. Does it make sense to add them?\r\n\r\n```\r\npackageExtensions:\r\n  \"@cdktf/cli-core@*\":\r\n    dependencies:\r\n      ci-info: '^3.8.0'\r\n  \"cdktf-cli@*\":\r\n    dependencies:\r\n      \"@cdktf/node-pty-prebuilt-multiarch\": '^0.10.1-pre.11'\r\n  \"@cdktf/commons@*\":\r\n    dependencies:\r\n      strip-ansi: '^6.0.1'\r\n  \"@cdktf/hcl2cdk@*\":\r\n    dependencies:\r\n      cdktf: '^0.19.0'\r\n      codemaker: '^1.87.0'\r\n  \"@cdktf/provider-generator@*\":\r\n    dependencies:\r\n      glob: '^10.3.3'\r\n  \"@cdktf/provider-schema@*\":\r\n    dependencies:\r\n      \"@cdktf/hcl2json\": \"^0.19.0\"\r\n      deepmerge: '^4.2.2'\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/comments/1780672597/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:42:57Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32833896970",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15559422678,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "4d274a9c67e9567ba151624daf19c9992e9aba98",
+            "before": "49bba122ce32decfe1011ae0e5697ed7482b789c",
+            "commits": [
+                {
+                    "sha": "4d274a9c67e9567ba151624daf19c9992e9aba98",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "add python templating",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/4d274a9c67e9567ba151624daf19c9992e9aba98"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:00:41Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32833541164",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15559251439,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "49bba122ce32decfe1011ae0e5697ed7482b789c",
+            "before": "4a3cf7432805c176425109ecc59cc9fdddb1e660",
+            "commits": [
+                {
+                    "sha": "49bba122ce32decfe1011ae0e5697ed7482b789c",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "scope connections to a target scope",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/49bba122ce32decfe1011ae0e5697ed7482b789c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:48:04Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32831971809",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 573531,
+            "login": "mutahhir",
+            "display_login": "mutahhir",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mutahhir",
+            "avatar_url": "https://avatars.githubusercontent.com/u/573531?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "ref": "interactive-mode",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Define infrastructure resources using programming constructs and provision them using HashiCorp Terraform",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:49:21Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32829464343",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15557252028,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "4a3cf7432805c176425109ecc59cc9fdddb1e660",
+            "before": "48680f7a8d6e3e818f3c085a45a239ff4de69167",
+            "commits": [
+                {
+                    "sha": "4a3cf7432805c176425109ecc59cc9fdddb1e660",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "improve scripting a little",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/4a3cf7432805c176425109ecc59cc9fdddb1e660"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:22:49Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32829017349",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15557036748,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "48680f7a8d6e3e818f3c085a45a239ff4de69167",
+            "before": "06cf05558a0e79ddd84bf91448bbe904a6886cfe",
+            "commits": [
+                {
+                    "sha": "48680f7a8d6e3e818f3c085a45a239ff4de69167",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "move scripts to cdk.out/scripts",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/48680f7a8d6e3e818f3c085a45a239ff4de69167"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:08:07Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32828215085",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15556651724,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "06cf05558a0e79ddd84bf91448bbe904a6886cfe",
+            "before": "de24f0cd264a5849eaae91d81303569ad13b7aa8",
+            "commits": [
+                {
+                    "sha": "06cf05558a0e79ddd84bf91448bbe904a6886cfe",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "no connections but synthesizes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/06cf05558a0e79ddd84bf91448bbe904a6886cfe"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T08:41:38Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32827159250",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15556148186,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "de24f0cd264a5849eaae91d81303569ad13b7aa8",
+            "before": "0e5aeae7ed804a1d2a24df3c6b4c3be31d45a3c0",
+            "commits": [
+                {
+                    "sha": "de24f0cd264a5849eaae91d81303569ad13b7aa8",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "up until first demo",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/de24f0cd264a5849eaae91d81303569ad13b7aa8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T08:04:59Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32807313150",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15546145763,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "0e5aeae7ed804a1d2a24df3c6b4c3be31d45a3c0",
+            "before": "537bfdff1eebca6d179a221de2edec92a631254b",
+            "commits": [
+                {
+                    "sha": "0e5aeae7ed804a1d2a24df3c6b4c3be31d45a3c0",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "CLI command",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/0e5aeae7ed804a1d2a24df3c6b4c3be31d45a3c0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T15:01:40Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32805593745",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 66025667,
+            "login": "barthofu",
+            "display_login": "barthofu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/barthofu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/66025667?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T14:10:31Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32803351140",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15544250860,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "537bfdff1eebca6d179a221de2edec92a631254b",
+            "before": "04fc0a8ddbfead7e8ea40fefbf14f388dc79cd60",
+            "commits": [
+                {
+                    "sha": "537bfdff1eebca6d179a221de2edec92a631254b",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "bring scalability into the game",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/537bfdff1eebca6d179a221de2edec92a631254b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T13:00:25Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32800816463",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15542973960,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "04fc0a8ddbfead7e8ea40fefbf14f388dc79cd60",
+            "before": "6c335298229122368df4d33f758f7aa4850a283e",
+            "commits": [
+                {
+                    "sha": "04fc0a8ddbfead7e8ea40fefbf14f388dc79cd60",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "WIP",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/04fc0a8ddbfead7e8ea40fefbf14f388dc79cd60"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T11:26:02Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32797890607",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1337046,
+            "login": "DanielMSchmidt",
+            "display_login": "DanielMSchmidt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanielMSchmidt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1337046?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "repository_id": 232603801,
+            "push_id": 15541530533,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/prototype-building-blocks",
+            "head": "6c335298229122368df4d33f758f7aa4850a283e",
+            "before": "ad6df36bef9461ed6ae4b271d3077256eb786968",
+            "commits": [
+                {
+                    "sha": "6c335298229122368df4d33f758f7aa4850a283e",
+                    "author": {
+                        "email": "danielmschmidt92@gmail.com",
+                        "name": "Daniel Schmidt"
+                    },
+                    "message": "seperate responsibilities",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/commits/6c335298229122368df4d33f758f7aa4850a283e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T09:30:59Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    },
+    {
+        "id": "32785477726",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 40861351,
+            "login": "Froazin",
+            "display_login": "Froazin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Froazin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/40861351?"
+        },
+        "repo": {
+            "id": 232603801,
+            "name": "hashicorp/terraform-cdk",
+            "url": "https://api.github.com/repos/hashicorp/terraform-cdk"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205",
+                "repository_url": "https://api.github.com/repos/hashicorp/terraform-cdk",
+                "labels_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/comments",
+                "events_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/events",
+                "html_url": "https://github.com/hashicorp/terraform-cdk/issues/3205",
+                "id": 1958050726,
+                "node_id": "I_kwDODd1Amc50tXum",
+                "number": 3205,
+                "title": "COMPONENT: allow continuous sync applications",
+                "user": {
+                    "login": "Froazin",
+                    "id": 40861351,
+                    "node_id": "MDQ6VXNlcjQwODYxMzUx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/40861351?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Froazin",
+                    "html_url": "https://github.com/Froazin",
+                    "followers_url": "https://api.github.com/users/Froazin/followers",
+                    "following_url": "https://api.github.com/users/Froazin/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Froazin/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Froazin/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Froazin/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Froazin/orgs",
+                    "repos_url": "https://api.github.com/users/Froazin/repos",
+                    "events_url": "https://api.github.com/users/Froazin/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Froazin/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1775712787,
+                        "node_id": "MDU6TGFiZWwxNzc1NzEyNzg3",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    },
+                    {
+                        "id": 2968904999,
+                        "node_id": "MDU6TGFiZWwyOTY4OTA0OTk5",
+                        "url": "https://api.github.com/repos/hashicorp/terraform-cdk/labels/new",
+                        "name": "new",
+                        "color": "3A7F17",
+                        "default": false,
+                        "description": "Un-triaged issue"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-23T21:26:08Z",
+                "updated_at": "2023-10-23T21:26:08Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Description\n\nHi!\r\n\r\nI'm working on a small PoC project whereby I'm using CDKTF running behind a rest api: the point of which is to synthesize new TF configurations depending on the args supplied via rest call and drop the synthed config into a directory where a worker process then picks up the config, deploys it and checks/corrects drift with terraform-exec. The intention is that this can sit behind an internal developer platform allowing users to quickly and easily deploy applications from a GUI and the likes with little-to-no effort.\r\n\r\nI think it would be helpful if the cdktf.json file did not enforce the \"app\" field, but instead returned something like \"this application does not support synthesizing via the cli, to use cdktf synth, add an app field to cdktf.json\" or something similar:\r\n\r\n![image](https://github.com/hashicorp/terraform-cdk/assets/40861351/b8d86cc3-86df-4108-bc3d-9bcf4520699e)\r\n\r\nGiven this is a rest api, the app field here is misleading to future maintainers or users of the project. It's something we can just solve with documentation for sure - but the above would effectively serve as a safety catch :) \r\n\r\nI'm aware that Pulumi can solve this problem, but to make the platform as accessible as possible, the intention is that a small team of DevOps Engineers can submit plain old terraform configs to us, and we just upload the package and be done with it, rather than bog down devs time translating their requirements into Go or what have you.\r\n\r\nJust to illustrate the use case a little further I have included some of the readme from the project below:\r\n\r\n## Schema\r\n| Method | Endpoint | Description |\r\n| --- | --- | --- |\r\n| GET | [/modules](#get-modules) | Returns a list of all available deployment module categories |\r\n| GET | [/modules/:category](#get-modulescategory) | Returns a list of all available deployment modules and their versions within a category |\r\n| GET | [/modules/:category/:module](#get-modulescategorymodule) | Returns the available versions for the specified module |\r\n| GET | [/modules/:category/:module/:version](#get-modulescategorymoduleversion) | Returns information about the specified module including the required variables |\r\n| GET | [/deployments/:category/:module/:version](#get-deploymentscategorymoduleversion) | Returns a list of all deployments for the specified module |\r\n| GET | [/deployments/:category/:module/:version/:id](#get-deploymentscategorymoduleversionid) | Returns the status of a given deployment and all deployed resources within the deployment using the specified module and ID | \r\n| POST | [/deployments/:category/:module/:version/:id](#post-deploymentscategorymoduleversionid) | Create a new deployment using the specified module and ID |\r\n| PUT | [/deployments/:category/:module/:version/:id](#put-deploymentscategorymoduleversionid) | Add or modify the input variables for a deployment using the specified module and ID |\r\n| DELETE | [/deployments/:category/:module/:version/:id](#delete-deploymentscategorymoduleversionid) | Deletes a deployment using the specified module and ID |\r\n\r\n## Modules\r\nThe modules endpoint is used to view the available deployment modules.  \r\n\r\n### __GET__ `/modules`\r\nThis endpoint is used to view all available deployment module categories. The endpoint accepts a GET request and returns a JSON array of module categories.\r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 200 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X GET https://deploy.uea.ac.uk/modules | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method GET -Uri \"https://deploy.uea.ac.uk/modules\" | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/modules\"\r\n\r\nresponse = requests.request(method=\"GET\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n#### Response\r\n```json\r\n{\r\n  \"categories\": [\r\n    \"newrelic\",\r\n    \"opsgenie\"\r\n  ],\r\n  \"count\": 2\r\n}\r\n```\r\n\r\n### __GET__ `/modules/:category`\r\nThis endpoint is used to view all available deployment modules within a category. The endpoint accepts a GET request and returns a JSON array of module names.\r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 200 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified category does not exist |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X GET https://deploy.uea.ac.uk/modules/newrelic | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method GET -Uri \"https://deploy.uea.ac.uk/modules/newrelic\" | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/modules/newrelic\"\r\n\r\nresponse = requests.request(method=\"GET\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n#### Response\r\n```json\r\n{\r\n  \"count\": 6,\r\n  \"modules\": [\r\n    \"account\",\r\n    \"workload\",\r\n    \"maintenance-window\",\r\n    \"...\",\r\n  ]\r\n}\r\n```\r\n\r\n### __GET__ `/modules/:category/:module`\r\nThis endpoint is used to view all available versions for a given module. The endpoint accepts a GET request and returns a JSON array of module versions.\r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 200 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified module does not exist |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X GET https://deploy.uea.ac.uk/modules/newrelic/account | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method GET -Uri \"https://deploy.uea.ac.uk/modules/newrelic/account\" | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/modules/newrelic/account\"\r\n\r\nresponse = requests.request(method=\"GET\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n#### Response\r\n```json\r\n{\r\n  \"count\": 2,\r\n  \"versions\": {\r\n    \"v1\": \"deprecated\",\r\n    \"v2\": \"available\",\r\n  }\r\n}\r\n```\r\n\r\n### __GET__ `/modules/:category/:module/:version`\r\nThis endpoint is used to view information about a given module. The endpoint accepts a GET request and returns a JSON object with the module name, version, and required variables.\r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 200 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified module or version does not exist |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X GET https://deploy.uea.ac.uk/modules/newrelic/account/v1 | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method GET -Uri \"https://deploy.uea.ac.uk/modules/newrelic/account/v1\" | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/modules/newrelic/account/v1\"\r\n\r\nresponse = requests.request(method=\"GET\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n#### Response\r\n```json\r\n{\r\n  \"category\": \"newrelic\",\r\n  \"description\": \"Creates a New Relic account\",\r\n  \"name\": \"account\",\r\n  \"variables\": [\r\n    {\r\n      \"name\": \"account_name\",\r\n      \"type\": \"string\",\r\n      \"required\": true\r\n    },\r\n    {\r\n      \"name\": \"account_id\",\r\n      \"type\": \"string\",\r\n      \"required\": true\r\n    }\r\n  ],\r\n  \"version\": \"v1\"\r\n}\r\n```\r\n  \r\n## Deployments\r\nThe deployments endpoint is used to view, create, modify, and delete deployments. The endpoint accepts a GET, POST, PUT, or DELETE request and returns a JSON object. The JSON object contains the deployment ID, the module name, the input variables, and the output variables. The input variables are the variables that are passed to the module when it is synthesized and the resulting Terraform configuration is stored as an encrypted blob in Azure Storage. Submitting a PUT request to a deployment will trigger the synthesis of a new Terraform configuration using the input variables. The resulting Terraform configuration is then asynchonously applied to the target environment. The input variables are validated against the required variables for the module. If a required variable is missing, the deployment will fail. The deployment ID is automatically generated when a new deployment is created. The deployment ID is used to identify the deployment when modifying or deleting a deployment. The deployment ID is also used to identify the deployment when viewing the output variables.  \r\n\r\n### __GET__ `/deployments/:category/:module/:version`  \r\nThis endpoint is used to view all deployments for a given module and their current status. The endpoint accepts a GET request and returns a JSON array of deployment IDs. To view the output variables and the deployed resources for a deployment, use the `GET /deployments/:category/:module/:version/:id` endpoint.  \r\n\r\nThe status of a deployment can be one of the following:\r\n- `created`: The deployment has been created\r\n- `waiting`: The deployment is waiting to be processed\r\n- `deploying`: The deployment is being deployed by Terraform\r\n- `deployed`: The deployment has been deployed by Terraform\r\n- `failed`: The deployment has failed\r\n- `destroying`: The deployment is being destroyed by Terraform\r\n- `destroyed`: The deployment has been destroyed by Terraform\r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 200 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified module does not exist |\r\n| 429 | The request was throttled |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X GET https://deploy.uea.ac.uk/deployments/newrelic/account/v1 | jq\r\n```\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method GET -Uri \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1\" | ConvertFrom-Json\r\n```\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1\"\r\n\r\nresponse = requests.request(method=\"GET\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n#### Response\r\n```json\r\n{\r\n  \"count\": 3,\r\n  \"deployments\": [\r\n    {\r\n      \"id\": \"123\",\r\n      \"status\": \"deployed\"\r\n    },\r\n    {\r\n      \"id\": \"456\",\r\n      \"status\": \"waiting\"\r\n    },\r\n    {\r\n      \"id\": \"789\",\r\n      \"status\": \"failed\"\r\n    }\r\n  ]\r\n}\r\n```\r\n\r\n### __GET__ `/deployments/:category/:module/:version/:id`\r\nThis endpoint is used to view the output variables and the deployed resources for a given deployment. The endpoint accepts a GET request and returns a JSON object with the deployment ID, the module name, the output variables, and the deployed resources. The output variables are the variables that are returned by the module when it is deployed using Terraform. The deployed resources are the resources that were created by Terraform when the module was deployed. The output variables and the deployed resources are stored as an encrypted blob in Azure Storage. The deployment ID is used to identify the deployment when viewing the output variables and the deployed resources.  \r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 200 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified module or deployment does not exist |\r\n| 429 | The request was throttled |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X GET https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123 | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method GET -Uri \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\" | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\"\r\n\r\nresponse = requests.request(method=\"GET\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n#### Response\r\n```json\r\n{\r\n  \"category\": \"newrelic\",\r\n  \"id\": \"123\",\r\n  \"module\": \"account\",\r\n  \"output\": {\r\n    \"account_id\": \"123456\",\r\n    \"account_name\": \"my-account\"\r\n  },\r\n  \"resources\": [\r\n    {\r\n      \"id\": \"123456\",\r\n      \"name\": \"my-account\",\r\n      \"type\": \"newrelic_account\"\r\n    }\r\n  ],\r\n  \"status\": \"deployed\",\r\n  \"version\": \"v1\"\r\n}\r\n```\r\n\r\n### __POST__ `/deployments/:category/:module/:version/:id`\r\nThis endpoint is used to create a new deployment. The endpoint accepts a POST request and returns a JSON object with the deployment ID and status, and the module name, category and version. The deployment ID must be unique is used to identify the deployment when modifying or deleting a deployment, or to identify the deployment when viewing the output variables. Once a deployment is created, the input variables need to be supplied to the deployment using the [`PUT /deployments/:category/:module/:version/:id`](#put-deploymentscategorymoduleversionid) endpoint.  \r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 201 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified module or version does not exist |\r\n| 409 | The specified deployment id already exists |\r\n| 429 | The request was throttled |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X POST https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123 -H \"Content-Type: application/json\" | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method POST -Uri \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\" -Headers @{\"Content-Type\"=\"application/json\"} | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\"\r\n\r\nresponse = requests.request(method=\"POST\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n##### Response\r\n```json\r\n{\r\n  \"id\": \"123\",\r\n  \"status\": \"created\",\r\n  \"category\": \"newrelic\",\r\n  \"module\": \"account\",\r\n  \"version\": \"v1\"\r\n}\r\n```\r\n\r\n### __PUT__ `/deployments/:category/:module/:version/:id`\r\nThis endpoint is used to modify the input variables for a given deployment. The endpoint accepts a PUT request and returns a JSON object with the deployment ID and status, and the module name, category and version. The input variables are the variables that are passed to the module when it is synthesized and the resulting Terraform configuration is stored as an encrypted blob in Azure Storage. Submitting a PUT request to a deployment will trigger the synthesis of a new Terraform configuration using the input variables. The resulting Terraform configuration is then asynchonously applied to the target environment. The input variables are validated against the required variables for the module that can be obtained using the [`GET /modules/:category/:module/:version`](#get-modulescategorymoduleversion) endpoint. If a required variable is missing, the deployment will fail. The deployment ID is used to identify the deployment when modifying or deleting a deployment, or to identify the deployment when viewing the output variables.\r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 202 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified module, version or deployment does not exist |\r\n| 429 | The request was throttled |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X PUT https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123 -H \"Content-Type: application/json\" -d '{\"account_name\": \"my-account\", \"account_id\": \"123456\"}' | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method PUT -Uri \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\" -Headers @{\"Content-Type\"=\"application/json\"} -Body '{\"account_name\": \"my-account\", \"account_id\": \"123456\"}' | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\"\r\n\r\nresponse = requests.request(method=\"PUT\", url=url, headers={\"Content-Type\": \"application/json\"}, data='{\"account_name\": \"my-account\", \"account_id\": \"123456\"}')\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n##### Response\r\n```json\r\n{\r\n  \"id\": \"123\",\r\n  \"status\": \"waiting\",\r\n  \"category\": \"newrelic\",\r\n  \"module\": \"account\",\r\n  \"version\": \"v1\"\r\n}\r\n```\r\n\r\n### __DELETE__ `/deployments/:category/:module/:version/:id`\r\nThis endpoint is used to delete a given deployment. The endpoint accepts a DELETE request and returns a JSON object with the deployment ID and status, and the module name, category and version. The deployment ID is used to identify the deployment when modifying or deleting a deployment, or to identify the deployment when viewing the output variables. This endpoint equates to running [`terraform --destroy apply`](https://developer.hashicorp.com/terraform/cli/commands/destroy) on the deployment and is an asynchronous process. Use [`GET /deployments/:category/:module/:version/:id`](#get-deploymentscategorymoduleversionid) to view the status of the deployment. Calling [`PUT /deployments/:category/:module/:version/:id`](#put-deploymentscategorymoduleversionid) on a deployment that has been deleted will re-create the deployment and re-apply the Terraform configuration.  \r\n\r\n#### Status Codes\r\n| Status Code | Description |\r\n| --- | --- |\r\n| 202 | The request was successful |\r\n| 400 | The request was invalid |\r\n| 401 | The request was not authorized |\r\n| 404 | The specified module, version or deployment does not exist |\r\n| 429 | The request was throttled |\r\n| 500 | The request could not be completed |\r\n\r\n##### Request\r\n###### _Bash_\r\n```bash\r\ncurl -X DELETE https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123 | jq\r\n```\r\n\r\n###### _Powershell_\r\n```powershell\r\nInvoke-WebRequest -Method DELETE -Uri \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\" | ConvertFrom-Json\r\n```\r\n\r\n###### _Python_\r\n```python\r\nimport requests\r\nimport json\r\n\r\nurl = \"https://deploy.uea.ac.uk/deployments/newrelic/account/v1/123\"\r\n\r\nresponse = requests.request(method=\"DELETE\", url=url, headers={\"Content-Type\": \"application/json\"})\r\n\r\nprint(json.dumps(json.loads(response.text), sort_keys=True, indent=2, separators=(\",\", \": \")))\r\n```\r\n\r\n##### Response\r\n```json\r\n{\r\n  \"id\": \"123\",\r\n  \"status\": \"waiting\",\r\n  \"category\": \"newrelic\",\r\n  \"module\": \"account\",\r\n  \"version\": \"v1\"\r\n}\r\n```\r\n\n\n### References\n\n_No response_\n\n### Help Wanted\n\n- [ ] I'm interested in contributing a fix myself\n\n### Community Note\n\n- Please vote on this issue by adding a \ud83d\udc4d [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue to help the community and maintainers prioritize this request\r\n- Please do not leave \"+1\" or other comments that do not add relevant new information or questions, they generate extra noise for issue followers and do not help prioritize the request\r\n- If you are interested in working on this issue or have submitted a pull request, please leave a comment\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hashicorp/terraform-cdk/issues/3205/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T21:26:10Z",
+        "org": {
+            "id": 761456,
+            "login": "hashicorp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hashicorp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/761456?"
+        }
+    }
+]

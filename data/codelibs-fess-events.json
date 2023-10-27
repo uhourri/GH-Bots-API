@@ -1,0 +1,2468 @@
+[
+    {
+        "id": "32884722035",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2855663,
+            "login": "yasuflatland-lf",
+            "display_login": "yasuflatland-lf",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yasuflatland-lf",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2855663?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:12:13Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32834762234",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2776",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2776/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2776/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2776/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2776",
+                "id": 1961305498,
+                "node_id": "I_kwDOAMNWvc505yWa",
+                "number": 2776,
+                "title": "Exception Handling Tweaks in PluginHelper",
+                "user": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 64698471,
+                        "node_id": "MDU6TGFiZWw2NDY5ODQ3MQ==",
+                        "url": "https://api.github.com/repos/codelibs/fess/labels/improvement",
+                        "name": "improvement",
+                        "color": "207de5",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/codelibs/fess/milestones/164",
+                    "html_url": "https://github.com/codelibs/fess/milestone/164",
+                    "labels_url": "https://api.github.com/repos/codelibs/fess/milestones/164/labels",
+                    "id": 10104758,
+                    "node_id": "MI_kwDOAMNWvc4Ami-2",
+                    "number": 164,
+                    "title": "14.11.1",
+                    "description": "",
+                    "creator": {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 0,
+                    "closed_issues": 1,
+                    "state": "open",
+                    "created_at": "2023-10-25T12:19:47Z",
+                    "updated_at": "2023-10-25T12:28:50Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 0,
+                "created_at": "2023-10-25T12:27:11Z",
+                "updated_at": "2023-10-25T12:28:50Z",
+                "closed_at": "2023-10-25T12:28:49Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "A minor adjustment has been made to the exception handling in `PluginHelper`. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2776/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2776/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:28:50Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32834761369",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15559847595,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "2bc92694bc973c3122ccbe25f6712013db93f738",
+            "before": "2d07323b8caeded0054779e5ac5767413bf3f95a",
+            "commits": [
+                {
+                    "sha": "2bc92694bc973c3122ccbe25f6712013db93f738",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "fix #2776 Tweak exception handling in PluginHelper for better clarity.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/2bc92694bc973c3122ccbe25f6712013db93f738"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:28:49Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32834712791",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2776",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2776/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2776/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2776/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2776",
+                "id": 1961305498,
+                "node_id": "I_kwDOAMNWvc505yWa",
+                "number": 2776,
+                "title": "Exception Handling Tweaks in PluginHelper",
+                "user": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 64698471,
+                        "node_id": "MDU6TGFiZWw2NDY5ODQ3MQ==",
+                        "url": "https://api.github.com/repos/codelibs/fess/labels/improvement",
+                        "name": "improvement",
+                        "color": "207de5",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/codelibs/fess/milestones/164",
+                    "html_url": "https://github.com/codelibs/fess/milestone/164",
+                    "labels_url": "https://api.github.com/repos/codelibs/fess/milestones/164/labels",
+                    "id": 10104758,
+                    "node_id": "MI_kwDOAMNWvc4Ami-2",
+                    "number": 164,
+                    "title": "14.11.1",
+                    "description": "",
+                    "creator": {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 1,
+                    "closed_issues": 0,
+                    "state": "open",
+                    "created_at": "2023-10-25T12:19:47Z",
+                    "updated_at": "2023-10-25T12:27:11Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 0,
+                "created_at": "2023-10-25T12:27:11Z",
+                "updated_at": "2023-10-25T12:27:11Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "A minor adjustment has been made to the exception handling in `PluginHelper`. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2776/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2776/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:27:13Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32794181519",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 18652781,
+            "login": "rowankid",
+            "display_login": "rowankid",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rowankid",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18652781?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T07:09:15Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32793290898",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 141124438,
+            "login": "araitgg",
+            "display_login": "araitgg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/araitgg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/141124438?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709158352,
+                "node_id": "R_kgDOKkTl0A",
+                "name": "fess",
+                "full_name": "araitgg/fess",
+                "private": false,
+                "owner": {
+                    "login": "araitgg",
+                    "id": 141124438,
+                    "node_id": "U_kgDOCGljVg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/141124438?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/araitgg",
+                    "html_url": "https://github.com/araitgg",
+                    "followers_url": "https://api.github.com/users/araitgg/followers",
+                    "following_url": "https://api.github.com/users/araitgg/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/araitgg/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/araitgg/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/araitgg/subscriptions",
+                    "organizations_url": "https://api.github.com/users/araitgg/orgs",
+                    "repos_url": "https://api.github.com/users/araitgg/repos",
+                    "events_url": "https://api.github.com/users/araitgg/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/araitgg/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/araitgg/fess",
+                "description": "Fess is very powerful and easily deployable Enterprise Search Server.",
+                "fork": true,
+                "url": "https://api.github.com/repos/araitgg/fess",
+                "forks_url": "https://api.github.com/repos/araitgg/fess/forks",
+                "keys_url": "https://api.github.com/repos/araitgg/fess/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/araitgg/fess/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/araitgg/fess/teams",
+                "hooks_url": "https://api.github.com/repos/araitgg/fess/hooks",
+                "issue_events_url": "https://api.github.com/repos/araitgg/fess/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/araitgg/fess/events",
+                "assignees_url": "https://api.github.com/repos/araitgg/fess/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/araitgg/fess/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/araitgg/fess/tags",
+                "blobs_url": "https://api.github.com/repos/araitgg/fess/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/araitgg/fess/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/araitgg/fess/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/araitgg/fess/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/araitgg/fess/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/araitgg/fess/languages",
+                "stargazers_url": "https://api.github.com/repos/araitgg/fess/stargazers",
+                "contributors_url": "https://api.github.com/repos/araitgg/fess/contributors",
+                "subscribers_url": "https://api.github.com/repos/araitgg/fess/subscribers",
+                "subscription_url": "https://api.github.com/repos/araitgg/fess/subscription",
+                "commits_url": "https://api.github.com/repos/araitgg/fess/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/araitgg/fess/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/araitgg/fess/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/araitgg/fess/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/araitgg/fess/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/araitgg/fess/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/araitgg/fess/merges",
+                "archive_url": "https://api.github.com/repos/araitgg/fess/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/araitgg/fess/downloads",
+                "issues_url": "https://api.github.com/repos/araitgg/fess/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/araitgg/fess/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/araitgg/fess/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/araitgg/fess/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/araitgg/fess/labels{/name}",
+                "releases_url": "https://api.github.com/repos/araitgg/fess/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/araitgg/fess/deployments",
+                "created_at": "2023-10-24T06:23:17Z",
+                "updated_at": "2023-10-24T06:23:17Z",
+                "pushed_at": "2023-10-21T04:08:02Z",
+                "git_url": "git://github.com/araitgg/fess.git",
+                "ssh_url": "git@github.com:araitgg/fess.git",
+                "clone_url": "https://github.com/araitgg/fess.git",
+                "svn_url": "https://github.com/araitgg/fess",
+                "homepage": "https://fess.codelibs.org",
+                "size": 48896,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T06:23:17Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32738046522",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15508528067,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "2d07323b8caeded0054779e5ac5767413bf3f95a",
+            "before": "96c3bf0c126517c320ece384e3e3c9fb2f707e03",
+            "commits": [
+                {
+                    "sha": "2d07323b8caeded0054779e5ac5767413bf3f95a",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "update doc",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/2d07323b8caeded0054779e5ac5767413bf3f95a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-21T04:08:03Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32691389190",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/codelibs/fess/releases/125795114",
+                "assets_url": "https://api.github.com/repos/codelibs/fess/releases/125795114/assets",
+                "upload_url": "https://uploads.github.com/repos/codelibs/fess/releases/125795114/assets{?name,label}",
+                "html_url": "https://github.com/codelibs/fess/releases/tag/fess-14.11.0",
+                "id": 125795114,
+                "author": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAMNWvc4Hf3sq",
+                "tag_name": "fess-14.11.0",
+                "target_commitish": "master",
+                "name": "Fess 14.11.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-10-19T12:41:03Z",
+                "published_at": "2023-10-19T12:58:46Z",
+                "assets": [
+                    {
+                        "url": "https://api.github.com/repos/codelibs/fess/releases/assets/131364822",
+                        "id": 131364822,
+                        "node_id": "RA_kwDOAMNWvc4H1HfW",
+                        "name": "fess-14.11.0.deb",
+                        "label": null,
+                        "uploader": {
+                            "login": "marevol",
+                            "id": 1281544,
+                            "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/marevol",
+                            "html_url": "https://github.com/marevol",
+                            "followers_url": "https://api.github.com/users/marevol/followers",
+                            "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                            "organizations_url": "https://api.github.com/users/marevol/orgs",
+                            "repos_url": "https://api.github.com/users/marevol/repos",
+                            "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/marevol/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "content_type": "application/octet-stream",
+                        "state": "uploaded",
+                        "size": 318023960,
+                        "download_count": 0,
+                        "created_at": "2023-10-19T12:56:21Z",
+                        "updated_at": "2023-10-19T12:56:40Z",
+                        "browser_download_url": "https://github.com/codelibs/fess/releases/download/fess-14.11.0/fess-14.11.0.deb"
+                    },
+                    {
+                        "url": "https://api.github.com/repos/codelibs/fess/releases/assets/131364956",
+                        "id": 131364956,
+                        "node_id": "RA_kwDOAMNWvc4H1Hhc",
+                        "name": "fess-14.11.0.rpm",
+                        "label": null,
+                        "uploader": {
+                            "login": "marevol",
+                            "id": 1281544,
+                            "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/marevol",
+                            "html_url": "https://github.com/marevol",
+                            "followers_url": "https://api.github.com/users/marevol/followers",
+                            "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                            "organizations_url": "https://api.github.com/users/marevol/orgs",
+                            "repos_url": "https://api.github.com/users/marevol/repos",
+                            "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/marevol/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "content_type": "application/octet-stream",
+                        "state": "uploaded",
+                        "size": 318443094,
+                        "download_count": 0,
+                        "created_at": "2023-10-19T12:56:59Z",
+                        "updated_at": "2023-10-19T12:57:20Z",
+                        "browser_download_url": "https://github.com/codelibs/fess/releases/download/fess-14.11.0/fess-14.11.0.rpm"
+                    },
+                    {
+                        "url": "https://api.github.com/repos/codelibs/fess/releases/assets/131364879",
+                        "id": 131364879,
+                        "node_id": "RA_kwDOAMNWvc4H1HgP",
+                        "name": "fess-14.11.0.zip",
+                        "label": null,
+                        "uploader": {
+                            "login": "marevol",
+                            "id": 1281544,
+                            "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/marevol",
+                            "html_url": "https://github.com/marevol",
+                            "followers_url": "https://api.github.com/users/marevol/followers",
+                            "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                            "organizations_url": "https://api.github.com/users/marevol/orgs",
+                            "repos_url": "https://api.github.com/users/marevol/repos",
+                            "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/marevol/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "content_type": "application/zip",
+                        "state": "uploaded",
+                        "size": 321226989,
+                        "download_count": 0,
+                        "created_at": "2023-10-19T12:56:40Z",
+                        "updated_at": "2023-10-19T12:56:59Z",
+                        "browser_download_url": "https://github.com/codelibs/fess/releases/download/fess-14.11.0/fess-14.11.0.zip"
+                    }
+                ],
+                "tarball_url": "https://api.github.com/repos/codelibs/fess/tarball/fess-14.11.0",
+                "zipball_url": "https://api.github.com/repos/codelibs/fess/zipball/fess-14.11.0",
+                "body": "The CodeLibs Project is pleased to announce that Fess 14.11 release is now available.\r\nFess is a very powerful and easily deployable Enterprise Full Text Search Server, \r\nand you can install and run it quickly on any platform with a Java runtime environment.\r\nThis release supports OpenSearch 2.11 as a search engine and\r\nprovides Web Crawling, Shared Folder Crawling, and DB Crawling features.\r\nAll feedback and contributions are welcome.\r\nPlease create [a new topic](https://discuss.codelibs.org/c/fessen/) in case of a problem or question\r\nand also, code contributions are welcome via pull requests.",
+                "short_description_html": "<p>The CodeLibs Project is pleased to announce that Fess 14.11 release is now available.<br>\nFess is a very powerful and easily deployable Enterprise Full Text Search Server,<br>\nand you can install and run i\u2026</p>",
+                "is_short_description_html_truncated": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T12:58:47Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32690813066",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15484537859,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "96c3bf0c126517c320ece384e3e3c9fb2f707e03",
+            "before": "7ab6fd477137730514bae00e0cbe32f28de1beaf",
+            "commits": [
+                {
+                    "sha": "96c3bf0c126517c320ece384e3e3c9fb2f707e03",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "[maven-release-plugin] prepare for next development iteration",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/96c3bf0c126517c320ece384e3e3c9fb2f707e03"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T12:41:10Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32690811808",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "ref": "fess-14.11.0",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "Fess is very powerful and easily deployable Enterprise Search Server.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T12:41:07Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32690809838",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15484536218,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7ab6fd477137730514bae00e0cbe32f28de1beaf",
+            "before": "8a36e4aef31b5ba773cfdce586acded6956ea3f8",
+            "commits": [
+                {
+                    "sha": "7ab6fd477137730514bae00e0cbe32f28de1beaf",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "[maven-release-plugin] prepare release fess-14.11.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/7ab6fd477137730514bae00e0cbe32f28de1beaf"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T12:41:04Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32682649482",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15480622233,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "8a36e4aef31b5ba773cfdce586acded6956ea3f8",
+            "before": "eec6740eba91b52bbc55b5c188fef64b4e2d1b04",
+            "commits": [
+                {
+                    "sha": "8a36e4aef31b5ba773cfdce586acded6956ea3f8",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "fess-script-groovy 14.11.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/8a36e4aef31b5ba773cfdce586acded6956ea3f8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T08:05:06Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32681825462",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2775",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2775/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2775/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2775/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2775",
+                "id": 1951493991,
+                "node_id": "I_kwDOAMNWvc50UW9n",
+                "number": 2775,
+                "title": "Upgrade tasks for 14.11",
+                "user": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 64836479,
+                        "node_id": "MDU6TGFiZWw2NDgzNjQ3OQ==",
+                        "url": "https://api.github.com/repos/codelibs/fess/labels/task",
+                        "name": "task",
+                        "color": "009800",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/codelibs/fess/milestones/163",
+                    "html_url": "https://github.com/codelibs/fess/milestone/163",
+                    "labels_url": "https://api.github.com/repos/codelibs/fess/milestones/163/labels",
+                    "id": 10016501,
+                    "node_id": "MI_kwDOAMNWvc4AmNb1",
+                    "number": 163,
+                    "title": "14.11.0",
+                    "description": "",
+                    "creator": {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 0,
+                    "closed_issues": 6,
+                    "state": "open",
+                    "created_at": "2023-10-08T13:18:20Z",
+                    "updated_at": "2023-10-19T07:34:48Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 0,
+                "created_at": "2023-10-19T07:33:55Z",
+                "updated_at": "2023-10-19T07:34:48Z",
+                "closed_at": "2023-10-19T07:34:48Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2775/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2775/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T07:34:49Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32681824919",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15480228658,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "eec6740eba91b52bbc55b5c188fef64b4e2d1b04",
+            "before": "8ecf5055d3edbcc4853f6036eb3e5a95bace094d",
+            "commits": [
+                {
+                    "sha": "eec6740eba91b52bbc55b5c188fef64b4e2d1b04",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "fix #2775 upgrade tasks for 14.11",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/eec6740eba91b52bbc55b5c188fef64b4e2d1b04"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T07:34:47Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32681801769",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2775",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2775/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2775/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2775/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2775",
+                "id": 1951493991,
+                "node_id": "I_kwDOAMNWvc50UW9n",
+                "number": 2775,
+                "title": "Upgrade tasks for 14.11",
+                "user": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 64836479,
+                        "node_id": "MDU6TGFiZWw2NDgzNjQ3OQ==",
+                        "url": "https://api.github.com/repos/codelibs/fess/labels/task",
+                        "name": "task",
+                        "color": "009800",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/codelibs/fess/milestones/163",
+                    "html_url": "https://github.com/codelibs/fess/milestone/163",
+                    "labels_url": "https://api.github.com/repos/codelibs/fess/milestones/163/labels",
+                    "id": 10016501,
+                    "node_id": "MI_kwDOAMNWvc4AmNb1",
+                    "number": 163,
+                    "title": "14.11.0",
+                    "description": "",
+                    "creator": {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 1,
+                    "closed_issues": 5,
+                    "state": "open",
+                    "created_at": "2023-10-08T13:18:20Z",
+                    "updated_at": "2023-10-19T07:33:55Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 0,
+                "created_at": "2023-10-19T07:33:55Z",
+                "updated_at": "2023-10-19T07:33:55Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2775/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2775/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T07:33:57Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32681316204",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "ref": "fess-14.11.0",
+            "ref_type": "tag",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T07:15:50Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32680981754",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15479815632,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "8ecf5055d3edbcc4853f6036eb3e5a95bace094d",
+            "before": "e35c9f68dec2b59d36b3e4fd89c92cec1e432439",
+            "commits": [
+                {
+                    "sha": "8ecf5055d3edbcc4853f6036eb3e5a95bace094d",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "[maven-release-plugin] prepare for next development iteration",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/8ecf5055d3edbcc4853f6036eb3e5a95bace094d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T07:02:41Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32680980813",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "ref": "fess-14.11.0",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "Fess is very powerful and easily deployable Enterprise Search Server.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T07:02:39Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32680979823",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15479814563,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e35c9f68dec2b59d36b3e4fd89c92cec1e432439",
+            "before": "f5cc59c6d8fb38795d02ac7087be3b84bceacf8b",
+            "commits": [
+                {
+                    "sha": "e35c9f68dec2b59d36b3e4fd89c92cec1e432439",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "[maven-release-plugin] prepare release fess-14.11.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/e35c9f68dec2b59d36b3e4fd89c92cec1e432439"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T07:02:36Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32678418470",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15478546479,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f5cc59c6d8fb38795d02ac7087be3b84bceacf8b",
+            "before": "618dcb10414ef8cd9ae50179e1b6b04ecb7b632f",
+            "commits": [
+                {
+                    "sha": "f5cc59c6d8fb38795d02ac7087be3b84bceacf8b",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "fess-parent 14.11.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/f5cc59c6d8fb38795d02ac7087be3b84bceacf8b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T04:49:12Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32673854732",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15476122193,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "618dcb10414ef8cd9ae50179e1b6b04ecb7b632f",
+            "before": "2a473626cd5ebaa80a572fd780be823257480375",
+            "commits": [
+                {
+                    "sha": "618dcb10414ef8cd9ae50179e1b6b04ecb7b632f",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "opensearch 2.11.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/618dcb10414ef8cd9ae50179e1b6b04ecb7b632f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T23:19:21Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32665847397",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 97162709,
+            "login": "thecodereule",
+            "display_login": "thecodereule",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thecodereule",
+            "avatar_url": "https://avatars.githubusercontent.com/u/97162709?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-18T17:14:22Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32643693294",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 33227442,
+            "login": "Xianglos",
+            "display_login": "Xianglos",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Xianglos",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33227442?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-18T03:25:56Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32621364283",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2774",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2774/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2774/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2774/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2774",
+                "id": 1947178586,
+                "node_id": "I_kwDOAMNWvc50D5Za",
+                "number": 2774,
+                "title": "Update Log Message and Refactor PathMapping",
+                "user": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 64698471,
+                        "node_id": "MDU6TGFiZWw2NDY5ODQ3MQ==",
+                        "url": "https://api.github.com/repos/codelibs/fess/labels/improvement",
+                        "name": "improvement",
+                        "color": "207de5",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/codelibs/fess/milestones/163",
+                    "html_url": "https://github.com/codelibs/fess/milestone/163",
+                    "labels_url": "https://api.github.com/repos/codelibs/fess/milestones/163/labels",
+                    "id": 10016501,
+                    "node_id": "MI_kwDOAMNWvc4AmNb1",
+                    "number": 163,
+                    "title": "14.11.0",
+                    "description": "",
+                    "creator": {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 0,
+                    "closed_issues": 5,
+                    "state": "open",
+                    "created_at": "2023-10-08T13:18:20Z",
+                    "updated_at": "2023-10-17T11:20:53Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 0,
+                "created_at": "2023-10-17T11:20:14Z",
+                "updated_at": "2023-10-17T11:20:53Z",
+                "closed_at": "2023-10-17T11:20:52Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "The log message content in the `PathMapping` class has been updated for better clarity and readability. Additionally, the variable `pathMapper` has been renamed to `pathMapperFunc` to reflect its functionality more accurately.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2774/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2774/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-17T11:20:53Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32621363320",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "repository_id": 12801725,
+            "push_id": 15450316935,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "2a473626cd5ebaa80a572fd780be823257480375",
+            "before": "9ff28a173ded233d2737ec23e4f39c8791033074",
+            "commits": [
+                {
+                    "sha": "2a473626cd5ebaa80a572fd780be823257480375",
+                    "author": {
+                        "email": "shinsuke@apache.org",
+                        "name": "Shinsuke Sugaya"
+                    },
+                    "message": "fix #2774 Refactor variable name and update log message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codelibs/fess/commits/2a473626cd5ebaa80a572fd780be823257480375"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-17T11:20:52Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32621346806",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2774",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2774/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2774/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2774/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2774",
+                "id": 1947178586,
+                "node_id": "I_kwDOAMNWvc50D5Za",
+                "number": 2774,
+                "title": "Update Log Message and Refactor PathMapping",
+                "user": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 64698471,
+                        "node_id": "MDU6TGFiZWw2NDY5ODQ3MQ==",
+                        "url": "https://api.github.com/repos/codelibs/fess/labels/improvement",
+                        "name": "improvement",
+                        "color": "207de5",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/codelibs/fess/milestones/163",
+                    "html_url": "https://github.com/codelibs/fess/milestone/163",
+                    "labels_url": "https://api.github.com/repos/codelibs/fess/milestones/163/labels",
+                    "id": 10016501,
+                    "node_id": "MI_kwDOAMNWvc4AmNb1",
+                    "number": 163,
+                    "title": "14.11.0",
+                    "description": "",
+                    "creator": {
+                        "login": "marevol",
+                        "id": 1281544,
+                        "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/marevol",
+                        "html_url": "https://github.com/marevol",
+                        "followers_url": "https://api.github.com/users/marevol/followers",
+                        "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                        "organizations_url": "https://api.github.com/users/marevol/orgs",
+                        "repos_url": "https://api.github.com/users/marevol/repos",
+                        "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/marevol/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 1,
+                    "closed_issues": 4,
+                    "state": "open",
+                    "created_at": "2023-10-08T13:18:20Z",
+                    "updated_at": "2023-10-17T11:20:15Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 0,
+                "created_at": "2023-10-17T11:20:14Z",
+                "updated_at": "2023-10-17T11:20:15Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "The log message content in the `PathMapping` class has been updated for better clarity and readability. Additionally, the variable `pathMapper` has been renamed to `pathMapperFunc` to reflect its functionality more accurately.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2774/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2774/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-17T11:20:16Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32611502720",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13785851,
+            "login": "heshaojian",
+            "display_login": "heshaojian",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/heshaojian",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13785851?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-17T04:46:15Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32547670881",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 29715624,
+            "login": "andionita",
+            "display_login": "andionita",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andionita",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29715624?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2773",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2773/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2773/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2773/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2773",
+                "id": 1941728630,
+                "node_id": "I_kwDOAMNWvc5zvG12",
+                "number": 2773,
+                "title": "WebCrawler returns no results",
+                "user": {
+                    "login": "andionita",
+                    "id": 29715624,
+                    "node_id": "MDQ6VXNlcjI5NzE1NjI0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29715624?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/andionita",
+                    "html_url": "https://github.com/andionita",
+                    "followers_url": "https://api.github.com/users/andionita/followers",
+                    "following_url": "https://api.github.com/users/andionita/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/andionita/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/andionita/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/andionita/subscriptions",
+                    "organizations_url": "https://api.github.com/users/andionita/orgs",
+                    "repos_url": "https://api.github.com/users/andionita/repos",
+                    "events_url": "https://api.github.com/users/andionita/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/andionita/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-13T11:00:31Z",
+                "updated_at": "2023-10-13T15:52:15Z",
+                "closed_at": "2023-10-13T11:24:31Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Dear FESS-developers/-users,\r\n\r\nI have just started using version 14.10 and cannot get any results from the web crawler. Please see my crawler configuration below.\r\n\r\n![fess_crawler_config](https://github.com/codelibs/fess/assets/29715624/89108651-319a-4623-9668-bb5a8df44d3e)\r\n\r\nUnder System Infos > Crawling Infos > Session-ID there are no results listed. fess-crawler.log does not offer any further hints. \r\n\r\n`{\"@timestamp\":\"2023-10-13T10:33:41.588Z\",\"log.level\": \"INFO\",\"message\":\"Target URL: https://press.un.org/en/content/press-release\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n\r\n{\"@timestamp\":\"2023-10-13T10:33:41.589Z\",\"log.level\": \"INFO\",\"message\":\"Included URL: https://press\\\\.un\\\\.org/en/2023/\\\\w+\\\\.doc\\\\.htm\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n\r\n{\"@timestamp\":\"2023-10-13T10:33:41.590Z\",\"log.level\": \"INFO\",\"message\":\"Excluded URL: (?i).*(css|js|jpeg|jpg|gif|png|bmp|wmv|xml|ico|exe)\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n`\r\nI carefully read through the documentation and some other related issues, but that did not help. Do have any ideas about what is going wrong? Any help would be appreciated. \r\n\r\nThank you in advance\r\n\r\nAndrei\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2773/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2773/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/comments/1761739869",
+                "html_url": "https://github.com/codelibs/fess/issues/2773#issuecomment-1761739869",
+                "issue_url": "https://api.github.com/repos/codelibs/fess/issues/2773",
+                "id": 1761739869,
+                "node_id": "IC_kwDOAMNWvc5pAgRd",
+                "user": {
+                    "login": "andionita",
+                    "id": 29715624,
+                    "node_id": "MDQ6VXNlcjI5NzE1NjI0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29715624?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/andionita",
+                    "html_url": "https://github.com/andionita",
+                    "followers_url": "https://api.github.com/users/andionita/followers",
+                    "following_url": "https://api.github.com/users/andionita/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/andionita/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/andionita/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/andionita/subscriptions",
+                    "organizations_url": "https://api.github.com/users/andionita/orgs",
+                    "repos_url": "https://api.github.com/users/andionita/repos",
+                    "events_url": "https://api.github.com/users/andionita/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/andionita/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-13T15:52:14Z",
+                "updated_at": "2023-10-13T15:52:14Z",
+                "author_association": "NONE",
+                "body": "Thank you for the hint. Moved question here\r\nhttps://discuss.codelibs.org/t/webcrawler-returns-no-results/2269 \r\n\r\n[fess-crawler.log](https://github.com/codelibs/fess/files/12895350/fess-crawler.log)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/comments/1761739869/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T15:52:15Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32540675868",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2773",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2773/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2773/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2773/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2773",
+                "id": 1941728630,
+                "node_id": "I_kwDOAMNWvc5zvG12",
+                "number": 2773,
+                "title": "WebCrawler returns no results",
+                "user": {
+                    "login": "andionita",
+                    "id": 29715624,
+                    "node_id": "MDQ6VXNlcjI5NzE1NjI0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29715624?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/andionita",
+                    "html_url": "https://github.com/andionita",
+                    "followers_url": "https://api.github.com/users/andionita/followers",
+                    "following_url": "https://api.github.com/users/andionita/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/andionita/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/andionita/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/andionita/subscriptions",
+                    "organizations_url": "https://api.github.com/users/andionita/orgs",
+                    "repos_url": "https://api.github.com/users/andionita/repos",
+                    "events_url": "https://api.github.com/users/andionita/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/andionita/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-13T11:00:31Z",
+                "updated_at": "2023-10-13T11:24:31Z",
+                "closed_at": "2023-10-13T11:24:31Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Dear FESS-developers/-users,\r\n\r\nI have just started using version 14.10 and cannot get any results from the web crawler. Please see my crawler configuration below.\r\n\r\n![fess_crawler_config](https://github.com/codelibs/fess/assets/29715624/89108651-319a-4623-9668-bb5a8df44d3e)\r\n\r\nUnder System Infos > Crawling Infos > Session-ID there are no results listed. fess-crawler.log does not offer any further hints. \r\n\r\n`{\"@timestamp\":\"2023-10-13T10:33:41.588Z\",\"log.level\": \"INFO\",\"message\":\"Target URL: https://press.un.org/en/content/press-release\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n\r\n{\"@timestamp\":\"2023-10-13T10:33:41.589Z\",\"log.level\": \"INFO\",\"message\":\"Included URL: https://press\\\\.un\\\\.org/en/2023/\\\\w+\\\\.doc\\\\.htm\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n\r\n{\"@timestamp\":\"2023-10-13T10:33:41.590Z\",\"log.level\": \"INFO\",\"message\":\"Excluded URL: (?i).*(css|js|jpeg|jpg|gif|png|bmp|wmv|xml|ico|exe)\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n`\r\nI carefully read through the documentation and some other related issues, but that did not help. Do have any ideas about what is going wrong? Any help would be appreciated. \r\n\r\nThank you in advance\r\n\r\nAndrei\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2773/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2773/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/comments/1761353576",
+                "html_url": "https://github.com/codelibs/fess/issues/2773#issuecomment-1761353576",
+                "issue_url": "https://api.github.com/repos/codelibs/fess/issues/2773",
+                "id": 1761353576,
+                "node_id": "IC_kwDOAMNWvc5o_B9o",
+                "user": {
+                    "login": "marevol",
+                    "id": 1281544,
+                    "node_id": "MDQ6VXNlcjEyODE1NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1281544?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/marevol",
+                    "html_url": "https://github.com/marevol",
+                    "followers_url": "https://api.github.com/users/marevol/followers",
+                    "following_url": "https://api.github.com/users/marevol/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/marevol/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/marevol/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/marevol/subscriptions",
+                    "organizations_url": "https://api.github.com/users/marevol/orgs",
+                    "repos_url": "https://api.github.com/users/marevol/repos",
+                    "events_url": "https://api.github.com/users/marevol/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/marevol/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-13T11:24:31Z",
+                "updated_at": "2023-10-13T11:24:31Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Please use https://discuss.codelibs.org/c/fessen/",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/comments/1761353576/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T11:24:32Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    },
+    {
+        "id": "32540676012",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1281544,
+            "login": "marevol",
+            "display_login": "marevol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marevol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1281544?"
+        },
+        "repo": {
+            "id": 12801725,
+            "name": "codelibs/fess",
+            "url": "https://api.github.com/repos/codelibs/fess"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/codelibs/fess/issues/2773",
+                "repository_url": "https://api.github.com/repos/codelibs/fess",
+                "labels_url": "https://api.github.com/repos/codelibs/fess/issues/2773/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codelibs/fess/issues/2773/comments",
+                "events_url": "https://api.github.com/repos/codelibs/fess/issues/2773/events",
+                "html_url": "https://github.com/codelibs/fess/issues/2773",
+                "id": 1941728630,
+                "node_id": "I_kwDOAMNWvc5zvG12",
+                "number": 2773,
+                "title": "WebCrawler returns no results",
+                "user": {
+                    "login": "andionita",
+                    "id": 29715624,
+                    "node_id": "MDQ6VXNlcjI5NzE1NjI0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29715624?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/andionita",
+                    "html_url": "https://github.com/andionita",
+                    "followers_url": "https://api.github.com/users/andionita/followers",
+                    "following_url": "https://api.github.com/users/andionita/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/andionita/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/andionita/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/andionita/subscriptions",
+                    "organizations_url": "https://api.github.com/users/andionita/orgs",
+                    "repos_url": "https://api.github.com/users/andionita/repos",
+                    "events_url": "https://api.github.com/users/andionita/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/andionita/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-13T11:00:31Z",
+                "updated_at": "2023-10-13T11:24:31Z",
+                "closed_at": "2023-10-13T11:24:31Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Dear FESS-developers/-users,\r\n\r\nI have just started using version 14.10 and cannot get any results from the web crawler. Please see my crawler configuration below.\r\n\r\n![fess_crawler_config](https://github.com/codelibs/fess/assets/29715624/89108651-319a-4623-9668-bb5a8df44d3e)\r\n\r\nUnder System Infos > Crawling Infos > Session-ID there are no results listed. fess-crawler.log does not offer any further hints. \r\n\r\n`{\"@timestamp\":\"2023-10-13T10:33:41.588Z\",\"log.level\": \"INFO\",\"message\":\"Target URL: https://press.un.org/en/content/press-release\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n\r\n{\"@timestamp\":\"2023-10-13T10:33:41.589Z\",\"log.level\": \"INFO\",\"message\":\"Included URL: https://press\\\\.un\\\\.org/en/2023/\\\\w+\\\\.doc\\\\.htm\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n\r\n{\"@timestamp\":\"2023-10-13T10:33:41.590Z\",\"log.level\": \"INFO\",\"message\":\"Excluded URL: (?i).*(css|js|jpeg|jpg|gif|png|bmp|wmv|xml|ico|exe)\", \"ecs.version\": \"1.2.0\",\"service.name\":\"fess\",\"event.dataset\":\"crawler\",\"process.thread.name\":\"WebFsCrawler\",\"log.logger\":\"org.codelibs.fess.helper.WebFsIndexHelper\"}\r\n`\r\nI carefully read through the documentation and some other related issues, but that did not help. Do have any ideas about what is going wrong? Any help would be appreciated. \r\n\r\nThank you in advance\r\n\r\nAndrei\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codelibs/fess/issues/2773/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codelibs/fess/issues/2773/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T11:24:32Z",
+        "org": {
+            "id": 2303078,
+            "login": "codelibs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codelibs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2303078?"
+        }
+    }
+]

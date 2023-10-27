@@ -1,0 +1,2548 @@
+[
+    {
+        "id": "32882297366",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 66866331,
+            "login": "mineco13",
+            "display_login": "mineco13",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mineco13",
+            "avatar_url": "https://avatars.githubusercontent.com/u/66866331?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:26:32Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32870805837",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1013904,
+            "login": "PierreGUI",
+            "display_login": "PierreGUI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/PierreGUI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1013904?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1378",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1378/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1378/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1378/events",
+                "html_url": "https://github.com/callstack/linaria/issues/1378",
+                "id": 1963659057,
+                "node_id": "I_kwDOBX2HzM51Cw8x",
+                "number": 1378,
+                "title": "[React] CSS specificity issue: extend imported component",
+                "user": {
+                    "login": "PierreGUI",
+                    "id": 1013904,
+                    "node_id": "MDQ6VXNlcjEwMTM5MDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1013904?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/PierreGUI",
+                    "html_url": "https://github.com/PierreGUI",
+                    "followers_url": "https://api.github.com/users/PierreGUI/followers",
+                    "following_url": "https://api.github.com/users/PierreGUI/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/PierreGUI/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/PierreGUI/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/PierreGUI/subscriptions",
+                    "organizations_url": "https://api.github.com/users/PierreGUI/orgs",
+                    "repos_url": "https://api.github.com/users/PierreGUI/repos",
+                    "events_url": "https://api.github.com/users/PierreGUI/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/PierreGUI/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 983405319,
+                        "node_id": "MDU6TGFiZWw5ODM0MDUzMTk=",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20triage%20%F0%9F%8F%B7",
+                        "name": "needs: triage \ud83c\udff7",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue needs to be checked and prioritized"
+                    },
+                    {
+                        "id": 1938605029,
+                        "node_id": "MDU6TGFiZWwxOTM4NjA1MDI5",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20complete%20repro%20%F0%9F%96%A5%EF%B8%8F",
+                        "name": "needs: complete repro \ud83d\udda5\ufe0f",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue need to have complete repro provided"
+                    },
+                    {
+                        "id": 1955822884,
+                        "node_id": "MDU6TGFiZWwxOTU1ODIyODg0",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bug%20report%20%F0%9F%A6%97",
+                        "name": "bug report \ud83e\udd97",
+                        "color": "f8c4c4",
+                        "default": false,
+                        "description": "Issue is probably a bug, but it needs to be checked"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T14:04:08Z",
+                "updated_at": "2023-10-26T14:04:08Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Environment\r\nLinaria version: 5.0.3\r\nBundler: Webpack 5\r\n\r\n## Description\r\nWhen extending a component with `styled` function (```const B = styled(A)``;```) I expect the resulting component's CSS to have higher specificity.   \r\nWhen the components are declared in the same file, Linaria seems to append the child's classname to the parent's (`.A.B` -> increased specificity) \u2705   \r\nWhen the component to extend from is imported, Linaria doesn't append its classname. The new component's specificity is the same as its parent component \u274c  \r\n\r\nThis result is mismatching style when a child component inherits from a complex parent component, defined in another file:  \r\n<img width=\"1197\" alt=\"image\" src=\"https://github.com/callstack/linaria/assets/1013904/e194fccf-9638-4d3a-be46-20e44bb800a1\">\r\n\r\nIn this example the classname for `Red` is `.Red_rhnsy8v` which has lower specificity than `.Blue_b7lcn1q.Base_b15uhwgc`, therefore the text isn't red but blue.  \r\nIt should be `.Blue_b7lcn1q.Base_b15uhwgc.Red_rhnsy8v` in order to override its parent's style correctly.\r\n\r\nSee the reproduction demo for source code.\r\n\r\n## Reproducible Demo\r\nhttps://stackblitz.com/edit/linaria-bug-kahsvz?file=src%2FTitle.tsx",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1378/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1378/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:04:10Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32858903143",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 42442700,
+            "login": "wakaztahir",
+            "display_login": "wakaztahir",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wakaztahir",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42442700?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1377",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1377/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1377/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1377/events",
+                "html_url": "https://github.com/callstack/linaria/issues/1377",
+                "id": 1962867937,
+                "node_id": "I_kwDOBX2HzM50_vzh",
+                "number": 1377,
+                "title": "Support SolidStart & Astro",
+                "user": {
+                    "login": "wakaztahir",
+                    "id": 42442700,
+                    "node_id": "MDQ6VXNlcjQyNDQyNzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42442700?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/wakaztahir",
+                    "html_url": "https://github.com/wakaztahir",
+                    "followers_url": "https://api.github.com/users/wakaztahir/followers",
+                    "following_url": "https://api.github.com/users/wakaztahir/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/wakaztahir/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/wakaztahir/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/wakaztahir/subscriptions",
+                    "organizations_url": "https://api.github.com/users/wakaztahir/orgs",
+                    "repos_url": "https://api.github.com/users/wakaztahir/repos",
+                    "events_url": "https://api.github.com/users/wakaztahir/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/wakaztahir/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 983405319,
+                        "node_id": "MDU6TGFiZWw5ODM0MDUzMTk=",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20triage%20%F0%9F%8F%B7",
+                        "name": "needs: triage \ud83c\udff7",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue needs to be checked and prioritized"
+                    },
+                    {
+                        "id": 1938605029,
+                        "node_id": "MDU6TGFiZWwxOTM4NjA1MDI5",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20complete%20repro%20%F0%9F%96%A5%EF%B8%8F",
+                        "name": "needs: complete repro \ud83d\udda5\ufe0f",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue need to have complete repro provided"
+                    },
+                    {
+                        "id": 1955822884,
+                        "node_id": "MDU6TGFiZWwxOTU1ODIyODg0",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bug%20report%20%F0%9F%A6%97",
+                        "name": "bug report \ud83e\udd97",
+                        "color": "f8c4c4",
+                        "default": false,
+                        "description": "Issue is probably a bug, but it needs to be checked"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T07:16:06Z",
+                "updated_at": "2023-10-26T07:16:06Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I created a fork of linaria with a different name \"xqp\" I want to use it in my project which uses SolidJS\r\n\r\nI know that Linaria works with SolidJS & SolidJS with server side streaming, However that's not enough\r\n\r\n- Linaria doesn't work with SolidStart & probably with updated Astro, because they use server side streaming, They extract HTML from components and strip javascript which is delivered separately as you might know i.e Islands Architecture\r\n\r\n- This pull request is open and hasn't been merged into main #1096 \r\n\r\nSo I set out to solve these issues in my own fork and did these things\r\n\r\n- I got #1096 working with latest versions of `SolidJS` and `Astro`\r\n- I got #1096 working with latest SolidJS and `Astro` versions\r\n- I also managed to make `SolidJS` work with server side rendering with `babel-preset-solid` with SSR options `[\"babel-preset-solid\", { generate : \"ssr\", hydratable : true }]` \r\n- I also had to add `babel-preset-solid` into transform options presets, So I had to provide transform options object parameter in vite plugin options and then to transform services and get the object and put it in transform options\r\n- I also had to exclude extensions which were empty, so had to add `extension != \"\"` This is because /@solid-refresh was going inside readFileAsync and cause File Not found\r\n\r\nThen instead of merging this into main, I merged main into this branch, I made it work after some effort, I could probably do it all again and merge this pull request back into main and create it here but I think it would be ignored since the above pull request has been ignored\r\n\r\nCurrently I am encountering issues like `import.meta.hot` cannot be used outside a module, which is being put in by solid plugin, My best guess is these must be evaluated and babel is not evaluating them, I have turned on `softErrors` for this to work for now as traversing the tree to remove these is hard.\r\n\r\nMy Request is that These issues should be fixed and SolidStart & Astro should be supported with server side rendering without a single issue",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1377/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1377/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:16:08Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32852977110",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 13651492,
+            "login": "shiro",
+            "display_login": "shiro",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shiro",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13651492?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1352",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1352/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1352/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1352/events",
+                "html_url": "https://github.com/callstack/linaria/issues/1352",
+                "id": 1911875902,
+                "node_id": "I_kwDOBX2HzM5x9Ok-",
+                "number": 1352,
+                "title": "Error on build using webpack and linaria v5: module is disposed",
+                "user": {
+                    "login": "kabbi",
+                    "id": 1160550,
+                    "node_id": "MDQ6VXNlcjExNjA1NTA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1160550?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kabbi",
+                    "html_url": "https://github.com/kabbi",
+                    "followers_url": "https://api.github.com/users/kabbi/followers",
+                    "following_url": "https://api.github.com/users/kabbi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kabbi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kabbi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kabbi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kabbi/orgs",
+                    "repos_url": "https://api.github.com/users/kabbi/repos",
+                    "events_url": "https://api.github.com/users/kabbi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kabbi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1366005567,
+                        "node_id": "MDU6TGFiZWwxMzY2MDA1NTY3",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/cat:%20performance%20%F0%9F%9A%80",
+                        "name": "cat: performance \ud83d\ude80",
+                        "color": "f9acca",
+                        "default": false,
+                        "description": "Issue is related to performance"
+                    },
+                    {
+                        "id": 1938605029,
+                        "node_id": "MDU6TGFiZWwxOTM4NjA1MDI5",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20complete%20repro%20%F0%9F%96%A5%EF%B8%8F",
+                        "name": "needs: complete repro \ud83d\udda5\ufe0f",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue need to have complete repro provided"
+                    },
+                    {
+                        "id": 1953442140,
+                        "node_id": "MDU6TGFiZWwxOTUzNDQyMTQw",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bundler:%20webpack%20%F0%9F%93%A6",
+                        "name": "bundler: webpack \ud83d\udce6",
+                        "color": "e5e5e5",
+                        "default": false,
+                        "description": "Issue is related to webpack bundler"
+                    },
+                    {
+                        "id": 1955822884,
+                        "node_id": "MDU6TGFiZWwxOTU1ODIyODg0",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bug%20report%20%F0%9F%A6%97",
+                        "name": "bug report \ud83e\udd97",
+                        "color": "f8c4c4",
+                        "default": false,
+                        "description": "Issue is probably a bug, but it needs to be checked"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "Anber",
+                    "id": 148258,
+                    "node_id": "MDQ6VXNlcjE0ODI1OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/148258?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Anber",
+                    "html_url": "https://github.com/Anber",
+                    "followers_url": "https://api.github.com/users/Anber/followers",
+                    "following_url": "https://api.github.com/users/Anber/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Anber/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Anber/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Anber/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Anber/orgs",
+                    "repos_url": "https://api.github.com/users/Anber/repos",
+                    "events_url": "https://api.github.com/users/Anber/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Anber/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "Anber",
+                        "id": 148258,
+                        "node_id": "MDQ6VXNlcjE0ODI1OA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/148258?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/Anber",
+                        "html_url": "https://github.com/Anber",
+                        "followers_url": "https://api.github.com/users/Anber/followers",
+                        "following_url": "https://api.github.com/users/Anber/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/Anber/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/Anber/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/Anber/subscriptions",
+                        "organizations_url": "https://api.github.com/users/Anber/orgs",
+                        "repos_url": "https://api.github.com/users/Anber/repos",
+                        "events_url": "https://api.github.com/users/Anber/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/Anber/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2023-09-25T16:23:20Z",
+                "updated_at": "2023-10-26T00:47:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Environment\r\n\r\n- Linaria version: 5.0.1\r\n- Bundler (+ version): webpack 5.87.0\r\n- Node.js version: v19.2.0\r\n- OS: MacOS 12.6.5, M1\r\n\r\n## Description\r\n\r\nWe were successfully using `3.0.0-beta.15` before, and have quite a lot of style-related code, complicated import chains, etc. Several attempts at v4 migration failed, as code executor was producing a lot of runtime errors at build time.\r\n\r\nNow I'm trying out v5, and initial build looks quite promising. The only error I'm getting (repeated several times) is about a module being disposed:\r\n\r\n```\r\nModule build failed (from ../node_modules/.pnpm/@linaria+webpack-loader@5.0.1_webpack@5.87.0/node_modules/@linaria/webpack-loader/lib/index.js):\r\npwd/node_modules/.pnpm/@linaria+babel-preset@5.0.2/node_modules/@linaria/babel-preset/lib/module.js:224\r\n      throw new EvalError(`${e.message} in${this.callstack.join('\\n| ')}\\n`);\r\n      ^\r\n\r\nEvalError: Module 00063 is disposed inpwd/client/src/components/Units/AvatarCollectionUnitDataDefinition.js\r\n| pwd/client/src/components/TableUnits/unit-definitions.ts\r\n| pwd/client/src/components/ViewMetaItemUnitsSelectCommons/get-unit-definitions-for-view-type.ts\r\n| pwd/client/src/components/ViewMetaItemUnitsSelectCommons/selectors.js\r\n| pwd/client/src/components/ViewMetaItemLaneUnitsSelect/selectors.js\r\n| pwd/client/src/components/ViewMetaItemLaneUnitsSelect/getConsistentView.js\r\n| pwd/client/src/components/ViewMetaItemLaneSelect/index.js\r\n| pwd/client/src/components/TimelineViewMetaYLaneSelect/index.js\r\n| pwd/client/src/components/TimelineViewMetaYLaneGroupSelect/index.js\r\n| pwd/client/src/components/TimelineViewToolbar/TimelineToolbarItems.js\r\n```\r\n\r\nTruncated, full log [here](https://gist.github.com/kabbi/691567caca1c0cc79ad71c81060e2236).\r\n\r\nThe exact stack of components is different on every build. But the error is the same, and it always revolves around some of these files (like `unit-definitions.ts` above), that acts like a dictionary and contains lots of (static) imports.\r\n\r\nThere _**may**_ be some import loops here. Is v5 immune against them?\r\n\r\n## Reproducible Demo\r\n\r\nI will need some time to make a minimal reproducible example. Just wanted to deliver an early feedback on v5.\r\n\r\n## Thanks\r\n\r\nAnyway, I'm really impressed on all the fresh development you are doing on linaria! I'm grateful for all contributors here!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1352/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1352/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1780248166",
+                "html_url": "https://github.com/callstack/linaria/issues/1352#issuecomment-1780248166",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/1352",
+                "id": 1780248166,
+                "node_id": "IC_kwDOBX2HzM5qHG5m",
+                "user": {
+                    "login": "shiro",
+                    "id": 13651492,
+                    "node_id": "MDQ6VXNlcjEzNjUxNDky",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13651492?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/shiro",
+                    "html_url": "https://github.com/shiro",
+                    "followers_url": "https://api.github.com/users/shiro/followers",
+                    "following_url": "https://api.github.com/users/shiro/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/shiro/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/shiro/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/shiro/subscriptions",
+                    "organizations_url": "https://api.github.com/users/shiro/orgs",
+                    "repos_url": "https://api.github.com/users/shiro/repos",
+                    "events_url": "https://api.github.com/users/shiro/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/shiro/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T00:47:00Z",
+                "updated_at": "2023-10-26T00:47:00Z",
+                "author_association": "NONE",
+                "body": "I'm also seeing this in vite (production builds), not sure if it's related.  \r\nIt seems to sometimes happen randomly, sometimes it works fine.\r\n\r\nNot able to provide an example since the code isn't public and the codebase is pretty big, but it seems to happen when there's lazy import calls (thus splitting up the bundle), i.e. lazy loading JSX components.\r\n\r\nI'll post a repro if I somehow manage to reproduce it, but small codebases don't really seem to trigger it.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1780248166/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T00:47:00Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32845590239",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 14183168,
+            "login": "layershifter",
+            "display_login": "layershifter",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/layershifter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14183168?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1376",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1376/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1376/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1376/events",
+                "html_url": "https://github.com/callstack/linaria/issues/1376",
+                "id": 1958355905,
+                "node_id": "I_kwDOBX2HzM50uiPB",
+                "number": 1376,
+                "title": "Storybook: Dynamic import argument must be a string or a template literal",
+                "user": {
+                    "login": "cloudshadow",
+                    "id": 1182967,
+                    "node_id": "MDQ6VXNlcjExODI5Njc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1182967?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/cloudshadow",
+                    "html_url": "https://github.com/cloudshadow",
+                    "followers_url": "https://api.github.com/users/cloudshadow/followers",
+                    "following_url": "https://api.github.com/users/cloudshadow/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/cloudshadow/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/cloudshadow/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/cloudshadow/subscriptions",
+                    "organizations_url": "https://api.github.com/users/cloudshadow/orgs",
+                    "repos_url": "https://api.github.com/users/cloudshadow/repos",
+                    "events_url": "https://api.github.com/users/cloudshadow/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/cloudshadow/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1938605029,
+                        "node_id": "MDU6TGFiZWwxOTM4NjA1MDI5",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20complete%20repro%20%F0%9F%96%A5%EF%B8%8F",
+                        "name": "needs: complete repro \ud83d\udda5\ufe0f",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue need to have complete repro provided"
+                    },
+                    {
+                        "id": 1953438553,
+                        "node_id": "MDU6TGFiZWwxOTUzNDM4NTUz",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bundler:%20rollup%20%F0%9F%97%9E%EF%B8%8F",
+                        "name": "bundler: rollup \ud83d\uddde\ufe0f",
+                        "color": "e5e5e5",
+                        "default": false,
+                        "description": "Issue is related to rollup bundler"
+                    },
+                    {
+                        "id": 1953442140,
+                        "node_id": "MDU6TGFiZWwxOTUzNDQyMTQw",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bundler:%20webpack%20%F0%9F%93%A6",
+                        "name": "bundler: webpack \ud83d\udce6",
+                        "color": "e5e5e5",
+                        "default": false,
+                        "description": "Issue is related to webpack bundler"
+                    },
+                    {
+                        "id": 1955822884,
+                        "node_id": "MDU6TGFiZWwxOTU1ODIyODg0",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bug%20report%20%F0%9F%A6%97",
+                        "name": "bug report \ud83e\udd97",
+                        "color": "f8c4c4",
+                        "default": false,
+                        "description": "Issue is probably a bug, but it needs to be checked"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-24T02:24:30Z",
+                "updated_at": "2023-10-25T18:23:43Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Environment\r\n\"storybook\": \"7.5.1\",\r\n\"@storybook/react-webpack5\": \"7.5.1\",\r\n\"@linaria/babel-preset\": \"5.0.3\",\r\n\"@linaria/core\": \"5.0.2\",\r\n\"@linaria/react\": \"5.0.3\",\r\n\"@linaria/rollup\": \"5.0.3\",\r\n\"@linaria/webpack-loader\": \"5.0.3\",\r\n\r\n<!--\r\nAll necessary environmental info that will help triage this\r\n-->\r\n\r\n<!--\r\nEspecially include:\r\n-->\r\n\r\n- Linaria version: 5.0.2\r\n- Node.js version: 20.2.0\r\n- OS: ventura 13.5\r\n\r\n## Description\r\n\r\n<!--\r\nDescribe your issue in detail.\r\nInclude screenshots if needed.\r\nIf this is a regression, let us know.\r\n-->\r\nRun \"npm run storybook\" and will return the error ``` ERROR in ./storybook-stories.js\r\nModule build failed (from ./node_modules/@linaria/webpack-loader/lib/index.js):\r\nError: /storybook-stories.js: Dynamic import argument must be a string or a template literal ```\r\n\r\nbut it work fine when I use \r\n\"@linaria/babel-preset\": \"4.5.4\",\r\n\"@linaria/core\": \"4.5.4\",\r\n\"@linaria/react\": \"4.5.4\",\r\n\"@linaria/rollup\": \"4.5.4\",\r\n\"@linaria/webpack-loader\": \"4.5.4\",\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1376/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1376/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1779820592",
+                "html_url": "https://github.com/callstack/linaria/issues/1376#issuecomment-1779820592",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/1376",
+                "id": 1779820592,
+                "node_id": "IC_kwDOBX2HzM5qFegw",
+                "user": {
+                    "login": "layershifter",
+                    "id": 14183168,
+                    "node_id": "MDQ6VXNlcjE0MTgzMTY4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/14183168?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/layershifter",
+                    "html_url": "https://github.com/layershifter",
+                    "followers_url": "https://api.github.com/users/layershifter/followers",
+                    "following_url": "https://api.github.com/users/layershifter/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/layershifter/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/layershifter/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/layershifter/subscriptions",
+                    "organizations_url": "https://api.github.com/users/layershifter/orgs",
+                    "repos_url": "https://api.github.com/users/layershifter/repos",
+                    "events_url": "https://api.github.com/users/layershifter/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/layershifter/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T18:23:43Z",
+                "updated_at": "2023-10-25T18:23:43Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Please provide a reproduction case on Stackblitz or a Github repository.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1779820592/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T18:23:44Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32842450365",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2254476,
+            "login": "bharathm03",
+            "display_login": "bharathm03",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bharathm03",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2254476?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:21:53Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32839704060",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12824589,
+            "login": "Mauladen",
+            "display_login": "Mauladen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Mauladen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12824589?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:53:58Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32819973466",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 65301960,
+            "login": "ericstefano",
+            "display_login": "ericstefano",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericstefano",
+            "avatar_url": "https://avatars.githubusercontent.com/u/65301960?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T00:52:06Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32806359529",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 17672440,
+            "login": "ygqygq2",
+            "display_login": "ygqygq2",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ygqygq2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17672440?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T14:32:50Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32803193820",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1013904,
+            "login": "PierreGUI",
+            "display_login": "PierreGUI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/PierreGUI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1013904?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1135",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1135/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1135/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1135/events",
+                "html_url": "https://github.com/callstack/linaria/issues/1135",
+                "id": 1465092898,
+                "node_id": "I_kwDOBX2HzM5XU4si",
+                "number": 1135,
+                "title": "webpack build silently fails after Linaria update",
+                "user": {
+                    "login": "kryops",
+                    "id": 1042594,
+                    "node_id": "MDQ6VXNlcjEwNDI1OTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1042594?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kryops",
+                    "html_url": "https://github.com/kryops",
+                    "followers_url": "https://api.github.com/users/kryops/followers",
+                    "following_url": "https://api.github.com/users/kryops/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kryops/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kryops/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kryops/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kryops/orgs",
+                    "repos_url": "https://api.github.com/users/kryops/repos",
+                    "events_url": "https://api.github.com/users/kryops/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kryops/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1366005567,
+                        "node_id": "MDU6TGFiZWwxMzY2MDA1NTY3",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/cat:%20performance%20%F0%9F%9A%80",
+                        "name": "cat: performance \ud83d\ude80",
+                        "color": "f9acca",
+                        "default": false,
+                        "description": "Issue is related to performance"
+                    },
+                    {
+                        "id": 1938605029,
+                        "node_id": "MDU6TGFiZWwxOTM4NjA1MDI5",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20complete%20repro%20%F0%9F%96%A5%EF%B8%8F",
+                        "name": "needs: complete repro \ud83d\udda5\ufe0f",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue need to have complete repro provided"
+                    },
+                    {
+                        "id": 1953442140,
+                        "node_id": "MDU6TGFiZWwxOTUzNDQyMTQw",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bundler:%20webpack%20%F0%9F%93%A6",
+                        "name": "bundler: webpack \ud83d\udce6",
+                        "color": "e5e5e5",
+                        "default": false,
+                        "description": "Issue is related to webpack bundler"
+                    },
+                    {
+                        "id": 1955822884,
+                        "node_id": "MDU6TGFiZWwxOTU1ODIyODg0",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bug%20report%20%F0%9F%A6%97",
+                        "name": "bug report \ud83e\udd97",
+                        "color": "f8c4c4",
+                        "default": false,
+                        "description": "Issue is probably a bug, but it needs to be checked"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 16,
+                "created_at": "2022-11-26T08:52:28Z",
+                "updated_at": "2023-10-24T12:55:24Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi there,\r\n\r\nI have a mysterious problem in one of my projects after updating to the current version of Linaria: The webpack build seems to crash, but it does not report any error - it just exits without writing anythin on disk.\r\n\r\nI managed to track down the change in Linaria that causes the problem, I just can't figure out what's happening exactly. Thanks for having a look! \ud83d\ude05 \r\n\r\n## Environment\r\n\r\n<!--\r\nAll necessary environmental info that will help triage this\r\n-->\r\n\r\n<!--\r\nEspecially include:\r\n-->\r\n\r\n- Linaria version: 4.2.2\r\n- Bundler (+ version): webpack 5.75.0\r\n- Node.js version: 19.1.0\r\n- OS: ArchLinux\r\n\r\n## Description\r\n\r\n<!--\r\nDescribe your issue in detail.\r\nInclude screenshots if needed.\r\nIf this is a regression, let us know.\r\n-->\r\n\r\nI do not really understand what is happening - maybe an error that leads to a crash, but the error is then swallowed somehow?\r\n\r\nI managed to track it down to https://github.com/callstack/linaria/pull/1086 (CC @Anber ): It starts working again when I pin `@linaria/babel-preset` to 4.2.2, or comment out the `await mutex` that was introduced there.\r\n\r\n## Reproducible Demo\r\n\r\n<!--\r\n  Let us know how to reproduce the issue.\r\n  Include a code sample or share a project that reproduces the issue.\r\n  Please include you tooling setup eg. webpack config for webpack\r\n  Please follow the guidelines for providing a minimal example: https://stackoverflow.com/help/mcve.\r\n-->\r\n\r\nI was unable to provide a minimal reproduction, as only one of my projects is affected, and I don't know which code there causes it.\r\n\r\nI created a branch with a reproduction here: https://github.com/kryops/vlight/tree/linaria-babel-preset-error\r\n\r\nJust execute `yarn`, which should build everything.\r\n\r\nThe output is:\r\n```\r\n...\r\n[BABEL] Note: The code generator has deoptimised the styling of /home/michael/git/vlight/node_modules/@mdi/js/mdi.js as it exceeds the max of 500KB.\r\n[BABEL] Note: The code generator has deoptimised the styling of /home/michael/git/vlight/node_modules/@mdi/js/mdi.js as it exceeds the max of 500KB.\r\n\u27a4 YN0000: Done with warnings in 42s 859ms\r\n```\r\n(the `[BABEL]` message is repeated 4 times)\r\n\r\nNothing is written into the `frontend/dist` folder.\r\n\r\nThe successful build output on the `main` branch looks like this:\r\n```\r\n...\r\n[BABEL] Note: The code generator has deoptimised the styling of /home/michael/git/vlight/node_modules/@mdi/js/mdi.js as it exceeds the max of 500KB.\r\n[BABEL] Note: The code generator has deoptimised the styling of /home/michael/git/vlight/node_modules/@mdi/js/mdi.js as it exceeds the max of 500KB.\r\n6 assets\r\n774 modules\r\nwebpack 5.75.0 compiled successfully in 33886 ms\r\n\u27a4 YN0000: Done with warnings in 54s 906ms\r\n```\r\n(the `[BABEL]` message is repeated more than 4 times)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1135/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1135/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1777152374",
+                "html_url": "https://github.com/callstack/linaria/issues/1135#issuecomment-1777152374",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/1135",
+                "id": 1777152374,
+                "node_id": "IC_kwDOBX2HzM5p7TF2",
+                "user": {
+                    "login": "PierreGUI",
+                    "id": 1013904,
+                    "node_id": "MDQ6VXNlcjEwMTM5MDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1013904?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/PierreGUI",
+                    "html_url": "https://github.com/PierreGUI",
+                    "followers_url": "https://api.github.com/users/PierreGUI/followers",
+                    "following_url": "https://api.github.com/users/PierreGUI/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/PierreGUI/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/PierreGUI/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/PierreGUI/subscriptions",
+                    "organizations_url": "https://api.github.com/users/PierreGUI/orgs",
+                    "repos_url": "https://api.github.com/users/PierreGUI/repos",
+                    "events_url": "https://api.github.com/users/PierreGUI/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/PierreGUI/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-24T12:55:24Z",
+                "updated_at": "2023-10-24T12:55:24Z",
+                "author_association": "NONE",
+                "body": "@phyzess The new version of Linaria (v5) should fix the problem. It worked for me at least.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1777152374/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T12:55:24Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32801891369",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 567105,
+            "login": "nstepien",
+            "display_login": "nstepien",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nstepien",
+            "avatar_url": "https://avatars.githubusercontent.com/u/567105?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1371",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1371/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1371/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1371/events",
+                "html_url": "https://github.com/callstack/linaria/pull/1371",
+                "id": 1933650314,
+                "node_id": "PR_kwDOBX2HzM5cSn-U",
+                "number": 1371,
+                "title": "Version Packages",
+                "user": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-09T19:15:27Z",
+                "updated_at": "2023-10-24T12:09:08Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/callstack/linaria/pulls/1371",
+                    "html_url": "https://github.com/callstack/linaria/pull/1371",
+                    "diff_url": "https://github.com/callstack/linaria/pull/1371.diff",
+                    "patch_url": "https://github.com/callstack/linaria/pull/1371.patch",
+                    "merged_at": null
+                },
+                "body": "This PR was opened by the [Changesets release](https://github.com/changesets/action) GitHub action. When you're ready to do a release, you can merge this and the packages will be published to npm automatically. If you're not ready to do a release yet, that's fine, whenever you add more changesets to master, this PR will be updated.\n\n\n# Releases\n## @linaria/babel-preset@5.0.4\n\n### Patch Changes\n\n-   e25e91ff: Fixed detection of export/import statements. Fixes #1367\n-   Updated dependencies [e25e91ff]\n    -   @linaria/shaker@5.0.3\n\n## @linaria/cli@5.0.4\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n\n## @linaria/esbuild@5.0.4\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n\n## linaria@5.0.5\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n    -   @linaria/shaker@5.0.3\n    -   @linaria/rollup@5.0.4\n    -   @linaria/stylelint@5.0.4\n    -   @linaria/webpack4-loader@5.0.4\n\n## @linaria/rollup@5.0.4\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n    -   @linaria/vite@5.0.4\n\n## @linaria/shaker@5.0.3\n\n### Patch Changes\n\n-   e25e91ff: Fixed detection of export/import statements. Fixes #1367\n\n## @linaria/stylelint@5.0.4\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n\n## @linaria/vite@5.0.4\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n\n## @linaria/webpack-loader@5.0.4\n\n### Patch Changes\n\n-   @linaria/webpack4-loader@5.0.4\n-   @linaria/webpack5-loader@5.0.4\n\n## @linaria/webpack4-loader@5.0.4\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n\n## @linaria/webpack5-loader@5.0.4\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n\n## @linaria/testkit@5.0.5\n\n### Patch Changes\n\n-   Updated dependencies [e25e91ff]\n    -   @linaria/babel-preset@5.0.4\n    -   @linaria/shaker@5.0.3\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1371/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1371/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1777083130",
+                "html_url": "https://github.com/callstack/linaria/pull/1371#issuecomment-1777083130",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/1371",
+                "id": 1777083130,
+                "node_id": "IC_kwDOBX2HzM5p7CL6",
+                "user": {
+                    "login": "nstepien",
+                    "id": 567105,
+                    "node_id": "MDQ6VXNlcjU2NzEwNQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/567105?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/nstepien",
+                    "html_url": "https://github.com/nstepien",
+                    "followers_url": "https://api.github.com/users/nstepien/followers",
+                    "following_url": "https://api.github.com/users/nstepien/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/nstepien/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/nstepien/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/nstepien/subscriptions",
+                    "organizations_url": "https://api.github.com/users/nstepien/orgs",
+                    "repos_url": "https://api.github.com/users/nstepien/repos",
+                    "events_url": "https://api.github.com/users/nstepien/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/nstepien/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-24T12:09:08Z",
+                "updated_at": "2023-10-24T12:09:08Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "@Anber Can we expect a new release soon?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1777083130/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T12:09:08Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32793997595",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2050579,
+            "login": "zhangfisher",
+            "display_login": "zhangfisher",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zhangfisher",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2050579?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T07:00:40Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32790023833",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1182967,
+            "login": "cloudshadow",
+            "display_login": "cloudshadow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cloudshadow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1182967?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1376",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1376/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1376/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1376/events",
+                "html_url": "https://github.com/callstack/linaria/issues/1376",
+                "id": 1958355905,
+                "node_id": "I_kwDOBX2HzM50uiPB",
+                "number": 1376,
+                "title": "Storybook: Dynamic import argument must be a string or a template literal",
+                "user": {
+                    "login": "cloudshadow",
+                    "id": 1182967,
+                    "node_id": "MDQ6VXNlcjExODI5Njc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1182967?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/cloudshadow",
+                    "html_url": "https://github.com/cloudshadow",
+                    "followers_url": "https://api.github.com/users/cloudshadow/followers",
+                    "following_url": "https://api.github.com/users/cloudshadow/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/cloudshadow/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/cloudshadow/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/cloudshadow/subscriptions",
+                    "organizations_url": "https://api.github.com/users/cloudshadow/orgs",
+                    "repos_url": "https://api.github.com/users/cloudshadow/repos",
+                    "events_url": "https://api.github.com/users/cloudshadow/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/cloudshadow/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 983405319,
+                        "node_id": "MDU6TGFiZWw5ODM0MDUzMTk=",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20triage%20%F0%9F%8F%B7",
+                        "name": "needs: triage \ud83c\udff7",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue needs to be checked and prioritized"
+                    },
+                    {
+                        "id": 1938605029,
+                        "node_id": "MDU6TGFiZWwxOTM4NjA1MDI5",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20complete%20repro%20%F0%9F%96%A5%EF%B8%8F",
+                        "name": "needs: complete repro \ud83d\udda5\ufe0f",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue need to have complete repro provided"
+                    },
+                    {
+                        "id": 1955822884,
+                        "node_id": "MDU6TGFiZWwxOTU1ODIyODg0",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bug%20report%20%F0%9F%A6%97",
+                        "name": "bug report \ud83e\udd97",
+                        "color": "f8c4c4",
+                        "default": false,
+                        "description": "Issue is probably a bug, but it needs to be checked"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-24T02:24:30Z",
+                "updated_at": "2023-10-24T02:24:30Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Environment\r\n\"storybook\": \"7.5.1\",\r\n\"@storybook/react-webpack5\": \"7.5.1\",\r\n\"@linaria/babel-preset\": \"5.0.3\",\r\n\"@linaria/core\": \"5.0.2\",\r\n\"@linaria/react\": \"5.0.3\",\r\n\"@linaria/rollup\": \"5.0.3\",\r\n\"@linaria/webpack-loader\": \"5.0.3\",\r\n\r\n<!--\r\nAll necessary environmental info that will help triage this\r\n-->\r\n\r\n<!--\r\nEspecially include:\r\n-->\r\n\r\n- Linaria version: 5.0.2\r\n- Node.js version: 20.2.0\r\n- OS: ventura 13.5\r\n\r\n## Description\r\n\r\n<!--\r\nDescribe your issue in detail.\r\nInclude screenshots if needed.\r\nIf this is a regression, let us know.\r\n-->\r\nRun \"npm run storybook\" and will return the error ``` ERROR in ./storybook-stories.js\r\nModule build failed (from ./node_modules/@linaria/webpack-loader/lib/index.js):\r\nError: /storybook-stories.js: Dynamic import argument must be a string or a template literal ```\r\n\r\nbut it work fine when I use \r\n\"@linaria/babel-preset\": \"4.5.4\",\r\n\"@linaria/core\": \"4.5.4\",\r\n\"@linaria/react\": \"4.5.4\",\r\n\"@linaria/rollup\": \"4.5.4\",\r\n\"@linaria/webpack-loader\": \"4.5.4\",\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1376/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1376/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T02:24:32Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32788073618",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 35263631,
+            "login": "x318",
+            "display_login": "x318",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/x318",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35263631?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T00:05:41Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32756969480",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 822,
+            "login": "peleteiro",
+            "display_login": "peleteiro",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/peleteiro",
+            "avatar_url": "https://avatars.githubusercontent.com/u/822?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T01:05:49Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32745312024",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 59088961,
+            "login": "cairon666",
+            "display_login": "cairon666",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cairon666",
+            "avatar_url": "https://avatars.githubusercontent.com/u/59088961?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T21:01:27Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32741701121",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 143161470,
+            "login": "zqu2304",
+            "display_login": "zqu2304",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zqu2304",
+            "avatar_url": "https://avatars.githubusercontent.com/u/143161470?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "forkee": {
+                "id": 708075432,
+                "node_id": "R_kgDOKjRfqA",
+                "name": "linaria",
+                "full_name": "zqu2304/linaria",
+                "private": false,
+                "owner": {
+                    "login": "zqu2304",
+                    "id": 143161470,
+                    "node_id": "U_kgDOCIh4fg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/143161470?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zqu2304",
+                    "html_url": "https://github.com/zqu2304",
+                    "followers_url": "https://api.github.com/users/zqu2304/followers",
+                    "following_url": "https://api.github.com/users/zqu2304/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zqu2304/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zqu2304/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zqu2304/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zqu2304/orgs",
+                    "repos_url": "https://api.github.com/users/zqu2304/repos",
+                    "events_url": "https://api.github.com/users/zqu2304/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zqu2304/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/zqu2304/linaria",
+                "description": "Zero-runtime CSS in JS library",
+                "fork": true,
+                "url": "https://api.github.com/repos/zqu2304/linaria",
+                "forks_url": "https://api.github.com/repos/zqu2304/linaria/forks",
+                "keys_url": "https://api.github.com/repos/zqu2304/linaria/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/zqu2304/linaria/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/zqu2304/linaria/teams",
+                "hooks_url": "https://api.github.com/repos/zqu2304/linaria/hooks",
+                "issue_events_url": "https://api.github.com/repos/zqu2304/linaria/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/zqu2304/linaria/events",
+                "assignees_url": "https://api.github.com/repos/zqu2304/linaria/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/zqu2304/linaria/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/zqu2304/linaria/tags",
+                "blobs_url": "https://api.github.com/repos/zqu2304/linaria/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/zqu2304/linaria/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/zqu2304/linaria/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/zqu2304/linaria/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/zqu2304/linaria/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/zqu2304/linaria/languages",
+                "stargazers_url": "https://api.github.com/repos/zqu2304/linaria/stargazers",
+                "contributors_url": "https://api.github.com/repos/zqu2304/linaria/contributors",
+                "subscribers_url": "https://api.github.com/repos/zqu2304/linaria/subscribers",
+                "subscription_url": "https://api.github.com/repos/zqu2304/linaria/subscription",
+                "commits_url": "https://api.github.com/repos/zqu2304/linaria/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/zqu2304/linaria/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/zqu2304/linaria/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/zqu2304/linaria/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/zqu2304/linaria/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/zqu2304/linaria/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/zqu2304/linaria/merges",
+                "archive_url": "https://api.github.com/repos/zqu2304/linaria/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/zqu2304/linaria/downloads",
+                "issues_url": "https://api.github.com/repos/zqu2304/linaria/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/zqu2304/linaria/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/zqu2304/linaria/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/zqu2304/linaria/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/zqu2304/linaria/labels{/name}",
+                "releases_url": "https://api.github.com/repos/zqu2304/linaria/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/zqu2304/linaria/deployments",
+                "created_at": "2023-10-21T13:00:02Z",
+                "updated_at": "2023-10-21T13:00:02Z",
+                "pushed_at": "2023-10-18T15:15:06Z",
+                "git_url": "git://github.com/zqu2304/linaria.git",
+                "ssh_url": "git@github.com:zqu2304/linaria.git",
+                "clone_url": "https://github.com/zqu2304/linaria.git",
+                "svn_url": "https://github.com/zqu2304/linaria",
+                "homepage": "https://linaria.dev",
+                "size": 32407,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-21T13:00:03Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32741698373",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 143161470,
+            "login": "zqu2304",
+            "display_login": "zqu2304",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zqu2304",
+            "avatar_url": "https://avatars.githubusercontent.com/u/143161470?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T12:59:50Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32737889095",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 11585343,
+            "login": "elicayuu",
+            "display_login": "elicayuu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/elicayuu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11585343?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T03:42:52Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32737844640",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 26340308,
+            "login": "VeoScript",
+            "display_login": "VeoScript",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/VeoScript",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26340308?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T03:36:06Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32717739581",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1001202,
+            "login": "landwire",
+            "display_login": "landwire",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/landwire",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1001202?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T09:50:31Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32708156793",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13767783,
+            "login": "obsfx",
+            "display_login": "obsfx",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/obsfx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13767783?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T00:54:28Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32701924776",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8125011,
+            "login": "alex-kinokon",
+            "display_login": "alex-kinokon",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alex-kinokon",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8125011?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1322",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1322/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1322/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1322/events",
+                "html_url": "https://github.com/callstack/linaria/issues/1322",
+                "id": 1846733465,
+                "node_id": "I_kwDOBX2HzM5uEuqZ",
+                "number": 1322,
+                "title": "Using `@linaria/rollup` without Vite in Yarn warns about unmet peer dependency",
+                "user": {
+                    "login": "smoogly",
+                    "id": 6410842,
+                    "node_id": "MDQ6VXNlcjY0MTA4NDI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6410842?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smoogly",
+                    "html_url": "https://github.com/smoogly",
+                    "followers_url": "https://api.github.com/users/smoogly/followers",
+                    "following_url": "https://api.github.com/users/smoogly/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smoogly/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smoogly/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smoogly/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smoogly/orgs",
+                    "repos_url": "https://api.github.com/users/smoogly/repos",
+                    "events_url": "https://api.github.com/users/smoogly/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smoogly/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1938605029,
+                        "node_id": "MDU6TGFiZWwxOTM4NjA1MDI5",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/needs:%20complete%20repro%20%F0%9F%96%A5%EF%B8%8F",
+                        "name": "needs: complete repro \ud83d\udda5\ufe0f",
+                        "color": "b2ffbb",
+                        "default": false,
+                        "description": "Issue need to have complete repro provided"
+                    },
+                    {
+                        "id": 1953438553,
+                        "node_id": "MDU6TGFiZWwxOTUzNDM4NTUz",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bundler:%20rollup%20%F0%9F%97%9E%EF%B8%8F",
+                        "name": "bundler: rollup \ud83d\uddde\ufe0f",
+                        "color": "e5e5e5",
+                        "default": false,
+                        "description": "Issue is related to rollup bundler"
+                    },
+                    {
+                        "id": 1955822884,
+                        "node_id": "MDU6TGFiZWwxOTU1ODIyODg0",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/bug%20report%20%F0%9F%A6%97",
+                        "name": "bug report \ud83e\udd97",
+                        "color": "f8c4c4",
+                        "default": false,
+                        "description": "Issue is probably a bug, but it needs to be checked"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-08-11T12:24:09Z",
+                "updated_at": "2023-10-19T19:01:20Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Environment\r\n\r\n- `@linaria/rollup` version: 4.5.4\r\n- Node.js: v16.18.0\r\n- Yarn: v1.22.10\r\n- OS: MacOS Ventura\r\n\r\n## Description\r\n\r\nInstalling `@linaria/rollup` using Yarn to use with Rollup directly in an environment where `vite` is not used warns about\r\n> \"@linaria/rollup > @linaria/vite@4.5.4\" has unmet peer dependency \"vite@>=3.1.0\".\r\n\r\n## Reproducible Demo\r\n\r\n```sh\r\nyarn add rollup@3.28.0 @linaria/rollup@4.5.4 | fgrep \"unmet peer dependency\"\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1322/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1322/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1771550372",
+                "html_url": "https://github.com/callstack/linaria/issues/1322#issuecomment-1771550372",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/1322",
+                "id": 1771550372,
+                "node_id": "IC_kwDOBX2HzM5pl7ak",
+                "user": {
+                    "login": "alex-kinokon",
+                    "id": 8125011,
+                    "node_id": "MDQ6VXNlcjgxMjUwMTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8125011?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alex-kinokon",
+                    "html_url": "https://github.com/alex-kinokon",
+                    "followers_url": "https://api.github.com/users/alex-kinokon/followers",
+                    "following_url": "https://api.github.com/users/alex-kinokon/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alex-kinokon/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alex-kinokon/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alex-kinokon/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alex-kinokon/orgs",
+                    "repos_url": "https://api.github.com/users/alex-kinokon/repos",
+                    "events_url": "https://api.github.com/users/alex-kinokon/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alex-kinokon/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T19:01:20Z",
+                "updated_at": "2023-10-19T19:01:20Z",
+                "author_association": "NONE",
+                "body": "Culprit: #1358. `@linaria/rollup` is currently unusable without `vite`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1771550372/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T19:01:21Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32700908633",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 15370764,
+            "login": "DaltheCow",
+            "display_login": "DaltheCow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DaltheCow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15370764?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-19T18:18:01Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32677604347",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24250627,
+            "login": "xiaotiandada",
+            "display_login": "xiaotiandada",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/xiaotiandada",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24250627?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-19T03:51:39Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32675756976",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 15721500,
+            "login": "aliftan",
+            "display_login": "aliftan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aliftan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15721500?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-19T01:39:05Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32675069600",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 11953142,
+            "login": "kaifaty",
+            "display_login": "kaifaty",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaifaty",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11953142?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/519",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/519/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/519/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/519/events",
+                "html_url": "https://github.com/callstack/linaria/issues/519",
+                "id": 544729183,
+                "node_id": "MDU6SXNzdWU1NDQ3MjkxODM=",
+                "number": 519,
+                "title": "Support Parcel 2 Plugin API",
+                "user": {
+                    "login": "Pytal",
+                    "id": 24800714,
+                    "node_id": "MDQ6VXNlcjI0ODAwNzE0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24800714?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Pytal",
+                    "html_url": "https://github.com/Pytal",
+                    "followers_url": "https://api.github.com/users/Pytal/followers",
+                    "following_url": "https://api.github.com/users/Pytal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Pytal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Pytal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Pytal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Pytal/orgs",
+                    "repos_url": "https://api.github.com/users/Pytal/repos",
+                    "events_url": "https://api.github.com/users/Pytal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Pytal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2020-01-02T20:15:08Z",
+                "updated_at": "2023-10-19T00:48:12Z",
+                "closed_at": "2020-03-26T13:03:01Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Describe the feature\r\n\r\nParcel 2 implemented a plugin api, and it would be great if a `parcel-transformer-linaria` package could be made!\r\n\r\nThere are already plugins for webpack with [linaria/loader](https://github.com/callstack/linaria/blob/master/docs/BUNDLERS_INTEGRATION.md#webpack) and rollup with [linaria/rollup](https://github.com/callstack/linaria/blob/master/docs/BUNDLERS_INTEGRATION.md#rollup), it'd be great to have Parcel 2 support as well!\r\n\r\n## Motivation\r\n\r\nSupport new [Parcel 2](https://medium.com/@devongovett/parcel-2-0-0-alpha-1-is-here-8b160c6e3f7e) extensibility!\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/519/reactions",
+                    "total_count": 6,
+                    "+1": 6,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/519/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1769718067",
+                "html_url": "https://github.com/callstack/linaria/issues/519#issuecomment-1769718067",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/519",
+                "id": 1769718067,
+                "node_id": "IC_kwDOBX2HzM5pe8Ez",
+                "user": {
+                    "login": "kaifaty",
+                    "id": 11953142,
+                    "node_id": "MDQ6VXNlcjExOTUzMTQy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11953142?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kaifaty",
+                    "html_url": "https://github.com/kaifaty",
+                    "followers_url": "https://api.github.com/users/kaifaty/followers",
+                    "following_url": "https://api.github.com/users/kaifaty/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kaifaty/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kaifaty/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kaifaty/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kaifaty/orgs",
+                    "repos_url": "https://api.github.com/users/kaifaty/repos",
+                    "events_url": "https://api.github.com/users/kaifaty/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kaifaty/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T00:48:12Z",
+                "updated_at": "2023-10-19T00:48:12Z",
+                "author_association": "NONE",
+                "body": "Why this issue marked as complete?\r\nThere is no plugin for Parsel 2  for now. Have any plans to add it? ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1769718067/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T00:48:13Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32662407009",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 49419645,
+            "login": "changeset-bot[bot]",
+            "display_login": "changeset-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/changeset-bot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49419645?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/1375",
+                "repository_url": "https://api.github.com/repos/callstack/linaria",
+                "labels_url": "https://api.github.com/repos/callstack/linaria/issues/1375/labels{/name}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1375/comments",
+                "events_url": "https://api.github.com/repos/callstack/linaria/issues/1375/events",
+                "html_url": "https://github.com/callstack/linaria/pull/1375",
+                "id": 1950003504,
+                "node_id": "PR_kwDOBX2HzM5dJ7vN",
+                "number": 1375,
+                "title": "chore(deps): bump @babel/traverse from 7.22.15 to 7.23.2",
+                "user": {
+                    "login": "dependabot[bot]",
+                    "id": 49699333,
+                    "node_id": "MDM6Qm90NDk2OTkzMzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/dependabot",
+                    "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 3062886030,
+                        "node_id": "MDU6TGFiZWwzMDYyODg2MDMw",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/dependencies",
+                        "name": "dependencies",
+                        "color": "0366d6",
+                        "default": false,
+                        "description": "Pull requests that update a dependency file"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-18T15:15:05Z",
+                "updated_at": "2023-10-18T15:15:09Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/callstack/linaria/pulls/1375",
+                    "html_url": "https://github.com/callstack/linaria/pull/1375",
+                    "diff_url": "https://github.com/callstack/linaria/pull/1375.diff",
+                    "patch_url": "https://github.com/callstack/linaria/pull/1375.patch",
+                    "merged_at": null
+                },
+                "body": "Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.22.15 to 7.23.2.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/babel/babel/releases\"><code>@\u200bbabel/traverse</code>'s releases</a>.</em></p>\n<blockquote>\n<h2>v7.23.2 (2023-10-11)</h2>\n<p><strong>NOTE</strong>: This release also re-publishes <code>@babel/core</code>, even if it does not appear in the linked release commit.</p>\n<p>Thanks <a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a> for your first PR!</p>\n<h4>:bug: Bug Fix</h4>\n<ul>\n<li><code>babel-traverse</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16033\">#16033</a> Only evaluate own String/Number/Math methods (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16022\">#16022</a> Rewrite <code>.tsx</code> extension when using <code>rewriteImportExtensions</code> (<a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16017\">#16017</a> Fix: fallback to typeof when toString is applied to incompatible object (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16025\">#16025</a> Avoid override mistake in namespace imports (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>Committers: 5</h4>\n<ul>\n<li>Babel Bot (<a href=\"https://github.com/babel-bot\"><code>@\u200bbabel-bot</code></a>)</li>\n<li>Hu\u00e1ng J\u00f9nli\u00e0ng (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n<li>James Diefenderfer (<a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a>)</li>\n<li>Nicol\u00f2 Ribaudo (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n<li><a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a></li>\n</ul>\n<h2>v7.23.1 (2023-09-25)</h2>\n<p>Re-publishing <code>@babel/helpers</code> due to a publishing error in 7.23.0.</p>\n<h2>v7.23.0 (2023-09-25)</h2>\n<p>Thanks <a href=\"https://github.com/lorenzoferre\"><code>@\u200blorenzoferre</code></a> and <a href=\"https://github.com/RajShukla1\"><code>@\u200bRajShukla1</code></a> for your first PRs!</p>\n<h4>:rocket: New Feature</h4>\n<ul>\n<li><code>babel-plugin-proposal-import-wasm-source</code>, <code>babel-plugin-syntax-import-source</code>, <code>babel-plugin-transform-dynamic-import</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15870\">#15870</a> Support transforming <code>import source</code> for wasm (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-module-transforms</code>, <code>babel-helpers</code>, <code>babel-plugin-proposal-import-defer</code>, <code>babel-plugin-syntax-import-defer</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15878\">#15878</a> Implement <code>import defer</code> proposal transform support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-parser</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15845\">#15845</a> Implement <code>import defer</code> parsing support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15829\">#15829</a> Add parsing support for the &quot;source phase imports&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-helper-module-transforms</code>, <code>babel-parser</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-systemjs</code>, <code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15682\">#15682</a> Add <code>createImportExpressions</code> parser option (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15671\">#15671</a> Pass through nonce to the transformed script element (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-function-name</code>, <code>babel-helper-member-expression-to-functions</code>, <code>babel-helpers</code>, <code>babel-parser</code>, <code>babel-plugin-proposal-destructuring-private</code>, <code>babel-plugin-proposal-optional-chaining-assign</code>, <code>babel-plugin-syntax-optional-chaining-assign</code>, <code>babel-plugin-transform-destructuring</code>, <code>babel-plugin-transform-optional-chaining</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15751\">#15751</a> Add support for optional chain in assignments (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-proposal-decorators</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15895\">#15895</a> Implement the &quot;decorator metadata&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15893\">#15893</a> Add <code>t.buildUndefinedNode</code> (<a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code></li>\n</ul>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/babel/babel/blob/main/CHANGELOG.md\"><code>@\u200bbabel/traverse</code>'s changelog</a>.</em></p>\n<blockquote>\n<h2>v7.23.2 (2023-10-11)</h2>\n<h4>:bug: Bug Fix</h4>\n<ul>\n<li><code>babel-traverse</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16033\">#16033</a> Only evaluate own String/Number/Math methods (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16022\">#16022</a> Rewrite <code>.tsx</code> extension when using <code>rewriteImportExtensions</code> (<a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16017\">#16017</a> Fix: fallback to typeof when toString is applied to incompatible object (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16025\">#16025</a> Avoid override mistake in namespace imports (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h2>v7.23.0 (2023-09-25)</h2>\n<h4>:rocket: New Feature</h4>\n<ul>\n<li><code>babel-plugin-proposal-import-wasm-source</code>, <code>babel-plugin-syntax-import-source</code>, <code>babel-plugin-transform-dynamic-import</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15870\">#15870</a> Support transforming <code>import source</code> for wasm (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-module-transforms</code>, <code>babel-helpers</code>, <code>babel-plugin-proposal-import-defer</code>, <code>babel-plugin-syntax-import-defer</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15878\">#15878</a> Implement <code>import defer</code> proposal transform support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-parser</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15845\">#15845</a> Implement <code>import defer</code> parsing support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15829\">#15829</a> Add parsing support for the &quot;source phase imports&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-helper-module-transforms</code>, <code>babel-parser</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-systemjs</code>, <code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15682\">#15682</a> Add <code>createImportExpressions</code> parser option (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15671\">#15671</a> Pass through nonce to the transformed script element (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-function-name</code>, <code>babel-helper-member-expression-to-functions</code>, <code>babel-helpers</code>, <code>babel-parser</code>, <code>babel-plugin-proposal-destructuring-private</code>, <code>babel-plugin-proposal-optional-chaining-assign</code>, <code>babel-plugin-syntax-optional-chaining-assign</code>, <code>babel-plugin-transform-destructuring</code>, <code>babel-plugin-transform-optional-chaining</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15751\">#15751</a> Add support for optional chain in assignments (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-proposal-decorators</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15895\">#15895</a> Implement the &quot;decorator metadata&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15893\">#15893</a> Add <code>t.buildUndefinedNode</code> (<a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15913\">#15913</a> Add <code>rewriteImportExtensions</code> option to TS preset (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-parser</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15896\">#15896</a> Allow TS tuples to have both labeled and unlabeled elements (<a href=\"https://github.com/yukukotani\"><code>@\u200byukukotani</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>:bug: Bug Fix</h4>\n<ul>\n<li><code>babel-plugin-transform-block-scoping</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15962\">#15962</a> fix: <code>transform-block-scoping</code> captures the variables of the method in the loop (<a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>:nail_care: Polish</h4>\n<ul>\n<li><code>babel-traverse</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15797\">#15797</a> Expand evaluation of global built-ins in <code>@babel/traverse</code> (<a href=\"https://github.com/lorenzoferre\"><code>@\u200blorenzoferre</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-plugin-proposal-explicit-resource-management</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15985\">#15985</a> Improve source maps for blocks with <code>using</code> declarations (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>:microscope: Output optimization</h4>\n<ul>\n<li><code>babel-core</code>, <code>babel-helper-module-transforms</code>, <code>babel-plugin-transform-async-to-generator</code>, <code>babel-plugin-transform-classes</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-function-name</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-umd</code>, <code>babel-plugin-transform-parameters</code>, <code>babel-plugin-transform-react-constant-elements</code>, <code>babel-plugin-transform-react-inline-elements</code>, <code>babel-plugin-transform-runtime</code>, <code>babel-plugin-transform-typescript</code>, <code>babel-preset-env</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15984\">#15984</a> Inline <code>exports.XXX =</code> update in simple variable declarations (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h2>v7.22.20 (2023-09-16)</h2>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/babel/babel/commit/b4b9942a6cde0685c222eb3412347880aae40ad5\"><code>b4b9942</code></a> v7.23.2</li>\n<li><a href=\"https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82\"><code>b13376b</code></a> Only evaluate own String/Number/Math methods (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/16033\">#16033</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/ca58ec15cb6dde6812c36997477e44880bec0bba\"><code>ca58ec1</code></a> v7.23.0</li>\n<li><a href=\"https://github.com/babel/babel/commit/0f333dafcf470f1970083e4e695ced6aec8bead0\"><code>0f333da</code></a> Add <code>createImportExpressions</code> parser option (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15682\">#15682</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/3744545649fdc21688a2f3c97e1e39dbebff0d21\"><code>3744545</code></a> Fix linting</li>\n<li><a href=\"https://github.com/babel/babel/commit/c7e6806e2194deb36c330f543409c792592b22d4\"><code>c7e6806</code></a> Add <code>t.buildUndefinedNode</code> (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15893\">#15893</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/38ee8b4dd693f1e2bd00107bbc1167ce84736ea0\"><code>38ee8b4</code></a> Expand evaluation of global built-ins in <code>@babel/traverse</code> (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15797\">#15797</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/9f3dfd90211472cf0083a3234dd1a1b857ce3624\"><code>9f3dfd9</code></a> v7.22.20</li>\n<li><a href=\"https://github.com/babel/babel/commit/3ed28b29c1fb15588369bdd55187b69f1248e87d\"><code>3ed28b2</code></a> Fully support <code>||</code> and <code>&amp;&amp;</code> in <code>pluginToggleBooleanFlag</code> (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15961\">#15961</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/77b0d7359909c94f3797c24006f244847fbc8d6d\"><code>77b0d73</code></a> v7.22.19</li>\n<li>Additional commits viewable in <a href=\"https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@babel/traverse&package-manager=npm_and_yarn&previous-version=7.22.15&new-version=7.23.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\nYou can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/callstack/linaria/network/alerts).\n\n</details>",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/1375/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/callstack/linaria/issues/1375/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1768712199",
+                "html_url": "https://github.com/callstack/linaria/pull/1375#issuecomment-1768712199",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/1375",
+                "id": 1768712199,
+                "node_id": "IC_kwDOBX2HzM5pbGgH",
+                "user": {
+                    "login": "changeset-bot[bot]",
+                    "id": 49419645,
+                    "node_id": "MDM6Qm90NDk0MTk2NDU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/28616?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/changeset-bot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/changeset-bot",
+                    "followers_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/changeset-bot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-18T15:15:09Z",
+                "updated_at": "2023-10-18T15:15:09Z",
+                "author_association": "NONE",
+                "body": "###  \u26a0\ufe0f  No Changeset found\n\nLatest commit: 2b5bc576d3ec7f7c07e68e8958a63e536dd0ab05\n\nMerging this PR will not cause a version bump for any packages. If these changes should not result in a new version, you're good to go. **If these changes should result in a version bump, you need to add a changeset.**\n\n<details><summary>This PR includes no changesets</summary>\n\n  When changesets are added to this PR, you'll see the packages that this PR includes changesets for and the associated semver types\n\n</details>\n\n[Click here to learn what changesets are, and how to add one](https://github.com/changesets/changesets/blob/main/docs/adding-a-changeset.md).\n\n[Click here if you're a maintainer who wants to add a changeset to this PR](https://github.com/callstack/linaria/new/dependabot/npm_and_yarn/babel/traverse-7.23.2?filename=.changeset/friendly-chicken-cover.md&value=---%0A%22%40linaria%2Fbabel-preset%22%3A%20patch%0A%22%40linaria%2Fcore%22%3A%20patch%0A%22%40linaria%2Fbabel-plugin-interop%22%3A%20patch%0A%22%40linaria%2Fpostcss-linaria%22%3A%20patch%0A%22%40linaria%2Ftags%22%3A%20patch%0A%22%40linaria%2Ftestkit%22%3A%20patch%0A%22%40linaria%2Futils%22%3A%20patch%0A---%0A%0Achore(deps)%3A%20bump%20%40babel%2Ftraverse%20from%207.22.15%20to%207.23.2%0A)\n\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/callstack/linaria/issues/comments/1768712199/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-18T15:15:10Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32662405448",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/babel/traverse-7.23.2",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "Zero-runtime CSS in JS library",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-18T15:15:07Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    },
+    {
+        "id": "32662405511",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 92112844,
+            "name": "callstack/linaria",
+            "url": "https://api.github.com/repos/callstack/linaria"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1375,
+            "pull_request": {
+                "url": "https://api.github.com/repos/callstack/linaria/pulls/1375",
+                "id": 1562885069,
+                "node_id": "PR_kwDOBX2HzM5dJ7vN",
+                "html_url": "https://github.com/callstack/linaria/pull/1375",
+                "diff_url": "https://github.com/callstack/linaria/pull/1375.diff",
+                "patch_url": "https://github.com/callstack/linaria/pull/1375.patch",
+                "issue_url": "https://api.github.com/repos/callstack/linaria/issues/1375",
+                "number": 1375,
+                "state": "open",
+                "locked": false,
+                "title": "chore(deps): bump @babel/traverse from 7.22.15 to 7.23.2",
+                "user": {
+                    "login": "dependabot[bot]",
+                    "id": 49699333,
+                    "node_id": "MDM6Qm90NDk2OTkzMzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/dependabot",
+                    "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "body": "Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.22.15 to 7.23.2.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/babel/babel/releases\"><code>@\u200bbabel/traverse</code>'s releases</a>.</em></p>\n<blockquote>\n<h2>v7.23.2 (2023-10-11)</h2>\n<p><strong>NOTE</strong>: This release also re-publishes <code>@babel/core</code>, even if it does not appear in the linked release commit.</p>\n<p>Thanks <a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a> for your first PR!</p>\n<h4>:bug: Bug Fix</h4>\n<ul>\n<li><code>babel-traverse</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16033\">#16033</a> Only evaluate own String/Number/Math methods (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16022\">#16022</a> Rewrite <code>.tsx</code> extension when using <code>rewriteImportExtensions</code> (<a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16017\">#16017</a> Fix: fallback to typeof when toString is applied to incompatible object (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16025\">#16025</a> Avoid override mistake in namespace imports (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>Committers: 5</h4>\n<ul>\n<li>Babel Bot (<a href=\"https://github.com/babel-bot\"><code>@\u200bbabel-bot</code></a>)</li>\n<li>Hu\u00e1ng J\u00f9nli\u00e0ng (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n<li>James Diefenderfer (<a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a>)</li>\n<li>Nicol\u00f2 Ribaudo (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n<li><a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a></li>\n</ul>\n<h2>v7.23.1 (2023-09-25)</h2>\n<p>Re-publishing <code>@babel/helpers</code> due to a publishing error in 7.23.0.</p>\n<h2>v7.23.0 (2023-09-25)</h2>\n<p>Thanks <a href=\"https://github.com/lorenzoferre\"><code>@\u200blorenzoferre</code></a> and <a href=\"https://github.com/RajShukla1\"><code>@\u200bRajShukla1</code></a> for your first PRs!</p>\n<h4>:rocket: New Feature</h4>\n<ul>\n<li><code>babel-plugin-proposal-import-wasm-source</code>, <code>babel-plugin-syntax-import-source</code>, <code>babel-plugin-transform-dynamic-import</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15870\">#15870</a> Support transforming <code>import source</code> for wasm (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-module-transforms</code>, <code>babel-helpers</code>, <code>babel-plugin-proposal-import-defer</code>, <code>babel-plugin-syntax-import-defer</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15878\">#15878</a> Implement <code>import defer</code> proposal transform support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-parser</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15845\">#15845</a> Implement <code>import defer</code> parsing support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15829\">#15829</a> Add parsing support for the &quot;source phase imports&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-helper-module-transforms</code>, <code>babel-parser</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-systemjs</code>, <code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15682\">#15682</a> Add <code>createImportExpressions</code> parser option (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15671\">#15671</a> Pass through nonce to the transformed script element (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-function-name</code>, <code>babel-helper-member-expression-to-functions</code>, <code>babel-helpers</code>, <code>babel-parser</code>, <code>babel-plugin-proposal-destructuring-private</code>, <code>babel-plugin-proposal-optional-chaining-assign</code>, <code>babel-plugin-syntax-optional-chaining-assign</code>, <code>babel-plugin-transform-destructuring</code>, <code>babel-plugin-transform-optional-chaining</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15751\">#15751</a> Add support for optional chain in assignments (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-proposal-decorators</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15895\">#15895</a> Implement the &quot;decorator metadata&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15893\">#15893</a> Add <code>t.buildUndefinedNode</code> (<a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code></li>\n</ul>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/babel/babel/blob/main/CHANGELOG.md\"><code>@\u200bbabel/traverse</code>'s changelog</a>.</em></p>\n<blockquote>\n<h2>v7.23.2 (2023-10-11)</h2>\n<h4>:bug: Bug Fix</h4>\n<ul>\n<li><code>babel-traverse</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16033\">#16033</a> Only evaluate own String/Number/Math methods (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16022\">#16022</a> Rewrite <code>.tsx</code> extension when using <code>rewriteImportExtensions</code> (<a href=\"https://github.com/jimmydief\"><code>@\u200bjimmydief</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16017\">#16017</a> Fix: fallback to typeof when toString is applied to incompatible object (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/16025\">#16025</a> Avoid override mistake in namespace imports (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h2>v7.23.0 (2023-09-25)</h2>\n<h4>:rocket: New Feature</h4>\n<ul>\n<li><code>babel-plugin-proposal-import-wasm-source</code>, <code>babel-plugin-syntax-import-source</code>, <code>babel-plugin-transform-dynamic-import</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15870\">#15870</a> Support transforming <code>import source</code> for wasm (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-module-transforms</code>, <code>babel-helpers</code>, <code>babel-plugin-proposal-import-defer</code>, <code>babel-plugin-syntax-import-defer</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15878\">#15878</a> Implement <code>import defer</code> proposal transform support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-parser</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15845\">#15845</a> Implement <code>import defer</code> parsing support (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15829\">#15829</a> Add parsing support for the &quot;source phase imports&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-generator</code>, <code>babel-helper-module-transforms</code>, <code>babel-parser</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-systemjs</code>, <code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15682\">#15682</a> Add <code>createImportExpressions</code> parser option (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-standalone</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15671\">#15671</a> Pass through nonce to the transformed script element (<a href=\"https://github.com/JLHwung\"><code>@\u200bJLHwung</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helper-function-name</code>, <code>babel-helper-member-expression-to-functions</code>, <code>babel-helpers</code>, <code>babel-parser</code>, <code>babel-plugin-proposal-destructuring-private</code>, <code>babel-plugin-proposal-optional-chaining-assign</code>, <code>babel-plugin-syntax-optional-chaining-assign</code>, <code>babel-plugin-transform-destructuring</code>, <code>babel-plugin-transform-optional-chaining</code>, <code>babel-runtime-corejs2</code>, <code>babel-runtime-corejs3</code>, <code>babel-runtime</code>, <code>babel-standalone</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15751\">#15751</a> Add support for optional chain in assignments (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-helpers</code>, <code>babel-plugin-proposal-decorators</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15895\">#15895</a> Implement the &quot;decorator metadata&quot; proposal (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-traverse</code>, <code>babel-types</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15893\">#15893</a> Add <code>t.buildUndefinedNode</code> (<a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-preset-typescript</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15913\">#15913</a> Add <code>rewriteImportExtensions</code> option to TS preset (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-parser</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15896\">#15896</a> Allow TS tuples to have both labeled and unlabeled elements (<a href=\"https://github.com/yukukotani\"><code>@\u200byukukotani</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>:bug: Bug Fix</h4>\n<ul>\n<li><code>babel-plugin-transform-block-scoping</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15962\">#15962</a> fix: <code>transform-block-scoping</code> captures the variables of the method in the loop (<a href=\"https://github.com/liuxingbaoyu\"><code>@\u200bliuxingbaoyu</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>:nail_care: Polish</h4>\n<ul>\n<li><code>babel-traverse</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15797\">#15797</a> Expand evaluation of global built-ins in <code>@babel/traverse</code> (<a href=\"https://github.com/lorenzoferre\"><code>@\u200blorenzoferre</code></a>)</li>\n</ul>\n</li>\n<li><code>babel-plugin-proposal-explicit-resource-management</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15985\">#15985</a> Improve source maps for blocks with <code>using</code> declarations (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h4>:microscope: Output optimization</h4>\n<ul>\n<li><code>babel-core</code>, <code>babel-helper-module-transforms</code>, <code>babel-plugin-transform-async-to-generator</code>, <code>babel-plugin-transform-classes</code>, <code>babel-plugin-transform-dynamic-import</code>, <code>babel-plugin-transform-function-name</code>, <code>babel-plugin-transform-modules-amd</code>, <code>babel-plugin-transform-modules-commonjs</code>, <code>babel-plugin-transform-modules-umd</code>, <code>babel-plugin-transform-parameters</code>, <code>babel-plugin-transform-react-constant-elements</code>, <code>babel-plugin-transform-react-inline-elements</code>, <code>babel-plugin-transform-runtime</code>, <code>babel-plugin-transform-typescript</code>, <code>babel-preset-env</code>\n<ul>\n<li><a href=\"https://redirect.github.com/babel/babel/pull/15984\">#15984</a> Inline <code>exports.XXX =</code> update in simple variable declarations (<a href=\"https://github.com/nicolo-ribaudo\"><code>@\u200bnicolo-ribaudo</code></a>)</li>\n</ul>\n</li>\n</ul>\n<h2>v7.22.20 (2023-09-16)</h2>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/babel/babel/commit/b4b9942a6cde0685c222eb3412347880aae40ad5\"><code>b4b9942</code></a> v7.23.2</li>\n<li><a href=\"https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82\"><code>b13376b</code></a> Only evaluate own String/Number/Math methods (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/16033\">#16033</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/ca58ec15cb6dde6812c36997477e44880bec0bba\"><code>ca58ec1</code></a> v7.23.0</li>\n<li><a href=\"https://github.com/babel/babel/commit/0f333dafcf470f1970083e4e695ced6aec8bead0\"><code>0f333da</code></a> Add <code>createImportExpressions</code> parser option (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15682\">#15682</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/3744545649fdc21688a2f3c97e1e39dbebff0d21\"><code>3744545</code></a> Fix linting</li>\n<li><a href=\"https://github.com/babel/babel/commit/c7e6806e2194deb36c330f543409c792592b22d4\"><code>c7e6806</code></a> Add <code>t.buildUndefinedNode</code> (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15893\">#15893</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/38ee8b4dd693f1e2bd00107bbc1167ce84736ea0\"><code>38ee8b4</code></a> Expand evaluation of global built-ins in <code>@babel/traverse</code> (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15797\">#15797</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/9f3dfd90211472cf0083a3234dd1a1b857ce3624\"><code>9f3dfd9</code></a> v7.22.20</li>\n<li><a href=\"https://github.com/babel/babel/commit/3ed28b29c1fb15588369bdd55187b69f1248e87d\"><code>3ed28b2</code></a> Fully support <code>||</code> and <code>&amp;&amp;</code> in <code>pluginToggleBooleanFlag</code> (<a href=\"https://github.com/babel/babel/tree/HEAD/packages/babel-traverse/issues/15961\">#15961</a>)</li>\n<li><a href=\"https://github.com/babel/babel/commit/77b0d7359909c94f3797c24006f244847fbc8d6d\"><code>77b0d73</code></a> v7.22.19</li>\n<li>Additional commits viewable in <a href=\"https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@babel/traverse&package-manager=npm_and_yarn&previous-version=7.22.15&new-version=7.23.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\nYou can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/callstack/linaria/network/alerts).\n\n</details>",
+                "created_at": "2023-10-18T15:15:05Z",
+                "updated_at": "2023-10-18T15:15:07Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "47c30107d55fbb011005c2fbe508af305eb401c1",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 3062886030,
+                        "node_id": "MDU6TGFiZWwzMDYyODg2MDMw",
+                        "url": "https://api.github.com/repos/callstack/linaria/labels/dependencies",
+                        "name": "dependencies",
+                        "color": "0366d6",
+                        "default": false,
+                        "description": "Pull requests that update a dependency file"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/callstack/linaria/pulls/1375/commits",
+                "review_comments_url": "https://api.github.com/repos/callstack/linaria/pulls/1375/comments",
+                "review_comment_url": "https://api.github.com/repos/callstack/linaria/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/callstack/linaria/issues/1375/comments",
+                "statuses_url": "https://api.github.com/repos/callstack/linaria/statuses/2b5bc576d3ec7f7c07e68e8958a63e536dd0ab05",
+                "head": {
+                    "label": "callstack:dependabot/npm_and_yarn/babel/traverse-7.23.2",
+                    "ref": "dependabot/npm_and_yarn/babel/traverse-7.23.2",
+                    "sha": "2b5bc576d3ec7f7c07e68e8958a63e536dd0ab05",
+                    "user": {
+                        "login": "callstack",
+                        "id": 42239399,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQyMjM5Mzk5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/42239399?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/callstack",
+                        "html_url": "https://github.com/callstack",
+                        "followers_url": "https://api.github.com/users/callstack/followers",
+                        "following_url": "https://api.github.com/users/callstack/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/callstack/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/callstack/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/callstack/subscriptions",
+                        "organizations_url": "https://api.github.com/users/callstack/orgs",
+                        "repos_url": "https://api.github.com/users/callstack/repos",
+                        "events_url": "https://api.github.com/users/callstack/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/callstack/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 92112844,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk5MjExMjg0NA==",
+                        "name": "linaria",
+                        "full_name": "callstack/linaria",
+                        "private": false,
+                        "owner": {
+                            "login": "callstack",
+                            "id": 42239399,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQyMjM5Mzk5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/callstack",
+                            "html_url": "https://github.com/callstack",
+                            "followers_url": "https://api.github.com/users/callstack/followers",
+                            "following_url": "https://api.github.com/users/callstack/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/callstack/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/callstack/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/callstack/subscriptions",
+                            "organizations_url": "https://api.github.com/users/callstack/orgs",
+                            "repos_url": "https://api.github.com/users/callstack/repos",
+                            "events_url": "https://api.github.com/users/callstack/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/callstack/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/callstack/linaria",
+                        "description": "Zero-runtime CSS in JS library",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/callstack/linaria",
+                        "forks_url": "https://api.github.com/repos/callstack/linaria/forks",
+                        "keys_url": "https://api.github.com/repos/callstack/linaria/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/callstack/linaria/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/callstack/linaria/teams",
+                        "hooks_url": "https://api.github.com/repos/callstack/linaria/hooks",
+                        "issue_events_url": "https://api.github.com/repos/callstack/linaria/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/callstack/linaria/events",
+                        "assignees_url": "https://api.github.com/repos/callstack/linaria/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/callstack/linaria/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/callstack/linaria/tags",
+                        "blobs_url": "https://api.github.com/repos/callstack/linaria/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/callstack/linaria/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/callstack/linaria/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/callstack/linaria/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/callstack/linaria/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/callstack/linaria/languages",
+                        "stargazers_url": "https://api.github.com/repos/callstack/linaria/stargazers",
+                        "contributors_url": "https://api.github.com/repos/callstack/linaria/contributors",
+                        "subscribers_url": "https://api.github.com/repos/callstack/linaria/subscribers",
+                        "subscription_url": "https://api.github.com/repos/callstack/linaria/subscription",
+                        "commits_url": "https://api.github.com/repos/callstack/linaria/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/callstack/linaria/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/callstack/linaria/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/callstack/linaria/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/callstack/linaria/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/callstack/linaria/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/callstack/linaria/merges",
+                        "archive_url": "https://api.github.com/repos/callstack/linaria/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/callstack/linaria/downloads",
+                        "issues_url": "https://api.github.com/repos/callstack/linaria/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/callstack/linaria/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/callstack/linaria/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/callstack/linaria/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/callstack/linaria/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/callstack/linaria/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/callstack/linaria/deployments",
+                        "created_at": "2017-05-23T00:52:34Z",
+                        "updated_at": "2023-10-18T08:08:48Z",
+                        "pushed_at": "2023-10-18T15:15:06Z",
+                        "git_url": "git://github.com/callstack/linaria.git",
+                        "ssh_url": "git@github.com:callstack/linaria.git",
+                        "clone_url": "https://github.com/callstack/linaria.git",
+                        "svn_url": "https://github.com/callstack/linaria",
+                        "homepage": "https://linaria.dev",
+                        "size": 32174,
+                        "stargazers_count": 10835,
+                        "watchers_count": 10835,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 427,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 145,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "css",
+                            "css-in-js",
+                            "css-in-react",
+                            "react"
+                        ],
+                        "visibility": "public",
+                        "forks": 427,
+                        "open_issues": 145,
+                        "watchers": 10835,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "callstack:master",
+                    "ref": "master",
+                    "sha": "e25e91ffb1187708680b97b06888adde7291b4d9",
+                    "user": {
+                        "login": "callstack",
+                        "id": 42239399,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQyMjM5Mzk5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/42239399?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/callstack",
+                        "html_url": "https://github.com/callstack",
+                        "followers_url": "https://api.github.com/users/callstack/followers",
+                        "following_url": "https://api.github.com/users/callstack/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/callstack/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/callstack/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/callstack/subscriptions",
+                        "organizations_url": "https://api.github.com/users/callstack/orgs",
+                        "repos_url": "https://api.github.com/users/callstack/repos",
+                        "events_url": "https://api.github.com/users/callstack/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/callstack/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 92112844,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk5MjExMjg0NA==",
+                        "name": "linaria",
+                        "full_name": "callstack/linaria",
+                        "private": false,
+                        "owner": {
+                            "login": "callstack",
+                            "id": 42239399,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQyMjM5Mzk5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/callstack",
+                            "html_url": "https://github.com/callstack",
+                            "followers_url": "https://api.github.com/users/callstack/followers",
+                            "following_url": "https://api.github.com/users/callstack/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/callstack/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/callstack/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/callstack/subscriptions",
+                            "organizations_url": "https://api.github.com/users/callstack/orgs",
+                            "repos_url": "https://api.github.com/users/callstack/repos",
+                            "events_url": "https://api.github.com/users/callstack/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/callstack/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/callstack/linaria",
+                        "description": "Zero-runtime CSS in JS library",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/callstack/linaria",
+                        "forks_url": "https://api.github.com/repos/callstack/linaria/forks",
+                        "keys_url": "https://api.github.com/repos/callstack/linaria/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/callstack/linaria/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/callstack/linaria/teams",
+                        "hooks_url": "https://api.github.com/repos/callstack/linaria/hooks",
+                        "issue_events_url": "https://api.github.com/repos/callstack/linaria/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/callstack/linaria/events",
+                        "assignees_url": "https://api.github.com/repos/callstack/linaria/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/callstack/linaria/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/callstack/linaria/tags",
+                        "blobs_url": "https://api.github.com/repos/callstack/linaria/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/callstack/linaria/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/callstack/linaria/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/callstack/linaria/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/callstack/linaria/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/callstack/linaria/languages",
+                        "stargazers_url": "https://api.github.com/repos/callstack/linaria/stargazers",
+                        "contributors_url": "https://api.github.com/repos/callstack/linaria/contributors",
+                        "subscribers_url": "https://api.github.com/repos/callstack/linaria/subscribers",
+                        "subscription_url": "https://api.github.com/repos/callstack/linaria/subscription",
+                        "commits_url": "https://api.github.com/repos/callstack/linaria/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/callstack/linaria/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/callstack/linaria/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/callstack/linaria/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/callstack/linaria/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/callstack/linaria/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/callstack/linaria/merges",
+                        "archive_url": "https://api.github.com/repos/callstack/linaria/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/callstack/linaria/downloads",
+                        "issues_url": "https://api.github.com/repos/callstack/linaria/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/callstack/linaria/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/callstack/linaria/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/callstack/linaria/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/callstack/linaria/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/callstack/linaria/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/callstack/linaria/deployments",
+                        "created_at": "2017-05-23T00:52:34Z",
+                        "updated_at": "2023-10-18T08:08:48Z",
+                        "pushed_at": "2023-10-18T15:15:06Z",
+                        "git_url": "git://github.com/callstack/linaria.git",
+                        "ssh_url": "git@github.com:callstack/linaria.git",
+                        "clone_url": "https://github.com/callstack/linaria.git",
+                        "svn_url": "https://github.com/callstack/linaria",
+                        "homepage": "https://linaria.dev",
+                        "size": 32174,
+                        "stargazers_count": 10835,
+                        "watchers_count": 10835,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 427,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 145,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "css",
+                            "css-in-js",
+                            "css-in-react",
+                            "react"
+                        ],
+                        "visibility": "public",
+                        "forks": 427,
+                        "open_issues": 145,
+                        "watchers": 10835,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/callstack/linaria/pulls/1375"
+                    },
+                    "html": {
+                        "href": "https://github.com/callstack/linaria/pull/1375"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/callstack/linaria/issues/1375"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/callstack/linaria/issues/1375/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/callstack/linaria/pulls/1375/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/callstack/linaria/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/callstack/linaria/pulls/1375/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/callstack/linaria/statuses/2b5bc576d3ec7f7c07e68e8958a63e536dd0ab05"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": true,
+                "rebaseable": true,
+                "mergeable_state": "unstable",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 129,
+                "deletions": 209,
+                "changed_files": 8
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-18T15:15:07Z",
+        "org": {
+            "id": 42239399,
+            "login": "callstack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/callstack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42239399?"
+        }
+    }
+]

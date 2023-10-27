@@ -1,0 +1,1568 @@
+[
+    {
+        "id": "32896769130",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 72553797,
+            "login": "jatinwa",
+            "display_login": "jatinwa",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jatinwa",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72553797?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/5855",
+                "repository_url": "https://api.github.com/repos/chakra-ui/chakra-ui",
+                "labels_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/5855/labels{/name}",
+                "comments_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/5855/comments",
+                "events_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/5855/events",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/5855",
+                "id": 1199836035,
+                "node_id": "I_kwDODBfeGs5HhAuD",
+                "number": 5855,
+                "title": "React 18  - Chakra UI v2",
+                "user": {
+                    "login": "segunadebayo",
+                    "id": 6916170,
+                    "node_id": "MDQ6VXNlcjY5MTYxNzA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6916170?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/segunadebayo",
+                    "html_url": "https://github.com/segunadebayo",
+                    "followers_url": "https://api.github.com/users/segunadebayo/followers",
+                    "following_url": "https://api.github.com/users/segunadebayo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/segunadebayo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/segunadebayo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/segunadebayo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/segunadebayo/orgs",
+                    "repos_url": "https://api.github.com/users/segunadebayo/repos",
+                    "events_url": "https://api.github.com/users/segunadebayo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/segunadebayo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 58,
+                "created_at": "2022-04-11T11:29:19Z",
+                "updated_at": "2023-10-27T11:14:09Z",
+                "closed_at": "2022-05-16T18:18:15Z",
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "We are starting the development of Chakra UI v2 \ud83c\udf89 \r\n\r\nThe scope of this upcoming major release is to support React 18 and remove long known deprecations. We keep the scope as narrow as possible to provide feature-scoped major releases to all our users and a smooth upgrade experience.\r\n\r\nWe switched our default branch from `main` to `next`. This allows us to publish the pre-release version \u00e1 la `@chakra-ui/react@2.0.0-next.X`. The first next release was published moments ago. \r\n\r\nWith this in place, we can test the React 18 support in our applications and resolve upcoming issues until we are confident to release Chakra UI v2.\r\n\r\nIf you experience any React 18 related issues or tips we should know about, feel free to comment below and we'll look into it.\r\n\r\n**Upgrade guide**\r\n\r\n1. Update `react`, `react-dom` and their respective `@types/` package to version 18\r\n2. Upgrade to the `next` pre-release\r\n3. Test and report any issues you have below.\r\n\r\n> Join our Discord Server for React 18 issues: https://discord.gg/kfp3UQh4Y2",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/5855/reactions",
+                    "total_count": 215,
+                    "+1": 40,
+                    "-1": 0,
+                    "laugh": 3,
+                    "hooray": 69,
+                    "confused": 0,
+                    "heart": 37,
+                    "rocket": 44,
+                    "eyes": 22
+                },
+                "timeline_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/5855/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782734289",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/5855#issuecomment-1782734289",
+                "issue_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/5855",
+                "id": 1782734289,
+                "node_id": "IC_kwDODBfeGs5qQl3R",
+                "user": {
+                    "login": "jatinwa",
+                    "id": 72553797,
+                    "node_id": "MDQ6VXNlcjcyNTUzNzk3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/72553797?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jatinwa",
+                    "html_url": "https://github.com/jatinwa",
+                    "followers_url": "https://api.github.com/users/jatinwa/followers",
+                    "following_url": "https://api.github.com/users/jatinwa/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jatinwa/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jatinwa/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jatinwa/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jatinwa/orgs",
+                    "repos_url": "https://api.github.com/users/jatinwa/repos",
+                    "events_url": "https://api.github.com/users/jatinwa/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jatinwa/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T11:14:09Z",
+                "updated_at": "2023-10-27T11:14:09Z",
+                "author_association": "NONE",
+                "body": "> hi folks I have solved this issue if you want to know how please reply\r\nhow?\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782734289/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:14:10Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32893517514",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24270630,
+            "login": "aikeProject",
+            "display_login": "aikeProject",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aikeProject",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24270630?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:07:24Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32892489931",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 109131225,
+            "login": "atul-boldcare",
+            "display_login": "atul-boldcare",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/atul-boldcare",
+            "avatar_url": "https://avatars.githubusercontent.com/u/109131225?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:28:13Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32890285450",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 52664827,
+            "login": "ONLY-yours",
+            "display_login": "ONLY-yours",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ONLY-yours",
+            "avatar_url": "https://avatars.githubusercontent.com/u/52664827?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:55:28Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32889391798",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 143089771,
+            "login": "SubhasmitaLMG",
+            "display_login": "SubhasmitaLMG",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SubhasmitaLMG",
+            "avatar_url": "https://avatars.githubusercontent.com/u/143089771?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414",
+                "repository_url": "https://api.github.com/repos/chakra-ui/chakra-ui",
+                "labels_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/labels{/name}",
+                "comments_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/comments",
+                "events_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/events",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/7414",
+                "id": 1606820405,
+                "node_id": "I_kwDODBfeGs5fxiI1",
+                "number": 7414,
+                "title": "compiling error: Can't import the named export 'AnimatePresence' from non EcmaScript module",
+                "user": {
+                    "login": "denghuiquan",
+                    "id": 5303970,
+                    "node_id": "MDQ6VXNlcjUzMDM5NzA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5303970?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/denghuiquan",
+                    "html_url": "https://github.com/denghuiquan",
+                    "followers_url": "https://api.github.com/users/denghuiquan/followers",
+                    "following_url": "https://api.github.com/users/denghuiquan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/denghuiquan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/denghuiquan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/denghuiquan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/denghuiquan/orgs",
+                    "repos_url": "https://api.github.com/users/denghuiquan/repos",
+                    "events_url": "https://api.github.com/users/denghuiquan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/denghuiquan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 20,
+                "created_at": "2023-03-02T13:35:13Z",
+                "updated_at": "2023-10-27T06:08:29Z",
+                "closed_at": "2023-04-23T22:55:28Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Description\n\nwhen i try to run the demo of the get start page step by step, i get this error tips:\r\n----------\r\nFailed to compile.\r\n\r\n./node_modules/@chakra-ui/react/node_modules/@chakra-ui/transition/dist/chunk-3TED3OTR.mjs\r\nCan't import the named export 'AnimatePresence' from non EcmaScript module (only default export is available)\r\n----------\r\nthe version of the related packages:\r\n`\r\n    \"@chakra-ui/react\": \"^2.5.1\",\r\n    \"@chakra-ui/theme\": \"^2.2.4\",\r\n    ...\r\n     \"react\": \"^16.13.1\",\r\n`\r\n\r\nthis happen just when i want to import { ChakraProvider } from '@chakra-ui/react' or import { ChakraBaseProvider } from '@chakra-ui/react'\r\n\n\n### Link to Reproduction\n\nhttps://chakra-ui.com/getting-started/cra-guide#2-provider-setup\n\n### Steps to reproduce\n\n1. Go to '...'\r\n2. Click on '...'\r\n3. Scroll down to '...'\r\n4. See error\r\n\n\n### Chakra UI Version\n\n2.5.1\n\n### Browser\n\n*\n\n### Operating System\n\n- [X] macOS\n- [ ] Windows\n- [ ] Linux\n\n### Additional Information\n\n<img width=\"906\" alt=\"image\" src=\"https://user-images.githubusercontent.com/5303970/222442235-05add4a7-bbcf-4db5-8416-45f4baec1647.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/reactions",
+                    "total_count": 9,
+                    "+1": 9,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782350899",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/7414#issuecomment-1782350899",
+                "issue_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414",
+                "id": 1782350899,
+                "node_id": "IC_kwDODBfeGs5qPIQz",
+                "user": {
+                    "login": "SubhasmitaLMG",
+                    "id": 143089771,
+                    "node_id": "U_kgDOCIdgaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/143089771?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/SubhasmitaLMG",
+                    "html_url": "https://github.com/SubhasmitaLMG",
+                    "followers_url": "https://api.github.com/users/SubhasmitaLMG/followers",
+                    "following_url": "https://api.github.com/users/SubhasmitaLMG/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/SubhasmitaLMG/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/SubhasmitaLMG/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/SubhasmitaLMG/subscriptions",
+                    "organizations_url": "https://api.github.com/users/SubhasmitaLMG/orgs",
+                    "repos_url": "https://api.github.com/users/SubhasmitaLMG/repos",
+                    "events_url": "https://api.github.com/users/SubhasmitaLMG/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/SubhasmitaLMG/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T06:08:29Z",
+                "updated_at": "2023-10-27T06:08:29Z",
+                "author_association": "NONE",
+                "body": "> > the same issue is happening with me hope it will get resolved soon in an upcoming update\r\n> \r\n> > > This works for me\r\n> > > ```\r\n> > > webpackConfig.module.rules.push({\r\n> > >     test: /\\.mjs$/,\r\n> > >     include: /node_modules/,\r\n> > >     type: \"javascript/auto\"\r\n> > > });\r\n> > > ```\r\n> > \r\n> > \r\n> > where to add this code\r\n> \r\n> I would suggest change the reactscript version to 5.0 it is working for me\r\n\r\nMy react-scripts@^5.0.1 is already 5.\r\nBut the issue is still the same.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782350899/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:08:30Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32889356571",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 143089771,
+            "login": "SubhasmitaLMG",
+            "display_login": "SubhasmitaLMG",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SubhasmitaLMG",
+            "avatar_url": "https://avatars.githubusercontent.com/u/143089771?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414",
+                "repository_url": "https://api.github.com/repos/chakra-ui/chakra-ui",
+                "labels_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/labels{/name}",
+                "comments_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/comments",
+                "events_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/events",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/7414",
+                "id": 1606820405,
+                "node_id": "I_kwDODBfeGs5fxiI1",
+                "number": 7414,
+                "title": "compiling error: Can't import the named export 'AnimatePresence' from non EcmaScript module",
+                "user": {
+                    "login": "denghuiquan",
+                    "id": 5303970,
+                    "node_id": "MDQ6VXNlcjUzMDM5NzA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5303970?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/denghuiquan",
+                    "html_url": "https://github.com/denghuiquan",
+                    "followers_url": "https://api.github.com/users/denghuiquan/followers",
+                    "following_url": "https://api.github.com/users/denghuiquan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/denghuiquan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/denghuiquan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/denghuiquan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/denghuiquan/orgs",
+                    "repos_url": "https://api.github.com/users/denghuiquan/repos",
+                    "events_url": "https://api.github.com/users/denghuiquan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/denghuiquan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 19,
+                "created_at": "2023-03-02T13:35:13Z",
+                "updated_at": "2023-10-27T06:06:29Z",
+                "closed_at": "2023-04-23T22:55:28Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Description\n\nwhen i try to run the demo of the get start page step by step, i get this error tips:\r\n----------\r\nFailed to compile.\r\n\r\n./node_modules/@chakra-ui/react/node_modules/@chakra-ui/transition/dist/chunk-3TED3OTR.mjs\r\nCan't import the named export 'AnimatePresence' from non EcmaScript module (only default export is available)\r\n----------\r\nthe version of the related packages:\r\n`\r\n    \"@chakra-ui/react\": \"^2.5.1\",\r\n    \"@chakra-ui/theme\": \"^2.2.4\",\r\n    ...\r\n     \"react\": \"^16.13.1\",\r\n`\r\n\r\nthis happen just when i want to import { ChakraProvider } from '@chakra-ui/react' or import { ChakraBaseProvider } from '@chakra-ui/react'\r\n\n\n### Link to Reproduction\n\nhttps://chakra-ui.com/getting-started/cra-guide#2-provider-setup\n\n### Steps to reproduce\n\n1. Go to '...'\r\n2. Click on '...'\r\n3. Scroll down to '...'\r\n4. See error\r\n\n\n### Chakra UI Version\n\n2.5.1\n\n### Browser\n\n*\n\n### Operating System\n\n- [X] macOS\n- [ ] Windows\n- [ ] Linux\n\n### Additional Information\n\n<img width=\"906\" alt=\"image\" src=\"https://user-images.githubusercontent.com/5303970/222442235-05add4a7-bbcf-4db5-8416-45f4baec1647.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/reactions",
+                    "total_count": 9,
+                    "+1": 9,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782349204",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/7414#issuecomment-1782349204",
+                "issue_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/7414",
+                "id": 1782349204,
+                "node_id": "IC_kwDODBfeGs5qPH2U",
+                "user": {
+                    "login": "SubhasmitaLMG",
+                    "id": 143089771,
+                    "node_id": "U_kgDOCIdgaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/143089771?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/SubhasmitaLMG",
+                    "html_url": "https://github.com/SubhasmitaLMG",
+                    "followers_url": "https://api.github.com/users/SubhasmitaLMG/followers",
+                    "following_url": "https://api.github.com/users/SubhasmitaLMG/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/SubhasmitaLMG/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/SubhasmitaLMG/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/SubhasmitaLMG/subscriptions",
+                    "organizations_url": "https://api.github.com/users/SubhasmitaLMG/orgs",
+                    "repos_url": "https://api.github.com/users/SubhasmitaLMG/repos",
+                    "events_url": "https://api.github.com/users/SubhasmitaLMG/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/SubhasmitaLMG/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T06:06:29Z",
+                "updated_at": "2023-10-27T06:06:29Z",
+                "author_association": "NONE",
+                "body": "Showing error\r\nwebpackConfig is not defined\r\nerror Command failed with exit code 1.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782349204/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:06:30Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32887425307",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 9942947,
+            "login": "chenshihu",
+            "display_login": "chenshihu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/chenshihu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9942947?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:46:01Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32886697970",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 10697191,
+            "login": "lucasllin",
+            "display_login": "lucasllin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucasllin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10697191?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:46:40Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32885555944",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22332923,
+            "login": "shawncai",
+            "display_login": "shawncai",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shawncai",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22332923?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:17:55Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32884095625",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1222666,
+            "login": "grevory",
+            "display_login": "grevory",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/grevory",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1222666?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601",
+                "repository_url": "https://api.github.com/repos/chakra-ui/chakra-ui",
+                "labels_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/labels{/name}",
+                "comments_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/comments",
+                "events_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/events",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/2601",
+                "id": 749642794,
+                "node_id": "MDU6SXNzdWU3NDk2NDI3OTQ=",
+                "number": 2601,
+                "title": "className did not match between server and client when using useBreakpointValue",
+                "user": {
+                    "login": "OFranke",
+                    "id": 12813089,
+                    "node_id": "MDQ6VXNlcjEyODEzMDg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12813089?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/OFranke",
+                    "html_url": "https://github.com/OFranke",
+                    "followers_url": "https://api.github.com/users/OFranke/followers",
+                    "following_url": "https://api.github.com/users/OFranke/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/OFranke/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/OFranke/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/OFranke/subscriptions",
+                    "organizations_url": "https://api.github.com/users/OFranke/orgs",
+                    "repos_url": "https://api.github.com/users/OFranke/repos",
+                    "events_url": "https://api.github.com/users/OFranke/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/OFranke/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1505444160,
+                        "node_id": "MDU6TGFiZWwxNTA1NDQ0MTYw",
+                        "url": "https://api.github.com/repos/chakra-ui/chakra-ui/labels/Type:%20Bug%20%F0%9F%90%9B",
+                        "name": "Type: Bug \ud83d\udc1b",
+                        "color": "d73a4a",
+                        "default": false,
+                        "description": "Something isn't working"
+                    },
+                    {
+                        "id": 1928662492,
+                        "node_id": "MDU6TGFiZWwxOTI4NjYyNDky",
+                        "url": "https://api.github.com/repos/chakra-ui/chakra-ui/labels/workaround%20available%20%E2%9C%8C%EF%B8%8F",
+                        "name": "workaround available \u270c\ufe0f",
+                        "color": "70becc",
+                        "default": false,
+                        "description": "Issue has quick hack or walk-around"
+                    },
+                    {
+                        "id": 1928761473,
+                        "node_id": "MDU6TGFiZWwxOTI4NzYxNDcz",
+                        "url": "https://api.github.com/repos/chakra-ui/chakra-ui/labels/Topic:%20SSR%20%F0%9F%92%BB",
+                        "name": "Topic: SSR \ud83d\udcbb",
+                        "color": "fbca04",
+                        "default": false,
+                        "description": "Issue or PR related to Server side rendering (Next.js or Gatsby)"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2020-11-24T11:56:16Z",
+                "updated_at": "2023-10-26T23:21:01Z",
+                "closed_at": "2020-12-10T22:50:28Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "# Bug report\r\n\r\n## Describe the bug\r\n\r\nUsing useBreakpointValue in SSR NextJS project I am receiving in the console:\r\n```\r\nWarning: Prop `className` did not match. Server: \"chakra-heading css-1jlcwm0\" Client: \"chakra-heading css-2bykvb\"\r\n```\r\n\r\nSo the issue is I guess, that the Server delivers some style, e.g. for `base` breakpoint which is different from the actual style on the client, e.g. when it's a desktop (lg breakpoint) device.\r\n\r\nI guess the server would somehow need to deliver the right styles for a device breakpoint. Not sure how that would work, there are some ways to figure out which browser a client uses (e.g. mobile android chrome, etc.) and then assume if its a base, sm, md, lg, xl device.\r\n\r\nI am not even sure if thats a bug at all or if that is simply a thing that cannot be fixed due to the nature of server side rendering.\r\n\r\n## To reproduce\r\n\r\nSee this example, or check the console in https://codesandbox.io/s/modest-haze-pn9z2?file=/pages/index.js\r\n\r\n```\r\nimport { Heading, HeadingProps, useBreakpointValue } from \"@chakra-ui/react\";\r\n\r\ninterface DefaultHeadlineProps extends HeadingProps {\r\n  size: \"xs\" | \"s\" | \"m\" | \"l\";\r\n}\r\nexport const DefaultHeadline: React.FC<DefaultHeadlineProps> = ({\r\n  as,\r\n  size,\r\n  children,\r\n  ...props\r\n}) => {\r\n  const headingSizes = {\r\n    xs: { base: \"sm\", md: \"md\", lg: \"lg\", xl: \"xl\" },\r\n    s: { base: \"md\", md: \"lg\", lg: \"xl\", xl: \"2xl\" },\r\n    m: { base: \"lg\", md: \"xl\", lg: \"2xl\", xl: \"3xl\" },\r\n    l: { base: \"xl\", md: \"2xl\", lg: \"3xl\", xl: \"4xl\" },\r\n  };\r\n  const headingSize = useBreakpointValue(headingSizes[size]);\r\n\r\n  const headingMarginBottom = {\r\n    xs: { base: \"2\", md: \"4\", lg: \"6\" },\r\n    s: { base: \"4\", md: \"6\", lg: \"10\" },\r\n    m: { base: \"5\", md: \"7\", lg: \"12\" },\r\n    l: { base: \"6\", md: \"8\", lg: \"12\" },\r\n  };\r\n  const marginBottomSize = useBreakpointValue(headingMarginBottom[size]);\r\n\r\n  return (\r\n    <Heading\r\n      as={as}\r\n      fontFamily=\"Source Sans Pro\"\r\n      size={headingSize}\r\n      textTransform=\"uppercase\"\r\n      fontWeight=\"bold\"\r\n      marginBottom={marginBottomSize}\r\n      {...props}\r\n    >\r\n      {children}\r\n    </Heading>\r\n  );\r\n};\r\n```\r\n\r\n## Minimal reproduction\r\n\r\nhttps://codesandbox.io/s/modest-haze-pn9z2?file=/pages/index.js\r\n\r\n## Expected behavior\r\n\r\nGenerate the same css on server and client.\r\n\r\n## Additional context\r\n\r\nI guess the issue is somewhere here: https://github.com/chakra-ui/chakra-ui/blob/develop/packages/media-query/src/use-breakpoint.ts\r\n\r\nThe problem is, that we are dependant on the window object which is simply not there on SSR. Is there any way to handle that case for SSR rendered apps?\r\n\r\nAs a workaround I could just use create different components for my heading sizes like that, which seems to work. Could some1 explain to me why this works? I don't know if I have the right piece of code here: https://github.com/chakra-ui/chakra-ui/blob/develop/packages/layout/src/heading.tsx\r\n\r\n```\r\nexport const HeadlineL: React.FC<HeadingProps> = ({\r\n  as,\r\n  children,\r\n  ...props\r\n}) => {\r\n  return (\r\n    <Heading\r\n      as={as}\r\n      fontSize={{ base: \"xl\", md: \"2xl\", lg: \"3xl\", xl: \"4xl\" }}\r\n      textTransform=\"uppercase\"\r\n      fontWeight=\"bold\"\r\n      marginBottom={{ base: \"6\", md: \"8\", lg: \"12\" }}\r\n      {...props}\r\n    >\r\n      {children}\r\n    </Heading>\r\n  );\r\n};\r\n``` \r\n\r\nEdit: I just noticed, that for that specific case I could also solve the responsive font sizes via theme:\r\n```\r\n  const extendedTheme = {\r\n    components: {\r\n      Heading: {\r\n        sizes: {\r\n          \"6xl\": {\r\n            fontSize: { base: \"10px\", lg: \"50px\" },\r\n          },\r\n        },\r\n      },\r\n    },\r\n  };\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/reactions",
+                    "total_count": 6,
+                    "+1": 6,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782055402",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/2601#issuecomment-1782055402",
+                "issue_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601",
+                "id": 1782055402,
+                "node_id": "IC_kwDODBfeGs5qOAHq",
+                "user": {
+                    "login": "grevory",
+                    "id": 1222666,
+                    "node_id": "MDQ6VXNlcjEyMjI2NjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1222666?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/grevory",
+                    "html_url": "https://github.com/grevory",
+                    "followers_url": "https://api.github.com/users/grevory/followers",
+                    "following_url": "https://api.github.com/users/grevory/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/grevory/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/grevory/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/grevory/subscriptions",
+                    "organizations_url": "https://api.github.com/users/grevory/orgs",
+                    "repos_url": "https://api.github.com/users/grevory/repos",
+                    "events_url": "https://api.github.com/users/grevory/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/grevory/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T23:21:01Z",
+                "updated_at": "2023-10-26T23:21:01Z",
+                "author_association": "NONE",
+                "body": "Using \"@chakra-ui/next-js\": \"^2.1.5\" and \"next\": \"13.5.6\" I got the same error.\r\n\r\nI solved this by removing the ColorModeScript tag. I set my initial color mode in the theme object.\r\n\r\n`const theme = extendTheme({\r\n  initialColorMode: 'light',\r\n  useSystemColorMode: false,\r\n});\r\n\r\n<ChakraProvider theme={theme}>...`",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1782055402/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T23:21:02Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32883455116",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 137956879,
+            "login": "BenVanZee",
+            "display_login": "BenVanZee",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BenVanZee",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137956879?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T22:34:31Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32882730275",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1222666,
+            "login": "grevory",
+            "display_login": "grevory",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/grevory",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1222666?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601",
+                "repository_url": "https://api.github.com/repos/chakra-ui/chakra-ui",
+                "labels_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/labels{/name}",
+                "comments_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/comments",
+                "events_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/events",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/2601",
+                "id": 749642794,
+                "node_id": "MDU6SXNzdWU3NDk2NDI3OTQ=",
+                "number": 2601,
+                "title": "className did not match between server and client when using useBreakpointValue",
+                "user": {
+                    "login": "OFranke",
+                    "id": 12813089,
+                    "node_id": "MDQ6VXNlcjEyODEzMDg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12813089?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/OFranke",
+                    "html_url": "https://github.com/OFranke",
+                    "followers_url": "https://api.github.com/users/OFranke/followers",
+                    "following_url": "https://api.github.com/users/OFranke/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/OFranke/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/OFranke/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/OFranke/subscriptions",
+                    "organizations_url": "https://api.github.com/users/OFranke/orgs",
+                    "repos_url": "https://api.github.com/users/OFranke/repos",
+                    "events_url": "https://api.github.com/users/OFranke/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/OFranke/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1505444160,
+                        "node_id": "MDU6TGFiZWwxNTA1NDQ0MTYw",
+                        "url": "https://api.github.com/repos/chakra-ui/chakra-ui/labels/Type:%20Bug%20%F0%9F%90%9B",
+                        "name": "Type: Bug \ud83d\udc1b",
+                        "color": "d73a4a",
+                        "default": false,
+                        "description": "Something isn't working"
+                    },
+                    {
+                        "id": 1928662492,
+                        "node_id": "MDU6TGFiZWwxOTI4NjYyNDky",
+                        "url": "https://api.github.com/repos/chakra-ui/chakra-ui/labels/workaround%20available%20%E2%9C%8C%EF%B8%8F",
+                        "name": "workaround available \u270c\ufe0f",
+                        "color": "70becc",
+                        "default": false,
+                        "description": "Issue has quick hack or walk-around"
+                    },
+                    {
+                        "id": 1928761473,
+                        "node_id": "MDU6TGFiZWwxOTI4NzYxNDcz",
+                        "url": "https://api.github.com/repos/chakra-ui/chakra-ui/labels/Topic:%20SSR%20%F0%9F%92%BB",
+                        "name": "Topic: SSR \ud83d\udcbb",
+                        "color": "fbca04",
+                        "default": false,
+                        "description": "Issue or PR related to Server side rendering (Next.js or Gatsby)"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2020-11-24T11:56:16Z",
+                "updated_at": "2023-10-26T21:51:25Z",
+                "closed_at": "2020-12-10T22:50:28Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "# Bug report\r\n\r\n## Describe the bug\r\n\r\nUsing useBreakpointValue in SSR NextJS project I am receiving in the console:\r\n```\r\nWarning: Prop `className` did not match. Server: \"chakra-heading css-1jlcwm0\" Client: \"chakra-heading css-2bykvb\"\r\n```\r\n\r\nSo the issue is I guess, that the Server delivers some style, e.g. for `base` breakpoint which is different from the actual style on the client, e.g. when it's a desktop (lg breakpoint) device.\r\n\r\nI guess the server would somehow need to deliver the right styles for a device breakpoint. Not sure how that would work, there are some ways to figure out which browser a client uses (e.g. mobile android chrome, etc.) and then assume if its a base, sm, md, lg, xl device.\r\n\r\nI am not even sure if thats a bug at all or if that is simply a thing that cannot be fixed due to the nature of server side rendering.\r\n\r\n## To reproduce\r\n\r\nSee this example, or check the console in https://codesandbox.io/s/modest-haze-pn9z2?file=/pages/index.js\r\n\r\n```\r\nimport { Heading, HeadingProps, useBreakpointValue } from \"@chakra-ui/react\";\r\n\r\ninterface DefaultHeadlineProps extends HeadingProps {\r\n  size: \"xs\" | \"s\" | \"m\" | \"l\";\r\n}\r\nexport const DefaultHeadline: React.FC<DefaultHeadlineProps> = ({\r\n  as,\r\n  size,\r\n  children,\r\n  ...props\r\n}) => {\r\n  const headingSizes = {\r\n    xs: { base: \"sm\", md: \"md\", lg: \"lg\", xl: \"xl\" },\r\n    s: { base: \"md\", md: \"lg\", lg: \"xl\", xl: \"2xl\" },\r\n    m: { base: \"lg\", md: \"xl\", lg: \"2xl\", xl: \"3xl\" },\r\n    l: { base: \"xl\", md: \"2xl\", lg: \"3xl\", xl: \"4xl\" },\r\n  };\r\n  const headingSize = useBreakpointValue(headingSizes[size]);\r\n\r\n  const headingMarginBottom = {\r\n    xs: { base: \"2\", md: \"4\", lg: \"6\" },\r\n    s: { base: \"4\", md: \"6\", lg: \"10\" },\r\n    m: { base: \"5\", md: \"7\", lg: \"12\" },\r\n    l: { base: \"6\", md: \"8\", lg: \"12\" },\r\n  };\r\n  const marginBottomSize = useBreakpointValue(headingMarginBottom[size]);\r\n\r\n  return (\r\n    <Heading\r\n      as={as}\r\n      fontFamily=\"Source Sans Pro\"\r\n      size={headingSize}\r\n      textTransform=\"uppercase\"\r\n      fontWeight=\"bold\"\r\n      marginBottom={marginBottomSize}\r\n      {...props}\r\n    >\r\n      {children}\r\n    </Heading>\r\n  );\r\n};\r\n```\r\n\r\n## Minimal reproduction\r\n\r\nhttps://codesandbox.io/s/modest-haze-pn9z2?file=/pages/index.js\r\n\r\n## Expected behavior\r\n\r\nGenerate the same css on server and client.\r\n\r\n## Additional context\r\n\r\nI guess the issue is somewhere here: https://github.com/chakra-ui/chakra-ui/blob/develop/packages/media-query/src/use-breakpoint.ts\r\n\r\nThe problem is, that we are dependant on the window object which is simply not there on SSR. Is there any way to handle that case for SSR rendered apps?\r\n\r\nAs a workaround I could just use create different components for my heading sizes like that, which seems to work. Could some1 explain to me why this works? I don't know if I have the right piece of code here: https://github.com/chakra-ui/chakra-ui/blob/develop/packages/layout/src/heading.tsx\r\n\r\n```\r\nexport const HeadlineL: React.FC<HeadingProps> = ({\r\n  as,\r\n  children,\r\n  ...props\r\n}) => {\r\n  return (\r\n    <Heading\r\n      as={as}\r\n      fontSize={{ base: \"xl\", md: \"2xl\", lg: \"3xl\", xl: \"4xl\" }}\r\n      textTransform=\"uppercase\"\r\n      fontWeight=\"bold\"\r\n      marginBottom={{ base: \"6\", md: \"8\", lg: \"12\" }}\r\n      {...props}\r\n    >\r\n      {children}\r\n    </Heading>\r\n  );\r\n};\r\n``` \r\n\r\nEdit: I just noticed, that for that specific case I could also solve the responsive font sizes via theme:\r\n```\r\n  const extendedTheme = {\r\n    components: {\r\n      Heading: {\r\n        sizes: {\r\n          \"6xl\": {\r\n            fontSize: { base: \"10px\", lg: \"50px\" },\r\n          },\r\n        },\r\n      },\r\n    },\r\n  };\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/reactions",
+                    "total_count": 6,
+                    "+1": 6,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1781942345",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/2601#issuecomment-1781942345",
+                "issue_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/2601",
+                "id": 1781942345,
+                "node_id": "IC_kwDODBfeGs5qNkhJ",
+                "user": {
+                    "login": "grevory",
+                    "id": 1222666,
+                    "node_id": "MDQ6VXNlcjEyMjI2NjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1222666?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/grevory",
+                    "html_url": "https://github.com/grevory",
+                    "followers_url": "https://api.github.com/users/grevory/followers",
+                    "following_url": "https://api.github.com/users/grevory/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/grevory/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/grevory/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/grevory/subscriptions",
+                    "organizations_url": "https://api.github.com/users/grevory/orgs",
+                    "repos_url": "https://api.github.com/users/grevory/repos",
+                    "events_url": "https://api.github.com/users/grevory/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/grevory/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T21:51:25Z",
+                "updated_at": "2023-10-26T21:51:25Z",
+                "author_association": "NONE",
+                "body": "Problem exists with 2.1.5 as well.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/comments/1781942345/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:51:26Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32881052292",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 44378325,
+            "login": "torkashvand630",
+            "display_login": "torkashvand630",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/torkashvand630",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44378325?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:26:03Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32880325601",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1997039,
+            "login": "mingfeng",
+            "display_login": "mingfeng",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mingfeng",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1997039?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:53:40Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32880213265",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 149107265,
+            "login": "blscrn0",
+            "display_login": "blscrn0",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/blscrn0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/149107265?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:48:38Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32870293279",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 112890331,
+            "login": "estarhp",
+            "display_login": "estarhp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/estarhp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/112890331?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:49:22Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32867402539",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 8736212,
+            "login": "tw93",
+            "display_login": "tw93",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tw93",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8736212?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T12:20:44Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32863095289",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1676903,
+            "login": "agus-ws",
+            "display_login": "agus-ws",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/agus-ws",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1676903?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:44:28Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32862969313",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 67638952,
+            "login": "ltlaitoff",
+            "display_login": "ltlaitoff",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ltlaitoff",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67638952?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8092",
+                "repository_url": "https://api.github.com/repos/chakra-ui/chakra-ui",
+                "labels_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8092/labels{/name}",
+                "comments_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8092/comments",
+                "events_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8092/events",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/8092",
+                "id": 1963116636,
+                "node_id": "I_kwDODBfeGs51Ashc",
+                "number": 8092,
+                "title": "Icon does not change its size using iconSize in Checkbox with default size values",
+                "user": {
+                    "login": "ltlaitoff",
+                    "id": 67638952,
+                    "node_id": "MDQ6VXNlcjY3NjM4OTUy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/67638952?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ltlaitoff",
+                    "html_url": "https://github.com/ltlaitoff",
+                    "followers_url": "https://api.github.com/users/ltlaitoff/followers",
+                    "following_url": "https://api.github.com/users/ltlaitoff/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ltlaitoff/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ltlaitoff/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ltlaitoff/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ltlaitoff/orgs",
+                    "repos_url": "https://api.github.com/users/ltlaitoff/repos",
+                    "events_url": "https://api.github.com/users/ltlaitoff/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ltlaitoff/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T09:40:13Z",
+                "updated_at": "2023-10-26T09:40:13Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Description\n\nThis issue is based on #6288, with a more detailed description of the problem because it was **not resolved**.\r\n\r\nWhen the `iconSize` parameter is set in the `<Checkbox>` component, the icon size does not change.\r\n\r\nThe size also does not change when specifying other standard values for the `size` parameter, namely `sm`, `md`, and `lg`.\r\n\r\nExample:\r\n\r\n```tsx\r\n<Checkbox iconSize=\"2rem\">Option</Checkbox>\r\n```\r\n\r\nOr an example from the [DOCUMENTATION](https://chakra-ui.com/docs/components/checkbox/usage#changing-the-icon-color-and-size):\r\n\r\n```tsx\r\n<Checkbox\r\n  iconColor=\"blue.400\"\r\n  iconSize=\"1rem\"\r\n>\r\n  Option\r\n</Checkbox>\r\n```\r\n\r\nHowever, miraculously, when the `size` parameter is set to a value different from the standard ones, `iconSize` starts working\r\n\r\nExample:\r\n\r\n```tsx\r\n<Checkbox\r\n  size=\"other\"\r\n  iconSize=\"2rem\"\r\n>\r\n  Option\r\n</Checkbox>\r\n```\n\n### Link to Reproduction\n\nhttps://codesandbox.io/s/chakra-ui-checkbox-iconsize-problem-again-8zl7jx?file=/src/App.js\n\n### Steps to reproduce\n\n1. Go to 'CodeSandbox link'\r\n2. Look at the 'Checkbox Example'\r\n3. Examine the 'iconSize' parameter\r\n4. See it doesn't work\n\n### Chakra UI Version\n\n2.2.1\n\n### Browser\n\nGoogle Chrome 118\n\n### Operating System\n\n- [ ] macOS\n- [ ] Windows\n- [X] Linux\n\n### Additional Information\n\n_No response_",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8092/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8092/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:40:14Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32861977261",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 58171591,
+            "login": "tanvirpiash",
+            "display_login": "tanvirpiash",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tanvirpiash",
+            "avatar_url": "https://avatars.githubusercontent.com/u/58171591?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:07:01Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32859597504",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 56539570,
+            "login": "MiloosN5",
+            "display_login": "MiloosN5",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MiloosN5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56539570?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:43:32Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32855901725",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 30275483,
+            "login": "howie-cn",
+            "display_login": "howie-cn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/howie-cn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30275483?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:28:13Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32854793477",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 16094680,
+            "login": "SensitiveMix",
+            "display_login": "SensitiveMix",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SensitiveMix",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16094680?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T03:03:12Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32852286013",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 26512228,
+            "login": "stuartsharpe11",
+            "display_login": "stuartsharpe11",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stuartsharpe11",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26512228?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T23:55:54Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32852160531",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 64096825,
+            "login": "asigdel29",
+            "display_login": "asigdel29",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/asigdel29",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64096825?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T23:45:26Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32848056388",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 74576399,
+            "login": "drewdomi",
+            "display_login": "drewdomi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/drewdomi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/74576399?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:05:47Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32847970410",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5086878,
+            "login": "ShikyC",
+            "display_login": "ShikyC",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ShikyC",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5086878?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8091",
+                "repository_url": "https://api.github.com/repos/chakra-ui/chakra-ui",
+                "labels_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8091/labels{/name}",
+                "comments_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8091/comments",
+                "events_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8091/events",
+                "html_url": "https://github.com/chakra-ui/chakra-ui/issues/8091",
+                "id": 1962138402,
+                "node_id": "I_kwDODBfeGs5089si",
+                "number": 8091,
+                "title": "When printing a page with responsive layout, the browser always use the narrowest breakpoint.",
+                "user": {
+                    "login": "ShikyC",
+                    "id": 5086878,
+                    "node_id": "MDQ6VXNlcjUwODY4Nzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5086878?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ShikyC",
+                    "html_url": "https://github.com/ShikyC",
+                    "followers_url": "https://api.github.com/users/ShikyC/followers",
+                    "following_url": "https://api.github.com/users/ShikyC/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ShikyC/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ShikyC/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ShikyC/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ShikyC/orgs",
+                    "repos_url": "https://api.github.com/users/ShikyC/repos",
+                    "events_url": "https://api.github.com/users/ShikyC/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ShikyC/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T20:02:14Z",
+                "updated_at": "2023-10-25T20:02:14Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Description\n\nMinimum code:\r\n\r\n```\r\nfunction App() {\r\n  return (\r\n    <Flex>\r\n      <Button display={[\"none\", \"none\", \"none\", \"none\", \"block\"]}>A</Button>\r\n      <Button display={[\"none\", \"none\", \"none\", \"block\", \"block\"]}>B</Button>\r\n      <Button display={[\"none\", \"none\", \"block\", \"block\", \"block\"]}>C</Button>\r\n      <Button display={[\"none\", \"block\", \"block\", \"block\", \"block\"]}>D</Button>\r\n      <Button display={[\"block\", \"block\", \"block\", \"block\", \"block\"]}>E</Button>\r\n    </Flex>\r\n  );\r\n}\r\n```\r\n\r\nWhen trying to print the page in the browser, there's always only button E visible, no matter how wide the page is.\n\n### Link to Reproduction\n\nhttps://codesandbox.io/s/trusting-bassi-mrr2st?file=/src/index.js\n\n### Steps to reproduce\n\nOpen the page in the browser and open the print dialog.\n\n### Chakra UI Version\n\n2.8.1\n\n### Browser\n\nEdge & Safari. Not tested with other browsers.\n\n### Operating System\n\n- [X] macOS\n- [ ] Windows\n- [ ] Linux\n\n### Additional Information\n\n_No response_",
+                "reactions": {
+                    "url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8091/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/chakra-ui/chakra-ui/issues/8091/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:02:16Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32843073084",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48555250,
+            "login": "zewcro",
+            "display_login": "zewcro",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zewcro",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48555250?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:45:25Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32842918367",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 70286446,
+            "login": "aditya-the-pro",
+            "display_login": "aditya-the-pro",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aditya-the-pro",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70286446?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:39:23Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    },
+    {
+        "id": "32836955848",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 148241566,
+            "login": "bristeele99",
+            "display_login": "bristeele99",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bristeele99",
+            "avatar_url": "https://avatars.githubusercontent.com/u/148241566?"
+        },
+        "repo": {
+            "id": 202890778,
+            "name": "chakra-ui/chakra-ui",
+            "url": "https://api.github.com/repos/chakra-ui/chakra-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:35:26Z",
+        "org": {
+            "id": 54212428,
+            "login": "chakra-ui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/chakra-ui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54212428?"
+        }
+    }
+]

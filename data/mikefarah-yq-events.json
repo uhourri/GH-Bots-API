@@ -1,0 +1,1658 @@
+[
+    {
+        "id": "32896656390",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 95021771,
+            "login": "suyanhj",
+            "display_login": "suyanhj",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/suyanhj",
+            "avatar_url": "https://avatars.githubusercontent.com/u/95021771?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:09:29Z"
+    },
+    {
+        "id": "32893747133",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 610161,
+            "login": "ryenus",
+            "display_login": "ryenus",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ryenus",
+            "avatar_url": "https://avatars.githubusercontent.com/u/610161?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/1608",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/1608/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/1608/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/1608/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/1608",
+                "id": 1630931800,
+                "node_id": "I_kwDOApOQGc5hNgtY",
+                "number": 1608,
+                "title": "new behaviour since v4.32.1: input json produces output json by default instead of yaml",
+                "user": {
+                    "login": "vbehar",
+                    "id": 6251,
+                    "node_id": "MDQ6VXNlcjYyNTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6251?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vbehar",
+                    "html_url": "https://github.com/vbehar",
+                    "followers_url": "https://api.github.com/users/vbehar/followers",
+                    "following_url": "https://api.github.com/users/vbehar/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vbehar/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vbehar/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vbehar/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vbehar/orgs",
+                    "repos_url": "https://api.github.com/users/vbehar/repos",
+                    "events_url": "https://api.github.com/users/vbehar/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vbehar/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299314,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MzE0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v4",
+                        "name": "v4",
+                        "color": "d8db4c",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 19,
+                "created_at": "2023-03-19T13:00:11Z",
+                "updated_at": "2023-10-27T09:15:57Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\n\r\nsince https://github.com/mikefarah/yq/releases/tag/v4.32.1 and more specifically https://github.com/mikefarah/yq/pull/1582 a JSON input file is now auto-detected as JSON - instead of the previous YAML default format.\r\n\r\nwhich implies that the output is automatically set to JSON format - instead of being YAML previously (= in the previous versions)\r\n\r\nthe impact is that for a single output value, the result is now wrapped in quotes.\r\n\r\nVersion of yq: 4.32.1\r\nOperating system: mac and linux\r\nInstalled via: binary release and homebrew\r\n\r\n**Input JSON**\r\ndata.json:\r\n```json\r\n{\"version\": \"1.2.3\"}\r\n```\r\n\r\n**Command**\r\nThe command you ran:\r\n```\r\nyq '.version' data.json\r\n```\r\n\r\n**Actual behavior**\r\n\r\n```\r\n\"1.2.3\"\r\n```\r\n\r\n**Expected behavior**\r\n\r\n```\r\n1.2.3\r\n```\r\n\r\n(which was the actual behaviour in v4.31.2 and older versions)\r\n\r\n**Additional context**\r\n\r\n* forcing a YAML output \"fixes\" the issue: `yq -oy '.version' test.json`\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/1608/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/1608/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1782578281",
+                "html_url": "https://github.com/mikefarah/yq/issues/1608#issuecomment-1782578281",
+                "issue_url": "https://api.github.com/repos/mikefarah/yq/issues/1608",
+                "id": 1782578281,
+                "node_id": "IC_kwDOApOQGc5qP_xp",
+                "user": {
+                    "login": "ryenus",
+                    "id": 610161,
+                    "node_id": "MDQ6VXNlcjYxMDE2MQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/610161?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ryenus",
+                    "html_url": "https://github.com/ryenus",
+                    "followers_url": "https://api.github.com/users/ryenus/followers",
+                    "following_url": "https://api.github.com/users/ryenus/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ryenus/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ryenus/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ryenus/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ryenus/orgs",
+                    "repos_url": "https://api.github.com/users/ryenus/repos",
+                    "events_url": "https://api.github.com/users/ryenus/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ryenus/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T09:15:57Z",
+                "updated_at": "2023-10-27T09:15:57Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "@mikefarah, maybe it's time to revisit the default output format change?\r\n\r\nOn one side there might be still many (if not most) users using earlier versions shipped with stable OS releases that yet to be hit/surprised by this change.\r\n\r\nOn the other hand, the existing users who already adapted to this change, by explicitly specifying the output format most likely wouldn't be affected if we revert back the change.\r\n\r\nAlso based on the comments from the community, I guess we're still in a OK-ish point of time to rethink its rollout strategy.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1782578281/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:15:57Z"
+    },
+    {
+        "id": "32889677750",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 115987434,
+            "login": "Bhargav-InfraCloud",
+            "display_login": "Bhargav-InfraCloud",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Bhargav-InfraCloud",
+            "avatar_url": "https://avatars.githubusercontent.com/u/115987434?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:24:13Z"
+    },
+    {
+        "id": "32889478719",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 61194571,
+            "login": "filippolmt",
+            "display_login": "filippolmt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippolmt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/61194571?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:13:24Z"
+    },
+    {
+        "id": "32888449538",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1160199,
+            "login": "vpmedia",
+            "display_login": "vpmedia",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vpmedia",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1160199?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T05:06:58Z"
+    },
+    {
+        "id": "32887195849",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22302001,
+            "login": "lydavid",
+            "display_login": "lydavid",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lydavid",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22302001?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:26:25Z"
+    },
+    {
+        "id": "32886242009",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 70252044,
+            "login": "meo-s",
+            "display_login": "meo-s",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/meo-s",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70252044?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:10:27Z"
+    },
+    {
+        "id": "32884553684",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 20735818,
+            "login": "danielfdickinson",
+            "display_login": "danielfdickinson",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielfdickinson",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20735818?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T23:59:36Z"
+    },
+    {
+        "id": "32881965642",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 60824,
+            "login": "brttbndr",
+            "display_login": "brttbndr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/brttbndr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/60824?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:09:35Z"
+    },
+    {
+        "id": "32880994443",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 47465696,
+            "login": "ismailktami",
+            "display_login": "ismailktami",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ismailktami",
+            "avatar_url": "https://avatars.githubusercontent.com/u/47465696?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:23:24Z"
+    },
+    {
+        "id": "32878581055",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 46289529,
+            "login": "npatel241",
+            "display_login": "npatel241",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/npatel241",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46289529?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:38:24Z"
+    },
+    {
+        "id": "32862926342",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 3038631,
+            "login": "afeiship",
+            "display_login": "afeiship",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/afeiship",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3038631?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:38:47Z"
+    },
+    {
+        "id": "32855664038",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1622825,
+            "login": "davidlu1001",
+            "display_login": "davidlu1001",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidlu1001",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1622825?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:10:17Z"
+    },
+    {
+        "id": "32853842839",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1151925,
+            "login": "mikefarah",
+            "display_login": "mikefarah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mikefarah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1151925?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/1833",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/1833/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/1833/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/1833/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/1833",
+                "id": 1950014863,
+                "node_id": "I_kwDOApOQGc50Ot2P",
+                "number": 1833,
+                "title": "`sort_keys` treats content above first key differently",
+                "user": {
+                    "login": "snuggie12",
+                    "id": 20174162,
+                    "node_id": "MDQ6VXNlcjIwMTc0MTYy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20174162?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/snuggie12",
+                    "html_url": "https://github.com/snuggie12",
+                    "followers_url": "https://api.github.com/users/snuggie12/followers",
+                    "following_url": "https://api.github.com/users/snuggie12/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/snuggie12/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/snuggie12/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/snuggie12/subscriptions",
+                    "organizations_url": "https://api.github.com/users/snuggie12/orgs",
+                    "repos_url": "https://api.github.com/users/snuggie12/repos",
+                    "events_url": "https://api.github.com/users/snuggie12/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/snuggie12/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299314,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MzE0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v4",
+                        "name": "v4",
+                        "color": "d8db4c",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-18T15:20:29Z",
+                "updated_at": "2023-10-26T01:52:05Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nI was trying to sort a heavily commented yaml file and noticed content above the first key is not associated with the first key. It appears as if the content is simply not touched at all as I was going to make a feature request regarding not removing blank lines and noticed if you insert a blank line above the first key it is unaltered.\r\n\r\nVersion of yq: 4.33.3\r\nOperating system: mac\r\nInstalled via: brew\r\n\r\n**Input Yaml**\r\nfoo.yaml:\r\n```yaml\r\n# Overall comment unrelated to first key\r\n\r\n# Comment related to first key\r\nzfirstKey:\r\n  asubKey: foo\r\n\r\n# Comment related to second key\r\nsecondKey:\r\n  subKey: bar\r\n\r\n# Comment related to third key\r\nthirdKey:\r\n  subKey: baz\r\n```\r\n\r\n**Command**\r\nThe command you ran:\r\n```\r\nyq 'sort_keys(..)' foo.yaml\r\n```\r\n\r\n**Actual behavior**\r\n\r\n```yaml\r\n# Overall comment unrelated to first key\r\n\r\n# Comment related to first key\r\n# Comment related to second key\r\nsecondKey:\r\n  subKey: bar\r\n# Comment related to third key\r\nthirdKey:\r\n  subKey: baz\r\nzfirstKey:\r\n  asubKey: foo\r\n```\r\n\r\n**Expected behavior**\r\nI'm unsure what to do about the top comment, but I expect the comment for the first key to follow it\r\n```yaml\r\n# Overall comment unrelated to first key\r\n\r\n# Comment related to second key\r\nsecondKey:\r\n  subKey: bar\r\n# Comment related to third key\r\nthirdKey:\r\n  subKey: baz\r\n# Comment related to first key\r\nzfirstKey:\r\n  asubKey: foo\r\n```\r\n\r\n**Additional context**\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/1833/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/1833/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1780292401",
+                "html_url": "https://github.com/mikefarah/yq/issues/1833#issuecomment-1780292401",
+                "issue_url": "https://api.github.com/repos/mikefarah/yq/issues/1833",
+                "id": 1780292401,
+                "node_id": "IC_kwDOApOQGc5qHRsx",
+                "user": {
+                    "login": "mikefarah",
+                    "id": 1151925,
+                    "node_id": "MDQ6VXNlcjExNTE5MjU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1151925?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mikefarah",
+                    "html_url": "https://github.com/mikefarah",
+                    "followers_url": "https://api.github.com/users/mikefarah/followers",
+                    "following_url": "https://api.github.com/users/mikefarah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mikefarah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mikefarah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mikefarah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mikefarah/orgs",
+                    "repos_url": "https://api.github.com/users/mikefarah/repos",
+                    "events_url": "https://api.github.com/users/mikefarah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mikefarah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T01:52:05Z",
+                "updated_at": "2023-10-26T01:52:05Z",
+                "author_association": "OWNER",
+                "body": "Yep - yq intentionally leaves as much of the document comments untouched (this was done from a bunch of issues people raised where it would mess up their nicely formatted document comment) - and a side effect of this is that it doesn't recognise \" Comment related to first key\" is separate from \"Overall comment unrelated to first key\".\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1780292401/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T01:52:05Z"
+    },
+    {
+        "id": "32850182220",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 39227511,
+            "login": "achianumba",
+            "display_login": "achianumba",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/achianumba",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39227511?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T21:44:58Z"
+    },
+    {
+        "id": "32849850399",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1151925,
+            "login": "mikefarah",
+            "display_login": "mikefarah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mikefarah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1151925?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/1842",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/1842",
+                "id": 1961089948,
+                "node_id": "I_kwDOApOQGc5049uc",
+                "number": 1842,
+                "title": "Error: 1:1: invalid input text \"compare | (... |...\"",
+                "user": {
+                    "login": "hassanbsee2071",
+                    "id": 50320614,
+                    "node_id": "MDQ6VXNlcjUwMzIwNjE0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/50320614?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hassanbsee2071",
+                    "html_url": "https://github.com/hassanbsee2071",
+                    "followers_url": "https://api.github.com/users/hassanbsee2071/followers",
+                    "following_url": "https://api.github.com/users/hassanbsee2071/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hassanbsee2071/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hassanbsee2071/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hassanbsee2071/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hassanbsee2071/orgs",
+                    "repos_url": "https://api.github.com/users/hassanbsee2071/repos",
+                    "events_url": "https://api.github.com/users/hassanbsee2071/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hassanbsee2071/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299314,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MzE0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v4",
+                        "name": "v4",
+                        "color": "d8db4c",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T10:43:25Z",
+                "updated_at": "2023-10-25T21:28:04Z",
+                "closed_at": "2023-10-25T21:28:04Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\nNote that any how to questions should be posted in the discussion board and not raised as an issue.\r\n\r\nVersion of yq: 4.35.2\r\nOperating system: mac\r\nInstalled via: homebrew\r\n\r\n**Input Yaml**\r\nConcise yaml document(s) (as simple as possible to show the bug, please keep it to 10 lines or less)\r\ndata1.yml:\r\n```\r\nthis: should really work\r\n```\r\n\r\ndata2.yml:\r\n```\r\nbut: it strangely didn't\r\n```\r\n\r\n**Command**\r\nThe command you ran:\r\n```\r\n yq compare -P data1.yml data2.yml  users\r\n```\r\n\r\n**Actual behavior**\r\n\r\n```yaml\r\nError: 1:1: invalid input text \"compare | (... |...\"\r\n```\r\n\r\n**Expected behavior**\r\n\r\n```yaml\r\n-this: should really work\r\n+but: it strangely didn't\r\n```\r\n\r\n**Additional context**\r\nAdd any other context about the problem here.\r\nWhen I execute I get below error. In version 3 it is working\r\nError: 1:1: invalid input text \"compare | (... |...\"",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/1842/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T21:28:05Z"
+    },
+    {
+        "id": "32849850309",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1151925,
+            "login": "mikefarah",
+            "display_login": "mikefarah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mikefarah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1151925?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/1842",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/1842",
+                "id": 1961089948,
+                "node_id": "I_kwDOApOQGc5049uc",
+                "number": 1842,
+                "title": "Error: 1:1: invalid input text \"compare | (... |...\"",
+                "user": {
+                    "login": "hassanbsee2071",
+                    "id": 50320614,
+                    "node_id": "MDQ6VXNlcjUwMzIwNjE0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/50320614?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hassanbsee2071",
+                    "html_url": "https://github.com/hassanbsee2071",
+                    "followers_url": "https://api.github.com/users/hassanbsee2071/followers",
+                    "following_url": "https://api.github.com/users/hassanbsee2071/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hassanbsee2071/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hassanbsee2071/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hassanbsee2071/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hassanbsee2071/orgs",
+                    "repos_url": "https://api.github.com/users/hassanbsee2071/repos",
+                    "events_url": "https://api.github.com/users/hassanbsee2071/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hassanbsee2071/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299314,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MzE0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v4",
+                        "name": "v4",
+                        "color": "d8db4c",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T10:43:25Z",
+                "updated_at": "2023-10-25T21:28:04Z",
+                "closed_at": "2023-10-25T21:28:04Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\nNote that any how to questions should be posted in the discussion board and not raised as an issue.\r\n\r\nVersion of yq: 4.35.2\r\nOperating system: mac\r\nInstalled via: homebrew\r\n\r\n**Input Yaml**\r\nConcise yaml document(s) (as simple as possible to show the bug, please keep it to 10 lines or less)\r\ndata1.yml:\r\n```\r\nthis: should really work\r\n```\r\n\r\ndata2.yml:\r\n```\r\nbut: it strangely didn't\r\n```\r\n\r\n**Command**\r\nThe command you ran:\r\n```\r\n yq compare -P data1.yml data2.yml  users\r\n```\r\n\r\n**Actual behavior**\r\n\r\n```yaml\r\nError: 1:1: invalid input text \"compare | (... |...\"\r\n```\r\n\r\n**Expected behavior**\r\n\r\n```yaml\r\n-this: should really work\r\n+but: it strangely didn't\r\n```\r\n\r\n**Additional context**\r\nAdd any other context about the problem here.\r\nWhen I execute I get below error. In version 3 it is working\r\nError: 1:1: invalid input text \"compare | (... |...\"",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/1842/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1780081332",
+                "html_url": "https://github.com/mikefarah/yq/issues/1842#issuecomment-1780081332",
+                "issue_url": "https://api.github.com/repos/mikefarah/yq/issues/1842",
+                "id": 1780081332,
+                "node_id": "IC_kwDOApOQGc5qGeK0",
+                "user": {
+                    "login": "mikefarah",
+                    "id": 1151925,
+                    "node_id": "MDQ6VXNlcjExNTE5MjU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1151925?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mikefarah",
+                    "html_url": "https://github.com/mikefarah",
+                    "followers_url": "https://api.github.com/users/mikefarah/followers",
+                    "following_url": "https://api.github.com/users/mikefarah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mikefarah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mikefarah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mikefarah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mikefarah/orgs",
+                    "repos_url": "https://api.github.com/users/mikefarah/repos",
+                    "events_url": "https://api.github.com/users/mikefarah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mikefarah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T21:28:04Z",
+                "updated_at": "2023-10-25T21:28:04Z",
+                "author_association": "OWNER",
+                "body": "V3 worked quite differently from V4 - take a look here: https://mikefarah.gitbook.io/yq/upgrading-from-v3#comparing-yaml-files",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1780081332/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T21:28:04Z"
+    },
+    {
+        "id": "32849830194",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1151925,
+            "login": "mikefarah",
+            "display_login": "mikefarah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mikefarah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1151925?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/626",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/626/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/626/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/626/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/626",
+                "id": 775494223,
+                "node_id": "MDU6SXNzdWU3NzU0OTQyMjM=",
+                "number": 626,
+                "title": "brew install yq@3.4.1:  No available formula or cask with the name \"yq@3.4.1\".",
+                "user": {
+                    "login": "bitsofinfo",
+                    "id": 1743646,
+                    "node_id": "MDQ6VXNlcjE3NDM2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1743646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bitsofinfo",
+                    "html_url": "https://github.com/bitsofinfo",
+                    "followers_url": "https://api.github.com/users/bitsofinfo/followers",
+                    "following_url": "https://api.github.com/users/bitsofinfo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bitsofinfo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bitsofinfo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bitsofinfo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bitsofinfo/orgs",
+                    "repos_url": "https://api.github.com/users/bitsofinfo/repos",
+                    "events_url": "https://api.github.com/users/bitsofinfo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bitsofinfo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299144,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MTQ0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v3",
+                        "name": "v3",
+                        "color": "f4a6d1",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 11,
+                "created_at": "2020-12-28T16:57:37Z",
+                "updated_at": "2023-10-25T21:27:03Z",
+                "closed_at": "2021-01-06T04:23:24Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "```\r\nbrew install yq@3.4.1\r\nUpdating Homebrew...\r\n==> Auto-updated Homebrew!\r\nUpdated 1 tap (homebrew/core).\r\n==> Updated Formulae\r\nUpdated 2 formulae.\r\n\r\n==> Searching for similarly named formulae...\r\nError: No similarly named formulae found.\r\nError: No available formula or cask with the name \"yq@3.4.1\".\r\n==> Searching for a previously deleted formula (in the last month)...\r\nError: No previously deleted formula found.\r\n==> Searching taps on GitHub...\r\nError: No formulae found in taps.\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/626/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/626/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1780080223",
+                "html_url": "https://github.com/mikefarah/yq/issues/626#issuecomment-1780080223",
+                "issue_url": "https://api.github.com/repos/mikefarah/yq/issues/626",
+                "id": 1780080223,
+                "node_id": "IC_kwDOApOQGc5qGd5f",
+                "user": {
+                    "login": "mikefarah",
+                    "id": 1151925,
+                    "node_id": "MDQ6VXNlcjExNTE5MjU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1151925?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mikefarah",
+                    "html_url": "https://github.com/mikefarah",
+                    "followers_url": "https://api.github.com/users/mikefarah/followers",
+                    "following_url": "https://api.github.com/users/mikefarah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mikefarah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mikefarah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mikefarah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mikefarah/orgs",
+                    "repos_url": "https://api.github.com/users/mikefarah/repos",
+                    "events_url": "https://api.github.com/users/mikefarah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mikefarah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T21:27:03Z",
+                "updated_at": "2023-10-25T21:27:03Z",
+                "author_association": "OWNER",
+                "body": "Yeah v4 works quite differently from v3 - v4 is more like jq and you give it an expression. Take a look here at how do upgrade from v3: https://mikefarah.gitbook.io/yq/upgrading-from-v3#comparing-yaml-files",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1780080223/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T21:27:04Z"
+    },
+    {
+        "id": "32848348865",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 3037973,
+            "login": "teejaded",
+            "display_login": "teejaded",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/teejaded",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3037973?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/1842",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/1842",
+                "id": 1961089948,
+                "node_id": "I_kwDOApOQGc5049uc",
+                "number": 1842,
+                "title": "Error: 1:1: invalid input text \"compare | (... |...\"",
+                "user": {
+                    "login": "hassanbsee2071",
+                    "id": 50320614,
+                    "node_id": "MDQ6VXNlcjUwMzIwNjE0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/50320614?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hassanbsee2071",
+                    "html_url": "https://github.com/hassanbsee2071",
+                    "followers_url": "https://api.github.com/users/hassanbsee2071/followers",
+                    "following_url": "https://api.github.com/users/hassanbsee2071/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hassanbsee2071/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hassanbsee2071/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hassanbsee2071/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hassanbsee2071/orgs",
+                    "repos_url": "https://api.github.com/users/hassanbsee2071/repos",
+                    "events_url": "https://api.github.com/users/hassanbsee2071/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hassanbsee2071/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299314,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MzE0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v4",
+                        "name": "v4",
+                        "color": "d8db4c",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T10:43:25Z",
+                "updated_at": "2023-10-25T20:17:59Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\nNote that any how to questions should be posted in the discussion board and not raised as an issue.\r\n\r\nVersion of yq: 4.35.2\r\nOperating system: mac\r\nInstalled via: homebrew\r\n\r\n**Input Yaml**\r\nConcise yaml document(s) (as simple as possible to show the bug, please keep it to 10 lines or less)\r\ndata1.yml:\r\n```\r\nthis: should really work\r\n```\r\n\r\ndata2.yml:\r\n```\r\nbut: it strangely didn't\r\n```\r\n\r\n**Command**\r\nThe command you ran:\r\n```\r\n yq compare -P data1.yml data2.yml  users\r\n```\r\n\r\n**Actual behavior**\r\n\r\n```yaml\r\nError: 1:1: invalid input text \"compare | (... |...\"\r\n```\r\n\r\n**Expected behavior**\r\n\r\n```yaml\r\n-this: should really work\r\n+but: it strangely didn't\r\n```\r\n\r\n**Additional context**\r\nAdd any other context about the problem here.\r\nWhen I execute I get below error. In version 3 it is working\r\nError: 1:1: invalid input text \"compare | (... |...\"",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/1842/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1779990650",
+                "html_url": "https://github.com/mikefarah/yq/issues/1842#issuecomment-1779990650",
+                "issue_url": "https://api.github.com/repos/mikefarah/yq/issues/1842",
+                "id": 1779990650,
+                "node_id": "IC_kwDOApOQGc5qGIB6",
+                "user": {
+                    "login": "teejaded",
+                    "id": 3037973,
+                    "node_id": "MDQ6VXNlcjMwMzc5NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/3037973?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/teejaded",
+                    "html_url": "https://github.com/teejaded",
+                    "followers_url": "https://api.github.com/users/teejaded/followers",
+                    "following_url": "https://api.github.com/users/teejaded/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/teejaded/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/teejaded/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/teejaded/subscriptions",
+                    "organizations_url": "https://api.github.com/users/teejaded/orgs",
+                    "repos_url": "https://api.github.com/users/teejaded/repos",
+                    "events_url": "https://api.github.com/users/teejaded/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/teejaded/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T20:17:59Z",
+                "updated_at": "2023-10-25T20:17:59Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "The compare command was removed in version 4.  This seems to be a duplicate of https://github.com/mikefarah/yq/issues/1272\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1779990650/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:18:00Z"
+    },
+    {
+        "id": "32843367367",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 36318507,
+            "login": "aRustyDev",
+            "display_login": "aRustyDev",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aRustyDev",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36318507?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:56:46Z"
+    },
+    {
+        "id": "32840829029",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 91097114,
+            "login": "Ahmed-Alhameedawi",
+            "display_login": "Ahmed-Alhameedawi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ahmed-Alhameedawi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/91097114?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709883627,
+                "node_id": "R_kgDOKk_26w",
+                "name": "yq",
+                "full_name": "Ahmed-Alhameedawi/yq",
+                "private": false,
+                "owner": {
+                    "login": "Ahmed-Alhameedawi",
+                    "id": 91097114,
+                    "node_id": "MDQ6VXNlcjkxMDk3MTE0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/91097114?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Ahmed-Alhameedawi",
+                    "html_url": "https://github.com/Ahmed-Alhameedawi",
+                    "followers_url": "https://api.github.com/users/Ahmed-Alhameedawi/followers",
+                    "following_url": "https://api.github.com/users/Ahmed-Alhameedawi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Ahmed-Alhameedawi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Ahmed-Alhameedawi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Ahmed-Alhameedawi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Ahmed-Alhameedawi/orgs",
+                    "repos_url": "https://api.github.com/users/Ahmed-Alhameedawi/repos",
+                    "events_url": "https://api.github.com/users/Ahmed-Alhameedawi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Ahmed-Alhameedawi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/Ahmed-Alhameedawi/yq",
+                "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML  and properties processor",
+                "fork": true,
+                "url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq",
+                "forks_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/forks",
+                "keys_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/teams",
+                "hooks_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/hooks",
+                "issue_events_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/events",
+                "assignees_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/tags",
+                "blobs_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/languages",
+                "stargazers_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/stargazers",
+                "contributors_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/contributors",
+                "subscribers_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/subscribers",
+                "subscription_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/subscription",
+                "commits_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/merges",
+                "archive_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/downloads",
+                "issues_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/labels{/name}",
+                "releases_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/Ahmed-Alhameedawi/yq/deployments",
+                "created_at": "2023-10-25T15:27:32Z",
+                "updated_at": "2023-10-25T15:27:32Z",
+                "pushed_at": "2023-10-23T09:04:10Z",
+                "git_url": "git://github.com/Ahmed-Alhameedawi/yq.git",
+                "ssh_url": "git@github.com:Ahmed-Alhameedawi/yq.git",
+                "clone_url": "https://github.com/Ahmed-Alhameedawi/yq.git",
+                "svn_url": "https://github.com/Ahmed-Alhameedawi/yq",
+                "homepage": "https://mikefarah.gitbook.io/yq/",
+                "size": 10935,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T15:27:34Z"
+    },
+    {
+        "id": "32839046026",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 3464646,
+            "login": "dvonessen",
+            "display_login": "dvonessen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dvonessen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3464646?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:34:40Z"
+    },
+    {
+        "id": "32838164853",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24753704,
+            "login": "amirali",
+            "display_login": "amirali",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/amirali",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24753704?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:10:21Z"
+    },
+    {
+        "id": "32831816310",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 50320614,
+            "login": "hassanbsee2071",
+            "display_login": "hassanbsee2071",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hassanbsee2071",
+            "avatar_url": "https://avatars.githubusercontent.com/u/50320614?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/1842",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/1842",
+                "id": 1961089948,
+                "node_id": "I_kwDOApOQGc5049uc",
+                "number": 1842,
+                "title": "Error: 1:1: invalid input text \"compare | (... |...\"",
+                "user": {
+                    "login": "hassanbsee2071",
+                    "id": 50320614,
+                    "node_id": "MDQ6VXNlcjUwMzIwNjE0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/50320614?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hassanbsee2071",
+                    "html_url": "https://github.com/hassanbsee2071",
+                    "followers_url": "https://api.github.com/users/hassanbsee2071/followers",
+                    "following_url": "https://api.github.com/users/hassanbsee2071/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hassanbsee2071/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hassanbsee2071/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hassanbsee2071/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hassanbsee2071/orgs",
+                    "repos_url": "https://api.github.com/users/hassanbsee2071/repos",
+                    "events_url": "https://api.github.com/users/hassanbsee2071/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hassanbsee2071/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299314,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MzE0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v4",
+                        "name": "v4",
+                        "color": "d8db4c",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T10:43:25Z",
+                "updated_at": "2023-10-25T10:43:25Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\nNote that any how to questions should be posted in the discussion board and not raised as an issue.\r\n\r\nVersion of yq: 4.35.2\r\nOperating system: mac\r\nInstalled via: homebrew\r\n\r\n**Input Yaml**\r\nConcise yaml document(s) (as simple as possible to show the bug, please keep it to 10 lines or less)\r\ndata1.yml:\r\n```apple\r\nthis: should really work\r\n```\r\n\r\ndata2.yml:\r\n```orande\r\nbut: it strangely didn't\r\n```\r\n\r\n**Command**\r\nThe command you ran:\r\n```\r\n yq compare -P data1.yml data2.yml  users\r\n```\r\n\r\n**Actual behavior**\r\n\r\n```yaml\r\ncat: meow\r\n```\r\n\r\n**Expected behavior**\r\n\r\n```yaml\r\nthis: should really work\r\nbut: it strangely didn't\r\n```\r\n\r\n**Additional context**\r\nAdd any other context about the problem here.\r\nWhen I execute I get below error. In version 3 it is working\r\nError: 1:1: invalid input text \"compare | (... |...\"",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/1842/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/1842/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:43:26Z"
+    },
+    {
+        "id": "32831723993",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 50320614,
+            "login": "hassanbsee2071",
+            "display_login": "hassanbsee2071",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hassanbsee2071",
+            "avatar_url": "https://avatars.githubusercontent.com/u/50320614?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/626",
+                "repository_url": "https://api.github.com/repos/mikefarah/yq",
+                "labels_url": "https://api.github.com/repos/mikefarah/yq/issues/626/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mikefarah/yq/issues/626/comments",
+                "events_url": "https://api.github.com/repos/mikefarah/yq/issues/626/events",
+                "html_url": "https://github.com/mikefarah/yq/issues/626",
+                "id": 775494223,
+                "node_id": "MDU6SXNzdWU3NzU0OTQyMjM=",
+                "number": 626,
+                "title": "brew install yq@3.4.1:  No available formula or cask with the name \"yq@3.4.1\".",
+                "user": {
+                    "login": "bitsofinfo",
+                    "id": 1743646,
+                    "node_id": "MDQ6VXNlcjE3NDM2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1743646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bitsofinfo",
+                    "html_url": "https://github.com/bitsofinfo",
+                    "followers_url": "https://api.github.com/users/bitsofinfo/followers",
+                    "following_url": "https://api.github.com/users/bitsofinfo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bitsofinfo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bitsofinfo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bitsofinfo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bitsofinfo/orgs",
+                    "repos_url": "https://api.github.com/users/bitsofinfo/repos",
+                    "events_url": "https://api.github.com/users/bitsofinfo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bitsofinfo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 265673476,
+                        "node_id": "MDU6TGFiZWwyNjU2NzM0NzY=",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 2533299144,
+                        "node_id": "MDU6TGFiZWwyNTMzMjk5MTQ0",
+                        "url": "https://api.github.com/repos/mikefarah/yq/labels/v3",
+                        "name": "v3",
+                        "color": "f4a6d1",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 10,
+                "created_at": "2020-12-28T16:57:37Z",
+                "updated_at": "2023-10-25T10:39:56Z",
+                "closed_at": "2021-01-06T04:23:24Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "```\r\nbrew install yq@3.4.1\r\nUpdating Homebrew...\r\n==> Auto-updated Homebrew!\r\nUpdated 1 tap (homebrew/core).\r\n==> Updated Formulae\r\nUpdated 2 formulae.\r\n\r\n==> Searching for similarly named formulae...\r\nError: No similarly named formulae found.\r\nError: No available formula or cask with the name \"yq@3.4.1\".\r\n==> Searching for a previously deleted formula (in the last month)...\r\nError: No previously deleted formula found.\r\n==> Searching taps on GitHub...\r\nError: No formulae found in taps.\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/626/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mikefarah/yq/issues/626/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1778984767",
+                "html_url": "https://github.com/mikefarah/yq/issues/626#issuecomment-1778984767",
+                "issue_url": "https://api.github.com/repos/mikefarah/yq/issues/626",
+                "id": 1778984767,
+                "node_id": "IC_kwDOApOQGc5qCSc_",
+                "user": {
+                    "login": "hassanbsee2071",
+                    "id": 50320614,
+                    "node_id": "MDQ6VXNlcjUwMzIwNjE0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/50320614?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hassanbsee2071",
+                    "html_url": "https://github.com/hassanbsee2071",
+                    "followers_url": "https://api.github.com/users/hassanbsee2071/followers",
+                    "following_url": "https://api.github.com/users/hassanbsee2071/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hassanbsee2071/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hassanbsee2071/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hassanbsee2071/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hassanbsee2071/orgs",
+                    "repos_url": "https://api.github.com/users/hassanbsee2071/repos",
+                    "events_url": "https://api.github.com/users/hassanbsee2071/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hassanbsee2071/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T10:39:56Z",
+                "updated_at": "2023-10-25T10:39:56Z",
+                "author_association": "NONE",
+                "body": "@mikefarah \r\nyq compare -P live.yaml conf.yaml  users\r\nThis command does not work in latest 4 version of release. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mikefarah/yq/issues/comments/1778984767/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:39:57Z"
+    },
+    {
+        "id": "32828820383",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1096406,
+            "login": "ehrktia",
+            "display_login": "ehrktia",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ehrktia",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1096406?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:01:35Z"
+    },
+    {
+        "id": "32826921741",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 18473993,
+            "login": "yavuzd",
+            "display_login": "yavuzd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yavuzd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18473993?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:56:27Z"
+    },
+    {
+        "id": "32822416995",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 96554164,
+            "login": "cat-master21",
+            "display_login": "cat-master21",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cat-master21",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96554164?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T03:55:51Z"
+    },
+    {
+        "id": "32821735161",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7068080,
+            "login": "housiliao",
+            "display_login": "housiliao",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/housiliao",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7068080?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T03:02:12Z"
+    },
+    {
+        "id": "32821146465",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 412511,
+            "login": "Siliconrob",
+            "display_login": "Siliconrob",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Siliconrob",
+            "avatar_url": "https://avatars.githubusercontent.com/u/412511?"
+        },
+        "repo": {
+            "id": 43225113,
+            "name": "mikefarah/yq",
+            "url": "https://api.github.com/repos/mikefarah/yq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T02:18:45Z"
+    }
+]

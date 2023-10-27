@@ -1,0 +1,3090 @@
+[
+    {
+        "id": "32892508594",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 11800236,
+            "login": "smileBeda",
+            "display_login": "smileBeda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smileBeda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11800236?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2401",
+                "id": 1964722927,
+                "node_id": "I_kwDOABnOM851G0rv",
+                "number": 2401,
+                "title": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared flagging $this->table_name but not $wpdb->table_name",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 409617152,
+                        "node_id": "MDU6TGFiZWw0MDk2MTcxNTI=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Awaiting%20feedback",
+                        "name": "Status: Awaiting feedback",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 4867047673,
+                        "node_id": "LA_kwDOABnOM88AAAABIhlA-Q",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Close%20candidate",
+                        "name": "Status: Close candidate",
+                        "color": "968022",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-27T04:00:30Z",
+                "updated_at": "2023-10-27T08:28:57Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "There is no way we should use a placeholder for a tablename.\r\nYet WPDB flags this approach as false and _suggests using placeholders_ (which is potentially not only wrong but even more unsafe).\r\n\r\n`$existing = $wpdb->get_var( $wpdb->prepare( \"SELECT COUNT(*) FROM {$this->table_name} WHERE bla = %s\", $bla ) );` => Fails sniff.\r\nThis way forces to rewrite the database table name hardcoded potentially countless times instead of setting it to the object.\r\n\r\nI can't believe this is how we have to do it.\r\nIt seems to have `$wpdb` whitelisted, however you still would have to hardcode the `table_name` every time you do a `get_var` or `get_row` query.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782512370",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2401#issuecomment-1782512370",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401",
+                "id": 1782512370,
+                "node_id": "IC_kwDOABnOM85qPvry",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T08:28:57Z",
+                "updated_at": "2023-10-27T08:28:57Z",
+                "author_association": "NONE",
+                "body": "Ok, thanks.\r\nThis is very new to me. Table and Column names can not be replaced by parameters in PDO, afaik, _and that is what I used most in terms of DB Interactions (of course, outside WP)_\r\n_And as until now this was not an issue, nor a requirement in WP, I did not even think (nor now) about a change like 6.2._\r\n_It is also almost not findable when googling for it, all that pops up is the WP DOC that mentions nothing about tablename requiring or being available for preparation... Sorry it ended up here._\r\n\r\n---\r\n\r\nI guess I will write for \"only\" 67% of the WP Users then. Not really a big issue in this particular project.\r\n\r\nHowever this remains a problem if one wants to support older versions.\r\n**Hardcoding would be the only valid solution to also support users on older than 6.2?**\r\n(I do not want to go into version checks. Either it works or not. If this is the only thing I can do, I will just not support older WP versions, I think, in future)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782512370/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:28:58Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32889831538",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 663378,
+            "login": "jrfnl",
+            "display_login": "jrfnl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrfnl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/663378?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2401",
+                "id": 1964722927,
+                "node_id": "I_kwDOABnOM851G0rv",
+                "number": 2401,
+                "title": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared flagging $this->table_name but not $wpdb->table_name",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 409617152,
+                        "node_id": "MDU6TGFiZWw0MDk2MTcxNTI=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Awaiting%20feedback",
+                        "name": "Status: Awaiting feedback",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 4867047673,
+                        "node_id": "LA_kwDOABnOM88AAAABIhlA-Q",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Close%20candidate",
+                        "name": "Status: Close candidate",
+                        "color": "968022",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-27T04:00:30Z",
+                "updated_at": "2023-10-27T06:32:40Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "There is no way we should use a placeholder for a tablename.\r\nYet WPDB flags this approach as false and _suggests using placeholders_ (which is potentially not only wrong but even more unsafe).\r\n\r\n`$existing = $wpdb->get_var( $wpdb->prepare( \"SELECT COUNT(*) FROM {$this->table_name} WHERE bla = %s\", $bla ) );` => Fails sniff.\r\nThis way forces to rewrite the database table name hardcoded potentially countless times instead of setting it to the object.\r\n\r\nI can't believe this is how we have to do it.\r\nIt seems to have `$wpdb` whitelisted, however you still would have to hardcode the `table_name` every time you do a `get_var` or `get_row` query.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782372716",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2401#issuecomment-1782372716",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401",
+                "id": 1782372716,
+                "node_id": "IC_kwDOABnOM85qPNls",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T06:32:39Z",
+                "updated_at": "2023-10-27T06:32:39Z",
+                "author_association": "MEMBER",
+                "body": "> There is no way we should use a placeholder for a tablename.\r\n\r\nYour information is outdated. You can use the `%i` placeholder for tablenames since WP 6.2. Also see: https://make.wordpress.org/core/2022/10/08/escaping-table-and-field-names-with-wpdbprepare-in-wordpress-6-1/\r\n\r\nI suggest closing this ticket.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782372716/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:32:40Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32889781507",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 663378,
+            "login": "jrfnl",
+            "display_login": "jrfnl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrfnl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/663378?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2359",
+                "id": 1856398071,
+                "node_id": "I_kwDOABnOM85upmL3",
+                "number": 2359,
+                "title": "Allow DROP TABLE schema change in uninstall.php",
+                "user": {
+                    "login": "Asgaros",
+                    "id": 12525671,
+                    "node_id": "MDQ6VXNlcjEyNTI1Njcx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12525671?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Asgaros",
+                    "html_url": "https://github.com/Asgaros",
+                    "followers_url": "https://api.github.com/users/Asgaros/followers",
+                    "following_url": "https://api.github.com/users/Asgaros/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Asgaros/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Asgaros/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Asgaros/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Asgaros/orgs",
+                    "repos_url": "https://api.github.com/users/Asgaros/repos",
+                    "events_url": "https://api.github.com/users/Asgaros/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Asgaros/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197940028,
+                        "node_id": "MDU6TGFiZWwxOTc5NDAwMjg=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Type:%20Question",
+                        "name": "Type: Question",
+                        "color": "cc317c",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2023-08-18T09:37:57Z",
+                "updated_at": "2023-10-27T06:29:57Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Plugins often require their own tables - therefore those tables naturally should be removed during the uninstall process of the plugin. This brings the requirement to execute a query like `DROP TABLE IF EXISTS wp_my_table;` which is placed in the _uninstall.php_ file.\r\n\r\nCurrently, the CodeSniffer creates warnings for those database queries, like:\r\n\r\n`Attempting a database schema change is discouraged. (WordPress.DB.DirectDatabaseQuery.SchemaChange)`\r\n\r\nSince deleting unnecessary data during the uninstall process is a proper way to avoid leaving trash behind, I suggest to add an exception which allows the `DROP TABLE` query within the _uninstall.php_ file.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "reopened"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782370327",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2359#issuecomment-1782370327",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359",
+                "id": 1782370327,
+                "node_id": "IC_kwDOABnOM85qPNAX",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T06:29:56Z",
+                "updated_at": "2023-10-27T06:29:56Z",
+                "author_association": "MEMBER",
+                "body": "@smileBeda I'm going to hide your comment as \"Off Topic\". Your remark and the discussion you are trying to spark does not belong in this ticket as this ticket is about a specific issue with the sniff, not about the principle of the sniff itself.\r\nFor background on why the sniff exists: see the actual coding standards: https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/#database-queries",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782370327/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:29:57Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32887597912",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 11800236,
+            "login": "smileBeda",
+            "display_login": "smileBeda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smileBeda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11800236?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2401",
+                "id": 1964722927,
+                "node_id": "I_kwDOABnOM851G0rv",
+                "number": 2401,
+                "title": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared flagging $this->table_name but not $wpdb->table_name",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T04:00:30Z",
+                "updated_at": "2023-10-27T04:00:30Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "There is no way we should use a placeholder for a tablename.\r\nYet WPDB flags this approach as false and _suggests using placeholders_ (which is potentially not only wrong but even more unsafe).\r\n\r\n`$existing = $wpdb->get_var( $wpdb->prepare( \"SELECT COUNT(*) FROM {$this->table_name} WHERE bla = %s\", $bla ) );` => Fails sniff.\r\nThis way forces to rewrite the database table name hardcoded potentially countless times instead of setting it to the object.\r\n\r\nI can't believe this is how we have to do it.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2401/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T04:00:32Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32886730315",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 11800236,
+            "login": "smileBeda",
+            "display_login": "smileBeda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smileBeda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11800236?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2359",
+                "id": 1856398071,
+                "node_id": "I_kwDOABnOM85upmL3",
+                "number": 2359,
+                "title": "Allow DROP TABLE schema change in uninstall.php",
+                "user": {
+                    "login": "Asgaros",
+                    "id": 12525671,
+                    "node_id": "MDQ6VXNlcjEyNTI1Njcx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12525671?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Asgaros",
+                    "html_url": "https://github.com/Asgaros",
+                    "followers_url": "https://api.github.com/users/Asgaros/followers",
+                    "following_url": "https://api.github.com/users/Asgaros/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Asgaros/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Asgaros/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Asgaros/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Asgaros/orgs",
+                    "repos_url": "https://api.github.com/users/Asgaros/repos",
+                    "events_url": "https://api.github.com/users/Asgaros/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Asgaros/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197940028,
+                        "node_id": "MDU6TGFiZWwxOTc5NDAwMjg=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Type:%20Question",
+                        "name": "Type: Question",
+                        "color": "cc317c",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-08-18T09:37:57Z",
+                "updated_at": "2023-10-27T02:49:19Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Plugins often require their own tables - therefore those tables naturally should be removed during the uninstall process of the plugin. This brings the requirement to execute a query like `DROP TABLE IF EXISTS wp_my_table;` which is placed in the _uninstall.php_ file.\r\n\r\nCurrently, the CodeSniffer creates warnings for those database queries, like:\r\n\r\n`Attempting a database schema change is discouraged. (WordPress.DB.DirectDatabaseQuery.SchemaChange)`\r\n\r\nSince deleting unnecessary data during the uninstall process is a proper way to avoid leaving trash behind, I suggest to add an exception which allows the `DROP TABLE` query within the _uninstall.php_ file.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "reopened"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782204625",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2359#issuecomment-1782204625",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2359",
+                "id": 1782204625,
+                "node_id": "IC_kwDOABnOM85qOkjR",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T02:49:19Z",
+                "updated_at": "2023-10-27T02:49:19Z",
+                "author_association": "NONE",
+                "body": "I do not understand why this sniff is in place.\r\n\r\n1. It is _very_ common for plugins to create, drop, or else manipulate database tables. Look at WooCommerce, Learndash, wpDiscuz, and a hundreds more\r\n2. There is no other way to create database tables than doing what it is flagging \r\n3. Silencing errors is forbidden by WP Plugin Reviewers and yet at the same time if you do not silence it, for example GitHub WPCS workflows can fail.\r\n\r\nIt is the very suggested way of doing it (https://codex.wordpress.org/Creating_Tables_with_Plugins)\r\nAs there is literally no other suggested method to create or else manipulate tables, this sniff is very much breaking stuff in CI implementations, without workaround, because as said, you are not allowed to silence errors in WP Plugins if you want them to pass review.\r\n\r\nThis does not only relate to delete tables in uninstall, it also relates to create tables, which might happen about anywhere in the code.\r\n\r\nDo I miss something?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1782204625/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:49:20Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32877752861",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 18687649,
+            "login": "sheunl",
+            "display_login": "sheunl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sheunl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18687649?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:04:51Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32854986130",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 11800236,
+            "login": "smileBeda",
+            "display_login": "smileBeda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smileBeda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11800236?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1961150471,
+                "node_id": "I_kwDOABnOM8505MgH",
+                "number": 2400,
+                "title": "WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned suddenly wanting _unaligned_ arrows",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 409617152,
+                        "node_id": "MDU6TGFiZWw0MDk2MTcxNTI=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Awaiting%20feedback",
+                        "name": "Status: Awaiting feedback",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-25T11:19:01Z",
+                "updated_at": "2023-10-26T03:17:36Z",
+                "closed_at": "2023-10-26T03:17:36Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Bug Description\r\nMaybe I am dreaming, but I am very sure that up and until now, a well aligned array in WP CS meant the below, _in all cases_:\r\n```\r\narray( \r\n    'thing'       => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\nHowever, I just noticed that WPCS tries to correct them to below, _when inside a WP Archive template HTML markup_:\r\n```\r\narray( \r\n    'thing' => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\n## Minimal Code Snippet\r\n```\r\n<?php\r\nthe_post_thumbnail(\r\n    'medium',\r\n    array(\r\n        'class' => 'classes',\r\n        'alt'   => esc_attr( get_the_title() ),\r\n    )\r\n);\r\n?>\r\n```\r\n_WPCS tries to correct that even if it is correctly aligned and says it should not be aligned vertically_\r\n\r\n---\r\n\r\nYet, if I plant the array in a function, or plain PHP file, it expects me to _align vertically_ the arrows:\r\n```\r\narray(\r\n    'thing'        => 'thang',\r\n    'lonngerthing' => 'thing',\r\n)\r\n```\r\n\r\n## Error Code\r\n> Array double arrow not aligned correctly; expected 1 space(s) between \"'alt'\" and double arrow, but found 3.\r\n(WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)\r\n\r\n## Environment\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.2\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T03:17:37Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32854986075",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 11800236,
+            "login": "smileBeda",
+            "display_login": "smileBeda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smileBeda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11800236?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1961150471,
+                "node_id": "I_kwDOABnOM8505MgH",
+                "number": 2400,
+                "title": "WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned suddenly wanting _unaligned_ arrows",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 409617152,
+                        "node_id": "MDU6TGFiZWw0MDk2MTcxNTI=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Awaiting%20feedback",
+                        "name": "Status: Awaiting feedback",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-25T11:19:01Z",
+                "updated_at": "2023-10-26T03:17:36Z",
+                "closed_at": "2023-10-26T03:17:36Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Bug Description\r\nMaybe I am dreaming, but I am very sure that up and until now, a well aligned array in WP CS meant the below, _in all cases_:\r\n```\r\narray( \r\n    'thing'       => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\nHowever, I just noticed that WPCS tries to correct them to below, _when inside a WP Archive template HTML markup_:\r\n```\r\narray( \r\n    'thing' => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\n## Minimal Code Snippet\r\n```\r\n<?php\r\nthe_post_thumbnail(\r\n    'medium',\r\n    array(\r\n        'class' => 'classes',\r\n        'alt'   => esc_attr( get_the_title() ),\r\n    )\r\n);\r\n?>\r\n```\r\n_WPCS tries to correct that even if it is correctly aligned and says it should not be aligned vertically_\r\n\r\n---\r\n\r\nYet, if I plant the array in a function, or plain PHP file, it expects me to _align vertically_ the arrows:\r\n```\r\narray(\r\n    'thing'        => 'thang',\r\n    'lonngerthing' => 'thing',\r\n)\r\n```\r\n\r\n## Error Code\r\n> Array double arrow not aligned correctly; expected 1 space(s) between \"'alt'\" and double arrow, but found 3.\r\n(WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)\r\n\r\n## Environment\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.2\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1780351361",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400#issuecomment-1780351361",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1780351361,
+                "node_id": "IC_kwDOABnOM85qHgGB",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T03:17:36Z",
+                "updated_at": "2023-10-26T03:17:36Z",
+                "author_association": "NONE",
+                "body": "OK, I then just do not recall having seen it before, not a surprise.\r\n\r\nI will try to add a custom rule to extend the column width then.\r\nI allow 120 characters _per line_. 60 is extremely narrow, barely allows for a standard single post template!\r\n\r\nAnd since it seems to not measure the _array length_ but the _full length including indentation from file column 0_.... that is reached extremely quickly.\r\n\r\nOdd. But ok.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1780351361/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T03:17:36Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32854895528",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 663378,
+            "login": "jrfnl",
+            "display_login": "jrfnl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrfnl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/663378?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1961150471,
+                "node_id": "I_kwDOABnOM8505MgH",
+                "number": 2400,
+                "title": "WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned suddenly wanting _unaligned_ arrows",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 409617152,
+                        "node_id": "MDU6TGFiZWw0MDk2MTcxNTI=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Awaiting%20feedback",
+                        "name": "Status: Awaiting feedback",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-25T11:19:01Z",
+                "updated_at": "2023-10-26T03:10:51Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Bug Description\r\nMaybe I am dreaming, but I am very sure that up and until now, a well aligned array in WP CS meant the below, _in all cases_:\r\n```\r\narray( \r\n    'thing'       => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\nHowever, I just noticed that WPCS tries to correct them to below, _when inside a WP Archive template HTML markup_:\r\n```\r\narray( \r\n    'thing' => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\n## Minimal Code Snippet\r\n```\r\n<?php\r\nthe_post_thumbnail(\r\n    'medium',\r\n    array(\r\n        'class' => 'classes',\r\n        'alt'   => esc_attr( get_the_title() ),\r\n    )\r\n);\r\n?>\r\n```\r\n_WPCS tries to correct that even if it is correctly aligned and says it should not be aligned vertically_\r\n\r\n---\r\n\r\nYet, if I plant the array in a function, or plain PHP file, it expects me to _align vertically_ the arrows:\r\n```\r\narray(\r\n    'thing'        => 'thang',\r\n    'lonngerthing' => 'thing',\r\n)\r\n```\r\n\r\n## Error Code\r\n> Array double arrow not aligned correctly; expected 1 space(s) between \"'alt'\" and double arrow, but found 3.\r\n(WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)\r\n\r\n## Environment\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.2\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1780347176",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400#issuecomment-1780347176",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1780347176,
+                "node_id": "IC_kwDOABnOM85qHfEo",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T03:10:51Z",
+                "updated_at": "2023-10-26T03:10:51Z",
+                "author_association": "MEMBER",
+                "body": "@smileBeda Ah! That explains it. That is related to the `maxColumn` setting as explained here: https://github.com/WordPress/WordPress-Coding-Standards/wiki/Customizable-sniff-properties#wordpressarraysmultiplestatementalignment-maximum-column\r\n\r\nAgain: that behaviour has not changed in WPCS 3.0.0, it was always that way.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1780347176/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T03:10:52Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32854752432",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 11800236,
+            "login": "smileBeda",
+            "display_login": "smileBeda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smileBeda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11800236?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1961150471,
+                "node_id": "I_kwDOABnOM8505MgH",
+                "number": 2400,
+                "title": "WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned suddenly wanting _unaligned_ arrows",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 409617152,
+                        "node_id": "MDU6TGFiZWw0MDk2MTcxNTI=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Awaiting%20feedback",
+                        "name": "Status: Awaiting feedback",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T11:19:01Z",
+                "updated_at": "2023-10-26T03:00:10Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Bug Description\r\nMaybe I am dreaming, but I am very sure that up and until now, a well aligned array in WP CS meant the below, _in all cases_:\r\n```\r\narray( \r\n    'thing'       => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\nHowever, I just noticed that WPCS tries to correct them to below, _when inside a WP Archive template HTML markup_:\r\n```\r\narray( \r\n    'thing' => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\n## Minimal Code Snippet\r\n```\r\n<?php\r\nthe_post_thumbnail(\r\n    'medium',\r\n    array(\r\n        'class' => 'classes',\r\n        'alt'   => esc_attr( get_the_title() ),\r\n    )\r\n);\r\n?>\r\n```\r\n_WPCS tries to correct that even if it is correctly aligned and says it should not be aligned vertically_\r\n\r\n---\r\n\r\nYet, if I plant the array in a function, or plain PHP file, it expects me to _align vertically_ the arrows:\r\n```\r\narray(\r\n    'thing'        => 'thang',\r\n    'lonngerthing' => 'thing',\r\n)\r\n```\r\n\r\n## Error Code\r\n> Array double arrow not aligned correctly; expected 1 space(s) between \"'alt'\" and double arrow, but found 3.\r\n(WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)\r\n\r\n## Environment\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.2\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1780340327",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400#issuecomment-1780340327",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1780340327,
+                "node_id": "IC_kwDOABnOM85qHdZn",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T03:00:10Z",
+                "updated_at": "2023-10-26T03:00:10Z",
+                "author_association": "NONE",
+                "body": "@jrfnl I do not fully understand why, it appears to be related to depth of HTML tree or something else.\r\n\r\nSee the full code, **I placed the double arrow array in several places and you will see that it sometimes flags as wrong, sometimes leaves it alone.**\r\n\r\n```\r\n<?php\r\n/**\r\n * The template for displaying and archive\r\n *\r\n * @link https://developer.wordpress.org/themes/basics/template-hierarchy/\r\n *\r\n * @package Bootscore\r\n */\r\n\r\nthe_post_thumbnail(\r\n\t'medium',\r\n\tarray(\r\n\t\t'class' => 'card-img-top img-fluid rounded-0 border-0',\r\n\t\t'alt'   => esc_attr( get_the_title() ),\r\n\t)\r\n);\r\nget_header();\r\n?>\r\n\r\n<div id=\"content\" class=\"site-content <?php echo esc_attr( bootscore_container_class() ); ?> py-5 mt-5\">\r\n\t<div id=\"primary\" class=\"content-area\">\r\n\t\t<?php\r\n\t\tthe_post_thumbnail(\r\n\t\t\t'medium',\r\n\t\t\tarray(\r\n\t\t\t\t'class' => 'card-img-top img-fluid rounded-0 border-0',\r\n\t\t\t\t'alt'   => esc_attr( get_the_title() ),\r\n\t\t\t)\r\n\t\t);\r\n\t\t?>\r\n\t\t<?php bs_after_primary(); ?>\r\n\t\t<div class=\"row\">\r\n\t\t\t<div class=\"<?php echo esc_attr( bootscore_main_col_class() ); ?>\">\r\n\t\t\t\t<main id=\"main\" class=\"site-main\">\r\n\t\t\t\t\t<?php get_template_part( 'parts/sections/archive-heading' ); ?>\r\n\t\t\t\t\t<hr>\r\n\t\t\t\t\t<?php if ( have_posts() ) : ?>\r\n\t\t\t\t\t\t<div class=\"row row-cols-1 row-cols-md-3 g-4\">\r\n\t\t\t\t\t\t\t<?php\r\n\t\t\t\t\t\t\twhile ( have_posts() ) :\r\n\t\t\t\t\t\t\t\tthe_post();\r\n\t\t\t\t\t\t\t\t?>\r\n\t\t\t\t\t\t\t\t<div class=\"col\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"card h-100 border-0\">\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"card-header rounded-0 p-0 border-0\">\r\n\t\t\t\t\t\t\t\t\t\t\t<?php\r\n\t\t\t\t\t\t\t\t\t\t\tthe_post_thumbnail(\r\n\t\t\t\t\t\t\t\t\t\t\t\t'medium',\r\n\t\t\t\t\t\t\t\t\t\t\t\tarray(\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t'class' => 'card-img-top img-fluid rounded-0 border-0',\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t'alt'   => esc_attr( get_the_title() ),\r\n\t\t\t\t\t\t\t\t\t\t\t\t)\r\n\t\t\t\t\t\t\t\t\t\t\t);\r\n\t\t\t\t\t\t\t\t\t\t\t?>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"card-body bg-dark text-white p-4\">\r\n\t\t\t\t\t\t\t\t\t\t\t<a\r\n\t\t\t\t\t\t\t\t\t\t\thref=\"<?php esc_url( the_permalink() ); ?>\"\r\n\t\t\t\t\t\t\t\t\t\t\tclass=\"stretched-link text-white link-underline link-underline-opacity-0\"\r\n\t\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<?php the_title( '<h2 class=\"card-title\">', '</h2>' ); ?>\r\n\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"d-flex justify-content-between align-items-center\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"read-more text-white z-3 position-relative\"\r\n\t\t\t\t\t\t\t\t\t\t\t\thref=\"https://blabla.com\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<?php esc_html_e( 'Bla Bla', 'bootscore' ); ?>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"read-more text-white text-end z-3 position-relative\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\thref=\"<?php echo esc_url( get_post_meta( get_the_ID(), 'meta', true ) ); ?>\"\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<?php esc_html_e( 'Bla', 'bootscore' ); ?>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"ms-2 bi bi-arrow-up-right\"></i>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<?php endwhile; ?>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t<?php endif; ?>\r\n\t\t\t\t\t<footer class=\"entry-footer\">\r\n\t\t\t\t\t\t<?php bootscore_pagination(); ?>\r\n\t\t\t\t\t</footer>\r\n\t\t\t\t</main>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n\r\n<?php\r\nget_footer();\r\n```\r\n\r\nYou will notice that `the_post_thumbnail` is called 3 times:\r\n- top of file: WPCS \"correctly\" expects vertically aligned arrows in the array\r\n- line 23: WPCS \"correctly\" expects vertically aligned arrows in the array\r\n- line 47: WPCS \"incorrectly\" expects unaligned arrows in the array and will throw warning if you run WPCS on the code shared.\r\n\r\nAlso hereby attached the full PHP file, in case above indentation gets messed up:\r\n[test-wpcs.php.zip](https://github.com/WordPress/WordPress-Coding-Standards/files/13172550/test-wpcs.php.zip)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1780340327/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T03:00:10Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32833923374",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 663378,
+            "login": "jrfnl",
+            "display_login": "jrfnl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrfnl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/663378?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1961150471,
+                "node_id": "I_kwDOABnOM8505MgH",
+                "number": 2400,
+                "title": "WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned suddenly wanting _unaligned_ arrows",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T11:19:01Z",
+                "updated_at": "2023-10-25T12:01:32Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Bug Description\r\nMaybe I am dreaming, but I am very sure that up and until now, a well aligned array in WP CS meant the below, _in all cases_:\r\n```\r\narray( \r\n    'thing'       => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\nHowever, I just noticed that WPCS tries to correct them to below, _when inside a WP Archive template HTML markup_:\r\n```\r\narray( \r\n    'thing' => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\n## Minimal Code Snippet\r\n```\r\n<?php\r\nthe_post_thumbnail(\r\n    'medium',\r\n    array(\r\n        'class' => 'classes',\r\n        'alt'   => esc_attr( get_the_title() ),\r\n    )\r\n);\r\n?>\r\n```\r\n_WPCS tries to correct that even if it is correctly aligned and says it should not be aligned vertically_\r\n\r\n---\r\n\r\nYet, if I plant the array in a function, or plain PHP file, it expects me to _align vertically_ the arrows:\r\n```\r\narray(\r\n    'thing'        => 'thang',\r\n    'lonngerthing' => 'thing',\r\n)\r\n```\r\n\r\n## Error Code\r\n> Array double arrow not aligned correctly; expected 1 space(s) between \"'alt'\" and double arrow, but found 3.\r\n(WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)\r\n\r\n## Environment\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.2\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1779115158",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400#issuecomment-1779115158",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1779115158,
+                "node_id": "IC_kwDOABnOM85qCySW",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T12:01:32Z",
+                "updated_at": "2023-10-25T12:01:32Z",
+                "author_association": "MEMBER",
+                "body": "@smileBeda Tried, but cannot reproduce the issue with the code sample provided.\r\n\r\nAlso, that sniff has barely had any changes for WPCS 3.x, so there is no reason to see changed behaviour.\r\n\r\nSuggest: close, unless a valid reproduction case is added within the next week.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1779115158/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:01:33Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32833835226",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24486253,
+            "login": "kpotia",
+            "display_login": "kpotia",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kpotia",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24486253?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:58:37Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32832764746",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 11800236,
+            "login": "smileBeda",
+            "display_login": "smileBeda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/smileBeda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11800236?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2400",
+                "id": 1961150471,
+                "node_id": "I_kwDOABnOM8505MgH",
+                "number": 2400,
+                "title": "WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned suddenly wanting _unaligned_ arrows",
+                "user": {
+                    "login": "smileBeda",
+                    "id": 11800236,
+                    "node_id": "MDQ6VXNlcjExODAwMjM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11800236?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/smileBeda",
+                    "html_url": "https://github.com/smileBeda",
+                    "followers_url": "https://api.github.com/users/smileBeda/followers",
+                    "following_url": "https://api.github.com/users/smileBeda/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/smileBeda/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/smileBeda/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/smileBeda/subscriptions",
+                    "organizations_url": "https://api.github.com/users/smileBeda/orgs",
+                    "repos_url": "https://api.github.com/users/smileBeda/repos",
+                    "events_url": "https://api.github.com/users/smileBeda/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/smileBeda/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T11:19:01Z",
+                "updated_at": "2023-10-25T11:19:01Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Bug Description\r\nMaybe I am dreaming, but I am very sure that up and until now, a well aligned array in WP CS meant the below, _in all cases_:\r\n```\r\narray( \r\n    'thing'            => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\nHowever, I just noticed that WPCS tries to correct them to below, _when inside a WP Archive template HTML markup_:\r\n```\r\narray( \r\n    'thing' => 'thang',\r\n    'longerthing' => 'thang',\r\n);\r\n```\r\n\r\n## Minimal Code Snippet\r\n```\r\n<?php\r\nthe_post_thumbnail(\r\n    'medium',\r\n    array(\r\n        'class' => 'classes',\r\n        'alt'     => esc_attr( get_the_title() ),\r\n    )\r\n);\r\n?>\r\n```\r\n_WPCS tries to correct that even if it is correctly aligned and says it should not be aligned vertically_\r\n\r\n---\r\n\r\nYet, if I plant the array in a function, or plain PHP file, it expects me to _align vertically_ the arrows:\r\n```\r\narray(\r\n\t'thing'              => 'thing',\r\n\t'lonngerthing' => 'thing',\r\n)\r\n```\r\n\r\n## Error Code\r\n> Array double arrow not aligned correctly; expected 1 space(s) between \"'alt'\" and double arrow, but found 3.\r\n(WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)\r\n\r\n## Environment\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.2\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2400/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:19:03Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32820135758",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 96430077,
+            "login": "jp-grusling",
+            "display_login": "jp-grusling",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jp-grusling",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96430077?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T01:04:24Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32786902609",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4489177,
+            "login": "phpete1",
+            "display_login": "phpete1",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/phpete1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4489177?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T22:43:42Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32774138170",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 15982920,
+            "login": "abhij89",
+            "display_login": "abhij89",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/abhij89",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15982920?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1957249918,
+                "node_id": "I_kwDOABnOM850qUN-",
+                "number": 2398,
+                "title": "The $domain parameter must be a single text  string literal. Found: self::$text_domain",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 197940028,
+                        "node_id": "MDU6TGFiZWwxOTc5NDAwMjg=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Type:%20Question",
+                        "name": "Type: Question",
+                        "color": "cc317c",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-23T14:00:57Z",
+                "updated_at": "2023-10-23T14:16:58Z",
+                "closed_at": "2023-10-23T14:09:19Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nPLEASE FILL OUT THE TEMPLATE COMPLETELY.\r\nBUG REPORTS WHICH CANNOT BE REPRODUCED BASED ON THE INFORMATION PROVIDED WILL BE CLOSED.\r\n-->\r\n\r\n## Bug Description\r\n<!--\r\nPlease provide a clear and concise description of what the bug is.\r\n\r\nWhat did you expect to happen? What actually happened?\r\n-->\r\nI am using phpcs with standard WordPress. I have defined the domain globally in my class as a variable. Then using the same variable to pass the domain to all escaping functions. But it is throwing error saying `The $domain parameter must be a single text string literal. Found: self::$text_domain` which is not correct\r\n\r\n## Minimal Code Snippet\r\n<!-- Please provide example code that allows us to reproduce the issue. Do NOT paste screenshots of code! -->\r\n`// Defined variable`\r\n`public static $text_domain = 'my-plugins-domain';`\r\n\r\nThe issue happens when running this command:\r\n```bash\r\nphpcs --standard=WordPress my-plugin-file.php\r\n```\r\n\r\n... over a file containing this code:\r\n```php\r\n<?php _e( 'My Plugin Title', self::$text_domain ); ?>\r\n```\r\n\r\n<!-- For bugs with fixers: How was the code fixed? How did you expect the code to be fixed? -->\r\n\r\nThe file was not auto-fixed via `phpcbf`\r\n\r\n## Error Code\r\n<!--\r\nThe error code for the sniff that is (or should be) being triggered (you\r\ncan see the sniff error codes by running `phpcs` with the `-s` flag).\r\ne.g. `WordPress.PHP.NoSilencedErrors.Discouraged`\r\n\r\nNote: only report issues for error codes starting with `WordPress` to this repo!\r\nIf the error code starts with `Universal`, `NormalizedArrays` or `Modernize` report the issue to PHPCSExtra.\r\nIf the error code starts with `Generic`, `PEAR`, `PSR1`, `PSR2`, `PSR12`, `Squiz` or `Zend` report the issue to PHP_CodeSniffer itself.\r\n\r\nYou can leave this section empty if you are reporting a false negative.\r\n-->\r\n\r\n## Environment\r\n<!--\r\nTo find out the versions used:\r\n* PHP: run `php -v`.\r\n* Packages: run `composer info` or run `composer [global] info` to see the installed versions.\r\n-->\r\n\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.1.0\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3.0.1\r\n| WordPressCS install type | Composer global\r\n\r\n## Tested Against `develop` Branch?\r\n- [ x ] I have verified the issue still exists in the `develop` branch of WordPressCS.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775306893",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398#issuecomment-1775306893",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1775306893,
+                "node_id": "IC_kwDOABnOM85p0QiN",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T14:16:58Z",
+                "updated_at": "2023-10-23T14:16:58Z",
+                "author_association": "NONE",
+                "body": "Thank you for clarifying",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775306893/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:16:59Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32774131551",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 15982920,
+            "login": "abhij89",
+            "display_login": "abhij89",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/abhij89",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15982920?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1957249918,
+                "node_id": "I_kwDOABnOM850qUN-",
+                "number": 2398,
+                "title": "The $domain parameter must be a single text  string literal. Found: self::$text_domain",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 197940028,
+                        "node_id": "MDU6TGFiZWwxOTc5NDAwMjg=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Type:%20Question",
+                        "name": "Type: Question",
+                        "color": "cc317c",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-23T14:00:57Z",
+                "updated_at": "2023-10-23T14:16:47Z",
+                "closed_at": "2023-10-23T14:09:19Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nPLEASE FILL OUT THE TEMPLATE COMPLETELY.\r\nBUG REPORTS WHICH CANNOT BE REPRODUCED BASED ON THE INFORMATION PROVIDED WILL BE CLOSED.\r\n-->\r\n\r\n## Bug Description\r\n<!--\r\nPlease provide a clear and concise description of what the bug is.\r\n\r\nWhat did you expect to happen? What actually happened?\r\n-->\r\nI am using phpcs with standard WordPress. I have defined the domain globally in my class as a variable. Then using the same variable to pass the domain to all escaping functions. But it is throwing error saying `The $domain parameter must be a single text string literal. Found: self::$text_domain` which is not correct\r\n\r\n## Minimal Code Snippet\r\n<!-- Please provide example code that allows us to reproduce the issue. Do NOT paste screenshots of code! -->\r\n`// Defined variable`\r\n`public static $text_domain = 'my-plugins-domain';`\r\n\r\nThe issue happens when running this command:\r\n```bash\r\nphpcs --standard=WordPress my-plugin-file.php\r\n```\r\n\r\n... over a file containing this code:\r\n```php\r\n<?php _e( 'My Plugin Title', self::$text_domain ); ?>\r\n```\r\n\r\n<!-- For bugs with fixers: How was the code fixed? How did you expect the code to be fixed? -->\r\n\r\nThe file was not auto-fixed via `phpcbf`\r\n\r\n## Error Code\r\n<!--\r\nThe error code for the sniff that is (or should be) being triggered (you\r\ncan see the sniff error codes by running `phpcs` with the `-s` flag).\r\ne.g. `WordPress.PHP.NoSilencedErrors.Discouraged`\r\n\r\nNote: only report issues for error codes starting with `WordPress` to this repo!\r\nIf the error code starts with `Universal`, `NormalizedArrays` or `Modernize` report the issue to PHPCSExtra.\r\nIf the error code starts with `Generic`, `PEAR`, `PSR1`, `PSR2`, `PSR12`, `Squiz` or `Zend` report the issue to PHP_CodeSniffer itself.\r\n\r\nYou can leave this section empty if you are reporting a false negative.\r\n-->\r\n\r\n## Environment\r\n<!--\r\nTo find out the versions used:\r\n* PHP: run `php -v`.\r\n* Packages: run `composer info` or run `composer [global] info` to see the installed versions.\r\n-->\r\n\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.1.0\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3.0.1\r\n| WordPressCS install type | Composer global\r\n\r\n## Tested Against `develop` Branch?\r\n- [ x ] I have verified the issue still exists in the `develop` branch of WordPressCS.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775306500",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398#issuecomment-1775306500",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1775306500,
+                "node_id": "IC_kwDOABnOM85p0QcE",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T14:16:46Z",
+                "updated_at": "2023-10-23T14:16:46Z",
+                "author_association": "NONE",
+                "body": "My bad, I missed this rule.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775306500/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:16:47Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32773911584",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 663378,
+            "login": "jrfnl",
+            "display_login": "jrfnl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrfnl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/663378?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1957249918,
+                "node_id": "I_kwDOABnOM850qUN-",
+                "number": 2398,
+                "title": "The $domain parameter must be a single text  string literal. Found: self::$text_domain",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 197940028,
+                        "node_id": "MDU6TGFiZWwxOTc5NDAwMjg=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Type:%20Question",
+                        "name": "Type: Question",
+                        "color": "cc317c",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-23T14:00:57Z",
+                "updated_at": "2023-10-23T14:10:20Z",
+                "closed_at": "2023-10-23T14:09:19Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nPLEASE FILL OUT THE TEMPLATE COMPLETELY.\r\nBUG REPORTS WHICH CANNOT BE REPRODUCED BASED ON THE INFORMATION PROVIDED WILL BE CLOSED.\r\n-->\r\n\r\n## Bug Description\r\n<!--\r\nPlease provide a clear and concise description of what the bug is.\r\n\r\nWhat did you expect to happen? What actually happened?\r\n-->\r\nI am using phpcs with standard WordPress. I have defined the domain globally in my class as a variable. Then using the same variable to pass the domain to all escaping functions. But it is throwing error saying `The $domain parameter must be a single text string literal. Found: self::$text_domain` which is not correct\r\n\r\n## Minimal Code Snippet\r\n<!-- Please provide example code that allows us to reproduce the issue. Do NOT paste screenshots of code! -->\r\n`// Defined variable`\r\n`public static $text_domain = 'my-plugins-domain';`\r\n\r\nThe issue happens when running this command:\r\n```bash\r\nphpcs --standard=WordPress my-plugin-file.php\r\n```\r\n\r\n... over a file containing this code:\r\n```php\r\n<?php _e( 'My Plugin Title', self::$text_domain ); ?>\r\n```\r\n\r\n<!-- For bugs with fixers: How was the code fixed? How did you expect the code to be fixed? -->\r\n\r\nThe file was not auto-fixed via `phpcbf`\r\n\r\n## Error Code\r\n<!--\r\nThe error code for the sniff that is (or should be) being triggered (you\r\ncan see the sniff error codes by running `phpcs` with the `-s` flag).\r\ne.g. `WordPress.PHP.NoSilencedErrors.Discouraged`\r\n\r\nNote: only report issues for error codes starting with `WordPress` to this repo!\r\nIf the error code starts with `Universal`, `NormalizedArrays` or `Modernize` report the issue to PHPCSExtra.\r\nIf the error code starts with `Generic`, `PEAR`, `PSR1`, `PSR2`, `PSR12`, `Squiz` or `Zend` report the issue to PHP_CodeSniffer itself.\r\n\r\nYou can leave this section empty if you are reporting a false negative.\r\n-->\r\n\r\n## Environment\r\n<!--\r\nTo find out the versions used:\r\n* PHP: run `php -v`.\r\n* Packages: run `composer info` or run `composer [global] info` to see the installed versions.\r\n-->\r\n\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.1.0\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3.0.1\r\n| WordPressCS install type | Composer global\r\n\r\n## Tested Against `develop` Branch?\r\n- [ x ] I have verified the issue still exists in the `develop` branch of WordPressCS.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775292913",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398#issuecomment-1775292913",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1775292913,
+                "node_id": "IC_kwDOABnOM85p0NHx",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T14:10:19Z",
+                "updated_at": "2023-10-23T14:10:19Z",
+                "author_association": "MEMBER",
+                "body": "@abhij89 I'm not sure what you are reporting, but the sniff is working exactly as it should.\r\n\r\nYou should NEVER put the text domain in a variable or constant and pass that. You should ALWAYS pass a literal text string as the text domain.\r\n\r\n\r\nThere have been numerous articles written about this. I suggest you read them.\r\n\r\nSome suggestions:\r\n* https://markjaquith.wordpress.com/2011/10/06/translating-wordpress-plugins-and-themes-dont-get-clever/\r\n* https://pascalbirchler.com/text-domain-wordpress-internationalization/",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775292913/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:10:20Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32773878731",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8638515,
+            "login": "dingo-d",
+            "display_login": "dingo-d",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dingo-d",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8638515?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1957249918,
+                "node_id": "I_kwDOABnOM850qUN-",
+                "number": 2398,
+                "title": "The $domain parameter must be a single text  string literal. Found: self::$text_domain",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 197940028,
+                        "node_id": "MDU6TGFiZWwxOTc5NDAwMjg=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Type:%20Question",
+                        "name": "Type: Question",
+                        "color": "cc317c",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-23T14:00:57Z",
+                "updated_at": "2023-10-23T14:09:20Z",
+                "closed_at": "2023-10-23T14:09:19Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nPLEASE FILL OUT THE TEMPLATE COMPLETELY.\r\nBUG REPORTS WHICH CANNOT BE REPRODUCED BASED ON THE INFORMATION PROVIDED WILL BE CLOSED.\r\n-->\r\n\r\n## Bug Description\r\n<!--\r\nPlease provide a clear and concise description of what the bug is.\r\n\r\nWhat did you expect to happen? What actually happened?\r\n-->\r\nI am using phpcs with standard WordPress. I have defined the domain globally in my class as a variable. Then using the same variable to pass the domain to all escaping functions. But it is throwing error saying `The $domain parameter must be a single text string literal. Found: self::$text_domain` which is not correct\r\n\r\n## Minimal Code Snippet\r\n<!-- Please provide example code that allows us to reproduce the issue. Do NOT paste screenshots of code! -->\r\n`// Defined variable`\r\n`public static $text_domain = 'my-plugins-domain';`\r\n\r\nThe issue happens when running this command:\r\n```bash\r\nphpcs --standard=WordPress my-plugin-file.php\r\n```\r\n\r\n... over a file containing this code:\r\n```php\r\n<?php _e( 'My Plugin Title', self::$text_domain ); ?>\r\n```\r\n\r\n<!-- For bugs with fixers: How was the code fixed? How did you expect the code to be fixed? -->\r\n\r\nThe file was not auto-fixed via `phpcbf`\r\n\r\n## Error Code\r\n<!--\r\nThe error code for the sniff that is (or should be) being triggered (you\r\ncan see the sniff error codes by running `phpcs` with the `-s` flag).\r\ne.g. `WordPress.PHP.NoSilencedErrors.Discouraged`\r\n\r\nNote: only report issues for error codes starting with `WordPress` to this repo!\r\nIf the error code starts with `Universal`, `NormalizedArrays` or `Modernize` report the issue to PHPCSExtra.\r\nIf the error code starts with `Generic`, `PEAR`, `PSR1`, `PSR2`, `PSR12`, `Squiz` or `Zend` report the issue to PHP_CodeSniffer itself.\r\n\r\nYou can leave this section empty if you are reporting a false negative.\r\n-->\r\n\r\n## Environment\r\n<!--\r\nTo find out the versions used:\r\n* PHP: run `php -v`.\r\n* Packages: run `composer info` or run `composer [global] info` to see the installed versions.\r\n-->\r\n\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.1.0\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3.0.1\r\n| WordPressCS install type | Composer global\r\n\r\n## Tested Against `develop` Branch?\r\n- [ x ] I have verified the issue still exists in the `develop` branch of WordPressCS.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775290985",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398#issuecomment-1775290985",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1775290985,
+                "node_id": "IC_kwDOABnOM85p0Mpp",
+                "user": {
+                    "login": "dingo-d",
+                    "id": 8638515,
+                    "node_id": "MDQ6VXNlcjg2Mzg1MTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8638515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dingo-d",
+                    "html_url": "https://github.com/dingo-d",
+                    "followers_url": "https://api.github.com/users/dingo-d/followers",
+                    "following_url": "https://api.github.com/users/dingo-d/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dingo-d/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dingo-d/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dingo-d/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dingo-d/orgs",
+                    "repos_url": "https://api.github.com/users/dingo-d/repos",
+                    "events_url": "https://api.github.com/users/dingo-d/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dingo-d/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T14:09:19Z",
+                "updated_at": "2023-10-23T14:09:19Z",
+                "author_association": "MEMBER",
+                "body": "Hi @abhij89!\r\n\r\nYou should check up on the internationalization chapter in the themes handbook: https://developer.wordpress.org/themes/functionality/internationalization/#add-text-domain-to-strings or in the plugins handbook:\r\nhttps://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#basic-strings\r\n\r\nThe text domain should never be passed as a variable. Because having it as a variable will not allow the parsing tools to differentiate between text domains. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1775290985/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:09:20Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32773878948",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 8638515,
+            "login": "dingo-d",
+            "display_login": "dingo-d",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dingo-d",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8638515?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1957249918,
+                "node_id": "I_kwDOABnOM850qUN-",
+                "number": 2398,
+                "title": "The $domain parameter must be a single text  string literal. Found: self::$text_domain",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 197939899,
+                        "node_id": "MDU6TGFiZWwxOTc5Mzk4OTk=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Invalid",
+                        "name": "Status: Invalid",
+                        "color": "e6e6e6",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 197940028,
+                        "node_id": "MDU6TGFiZWwxOTc5NDAwMjg=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Type:%20Question",
+                        "name": "Type: Question",
+                        "color": "cc317c",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-23T14:00:57Z",
+                "updated_at": "2023-10-23T14:09:20Z",
+                "closed_at": "2023-10-23T14:09:19Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nPLEASE FILL OUT THE TEMPLATE COMPLETELY.\r\nBUG REPORTS WHICH CANNOT BE REPRODUCED BASED ON THE INFORMATION PROVIDED WILL BE CLOSED.\r\n-->\r\n\r\n## Bug Description\r\n<!--\r\nPlease provide a clear and concise description of what the bug is.\r\n\r\nWhat did you expect to happen? What actually happened?\r\n-->\r\nI am using phpcs with standard WordPress. I have defined the domain globally in my class as a variable. Then using the same variable to pass the domain to all escaping functions. But it is throwing error saying `The $domain parameter must be a single text string literal. Found: self::$text_domain` which is not correct\r\n\r\n## Minimal Code Snippet\r\n<!-- Please provide example code that allows us to reproduce the issue. Do NOT paste screenshots of code! -->\r\n`// Defined variable`\r\n`public static $text_domain = 'my-plugins-domain';`\r\n\r\nThe issue happens when running this command:\r\n```bash\r\nphpcs --standard=WordPress my-plugin-file.php\r\n```\r\n\r\n... over a file containing this code:\r\n```php\r\n<?php _e( 'My Plugin Title', self::$text_domain ); ?>\r\n```\r\n\r\n<!-- For bugs with fixers: How was the code fixed? How did you expect the code to be fixed? -->\r\n\r\nThe file was not auto-fixed via `phpcbf`\r\n\r\n## Error Code\r\n<!--\r\nThe error code for the sniff that is (or should be) being triggered (you\r\ncan see the sniff error codes by running `phpcs` with the `-s` flag).\r\ne.g. `WordPress.PHP.NoSilencedErrors.Discouraged`\r\n\r\nNote: only report issues for error codes starting with `WordPress` to this repo!\r\nIf the error code starts with `Universal`, `NormalizedArrays` or `Modernize` report the issue to PHPCSExtra.\r\nIf the error code starts with `Generic`, `PEAR`, `PSR1`, `PSR2`, `PSR12`, `Squiz` or `Zend` report the issue to PHP_CodeSniffer itself.\r\n\r\nYou can leave this section empty if you are reporting a false negative.\r\n-->\r\n\r\n## Environment\r\n<!--\r\nTo find out the versions used:\r\n* PHP: run `php -v`.\r\n* Packages: run `composer info` or run `composer [global] info` to see the installed versions.\r\n-->\r\n\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.1.0\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3.0.1\r\n| WordPressCS install type | Composer global\r\n\r\n## Tested Against `develop` Branch?\r\n- [ x ] I have verified the issue still exists in the `develop` branch of WordPressCS.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:09:21Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32773599769",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 15982920,
+            "login": "abhij89",
+            "display_login": "abhij89",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/abhij89",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15982920?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/2398",
+                "id": 1957249918,
+                "node_id": "I_kwDOABnOM850qUN-",
+                "number": 2398,
+                "title": "The $domain parameter must be a single text  string literal. Found: self::$text_domain",
+                "user": {
+                    "login": "abhij89",
+                    "id": 15982920,
+                    "node_id": "MDQ6VXNlcjE1OTgyOTIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/15982920?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/abhij89",
+                    "html_url": "https://github.com/abhij89",
+                    "followers_url": "https://api.github.com/users/abhij89/followers",
+                    "following_url": "https://api.github.com/users/abhij89/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/abhij89/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/abhij89/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/abhij89/subscriptions",
+                    "organizations_url": "https://api.github.com/users/abhij89/orgs",
+                    "repos_url": "https://api.github.com/users/abhij89/repos",
+                    "events_url": "https://api.github.com/users/abhij89/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/abhij89/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-23T14:00:57Z",
+                "updated_at": "2023-10-23T14:00:57Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nPLEASE FILL OUT THE TEMPLATE COMPLETELY.\r\nBUG REPORTS WHICH CANNOT BE REPRODUCED BASED ON THE INFORMATION PROVIDED WILL BE CLOSED.\r\n-->\r\n\r\n## Bug Description\r\n<!--\r\nPlease provide a clear and concise description of what the bug is.\r\n\r\nWhat did you expect to happen? What actually happened?\r\n-->\r\nI am using phpcs with standard WordPress. I have defined the domain globally in my class as a variable. Then using the same variable to pass the domain to all escaping functions. But it is throwing error saying `The $domain parameter must be a single text string literal. Found: self::$text_domain` which is not correct\r\n\r\n## Minimal Code Snippet\r\n<!-- Please provide example code that allows us to reproduce the issue. Do NOT paste screenshots of code! -->\r\n`// Defined variable`\r\n`public static $text_domain = 'my-plugins-domain';`\r\n\r\nThe issue happens when running this command:\r\n```bash\r\nphpcs --standard=WordPress my-plugin-file.php\r\n```\r\n\r\n... over a file containing this code:\r\n```php\r\n<?php _e( 'My Plugin Title', self::$text_domain ); ?>\r\n```\r\n\r\n<!-- For bugs with fixers: How was the code fixed? How did you expect the code to be fixed? -->\r\n\r\nThe file was not auto-fixed via `phpcbf`\r\n\r\n## Error Code\r\n<!--\r\nThe error code for the sniff that is (or should be) being triggered (you\r\ncan see the sniff error codes by running `phpcs` with the `-s` flag).\r\ne.g. `WordPress.PHP.NoSilencedErrors.Discouraged`\r\n\r\nNote: only report issues for error codes starting with `WordPress` to this repo!\r\nIf the error code starts with `Universal`, `NormalizedArrays` or `Modernize` report the issue to PHPCSExtra.\r\nIf the error code starts with `Generic`, `PEAR`, `PSR1`, `PSR2`, `PSR12`, `Squiz` or `Zend` report the issue to PHP_CodeSniffer itself.\r\n\r\nYou can leave this section empty if you are reporting a false negative.\r\n-->\r\n\r\n## Environment\r\n<!--\r\nTo find out the versions used:\r\n* PHP: run `php -v`.\r\n* Packages: run `composer info` or run `composer [global] info` to see the installed versions.\r\n-->\r\n\r\n| Question                 | Answer\r\n| ------------------------ | -------\r\n| PHP version              | 8.1.0\r\n| PHP_CodeSniffer version  | 3.7.2\r\n| WordPressCS version      | 3.0.1\r\n| WordPressCS install type | Composer global\r\n\r\n## Tested Against `develop` Branch?\r\n- [ x ] I have verified the issue still exists in the `develop` branch of WordPressCS.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/2398/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:00:59Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32754165525",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 21297818,
+            "login": "andaniel05",
+            "display_login": "andaniel05",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andaniel05",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21297818?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:55:09Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32741021140",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4489177,
+            "login": "phpete1",
+            "display_login": "phpete1",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/phpete1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4489177?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T11:33:50Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32740342695",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 34256092,
+            "login": "whatisaghostwriter",
+            "display_login": "whatisaghostwriter",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/whatisaghostwriter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/34256092?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T10:01:03Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32735885324",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 663378,
+            "login": "jrfnl",
+            "display_login": "jrfnl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrfnl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/663378?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/1971",
+                "id": 794419817,
+                "node_id": "MDU6SXNzdWU3OTQ0MTk4MTc=",
+                "number": 1971,
+                "title": "PHP 8.0 | PHP/NoSilencedErrors: review function list",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 60478597,
+                        "node_id": "MDU6TGFiZWw2MDQ3ODU5Nw==",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Needs%20investigation",
+                        "name": "Status: Needs investigation",
+                        "color": "d279a6",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 852387117,
+                        "node_id": "MDU6TGFiZWw4NTIzODcxMTc=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Focus:%20Modern%20PHP",
+                        "name": "Focus: Modern PHP",
+                        "color": "c2e0c6",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1030644335,
+                        "node_id": "MDU6TGFiZWwxMDMwNjQ0MzM1",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Help%20wanted",
+                        "name": "Status: Help wanted",
+                        "color": "edc536",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1030645131,
+                        "node_id": "MDU6TGFiZWwxMDMwNjQ1MTMx",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Good%20first%20issue",
+                        "name": "Status: Good first issue",
+                        "color": "f7e06f",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2021-01-26T17:27:18Z",
+                "updated_at": "2023-10-20T23:28:27Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "PHP 8 changes the behaviour of the error silence operator @ : where previously it would silence all notices, warnings and errors, it will now only silence notices and warnings, but will not prevent fatal errors/catchable exceptions anymore.\r\n\r\nPHP 8 also contains another relevant change, which is that the error level for a number of notices/warnings has been [elevated to fatal error/catchable exception](https://wiki.php.net/rfc/engine_warnings#proposed_classification).\r\n\r\nIt would be very helpful if someone would review if any of the functions in the `$function_whitelist` are affected by these changes and need to be removed from the list.\r\n\r\nNote: yes, the name of the property should also be changed, but there's a separate open ticket for that.\r\n\r\nThis was also discussed in the #core-php Slack channel: https://wordpress.slack.com/archives/C60K3MP2Q/p1611678080004700",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1773519750",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/1971#issuecomment-1773519750",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971",
+                "id": 1773519750,
+                "node_id": "IC_kwDOABnOM85ptcOG",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T23:28:27Z",
+                "updated_at": "2023-10-20T23:28:27Z",
+                "author_association": "MEMBER",
+                "body": "P.s.: as you mentioned setting up a test environment... in case you are not aware, http://3v4l.org/ with the \"+ include eol\" option selected in the dropdown is an awesome way to test this kind of behavioral change across different PHP versions.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1773519750/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T23:28:28Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32735854733",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 663378,
+            "login": "jrfnl",
+            "display_login": "jrfnl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jrfnl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/663378?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/1971",
+                "id": 794419817,
+                "node_id": "MDU6SXNzdWU3OTQ0MTk4MTc=",
+                "number": 1971,
+                "title": "PHP 8.0 | PHP/NoSilencedErrors: review function list",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 60478597,
+                        "node_id": "MDU6TGFiZWw2MDQ3ODU5Nw==",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Needs%20investigation",
+                        "name": "Status: Needs investigation",
+                        "color": "d279a6",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 852387117,
+                        "node_id": "MDU6TGFiZWw4NTIzODcxMTc=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Focus:%20Modern%20PHP",
+                        "name": "Focus: Modern PHP",
+                        "color": "c2e0c6",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1030644335,
+                        "node_id": "MDU6TGFiZWwxMDMwNjQ0MzM1",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Help%20wanted",
+                        "name": "Status: Help wanted",
+                        "color": "edc536",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1030645131,
+                        "node_id": "MDU6TGFiZWwxMDMwNjQ1MTMx",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Good%20first%20issue",
+                        "name": "Status: Good first issue",
+                        "color": "f7e06f",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2021-01-26T17:27:18Z",
+                "updated_at": "2023-10-20T23:25:20Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "PHP 8 changes the behaviour of the error silence operator @ : where previously it would silence all notices, warnings and errors, it will now only silence notices and warnings, but will not prevent fatal errors/catchable exceptions anymore.\r\n\r\nPHP 8 also contains another relevant change, which is that the error level for a number of notices/warnings has been [elevated to fatal error/catchable exception](https://wiki.php.net/rfc/engine_warnings#proposed_classification).\r\n\r\nIt would be very helpful if someone would review if any of the functions in the `$function_whitelist` are affected by these changes and need to be removed from the list.\r\n\r\nNote: yes, the name of the property should also be changed, but there's a separate open ticket for that.\r\n\r\nThis was also discussed in the #core-php Slack channel: https://wordpress.slack.com/archives/C60K3MP2Q/p1611678080004700",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1773518270",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/1971#issuecomment-1773518270",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971",
+                "id": 1773518270,
+                "node_id": "IC_kwDOABnOM85ptb2-",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T23:25:20Z",
+                "updated_at": "2023-10-20T23:25:20Z",
+                "author_association": "MEMBER",
+                "body": "Hi @d-alleyne Lovely to hear that you are looking into this.\r\n\r\n> Am I understanding it correctly that the goal is to add the missing functions of the `$allowedFunctionsList` array to this file, and compare their behaviour when executing under php7 and php8, and note any differences?\r\n\r\nNo, the goal is not to _add_ functions to the list, but to _remove_ them (where relevant).\r\n\r\nAs things were in PHP 5/7, a number of functions existed in PHP where no amount of error checking ahead of running the function would prevent a PHP notice/warning.\r\nThose functions are the functions listed in the `$allowedFunctionsList`, as for those, it could be justified that the silence `@` operator was being used.\r\n\r\nHowever, as of PHP 8.0, a number of PHP notices/warnings have been elevated to fatal errors and/or catchable exceptions.\r\nIf this has happened to the notice/warning for a function listed in the `$allowedFunctionsList`, the silence operator is now useless (when running code on PHP 8.0 or higher) and should not be used anymore.\r\n\r\nDepending on the specific PHP 8.0 change affecting the function, the function call should be wrapped in a `try-`catch` or handled in a different way.\r\n\r\nSo basically, all functions in that list need to be checked to see if they are affected by the higher error levels and if so, they should likely be removed from the list to prevent giving people a false sense of security _\"oh, I've silenced the warning\"_, when the code on which the silence operator is being used will no longer have a silenced notice on PHP 8.0+.\r\n\r\nDoes that make it clearer ?\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1773518270/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T23:25:21Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32730163355",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 31164683,
+            "login": "d-alleyne",
+            "display_login": "d-alleyne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/d-alleyne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31164683?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971",
+                "repository_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards",
+                "labels_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/labels{/name}",
+                "comments_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/comments",
+                "events_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/events",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/1971",
+                "id": 794419817,
+                "node_id": "MDU6SXNzdWU3OTQ0MTk4MTc=",
+                "number": 1971,
+                "title": "PHP 8.0 | PHP/NoSilencedErrors: review function list",
+                "user": {
+                    "login": "jrfnl",
+                    "id": 663378,
+                    "node_id": "MDQ6VXNlcjY2MzM3OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/663378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jrfnl",
+                    "html_url": "https://github.com/jrfnl",
+                    "followers_url": "https://api.github.com/users/jrfnl/followers",
+                    "following_url": "https://api.github.com/users/jrfnl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jrfnl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jrfnl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jrfnl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jrfnl/orgs",
+                    "repos_url": "https://api.github.com/users/jrfnl/repos",
+                    "events_url": "https://api.github.com/users/jrfnl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jrfnl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 60478597,
+                        "node_id": "MDU6TGFiZWw2MDQ3ODU5Nw==",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Needs%20investigation",
+                        "name": "Status: Needs investigation",
+                        "color": "d279a6",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 852387117,
+                        "node_id": "MDU6TGFiZWw4NTIzODcxMTc=",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Focus:%20Modern%20PHP",
+                        "name": "Focus: Modern PHP",
+                        "color": "c2e0c6",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1030644335,
+                        "node_id": "MDU6TGFiZWwxMDMwNjQ0MzM1",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Help%20wanted",
+                        "name": "Status: Help wanted",
+                        "color": "edc536",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1030645131,
+                        "node_id": "MDU6TGFiZWwxMDMwNjQ1MTMx",
+                        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/labels/Status:%20Good%20first%20issue",
+                        "name": "Status: Good first issue",
+                        "color": "f7e06f",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2021-01-26T17:27:18Z",
+                "updated_at": "2023-10-20T17:49:47Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "PHP 8 changes the behaviour of the error silence operator @ : where previously it would silence all notices, warnings and errors, it will now only silence notices and warnings, but will not prevent fatal errors/catchable exceptions anymore.\r\n\r\nPHP 8 also contains another relevant change, which is that the error level for a number of notices/warnings has been [elevated to fatal error/catchable exception](https://wiki.php.net/rfc/engine_warnings#proposed_classification).\r\n\r\nIt would be very helpful if someone would review if any of the functions in the `$function_whitelist` are affected by these changes and need to be removed from the list.\r\n\r\nNote: yes, the name of the property should also be changed, but there's a separate open ticket for that.\r\n\r\nThis was also discussed in the #core-php Slack channel: https://wordpress.slack.com/archives/C60K3MP2Q/p1611678080004700",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1773152992",
+                "html_url": "https://github.com/WordPress/WordPress-Coding-Standards/issues/1971#issuecomment-1773152992",
+                "issue_url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/1971",
+                "id": 1773152992,
+                "node_id": "IC_kwDOABnOM85psCrg",
+                "user": {
+                    "login": "d-alleyne",
+                    "id": 31164683,
+                    "node_id": "MDQ6VXNlcjMxMTY0Njgz",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/31164683?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/d-alleyne",
+                    "html_url": "https://github.com/d-alleyne",
+                    "followers_url": "https://api.github.com/users/d-alleyne/followers",
+                    "following_url": "https://api.github.com/users/d-alleyne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/d-alleyne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/d-alleyne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/d-alleyne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/d-alleyne/orgs",
+                    "repos_url": "https://api.github.com/users/d-alleyne/repos",
+                    "events_url": "https://api.github.com/users/d-alleyne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/d-alleyne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T17:49:46Z",
+                "updated_at": "2023-10-20T17:49:46Z",
+                "author_association": "NONE",
+                "body": "Hi @jrfnl \ud83d\udc4b\ud83c\udffd . \r\nI have started investigating this issue by setting up a test environment and reviewing the relevant code, particularly the [$allowedFunctionsList](https://github.com/WordPress/WordPress-Coding-Standards/blob/7722c0b8a6f4eb615be4ba8ebe22ed92a5fa87d7/WordPress/Sniffs/PHP/NoSilencedErrorsSniff.php#L86) in `NoSilencedErrorsSniff.php`. \r\n\r\nI notice that in the following file [NoSilencedErrorsUnitTest.inc](https://github.com/WordPress/WordPress-Coding-Standards/blob/develop/WordPress/Tests/PHP/NoSilencedErrorsUnitTest.inc), there are tests for a few I/O functions, e.g. `file_get_contents`, `file_exists`. Am I understanding it correctly that the goal is to add the missing functions of the `$allowedFunctionsList` array to this file, and compare their behaviour when executing under php7 and php8, and note any differences?\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/issues/comments/1773152992/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T17:49:47Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32710500803",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 793836,
+            "login": "MrVibe",
+            "display_login": "MrVibe",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MrVibe",
+            "avatar_url": "https://avatars.githubusercontent.com/u/793836?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T03:54:12Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32707863381",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 58490737,
+            "login": "yonycalsin",
+            "display_login": "yonycalsin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yonycalsin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/58490737?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T00:31:48Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    },
+    {
+        "id": "32582869883",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24706695,
+            "login": "whaze",
+            "display_login": "whaze",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/whaze",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24706695?"
+        },
+        "repo": {
+            "id": 1691187,
+            "name": "WordPress/WordPress-Coding-Standards",
+            "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-16T07:55:46Z",
+        "org": {
+            "id": 276006,
+            "login": "WordPress",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/WordPress",
+            "avatar_url": "https://avatars.githubusercontent.com/u/276006?"
+        }
+    }
+]

@@ -1,0 +1,1983 @@
+[
+    {
+        "id": "32895000156",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7473216,
+            "login": "zengyh1900",
+            "display_login": "zengyh1900",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zengyh1900",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7473216?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:03:18Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32892947598",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 43192276,
+            "login": "LennonReid",
+            "display_login": "LennonReid",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LennonReid",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43192276?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/issues/910",
+                "repository_url": "https://api.github.com/repos/ionic-team/ionicons",
+                "labels_url": "https://api.github.com/repos/ionic-team/ionicons/issues/910/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ionic-team/ionicons/issues/910/comments",
+                "events_url": "https://api.github.com/repos/ionic-team/ionicons/issues/910/events",
+                "html_url": "https://github.com/ionic-team/ionicons/issues/910",
+                "id": 756271722,
+                "node_id": "MDU6SXNzdWU3NTYyNzE3MjI=",
+                "number": 910,
+                "title": "Need a way to filter only Ionicons that are in use - currently account for 5.3MB of space in app deployment",
+                "user": {
+                    "login": "lincolnthree",
+                    "id": 362329,
+                    "node_id": "MDQ6VXNlcjM2MjMyOQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/362329?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lincolnthree",
+                    "html_url": "https://github.com/lincolnthree",
+                    "followers_url": "https://api.github.com/users/lincolnthree/followers",
+                    "following_url": "https://api.github.com/users/lincolnthree/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lincolnthree/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lincolnthree/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lincolnthree/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lincolnthree/orgs",
+                    "repos_url": "https://api.github.com/users/lincolnthree/repos",
+                    "events_url": "https://api.github.com/users/lincolnthree/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lincolnthree/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 60290179,
+                        "node_id": "MDU6TGFiZWw2MDI5MDE3OQ==",
+                        "url": "https://api.github.com/repos/ionic-team/ionicons/labels/type:%20feature%20request",
+                        "name": "type: feature request",
+                        "color": "028199",
+                        "default": false,
+                        "description": "A request to add new functionality"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 22,
+                "created_at": "2020-12-03T14:58:09Z",
+                "updated_at": "2023-10-27T08:45:59Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!-- Before submitting an issue, please consult our docs (https://ionicframework.com/docs/). -->\r\n\r\n<!-- Please make sure you are posting an issue pertaining to the Ionic Framework. If you are having an issue with the Ionic Appflow services (Ionic View, Ionic Deploy, etc.) please consult the Ionic Appflow support portal (https://ionic.zendesk.com/hc/en-us) -->\r\n\r\n<!-- Please do not submit support requests or \"How to\" questions here. Instead, please use one of these channels: https://forum.ionicframework.com/ or http://ionicworldwide.herokuapp.com/ -->\r\n\r\n<!-- ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION. -->\r\n\r\n# Feature Request\r\n\r\n**Ionic version:**\r\n<!-- (For Ionic 1.x issues, please use https://github.com/ionic-team/ionic-v1) -->\r\n<!-- (For Ionic 2.x & 3.x issues, please use https://github.com/ionic-team/ionic-v3) -->\r\n[x] **5.x**\r\n\r\n**Describe the Feature Request**\r\n<!-- A clear and concise description of what the feature request is. Please include if your feature request is related to a problem. -->\r\n\r\nCurrently, during the build (as configured by Ionic CLI), ALL ionicons are copied to the `assets/` directory during a production build. This results in upwards of 5.3 MB of icons being copied and uploaded or packaged via Capacitor, which is often as big as or larger than all the app code being deployed. \r\n\r\nThis means that if the service-worker 'precache' / 'eager' mode is used to pre-download all assets for offline use, each client must download all of these unused icons --- resulting in hundreds of network requests, and a LOT of space used by the service-worker cache that could be used on actual application data. \r\n\r\n**Describe Preferred Solution**\r\n<!-- A clear and concise description of what you want to happen. -->\r\n\r\nThere needs to be a pre-build step where the application source-code is analyzed, including a hook for any custom / runtime-generated icon use, that copies only the required icons. This would greatly reduce the size of deployed apps. Even with modern cell networks, most of the world still only has 3G or weak 4G at best, and this optimization could be a huge savings.\r\n\r\nAs far as I can tell, ionicons is the only part of the build process that has this gap. Most modern tools now provide tree-shaking / dead code removal, and ionicons really needs this feature.\r\n\r\n**Describe Alternatives**\r\n<!-- A clear and concise description of any alternative solutions or features you've considered. -->\r\nNone currently exist other than, I suppose, one could attempt to write a custom script to implement this feature.\r\n\r\n**Related Code**\r\n<!-- If you are able to illustrate the feature request with an example, please provide a sample application via an online code collaborator such as [StackBlitz](https://stackblitz.com), or [GitHub](https://github.com). -->\r\n\r\n**Additional Context**\r\n<!-- List any other information that is relevant to your issue. Stack traces, related issues, suggestions on how to add, use case, Stack Overflow links, forum links, screenshots, OS if applicable, etc. -->\r\n\r\nhttps://github.com/ionic-team/ionicons/issues/637\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ionic-team/ionicons/issues/910/reactions",
+                    "total_count": 9,
+                    "+1": 5,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 4
+                },
+                "timeline_url": "https://api.github.com/repos/ionic-team/ionicons/issues/910/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/issues/comments/1782536045",
+                "html_url": "https://github.com/ionic-team/ionicons/issues/910#issuecomment-1782536045",
+                "issue_url": "https://api.github.com/repos/ionic-team/ionicons/issues/910",
+                "id": 1782536045,
+                "node_id": "IC_kwDOAM2X6M5qP1dt",
+                "user": {
+                    "login": "LennonReid",
+                    "id": 43192276,
+                    "node_id": "MDQ6VXNlcjQzMTkyMjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/43192276?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LennonReid",
+                    "html_url": "https://github.com/LennonReid",
+                    "followers_url": "https://api.github.com/users/LennonReid/followers",
+                    "following_url": "https://api.github.com/users/LennonReid/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LennonReid/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LennonReid/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LennonReid/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LennonReid/orgs",
+                    "repos_url": "https://api.github.com/users/LennonReid/repos",
+                    "events_url": "https://api.github.com/users/LennonReid/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LennonReid/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T08:45:59Z",
+                "updated_at": "2023-10-27T08:45:59Z",
+                "author_association": "NONE",
+                "body": "Any updates, @liamdebeasi? I've just completed an update. I upgraded my @ionic/angular from v7.4.1 to v7.5.1, and I also modified all the imports from @ionic/angular to @ionic/angular/standalone. As a result, my app distribution size decreased by approximately 1MB. Notably, all the Ionic icons' SVG files have been included in the dist directory as before.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ionic-team/ionicons/issues/comments/1782536045/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:45:59Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32890476385",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 26135639,
+            "login": "Panchajanya1999",
+            "display_login": "Panchajanya1999",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Panchajanya1999",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26135639?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:04:29Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32890300266",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 88653280,
+            "login": "Tingfenghhh",
+            "display_login": "Tingfenghhh",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Tingfenghhh",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88653280?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:56:12Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32881816194",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 69762132,
+            "login": "AMR-21",
+            "display_login": "AMR-21",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AMR-21",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69762132?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:02:21Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32878308734",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13135006,
+            "login": "hasansezertasan",
+            "display_login": "hasansezertasan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hasansezertasan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13135006?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:27:16Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32856625464",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 89539972,
+            "login": "Nav1K3nd",
+            "display_login": "Nav1K3nd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Nav1K3nd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/89539972?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T05:19:09Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32846204792",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 21103223,
+            "login": "Timmoth",
+            "display_login": "Timmoth",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Timmoth",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21103223?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T18:48:44Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32844158934",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 37726111,
+            "login": "Nor01",
+            "display_login": "Nor01",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Nor01",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37726111?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1296,
+            "pull_request": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/pulls/1296",
+                "id": 1573365674,
+                "node_id": "PR_kwDOAM2X6M5dx6eq",
+                "html_url": "https://github.com/ionic-team/ionicons/pull/1296",
+                "diff_url": "https://github.com/ionic-team/ionicons/pull/1296.diff",
+                "patch_url": "https://github.com/ionic-team/ionicons/pull/1296.patch",
+                "issue_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1296",
+                "number": 1296,
+                "state": "open",
+                "locked": false,
+                "title": "new icon: pdf & pdf-outline",
+                "user": {
+                    "login": "Nor01",
+                    "id": 37726111,
+                    "node_id": "MDQ6VXNlcjM3NzI2MTEx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37726111?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Nor01",
+                    "html_url": "https://github.com/Nor01",
+                    "followers_url": "https://api.github.com/users/Nor01/followers",
+                    "following_url": "https://api.github.com/users/Nor01/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Nor01/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Nor01/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Nor01/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Nor01/orgs",
+                    "repos_url": "https://api.github.com/users/Nor01/repos",
+                    "events_url": "https://api.github.com/users/Nor01/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Nor01/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2023-10-25T17:26:04Z",
+                "updated_at": "2023-10-25T17:26:04Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "mapsandapps",
+                        "id": 14926794,
+                        "node_id": "MDQ6VXNlcjE0OTI2Nzk0",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/14926794?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/mapsandapps",
+                        "html_url": "https://github.com/mapsandapps",
+                        "followers_url": "https://api.github.com/users/mapsandapps/followers",
+                        "following_url": "https://api.github.com/users/mapsandapps/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/mapsandapps/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/mapsandapps/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/mapsandapps/subscriptions",
+                        "organizations_url": "https://api.github.com/users/mapsandapps/orgs",
+                        "repos_url": "https://api.github.com/users/mapsandapps/repos",
+                        "events_url": "https://api.github.com/users/mapsandapps/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/mapsandapps/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/ionic-team/ionicons/pulls/1296/commits",
+                "review_comments_url": "https://api.github.com/repos/ionic-team/ionicons/pulls/1296/comments",
+                "review_comment_url": "https://api.github.com/repos/ionic-team/ionicons/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1296/comments",
+                "statuses_url": "https://api.github.com/repos/ionic-team/ionicons/statuses/7579b4868384f0bb3f32116d559d73b795bbb528",
+                "head": {
+                    "label": "Nor01:icon-pdf",
+                    "ref": "icon-pdf",
+                    "sha": "7579b4868384f0bb3f32116d559d73b795bbb528",
+                    "user": {
+                        "login": "Nor01",
+                        "id": 37726111,
+                        "node_id": "MDQ6VXNlcjM3NzI2MTEx",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/37726111?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/Nor01",
+                        "html_url": "https://github.com/Nor01",
+                        "followers_url": "https://api.github.com/users/Nor01/followers",
+                        "following_url": "https://api.github.com/users/Nor01/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/Nor01/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/Nor01/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/Nor01/subscriptions",
+                        "organizations_url": "https://api.github.com/users/Nor01/orgs",
+                        "repos_url": "https://api.github.com/users/Nor01/repos",
+                        "events_url": "https://api.github.com/users/Nor01/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/Nor01/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 709569382,
+                        "node_id": "R_kgDOKksrZg",
+                        "name": "ionicons",
+                        "full_name": "Nor01/ionicons",
+                        "private": false,
+                        "owner": {
+                            "login": "Nor01",
+                            "id": 37726111,
+                            "node_id": "MDQ6VXNlcjM3NzI2MTEx",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/37726111?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/Nor01",
+                            "html_url": "https://github.com/Nor01",
+                            "followers_url": "https://api.github.com/users/Nor01/followers",
+                            "following_url": "https://api.github.com/users/Nor01/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/Nor01/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/Nor01/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/Nor01/subscriptions",
+                            "organizations_url": "https://api.github.com/users/Nor01/orgs",
+                            "repos_url": "https://api.github.com/users/Nor01/repos",
+                            "events_url": "https://api.github.com/users/Nor01/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/Nor01/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/Nor01/ionicons",
+                        "description": "Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere \ud83c\udf0e",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/Nor01/ionicons",
+                        "forks_url": "https://api.github.com/repos/Nor01/ionicons/forks",
+                        "keys_url": "https://api.github.com/repos/Nor01/ionicons/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/Nor01/ionicons/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/Nor01/ionicons/teams",
+                        "hooks_url": "https://api.github.com/repos/Nor01/ionicons/hooks",
+                        "issue_events_url": "https://api.github.com/repos/Nor01/ionicons/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/Nor01/ionicons/events",
+                        "assignees_url": "https://api.github.com/repos/Nor01/ionicons/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/Nor01/ionicons/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/Nor01/ionicons/tags",
+                        "blobs_url": "https://api.github.com/repos/Nor01/ionicons/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/Nor01/ionicons/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/Nor01/ionicons/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/Nor01/ionicons/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/Nor01/ionicons/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/Nor01/ionicons/languages",
+                        "stargazers_url": "https://api.github.com/repos/Nor01/ionicons/stargazers",
+                        "contributors_url": "https://api.github.com/repos/Nor01/ionicons/contributors",
+                        "subscribers_url": "https://api.github.com/repos/Nor01/ionicons/subscribers",
+                        "subscription_url": "https://api.github.com/repos/Nor01/ionicons/subscription",
+                        "commits_url": "https://api.github.com/repos/Nor01/ionicons/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/Nor01/ionicons/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/Nor01/ionicons/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/Nor01/ionicons/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/Nor01/ionicons/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/Nor01/ionicons/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/Nor01/ionicons/merges",
+                        "archive_url": "https://api.github.com/repos/Nor01/ionicons/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/Nor01/ionicons/downloads",
+                        "issues_url": "https://api.github.com/repos/Nor01/ionicons/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/Nor01/ionicons/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/Nor01/ionicons/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/Nor01/ionicons/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/Nor01/ionicons/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/Nor01/ionicons/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/Nor01/ionicons/deployments",
+                        "created_at": "2023-10-25T00:26:35Z",
+                        "updated_at": "2023-10-25T00:26:35Z",
+                        "pushed_at": "2023-10-25T17:23:55Z",
+                        "git_url": "git://github.com/Nor01/ionicons.git",
+                        "ssh_url": "git@github.com:Nor01/ionicons.git",
+                        "clone_url": "https://github.com/Nor01/ionicons.git",
+                        "svn_url": "https://github.com/Nor01/ionicons",
+                        "homepage": "http://ionicons.com",
+                        "size": 28563,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "ionic-team:main",
+                    "ref": "main",
+                    "sha": "625d54fdada2947957d468a89c65a27bd79aa670",
+                    "user": {
+                        "login": "ionic-team",
+                        "id": 3171503,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxNzE1MDM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/ionic-team",
+                        "html_url": "https://github.com/ionic-team",
+                        "followers_url": "https://api.github.com/users/ionic-team/followers",
+                        "following_url": "https://api.github.com/users/ionic-team/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/ionic-team/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/ionic-team/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/ionic-team/subscriptions",
+                        "organizations_url": "https://api.github.com/users/ionic-team/orgs",
+                        "repos_url": "https://api.github.com/users/ionic-team/repos",
+                        "events_url": "https://api.github.com/users/ionic-team/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/ionic-team/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 13473768,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMzQ3Mzc2OA==",
+                        "name": "ionicons",
+                        "full_name": "ionic-team/ionicons",
+                        "private": false,
+                        "owner": {
+                            "login": "ionic-team",
+                            "id": 3171503,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxNzE1MDM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/ionic-team",
+                            "html_url": "https://github.com/ionic-team",
+                            "followers_url": "https://api.github.com/users/ionic-team/followers",
+                            "following_url": "https://api.github.com/users/ionic-team/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/ionic-team/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/ionic-team/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/ionic-team/subscriptions",
+                            "organizations_url": "https://api.github.com/users/ionic-team/orgs",
+                            "repos_url": "https://api.github.com/users/ionic-team/repos",
+                            "events_url": "https://api.github.com/users/ionic-team/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/ionic-team/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/ionic-team/ionicons",
+                        "description": "Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere \ud83c\udf0e",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/ionic-team/ionicons",
+                        "forks_url": "https://api.github.com/repos/ionic-team/ionicons/forks",
+                        "keys_url": "https://api.github.com/repos/ionic-team/ionicons/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/ionic-team/ionicons/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/ionic-team/ionicons/teams",
+                        "hooks_url": "https://api.github.com/repos/ionic-team/ionicons/hooks",
+                        "issue_events_url": "https://api.github.com/repos/ionic-team/ionicons/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/ionic-team/ionicons/events",
+                        "assignees_url": "https://api.github.com/repos/ionic-team/ionicons/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/ionic-team/ionicons/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/ionic-team/ionicons/tags",
+                        "blobs_url": "https://api.github.com/repos/ionic-team/ionicons/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/ionic-team/ionicons/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/ionic-team/ionicons/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/ionic-team/ionicons/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/ionic-team/ionicons/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/ionic-team/ionicons/languages",
+                        "stargazers_url": "https://api.github.com/repos/ionic-team/ionicons/stargazers",
+                        "contributors_url": "https://api.github.com/repos/ionic-team/ionicons/contributors",
+                        "subscribers_url": "https://api.github.com/repos/ionic-team/ionicons/subscribers",
+                        "subscription_url": "https://api.github.com/repos/ionic-team/ionicons/subscription",
+                        "commits_url": "https://api.github.com/repos/ionic-team/ionicons/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/ionic-team/ionicons/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/ionic-team/ionicons/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/ionic-team/ionicons/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/ionic-team/ionicons/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/ionic-team/ionicons/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/ionic-team/ionicons/merges",
+                        "archive_url": "https://api.github.com/repos/ionic-team/ionicons/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/ionic-team/ionicons/downloads",
+                        "issues_url": "https://api.github.com/repos/ionic-team/ionicons/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/ionic-team/ionicons/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/ionic-team/ionicons/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/ionic-team/ionicons/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/ionic-team/ionicons/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/ionic-team/ionicons/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/ionic-team/ionicons/deployments",
+                        "created_at": "2013-10-10T14:34:18Z",
+                        "updated_at": "2023-10-25T15:09:27Z",
+                        "pushed_at": "2023-10-25T17:26:04Z",
+                        "git_url": "git://github.com/ionic-team/ionicons.git",
+                        "ssh_url": "git@github.com:ionic-team/ionicons.git",
+                        "clone_url": "https://github.com/ionic-team/ionicons.git",
+                        "svn_url": "https://github.com/ionic-team/ionicons",
+                        "homepage": "http://ionicons.com",
+                        "size": 28563,
+                        "stargazers_count": 17132,
+                        "watchers_count": 17132,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 2080,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 288,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "icon-pack",
+                            "icons",
+                            "iconset",
+                            "ionic",
+                            "ionicons",
+                            "stenciljs",
+                            "webcomponents"
+                        ],
+                        "visibility": "public",
+                        "forks": 2080,
+                        "open_issues": 288,
+                        "watchers": 17132,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/ionic-team/ionicons/pulls/1296"
+                    },
+                    "html": {
+                        "href": "https://github.com/ionic-team/ionicons/pull/1296"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/ionic-team/ionicons/issues/1296"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/ionic-team/ionicons/issues/1296/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/ionic-team/ionicons/pulls/1296/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/ionic-team/ionicons/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/ionic-team/ionicons/pulls/1296/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/ionic-team/ionicons/statuses/7579b4868384f0bb3f32116d559d73b795bbb528"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": true,
+                "commits": 1,
+                "additions": 32,
+                "deletions": 0,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:26:06Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32840240336",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 12304649,
+            "login": "ademkocamaz",
+            "display_login": "ademkocamaz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ademkocamaz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12304649?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709875107,
+                "node_id": "R_kgDOKk_Vow",
+                "name": "ionicons",
+                "full_name": "ademkocamaz/ionicons",
+                "private": false,
+                "owner": {
+                    "login": "ademkocamaz",
+                    "id": 12304649,
+                    "node_id": "MDQ6VXNlcjEyMzA0NjQ5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12304649?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ademkocamaz",
+                    "html_url": "https://github.com/ademkocamaz",
+                    "followers_url": "https://api.github.com/users/ademkocamaz/followers",
+                    "following_url": "https://api.github.com/users/ademkocamaz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ademkocamaz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ademkocamaz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ademkocamaz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ademkocamaz/orgs",
+                    "repos_url": "https://api.github.com/users/ademkocamaz/repos",
+                    "events_url": "https://api.github.com/users/ademkocamaz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ademkocamaz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/ademkocamaz/ionicons",
+                "description": "Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere \ud83c\udf0e",
+                "fork": true,
+                "url": "https://api.github.com/repos/ademkocamaz/ionicons",
+                "forks_url": "https://api.github.com/repos/ademkocamaz/ionicons/forks",
+                "keys_url": "https://api.github.com/repos/ademkocamaz/ionicons/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/ademkocamaz/ionicons/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/ademkocamaz/ionicons/teams",
+                "hooks_url": "https://api.github.com/repos/ademkocamaz/ionicons/hooks",
+                "issue_events_url": "https://api.github.com/repos/ademkocamaz/ionicons/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/ademkocamaz/ionicons/events",
+                "assignees_url": "https://api.github.com/repos/ademkocamaz/ionicons/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/ademkocamaz/ionicons/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/ademkocamaz/ionicons/tags",
+                "blobs_url": "https://api.github.com/repos/ademkocamaz/ionicons/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/ademkocamaz/ionicons/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/ademkocamaz/ionicons/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/ademkocamaz/ionicons/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/ademkocamaz/ionicons/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/ademkocamaz/ionicons/languages",
+                "stargazers_url": "https://api.github.com/repos/ademkocamaz/ionicons/stargazers",
+                "contributors_url": "https://api.github.com/repos/ademkocamaz/ionicons/contributors",
+                "subscribers_url": "https://api.github.com/repos/ademkocamaz/ionicons/subscribers",
+                "subscription_url": "https://api.github.com/repos/ademkocamaz/ionicons/subscription",
+                "commits_url": "https://api.github.com/repos/ademkocamaz/ionicons/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/ademkocamaz/ionicons/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/ademkocamaz/ionicons/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/ademkocamaz/ionicons/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/ademkocamaz/ionicons/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/ademkocamaz/ionicons/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/ademkocamaz/ionicons/merges",
+                "archive_url": "https://api.github.com/repos/ademkocamaz/ionicons/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/ademkocamaz/ionicons/downloads",
+                "issues_url": "https://api.github.com/repos/ademkocamaz/ionicons/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/ademkocamaz/ionicons/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/ademkocamaz/ionicons/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/ademkocamaz/ionicons/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/ademkocamaz/ionicons/labels{/name}",
+                "releases_url": "https://api.github.com/repos/ademkocamaz/ionicons/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/ademkocamaz/ionicons/deployments",
+                "created_at": "2023-10-25T15:09:33Z",
+                "updated_at": "2023-10-25T15:09:33Z",
+                "pushed_at": "2023-10-10T17:37:34Z",
+                "git_url": "git://github.com/ademkocamaz/ionicons.git",
+                "ssh_url": "git@github.com:ademkocamaz/ionicons.git",
+                "clone_url": "https://github.com/ademkocamaz/ionicons.git",
+                "svn_url": "https://github.com/ademkocamaz/ionicons",
+                "homepage": "http://ionicons.com",
+                "size": 28563,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T15:09:34Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32840236563",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12304649,
+            "login": "ademkocamaz",
+            "display_login": "ademkocamaz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ademkocamaz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12304649?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T15:09:27Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32829863208",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7948049,
+            "login": "rokunuzzamanbhuiya",
+            "display_login": "rokunuzzamanbhuiya",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rokunuzzamanbhuiya",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7948049?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:36:04Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32828773859",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48112714,
+            "login": "abcd-aca",
+            "display_login": "abcd-aca",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/abcd-aca",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48112714?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:00:06Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32827713604",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22609242,
+            "login": "seungwubaek",
+            "display_login": "seungwubaek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/seungwubaek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22609242?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T08:24:34Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32819638521",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 37726111,
+            "login": "Nor01",
+            "display_login": "Nor01",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Nor01",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37726111?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709569382,
+                "node_id": "R_kgDOKksrZg",
+                "name": "ionicons",
+                "full_name": "Nor01/ionicons",
+                "private": false,
+                "owner": {
+                    "login": "Nor01",
+                    "id": 37726111,
+                    "node_id": "MDQ6VXNlcjM3NzI2MTEx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37726111?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Nor01",
+                    "html_url": "https://github.com/Nor01",
+                    "followers_url": "https://api.github.com/users/Nor01/followers",
+                    "following_url": "https://api.github.com/users/Nor01/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Nor01/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Nor01/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Nor01/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Nor01/orgs",
+                    "repos_url": "https://api.github.com/users/Nor01/repos",
+                    "events_url": "https://api.github.com/users/Nor01/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Nor01/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/Nor01/ionicons",
+                "description": "Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere \ud83c\udf0e",
+                "fork": true,
+                "url": "https://api.github.com/repos/Nor01/ionicons",
+                "forks_url": "https://api.github.com/repos/Nor01/ionicons/forks",
+                "keys_url": "https://api.github.com/repos/Nor01/ionicons/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/Nor01/ionicons/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/Nor01/ionicons/teams",
+                "hooks_url": "https://api.github.com/repos/Nor01/ionicons/hooks",
+                "issue_events_url": "https://api.github.com/repos/Nor01/ionicons/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/Nor01/ionicons/events",
+                "assignees_url": "https://api.github.com/repos/Nor01/ionicons/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/Nor01/ionicons/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/Nor01/ionicons/tags",
+                "blobs_url": "https://api.github.com/repos/Nor01/ionicons/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/Nor01/ionicons/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/Nor01/ionicons/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/Nor01/ionicons/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/Nor01/ionicons/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/Nor01/ionicons/languages",
+                "stargazers_url": "https://api.github.com/repos/Nor01/ionicons/stargazers",
+                "contributors_url": "https://api.github.com/repos/Nor01/ionicons/contributors",
+                "subscribers_url": "https://api.github.com/repos/Nor01/ionicons/subscribers",
+                "subscription_url": "https://api.github.com/repos/Nor01/ionicons/subscription",
+                "commits_url": "https://api.github.com/repos/Nor01/ionicons/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/Nor01/ionicons/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/Nor01/ionicons/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/Nor01/ionicons/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/Nor01/ionicons/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/Nor01/ionicons/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/Nor01/ionicons/merges",
+                "archive_url": "https://api.github.com/repos/Nor01/ionicons/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/Nor01/ionicons/downloads",
+                "issues_url": "https://api.github.com/repos/Nor01/ionicons/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/Nor01/ionicons/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/Nor01/ionicons/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/Nor01/ionicons/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/Nor01/ionicons/labels{/name}",
+                "releases_url": "https://api.github.com/repos/Nor01/ionicons/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/Nor01/ionicons/deployments",
+                "created_at": "2023-10-25T00:26:35Z",
+                "updated_at": "2023-10-25T00:26:35Z",
+                "pushed_at": "2023-10-10T17:37:34Z",
+                "git_url": "git://github.com/Nor01/ionicons.git",
+                "ssh_url": "git@github.com:Nor01/ionicons.git",
+                "clone_url": "https://github.com/Nor01/ionicons.git",
+                "svn_url": "https://github.com/Nor01/ionicons",
+                "homepage": "http://ionicons.com",
+                "size": 28563,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T00:26:36Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32819589936",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 37726111,
+            "login": "Nor01",
+            "display_login": "Nor01",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Nor01",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37726111?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T00:22:54Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32805914449",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 35967572,
+            "login": "ionitron-bot[bot]",
+            "display_login": "ionitron-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ionitron-bot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35967572?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295",
+                "repository_url": "https://api.github.com/repos/ionic-team/ionicons",
+                "labels_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/comments",
+                "events_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/events",
+                "html_url": "https://github.com/ionic-team/ionicons/issues/1295",
+                "id": 1958585173,
+                "node_id": "I_kwDOAM2X6M50vaNV",
+                "number": 1295,
+                "title": "bug: init error ionIcons. Cannot access 'b' before initialization",
+                "user": {
+                    "login": "Jodelopa",
+                    "id": 103248054,
+                    "node_id": "U_kgDOBidwtg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/103248054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Jodelopa",
+                    "html_url": "https://github.com/Jodelopa",
+                    "followers_url": "https://api.github.com/users/Jodelopa/followers",
+                    "following_url": "https://api.github.com/users/Jodelopa/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Jodelopa/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Jodelopa/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Jodelopa/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Jodelopa/orgs",
+                    "repos_url": "https://api.github.com/users/Jodelopa/repos",
+                    "events_url": "https://api.github.com/users/Jodelopa/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Jodelopa/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1196451648,
+                        "node_id": "MDU6TGFiZWwxMTk2NDUxNjQ4",
+                        "url": "https://api.github.com/repos/ionic-team/ionicons/labels/triage",
+                        "name": "triage",
+                        "color": "F5D230",
+                        "default": false,
+                        "description": "New issues"
+                    },
+                    {
+                        "id": 4583462291,
+                        "node_id": "LA_kwDOAM2X6M8AAAABETIVkw",
+                        "url": "https://api.github.com/repos/ionic-team/ionicons/labels/ionitron:%20needs%20reproduction",
+                        "name": "ionitron: needs reproduction",
+                        "color": "444444",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-24T06:13:11Z",
+                "updated_at": "2023-10-24T14:19:53Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Current Behavior\r\n\r\nsince ionIcon release v7.2.1 there is an init error on my **release** build of my vite-react project, dev build is runnnig fine.\r\n\r\n![ion](https://github.com/ionic-team/ionicons/assets/103248054/ad632752-6b6b-4f6e-96d0-3b80c4fa680b)\r\n\r\ndowngrade to v7.1.2 solves the error\r\n\r\n\r\n### Expected Behavior\r\n\r\napp initializes correctly \r\n\r\n### Steps to Reproduce\r\n\r\ncreate an ionic vite-react-typscript project and use an ionIcon, do a release build\r\n\r\n### Code Reproduction URL\r\n\r\n_No response_\r\n\r\n### Additional Information\r\n\r\n_No response_",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/issues/comments/1777319728",
+                "html_url": "https://github.com/ionic-team/ionicons/issues/1295#issuecomment-1777319728",
+                "issue_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295",
+                "id": 1777319728,
+                "node_id": "IC_kwDOAM2X6M5p778w",
+                "user": {
+                    "login": "ionitron-bot[bot]",
+                    "id": 35967572,
+                    "node_id": "MDM6Qm90MzU5Njc1NzI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/8640?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ionitron-bot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/ionitron-bot",
+                    "followers_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ionitron-bot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-24T14:19:52Z",
+                "updated_at": "2023-10-24T14:19:52Z",
+                "author_association": "NONE",
+                "body": "Thanks for the issue! This issue has been labeled as `needs reproduction`. This label is added to issues that need a code reproduction.\n\nPlease reproduce this issue and provide a way for us to access it (GitHub repo, StackBlitz, etc). Without a reliable code reproduction, it is unlikely we will be able to resolve the issue, leading to it being closed.\n\nIf you have already provided a code snippet and are seeing this message, it is likely that the code snippet was not enough for our team to reproduce the issue.\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ionic-team/ionicons/issues/comments/1777319728/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T14:19:54Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32802519741",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 101329870,
+            "login": "gokacinlar",
+            "display_login": "gokacinlar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gokacinlar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/101329870?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T12:32:02Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32796753926",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13003924,
+            "login": "Scriptim",
+            "display_login": "Scriptim",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Scriptim",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13003924?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T08:50:36Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32793113824",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 103248054,
+            "login": "Jodelopa",
+            "display_login": "Jodelopa",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Jodelopa",
+            "avatar_url": "https://avatars.githubusercontent.com/u/103248054?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295",
+                "repository_url": "https://api.github.com/repos/ionic-team/ionicons",
+                "labels_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/comments",
+                "events_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/events",
+                "html_url": "https://github.com/ionic-team/ionicons/issues/1295",
+                "id": 1958585173,
+                "node_id": "I_kwDOAM2X6M50vaNV",
+                "number": 1295,
+                "title": "bug: init error ionIcons. Cannot access 'b' before initialization",
+                "user": {
+                    "login": "Jodelopa",
+                    "id": 103248054,
+                    "node_id": "U_kgDOBidwtg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/103248054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Jodelopa",
+                    "html_url": "https://github.com/Jodelopa",
+                    "followers_url": "https://api.github.com/users/Jodelopa/followers",
+                    "following_url": "https://api.github.com/users/Jodelopa/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Jodelopa/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Jodelopa/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Jodelopa/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Jodelopa/orgs",
+                    "repos_url": "https://api.github.com/users/Jodelopa/repos",
+                    "events_url": "https://api.github.com/users/Jodelopa/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Jodelopa/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1196451648,
+                        "node_id": "MDU6TGFiZWwxMTk2NDUxNjQ4",
+                        "url": "https://api.github.com/repos/ionic-team/ionicons/labels/triage",
+                        "name": "triage",
+                        "color": "F5D230",
+                        "default": false,
+                        "description": "New issues"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-24T06:13:11Z",
+                "updated_at": "2023-10-24T06:13:11Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Current Behavior\n\nsince ionIcon release v7.2.1 there is an init error on my **release** build of my vite-react project, dev build is runnnig fine.\r\n\r\n![ion](https://github.com/ionic-team/ionicons/assets/103248054/ad632752-6b6b-4f6e-96d0-3b80c4fa680b)\r\n\r\ndowngrade to v7.1.2 solves the error\r\n\n\n### Expected Behavior\n\napp initializes correctly \n\n### Steps to Reproduce\n\ncreate vite-react-typscript project and use an ionIcon, do a release build\n\n### Code Reproduction URL\n\n_No response_\n\n### Additional Information\n\n_No response_",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1295/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T06:13:13Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32792313575",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 19523674,
+            "login": "xiaoweigao",
+            "display_login": "xiaoweigao",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/xiaoweigao",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19523674?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T05:19:17Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32782811973",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 80999356,
+            "login": "adrianogtl",
+            "display_login": "adrianogtl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/adrianogtl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/80999356?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T19:28:58Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32777859507",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2231998,
+            "login": "Syahrul",
+            "display_login": "Syahrul",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Syahrul",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2231998?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/issues/1032",
+                "repository_url": "https://api.github.com/repos/ionic-team/ionicons",
+                "labels_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1032/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1032/comments",
+                "events_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1032/events",
+                "html_url": "https://github.com/ionic-team/ionicons/issues/1032",
+                "id": 1086654198,
+                "node_id": "I_kwDOAM2X6M5AxQb2",
+                "number": 1032,
+                "title": "Uncaught TypeError: Failed to construct 'URL': Invalid base URL",
+                "user": {
+                    "login": "boboldehampsink",
+                    "id": 378974,
+                    "node_id": "MDQ6VXNlcjM3ODk3NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/378974?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/boboldehampsink",
+                    "html_url": "https://github.com/boboldehampsink",
+                    "followers_url": "https://api.github.com/users/boboldehampsink/followers",
+                    "following_url": "https://api.github.com/users/boboldehampsink/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/boboldehampsink/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/boboldehampsink/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/boboldehampsink/subscriptions",
+                    "organizations_url": "https://api.github.com/users/boboldehampsink/orgs",
+                    "repos_url": "https://api.github.com/users/boboldehampsink/repos",
+                    "events_url": "https://api.github.com/users/boboldehampsink/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/boboldehampsink/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4583626688,
+                        "node_id": "LA_kwDOAM2X6M8AAAABETSXwA",
+                        "url": "https://api.github.com/repos/ionic-team/ionicons/labels/type:%20documentation",
+                        "name": "type: documentation",
+                        "color": "0e8a16",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 13,
+                "created_at": "2021-12-22T10:00:02Z",
+                "updated_at": "2023-10-23T16:13:20Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Using Ionicons 6.0.0 with Ionic 6.0.1\r\n\r\n<img width=\"460\" alt=\"Screen Shot 2021-12-22 at 10 58 19\" src=\"https://user-images.githubusercontent.com/378974/147074311-0cddf8db-094e-4b90-9e2f-ad2c1565e4b8.png\">\r\n<img width=\"598\" alt=\"Screen Shot 2021-12-22 at 10 58 25\" src=\"https://user-images.githubusercontent.com/378974/147074321-15ee3e20-64cf-4552-9d3f-e665147d2f63.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ionic-team/ionicons/issues/1032/reactions",
+                    "total_count": 15,
+                    "+1": 13,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 2,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1032/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ionic-team/ionicons/issues/comments/1775544975",
+                "html_url": "https://github.com/ionic-team/ionicons/issues/1032#issuecomment-1775544975",
+                "issue_url": "https://api.github.com/repos/ionic-team/ionicons/issues/1032",
+                "id": 1775544975,
+                "node_id": "IC_kwDOAM2X6M5p1KqP",
+                "user": {
+                    "login": "Syahrul",
+                    "id": 2231998,
+                    "node_id": "MDQ6VXNlcjIyMzE5OTg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2231998?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Syahrul",
+                    "html_url": "https://github.com/Syahrul",
+                    "followers_url": "https://api.github.com/users/Syahrul/followers",
+                    "following_url": "https://api.github.com/users/Syahrul/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Syahrul/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Syahrul/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Syahrul/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Syahrul/orgs",
+                    "repos_url": "https://api.github.com/users/Syahrul/repos",
+                    "events_url": "https://api.github.com/users/Syahrul/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Syahrul/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T16:13:19Z",
+                "updated_at": "2023-10-23T16:13:19Z",
+                "author_association": "NONE",
+                "body": "I couldn't find any documentation for this, I took it from ionic generated template\r\nFor anyone using Ionic 7 and using Angular standalone component, you need to import the icon manually\r\n\r\n**app.page.html**\r\n`<ion-icon name=\"chevron-forward-outline\"></ion-icon>`\r\n\r\n**app.page.ts**\r\n```\r\nimport { chevronForwardOutline } from 'ionicons/icons';\r\nimport { addIcons } from 'ionicons';\r\n\r\n@Component({\r\n    ...,\r\n    imports: [IonicModule, CommonModule, FormsModule]\r\n})\r\n\r\nconstructor() {\r\n  addIcons({ chevronForwardOutline });\r\n}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ionic-team/ionicons/issues/comments/1775544975/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T16:13:20Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32763264635",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 87695564,
+            "login": "utily",
+            "display_login": "utily",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/utily",
+            "avatar_url": "https://avatars.githubusercontent.com/u/87695564?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "forkee": {
+                "id": 708700192,
+                "node_id": "R_kgDOKj3oIA",
+                "name": "ionicons",
+                "full_name": "utily/ionicons",
+                "private": false,
+                "owner": {
+                    "login": "utily",
+                    "id": 87695564,
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjg3Njk1NTY0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/87695564?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/utily",
+                    "html_url": "https://github.com/utily",
+                    "followers_url": "https://api.github.com/users/utily/followers",
+                    "following_url": "https://api.github.com/users/utily/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/utily/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/utily/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/utily/subscriptions",
+                    "organizations_url": "https://api.github.com/users/utily/orgs",
+                    "repos_url": "https://api.github.com/users/utily/repos",
+                    "events_url": "https://api.github.com/users/utily/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/utily/received_events",
+                    "type": "Organization",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/utily/ionicons",
+                "description": "Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere \ud83c\udf0e",
+                "fork": true,
+                "url": "https://api.github.com/repos/utily/ionicons",
+                "forks_url": "https://api.github.com/repos/utily/ionicons/forks",
+                "keys_url": "https://api.github.com/repos/utily/ionicons/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/utily/ionicons/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/utily/ionicons/teams",
+                "hooks_url": "https://api.github.com/repos/utily/ionicons/hooks",
+                "issue_events_url": "https://api.github.com/repos/utily/ionicons/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/utily/ionicons/events",
+                "assignees_url": "https://api.github.com/repos/utily/ionicons/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/utily/ionicons/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/utily/ionicons/tags",
+                "blobs_url": "https://api.github.com/repos/utily/ionicons/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/utily/ionicons/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/utily/ionicons/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/utily/ionicons/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/utily/ionicons/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/utily/ionicons/languages",
+                "stargazers_url": "https://api.github.com/repos/utily/ionicons/stargazers",
+                "contributors_url": "https://api.github.com/repos/utily/ionicons/contributors",
+                "subscribers_url": "https://api.github.com/repos/utily/ionicons/subscribers",
+                "subscription_url": "https://api.github.com/repos/utily/ionicons/subscription",
+                "commits_url": "https://api.github.com/repos/utily/ionicons/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/utily/ionicons/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/utily/ionicons/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/utily/ionicons/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/utily/ionicons/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/utily/ionicons/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/utily/ionicons/merges",
+                "archive_url": "https://api.github.com/repos/utily/ionicons/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/utily/ionicons/downloads",
+                "issues_url": "https://api.github.com/repos/utily/ionicons/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/utily/ionicons/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/utily/ionicons/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/utily/ionicons/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/utily/ionicons/labels{/name}",
+                "releases_url": "https://api.github.com/repos/utily/ionicons/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/utily/ionicons/deployments",
+                "created_at": "2023-10-23T07:59:25Z",
+                "updated_at": "2023-10-23T07:59:25Z",
+                "pushed_at": "2023-10-10T17:37:34Z",
+                "git_url": "git://github.com/utily/ionicons.git",
+                "ssh_url": "git@github.com:utily/ionicons.git",
+                "clone_url": "https://github.com/utily/ionicons.git",
+                "svn_url": "https://github.com/utily/ionicons",
+                "homepage": "http://ionicons.com",
+                "size": 28563,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "mit",
+                    "name": "MIT License",
+                    "spdx_id": "MIT",
+                    "url": "https://api.github.com/licenses/mit",
+                    "node_id": "MDc6TGljZW5zZTEz"
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T07:59:26Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32762288542",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 6446332,
+            "login": "yaolaiyaoqu",
+            "display_login": "yaolaiyaoqu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yaolaiyaoqu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6446332?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T07:20:18Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32754224701",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 117534561,
+            "login": "mehedihasan2810",
+            "display_login": "mehedihasan2810",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mehedihasan2810",
+            "avatar_url": "https://avatars.githubusercontent.com/u/117534561?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:02:50Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32746338053",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 89459321,
+            "login": "duckheada",
+            "display_login": "duckheada",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/duckheada",
+            "avatar_url": "https://avatars.githubusercontent.com/u/89459321?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T00:02:42Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32739978676",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 39808631,
+            "login": "gandous",
+            "display_login": "gandous",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gandous",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39808631?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T09:07:18Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32735027856",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 23436953,
+            "login": "LucasPlacentino",
+            "display_login": "LucasPlacentino",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasPlacentino",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23436953?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T22:15:37Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    },
+    {
+        "id": "32719794534",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 79895060,
+            "login": "BuBuCatt",
+            "display_login": "BuBuCatt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BuBuCatt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/79895060?"
+        },
+        "repo": {
+            "id": 13473768,
+            "name": "ionic-team/ionicons",
+            "url": "https://api.github.com/repos/ionic-team/ionicons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T11:10:17Z",
+        "org": {
+            "id": 3171503,
+            "login": "ionic-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ionic-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3171503?"
+        }
+    }
+]

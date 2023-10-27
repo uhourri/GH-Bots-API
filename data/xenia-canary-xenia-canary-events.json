@@ -1,0 +1,1886 @@
+[
+    {
+        "id": "32877833880",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 111816811,
+            "login": "VladOFF92",
+            "display_login": "VladOFF92",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/VladOFF92",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111816811?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235",
+                "repository_url": "https://api.github.com/repos/xenia-canary/xenia-canary",
+                "labels_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/labels{/name}",
+                "comments_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/comments",
+                "events_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/events",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/issues/235",
+                "id": 1961943299,
+                "node_id": "I_kwDOC-36Tc508OED",
+                "number": 235,
+                "title": "545408BA - WWE 2K17: Freezes after match starting",
+                "user": {
+                    "login": "VladOFF92",
+                    "id": 111816811,
+                    "node_id": "U_kgDOBqowaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111816811?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/VladOFF92",
+                    "html_url": "https://github.com/VladOFF92",
+                    "followers_url": "https://api.github.com/users/VladOFF92/followers",
+                    "following_url": "https://api.github.com/users/VladOFF92/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/VladOFF92/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/VladOFF92/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/VladOFF92/subscriptions",
+                    "organizations_url": "https://api.github.com/users/VladOFF92/orgs",
+                    "repos_url": "https://api.github.com/users/VladOFF92/repos",
+                    "events_url": "https://api.github.com/users/VladOFF92/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/VladOFF92/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1480593590,
+                        "node_id": "MDU6TGFiZWwxNDgwNTkzNTkw",
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T17:57:28Z",
+                "updated_at": "2023-10-26T18:08:08Z",
+                "closed_at": "2023-10-26T18:08:08Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Validation\r\n\r\n- [X] I've read the [FAQ](https://github.com/xenia-project/xenia/wiki/FAQ).\r\n- [ ] The Xenia build used is from the master branch (not MLBS/AlexVS/Canary/pull requests, etc.)\r\n- [ ] This issue isn't for tech support (help with Xenia).\r\n- [X] If this issue occurs in a specific game, I've done analysis to locate the faulty subsystem of the emulator and a potential reason in it.\r\n- [X] I've checked if this issue hasn't already been reported.\r\n- [X] My device meets the minimum requirements: https://github.com/xenia-project/xenia/wiki/Quickstart#system-requirements\r\n- [ ] (If building) I have read the building doc: https://github.com/xenia-project/xenia/blob/master/docs/building.md\r\n\r\n### Describe what's going wrong\r\n\r\nWhen I start to play in WWE 2K17 on Xenia Canary, the game process goes perfectly - there is no any lags and bugs in menu, wrestlers' intros runs good. But **when the match starts, game freezes after gong** without crushing and nothing happens.\r\n\r\nOn the path of problem's deciding I **tried to**:\r\n1. Use earlier (2021 and 2022) and newest (September-October) versions of Xenia Canary (I'm using version from August 8 for stable playing to other games usually)\r\n2. Change settings in NVidia Control Panel \"Adjust Image Settings with Preview\" from \"Quality\" to \"Performance\"\r\n3. Change \"gpu\" settings in xenia-canary.config from \"gpu=\"d3d12\"\" to \"gpu=\"vulkan\"\" (and back later)\r\n4. Disable vsync in xenia-canary.config\r\n\r\nUnfortunately, all of this ways **didn't help** to decide my problem.\r\n\r\nAnd I wanna notice: this bug is typical for **every** WWE 2K games from WWE 2K12 to WWE 2K17.\r\n\r\n### Describe what should happen\r\n\r\nHelp me to set my emulator for comfortable playing to WWE 2K17. Which settings of Xenia Canary I should use for stopping freezing?\r\n\r\n### If applicable, provide a callstack here, especially for crashes\r\n\r\n![wwe2k17_freezes](https://github.com/xenia-canary/xenia-canary/assets/111816811/63b744f5-6352-467a-bf0e-fac395700500)\r\n\r\n\r\n### If applicable, upload a logfile and link it here\r\n\r\n[xenia.log](https://github.com/xenia-canary/xenia-canary/files/13169122/xenia.log)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:08:09Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32877063588",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 111816811,
+            "login": "VladOFF92",
+            "display_login": "VladOFF92",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/VladOFF92",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111816811?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235",
+                "repository_url": "https://api.github.com/repos/xenia-canary/xenia-canary",
+                "labels_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/labels{/name}",
+                "comments_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/comments",
+                "events_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/events",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/issues/235",
+                "id": 1961943299,
+                "node_id": "I_kwDOC-36Tc508OED",
+                "number": 235,
+                "title": "545408BA - WWE 2K17: Freezes after match starting",
+                "user": {
+                    "login": "VladOFF92",
+                    "id": 111816811,
+                    "node_id": "U_kgDOBqowaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111816811?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/VladOFF92",
+                    "html_url": "https://github.com/VladOFF92",
+                    "followers_url": "https://api.github.com/users/VladOFF92/followers",
+                    "following_url": "https://api.github.com/users/VladOFF92/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/VladOFF92/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/VladOFF92/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/VladOFF92/subscriptions",
+                    "organizations_url": "https://api.github.com/users/VladOFF92/orgs",
+                    "repos_url": "https://api.github.com/users/VladOFF92/repos",
+                    "events_url": "https://api.github.com/users/VladOFF92/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/VladOFF92/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1480593590,
+                        "node_id": "MDU6TGFiZWwxNDgwNTkzNTkw",
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T17:57:28Z",
+                "updated_at": "2023-10-26T17:35:51Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Validation\r\n\r\n- [X] I've read the [FAQ](https://github.com/xenia-project/xenia/wiki/FAQ).\r\n- [ ] The Xenia build used is from the master branch (not MLBS/AlexVS/Canary/pull requests, etc.)\r\n- [ ] This issue isn't for tech support (help with Xenia).\r\n- [X] If this issue occurs in a specific game, I've done analysis to locate the faulty subsystem of the emulator and a potential reason in it.\r\n- [X] I've checked if this issue hasn't already been reported.\r\n- [X] My device meets the minimum requirements: https://github.com/xenia-project/xenia/wiki/Quickstart#system-requirements\r\n- [ ] (If building) I have read the building doc: https://github.com/xenia-project/xenia/blob/master/docs/building.md\r\n\r\n### Describe what's going wrong\r\n\r\nWhen I start to play in WWE 2K17 on Xenia Canary, the game process goes perfectly - there is no any lags and bugs in menu, wrestlers' intros runs good. But **when the match starts, game freezes after gong** without crushing and nothing happens.\r\n\r\nOn the path of problem's deciding I **tried to**:\r\n1. Use earlier (2021 and 2022) and newest (September-October) versions of Xenia Canary (I'm using version from August 8 for stable playing to other games usually)\r\n2. Change settings in NVidia Control Panel \"Adjust Image Settings with Preview\" from \"Quality\" to \"Performance\"\r\n3. Change \"gpu\" settings in xenia-canary.config from \"gpu=\"d3d12\"\" to \"gpu=\"vulkan\"\" (and back later)\r\n4. Disable vsync in xenia-canary.config\r\n\r\nUnfortunately, all of this ways **didn't help** to decide my problem.\r\n\r\nAnd I wanna notice: this bug is typical for **every** WWE 2K games from WWE 2K12 to WWE 2K17.\r\n\r\n### Describe what should happen\r\n\r\nHelp me to set my emulator for comfortable playing to WWE 2K17. Which settings of Xenia Canary I should use for stopping freezing?\r\n\r\n### If applicable, provide a callstack here, especially for crashes\r\n\r\n![wwe2k17_freezes](https://github.com/xenia-canary/xenia-canary/assets/111816811/63b744f5-6352-467a-bf0e-fac395700500)\r\n\r\n\r\n### If applicable, upload a logfile and link it here\r\n\r\n[xenia.log](https://github.com/xenia-canary/xenia-canary/files/13169122/xenia.log)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/comments/1781551842",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/issues/235#issuecomment-1781551842",
+                "issue_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235",
+                "id": 1781551842,
+                "node_id": "IC_kwDOC-36Tc5qMFLi",
+                "user": {
+                    "login": "VladOFF92",
+                    "id": 111816811,
+                    "node_id": "U_kgDOBqowaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111816811?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/VladOFF92",
+                    "html_url": "https://github.com/VladOFF92",
+                    "followers_url": "https://api.github.com/users/VladOFF92/followers",
+                    "following_url": "https://api.github.com/users/VladOFF92/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/VladOFF92/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/VladOFF92/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/VladOFF92/subscriptions",
+                    "organizations_url": "https://api.github.com/users/VladOFF92/orgs",
+                    "repos_url": "https://api.github.com/users/VladOFF92/repos",
+                    "events_url": "https://api.github.com/users/VladOFF92/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/VladOFF92/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T17:35:50Z",
+                "updated_at": "2023-10-26T17:35:50Z",
+                "author_association": "NONE",
+                "body": "> To prevent it you have to set `ignore_offset_for_ranged_allocations` to true, however it still might not be fully stable.\r\n\r\nThank you so much, it really works! Now game's working little bit slowly, but still good for playing.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/comments/1781551842/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:35:51Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32858268577",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 153369,
+            "login": "Gliniak",
+            "display_login": "Gliniak",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gliniak",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153369?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235",
+                "repository_url": "https://api.github.com/repos/xenia-canary/xenia-canary",
+                "labels_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/labels{/name}",
+                "comments_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/comments",
+                "events_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/events",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/issues/235",
+                "id": 1961943299,
+                "node_id": "I_kwDOC-36Tc508OED",
+                "number": 235,
+                "title": "545408BA - WWE 2K17: Freezes after match starting",
+                "user": {
+                    "login": "VladOFF92",
+                    "id": 111816811,
+                    "node_id": "U_kgDOBqowaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111816811?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/VladOFF92",
+                    "html_url": "https://github.com/VladOFF92",
+                    "followers_url": "https://api.github.com/users/VladOFF92/followers",
+                    "following_url": "https://api.github.com/users/VladOFF92/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/VladOFF92/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/VladOFF92/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/VladOFF92/subscriptions",
+                    "organizations_url": "https://api.github.com/users/VladOFF92/orgs",
+                    "repos_url": "https://api.github.com/users/VladOFF92/repos",
+                    "events_url": "https://api.github.com/users/VladOFF92/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/VladOFF92/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1480593590,
+                        "node_id": "MDU6TGFiZWwxNDgwNTkzNTkw",
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T17:57:28Z",
+                "updated_at": "2023-10-26T06:48:42Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Validation\r\n\r\n- [X] I've read the [FAQ](https://github.com/xenia-project/xenia/wiki/FAQ).\r\n- [ ] The Xenia build used is from the master branch (not MLBS/AlexVS/Canary/pull requests, etc.)\r\n- [ ] This issue isn't for tech support (help with Xenia).\r\n- [X] If this issue occurs in a specific game, I've done analysis to locate the faulty subsystem of the emulator and a potential reason in it.\r\n- [X] I've checked if this issue hasn't already been reported.\r\n- [X] My device meets the minimum requirements: https://github.com/xenia-project/xenia/wiki/Quickstart#system-requirements\r\n- [ ] (If building) I have read the building doc: https://github.com/xenia-project/xenia/blob/master/docs/building.md\r\n\r\n### Describe what's going wrong\r\n\r\nWhen I start to play in WWE 2K17 on Xenia Canary, the game process goes perfectly - there is no any lags and bugs in menu, wrestlers' intros runs good. But **when the match starts, game freezes after gong** without crushing and nothing happens.\r\n\r\nOn the path of problem's deciding I **tried to**:\r\n1. Use earlier (2021 and 2022) and newest (September-October) versions of Xenia Canary (I'm using version from August 8 for stable playing to other games usually)\r\n2. Change settings in NVidia Control Panel \"Adjust Image Settings with Preview\" from \"Quality\" to \"Performance\"\r\n3. Change \"gpu\" settings in xenia-canary.config from \"gpu=\"d3d12\"\" to \"gpu=\"vulkan\"\" (and back later)\r\n4. Disable vsync in xenia-canary.config\r\n\r\nUnfortunately, all of this ways **didn't help** to decide my problem.\r\n\r\nAnd I wanna notice: this bug is typical for **every** WWE 2K games from WWE 2K12 to WWE 2K17.\r\n\r\n### Describe what should happen\r\n\r\nHelp me to set my emulator for comfortable playing to WWE 2K17. Which settings of Xenia Canary I should use for stopping freezing?\r\n\r\n### If applicable, provide a callstack here, especially for crashes\r\n\r\n![wwe2k17_freezes](https://github.com/xenia-canary/xenia-canary/assets/111816811/63b744f5-6352-467a-bf0e-fac395700500)\r\n\r\n\r\n### If applicable, upload a logfile and link it here\r\n\r\n[xenia.log](https://github.com/xenia-canary/xenia-canary/files/13169122/xenia.log)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/comments/1780512833",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/issues/235#issuecomment-1780512833",
+                "issue_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235",
+                "id": 1780512833,
+                "node_id": "IC_kwDOC-36Tc5qIHhB",
+                "user": {
+                    "login": "Gliniak",
+                    "id": 153369,
+                    "node_id": "MDQ6VXNlcjE1MzM2OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/153369?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Gliniak",
+                    "html_url": "https://github.com/Gliniak",
+                    "followers_url": "https://api.github.com/users/Gliniak/followers",
+                    "following_url": "https://api.github.com/users/Gliniak/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Gliniak/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Gliniak/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Gliniak/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Gliniak/orgs",
+                    "repos_url": "https://api.github.com/users/Gliniak/repos",
+                    "events_url": "https://api.github.com/users/Gliniak/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Gliniak/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T06:48:41Z",
+                "updated_at": "2023-10-26T06:48:41Z",
+                "author_association": "COLLABORATOR",
+                "body": "To prevent it you have to set ``ignore_offset_for_ranged_allocations`` to true, however it still might not be fully stable.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/comments/1780512833/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T06:48:42Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32848587385",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 37913333,
+            "login": "wzykubek",
+            "display_login": "wzykubek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wzykubek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37913333?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:28:31Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32844972910",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 111816811,
+            "login": "VladOFF92",
+            "display_login": "VladOFF92",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/VladOFF92",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111816811?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/215",
+                "repository_url": "https://api.github.com/repos/xenia-canary/xenia-canary",
+                "labels_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/215/labels{/name}",
+                "comments_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/215/comments",
+                "events_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/215/events",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/issues/215",
+                "id": 1935329341,
+                "node_id": "I_kwDOC-36Tc5zWsg9",
+                "number": 215,
+                "title": "FIFA Street 3 - Too simple models after update",
+                "user": {
+                    "login": "VladOFF92",
+                    "id": 111816811,
+                    "node_id": "U_kgDOBqowaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111816811?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/VladOFF92",
+                    "html_url": "https://github.com/VladOFF92",
+                    "followers_url": "https://api.github.com/users/VladOFF92/followers",
+                    "following_url": "https://api.github.com/users/VladOFF92/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/VladOFF92/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/VladOFF92/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/VladOFF92/subscriptions",
+                    "organizations_url": "https://api.github.com/users/VladOFF92/orgs",
+                    "repos_url": "https://api.github.com/users/VladOFF92/repos",
+                    "events_url": "https://api.github.com/users/VladOFF92/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/VladOFF92/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1480593590,
+                        "node_id": "MDU6TGFiZWwxNDgwNTkzNTkw",
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-10T13:03:42Z",
+                "updated_at": "2023-10-25T17:59:21Z",
+                "closed_at": "2023-10-25T17:59:21Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Validation\n\n- [X] I've read the [FAQ](https://github.com/xenia-project/xenia/wiki/FAQ).\n- [X] The Xenia build used is from the master branch (not MLBS/AlexVS/Canary/pull requests, etc.)\n- [X] This issue isn't for tech support (help with Xenia).\n- [X] If this issue occurs in a specific game, I've done analysis to locate the faulty subsystem of the emulator and a potential reason in it.\n- [X] I've checked if this issue hasn't already been reported.\n- [X] My device meets the minimum requirements: https://github.com/xenia-project/xenia/wiki/Quickstart#system-requirements\n- [X] (If building) I have read the building doc: https://github.com/xenia-project/xenia/blob/master/docs/building.md\n\n### Describe what's going wrong\n\nI don't understand why my FIFA Street 3 looks like in potato mod after last updates for emulator? How can I return my average look for this game?\n\n### Describe what should happen\n\nFIFA Street 3 doesn't look good after last updates. Please help to return average graphics.\n\n### If applicable, provide a callstack here, especially for crashes\n\n![Uploading \u0411\u0435\u0437\u044b\u043c\u044f\u043d\u043d\u044b\u0439.png\u2026]()\r\n\n\n### If applicable, upload a logfile and link it here\n\n[Log.log](https://github.com/xenia-canary/xenia-canary/files/12857439/Log.log)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/215/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/215/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:59:22Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32844927433",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 111816811,
+            "login": "VladOFF92",
+            "display_login": "VladOFF92",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/VladOFF92",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111816811?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235",
+                "repository_url": "https://api.github.com/repos/xenia-canary/xenia-canary",
+                "labels_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/labels{/name}",
+                "comments_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/comments",
+                "events_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/events",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/issues/235",
+                "id": 1961943299,
+                "node_id": "I_kwDOC-36Tc508OED",
+                "number": 235,
+                "title": "545408BA - WWE 2k17: Freezes after match starting",
+                "user": {
+                    "login": "VladOFF92",
+                    "id": 111816811,
+                    "node_id": "U_kgDOBqowaw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/111816811?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/VladOFF92",
+                    "html_url": "https://github.com/VladOFF92",
+                    "followers_url": "https://api.github.com/users/VladOFF92/followers",
+                    "following_url": "https://api.github.com/users/VladOFF92/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/VladOFF92/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/VladOFF92/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/VladOFF92/subscriptions",
+                    "organizations_url": "https://api.github.com/users/VladOFF92/orgs",
+                    "repos_url": "https://api.github.com/users/VladOFF92/repos",
+                    "events_url": "https://api.github.com/users/VladOFF92/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/VladOFF92/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1480593590,
+                        "node_id": "MDU6TGFiZWwxNDgwNTkzNTkw",
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T17:57:28Z",
+                "updated_at": "2023-10-25T17:57:28Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Validation\n\n- [X] I've read the [FAQ](https://github.com/xenia-project/xenia/wiki/FAQ).\n- [X] The Xenia build used is from the master branch (not MLBS/AlexVS/Canary/pull requests, etc.)\n- [X] This issue isn't for tech support (help with Xenia).\n- [X] If this issue occurs in a specific game, I've done analysis to locate the faulty subsystem of the emulator and a potential reason in it.\n- [X] I've checked if this issue hasn't already been reported.\n- [X] My device meets the minimum requirements: https://github.com/xenia-project/xenia/wiki/Quickstart#system-requirements\n- [X] (If building) I have read the building doc: https://github.com/xenia-project/xenia/blob/master/docs/building.md\n\n### Describe what's going wrong\n\nWhen I start to play in WWE 2k17 on Xenia Canary, the game starts perfectly - there is no any lags and bugs in menu, wrestlers' intros runs good. But **when the match starts, game freezes after gong** and nothing happens.\r\n\r\nOn the path of problem's deciding I **tried**:\r\n1. To use early and newest versions of Xenia Canary (usually I use version from August 8)\r\n2. To change settings in NVidia Control Panel \"Adjust Image Settings with Preview\" from \"Quality\" to \"Performance\"\r\n3. To change \"gpu\" settings in xenia-canary.config from \"gpu=\"d3d12\"\" to \"gpu=\"vulkan\"\" and back\r\n\r\nUnfortunately, all of this ways **didn't help** to decide my problem.\n\n### Describe what should happen\n\nHelp me to set my emulator for comfortable playing to WWE 2k17. Which settings of Xenia Canary I should use for stop freezing?\n\n### If applicable, provide a callstack here, especially for crashes\n\n![wwe2k17_freezes](https://github.com/xenia-canary/xenia-canary/assets/111816811/63b744f5-6352-467a-bf0e-fac395700500)\r\n\n\n### If applicable, upload a logfile and link it here\n\n[xenia.log](https://github.com/xenia-canary/xenia-canary/files/13169122/xenia.log)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/235/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:57:30Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32826623359",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 148370239,
+            "login": "drHyperion451",
+            "display_login": "drHyperion451",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/drHyperion451",
+            "avatar_url": "https://avatars.githubusercontent.com/u/148370239?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:45:26Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32826414559",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "ref": "experimental",
+            "ref_type": "tag",
+            "master_branch": "canary_experimental",
+            "description": "Xbox 360 Emulator Research Project ",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:37:35Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32826414311",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126551996",
+                "assets_url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126551996/assets",
+                "upload_url": "https://uploads.github.com/repos/xenia-canary/xenia-canary/releases/126551996/assets{?name,label}",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/releases/tag/experimental",
+                "id": 126551996,
+                "author": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOC-36Tc4Hiwe8",
+                "tag_name": "experimental",
+                "target_commitish": "ebdea6b02aafcfbc56fc4cb192524cff40029560",
+                "name": "canary_experimental",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-10-25T07:17:38Z",
+                "published_at": "2023-10-25T07:37:34Z",
+                "assets": [
+                    {
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/assets/132244909",
+                        "id": 132244909,
+                        "node_id": "RA_kwDOC-36Tc4H4eWt",
+                        "name": "xenia_canary.zip",
+                        "label": "",
+                        "uploader": {
+                            "login": "github-actions[bot]",
+                            "id": 41898282,
+                            "node_id": "MDM6Qm90NDE4OTgyODI=",
+                            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                            "html_url": "https://github.com/apps/github-actions",
+                            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                            "type": "Bot",
+                            "site_admin": false
+                        },
+                        "content_type": "application/zip",
+                        "state": "uploaded",
+                        "size": 3198054,
+                        "download_count": 0,
+                        "created_at": "2023-10-25T07:37:33Z",
+                        "updated_at": "2023-10-25T07:37:34Z",
+                        "browser_download_url": "https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip"
+                    }
+                ],
+                "tarball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/tarball/experimental",
+                "zipball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/zipball/experimental",
+                "body": null,
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:37:35Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32826413880",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "ref": "experimental",
+            "ref_type": "tag",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:37:33Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32826412771",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "ref": "ebdea6b",
+            "ref_type": "tag",
+            "master_branch": "canary_experimental",
+            "description": "Xbox 360 Emulator Research Project ",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:37:31Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32826411875",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126551985",
+                "assets_url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126551985/assets",
+                "upload_url": "https://uploads.github.com/repos/xenia-canary/xenia-canary/releases/126551985/assets{?name,label}",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/releases/tag/ebdea6b",
+                "id": 126551985,
+                "author": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOC-36Tc4Hiwex",
+                "tag_name": "ebdea6b",
+                "target_commitish": "ebdea6b02aafcfbc56fc4cb192524cff40029560",
+                "name": "ebdea6b_canary_experimental",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-10-25T07:17:38Z",
+                "published_at": "2023-10-25T07:37:28Z",
+                "assets": [
+                    {
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/assets/132244891",
+                        "id": 132244891,
+                        "node_id": "RA_kwDOC-36Tc4H4eWb",
+                        "name": "xenia_canary.zip",
+                        "label": "",
+                        "uploader": {
+                            "login": "github-actions[bot]",
+                            "id": 41898282,
+                            "node_id": "MDM6Qm90NDE4OTgyODI=",
+                            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                            "html_url": "https://github.com/apps/github-actions",
+                            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                            "type": "Bot",
+                            "site_admin": false
+                        },
+                        "content_type": "application/zip",
+                        "state": "uploaded",
+                        "size": 3198054,
+                        "download_count": 0,
+                        "created_at": "2023-10-25T07:37:27Z",
+                        "updated_at": "2023-10-25T07:37:28Z",
+                        "browser_download_url": "https://github.com/xenia-canary/xenia-canary/releases/download/ebdea6b/xenia_canary.zip"
+                    }
+                ],
+                "tarball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/tarball/ebdea6b",
+                "zipball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/zipball/ebdea6b",
+                "body": null,
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:37:29Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32825892539",
+        "type": "PushEvent",
+        "actor": {
+            "id": 153369,
+            "login": "Gliniak",
+            "display_login": "Gliniak",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gliniak",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153369?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "repository_id": 200145485,
+            "push_id": 15555539118,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/canary_experimental",
+            "head": "ebdea6b02aafcfbc56fc4cb192524cff40029560",
+            "before": "2509b03b81afc2946fd518db61fb68832e817258",
+            "commits": [
+                {
+                    "sha": "ebdea6b02aafcfbc56fc4cb192524cff40029560",
+                    "author": {
+                        "email": "Gliniak93@gmail.com",
+                        "name": "Gliniak"
+                    },
+                    "message": "[Kernel] Store earned achievements in-memory to prevent achievements spam\n\nThis doesn't store them externally so after restarting they will unlock again",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/commits/ebdea6b02aafcfbc56fc4cb192524cff40029560"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:17:44Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32822460977",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7699975,
+            "login": "nankof",
+            "display_login": "nankof",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nankof",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7699975?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T03:59:29Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32819061555",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4715622,
+            "login": "subz",
+            "display_login": "subz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/subz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4715622?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T23:40:44Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32818832422",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 148916600,
+            "login": "yuno971",
+            "display_login": "yuno971",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yuno971",
+            "avatar_url": "https://avatars.githubusercontent.com/u/148916600?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709555363,
+                "node_id": "R_kgDOKkr0ow",
+                "name": "xenia-canary",
+                "full_name": "yuno971/xenia-canary",
+                "private": false,
+                "owner": {
+                    "login": "yuno971",
+                    "id": 148916600,
+                    "node_id": "U_kgDOCOBJeA",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/148916600?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/yuno971",
+                    "html_url": "https://github.com/yuno971",
+                    "followers_url": "https://api.github.com/users/yuno971/followers",
+                    "following_url": "https://api.github.com/users/yuno971/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/yuno971/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/yuno971/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/yuno971/subscriptions",
+                    "organizations_url": "https://api.github.com/users/yuno971/orgs",
+                    "repos_url": "https://api.github.com/users/yuno971/repos",
+                    "events_url": "https://api.github.com/users/yuno971/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/yuno971/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/yuno971/xenia-canary",
+                "description": "Xbox 360 Emulator Research Project ",
+                "fork": true,
+                "url": "https://api.github.com/repos/yuno971/xenia-canary",
+                "forks_url": "https://api.github.com/repos/yuno971/xenia-canary/forks",
+                "keys_url": "https://api.github.com/repos/yuno971/xenia-canary/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/yuno971/xenia-canary/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/yuno971/xenia-canary/teams",
+                "hooks_url": "https://api.github.com/repos/yuno971/xenia-canary/hooks",
+                "issue_events_url": "https://api.github.com/repos/yuno971/xenia-canary/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/yuno971/xenia-canary/events",
+                "assignees_url": "https://api.github.com/repos/yuno971/xenia-canary/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/yuno971/xenia-canary/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/yuno971/xenia-canary/tags",
+                "blobs_url": "https://api.github.com/repos/yuno971/xenia-canary/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/yuno971/xenia-canary/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/yuno971/xenia-canary/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/yuno971/xenia-canary/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/yuno971/xenia-canary/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/yuno971/xenia-canary/languages",
+                "stargazers_url": "https://api.github.com/repos/yuno971/xenia-canary/stargazers",
+                "contributors_url": "https://api.github.com/repos/yuno971/xenia-canary/contributors",
+                "subscribers_url": "https://api.github.com/repos/yuno971/xenia-canary/subscribers",
+                "subscription_url": "https://api.github.com/repos/yuno971/xenia-canary/subscription",
+                "commits_url": "https://api.github.com/repos/yuno971/xenia-canary/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/yuno971/xenia-canary/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/yuno971/xenia-canary/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/yuno971/xenia-canary/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/yuno971/xenia-canary/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/yuno971/xenia-canary/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/yuno971/xenia-canary/merges",
+                "archive_url": "https://api.github.com/repos/yuno971/xenia-canary/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/yuno971/xenia-canary/downloads",
+                "issues_url": "https://api.github.com/repos/yuno971/xenia-canary/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/yuno971/xenia-canary/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/yuno971/xenia-canary/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/yuno971/xenia-canary/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/yuno971/xenia-canary/labels{/name}",
+                "releases_url": "https://api.github.com/repos/yuno971/xenia-canary/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/yuno971/xenia-canary/deployments",
+                "created_at": "2023-10-24T23:22:43Z",
+                "updated_at": "2023-10-24T23:22:44Z",
+                "pushed_at": "2023-10-22T18:41:06Z",
+                "git_url": "git://github.com/yuno971/xenia-canary.git",
+                "ssh_url": "git@github.com:yuno971/xenia-canary.git",
+                "clone_url": "https://github.com/yuno971/xenia-canary.git",
+                "svn_url": "https://github.com/yuno971/xenia-canary",
+                "homepage": "https://xenia.jp",
+                "size": 55347,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T23:22:44Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32781819506",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 113144725,
+            "login": "Sowa95",
+            "display_login": "Sowa95",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Sowa95",
+            "avatar_url": "https://avatars.githubusercontent.com/u/113144725?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/225",
+                "repository_url": "https://api.github.com/repos/xenia-canary/xenia-canary",
+                "labels_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/225/labels{/name}",
+                "comments_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/225/comments",
+                "events_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/225/events",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/pull/225",
+                "id": 1943516922,
+                "node_id": "PR_kwDOC-36Tc5cz7ox",
+                "number": 225,
+                "title": "Object type stubs",
+                "user": {
+                    "login": "disjtqz",
+                    "id": 144927860,
+                    "node_id": "U_kgDOCKNsdA",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/144927860?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/disjtqz",
+                    "html_url": "https://github.com/disjtqz",
+                    "followers_url": "https://api.github.com/users/disjtqz/followers",
+                    "following_url": "https://api.github.com/users/disjtqz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/disjtqz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/disjtqz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/disjtqz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/disjtqz/orgs",
+                    "repos_url": "https://api.github.com/users/disjtqz/repos",
+                    "events_url": "https://api.github.com/users/disjtqz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/disjtqz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-14T19:50:36Z",
+                "updated_at": "2023-10-23T18:47:59Z",
+                "closed_at": "2023-10-14T20:35:50Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/pulls/225",
+                    "html_url": "https://github.com/xenia-canary/xenia-canary/pull/225",
+                    "diff_url": "https://github.com/xenia-canary/xenia-canary/pull/225.diff",
+                    "patch_url": "https://github.com/xenia-canary/xenia-canary/pull/225.patch",
+                    "merged_at": "2023-10-14T20:35:50Z"
+                },
+                "body": "Added all of the object types, along with stub functions for their callbacks.\r\nAlso added the UsbdBootEnumerationDone event. Afaik it's only used by Xam's initialization.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/225/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/225/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/comments/1775814282",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/pull/225#issuecomment-1775814282",
+                "issue_url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/225",
+                "id": 1775814282,
+                "node_id": "IC_kwDOC-36Tc5p2MaK",
+                "user": {
+                    "login": "Sowa95",
+                    "id": 113144725,
+                    "node_id": "U_kgDOBr5zlQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/113144725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Sowa95",
+                    "html_url": "https://github.com/Sowa95",
+                    "followers_url": "https://api.github.com/users/Sowa95/followers",
+                    "following_url": "https://api.github.com/users/Sowa95/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Sowa95/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Sowa95/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Sowa95/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Sowa95/orgs",
+                    "repos_url": "https://api.github.com/users/Sowa95/repos",
+                    "events_url": "https://api.github.com/users/Sowa95/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Sowa95/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T18:47:59Z",
+                "updated_at": "2023-10-23T18:47:59Z",
+                "author_association": "NONE",
+                "body": "1cf9b16 breaks UFC Undisputed 3. Log level 3 attached.\r\n[xenia.log](https://github.com/xenia-canary/xenia-canary/files/13078003/xenia.log)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/issues/comments/1775814282/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T18:48:00Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32778434345",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 20008760,
+            "login": "Blixtmen",
+            "display_login": "Blixtmen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Blixtmen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20008760?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T16:34:31Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32777262925",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 57549162,
+            "login": "LipeSix1",
+            "display_login": "LipeSix1",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LipeSix1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/57549162?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T15:52:56Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32761539993",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 56052469,
+            "login": "IronCub3",
+            "display_login": "IronCub3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/IronCub3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56052469?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T06:46:14Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32758312123",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13023797,
+            "login": "renxzen",
+            "display_login": "renxzen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/renxzen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13023797?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T02:54:29Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32754056664",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "ref": "experimental",
+            "ref_type": "tag",
+            "master_branch": "canary_experimental",
+            "description": "Xbox 360 Emulator Research Project ",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:41:07Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32754056567",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126160529",
+                "assets_url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126160529/assets",
+                "upload_url": "https://uploads.github.com/repos/xenia-canary/xenia-canary/releases/126160529/assets{?name,label}",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/releases/tag/experimental",
+                "id": 126160529,
+                "author": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOC-36Tc4HhQ6R",
+                "tag_name": "experimental",
+                "target_commitish": "2509b03b81afc2946fd518db61fb68832e817258",
+                "name": "canary_experimental",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-10-22T18:24:43Z",
+                "published_at": "2023-10-22T18:41:06Z",
+                "assets": [
+                    {
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/assets/131838115",
+                        "id": 131838115,
+                        "node_id": "RA_kwDOC-36Tc4H27Cj",
+                        "name": "xenia_canary.zip",
+                        "label": "",
+                        "uploader": {
+                            "login": "github-actions[bot]",
+                            "id": 41898282,
+                            "node_id": "MDM6Qm90NDE4OTgyODI=",
+                            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                            "html_url": "https://github.com/apps/github-actions",
+                            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                            "type": "Bot",
+                            "site_admin": false
+                        },
+                        "content_type": "application/zip",
+                        "state": "uploaded",
+                        "size": 3197794,
+                        "download_count": 0,
+                        "created_at": "2023-10-22T18:41:05Z",
+                        "updated_at": "2023-10-22T18:41:06Z",
+                        "browser_download_url": "https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip"
+                    }
+                ],
+                "tarball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/tarball/experimental",
+                "zipball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/zipball/experimental",
+                "body": null,
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:41:06Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32754056327",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "ref": "experimental",
+            "ref_type": "tag",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:41:05Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32754055967",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "ref": "2509b03",
+            "ref_type": "tag",
+            "master_branch": "canary_experimental",
+            "description": "Xbox 360 Emulator Research Project ",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:41:02Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32754055886",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126160528",
+                "assets_url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/126160528/assets",
+                "upload_url": "https://uploads.github.com/repos/xenia-canary/xenia-canary/releases/126160528/assets{?name,label}",
+                "html_url": "https://github.com/xenia-canary/xenia-canary/releases/tag/2509b03",
+                "id": 126160528,
+                "author": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOC-36Tc4HhQ6Q",
+                "tag_name": "2509b03",
+                "target_commitish": "2509b03b81afc2946fd518db61fb68832e817258",
+                "name": "2509b03_canary_experimental",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-10-22T18:24:43Z",
+                "published_at": "2023-10-22T18:41:01Z",
+                "assets": [
+                    {
+                        "url": "https://api.github.com/repos/xenia-canary/xenia-canary/releases/assets/131838113",
+                        "id": 131838113,
+                        "node_id": "RA_kwDOC-36Tc4H27Ch",
+                        "name": "xenia_canary.zip",
+                        "label": "",
+                        "uploader": {
+                            "login": "github-actions[bot]",
+                            "id": 41898282,
+                            "node_id": "MDM6Qm90NDE4OTgyODI=",
+                            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                            "html_url": "https://github.com/apps/github-actions",
+                            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                            "type": "Bot",
+                            "site_admin": false
+                        },
+                        "content_type": "application/zip",
+                        "state": "uploaded",
+                        "size": 3197794,
+                        "download_count": 0,
+                        "created_at": "2023-10-22T18:41:00Z",
+                        "updated_at": "2023-10-22T18:41:00Z",
+                        "browser_download_url": "https://github.com/xenia-canary/xenia-canary/releases/download/2509b03/xenia_canary.zip"
+                    }
+                ],
+                "tarball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/tarball/2509b03",
+                "zipball_url": "https://api.github.com/repos/xenia-canary/xenia-canary/zipball/2509b03",
+                "body": null,
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:41:01Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32753930810",
+        "type": "PushEvent",
+        "actor": {
+            "id": 153369,
+            "login": "Gliniak",
+            "display_login": "Gliniak",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Gliniak",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153369?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "repository_id": 200145485,
+            "push_id": 15519397678,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/canary_experimental",
+            "head": "2509b03b81afc2946fd518db61fb68832e817258",
+            "before": "e633bf3d981c23af06db1fe275c57c6404f92e84",
+            "commits": [
+                {
+                    "sha": "2509b03b81afc2946fd518db61fb68832e817258",
+                    "author": {
+                        "email": "Gliniak93@gmail.com",
+                        "name": "Gliniak"
+                    },
+                    "message": "[Kernel] Disable high definition mode for internal resolutions lower than 1024x768\n\nThis will allow some games to render in lower than normal resolution",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/xenia-canary/xenia-canary/commits/2509b03b81afc2946fd518db61fb68832e817258"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:25:00Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32753573730",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 11708017,
+            "login": "Androxilogin",
+            "display_login": "Androxilogin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Androxilogin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11708017?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T17:40:58Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32752675487",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 61574895,
+            "login": "Danber0",
+            "display_login": "Danber0",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Danber0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/61574895?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T15:54:20Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    },
+    {
+        "id": "32751501081",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 200145485,
+            "name": "xenia-canary/xenia-canary",
+            "url": "https://api.github.com/repos/xenia-canary/xenia-canary"
+        },
+        "payload": {
+            "ref": "experimental",
+            "ref_type": "tag",
+            "master_branch": "canary_experimental",
+            "description": "Xbox 360 Emulator Research Project ",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T13:33:23Z",
+        "org": {
+            "id": 53588623,
+            "login": "xenia-canary",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xenia-canary",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53588623?"
+        }
+    }
+]

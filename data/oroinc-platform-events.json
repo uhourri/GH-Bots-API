@@ -1,0 +1,2896 @@
+[
+    {
+        "id": "32881319019",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15582887185,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "50a5e58d486bb2c38972db2ec6bfaa7c4215b3f8",
+            "before": "730597ccda0de3b2d541de25f2e30a5eabc0a415",
+            "commits": [
+                {
+                    "sha": "cb37e60b93228a2a9f41e7746057d3e7d1bf51b5",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22199: Check requirements for the application test environment - fix (#36716)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/cb37e60b93228a2a9f41e7746057d3e7d1bf51b5"
+                },
+                {
+                    "sha": "f6fd52ff6707103199e81e79b642817f6c5d53a4",
+                    "author": {
+                        "email": "yyevtushenko@oroinc.com",
+                        "name": "Yefim Yevtushenko"
+                    },
+                    "message": "BB-22277: Add \"value\" parameter to begin_checkout, add_payment_info, \u2026 (#36638)\n\n* BB-22277: Add \"value\" parameter to begin_checkout, add_payment_info, add_shipping_info and other events in Google Analytics 4\r\n- analytics4 - added \"value\" element to \"begin_checkout\", \"add_shipping_info\", \"add_payment_info\"\r\n- analytics4 - removed element \"currency\" when \"value\" is not present in chunked output, i.e. from all chunks after the 1st one\r\n- fixed unstable unit test\r\n- updated the user documentation\r\n- added ProductLineItemCartHandler responsible for add_to_cart, remove_from_cart analytics4 events\r\n- made use of ProductLineItemCartHandler in RequestProductItemEventListener, ShoppingListLineItemEventListener\r\n- implemented ProductLineItemInterface in RequestProductItem\r\n- added value to view_item analytics4 event payload in data-layer-manager-analytics4-component\r\n- updated changelog\r\n- updated documentation",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/f6fd52ff6707103199e81e79b642817f6c5d53a4"
+                },
+                {
+                    "sha": "50a5e58d486bb2c38972db2ec6bfaa7c4215b3f8",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/50a5e58d486bb2c38972db2ec6bfaa7c4215b3f8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:38:39Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32848842986",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15566735060,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "730597ccda0de3b2d541de25f2e30a5eabc0a415",
+            "before": "eae712c7d51c2f8c3b0bfbcf04037a7eb321ebb1",
+            "commits": [
+                {
+                    "sha": "aee65850d9f9fb4763ee80dc257d791b597d1988",
+                    "author": {
+                        "email": "43877109+DimaSherstuyk@users.noreply.github.com",
+                        "name": "Dima Sherstuyk"
+                    },
+                    "message": "BB-23142: Skip translation localization behat tests (#36734)\n\n- Removed skipping behat tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/aee65850d9f9fb4763ee80dc257d791b597d1988"
+                },
+                {
+                    "sha": "0a5f1db50c90bf5e3ba589858df09abc7b885aa0",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22283: Behat test failed in regression build branch master export_extend_entity_fields.feature (#36728)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/0a5f1db50c90bf5e3ba589858df09abc7b885aa0"
+                },
+                {
+                    "sha": "730597ccda0de3b2d541de25f2e30a5eabc0a415",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/730597ccda0de3b2d541de25f2e30a5eabc0a415"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:40:12Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32832524632",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15558753774,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/5.1",
+            "head": "473e0a8236192785030b1a840cea1f394d890888",
+            "before": "8d1d1c3d4b4eeb51d32d92deca574b35fddc343b",
+            "commits": [
+                {
+                    "sha": "765497ea95630fb649d94238cfb782c975970037",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22283: Behat test failed in regression build branch master package/platform/src/Oro/Bundle/EntityExtendBundle/Tests/Behat/Features/export_extend_entity_fields.feature (#36709)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/765497ea95630fb649d94238cfb782c975970037"
+                },
+                {
+                    "sha": "473e0a8236192785030b1a840cea1f394d890888",
+                    "author": {
+                        "email": "yyevtushenko@oroinc.com",
+                        "name": "Yefim Yevtushenko"
+                    },
+                    "message": "BB-21120: Product Kits (#36267)\n\n- added support for product kits in checkout and orders",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/473e0a8236192785030b1a840cea1f394d890888"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:10:05Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32815923222",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15550346729,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "eae712c7d51c2f8c3b0bfbcf04037a7eb321ebb1",
+            "before": "cd4433d22713f32331c9f2ff244edbcacec79f97",
+            "commits": [
+                {
+                    "sha": "21454c59ac66c67461e2a8c934fb96a6d4df9312",
+                    "author": {
+                        "email": "43877109+DimaSherstuyk@users.noreply.github.com",
+                        "name": "Dima Sherstuyk"
+                    },
+                    "message": "BB-23142: Skip translation localization behat tests (#36725)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/21454c59ac66c67461e2a8c934fb96a6d4df9312"
+                },
+                {
+                    "sha": "eae712c7d51c2f8c3b0bfbcf04037a7eb321ebb1",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/eae712c7d51c2f8c3b0bfbcf04037a7eb321ebb1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T20:39:58Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32784432524",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15534709507,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "cd4433d22713f32331c9f2ff244edbcacec79f97",
+            "before": "f74f8c9cd9212db59d5efbbcadaa10800bd54322",
+            "commits": [
+                {
+                    "sha": "c09b427608a76d89e96186c696edfd477cd27cec",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22283: Behat test failed in regression build branch master package/platform/src/Oro/Bundle/EntityExtendBundle/Tests/Behat/Features/export_extend_entity_fields.feature (#36708)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/c09b427608a76d89e96186c696edfd477cd27cec"
+                },
+                {
+                    "sha": "cd4433d22713f32331c9f2ff244edbcacec79f97",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/cd4433d22713f32331c9f2ff244edbcacec79f97"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T20:37:44Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32733558048",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15505917172,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/master",
+            "head": "f74f8c9cd9212db59d5efbbcadaa10800bd54322",
+            "before": "39510451c91df45895bd70d867c193e6c8c4fea4",
+            "commits": [
+                {
+                    "sha": "f90811ea353e4b2af338922d1cd29a128d9e1a8a",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BB-22946: Storefront Guest API (#36513)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/f90811ea353e4b2af338922d1cd29a128d9e1a8a"
+                },
+                {
+                    "sha": "37819f4a71f97532bd7bfc13df3c44063582a61a",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22199: Check requirements for the application test environment (#36223)\n\nBAP-22199: Check requirements for the application test environment\r\n- check requirements for the application test environment\r\n- fix Jenkinsfile\r\n- update dump files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/37819f4a71f97532bd7bfc13df3c44063582a61a"
+                },
+                {
+                    "sha": "87a5545ae94095b19583d52e4c436294b22e791b",
+                    "author": {
+                        "email": "yyevtushenko@oroinc.com",
+                        "name": "Yefim Yevtushenko"
+                    },
+                    "message": "BB-21128: Product Kits In Order (#36510)\n\n* BB-22759: [Backend] Order with kit line items on a create/edit page in backoffice (#36183)\r\n\r\n- added kitItemLineItems to OrderLineItemType form\r\n- added OrderProductKitItemLineItemCollectionType and OrderProductKitItemLineItemType form type for OrderLineItem::$kitItemLineItems\r\n- added OrderProductKitItemLineItemFactory\r\n- added OrderProductKitLineItemListener that adds rendered kitItemLineItems form collection to OrderEvent data\r\n- added order-product-kit-line-item-component js component to handle kitItemLineItems collection in order entry point response\r\n\r\n* BB-22756: [Backend] Update backoffice API for OrderProductKitItemLineItem (#36190)\r\n\r\n- added OrderProductKitItemLineItem config to the backoffice API;\r\n- added documentation;\r\n- added UpdateOrderProductKitItemLineItemProduct API processor which sets a product for OrderProductKitItemLineItem by provided product SKU;\r\n- added AddKitItemLineItemToLineItem API processor which adds OrderProductKitItemLineItem to the OrderLineItem;\r\n- used UpdatePriceByValueAndCurrency API processor to update price of OrderProductKitItemLineItem;\r\nupdated AddAssociatedOrderToUpdateTotals API processor in order to add an order of the created OrderProductKitItemLineItem to the list of orders which totals need to be recalculated\r\n\r\n* BB-22758: [Backend] Order view page in backoffice (#36234)\r\n\r\n- added \"kit_configuration\" template with following data: kit item name, kit item product, quantity, unit, price;\r\n- used \"kit_configuration\" template in Product column of \"order-line-items-grid\" datagrid\r\n\r\n* BB-22761: [Backend] Order with kit line items on a view page on storefront (#36235)\r\n\r\n- added \"frontendKitConfiguration\" template with following data: kit item name, kit item product, quantity, unit, price;\r\n- used \"frontendKitConfiguration\" template in \"kitConfiguration\" column of \"order-line-items-grid-frontend\" datagrid;\r\n- added \"kitConfiguration\" column to the \"order-line-items-grid-frontend\" datagrid\r\n\r\n* BB-22757: [Backend] Update storefront API for OrderProductKitItemLineItem (#36224)\r\n\r\n- added API storefront orderkititemlineitems resource config;\r\n- added documentation;\r\n- added checksum generation;\r\n- added FillOrderProductKitItemLineItemPrice and RememberOrderProductKitItemLineItemPrice to store and validate submitted price of OrderProductKitItemLineItem;\r\n- added DisableOrderProductKitItemLineItemCreation to disable create action for OrderProductKitItemLineItem;\r\n- added OrderProductKitItemLineItemAccessRule to deny access OrderProductKitItemLineItem that belongs to not accessible OrderLineItem;\r\n- added guest access providers\r\n\r\n* BB-22762: [Backend] Re-order with kits line items (#36252)\r\n\r\n- added ProductKitItemLineItemConverter that converts instance of ProductKitItemLineItemInterface to the CheckoutProductKitItemLineItem;\r\nused ProductKitItemLineItemConverter in the OrderLineItemConverter and ShoppingListLineItemConverter;\r\n- added validation checks through validator to the OrderLineItemConverter instead of previous self-validation logic;\r\n- added \"order_line_item_to_checkout_line_item_convert\" validation group and used it in the OrderLineItemConverter;\r\n- added validation rules for checkout line item\r\n\r\n* BB-22826: Backend] Fix mapping form error property path to the included data path (#36287)\r\n\r\n- added recursively find proper field with error and fix it error path;\r\n- updated validation of relationships format of the included entities\r\n\r\n* BB-22914: [Backend] Remove duplicating of line item checksum generation mechanism (#36332)\r\n\r\n- moved LineItemChecksumGeneratorInterface, CompositeLineItemChecksumGenerator, HashingLineItemChecksumGenerator and ProductKitLineItemChecksumGenerator from ShoppingListBundle to ProductBundle;\r\n- removed LineItemChecksumGeneratorInterface, CompositeLineItemChecksumGenerator, HashingLineItemChecksumGenerator and ProductKitLineItemChecksumGenerator from OrderBundle;\r\n- moved tests to the ProductBundle;\r\n- updated related classes\r\n\r\n* BB-22763: [Backend] Update email templates for use with product kits (#36325)\r\n\r\n- updated LineItemsExtension in order to collect product kit configuration for order_confirmation_email template;\r\n- updated order_confirmation_email template in order to show product kit configuration;\r\n- updated PricingDataProcessor in order to skip getting prices for product kits\r\n\r\n* BB-22779: [Backend] Prices for product kit line items in order (#36366)\r\n\r\n- removed TierPriceEventListener, added OrderLineItemTierPricesEventListener instead to provide tier prices for product kit line items\r\n- added price field to OrderProductKitItemLineItemType\r\n- added checksum data to OrderProductKitLineItemListener to keep line item checksum up-to-date with its configuration\r\n- fixed productUnitCode might be empty in ProductKitLineItemChecksumGenerator\r\n- decomposed ProductKitLineItemPriceCriteriaFactory into ProductKitLineItemPriceCriteriaBuilderFactory\r\n- added OrderProductPriceProvider to provide prices for all products present in an order\r\n- added ProductLineItemProductPriceProvider to calculate tier prices for product kit line item\r\n- removed unnecessary CollectionType parent from the OrderProductKitItemLineItemCollectionType\r\n- added kit-item-line-item-view JS component\r\n- updated line-item-product-prices-view to take into account checksum when searching for tier prices\r\n\r\n* BB-22938: [Backend] Product kit line item price in API (#36421)\r\n\r\n* BB-22938: [Backend] Product kit line item price in API\r\n- made use of ProductLineItemPriceProvider in FillOrderLineItemPrice and FillOrderProductKitItemLineItemPrice\r\n- removed ComputeLineItemPrice, added ComputeShoppingListLineItemPrice and ComputeShoppingListProductKitItemLineItemPrice instead\r\n- made use of ProductLineItemPriceProvider in PriceMatcher\r\n- updated OrderTaxesListener to remove PriceMatcher as prices are already filled at this point by \\Oro\\Bundle\\OrderBundle\\Form\\Type\\EventListener\\SubtotalSubscriber\r\n- removed unused controller actions \\Oro\\Bundle\\PricingBundle\\Controller\\Frontend\\AjaxProductPriceController::getMatchingPriceAction and \\Oro\\Bundle\\PricingBundle\\Controller\\AjaxProductPriceController::getMatchingPriceAction\r\n- removed unused MatchingPriceProvider\r\n- removed unused MatchingPriceEventListener\r\n- updated functional tests\r\n- fixed OrderProductKitItemLineItemCollectionType does not exclude empty kit items for new order line items\r\n\r\n* BB-22965: Update design of order view pages (#36451)\r\n\r\n* BB-22965: Update design of order view pages\r\n- add import to backoffice asset.yml\r\n- add product styles for backoffice\r\n\r\n* BB-22826: [Backend] Fix mapping form error property path to the included data path (#36449)\r\n\r\n- updated form error mapping in case of not found form field\r\n\r\n* BB-22760: [Backend] Order with kit line items submit in backoffice (#36387)\r\n\r\n- updated validation constraints for OrderLineItem and OrderProductKitItemLineItem entities\r\n- added order_create and order_update validation groups to OrderController\r\n- added minimumQuantity, maximumQuantity, unitPrecision, productId, kitItemId fields to OrderProductKitItemLineItem\r\n- renamed OrderProductKitItemLineItem::$kitItemOptional to $optional\r\n- updated api configs, api docs, api tests with new fields\r\n- updated installer and migrations\r\n- added OrderLineItemChecksumListener for OrderLineItemType to set OrderLineItem::$checksum on submit\r\n- added OrderLineItemProductListener to update kitItemLineItems field options on submit in OrderLineItemType\r\n- added OrderProductKitItemLineItemCollectionRemovingListener to clear kitItemLineItems collection from empty optional elements\r\n- added OrderProductKitItemLineItemDefaultDataListener to set default data in OrderProductKitItemLineItemType form\r\n- added OrderProductKitItemLineItemExistingCollectionListener to update required option and add ghost elements for already existing kit item line items\r\n- added OrderProductKitItemLineItemGhostOptionListener to add a ghost option product to OrderProductKitItemLineItemType to avoid form error for already existing and invalid kit item line items\r\n- added OrderProductKitLineItemChecksumGenerator to take into account productId, kitItemId and price fields of kit item line items\r\n- updated OrderProductPriceProvider to take into account products explicitly specified in kit item line items\r\n- updated ProductLineItemProductPriceProvider to make it possible to work with kit item line items that do not have a kit item or product\r\n- updated ShippingKitItemLineItem to make it work with kit item line items without product unit\r\n- added EntityStateChecker for checking if an entity is new or changed\r\n- added AdaptivelyValidCollection constraint and validator to give an ability to validate entities collection with different validation groups depending on the status of each entity\r\n- added OrderKitItemLineItemProductAllowed constraint and validator for checking if a product is allowed for use in kit item line item\r\n- added OrderKitItemLineItemProductUnitAllowed constraint and validator for checking if a product unit is allowed for use in kit item line item\r\n- added oro_order.product_kit.checker.product_kit_item_product_availability_checker for checking if a kit item product is allowed for use in an order\r\n- added oro_order.product_kit.provider.product_kit_item_products to get array of kit item products allowed for use in an order\r\n\r\n* BB-22765: [Backend] Behat tests for storefront (#36380)\r\n\r\n- added HasSupportedInventoryStatus validation constraint in order to check if product has supported inventory status;\r\n- used HasSupportedInventoryStatus for checkout line item product validation;\r\n- updated behats with kit item line items data in order view page and order confirmation emails;\r\n- added the behat test to check Re-Order existing Orders with Product Kits\r\n\r\n* BB-21128: Product Kits In Order\r\n\r\n- reverted removing of required tests\r\n- removed obsolete code\r\n\r\n* BB-22966: [Frontend] Update design of order edit page with product kits (#36471)\r\n\r\n- refactoring and review kit-item-line-item-view.js\r\n- add matched price kit-item-line-item-product-prices-view.js\r\n- refactoring markup and styles\r\n\r\n* BB-22768: [Backend] Changelog & documentation (#36497)\r\n\r\n- moved ProductKitAvailabilityChecker, ProductKitItemAvailabilityChecker, ProductKitItemProductAvailabilityChecker to ProductBundle\r\n- moved ProductKitItemsProvider, ProductKitItemProductsProvider to ProductBundle\r\n- moved OrderKitItemLineItemProductAllowed to ProductKitItemLineItemProductAvailable in ProductBundle\r\n- moved OrderKitItemLineItemProductUnitAllowed to ProductKitItemLineItemProductUnitAvailable in ProductBundle\r\n- made use of ProductKitItemLineItemProductAvailable and ProductKitItemLineItemProductUnitAvailable in validation configs of ShoppingListBundle and CheckoutBundle\r\n- updated changelog for platform and commerce packages\r\n\r\n* BB-22766: [Backend] XSS tests (#36509)\r\n\r\n- updated fixtures with an order kit line item\r\n\r\n* BB-22764: [Backend] Behat tests for back-office (#36584)\r\n\r\n- added behat tests\r\n- renamed label Matched Price to List Price\r\n- fixed missing unit is shown as translation key\r\n- added ProductUnitPrecisionAwareInterface, made use of it in OrderProductKitItemLineItem\r\n- added ProductKitItemLineItemQuantityUnitPrecision constraint and validator\r\n- fixed broken prices when line items share same product kit but kit item line items have overridden prices\r\n- updated ProductKitItemLineItemProductAvailable and ProductKitItemLineItemProductUnitAvailable to allow to specify fields in ifChanged option\r\n\r\n* BB-23091: [Backend] Unify relations to ProductUnit across OrderProductKitItemLineItem and CheckoutProductKitItemLineItem (#36621)\r\n\r\n- renamed CheckoutProductKitItemLineItem::$unit to $productUnit\r\n- renamed OrderProductKitItemLineItem::$unit to $productUnit\r\n- renamed OrderProductKitItemLineItem::$unitCode to $productUnitCode\r\n- renamed OrderProductKitItemLineItem::$unitPrecision to $productUnitPrecision\r\n- renamed ProductUnitPrecisionAwareInterface::getUnitPrecision to getProductUnitPrecision\r\n- updated migrations, translations, validation constraints\r\n- updated unit, functional, behat tests\r\n\r\n* BB-23094: [Backend] Resolve the conflicts with GeneralChecksumGenerat\u2026 (#36632)\r\n\r\n- moved checksum generators out of the product kit namespace to LineItemChecksumGenerator\r\n- added GeneralLineItemChecksumGenerator to ProductBundle\r\n- updated changelog\r\n\r\n* BB-23099: Select product grid doesn't contain product kits (#36672)\r\n\r\n- added the ability to specify product type via parameters in products-select-grid\r\n- added grid_parameters option to product field in OrderLineItemType\r\n\r\n* BB-21128: Product Kits In Order\r\n- moved the product kit behat tests to the regression builds",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/87a5545ae94095b19583d52e4c436294b22e791b"
+                },
+                {
+                    "sha": "f74f8c9cd9212db59d5efbbcadaa10800bd54322",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/f74f8c9cd9212db59d5efbbcadaa10800bd54322"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T20:41:26Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32727111103",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15502658336,
+            "size": 8,
+            "distinct_size": 8,
+            "ref": "refs/heads/5.1",
+            "head": "8d1d1c3d4b4eeb51d32d92deca574b35fddc343b",
+            "before": "c3f70fb24c48a2b8cd78af4144c3abfad10b54a6",
+            "commits": [
+                {
+                    "sha": "807811645dd2647655374ee5cc3aa60328724913",
+                    "author": {
+                        "email": "yyevtushenko@oroinc.com",
+                        "name": "Yefim Yevtushenko"
+                    },
+                    "message": "BAP-22234: DataUpdateTopicSender is running slow (#36551)\n\n- fixed stream_select takes much time when waiting for data\r\n- added polling when waiting for data\r\n- added return data from stream as soon as it appears instead of waiting whole timeout",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/807811645dd2647655374ee5cc3aa60328724913"
+                },
+                {
+                    "sha": "d6ca92c996c21295547ffcc5a8e1d8334d116d04",
+                    "author": {
+                        "email": "ymuratov@oroinc.com",
+                        "name": "Yurii Muratov"
+                    },
+                    "message": "BB-22989: Seller Product Import Not Working (#36516)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/d6ca92c996c21295547ffcc5a8e1d8334d116d04"
+                },
+                {
+                    "sha": "3c416dd33186ecec3b67124c34cf06ff4ffbd00f",
+                    "author": {
+                        "email": "x86demon@users.noreply.github.com",
+                        "name": "Dmitry Khrysev"
+                    },
+                    "message": "BB-22948: Impossible to use product attribute values in \"Price For Quantity\" field of price calculation rules (#36523)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/3c416dd33186ecec3b67124c34cf06ff4ffbd00f"
+                },
+                {
+                    "sha": "e46129c4ab76504ca9e18ed50c9602f253bdbde2",
+                    "author": {
+                        "email": "20385010+dsyrvachov@users.noreply.github.com",
+                        "name": "Dmytro Syrvachov"
+                    },
+                    "message": "BB-23109: CommandRunnerTest.php test fails in 5.1 and 5.0 brunches - 5.1 (#36681)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/e46129c4ab76504ca9e18ed50c9602f253bdbde2"
+                },
+                {
+                    "sha": "542c161addf24f44e7aec575c724aae16e48923e",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BAP-22197: Aggregated Context for Email Threads (#36441)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/542c161addf24f44e7aec575c724aae16e48923e"
+                },
+                {
+                    "sha": "7d3e0534c8a88cb8cef0346b353c78fdd1b3ecc3",
+                    "author": {
+                        "email": "106163563+eugene-zibrov@users.noreply.github.com",
+                        "name": "Eugene Zibrov"
+                    },
+                    "message": "BAP-22052: Possible cyclic relationship errors building business unit owner tree (#36575)\n\n- modified OwnerTreeProvider(added recursive query)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/7d3e0534c8a88cb8cef0346b353c78fdd1b3ecc3"
+                },
+                {
+                    "sha": "987c033a7394317f6f540c02475ef55e847238b0",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BB-22946: Storefront Guest API (#36514)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/987c033a7394317f6f540c02475ef55e847238b0"
+                },
+                {
+                    "sha": "8d1d1c3d4b4eeb51d32d92deca574b35fddc343b",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22199: Check requirements for the application test environment (#36289)\n\nBAP-22199: Check requirements for the application test environment\r\n- check requirements for the application test environment\r\n- fix Jenkinsfile\r\n- update dump files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/8d1d1c3d4b4eeb51d32d92deca574b35fddc343b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T15:36:02Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32704126648",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15491016917,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/master",
+            "head": "39510451c91df45895bd70d867c193e6c8c4fea4",
+            "before": "311dca60b41540d79f152064c8894d735c57a327",
+            "commits": [
+                {
+                    "sha": "e3eaacf118be393b9a59f09e8cd70fb2aa2f31a9",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22254: Upgrade hwi/oauth-bundle to 2.x (#36506)\n\nCo-authored-by: mkotliar <mkotliar@oroinc.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/e3eaacf118be393b9a59f09e8cd70fb2aa2f31a9"
+                },
+                {
+                    "sha": "adab936ce8ce5abfc1ea327bac64168d98d304c2",
+                    "author": {
+                        "email": "106163563+eugene-zibrov@users.noreply.github.com",
+                        "name": "Eugene Zibrov"
+                    },
+                    "message": "BAP-22052: Possible cyclic relationship errors building business unit owner tree (#36563)\n\n- modified OwnerTreeProvider(added recursive query)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/adab936ce8ce5abfc1ea327bac64168d98d304c2"
+                },
+                {
+                    "sha": "b9fef390cabfa40a81838924012cae9e01f57fcf",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BAP-22197: Aggregated Context for Email Threads (#36440)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/b9fef390cabfa40a81838924012cae9e01f57fcf"
+                },
+                {
+                    "sha": "39510451c91df45895bd70d867c193e6c8c4fea4",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/39510451c91df45895bd70d867c193e6c8c4fea4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T20:39:38Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32695960321",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15487019088,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/5.0",
+            "head": "3c79b7fc6064179629495af29d3b0c8af2db8e6b",
+            "before": "490b8cb92a658c1583283ed787aab14b60ba0799",
+            "commits": [
+                {
+                    "sha": "6fe5b900bcc7688bfb143304b8e17120adb0d6ef",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22231: Fixed date issues after PHP patch version update  (#36392)\n\n- commented the first date of week expectation for zh_CN as it depends on Intl version\r\n- fixed date formatting to be consistent across PHP versions with different Intl version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/6fe5b900bcc7688bfb143304b8e17120adb0d6ef"
+                },
+                {
+                    "sha": "21af71d1142ed22940e29d5203c942be0265d720",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22015: Layout expressions does not support double quote wrapping (#36381) (#36410)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/21af71d1142ed22940e29d5203c942be0265d720"
+                },
+                {
+                    "sha": "778a055bd869e6658307dfb0c1ed6d7cd864c4e9",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BB-22860: Application couldn't be installed form 4.2.17 and 5.0.12 public tags (#36460)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/778a055bd869e6658307dfb0c1ed6d7cd864c4e9"
+                },
+                {
+                    "sha": "3c79b7fc6064179629495af29d3b0c8af2db8e6b",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/5.0' into 5.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/3c79b7fc6064179629495af29d3b0c8af2db8e6b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T15:12:19Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32670945969",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15474676307,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "311dca60b41540d79f152064c8894d735c57a327",
+            "before": "78d96d02d8f29b5c3d8738e9672f2a38f75df9c3",
+            "commits": [
+                {
+                    "sha": "b08f332b92695a3b17d15d917a193d4ae2a746c1",
+                    "author": {
+                        "email": "ValeriyYustunyk@users.noreply.github.com",
+                        "name": "Valerii Yustyniuk"
+                    },
+                    "message": "BB-22996: Incorrect alignment availability status in Shopping List on mobile (#36601)\n\n* BB-23042: Slick slider resize error\r\n* BB-22996: Incorrect alignment availability status in Shopping List on mobile",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/b08f332b92695a3b17d15d917a193d4ae2a746c1"
+                },
+                {
+                    "sha": "311dca60b41540d79f152064c8894d735c57a327",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/311dca60b41540d79f152064c8894d735c57a327"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T20:42:57Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32637200019",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15457992978,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "78d96d02d8f29b5c3d8738e9672f2a38f75df9c3",
+            "before": "ca9814cf3c31aec15f9ba8be18a82dc8996916d2",
+            "commits": [
+                {
+                    "sha": "1c8677d72b68bae97c64b11fc09eef48832cfdc9",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BAP-22275: Simplify logic in MaintenanceRestrictionsChecker (#36658)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/1c8677d72b68bae97c64b11fc09eef48832cfdc9"
+                },
+                {
+                    "sha": "c4432ffa70f310ef31dcfbde04d4d0471ca2de3d",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22276: Broken XSS tests - can not find Logged in to (#36668)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/c4432ffa70f310ef31dcfbde04d4d0471ca2de3d"
+                },
+                {
+                    "sha": "78d96d02d8f29b5c3d8738e9672f2a38f75df9c3",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/78d96d02d8f29b5c3d8738e9672f2a38f75df9c3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-17T20:43:34Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32604310409",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15441792282,
+            "size": 5,
+            "distinct_size": 5,
+            "ref": "refs/heads/master",
+            "head": "ca9814cf3c31aec15f9ba8be18a82dc8996916d2",
+            "before": "dab029a83529d94bfd14283b6e3096690b018532",
+            "commits": [
+                {
+                    "sha": "43a9e126bd49fa3b148ce9e228513c2b83758e88",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BAP-22270: Add strict types to events in ConfigBundle (#36651)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/43a9e126bd49fa3b148ce9e228513c2b83758e88"
+                },
+                {
+                    "sha": "bb818c0775a5b97858a94e3a13359ecc62e7901a",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BAP-22271: Add strict types to config scope managers (#36652)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/bb818c0775a5b97858a94e3a13359ecc62e7901a"
+                },
+                {
+                    "sha": "76396bd1c30db80e464ba835b6dcfc4c3a7b6551",
+                    "author": {
+                        "email": "vsoroka@oroinc.com",
+                        "name": "Vova Soroka"
+                    },
+                    "message": "BAP-22272: Move WebsiteAwareEntityHelper from NotificationBundle to WebsiteBundle (#36653)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/76396bd1c30db80e464ba835b6dcfc4c3a7b6551"
+                },
+                {
+                    "sha": "e1fdc2bb97cc407fbdbb02e921fddeeab22a64e1",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22237: Upgdated twig-inspector to v1.1\n- Updated the documentation to match the symfony flex application structure\n- Increased the version to 1.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/e1fdc2bb97cc407fbdbb02e921fddeeab22a64e1"
+                },
+                {
+                    "sha": "ca9814cf3c31aec15f9ba8be18a82dc8996916d2",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/ca9814cf3c31aec15f9ba8be18a82dc8996916d2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-16T20:41:09Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32553344170",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15413434763,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "dab029a83529d94bfd14283b6e3096690b018532",
+            "before": "a87b23e638b045fecc4f5981db304294bfbed4b6",
+            "commits": [
+                {
+                    "sha": "96b09e0027066ae1441d77edd1cf42b2f187bacd",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22265: In behat tests automate the closing of the \"Organization Notice\" popup window (#36613)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/96b09e0027066ae1441d77edd1cf42b2f187bacd"
+                },
+                {
+                    "sha": "dab029a83529d94bfd14283b6e3096690b018532",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/dab029a83529d94bfd14283b6e3096690b018532"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-13T20:41:09Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32525468644",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15399415667,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "a87b23e638b045fecc4f5981db304294bfbed4b6",
+            "before": "0fe186b45bce831d3be34d0562ca64c79320a840",
+            "commits": [
+                {
+                    "sha": "7177c63dfc662634f13d72687e43c135ba540628",
+                    "author": {
+                        "email": "ValeriyYustunyk@users.noreply.github.com",
+                        "name": "Valerii Yustyniuk"
+                    },
+                    "message": "BB-23042: Slick slider on resize error (#36590)\n\n* BB-23042: Slick slider resize error",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/7177c63dfc662634f13d72687e43c135ba540628"
+                },
+                {
+                    "sha": "f746e0dbd063dbcc93f262740d0113066a470a1d",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22253: Use symfony password hashers instead of password encoders (#36483)\n\n- replaced encoders with hashers\r\n- used more secure hashing algorithm for new users but left the fallback to allow login of users with not updated password hash\r\n- added faker provider for password hashing for users\r\n- fixed fixtures for user and customer user\r\n- increased number of parallel jobs in behat wiring\r\n\r\n\r\nCo-authored-by: Julia Khrysieva <ikhrysieva@oroinc.com>\r\nCo-authored-by: Viacheslav Dubrovskyi <vdubrovskyi@oroinc.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/f746e0dbd063dbcc93f262740d0113066a470a1d"
+                },
+                {
+                    "sha": "a87b23e638b045fecc4f5981db304294bfbed4b6",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/a87b23e638b045fecc4f5981db304294bfbed4b6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-12T20:43:04Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32494696941",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15384012537,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "0fe186b45bce831d3be34d0562ca64c79320a840",
+            "before": "fa3217de27ed1797581bccf16f5cd70b8ec1af6c",
+            "commits": [
+                {
+                    "sha": "25084e498a1d8d37ae8cc75f3651241ede89ffd0",
+                    "author": {
+                        "email": "x86demon@users.noreply.github.com",
+                        "name": "Dmitry Khrysev"
+                    },
+                    "message": "BB-22948: Impossible to use product attribute values in \"Price For Quantity\" field of price calculation rules (#36503)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/25084e498a1d8d37ae8cc75f3651241ede89ffd0"
+                },
+                {
+                    "sha": "0fe186b45bce831d3be34d0562ca64c79320a840",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/0fe186b45bce831d3be34d0562ca64c79320a840"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-11T20:39:59Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32462186086",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15367944487,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "fa3217de27ed1797581bccf16f5cd70b8ec1af6c",
+            "before": "05a0b3e1354e36c528fe220f0b03c499d387a13c",
+            "commits": [
+                {
+                    "sha": "1b3d3c6aba38e001933e38c66b78d90d8b425a86",
+                    "author": {
+                        "email": "ymuratov@oroinc.com",
+                        "name": "Yurii Muratov"
+                    },
+                    "message": "BB-22989: Seller Product Import Not Working (#36501)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/1b3d3c6aba38e001933e38c66b78d90d8b425a86"
+                },
+                {
+                    "sha": "fa3217de27ed1797581bccf16f5cd70b8ec1af6c",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/fa3217de27ed1797581bccf16f5cd70b8ec1af6c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-10T20:43:03Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32322137343",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15294169990,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "05a0b3e1354e36c528fe220f0b03c499d387a13c",
+            "before": "57e2076d3737ec97d6a29eeba50f5d57904ce83b",
+            "commits": [
+                {
+                    "sha": "adb2163a61f1c5ab76996f8d6b17aa6fdf2f361c",
+                    "author": {
+                        "email": "yyevtushenko@oroinc.com",
+                        "name": "Yefim Yevtushenko"
+                    },
+                    "message": "BAP-22234: DataUpdateTopicSender is running slow (#36550)\n\n- fixed stream_select takes much time when waiting for data\r\n- added polling when waiting for data\r\n- added return data from stream as soon as it appears instead of waiting whole timeout",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/adb2163a61f1c5ab76996f8d6b17aa6fdf2f361c"
+                },
+                {
+                    "sha": "05a0b3e1354e36c528fe220f0b03c499d387a13c",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/05a0b3e1354e36c528fe220f0b03c499d387a13c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-04T20:40:56Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32293434029",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 10014710,
+            "login": "carbsrule",
+            "display_login": "carbsrule",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/carbsrule",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10014710?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/oroinc/platform/issues/1105",
+                "repository_url": "https://api.github.com/repos/oroinc/platform",
+                "labels_url": "https://api.github.com/repos/oroinc/platform/issues/1105/labels{/name}",
+                "comments_url": "https://api.github.com/repos/oroinc/platform/issues/1105/comments",
+                "events_url": "https://api.github.com/repos/oroinc/platform/issues/1105/events",
+                "html_url": "https://github.com/oroinc/platform/pull/1105",
+                "id": 1910725371,
+                "node_id": "PR_kwDOAJ94Ec5bFUAl",
+                "number": 1105,
+                "title": "Create console command to view global config",
+                "user": {
+                    "login": "carbsrule",
+                    "id": 10014710,
+                    "node_id": "MDQ6VXNlcjEwMDE0NzEw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10014710?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/carbsrule",
+                    "html_url": "https://github.com/carbsrule",
+                    "followers_url": "https://api.github.com/users/carbsrule/followers",
+                    "following_url": "https://api.github.com/users/carbsrule/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/carbsrule/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/carbsrule/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/carbsrule/subscriptions",
+                    "organizations_url": "https://api.github.com/users/carbsrule/orgs",
+                    "repos_url": "https://api.github.com/users/carbsrule/repos",
+                    "events_url": "https://api.github.com/users/carbsrule/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/carbsrule/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-09-25T05:57:56Z",
+                "updated_at": "2023-10-03T23:33:43Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/oroinc/platform/pulls/1105",
+                    "html_url": "https://github.com/oroinc/platform/pull/1105",
+                    "diff_url": "https://github.com/oroinc/platform/pull/1105.diff",
+                    "patch_url": "https://github.com/oroinc/platform/pull/1105.patch",
+                    "merged_at": null
+                },
+                "body": "Currently an administrator can update the Oro config via the CLI using `oro:config:update`\r\n\r\nThis adds `oro:config:view` which enables viewing the current config",
+                "reactions": {
+                    "url": "https://api.github.com/repos/oroinc/platform/issues/1105/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/oroinc/platform/issues/1105/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/oroinc/platform/issues/comments/1745886164",
+                "html_url": "https://github.com/oroinc/platform/pull/1105#issuecomment-1745886164",
+                "issue_url": "https://api.github.com/repos/oroinc/platform/issues/1105",
+                "id": 1745886164,
+                "node_id": "IC_kwDOAJ94Ec5oEBvU",
+                "user": {
+                    "login": "carbsrule",
+                    "id": 10014710,
+                    "node_id": "MDQ6VXNlcjEwMDE0NzEw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10014710?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/carbsrule",
+                    "html_url": "https://github.com/carbsrule",
+                    "followers_url": "https://api.github.com/users/carbsrule/followers",
+                    "following_url": "https://api.github.com/users/carbsrule/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/carbsrule/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/carbsrule/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/carbsrule/subscriptions",
+                    "organizations_url": "https://api.github.com/users/carbsrule/orgs",
+                    "repos_url": "https://api.github.com/users/carbsrule/repos",
+                    "events_url": "https://api.github.com/users/carbsrule/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/carbsrule/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-03T23:33:43Z",
+                "updated_at": "2023-10-03T23:33:43Z",
+                "author_association": "NONE",
+                "body": "@mbessolov \r\n\r\n1. Pretty printing is simple enough and I have (uncommitted) code to handle array|object|bool configs\r\n2. Seems possible using `oro_config.provider.system_configuration.form_provider` (`Oro\\Bundle\\ConfigBundle\\Provider\\SystemConfigurationFormProvider`) to work out how the field is configured, although TBH I'm not sure if this is desired behaviour. The `oro:config:update` command is completely unaware of the system config UI, and thus, for example, will dump a plain text value into a field which is meant to be encrypted, so for me it makes sense for this mirror command to behave in a similarly unaware fashion. A user who has access to the CLI likely has access to the DB anyway, so this is just (meant to be) a convenient way of grabbing the value without needing to write an SQL query or manually decode the value. Thoughts?\r\n3. I haven't looked at this yet but can do so",
+                "reactions": {
+                    "url": "https://api.github.com/repos/oroinc/platform/issues/comments/1745886164/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-03T23:33:43Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32290401266",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15278397168,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "57e2076d3737ec97d6a29eeba50f5d57904ce83b",
+            "before": "ac64827ccbf70bbc70f3b162f06c34da8abada4d",
+            "commits": [
+                {
+                    "sha": "7ae4224523a7a462b6d15d25a85e132652edbf83",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22198: Read-only TWIG cache in runtime (#36544)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/7ae4224523a7a462b6d15d25a85e132652edbf83"
+                },
+                {
+                    "sha": "57e2076d3737ec97d6a29eeba50f5d57904ce83b",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/57e2076d3737ec97d6a29eeba50f5d57904ce83b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-03T20:37:47Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32211627441",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15235935529,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "ac64827ccbf70bbc70f3b162f06c34da8abada4d",
+            "before": "628f153a2988696a39f2600a65477007bb7ff855",
+            "commits": [
+                {
+                    "sha": "f50435dc2c812714dd94ce79b86805153ab5d7a5",
+                    "author": {
+                        "email": "vchekanovskyi@oroinc.com",
+                        "name": "Viacheslav Chekanovskiy"
+                    },
+                    "message": "BAP-22258: Update webpack config (#36534)\n\n* BAP-22258: Update webpack config\r\n\r\n* Updated dev.locks\r\n\r\n| Production Changes        | From    | To      | Compare                                                                            |\r\n|---------------------------|---------|---------|------------------------------------------------------------------------------------|\r\n| doctrine/deprecations     | v1.1.1  | 1.1.2   | [...](https://github.com/doctrine/deprecations/compare/v1.1.1...1.1.2)             |\r\n| laminas/laminas-stdlib    | 3.17.0  | 3.18.0  | [...](https://github.com/laminas/laminas-stdlib/compare/3.17.0...3.18.0)           |\r\n| microsoft/microsoft-graph | 1.106.0 | 1.107.0 | [...](https://github.com/microsoftgraph/msgraph-sdk-php/compare/1.106.0...1.107.0) |\r\n| nette/utils               | v4.0.1  | v4.0.2  | [...](https://github.com/nette/utils/compare/v4.0.1...v4.0.2)                      |\r\n| oro/doctrine-extensions   | 2.0.2   | 2.0.3   | [...](https://github.com/oroinc/doctrine-extensions/compare/2.0.2...2.0.3)         |\r\n| phpseclib/phpseclib       | 3.0.21  | 3.0.23  | [...](https://github.com/phpseclib/phpseclib/compare/3.0.21...3.0.23)              |\r\n| phpstan/phpdoc-parser     | 1.24.0  | 1.24.2  | [...](https://github.com/phpstan/phpdoc-parser/compare/1.24.0...1.24.2)            |\r\n| psr/http-client           | 1.0.2   | 1.0.3   | [...](https://github.com/php-fig/http-client/compare/1.0.2...1.0.3)                |\r\n\r\n| Dev Changes                        | From   | To     | Compare                                                                               |\r\n|------------------------------------|--------|--------|---------------------------------------------------------------------------------------|\r\n| friends-of-behat/mink-extension    | v2.7.2 | v2.7.3 | [...](https://github.com/FriendsOfBehat/MinkExtension/compare/v2.7.2...v2.7.3)        |\r\n| friends-of-behat/symfony-extension | v2.4.0 | v2.4.1 | [...](https://github.com/FriendsOfBehat/SymfonyExtension/compare/v2.4.0...v2.4.1)     |\r\n| pdepend/pdepend                    | 2.14.0 | 2.15.1 | [...](https://github.com/pdepend/pdepend/compare/2.14.0...2.15.1)                     |\r\n| phpunit/php-code-coverage          | 9.2.27 | 9.2.29 | [...](https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.27...9.2.29) |\r\n\r\n---------\r\n\r\nCo-authored-by: orocrmdeployer <orocrmdeployer@oroinc.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/f50435dc2c812714dd94ce79b86805153ab5d7a5"
+                },
+                {
+                    "sha": "ac64827ccbf70bbc70f3b162f06c34da8abada4d",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/ac64827ccbf70bbc70f3b162f06c34da8abada4d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-29T20:38:36Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32211555510",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15235898659,
+            "size": 8,
+            "distinct_size": 8,
+            "ref": "refs/heads/5.1",
+            "head": "c3f70fb24c48a2b8cd78af4144c3abfad10b54a6",
+            "before": "f930f1556e30c8377bde5052a55d9c3678e04a81",
+            "commits": [
+                {
+                    "sha": "cf360317012c39a49b472042eac3b6d576f87a17",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22231: Fixed date issues after PHP patch version update  (#36391)\n\n- commented the first date of week expectation for zh_CN as it depends on Intl version\r\n- fixed date formatting to be consistent across PHP versions with different Intl version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/cf360317012c39a49b472042eac3b6d576f87a17"
+                },
+                {
+                    "sha": "777109d7162130ea35e383210b010116ab63de85",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22015: Layout expressions does not support double quote wrapping (#36381) (#36409)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/777109d7162130ea35e383210b010116ab63de85"
+                },
+                {
+                    "sha": "ea94038020621e4edc7e9c126db05b89874bb1ba",
+                    "author": {
+                        "email": "39378223+oro-panasiukr@users.noreply.github.com",
+                        "name": "oro-panasiukr"
+                    },
+                    "message": "BB-22393: Add ACL support for product fields (#36262)\n\n* BB-22393: Add ACL support for product fields (#35150)\r\n\r\n* The behaviour of checking access to fields has been fixed, now fields without permissions return a positive result when checked.\r\n* Changed the behaviour of datagrid that displays products. Now all columns, filters and sorters are removed from the datagrid if there are no permissions.\r\n* The product view page has been changed. All fields without accesses are not displayed on the product view page and if all fields in a group are missing, the group will also be deleted.\r\n* The product edit page has been changed. All fields without accesses will be deleted or if the 'show_restriction' parameter is available, they will be blocked without the right to modify them. The error output and logging have also been changed. Now all field errors are displayed as a single messag error with a list of fields. Errors are logged individually for each field.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/ea94038020621e4edc7e9c126db05b89874bb1ba"
+                },
+                {
+                    "sha": "0074d94933c958e3c7e478b3b3efb77ac855ec12",
+                    "author": {
+                        "email": "x86demon@users.noreply.github.com",
+                        "name": "Dmitry Khrysev"
+                    },
+                    "message": "BB-22807: Make RFQ and Quote related entities extendable (#36250)\n\nBB-22807: Make RFQ and Quote related entities extendable\r\n- fixed error in behat form filling for dates\r\n- behats fixes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/0074d94933c958e3c7e478b3b3efb77ac855ec12"
+                },
+                {
+                    "sha": "da48727c6d7f47845573f0ef80aaacd939f1e2b3",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22250: Session hangs when running behat tests (#36468)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/da48727c6d7f47845573f0ef80aaacd939f1e2b3"
+                },
+                {
+                    "sha": "001458615fb98a73b032db5de79729d99346a55d",
+                    "author": {
+                        "email": "ymuratov@oroinc.com",
+                        "name": "Yurii Muratov"
+                    },
+                    "message": "BAP-22092: Filtering ID Alerts causes error exception (#36352)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/001458615fb98a73b032db5de79729d99346a55d"
+                },
+                {
+                    "sha": "d837f50a9e1954eb0b373ee320fd9c4d0ef388d0",
+                    "author": {
+                        "email": "vchekanovskyi@oroinc.com",
+                        "name": "Viacheslav Chekanovskiy"
+                    },
+                    "message": "BB-21389: Create UndoManager for text blocks editing (#35588)\n\n* BB-21389: Create UndoManager for text blocks editing",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/d837f50a9e1954eb0b373ee320fd9c4d0ef388d0"
+                },
+                {
+                    "sha": "c3f70fb24c48a2b8cd78af4144c3abfad10b54a6",
+                    "author": {
+                        "email": "vyeromenko@oroinc.com",
+                        "name": "Vitalii Yeromenko"
+                    },
+                    "message": "BB-22705 Edit button on back-office user view page of current user leads to limited edit page",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/c3f70fb24c48a2b8cd78af4144c3abfad10b54a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-29T20:34:17Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32155153795",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15207683009,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "628f153a2988696a39f2600a65477007bb7ff855",
+            "before": "9182d3ffe678bf4ac09245ef4447a8489d864a09",
+            "commits": [
+                {
+                    "sha": "72f38dba0ab7dfcefe5fa637e0b250e4741fd9ae",
+                    "author": {
+                        "email": "vyeromenko@oroinc.com",
+                        "name": "Vitalii Yeromenko"
+                    },
+                    "message": "BB-22705 Edit button on back-office user view page of current user leads to limited edit page",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/72f38dba0ab7dfcefe5fa637e0b250e4741fd9ae"
+                },
+                {
+                    "sha": "628f153a2988696a39f2600a65477007bb7ff855",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/628f153a2988696a39f2600a65477007bb7ff855"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-27T20:39:58Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32140237901",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4511053,
+            "login": "powli",
+            "display_login": "powli",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/powli",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4511053?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1106,
+            "pull_request": {
+                "url": "https://api.github.com/repos/oroinc/platform/pulls/1106",
+                "id": 1532217518,
+                "node_id": "PR_kwDOAJ94Ec5bU8iu",
+                "html_url": "https://github.com/oroinc/platform/pull/1106",
+                "diff_url": "https://github.com/oroinc/platform/pull/1106.diff",
+                "patch_url": "https://github.com/oroinc/platform/pull/1106.patch",
+                "issue_url": "https://api.github.com/repos/oroinc/platform/issues/1106",
+                "number": 1106,
+                "state": "open",
+                "locked": false,
+                "title": "Support lazy command definition in CronDefinitionsLoadCommand",
+                "user": {
+                    "login": "powli",
+                    "id": 4511053,
+                    "node_id": "MDQ6VXNlcjQ1MTEwNTM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4511053?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/powli",
+                    "html_url": "https://github.com/powli",
+                    "followers_url": "https://api.github.com/users/powli/followers",
+                    "following_url": "https://api.github.com/users/powli/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/powli/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/powli/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/powli/subscriptions",
+                    "organizations_url": "https://api.github.com/users/powli/orgs",
+                    "repos_url": "https://api.github.com/users/powli/repos",
+                    "events_url": "https://api.github.com/users/powli/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/powli/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "When defining cron commands to be [lazy](https://symfony.com/doc/5.4/console/commands_as_services.html#console-command-service-lazy-loading), they will be loaded as instances of [LazyCommand](https://github.com/symfony/console/blob/v5.4.28/Command/LazyCommand.php) and thus fail the `$command instanceof CronCommandScheduleDefinitionInterface` check.\r\n\r\nCompare SymfonyConsole [Application::doRun](https://github.com/symfony/console/blob/6.3/Application.php#L315-L317).",
+                "created_at": "2023-09-27T11:26:39Z",
+                "updated_at": "2023-09-27T11:26:39Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/oroinc/platform/pulls/1106/commits",
+                "review_comments_url": "https://api.github.com/repos/oroinc/platform/pulls/1106/comments",
+                "review_comment_url": "https://api.github.com/repos/oroinc/platform/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/oroinc/platform/issues/1106/comments",
+                "statuses_url": "https://api.github.com/repos/oroinc/platform/statuses/8f44771a57953f17c870e59aedce363b45bac2a8",
+                "head": {
+                    "label": "powli:support-lazy-commands-for-cron-definition",
+                    "ref": "support-lazy-commands-for-cron-definition",
+                    "sha": "8f44771a57953f17c870e59aedce363b45bac2a8",
+                    "user": {
+                        "login": "powli",
+                        "id": 4511053,
+                        "node_id": "MDQ6VXNlcjQ1MTEwNTM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4511053?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/powli",
+                        "html_url": "https://github.com/powli",
+                        "followers_url": "https://api.github.com/users/powli/followers",
+                        "following_url": "https://api.github.com/users/powli/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/powli/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/powli/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/powli/subscriptions",
+                        "organizations_url": "https://api.github.com/users/powli/orgs",
+                        "repos_url": "https://api.github.com/users/powli/repos",
+                        "events_url": "https://api.github.com/users/powli/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/powli/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 697251487,
+                        "node_id": "R_kgDOKY82nw",
+                        "name": "platform",
+                        "full_name": "powli/platform",
+                        "private": false,
+                        "owner": {
+                            "login": "powli",
+                            "id": 4511053,
+                            "node_id": "MDQ6VXNlcjQ1MTEwNTM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4511053?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/powli",
+                            "html_url": "https://github.com/powli",
+                            "followers_url": "https://api.github.com/users/powli/followers",
+                            "following_url": "https://api.github.com/users/powli/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/powli/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/powli/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/powli/subscriptions",
+                            "organizations_url": "https://api.github.com/users/powli/orgs",
+                            "repos_url": "https://api.github.com/users/powli/repos",
+                            "events_url": "https://api.github.com/users/powli/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/powli/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/powli/platform",
+                        "description": "Main OroPlatform package with core functionality.",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/powli/platform",
+                        "forks_url": "https://api.github.com/repos/powli/platform/forks",
+                        "keys_url": "https://api.github.com/repos/powli/platform/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/powli/platform/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/powli/platform/teams",
+                        "hooks_url": "https://api.github.com/repos/powli/platform/hooks",
+                        "issue_events_url": "https://api.github.com/repos/powli/platform/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/powli/platform/events",
+                        "assignees_url": "https://api.github.com/repos/powli/platform/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/powli/platform/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/powli/platform/tags",
+                        "blobs_url": "https://api.github.com/repos/powli/platform/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/powli/platform/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/powli/platform/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/powli/platform/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/powli/platform/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/powli/platform/languages",
+                        "stargazers_url": "https://api.github.com/repos/powli/platform/stargazers",
+                        "contributors_url": "https://api.github.com/repos/powli/platform/contributors",
+                        "subscribers_url": "https://api.github.com/repos/powli/platform/subscribers",
+                        "subscription_url": "https://api.github.com/repos/powli/platform/subscription",
+                        "commits_url": "https://api.github.com/repos/powli/platform/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/powli/platform/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/powli/platform/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/powli/platform/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/powli/platform/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/powli/platform/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/powli/platform/merges",
+                        "archive_url": "https://api.github.com/repos/powli/platform/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/powli/platform/downloads",
+                        "issues_url": "https://api.github.com/repos/powli/platform/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/powli/platform/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/powli/platform/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/powli/platform/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/powli/platform/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/powli/platform/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/powli/platform/deployments",
+                        "created_at": "2023-09-27T10:59:16Z",
+                        "updated_at": "2023-09-27T10:59:16Z",
+                        "pushed_at": "2023-09-27T10:59:41Z",
+                        "git_url": "git://github.com/powli/platform.git",
+                        "ssh_url": "git@github.com:powli/platform.git",
+                        "clone_url": "https://github.com/powli/platform.git",
+                        "svn_url": "https://github.com/powli/platform",
+                        "homepage": "",
+                        "size": 209691,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "oroinc:master",
+                    "ref": "master",
+                    "sha": "9182d3ffe678bf4ac09245ef4447a8489d864a09",
+                    "user": {
+                        "login": "oroinc",
+                        "id": 4165718,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQxNjU3MTg=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4165718?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/oroinc",
+                        "html_url": "https://github.com/oroinc",
+                        "followers_url": "https://api.github.com/users/oroinc/followers",
+                        "following_url": "https://api.github.com/users/oroinc/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/oroinc/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/oroinc/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/oroinc/subscriptions",
+                        "organizations_url": "https://api.github.com/users/oroinc/orgs",
+                        "repos_url": "https://api.github.com/users/oroinc/repos",
+                        "events_url": "https://api.github.com/users/oroinc/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/oroinc/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 10450961,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMDQ1MDk2MQ==",
+                        "name": "platform",
+                        "full_name": "oroinc/platform",
+                        "private": false,
+                        "owner": {
+                            "login": "oroinc",
+                            "id": 4165718,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQxNjU3MTg=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/oroinc",
+                            "html_url": "https://github.com/oroinc",
+                            "followers_url": "https://api.github.com/users/oroinc/followers",
+                            "following_url": "https://api.github.com/users/oroinc/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/oroinc/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/oroinc/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/oroinc/subscriptions",
+                            "organizations_url": "https://api.github.com/users/oroinc/orgs",
+                            "repos_url": "https://api.github.com/users/oroinc/repos",
+                            "events_url": "https://api.github.com/users/oroinc/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/oroinc/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/oroinc/platform",
+                        "description": "Main OroPlatform package with core functionality.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/oroinc/platform",
+                        "forks_url": "https://api.github.com/repos/oroinc/platform/forks",
+                        "keys_url": "https://api.github.com/repos/oroinc/platform/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/oroinc/platform/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/oroinc/platform/teams",
+                        "hooks_url": "https://api.github.com/repos/oroinc/platform/hooks",
+                        "issue_events_url": "https://api.github.com/repos/oroinc/platform/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/oroinc/platform/events",
+                        "assignees_url": "https://api.github.com/repos/oroinc/platform/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/oroinc/platform/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/oroinc/platform/tags",
+                        "blobs_url": "https://api.github.com/repos/oroinc/platform/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/oroinc/platform/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/oroinc/platform/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/oroinc/platform/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/oroinc/platform/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/oroinc/platform/languages",
+                        "stargazers_url": "https://api.github.com/repos/oroinc/platform/stargazers",
+                        "contributors_url": "https://api.github.com/repos/oroinc/platform/contributors",
+                        "subscribers_url": "https://api.github.com/repos/oroinc/platform/subscribers",
+                        "subscription_url": "https://api.github.com/repos/oroinc/platform/subscription",
+                        "commits_url": "https://api.github.com/repos/oroinc/platform/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/oroinc/platform/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/oroinc/platform/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/oroinc/platform/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/oroinc/platform/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/oroinc/platform/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/oroinc/platform/merges",
+                        "archive_url": "https://api.github.com/repos/oroinc/platform/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/oroinc/platform/downloads",
+                        "issues_url": "https://api.github.com/repos/oroinc/platform/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/oroinc/platform/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/oroinc/platform/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/oroinc/platform/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/oroinc/platform/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/oroinc/platform/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/oroinc/platform/deployments",
+                        "created_at": "2013-06-03T09:06:52Z",
+                        "updated_at": "2023-09-22T12:13:43Z",
+                        "pushed_at": "2023-09-27T11:26:39Z",
+                        "git_url": "git://github.com/oroinc/platform.git",
+                        "ssh_url": "git@github.com:oroinc/platform.git",
+                        "clone_url": "https://github.com/oroinc/platform.git",
+                        "svn_url": "https://github.com/oroinc/platform",
+                        "homepage": "",
+                        "size": 209691,
+                        "stargazers_count": 625,
+                        "watchers_count": 625,
+                        "language": "PHP",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 355,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 242,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "b2b",
+                            "oroplatform",
+                            "php",
+                            "symfony"
+                        ],
+                        "visibility": "public",
+                        "forks": 355,
+                        "open_issues": 242,
+                        "watchers": 625,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/1106"
+                    },
+                    "html": {
+                        "href": "https://github.com/oroinc/platform/pull/1106"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/oroinc/platform/issues/1106"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/oroinc/platform/issues/1106/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/1106/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/1106/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/oroinc/platform/statuses/8f44771a57953f17c870e59aedce363b45bac2a8"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": true,
+                "commits": 1,
+                "additions": 4,
+                "deletions": 0,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-27T11:26:40Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32139536946",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 4511053,
+            "login": "powli",
+            "display_login": "powli",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/powli",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4511053?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "forkee": {
+                "id": 697251487,
+                "node_id": "R_kgDOKY82nw",
+                "name": "platform",
+                "full_name": "powli/platform",
+                "private": false,
+                "owner": {
+                    "login": "powli",
+                    "id": 4511053,
+                    "node_id": "MDQ6VXNlcjQ1MTEwNTM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4511053?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/powli",
+                    "html_url": "https://github.com/powli",
+                    "followers_url": "https://api.github.com/users/powli/followers",
+                    "following_url": "https://api.github.com/users/powli/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/powli/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/powli/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/powli/subscriptions",
+                    "organizations_url": "https://api.github.com/users/powli/orgs",
+                    "repos_url": "https://api.github.com/users/powli/repos",
+                    "events_url": "https://api.github.com/users/powli/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/powli/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/powli/platform",
+                "description": "Main OroPlatform package with core functionality.",
+                "fork": true,
+                "url": "https://api.github.com/repos/powli/platform",
+                "forks_url": "https://api.github.com/repos/powli/platform/forks",
+                "keys_url": "https://api.github.com/repos/powli/platform/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/powli/platform/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/powli/platform/teams",
+                "hooks_url": "https://api.github.com/repos/powli/platform/hooks",
+                "issue_events_url": "https://api.github.com/repos/powli/platform/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/powli/platform/events",
+                "assignees_url": "https://api.github.com/repos/powli/platform/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/powli/platform/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/powli/platform/tags",
+                "blobs_url": "https://api.github.com/repos/powli/platform/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/powli/platform/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/powli/platform/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/powli/platform/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/powli/platform/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/powli/platform/languages",
+                "stargazers_url": "https://api.github.com/repos/powli/platform/stargazers",
+                "contributors_url": "https://api.github.com/repos/powli/platform/contributors",
+                "subscribers_url": "https://api.github.com/repos/powli/platform/subscribers",
+                "subscription_url": "https://api.github.com/repos/powli/platform/subscription",
+                "commits_url": "https://api.github.com/repos/powli/platform/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/powli/platform/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/powli/platform/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/powli/platform/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/powli/platform/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/powli/platform/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/powli/platform/merges",
+                "archive_url": "https://api.github.com/repos/powli/platform/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/powli/platform/downloads",
+                "issues_url": "https://api.github.com/repos/powli/platform/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/powli/platform/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/powli/platform/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/powli/platform/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/powli/platform/labels{/name}",
+                "releases_url": "https://api.github.com/repos/powli/platform/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/powli/platform/deployments",
+                "created_at": "2023-09-27T10:59:16Z",
+                "updated_at": "2023-09-27T10:59:16Z",
+                "pushed_at": "2023-09-25T20:38:17Z",
+                "git_url": "git://github.com/powli/platform.git",
+                "ssh_url": "git@github.com:powli/platform.git",
+                "clone_url": "https://github.com/powli/platform.git",
+                "svn_url": "https://github.com/powli/platform",
+                "homepage": "",
+                "size": 209691,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-27T10:59:17Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32091578422",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15176219306,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "9182d3ffe678bf4ac09245ef4447a8489d864a09",
+            "before": "06fb1ccd19ce0523f3c7682d7f22d5a9dbdf3864",
+            "commits": [
+                {
+                    "sha": "15d472fbdc60d82165fc8401910b1195aabc0fe0",
+                    "author": {
+                        "email": "vchekanovskyi@oroinc.com",
+                        "name": "Viacheslav Chekanovskiy"
+                    },
+                    "message": "BB-21389: Create UndoManager for text blocks editing (#35580)\n\n* BB-21389: Create UndoManager for text blocks editing",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/15d472fbdc60d82165fc8401910b1195aabc0fe0"
+                },
+                {
+                    "sha": "9182d3ffe678bf4ac09245ef4447a8489d864a09",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/9182d3ffe678bf4ac09245ef4447a8489d864a09"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-25T20:38:18Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32082125928",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2725121,
+            "login": "mbessolov",
+            "display_login": "mbessolov",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mbessolov",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2725121?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/oroinc/platform/issues/1105",
+                "repository_url": "https://api.github.com/repos/oroinc/platform",
+                "labels_url": "https://api.github.com/repos/oroinc/platform/issues/1105/labels{/name}",
+                "comments_url": "https://api.github.com/repos/oroinc/platform/issues/1105/comments",
+                "events_url": "https://api.github.com/repos/oroinc/platform/issues/1105/events",
+                "html_url": "https://github.com/oroinc/platform/pull/1105",
+                "id": 1910725371,
+                "node_id": "PR_kwDOAJ94Ec5bFUAl",
+                "number": 1105,
+                "title": "Create console command to view global config",
+                "user": {
+                    "login": "carbsrule",
+                    "id": 10014710,
+                    "node_id": "MDQ6VXNlcjEwMDE0NzEw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10014710?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/carbsrule",
+                    "html_url": "https://github.com/carbsrule",
+                    "followers_url": "https://api.github.com/users/carbsrule/followers",
+                    "following_url": "https://api.github.com/users/carbsrule/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/carbsrule/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/carbsrule/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/carbsrule/subscriptions",
+                    "organizations_url": "https://api.github.com/users/carbsrule/orgs",
+                    "repos_url": "https://api.github.com/users/carbsrule/repos",
+                    "events_url": "https://api.github.com/users/carbsrule/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/carbsrule/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-09-25T05:57:56Z",
+                "updated_at": "2023-09-25T14:29:15Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/oroinc/platform/pulls/1105",
+                    "html_url": "https://github.com/oroinc/platform/pull/1105",
+                    "diff_url": "https://github.com/oroinc/platform/pull/1105.diff",
+                    "patch_url": "https://github.com/oroinc/platform/pull/1105.patch",
+                    "merged_at": null
+                },
+                "body": "Currently an administrator can update the Oro config via the CLI using `oro:config:update`\r\n\r\nThis adds `oro:config:view` which enables viewing the current config",
+                "reactions": {
+                    "url": "https://api.github.com/repos/oroinc/platform/issues/1105/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/oroinc/platform/issues/1105/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/oroinc/platform/issues/comments/1733828180",
+                "html_url": "https://github.com/oroinc/platform/pull/1105#issuecomment-1733828180",
+                "issue_url": "https://api.github.com/repos/oroinc/platform/issues/1105",
+                "id": 1733828180,
+                "node_id": "IC_kwDOAJ94Ec5nWB5U",
+                "user": {
+                    "login": "mbessolov",
+                    "id": 2725121,
+                    "node_id": "MDQ6VXNlcjI3MjUxMjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2725121?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mbessolov",
+                    "html_url": "https://github.com/mbessolov",
+                    "followers_url": "https://api.github.com/users/mbessolov/followers",
+                    "following_url": "https://api.github.com/users/mbessolov/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mbessolov/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mbessolov/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mbessolov/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mbessolov/orgs",
+                    "repos_url": "https://api.github.com/users/mbessolov/repos",
+                    "events_url": "https://api.github.com/users/mbessolov/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mbessolov/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-09-25T14:29:15Z",
+                "updated_at": "2023-09-25T14:29:15Z",
+                "author_association": "MEMBER",
+                "body": "Hi @carbsrule\r\n\r\nThank you for your contribution, it could be quite useful for some developers/adminstrators.\r\n\r\nIn order for this to be accepted though, it needs some additional changes:\r\n\r\n1. Properly support output of different data types. If some value cannot be pretty-printed, the command should indicate it.\r\n2. It should properly handle (i.e. not show) sensitive values - if the value is masked in the system configuration UI, it should be masked in this command's output as well.\r\n3. Tests - please look at how other commands are tested. Most likely we will need a functional test and a unit test to properly cover the (updated version of) this command.\r\n\r\nThank you\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/oroinc/platform/issues/comments/1733828180/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-25T14:29:16Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32068290530",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 10014710,
+            "login": "carbsrule",
+            "display_login": "carbsrule",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/carbsrule",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10014710?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1105,
+            "pull_request": {
+                "url": "https://api.github.com/repos/oroinc/platform/pulls/1105",
+                "id": 1528119333,
+                "node_id": "PR_kwDOAJ94Ec5bFUAl",
+                "html_url": "https://github.com/oroinc/platform/pull/1105",
+                "diff_url": "https://github.com/oroinc/platform/pull/1105.diff",
+                "patch_url": "https://github.com/oroinc/platform/pull/1105.patch",
+                "issue_url": "https://api.github.com/repos/oroinc/platform/issues/1105",
+                "number": 1105,
+                "state": "open",
+                "locked": false,
+                "title": "Create console command to view global config",
+                "user": {
+                    "login": "carbsrule",
+                    "id": 10014710,
+                    "node_id": "MDQ6VXNlcjEwMDE0NzEw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10014710?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/carbsrule",
+                    "html_url": "https://github.com/carbsrule",
+                    "followers_url": "https://api.github.com/users/carbsrule/followers",
+                    "following_url": "https://api.github.com/users/carbsrule/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/carbsrule/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/carbsrule/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/carbsrule/subscriptions",
+                    "organizations_url": "https://api.github.com/users/carbsrule/orgs",
+                    "repos_url": "https://api.github.com/users/carbsrule/repos",
+                    "events_url": "https://api.github.com/users/carbsrule/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/carbsrule/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Currently an administrator can update the Oro config via the CLI using `oro:config:update`\r\n\r\nThis adds `oro:config:view` which enables viewing the current config",
+                "created_at": "2023-09-25T05:57:56Z",
+                "updated_at": "2023-09-25T05:57:56Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/oroinc/platform/pulls/1105/commits",
+                "review_comments_url": "https://api.github.com/repos/oroinc/platform/pulls/1105/comments",
+                "review_comment_url": "https://api.github.com/repos/oroinc/platform/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/oroinc/platform/issues/1105/comments",
+                "statuses_url": "https://api.github.com/repos/oroinc/platform/statuses/a4897813b7b3960ed3d66edf5294b0259ae73eff",
+                "head": {
+                    "label": "carbsrule:feature/config-view-command",
+                    "ref": "feature/config-view-command",
+                    "sha": "a4897813b7b3960ed3d66edf5294b0259ae73eff",
+                    "user": {
+                        "login": "carbsrule",
+                        "id": 10014710,
+                        "node_id": "MDQ6VXNlcjEwMDE0NzEw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/10014710?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/carbsrule",
+                        "html_url": "https://github.com/carbsrule",
+                        "followers_url": "https://api.github.com/users/carbsrule/followers",
+                        "following_url": "https://api.github.com/users/carbsrule/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/carbsrule/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/carbsrule/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/carbsrule/subscriptions",
+                        "organizations_url": "https://api.github.com/users/carbsrule/orgs",
+                        "repos_url": "https://api.github.com/users/carbsrule/repos",
+                        "events_url": "https://api.github.com/users/carbsrule/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/carbsrule/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 642252769,
+                        "node_id": "R_kgDOJkf_4Q",
+                        "name": "oro-platform",
+                        "full_name": "carbsrule/oro-platform",
+                        "private": false,
+                        "owner": {
+                            "login": "carbsrule",
+                            "id": 10014710,
+                            "node_id": "MDQ6VXNlcjEwMDE0NzEw",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/10014710?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/carbsrule",
+                            "html_url": "https://github.com/carbsrule",
+                            "followers_url": "https://api.github.com/users/carbsrule/followers",
+                            "following_url": "https://api.github.com/users/carbsrule/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/carbsrule/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/carbsrule/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/carbsrule/subscriptions",
+                            "organizations_url": "https://api.github.com/users/carbsrule/orgs",
+                            "repos_url": "https://api.github.com/users/carbsrule/repos",
+                            "events_url": "https://api.github.com/users/carbsrule/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/carbsrule/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/carbsrule/oro-platform",
+                        "description": "Main OroPlatform package with core functionality.",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/carbsrule/oro-platform",
+                        "forks_url": "https://api.github.com/repos/carbsrule/oro-platform/forks",
+                        "keys_url": "https://api.github.com/repos/carbsrule/oro-platform/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/carbsrule/oro-platform/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/carbsrule/oro-platform/teams",
+                        "hooks_url": "https://api.github.com/repos/carbsrule/oro-platform/hooks",
+                        "issue_events_url": "https://api.github.com/repos/carbsrule/oro-platform/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/carbsrule/oro-platform/events",
+                        "assignees_url": "https://api.github.com/repos/carbsrule/oro-platform/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/carbsrule/oro-platform/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/carbsrule/oro-platform/tags",
+                        "blobs_url": "https://api.github.com/repos/carbsrule/oro-platform/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/carbsrule/oro-platform/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/carbsrule/oro-platform/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/carbsrule/oro-platform/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/carbsrule/oro-platform/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/carbsrule/oro-platform/languages",
+                        "stargazers_url": "https://api.github.com/repos/carbsrule/oro-platform/stargazers",
+                        "contributors_url": "https://api.github.com/repos/carbsrule/oro-platform/contributors",
+                        "subscribers_url": "https://api.github.com/repos/carbsrule/oro-platform/subscribers",
+                        "subscription_url": "https://api.github.com/repos/carbsrule/oro-platform/subscription",
+                        "commits_url": "https://api.github.com/repos/carbsrule/oro-platform/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/carbsrule/oro-platform/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/carbsrule/oro-platform/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/carbsrule/oro-platform/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/carbsrule/oro-platform/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/carbsrule/oro-platform/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/carbsrule/oro-platform/merges",
+                        "archive_url": "https://api.github.com/repos/carbsrule/oro-platform/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/carbsrule/oro-platform/downloads",
+                        "issues_url": "https://api.github.com/repos/carbsrule/oro-platform/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/carbsrule/oro-platform/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/carbsrule/oro-platform/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/carbsrule/oro-platform/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/carbsrule/oro-platform/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/carbsrule/oro-platform/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/carbsrule/oro-platform/deployments",
+                        "created_at": "2023-05-18T06:44:15Z",
+                        "updated_at": "2023-09-25T05:44:38Z",
+                        "pushed_at": "2023-09-25T05:55:17Z",
+                        "git_url": "git://github.com/carbsrule/oro-platform.git",
+                        "ssh_url": "git@github.com:carbsrule/oro-platform.git",
+                        "clone_url": "https://github.com/carbsrule/oro-platform.git",
+                        "svn_url": "https://github.com/carbsrule/oro-platform",
+                        "homepage": "",
+                        "size": 192482,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "PHP",
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "oroinc:master",
+                    "ref": "master",
+                    "sha": "06fb1ccd19ce0523f3c7682d7f22d5a9dbdf3864",
+                    "user": {
+                        "login": "oroinc",
+                        "id": 4165718,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQxNjU3MTg=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4165718?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/oroinc",
+                        "html_url": "https://github.com/oroinc",
+                        "followers_url": "https://api.github.com/users/oroinc/followers",
+                        "following_url": "https://api.github.com/users/oroinc/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/oroinc/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/oroinc/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/oroinc/subscriptions",
+                        "organizations_url": "https://api.github.com/users/oroinc/orgs",
+                        "repos_url": "https://api.github.com/users/oroinc/repos",
+                        "events_url": "https://api.github.com/users/oroinc/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/oroinc/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 10450961,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMDQ1MDk2MQ==",
+                        "name": "platform",
+                        "full_name": "oroinc/platform",
+                        "private": false,
+                        "owner": {
+                            "login": "oroinc",
+                            "id": 4165718,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQxNjU3MTg=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/oroinc",
+                            "html_url": "https://github.com/oroinc",
+                            "followers_url": "https://api.github.com/users/oroinc/followers",
+                            "following_url": "https://api.github.com/users/oroinc/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/oroinc/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/oroinc/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/oroinc/subscriptions",
+                            "organizations_url": "https://api.github.com/users/oroinc/orgs",
+                            "repos_url": "https://api.github.com/users/oroinc/repos",
+                            "events_url": "https://api.github.com/users/oroinc/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/oroinc/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/oroinc/platform",
+                        "description": "Main OroPlatform package with core functionality.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/oroinc/platform",
+                        "forks_url": "https://api.github.com/repos/oroinc/platform/forks",
+                        "keys_url": "https://api.github.com/repos/oroinc/platform/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/oroinc/platform/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/oroinc/platform/teams",
+                        "hooks_url": "https://api.github.com/repos/oroinc/platform/hooks",
+                        "issue_events_url": "https://api.github.com/repos/oroinc/platform/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/oroinc/platform/events",
+                        "assignees_url": "https://api.github.com/repos/oroinc/platform/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/oroinc/platform/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/oroinc/platform/tags",
+                        "blobs_url": "https://api.github.com/repos/oroinc/platform/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/oroinc/platform/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/oroinc/platform/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/oroinc/platform/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/oroinc/platform/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/oroinc/platform/languages",
+                        "stargazers_url": "https://api.github.com/repos/oroinc/platform/stargazers",
+                        "contributors_url": "https://api.github.com/repos/oroinc/platform/contributors",
+                        "subscribers_url": "https://api.github.com/repos/oroinc/platform/subscribers",
+                        "subscription_url": "https://api.github.com/repos/oroinc/platform/subscription",
+                        "commits_url": "https://api.github.com/repos/oroinc/platform/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/oroinc/platform/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/oroinc/platform/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/oroinc/platform/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/oroinc/platform/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/oroinc/platform/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/oroinc/platform/merges",
+                        "archive_url": "https://api.github.com/repos/oroinc/platform/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/oroinc/platform/downloads",
+                        "issues_url": "https://api.github.com/repos/oroinc/platform/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/oroinc/platform/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/oroinc/platform/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/oroinc/platform/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/oroinc/platform/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/oroinc/platform/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/oroinc/platform/deployments",
+                        "created_at": "2013-06-03T09:06:52Z",
+                        "updated_at": "2023-09-22T12:13:43Z",
+                        "pushed_at": "2023-09-25T05:57:56Z",
+                        "git_url": "git://github.com/oroinc/platform.git",
+                        "ssh_url": "git@github.com:oroinc/platform.git",
+                        "clone_url": "https://github.com/oroinc/platform.git",
+                        "svn_url": "https://github.com/oroinc/platform",
+                        "homepage": "",
+                        "size": 209689,
+                        "stargazers_count": 625,
+                        "watchers_count": 625,
+                        "language": "PHP",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 354,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 241,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "b2b",
+                            "oroplatform",
+                            "php",
+                            "symfony"
+                        ],
+                        "visibility": "public",
+                        "forks": 354,
+                        "open_issues": 241,
+                        "watchers": 625,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/1105"
+                    },
+                    "html": {
+                        "href": "https://github.com/oroinc/platform/pull/1105"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/oroinc/platform/issues/1105"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/oroinc/platform/issues/1105/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/1105/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/oroinc/platform/pulls/1105/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/oroinc/platform/statuses/a4897813b7b3960ed3d66edf5294b0259ae73eff"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": true,
+                "commits": 1,
+                "additions": 70,
+                "deletions": 0,
+                "changed_files": 2
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-25T05:57:57Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "32014650303",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15134614005,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/master",
+            "head": "06fb1ccd19ce0523f3c7682d7f22d5a9dbdf3864",
+            "before": "449798061d366e6e4bab06d0eb633469d6cad8cb",
+            "commits": [
+                {
+                    "sha": "314739f4187d0c5833f3bcf493547162b4e3f3a0",
+                    "author": {
+                        "email": "103260327+ikhrysieva@users.noreply.github.com",
+                        "name": "ikhrysieva"
+                    },
+                    "message": "BAP-22250: Session hangs when running behat tests (#36467)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/314739f4187d0c5833f3bcf493547162b4e3f3a0"
+                },
+                {
+                    "sha": "7cf8756212d54cb50da13139f4d16459dd029c77",
+                    "author": {
+                        "email": "120404762+vsheverov@users.noreply.github.com",
+                        "name": "vsheverov"
+                    },
+                    "message": "BB-22552: Avoid removal of root Web Catalog Content Node by accident (#35867)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/7cf8756212d54cb50da13139f4d16459dd029c77"
+                },
+                {
+                    "sha": "a7d98061071c77d33ef551bb6f23c786d14f6278",
+                    "author": {
+                        "email": "ymuratov@oroinc.com",
+                        "name": "Yurii Muratov"
+                    },
+                    "message": "BAP-22092: Filtering ID Alerts causes error exception (#36351)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/a7d98061071c77d33ef551bb6f23c786d14f6278"
+                },
+                {
+                    "sha": "06fb1ccd19ce0523f3c7682d7f22d5a9dbdf3864",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/06fb1ccd19ce0523f3c7682d7f22d5a9dbdf3864"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-21T20:40:26Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "31983410833",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15119218209,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "449798061d366e6e4bab06d0eb633469d6cad8cb",
+            "before": "da2c835f8086463d815a0b1c551bbf8eb4f006d4",
+            "commits": [
+                {
+                    "sha": "72c1fd1569d2f23fb53f7ec6cae68178750aa24e",
+                    "author": {
+                        "email": "39378223+oro-panasiukr@users.noreply.github.com",
+                        "name": "oro-panasiukr"
+                    },
+                    "message": "BB-22393: Add ACL support for product fields (#36260)\n\n* BB-22393: Add ACL support for product fields (#35150)\r\n\r\n* The behaviour of checking access to fields has been fixed, now fields without permissions return a positive result when checked.\r\n* Changed the behaviour of datagrid that displays products. Now all columns, filters and sorters are removed from the datagrid if there are no permissions.\r\n* The product view page has been changed. All fields without accesses are not displayed on the product view page and if all fields in a group are missing, the group will also be deleted.\r\n* The product edit page has been changed. All fields without accesses will be deleted or if the 'show_restriction' parameter is available, they will be blocked without the right to modify them. The error output and logging have also been changed. Now all field errors are displayed as a single messag error with a list of fields. Errors are logged individually for each field.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/72c1fd1569d2f23fb53f7ec6cae68178750aa24e"
+                },
+                {
+                    "sha": "432eb6d7aa8c1d1c144642b41897bba856d70601",
+                    "author": {
+                        "email": "x86demon@users.noreply.github.com",
+                        "name": "Dmitry Khrysev"
+                    },
+                    "message": "BB-22807: Make RFQ and Quote related entities extendable - behats fixes (#36456)\n\nBB-22807: Make RFQ and Quote related entities extendable\r\n- fixed error in behat form filling for dates\r\n- behats fixes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/432eb6d7aa8c1d1c144642b41897bba856d70601"
+                },
+                {
+                    "sha": "449798061d366e6e4bab06d0eb633469d6cad8cb",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/449798061d366e6e4bab06d0eb633469d6cad8cb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-20T20:41:27Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    },
+    {
+        "id": "31816167382",
+        "type": "PushEvent",
+        "actor": {
+            "id": 77645588,
+            "login": "jenkins-oroinc-app[bot]",
+            "display_login": "jenkins-oroinc-app",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jenkins-oroinc-app[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77645588?"
+        },
+        "repo": {
+            "id": 10450961,
+            "name": "oroinc/platform",
+            "url": "https://api.github.com/repos/oroinc/platform"
+        },
+        "payload": {
+            "repository_id": 10450961,
+            "push_id": 15033003587,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "da2c835f8086463d815a0b1c551bbf8eb4f006d4",
+            "before": "f54247db8ebdb5efd3adf888527eee772204d676",
+            "commits": [
+                {
+                    "sha": "31a38bd8378dbb51fd282b8beeaa2153d7a9ed09",
+                    "author": {
+                        "email": "ayatsenko@oroinc.com",
+                        "name": "Andrii Yatsenko"
+                    },
+                    "message": "BAP-22238: Use Symfony 6 return and param types  (#36400)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/31a38bd8378dbb51fd282b8beeaa2153d7a9ed09"
+                },
+                {
+                    "sha": "da2c835f8086463d815a0b1c551bbf8eb4f006d4",
+                    "author": {
+                        "email": "jenkins-ci@oroinc.com",
+                        "name": "CI bot"
+                    },
+                    "message": "Merge remote-tracking branch 'remotes/dev/master'",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/oroinc/platform/commits/da2c835f8086463d815a0b1c551bbf8eb4f006d4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-13T20:38:30Z",
+        "org": {
+            "id": 4165718,
+            "login": "oroinc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/oroinc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4165718?"
+        }
+    }
+]

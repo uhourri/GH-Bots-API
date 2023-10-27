@@ -1,0 +1,2934 @@
+[
+    {
+        "id": "32764014337",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22652890,
+            "login": "OuterSpaceTraveller",
+            "display_login": "OuterSpaceTraveller",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/OuterSpaceTraveller",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22652890?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:26:57Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32750133749",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 49303847,
+            "login": "rjtp5670",
+            "display_login": "rjtp5670",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rjtp5670",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49303847?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1101",
+                "id": 1955844535,
+                "node_id": "I_kwDOCUaSZs50k9G3",
+                "number": 1101,
+                "title": "[COLAB] No module named 'tensorflow_model_optimization' ",
+                "user": {
+                    "login": "rjtp5670",
+                    "id": 49303847,
+                    "node_id": "MDQ6VXNlcjQ5MzAzODQ3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/49303847?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rjtp5670",
+                    "html_url": "https://github.com/rjtp5670",
+                    "followers_url": "https://api.github.com/users/rjtp5670/followers",
+                    "following_url": "https://api.github.com/users/rjtp5670/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rjtp5670/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rjtp5670/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rjtp5670/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rjtp5670/orgs",
+                    "repos_url": "https://api.github.com/users/rjtp5670/repos",
+                    "events_url": "https://api.github.com/users/rjtp5670/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rjtp5670/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-22T10:21:57Z",
+                "updated_at": "2023-10-22T10:42:46Z",
+                "closed_at": "2023-10-22T10:42:46Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Prior to filing: check that this should be a bug instead of a feature request. Everything supported, including the compatible versions of TensorFlow, is listed in the overview page of each technique. For example, the overview page of quantization-aware training is [here](https://www.tensorflow.org/model_optimization/guide/quantization/training). An issue for anything not supported should be a feature request.\r\n\r\n**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\n\ud83d\uddef\ufe0f ModuleNotFoundError: No module named 'tensorflow_model_optimization'\r\n\r\n**System information**\r\n\r\nTensorFlow version (installed from source or binary): 2.13.0\r\n\r\nTensorFlow Model Optimization version (installed from source or binary): Can not be found. \r\n\r\nPython version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]\r\n\r\n- If this behavior was never correct, please file a report for a regular\r\nbug, not a regression.\r\n- (Optional) Commit/PR that introduced the regression:\r\n\r\n**Describe the expected behavior**\r\n- Importing tfmot Library \r\n\r\n**Describe the current behavior**\r\n- Failed to import the library although tensorflow_model_optimization installed. \r\n\r\n**Code to reproduce the issue**\r\n(Running a code in Colab) \r\n\r\n!pip install -q tensorflow-model-optimization\r\nimport tensorflow_model_optimization as tfmot\r\n\r\n**Screenshots**\r\n\r\n![Screenshot 2023-10-22 at 7 19 56 PM](https://github.com/tensorflow/model-optimization/assets/49303847/7e09f8bc-3735-40df-bf25-f2f7a38fc399)\r\n\r\n**Additional context**\r\nAdd any other context about the problem here.\r\n\r\n(Thank you so much for your effort and reading my report. ) \r\n\r\nI've gone through prior issue reports but nothing was found to resolve that issue in Colab. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-22T10:42:47Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32750133538",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 49303847,
+            "login": "rjtp5670",
+            "display_login": "rjtp5670",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rjtp5670",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49303847?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1101",
+                "id": 1955844535,
+                "node_id": "I_kwDOCUaSZs50k9G3",
+                "number": 1101,
+                "title": "[COLAB] No module named 'tensorflow_model_optimization' ",
+                "user": {
+                    "login": "rjtp5670",
+                    "id": 49303847,
+                    "node_id": "MDQ6VXNlcjQ5MzAzODQ3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/49303847?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rjtp5670",
+                    "html_url": "https://github.com/rjtp5670",
+                    "followers_url": "https://api.github.com/users/rjtp5670/followers",
+                    "following_url": "https://api.github.com/users/rjtp5670/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rjtp5670/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rjtp5670/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rjtp5670/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rjtp5670/orgs",
+                    "repos_url": "https://api.github.com/users/rjtp5670/repos",
+                    "events_url": "https://api.github.com/users/rjtp5670/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rjtp5670/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-22T10:21:57Z",
+                "updated_at": "2023-10-22T10:42:45Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Prior to filing: check that this should be a bug instead of a feature request. Everything supported, including the compatible versions of TensorFlow, is listed in the overview page of each technique. For example, the overview page of quantization-aware training is [here](https://www.tensorflow.org/model_optimization/guide/quantization/training). An issue for anything not supported should be a feature request.\r\n\r\n**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\n\ud83d\uddef\ufe0f ModuleNotFoundError: No module named 'tensorflow_model_optimization'\r\n\r\n**System information**\r\n\r\nTensorFlow version (installed from source or binary): 2.13.0\r\n\r\nTensorFlow Model Optimization version (installed from source or binary): Can not be found. \r\n\r\nPython version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]\r\n\r\n- If this behavior was never correct, please file a report for a regular\r\nbug, not a regression.\r\n- (Optional) Commit/PR that introduced the regression:\r\n\r\n**Describe the expected behavior**\r\n- Importing tfmot Library \r\n\r\n**Describe the current behavior**\r\n- Failed to import the library although tensorflow_model_optimization installed. \r\n\r\n**Code to reproduce the issue**\r\n(Running a code in Colab) \r\n\r\n!pip install -q tensorflow-model-optimization\r\nimport tensorflow_model_optimization as tfmot\r\n\r\n**Screenshots**\r\n\r\n![Screenshot 2023-10-22 at 7 19 56 PM](https://github.com/tensorflow/model-optimization/assets/49303847/7e09f8bc-3735-40df-bf25-f2f7a38fc399)\r\n\r\n**Additional context**\r\nAdd any other context about the problem here.\r\n\r\n(Thank you so much for your effort and reading my report. ) \r\n\r\nI've gone through prior issue reports but nothing was found to resolve that issue in Colab. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1774059084",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1101#issuecomment-1774059084",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101",
+                "id": 1774059084,
+                "node_id": "IC_kwDOCUaSZs5pvf5M",
+                "user": {
+                    "login": "rjtp5670",
+                    "id": 49303847,
+                    "node_id": "MDQ6VXNlcjQ5MzAzODQ3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/49303847?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rjtp5670",
+                    "html_url": "https://github.com/rjtp5670",
+                    "followers_url": "https://api.github.com/users/rjtp5670/followers",
+                    "following_url": "https://api.github.com/users/rjtp5670/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rjtp5670/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rjtp5670/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rjtp5670/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rjtp5670/orgs",
+                    "repos_url": "https://api.github.com/users/rjtp5670/repos",
+                    "events_url": "https://api.github.com/users/rjtp5670/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rjtp5670/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-22T10:42:44Z",
+                "updated_at": "2023-10-22T10:42:44Z",
+                "author_association": "NONE",
+                "body": "Additional Report \r\n- I restarted my runtime from CPU to A100 and it no longer throw the importing error. And I came back to CPU runtime, but I can not reproduce issue. Maybe it has something to do with my \bdisordering code cells. Not it works fine. \r\n\r\n![image](https://github.com/tensorflow/model-optimization/assets/49303847/7fb28052-34dc-49a9-aed2-03dc11478ef2)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1774059084/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-22T10:42:45Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32749974967",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 49303847,
+            "login": "rjtp5670",
+            "display_login": "rjtp5670",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rjtp5670",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49303847?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1101",
+                "id": 1955844535,
+                "node_id": "I_kwDOCUaSZs50k9G3",
+                "number": 1101,
+                "title": "[COLAB] No module named 'tensorflow_model_optimization' ",
+                "user": {
+                    "login": "rjtp5670",
+                    "id": 49303847,
+                    "node_id": "MDQ6VXNlcjQ5MzAzODQ3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/49303847?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rjtp5670",
+                    "html_url": "https://github.com/rjtp5670",
+                    "followers_url": "https://api.github.com/users/rjtp5670/followers",
+                    "following_url": "https://api.github.com/users/rjtp5670/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rjtp5670/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rjtp5670/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rjtp5670/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rjtp5670/orgs",
+                    "repos_url": "https://api.github.com/users/rjtp5670/repos",
+                    "events_url": "https://api.github.com/users/rjtp5670/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rjtp5670/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-22T10:21:57Z",
+                "updated_at": "2023-10-22T10:21:57Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Prior to filing: check that this should be a bug instead of a feature request. Everything supported, including the compatible versions of TensorFlow, is listed in the overview page of each technique. For example, the overview page of quantization-aware training is [here](https://www.tensorflow.org/model_optimization/guide/quantization/training). An issue for anything not supported should be a feature request.\r\n\r\n**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\n\ud83d\uddef\ufe0f ModuleNotFoundError: No module named 'tensorflow_model_optimization'\r\n\r\n**System information**\r\n\r\nTensorFlow version (installed from source or binary): 2.13.0\r\n\r\nTensorFlow Model Optimization version (installed from source or binary): Can not be found. \r\n\r\nPython version: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]\r\n\r\n- If this behavior was never correct, please file a report for a regular\r\nbug, not a regression.\r\n- (Optional) Commit/PR that introduced the regression:\r\n\r\n**Describe the expected behavior**\r\n- Importing tfmot Library \r\n\r\n**Describe the current behavior**\r\n- Failed to import the library although tensorflow_model_optimization installed. \r\n\r\n**Code to reproduce the issue**\r\n(Running a code in Colab) \r\n\r\n!pip install -q tensorflow-model-optimization\r\nimport tensorflow_model_optimization as tfmot\r\n\r\n**Screenshots**\r\n\r\n![Screenshot 2023-10-22 at 7 19 56 PM](https://github.com/tensorflow/model-optimization/assets/49303847/7e09f8bc-3735-40df-bf25-f2f7a38fc399)\r\n\r\n**Additional context**\r\nAdd any other context about the problem here.\r\n\r\n(Thank you so much for your effort and reading my report. ) \r\n\r\nI've gone through prior issue reports but nothing was found to resolve that issue in Colab. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1101/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-22T10:21:58Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32616784546",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 28394,
+            "login": "qberthet",
+            "display_login": "qberthet",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/qberthet",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28394?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1077",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1077/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1077/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1077/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1077",
+                "id": 1776915044,
+                "node_id": "I_kwDOCUaSZs5p6ZJk",
+                "number": 1077,
+                "title": "Cannot save pruned model with MultiHeadAttention Layer",
+                "user": {
+                    "login": "christian-steinmeyer",
+                    "id": 7511021,
+                    "node_id": "MDQ6VXNlcjc1MTEwMjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7511021?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/christian-steinmeyer",
+                    "html_url": "https://github.com/christian-steinmeyer",
+                    "followers_url": "https://api.github.com/users/christian-steinmeyer/followers",
+                    "following_url": "https://api.github.com/users/christian-steinmeyer/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/christian-steinmeyer/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/christian-steinmeyer/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/christian-steinmeyer/subscriptions",
+                    "organizations_url": "https://api.github.com/users/christian-steinmeyer/orgs",
+                    "repos_url": "https://api.github.com/users/christian-steinmeyer/repos",
+                    "events_url": "https://api.github.com/users/christian-steinmeyer/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/christian-steinmeyer/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1111869977,
+                        "node_id": "MDU6TGFiZWwxMTExODY5OTc3",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "Xhark",
+                    "id": 2863108,
+                    "node_id": "MDQ6VXNlcjI4NjMxMDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2863108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Xhark",
+                    "html_url": "https://github.com/Xhark",
+                    "followers_url": "https://api.github.com/users/Xhark/followers",
+                    "following_url": "https://api.github.com/users/Xhark/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Xhark/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Xhark/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Xhark/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Xhark/orgs",
+                    "repos_url": "https://api.github.com/users/Xhark/repos",
+                    "events_url": "https://api.github.com/users/Xhark/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Xhark/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "Xhark",
+                        "id": 2863108,
+                        "node_id": "MDQ6VXNlcjI4NjMxMDg=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/2863108?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/Xhark",
+                        "html_url": "https://github.com/Xhark",
+                        "followers_url": "https://api.github.com/users/Xhark/followers",
+                        "following_url": "https://api.github.com/users/Xhark/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/Xhark/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/Xhark/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/Xhark/subscriptions",
+                        "organizations_url": "https://api.github.com/users/Xhark/orgs",
+                        "repos_url": "https://api.github.com/users/Xhark/repos",
+                        "events_url": "https://api.github.com/users/Xhark/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/Xhark/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-06-27T13:06:27Z",
+                "updated_at": "2023-10-17T08:43:36Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nTrying to save a model that wraps a `MultiHeadAttention` layer in a `PruneLowMagnitude`, fails with duplicate dataset name. \r\n\r\n**System information**\r\n\r\nTensorFlow version (installed from source or binary): 2.13.0rc1\r\n\r\nTensorFlow Model Optimization version (installed from source or binary): 0.7.5\r\n\r\nPython version: 3.10\r\n\r\n**Describe the expected behavior**\r\nSuccessful model save.\r\n\r\n**Describe the current behavior**\r\nWhen saving a pruned model, I get a `ValueError: Unable to create dataset (name already exists)` on \"mask:0\".\r\n\r\n**Code to reproduce the issue**\r\n```py\r\nimport tensorflow as tf\r\nimport tensorflow_model_optimization as tfmot\r\nimport tempfile\r\n\r\nif __name__ == '__main__':\r\n    # model\r\n    inputs = tf.keras.layers.Input(shape=(28, 28, 3))\r\n    x = tf.keras.layers.Conv2D(filters=128, kernel_size=3, activation='relu')(inputs)\r\n    x = tf.keras.layers.MultiHeadAttention(num_heads=4, key_dim=128)(query=x, value=x, key=x)\r\n    outputs = tf.keras.layers.Flatten()(x)\r\n    model = tf.keras.Model(inputs=inputs, outputs=outputs)\r\n\r\n    model.compile(optimizer='adam', loss='mse')\r\n\r\n    # call model to initialize weights\r\n    model(tf.ones((1, 28, 28, 3)))\r\n\r\n    # prune model\r\n    pruning_params = {\r\n        'pruning_schedule': tfmot.sparsity.keras.PolynomialDecay(\r\n            initial_sparsity=0.5,\r\n            final_sparsity=0.9,\r\n            begin_step=0,\r\n            end_step=1,\r\n            frequency=1,\r\n        ),\r\n    }\r\n    model_for_pruning = tfmot.sparsity.keras.prune_low_magnitude(model, **pruning_params)\r\n\r\n    with tempfile.TemporaryDirectory() as temp_dir:\r\n        model_for_pruning.save(temp_dir + '/model.h5')  # <-- fails\r\n```\r\n\r\nPotentially related to #661 and #944.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1077/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1077/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1765952401",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1077#issuecomment-1765952401",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1077",
+                "id": 1765952401,
+                "node_id": "IC_kwDOCUaSZs5pQkuR",
+                "user": {
+                    "login": "qberthet",
+                    "id": 28394,
+                    "node_id": "MDQ6VXNlcjI4Mzk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28394?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/qberthet",
+                    "html_url": "https://github.com/qberthet",
+                    "followers_url": "https://api.github.com/users/qberthet/followers",
+                    "following_url": "https://api.github.com/users/qberthet/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/qberthet/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/qberthet/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/qberthet/subscriptions",
+                    "organizations_url": "https://api.github.com/users/qberthet/orgs",
+                    "repos_url": "https://api.github.com/users/qberthet/repos",
+                    "events_url": "https://api.github.com/users/qberthet/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/qberthet/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-17T08:43:36Z",
+                "updated_at": "2023-10-17T08:43:36Z",
+                "author_association": "NONE",
+                "body": "Had a similar error message while trying to prune a network with a `QSeparableConv1D` layer (From QKeras) and found a workaround.\r\n\r\nNo claims to have a clean solution here and may not be relevant for the `MultiHeadAttention` case, but modifying `create_dataset()` in `group.py` as follow fix the issue for me:  Just suffixing the name by the number of objects in the group to ensure that name are unique. May introduces issue elsewhere that I am not aware of but pruning seems to works.\r\n\r\n```python\r\n...\r\n        with phil:\r\n            group = self\r\n            if name:\r\n                name = self._e(name)\r\n                if b'/' in name.lstrip(b'/'):\r\n                    parent_path, name = name.rsplit(b'/', 1)\r\n                    group = self.require_group(parent_path)\r\n                    # add this line:\r\n                    name += bytes(f'_{group.id.get_num_objs()}', 'utf-8')\r\n\r\n            dsid = dataset.make_new_dset(group, shape, dtype, data, name, **kwds)\r\n            dset = dataset.Dataset(dsid)\r\n            return dset\r\n```\r\nHope this helps!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1765952401/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-17T08:43:37Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32538957697",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 11013873,
+            "login": "lilyrosecarnation",
+            "display_login": "lilyrosecarnation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lilyrosecarnation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11013873?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-13T10:11:19Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32538955520",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 11013873,
+            "login": "lilyrosecarnation",
+            "display_login": "lilyrosecarnation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lilyrosecarnation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11013873?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-13T10:11:13Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32530078168",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 37643248,
+            "login": "tucan9389",
+            "display_login": "tucan9389",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tucan9389",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37643248?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1100",
+                "id": 1932170756,
+                "node_id": "I_kwDOCUaSZs5zKpYE",
+                "number": 1100,
+                "title": "Quant aware training in tensorflow model optimization",
+                "user": {
+                    "login": "ardeal",
+                    "id": 6227348,
+                    "node_id": "MDQ6VXNlcjYyMjczNDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6227348?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ardeal",
+                    "html_url": "https://github.com/ardeal",
+                    "followers_url": "https://api.github.com/users/ardeal/followers",
+                    "following_url": "https://api.github.com/users/ardeal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ardeal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ardeal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ardeal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ardeal/orgs",
+                    "repos_url": "https://api.github.com/users/ardeal/repos",
+                    "events_url": "https://api.github.com/users/ardeal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ardeal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1111869977,
+                        "node_id": "MDU6TGFiZWwxMTExODY5OTc3",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-09T01:39:52Z",
+                "updated_at": "2023-10-13T02:04:01Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI did see post_training_quant in model optimization, however, I didn't see quant aware training tutorial or examples.\r\n\r\nis there quant aware training in model optimization?\r\nis there quant aware training in Tensorflow? could you please tell me the link about quant aware training?\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1760654913",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1100#issuecomment-1760654913",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100",
+                "id": 1760654913,
+                "node_id": "IC_kwDOCUaSZs5o8XZB",
+                "user": {
+                    "login": "tucan9389",
+                    "id": 37643248,
+                    "node_id": "MDQ6VXNlcjM3NjQzMjQ4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37643248?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tucan9389",
+                    "html_url": "https://github.com/tucan9389",
+                    "followers_url": "https://api.github.com/users/tucan9389/followers",
+                    "following_url": "https://api.github.com/users/tucan9389/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tucan9389/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tucan9389/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tucan9389/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tucan9389/orgs",
+                    "repos_url": "https://api.github.com/users/tucan9389/repos",
+                    "events_url": "https://api.github.com/users/tucan9389/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tucan9389/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-13T02:04:00Z",
+                "updated_at": "2023-10-13T02:04:00Z",
+                "author_association": "MEMBER",
+                "body": "@ardeal \r\n\r\nThanks for asking :-)\r\n\r\nQ1. Typically **yes**. But I recommend checking yourself whether existing FakeQuant or not. But as far as I know, if there is relu after BatchNormalization, BatchNormalization won't be applied. You can check [allowlisted layers](https://github.com/tensorflow/model-optimization/tree/master/tensorflow_model_optimization/python/core/quantization/keras/default_8bit/default_8bit_quantize_registry.py) here. \r\nQ2-1. I believe that you can check the `FakeQuant` via tensorboard's graph visualization. \r\nQ2-2. Please check this link out for the example and guide in detail: https://www.tensorflow.org/model_optimization/guide/quantization/training_comprehensive_guide\r\nQ3. Once you could  get the quantized model (typically quantized tflite model) and successfully get the expected accuracy, it's correct. \r\n\r\nPlease let me know if you encounter additional questions.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1760654913/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-13T02:04:01Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32501075300",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 18495403,
+            "login": "fanchenhao",
+            "display_login": "fanchenhao",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fanchenhao",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18495403?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "forkee": {
+                "id": 703855344,
+                "node_id": "R_kgDOKfP68A",
+                "name": "model-optimization",
+                "full_name": "fanchenhao/model-optimization",
+                "private": false,
+                "owner": {
+                    "login": "fanchenhao",
+                    "id": 18495403,
+                    "node_id": "MDQ6VXNlcjE4NDk1NDAz",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/18495403?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fanchenhao",
+                    "html_url": "https://github.com/fanchenhao",
+                    "followers_url": "https://api.github.com/users/fanchenhao/followers",
+                    "following_url": "https://api.github.com/users/fanchenhao/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fanchenhao/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fanchenhao/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fanchenhao/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fanchenhao/orgs",
+                    "repos_url": "https://api.github.com/users/fanchenhao/repos",
+                    "events_url": "https://api.github.com/users/fanchenhao/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fanchenhao/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/fanchenhao/model-optimization",
+                "description": "A toolkit to optimize ML models for deployment for Keras and TensorFlow, including quantization and pruning.",
+                "fork": true,
+                "url": "https://api.github.com/repos/fanchenhao/model-optimization",
+                "forks_url": "https://api.github.com/repos/fanchenhao/model-optimization/forks",
+                "keys_url": "https://api.github.com/repos/fanchenhao/model-optimization/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/fanchenhao/model-optimization/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/fanchenhao/model-optimization/teams",
+                "hooks_url": "https://api.github.com/repos/fanchenhao/model-optimization/hooks",
+                "issue_events_url": "https://api.github.com/repos/fanchenhao/model-optimization/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/fanchenhao/model-optimization/events",
+                "assignees_url": "https://api.github.com/repos/fanchenhao/model-optimization/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/fanchenhao/model-optimization/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/fanchenhao/model-optimization/tags",
+                "blobs_url": "https://api.github.com/repos/fanchenhao/model-optimization/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/fanchenhao/model-optimization/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/fanchenhao/model-optimization/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/fanchenhao/model-optimization/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/fanchenhao/model-optimization/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/fanchenhao/model-optimization/languages",
+                "stargazers_url": "https://api.github.com/repos/fanchenhao/model-optimization/stargazers",
+                "contributors_url": "https://api.github.com/repos/fanchenhao/model-optimization/contributors",
+                "subscribers_url": "https://api.github.com/repos/fanchenhao/model-optimization/subscribers",
+                "subscription_url": "https://api.github.com/repos/fanchenhao/model-optimization/subscription",
+                "commits_url": "https://api.github.com/repos/fanchenhao/model-optimization/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/fanchenhao/model-optimization/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/fanchenhao/model-optimization/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/fanchenhao/model-optimization/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/fanchenhao/model-optimization/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/fanchenhao/model-optimization/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/fanchenhao/model-optimization/merges",
+                "archive_url": "https://api.github.com/repos/fanchenhao/model-optimization/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/fanchenhao/model-optimization/downloads",
+                "issues_url": "https://api.github.com/repos/fanchenhao/model-optimization/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/fanchenhao/model-optimization/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/fanchenhao/model-optimization/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/fanchenhao/model-optimization/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/fanchenhao/model-optimization/labels{/name}",
+                "releases_url": "https://api.github.com/repos/fanchenhao/model-optimization/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/fanchenhao/model-optimization/deployments",
+                "created_at": "2023-10-12T03:51:11Z",
+                "updated_at": "2023-10-12T03:51:12Z",
+                "pushed_at": "2023-09-14T23:00:07Z",
+                "git_url": "git://github.com/fanchenhao/model-optimization.git",
+                "ssh_url": "git@github.com:fanchenhao/model-optimization.git",
+                "clone_url": "https://github.com/fanchenhao/model-optimization.git",
+                "svn_url": "https://github.com/fanchenhao/model-optimization",
+                "homepage": "https://www.tensorflow.org/model_optimization",
+                "size": 2471,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-12T03:51:13Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32501073838",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 18495403,
+            "login": "fanchenhao",
+            "display_login": "fanchenhao",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fanchenhao",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18495403?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-12T03:51:06Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32438707053",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 6227348,
+            "login": "ardeal",
+            "display_login": "ardeal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ardeal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6227348?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1100",
+                "id": 1932170756,
+                "node_id": "I_kwDOCUaSZs5zKpYE",
+                "number": 1100,
+                "title": "Quant aware training in tensorflow model optimization",
+                "user": {
+                    "login": "ardeal",
+                    "id": 6227348,
+                    "node_id": "MDQ6VXNlcjYyMjczNDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6227348?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ardeal",
+                    "html_url": "https://github.com/ardeal",
+                    "followers_url": "https://api.github.com/users/ardeal/followers",
+                    "following_url": "https://api.github.com/users/ardeal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ardeal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ardeal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ardeal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ardeal/orgs",
+                    "repos_url": "https://api.github.com/users/ardeal/repos",
+                    "events_url": "https://api.github.com/users/ardeal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ardeal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1111869977,
+                        "node_id": "MDU6TGFiZWwxMTExODY5OTc3",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-09T01:39:52Z",
+                "updated_at": "2023-10-10T06:47:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI did see post_training_quant in model optimization, however, I didn't see quant aware training tutorial or examples.\r\n\r\nis there quant aware training in model optimization?\r\nis there quant aware training in Tensorflow? could you please tell me the link about quant aware training?\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1754515730",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1100#issuecomment-1754515730",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100",
+                "id": 1754515730,
+                "node_id": "IC_kwDOCUaSZs5ok8kS",
+                "user": {
+                    "login": "ardeal",
+                    "id": 6227348,
+                    "node_id": "MDQ6VXNlcjYyMjczNDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6227348?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ardeal",
+                    "html_url": "https://github.com/ardeal",
+                    "followers_url": "https://api.github.com/users/ardeal/followers",
+                    "following_url": "https://api.github.com/users/ardeal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ardeal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ardeal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ardeal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ardeal/orgs",
+                    "repos_url": "https://api.github.com/users/ardeal/repos",
+                    "events_url": "https://api.github.com/users/ardeal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ardeal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-10T06:47:37Z",
+                "updated_at": "2023-10-10T06:47:37Z",
+                "author_association": "NONE",
+                "body": "Hi @tucan9389 \r\nMany many thanks to you for your reply!\r\n\r\nI have already found those links you mentioned.\r\nThe further questions are:\r\n1) If I apply `q_aware_model = quantize_model(model)`  to the model, will BatchNormalization be applied?\r\n2) where and how can I check and set which layer(s) should be quantized or not?  is there any examples about how to configure the quantization?\r\n3) I am using the following code to do QAT. did I correctly use the GradientTape?\r\n\r\n```python\r\nimport tensorflow_model_optimization as tfmot\r\nquantize_model = tfmot.quantization.keras.quantize_model\r\nq_aware_model = quantize_model(model)`\r\nwith tf.device('/GPU:0'):\r\n    img, gt_score, gt_geo, ignored_map = img, gt_score, gt_geo, ignored_map\r\n    with tf.GradientTape() as tape:\r\n        pred_score, pred_geo = q_aware_model(img)\r\n        [classify_loss, angle_loss, iou_loss, loss] = loss_tf(gt_score, pred_score, gt_geo, pred_geo, ignored_map)\r\n    \r\n        gradients = tape.gradient(loss, q_aware_model.trainable_variables)\r\n        optimizer.apply_gradients(zip(gradients, q_aware_model.trainable_variables))\r\n\r\n```\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1754515730/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-10T06:47:38Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32438216362",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 37643248,
+            "login": "tucan9389",
+            "display_login": "tucan9389",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tucan9389",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37643248?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1100",
+                "id": 1932170756,
+                "node_id": "I_kwDOCUaSZs5zKpYE",
+                "number": 1100,
+                "title": "Quant aware training in tensorflow model optimization",
+                "user": {
+                    "login": "ardeal",
+                    "id": 6227348,
+                    "node_id": "MDQ6VXNlcjYyMjczNDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6227348?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ardeal",
+                    "html_url": "https://github.com/ardeal",
+                    "followers_url": "https://api.github.com/users/ardeal/followers",
+                    "following_url": "https://api.github.com/users/ardeal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ardeal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ardeal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ardeal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ardeal/orgs",
+                    "repos_url": "https://api.github.com/users/ardeal/repos",
+                    "events_url": "https://api.github.com/users/ardeal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ardeal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1111869977,
+                        "node_id": "MDU6TGFiZWwxMTExODY5OTc3",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-09T01:39:52Z",
+                "updated_at": "2023-10-10T06:25:03Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI did see post_training_quant in model optimization, however, I didn't see quant aware training tutorial or examples.\r\n\r\nis there quant aware training in model optimization?\r\nis there quant aware training in Tensorflow? could you please tell me the link about quant aware training?\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1754483553",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1100#issuecomment-1754483553",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100",
+                "id": 1754483553,
+                "node_id": "IC_kwDOCUaSZs5ok0th",
+                "user": {
+                    "login": "tucan9389",
+                    "id": 37643248,
+                    "node_id": "MDQ6VXNlcjM3NjQzMjQ4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37643248?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tucan9389",
+                    "html_url": "https://github.com/tucan9389",
+                    "followers_url": "https://api.github.com/users/tucan9389/followers",
+                    "following_url": "https://api.github.com/users/tucan9389/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tucan9389/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tucan9389/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tucan9389/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tucan9389/orgs",
+                    "repos_url": "https://api.github.com/users/tucan9389/repos",
+                    "events_url": "https://api.github.com/users/tucan9389/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tucan9389/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-10T06:25:02Z",
+                "updated_at": "2023-10-10T06:25:02Z",
+                "author_association": "MEMBER",
+                "body": "Hi @ardeal, here are some links that might be helpful to start:\r\n* QAT: https://www.tensorflow.org/model_optimization/guide/quantization/training\r\n* Example: https://www.tensorflow.org/model_optimization/guide/quantization/training_example\r\n\r\nPlease take a look :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1754483553/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-10T06:25:03Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32405221698",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 6227348,
+            "login": "ardeal",
+            "display_login": "ardeal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ardeal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6227348?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1100",
+                "id": 1932170756,
+                "node_id": "I_kwDOCUaSZs5zKpYE",
+                "number": 1100,
+                "title": "Quant aware training in tensorflow model optimization",
+                "user": {
+                    "login": "ardeal",
+                    "id": 6227348,
+                    "node_id": "MDQ6VXNlcjYyMjczNDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6227348?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ardeal",
+                    "html_url": "https://github.com/ardeal",
+                    "followers_url": "https://api.github.com/users/ardeal/followers",
+                    "following_url": "https://api.github.com/users/ardeal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ardeal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ardeal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ardeal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ardeal/orgs",
+                    "repos_url": "https://api.github.com/users/ardeal/repos",
+                    "events_url": "https://api.github.com/users/ardeal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ardeal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1111869977,
+                        "node_id": "MDU6TGFiZWwxMTExODY5OTc3",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-09T01:39:52Z",
+                "updated_at": "2023-10-09T01:39:52Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI did see post_training_quant in model optimization, however, I didn't see quant aware training tutorial or examples.\r\n\r\nis there quant aware training in model optimization?\r\nis there quant aware training in Tensorflow? could you please tell me the link about quant aware training?\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1100/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-09T01:39:53Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32309703427",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 146100749,
+            "login": "kareemali56",
+            "display_login": "kareemali56",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kareemali56",
+            "avatar_url": "https://avatars.githubusercontent.com/u/146100749?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/6",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/6/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/6/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/6/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/6",
+                "id": 452668164,
+                "node_id": "MDU6SXNzdWU0NTI2NjgxNjQ=",
+                "number": 6,
+                "title": "Keras layer wrappers don't supported",
+                "user": {
+                    "login": "ragatti",
+                    "id": 10031511,
+                    "node_id": "MDQ6VXNlcjEwMDMxNTEx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10031511?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ragatti",
+                    "html_url": "https://github.com/ragatti",
+                    "followers_url": "https://api.github.com/users/ragatti/followers",
+                    "following_url": "https://api.github.com/users/ragatti/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ragatti/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ragatti/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ragatti/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ragatti/orgs",
+                    "repos_url": "https://api.github.com/users/ragatti/repos",
+                    "events_url": "https://api.github.com/users/ragatti/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ragatti/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1632791453,
+                        "node_id": "MDU6TGFiZWwxNjMyNzkxNDUz",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/feature%20request",
+                        "name": "feature request",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "feature request"
+                    },
+                    {
+                        "id": 1830291346,
+                        "node_id": "MDU6TGFiZWwxODMwMjkxMzQ2",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/technique:pruning",
+                        "name": "technique:pruning",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "Regarding tfmot.sparsity.keras APIs and docs"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "nutsiepully",
+                    "id": 1307460,
+                    "node_id": "MDQ6VXNlcjEzMDc0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1307460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/nutsiepully",
+                    "html_url": "https://github.com/nutsiepully",
+                    "followers_url": "https://api.github.com/users/nutsiepully/followers",
+                    "following_url": "https://api.github.com/users/nutsiepully/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/nutsiepully/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/nutsiepully/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/nutsiepully/subscriptions",
+                    "organizations_url": "https://api.github.com/users/nutsiepully/orgs",
+                    "repos_url": "https://api.github.com/users/nutsiepully/repos",
+                    "events_url": "https://api.github.com/users/nutsiepully/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/nutsiepully/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "nutsiepully",
+                        "id": 1307460,
+                        "node_id": "MDQ6VXNlcjEzMDc0NjA=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1307460?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/nutsiepully",
+                        "html_url": "https://github.com/nutsiepully",
+                        "followers_url": "https://api.github.com/users/nutsiepully/followers",
+                        "following_url": "https://api.github.com/users/nutsiepully/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/nutsiepully/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/nutsiepully/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/nutsiepully/subscriptions",
+                        "organizations_url": "https://api.github.com/users/nutsiepully/orgs",
+                        "repos_url": "https://api.github.com/users/nutsiepully/repos",
+                        "events_url": "https://api.github.com/users/nutsiepully/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/nutsiepully/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2019-06-05T19:07:52Z",
+                "updated_at": "2023-10-04T13:00:33Z",
+                "closed_at": "2021-04-20T22:40:10Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "An current layer of Keras is not supported:\r\nValueError: Please initialize `Prune` with a supported layer. Layers should either be a `PrunableLayer` instance, or should be supported by the PruneRegistry. You passed: <class 'tensorflow.python.keras.layers.wrappers.TimeDistributed'>",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/6/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/6/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1746832067",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/6#issuecomment-1746832067",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/6",
+                "id": 1746832067,
+                "node_id": "IC_kwDOCUaSZs5oHorD",
+                "user": {
+                    "login": "kareemali56",
+                    "id": 146100749,
+                    "node_id": "U_kgDOCLVSDQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/146100749?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kareemali56",
+                    "html_url": "https://github.com/kareemali56",
+                    "followers_url": "https://api.github.com/users/kareemali56/followers",
+                    "following_url": "https://api.github.com/users/kareemali56/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kareemali56/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kareemali56/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kareemali56/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kareemali56/orgs",
+                    "repos_url": "https://api.github.com/users/kareemali56/repos",
+                    "events_url": "https://api.github.com/users/kareemali56/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kareemali56/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-04T13:00:32Z",
+                "updated_at": "2023-10-04T13:00:32Z",
+                "author_association": "NONE",
+                "body": "I am encountering this error in my machine learning model. Any idea??\r\n\r\n\r\nModuleNotFoundError                       Traceback (most recent call last)\r\nCell In[1], line 49\r\n     47 from keras.callbacks import EarlyStopping\r\n     48 import random\r\n---> 49 from tensorflow.keras.wrappers.scikit_learn import KerasRegressor\r\n     56 #from tensorflow.keras.wrappers.scikit_learn import KerasRegressor\r\n     57 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor\r\n\r\nModuleNotFoundError: No module named 'tensorflow.keras.wrappers'",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1746832067/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-04T13:00:33Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32297700977",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 46413178,
+            "login": "doyeonkim0",
+            "display_login": "doyeonkim0",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/doyeonkim0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46413178?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1098",
+                "id": 1912983789,
+                "node_id": "I_kwDOCUaSZs5yBdDt",
+                "number": 1098,
+                "title": "Add a default PruningPolicy that filters out any layers not supported by the API",
+                "user": {
+                    "login": "annietllnd",
+                    "id": 36964858,
+                    "node_id": "MDQ6VXNlcjM2OTY0ODU4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36964858?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/annietllnd",
+                    "html_url": "https://github.com/annietllnd",
+                    "followers_url": "https://api.github.com/users/annietllnd/followers",
+                    "following_url": "https://api.github.com/users/annietllnd/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/annietllnd/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/annietllnd/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/annietllnd/subscriptions",
+                    "organizations_url": "https://api.github.com/users/annietllnd/orgs",
+                    "repos_url": "https://api.github.com/users/annietllnd/repos",
+                    "events_url": "https://api.github.com/users/annietllnd/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/annietllnd/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1632791453,
+                        "node_id": "MDU6TGFiZWwxNjMyNzkxNDUz",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/feature%20request",
+                        "name": "feature request",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "feature request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-09-26T08:30:37Z",
+                "updated_at": "2023-10-04T05:00:58Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi TFMOT team! I have created a workaround for an edge-case in my project, and in my head it should be possible to have it be the default behavior in the API. Creating this feature request as a suggestion - let me know what you think! \r\n\r\n**System information**\r\n\r\nRunning on TF 2.11. Unfortunately, I currently don't have the bandwidth to contribute the feature request. \r\n\r\n**Motivation**\r\n\r\nThis feature request is for an implementation of the [PruningPolicy](https://github.com/tensorflow/model-optimization/blob/v0.7.5/tensorflow_model_optimization/python/core/sparsity/keras/pruning_policy.py#L28) that allows pruning for layers that are [supported by the PruningRegistry](https://github.com/tensorflow/model-optimization/blob/v0.7.5/tensorflow_model_optimization/python/core/sparsity/keras/prune_registry.py#L140). \r\n\r\nShort background. When calling the `prune_low_magnitude` or similar functions, it's possible to ignore certain layers according to a _pruning policy_. By implementing the abstract class PruningPolicy, you can check that the model and layers fulfill certain requirements. One built-in implementation of this already exists, namely the [PruneForLatencyOnXNNPack](https://www.tensorflow.org/model_optimization/api_docs/python/tfmot/sparsity/keras/PruneForLatencyOnXNNPack). A call can look like this:\r\n```\r\nmodel = prune_low_magnitude(\r\n      keras.Sequential([\r\n          layers.Dense(10, activation='relu', input_shape=(100,)),\r\n          layers.Dense(2, activation='sigmoid')\r\n      ]),\r\n      pruning_policy=PruneForLatencyOnXNNPack(),\r\n      **pruning_params)\r\n```\r\n\r\nCurrently, since no pruning policy is default, the API will try and prune layers that are not compatible. In one of our use-cases, we had to implement a policy that checks if the layer is supported (to avoid trying to prune a `TFOpLambda` layer, as an example). Explicitly, we are safeguarding the API by skipping data that itself knows that it doesn't support. I'm suggesting to add another implementation to the API, which simply calls the `supports` function linked above. If possible, I'd also use it as a default value for the `pruning_policy` parameter (this part may come with additional issues for some use-cases, so that would be an optional part of this feature request). \r\n\r\nI think it would help people using the API to avoid confusing bugs in edge-cases. If there's an existing way to do this that we have overlooked, I'm happy to get that feedback. Let me know if the suggestion needs elaboration.\r\n\r\nThank you for your time!\r\nAnnie\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1746139526",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1098#issuecomment-1746139526",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098",
+                "id": 1746139526,
+                "node_id": "IC_kwDOCUaSZs5oE_mG",
+                "user": {
+                    "login": "doyeonkim0",
+                    "id": 46413178,
+                    "node_id": "MDQ6VXNlcjQ2NDEzMTc4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46413178?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/doyeonkim0",
+                    "html_url": "https://github.com/doyeonkim0",
+                    "followers_url": "https://api.github.com/users/doyeonkim0/followers",
+                    "following_url": "https://api.github.com/users/doyeonkim0/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/doyeonkim0/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/doyeonkim0/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/doyeonkim0/subscriptions",
+                    "organizations_url": "https://api.github.com/users/doyeonkim0/orgs",
+                    "repos_url": "https://api.github.com/users/doyeonkim0/repos",
+                    "events_url": "https://api.github.com/users/doyeonkim0/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/doyeonkim0/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-04T05:00:57Z",
+                "updated_at": "2023-10-04T05:00:57Z",
+                "author_association": "MEMBER",
+                "body": "@cdh4696 Could you take a look at this? Thank you! :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1746139526/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-04T05:00:58Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32297655590",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 46413178,
+            "login": "doyeonkim0",
+            "display_login": "doyeonkim0",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/doyeonkim0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46413178?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1099",
+                "id": 1917208445,
+                "node_id": "I_kwDOCUaSZs5yRkd9",
+                "number": 1099,
+                "title": "Add batch norm to default_n_bit_quantize_registry and default_8_bit_quantize_registry",
+                "user": {
+                    "login": "DerryFitz",
+                    "id": 22909607,
+                    "node_id": "MDQ6VXNlcjIyOTA5NjA3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22909607?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/DerryFitz",
+                    "html_url": "https://github.com/DerryFitz",
+                    "followers_url": "https://api.github.com/users/DerryFitz/followers",
+                    "following_url": "https://api.github.com/users/DerryFitz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/DerryFitz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/DerryFitz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/DerryFitz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/DerryFitz/orgs",
+                    "repos_url": "https://api.github.com/users/DerryFitz/repos",
+                    "events_url": "https://api.github.com/users/DerryFitz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/DerryFitz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1632791453,
+                        "node_id": "MDU6TGFiZWwxNjMyNzkxNDUz",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/feature%20request",
+                        "name": "feature request",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "feature request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-09-28T10:42:42Z",
+                "updated_at": "2023-10-04T04:57:49Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "\r\n- TensorFlow version (you are using): 2.13\r\n- \r\n\r\n**Motivation**\r\nThere are many models which use batch norm in places where it is not covered by the existing cases allowed in the registry.\r\nAdding batch norm to the registry would allow users to apply QAT to such models.\r\n\r\nAt present I am editing both registries by adding the line\r\n\r\n_QuantizeInfo(layers.BatchNormalization, ['gamma'], [], True),\r\n\r\nwhich works for my case, but it would be nice to have a more general fix\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1746137038",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1099#issuecomment-1746137038",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099",
+                "id": 1746137038,
+                "node_id": "IC_kwDOCUaSZs5oE-_O",
+                "user": {
+                    "login": "doyeonkim0",
+                    "id": 46413178,
+                    "node_id": "MDQ6VXNlcjQ2NDEzMTc4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46413178?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/doyeonkim0",
+                    "html_url": "https://github.com/doyeonkim0",
+                    "followers_url": "https://api.github.com/users/doyeonkim0/followers",
+                    "following_url": "https://api.github.com/users/doyeonkim0/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/doyeonkim0/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/doyeonkim0/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/doyeonkim0/subscriptions",
+                    "organizations_url": "https://api.github.com/users/doyeonkim0/orgs",
+                    "repos_url": "https://api.github.com/users/doyeonkim0/repos",
+                    "events_url": "https://api.github.com/users/doyeonkim0/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/doyeonkim0/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-04T04:57:49Z",
+                "updated_at": "2023-10-04T04:57:49Z",
+                "author_association": "MEMBER",
+                "body": "@Xhark Could you take a look at this issue? Thank you! :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1746137038/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-04T04:57:50Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32220294409",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 40184452,
+            "login": "kleki94",
+            "display_login": "kleki94",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kleki94",
+            "avatar_url": "https://avatars.githubusercontent.com/u/40184452?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-30T15:28:16Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32169582970",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 22909607,
+            "login": "DerryFitz",
+            "display_login": "DerryFitz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DerryFitz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22909607?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1099",
+                "id": 1917208445,
+                "node_id": "I_kwDOCUaSZs5yRkd9",
+                "number": 1099,
+                "title": "Add batch norm to default_n_bit_quantize_registry and default_8_bit_quantize_registry",
+                "user": {
+                    "login": "DerryFitz",
+                    "id": 22909607,
+                    "node_id": "MDQ6VXNlcjIyOTA5NjA3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22909607?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/DerryFitz",
+                    "html_url": "https://github.com/DerryFitz",
+                    "followers_url": "https://api.github.com/users/DerryFitz/followers",
+                    "following_url": "https://api.github.com/users/DerryFitz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/DerryFitz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/DerryFitz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/DerryFitz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/DerryFitz/orgs",
+                    "repos_url": "https://api.github.com/users/DerryFitz/repos",
+                    "events_url": "https://api.github.com/users/DerryFitz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/DerryFitz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1632791453,
+                        "node_id": "MDU6TGFiZWwxNjMyNzkxNDUz",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/feature%20request",
+                        "name": "feature request",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "feature request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-09-28T10:42:42Z",
+                "updated_at": "2023-09-28T10:42:42Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "\r\n\r\n- TensorFlow version (you are using): 2.13\r\n- \r\n\r\n**Motivation**\r\nThere are many models which use batch norm in places where it is not covered by the existing cases allowed in the registry.\r\nAdding batch norm to the registry would allow users used QAT on such models.\r\n\r\nAt present I am editing both registries by adding the line\r\n\r\n_QuantizeInfo(layers.BatchNormalization, ['gamma'], [], True),\r\n\r\nwhich works for my case, but it would be nice to have a more general fix\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1099/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-28T10:42:43Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32146765008",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 27747335,
+            "login": "BNDS-Robin23",
+            "display_login": "BNDS-Robin23",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BNDS-Robin23",
+            "avatar_url": "https://avatars.githubusercontent.com/u/27747335?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-27T14:58:00Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32103429787",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 36964858,
+            "login": "annietllnd",
+            "display_login": "annietllnd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/annietllnd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36964858?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1098",
+                "id": 1912983789,
+                "node_id": "I_kwDOCUaSZs5yBdDt",
+                "number": 1098,
+                "title": "Add a default PruningPolicy that filters out any layers not supported by the API",
+                "user": {
+                    "login": "annietllnd",
+                    "id": 36964858,
+                    "node_id": "MDQ6VXNlcjM2OTY0ODU4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36964858?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/annietllnd",
+                    "html_url": "https://github.com/annietllnd",
+                    "followers_url": "https://api.github.com/users/annietllnd/followers",
+                    "following_url": "https://api.github.com/users/annietllnd/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/annietllnd/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/annietllnd/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/annietllnd/subscriptions",
+                    "organizations_url": "https://api.github.com/users/annietllnd/orgs",
+                    "repos_url": "https://api.github.com/users/annietllnd/repos",
+                    "events_url": "https://api.github.com/users/annietllnd/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/annietllnd/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1632791453,
+                        "node_id": "MDU6TGFiZWwxNjMyNzkxNDUz",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/feature%20request",
+                        "name": "feature request",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "feature request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-09-26T08:30:37Z",
+                "updated_at": "2023-09-26T08:30:37Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi TFMOT team! I have created a workaround for an edge-case in my project, and in my head it should be possible to have it be the default behavior in the API. Creating this feature request as a suggestion - let me know what you think! \r\n\r\n**System information**\r\n\r\nRunning on TF 2.11. Unfortunately, I currently don't have the bandwidth to contribute the feature request. \r\n\r\n**Motivation**\r\n\r\nThis feature request is for an implementation of the [PruningPolicy](https://github.com/tensorflow/model-optimization/blob/v0.7.5/tensorflow_model_optimization/python/core/sparsity/keras/pruning_policy.py#L28) that allows pruning for layers that are [supported by the PruningRegistry](https://github.com/tensorflow/model-optimization/blob/v0.7.5/tensorflow_model_optimization/python/core/sparsity/keras/prune_registry.py#L140). \r\n\r\nShort background. When calling the `prune_low_magnitude` or similar functions, it's possible to ignore certain layers according to a _pruning policy_. By implementing the abstract class PruningPolicy, you can check that the model and layers fulfill certain requirements. One built-in implementation of this already exists, namely the [PruneForLatencyOnXNNPack](https://www.tensorflow.org/model_optimization/api_docs/python/tfmot/sparsity/keras/PruneForLatencyOnXNNPack). A call can look like this:\r\n```\r\nmodel = prune_low_magnitude(\r\n      keras.Sequential([\r\n          layers.Dense(10, activation='relu', input_shape=(100,)),\r\n          layers.Dense(2, activation='sigmoid')\r\n      ]),\r\n      pruning_policy=PruneForLatencyOnXNNPack(),\r\n      **pruning_params)\r\n```\r\n\r\nCurrently, since no pruning policy is default, the API will try and prune layers that are not compatible. In one of our use-cases, we had to implement a policy that checks if the layer is supported (to avoid trying to prune a `TFOpLambda` layer, as an example). Explicitly, we are safeguarding the API by skipping data that itself knows that it doesn't support. I'm suggesting to add another implementation to the API, which simply calls the `supports` function linked above. If possible, I'd also use it as a default value for the `pruning_policy` parameter (this part may come with additional issues for some use-cases, so that would be an optional part of this feature request). \r\n\r\nI think it would help people using the API to avoid confusing bugs in edge-cases. If there's an existing way to do this that we have overlooked, I'm happy to get that feedback. Let me know if the suggestion needs elaboration.\r\n\r\nThank you for your time!\r\nAnnie\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1098/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-26T08:30:38Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32071063613",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 17425159,
+            "login": "bitzhifeng",
+            "display_login": "bitzhifeng",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bitzhifeng",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17425159?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-25T08:03:09Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32063805178",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 135173360,
+            "login": "GritNationLead",
+            "display_login": "GritNationLead",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/GritNationLead",
+            "avatar_url": "https://avatars.githubusercontent.com/u/135173360?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-24T23:42:38Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31849122342",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "ref": "test_565231279",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-09-14T23:00:09Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31849122019",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 1096,
+            "pull_request": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/pulls/1096",
+                "id": 1514798342,
+                "node_id": "PR_kwDOCUaSZs5aSf0G",
+                "html_url": "https://github.com/tensorflow/model-optimization/pull/1096",
+                "diff_url": "https://github.com/tensorflow/model-optimization/pull/1096.diff",
+                "patch_url": "https://github.com/tensorflow/model-optimization/pull/1096.patch",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1096",
+                "number": 1096,
+                "state": "closed",
+                "locked": false,
+                "title": "Remove private Keras imports.",
+                "user": {
+                    "login": "copybara-service[bot]",
+                    "id": 56741989,
+                    "node_id": "MDM6Qm90NTY3NDE5ODk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/44061?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/copybara-service%5Bbot%5D",
+                    "html_url": "https://github.com/apps/copybara-service",
+                    "followers_url": "https://api.github.com/users/copybara-service%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/copybara-service%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/copybara-service%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/copybara-service%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/copybara-service%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/copybara-service%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/copybara-service%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/copybara-service%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/copybara-service%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "body": "Remove private Keras imports.\n",
+                "created_at": "2023-09-14T02:43:02Z",
+                "updated_at": "2023-09-14T23:00:07Z",
+                "closed_at": "2023-09-14T23:00:07Z",
+                "merged_at": null,
+                "merge_commit_sha": "196aab5ddd4dd0d9e2750f25edae3611d27213ab",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 1830291346,
+                        "node_id": "MDU6TGFiZWwxODMwMjkxMzQ2",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/technique:pruning",
+                        "name": "technique:pruning",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "Regarding tfmot.sparsity.keras APIs and docs"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/tensorflow/model-optimization/pulls/1096/commits",
+                "review_comments_url": "https://api.github.com/repos/tensorflow/model-optimization/pulls/1096/comments",
+                "review_comment_url": "https://api.github.com/repos/tensorflow/model-optimization/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1096/comments",
+                "statuses_url": "https://api.github.com/repos/tensorflow/model-optimization/statuses/cf43d93f7acebe1dfa2372abac17d0e233a001a3",
+                "head": {
+                    "label": "tensorflow:test_565231279",
+                    "ref": "test_565231279",
+                    "sha": "cf43d93f7acebe1dfa2372abac17d0e233a001a3",
+                    "user": {
+                        "login": "tensorflow",
+                        "id": 15658638,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/tensorflow",
+                        "html_url": "https://github.com/tensorflow",
+                        "followers_url": "https://api.github.com/users/tensorflow/followers",
+                        "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                        "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                        "repos_url": "https://api.github.com/users/tensorflow/repos",
+                        "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 155619942,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxNTU2MTk5NDI=",
+                        "name": "model-optimization",
+                        "full_name": "tensorflow/model-optimization",
+                        "private": false,
+                        "owner": {
+                            "login": "tensorflow",
+                            "id": 15658638,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/tensorflow",
+                            "html_url": "https://github.com/tensorflow",
+                            "followers_url": "https://api.github.com/users/tensorflow/followers",
+                            "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                            "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                            "repos_url": "https://api.github.com/users/tensorflow/repos",
+                            "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/tensorflow/model-optimization",
+                        "description": "A toolkit to optimize ML models for deployment for Keras and TensorFlow, including quantization and pruning.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization",
+                        "forks_url": "https://api.github.com/repos/tensorflow/model-optimization/forks",
+                        "keys_url": "https://api.github.com/repos/tensorflow/model-optimization/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/tensorflow/model-optimization/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/tensorflow/model-optimization/teams",
+                        "hooks_url": "https://api.github.com/repos/tensorflow/model-optimization/hooks",
+                        "issue_events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/tensorflow/model-optimization/events",
+                        "assignees_url": "https://api.github.com/repos/tensorflow/model-optimization/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/tensorflow/model-optimization/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/tensorflow/model-optimization/tags",
+                        "blobs_url": "https://api.github.com/repos/tensorflow/model-optimization/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/tensorflow/model-optimization/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/tensorflow/model-optimization/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/tensorflow/model-optimization/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/tensorflow/model-optimization/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/tensorflow/model-optimization/languages",
+                        "stargazers_url": "https://api.github.com/repos/tensorflow/model-optimization/stargazers",
+                        "contributors_url": "https://api.github.com/repos/tensorflow/model-optimization/contributors",
+                        "subscribers_url": "https://api.github.com/repos/tensorflow/model-optimization/subscribers",
+                        "subscription_url": "https://api.github.com/repos/tensorflow/model-optimization/subscription",
+                        "commits_url": "https://api.github.com/repos/tensorflow/model-optimization/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/tensorflow/model-optimization/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/tensorflow/model-optimization/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/tensorflow/model-optimization/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/tensorflow/model-optimization/merges",
+                        "archive_url": "https://api.github.com/repos/tensorflow/model-optimization/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/tensorflow/model-optimization/downloads",
+                        "issues_url": "https://api.github.com/repos/tensorflow/model-optimization/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/tensorflow/model-optimization/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/tensorflow/model-optimization/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/tensorflow/model-optimization/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/tensorflow/model-optimization/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/tensorflow/model-optimization/deployments",
+                        "created_at": "2018-10-31T20:34:28Z",
+                        "updated_at": "2023-09-11T02:44:43Z",
+                        "pushed_at": "2023-09-14T23:00:07Z",
+                        "git_url": "git://github.com/tensorflow/model-optimization.git",
+                        "ssh_url": "git@github.com:tensorflow/model-optimization.git",
+                        "clone_url": "https://github.com/tensorflow/model-optimization.git",
+                        "svn_url": "https://github.com/tensorflow/model-optimization",
+                        "homepage": "https://www.tensorflow.org/model_optimization",
+                        "size": 2471,
+                        "stargazers_count": 1432,
+                        "watchers_count": 1432,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 321,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 204,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "compression",
+                            "deep-learning",
+                            "keras",
+                            "machine-learning",
+                            "ml",
+                            "model-compression",
+                            "optimization",
+                            "pruning",
+                            "quantization",
+                            "quantized-networks",
+                            "quantized-neural-networks",
+                            "quantized-training",
+                            "sparsity",
+                            "tensorflow"
+                        ],
+                        "visibility": "public",
+                        "forks": 321,
+                        "open_issues": 204,
+                        "watchers": 1432,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "tensorflow:master",
+                    "ref": "master",
+                    "sha": "cf43d93f7acebe1dfa2372abac17d0e233a001a3",
+                    "user": {
+                        "login": "tensorflow",
+                        "id": 15658638,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/tensorflow",
+                        "html_url": "https://github.com/tensorflow",
+                        "followers_url": "https://api.github.com/users/tensorflow/followers",
+                        "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                        "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                        "repos_url": "https://api.github.com/users/tensorflow/repos",
+                        "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 155619942,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxNTU2MTk5NDI=",
+                        "name": "model-optimization",
+                        "full_name": "tensorflow/model-optimization",
+                        "private": false,
+                        "owner": {
+                            "login": "tensorflow",
+                            "id": 15658638,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/tensorflow",
+                            "html_url": "https://github.com/tensorflow",
+                            "followers_url": "https://api.github.com/users/tensorflow/followers",
+                            "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                            "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                            "repos_url": "https://api.github.com/users/tensorflow/repos",
+                            "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/tensorflow/model-optimization",
+                        "description": "A toolkit to optimize ML models for deployment for Keras and TensorFlow, including quantization and pruning.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization",
+                        "forks_url": "https://api.github.com/repos/tensorflow/model-optimization/forks",
+                        "keys_url": "https://api.github.com/repos/tensorflow/model-optimization/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/tensorflow/model-optimization/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/tensorflow/model-optimization/teams",
+                        "hooks_url": "https://api.github.com/repos/tensorflow/model-optimization/hooks",
+                        "issue_events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/tensorflow/model-optimization/events",
+                        "assignees_url": "https://api.github.com/repos/tensorflow/model-optimization/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/tensorflow/model-optimization/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/tensorflow/model-optimization/tags",
+                        "blobs_url": "https://api.github.com/repos/tensorflow/model-optimization/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/tensorflow/model-optimization/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/tensorflow/model-optimization/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/tensorflow/model-optimization/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/tensorflow/model-optimization/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/tensorflow/model-optimization/languages",
+                        "stargazers_url": "https://api.github.com/repos/tensorflow/model-optimization/stargazers",
+                        "contributors_url": "https://api.github.com/repos/tensorflow/model-optimization/contributors",
+                        "subscribers_url": "https://api.github.com/repos/tensorflow/model-optimization/subscribers",
+                        "subscription_url": "https://api.github.com/repos/tensorflow/model-optimization/subscription",
+                        "commits_url": "https://api.github.com/repos/tensorflow/model-optimization/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/tensorflow/model-optimization/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/tensorflow/model-optimization/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/tensorflow/model-optimization/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/tensorflow/model-optimization/merges",
+                        "archive_url": "https://api.github.com/repos/tensorflow/model-optimization/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/tensorflow/model-optimization/downloads",
+                        "issues_url": "https://api.github.com/repos/tensorflow/model-optimization/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/tensorflow/model-optimization/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/tensorflow/model-optimization/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/tensorflow/model-optimization/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/tensorflow/model-optimization/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/tensorflow/model-optimization/deployments",
+                        "created_at": "2018-10-31T20:34:28Z",
+                        "updated_at": "2023-09-11T02:44:43Z",
+                        "pushed_at": "2023-09-14T23:00:07Z",
+                        "git_url": "git://github.com/tensorflow/model-optimization.git",
+                        "ssh_url": "git@github.com:tensorflow/model-optimization.git",
+                        "clone_url": "https://github.com/tensorflow/model-optimization.git",
+                        "svn_url": "https://github.com/tensorflow/model-optimization",
+                        "homepage": "https://www.tensorflow.org/model_optimization",
+                        "size": 2471,
+                        "stargazers_count": 1432,
+                        "watchers_count": 1432,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 321,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 204,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "compression",
+                            "deep-learning",
+                            "keras",
+                            "machine-learning",
+                            "ml",
+                            "model-compression",
+                            "optimization",
+                            "pruning",
+                            "quantization",
+                            "quantized-networks",
+                            "quantized-neural-networks",
+                            "quantized-training",
+                            "sparsity",
+                            "tensorflow"
+                        ],
+                        "visibility": "public",
+                        "forks": 321,
+                        "open_issues": 204,
+                        "watchers": 1432,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/tensorflow/model-optimization/pulls/1096"
+                    },
+                    "html": {
+                        "href": "https://github.com/tensorflow/model-optimization/pull/1096"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/tensorflow/model-optimization/issues/1096"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-optimization/issues/1096/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-optimization/pulls/1096/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/tensorflow/model-optimization/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/tensorflow/model-optimization/pulls/1096/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/tensorflow/model-optimization/statuses/cf43d93f7acebe1dfa2372abac17d0e233a001a3"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 0,
+                "additions": 0,
+                "deletions": 0,
+                "changed_files": 0
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-14T23:00:08Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31849121838",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "repository_id": 155619942,
+            "push_id": 15049253816,
+            "size": 1,
+            "distinct_size": 0,
+            "ref": "refs/heads/master",
+            "head": "cf43d93f7acebe1dfa2372abac17d0e233a001a3",
+            "before": "d16ccaa48bcf45fb6bcbc8c4e1a6a88afddccc2b",
+            "commits": [
+                {
+                    "sha": "cf43d93f7acebe1dfa2372abac17d0e233a001a3",
+                    "author": {
+                        "email": "fchollet@google.com",
+                        "name": "Francois Chollet"
+                    },
+                    "message": "Remove private Keras imports.\n\nPiperOrigin-RevId: 565502039",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/commits/cf43d93f7acebe1dfa2372abac17d0e233a001a3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-14T23:00:07Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31849121486",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "repository_id": 155619942,
+            "push_id": 15049253618,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/test_565231279",
+            "head": "cf43d93f7acebe1dfa2372abac17d0e233a001a3",
+            "before": "2816eae19bc8460ed42cae7009a323c33409edef",
+            "commits": [
+                {
+                    "sha": "cf43d93f7acebe1dfa2372abac17d0e233a001a3",
+                    "author": {
+                        "email": "fchollet@google.com",
+                        "name": "Francois Chollet"
+                    },
+                    "message": "Remove private Keras imports.\n\nPiperOrigin-RevId: 565502039",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/commits/cf43d93f7acebe1dfa2372abac17d0e233a001a3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-14T23:00:06Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31849110709",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "repository_id": 155619942,
+            "push_id": 15049247854,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/test_565231279",
+            "head": "2816eae19bc8460ed42cae7009a323c33409edef",
+            "before": "ec6e29224969db9a6e54c8585446a1f5c2d5873c",
+            "commits": [
+                {
+                    "sha": "2816eae19bc8460ed42cae7009a323c33409edef",
+                    "author": {
+                        "email": "fchollet@google.com",
+                        "name": "Francois Chollet"
+                    },
+                    "message": "Remove private Keras imports.\n\nPiperOrigin-RevId: 565231279",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/commits/2816eae19bc8460ed42cae7009a323c33409edef"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-14T22:59:12Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31846492081",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "repository_id": 155619942,
+            "push_id": 15047935139,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/test_559470121",
+            "head": "45b966f2e809323c8567a24d21e6464139fa875d",
+            "before": "b78cbb951280ecf73e6e50ea00ac5bf3160d17ed",
+            "commits": [
+                {
+                    "sha": "45b966f2e809323c8567a24d21e6464139fa875d",
+                    "author": {
+                        "email": "fchollet@google.com",
+                        "name": "Francois Chollet"
+                    },
+                    "message": "Rewire TensorFlow to rely on tf_keras target.\n\nPiperOrigin-RevId: 559470121",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/commits/45b966f2e809323c8567a24d21e6464139fa875d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-14T20:22:20Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31844763976",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 26525818,
+            "login": "malloyca",
+            "display_login": "malloyca",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/malloyca",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26525818?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1091",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-optimization",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1091/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1091/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1091/events",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1091",
+                "id": 1874146961,
+                "node_id": "I_kwDOCUaSZs5vtTaR",
+                "number": 1091,
+                "title": "float16 quantization runs out of memory for LSTM model",
+                "user": {
+                    "login": "Black3rror",
+                    "id": 33788464,
+                    "node_id": "MDQ6VXNlcjMzNzg4NDY0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/33788464?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Black3rror",
+                    "html_url": "https://github.com/Black3rror",
+                    "followers_url": "https://api.github.com/users/Black3rror/followers",
+                    "following_url": "https://api.github.com/users/Black3rror/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Black3rror/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Black3rror/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Black3rror/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Black3rror/orgs",
+                    "repos_url": "https://api.github.com/users/Black3rror/repos",
+                    "events_url": "https://api.github.com/users/Black3rror/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Black3rror/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1111869977,
+                        "node_id": "MDU6TGFiZWwxMTExODY5OTc3",
+                        "url": "https://api.github.com/repos/tensorflow/model-optimization/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "yyoon",
+                    "id": 1309817,
+                    "node_id": "MDQ6VXNlcjEzMDk4MTc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1309817?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/yyoon",
+                    "html_url": "https://github.com/yyoon",
+                    "followers_url": "https://api.github.com/users/yyoon/followers",
+                    "following_url": "https://api.github.com/users/yyoon/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/yyoon/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/yyoon/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/yyoon/subscriptions",
+                    "organizations_url": "https://api.github.com/users/yyoon/orgs",
+                    "repos_url": "https://api.github.com/users/yyoon/repos",
+                    "events_url": "https://api.github.com/users/yyoon/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/yyoon/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "yyoon",
+                        "id": 1309817,
+                        "node_id": "MDQ6VXNlcjEzMDk4MTc=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1309817?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/yyoon",
+                        "html_url": "https://github.com/yyoon",
+                        "followers_url": "https://api.github.com/users/yyoon/followers",
+                        "following_url": "https://api.github.com/users/yyoon/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/yyoon/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/yyoon/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/yyoon/subscriptions",
+                        "organizations_url": "https://api.github.com/users/yyoon/orgs",
+                        "repos_url": "https://api.github.com/users/yyoon/repos",
+                        "events_url": "https://api.github.com/users/yyoon/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/yyoon/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-08-30T18:08:05Z",
+                "updated_at": "2023-09-14T19:01:03Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "No matter the size of the LSTM model, converting it with float16 optimization runs out of memory.\r\n\r\n**Code to reproduce the issue**\r\n[The code snippet to reproduce the issue on Google Colab](https://colab.research.google.com/drive/1IpQx9Hs-TMltM4UCj-jDP1iU147XN7PK?usp=sharing)\r\nCode:\r\n```python\r\nimport numpy as np\r\nimport tensorflow as tf\r\nimport tensorflow_model_optimization as tfmot\r\n\r\ndef create_model():\r\n  model = tf.keras.models.Sequential()\r\n\r\n  # For the model to later get converted, batch_size and sequence_length should be fixed.\r\n  # E.g., batch_input_shape=[None, 1] will throw an error.\r\n  # This is just a limitation when using RNNs. E.g., for FC or CNN we can have batch_size=None\r\n  model.add(tf.keras.layers.Embedding(\r\n    input_dim=5,\r\n    output_dim=1,\r\n    batch_input_shape=[1, 1]\r\n  ))\r\n\r\n  model.add(tf.keras.layers.LSTM(\r\n    units=1,\r\n    return_sequences=False,\r\n    stateful=False\r\n  ))\r\n\r\n  model.add(tf.keras.layers.Dense(5))\r\n\r\n  return model\r\n\r\nmodel = create_model()\r\nmodel.summary()\r\n\r\nmodel.save(\"/content/model/\")\r\n\r\nrepresentative_data = np.random.randint(0, 5, (200, 1)).astype(np.float32)\r\n\r\ndef representative_dataset():\r\n  for sample in representative_data:\r\n    sample = np.expand_dims(sample, axis=0)     # batch_size = 1\r\n    yield [sample]                              # set sample as first (and only) input of the model\r\n\r\n# float16 quantization\r\nconverter = tf.lite.TFLiteConverter.from_saved_model(\"/content/model/\")\r\nconverter.optimizations = [tf.lite.Optimize.DEFAULT]\r\nconverter.target_spec.supported_types = [tf.float16]\r\n# kernel runs out of memory and crashes in the following line\r\ntflite_quant_model = converter.convert()\r\n```\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1091/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1091/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1719985427",
+                "html_url": "https://github.com/tensorflow/model-optimization/issues/1091#issuecomment-1719985427",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-optimization/issues/1091",
+                "id": 1719985427,
+                "node_id": "IC_kwDOCUaSZs5mhOUT",
+                "user": {
+                    "login": "malloyca",
+                    "id": 26525818,
+                    "node_id": "MDQ6VXNlcjI2NTI1ODE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/26525818?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/malloyca",
+                    "html_url": "https://github.com/malloyca",
+                    "followers_url": "https://api.github.com/users/malloyca/followers",
+                    "following_url": "https://api.github.com/users/malloyca/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/malloyca/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/malloyca/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/malloyca/subscriptions",
+                    "organizations_url": "https://api.github.com/users/malloyca/orgs",
+                    "repos_url": "https://api.github.com/users/malloyca/repos",
+                    "events_url": "https://api.github.com/users/malloyca/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/malloyca/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-09-14T19:01:03Z",
+                "updated_at": "2023-09-14T19:01:03Z",
+                "author_association": "NONE",
+                "body": "I have also encountered this problem using TensorFlow version 12.2.1 on my system. Non-optimized conversion works fine, but float16 optimization is causing my kernel to crash repeatedly.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/issues/comments/1719985427/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-14T19:01:03Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31843495843",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 155619942,
+            "name": "tensorflow/model-optimization",
+            "url": "https://api.github.com/repos/tensorflow/model-optimization"
+        },
+        "payload": {
+            "repository_id": 155619942,
+            "push_id": 15046462130,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/test_565231279",
+            "head": "ec6e29224969db9a6e54c8585446a1f5c2d5873c",
+            "before": "9c480e03b71117355589e5bffcee6c122ed216c8",
+            "commits": [
+                {
+                    "sha": "ec6e29224969db9a6e54c8585446a1f5c2d5873c",
+                    "author": {
+                        "email": "fchollet@google.com",
+                        "name": "Francois Chollet"
+                    },
+                    "message": "Remove private Keras imports.\n\nPiperOrigin-RevId: 565231279",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-optimization/commits/ec6e29224969db9a6e54c8585446a1f5c2d5873c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-14T18:03:54Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    }
+]

@@ -1,0 +1,3279 @@
+[
+    {
+        "id": "32894904164",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1530,
+            "pull_request": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1530",
+                "id": 1576294662,
+                "node_id": "PR_kwDOAdAp1c5d9FkG",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1530",
+                "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1530.diff",
+                "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1530.patch",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1530",
+                "number": 1530,
+                "state": "open",
+                "locked": false,
+                "title": "Add `--bootstrap-factory` option to leshan-client-demo",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "This aims to implements https://github.com/eclipse-leshan/leshan/issues/1482.\r\n\r\nThis is based on : https://github.com/eclipse-leshan/leshan/pull/1512.\r\n\r\n(:construction:  work in progress)",
+                "created_at": "2023-10-27T09:59:43Z",
+                "updated_at": "2023-10-27T09:59:43Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": true,
+                "commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1530/commits",
+                "review_comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1530/comments",
+                "review_comment_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1530/comments",
+                "statuses_url": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/ea76fcf330b189121cc09418331fef3a6b053481",
+                "head": {
+                    "label": "eclipse-leshan:bootstrap-factory",
+                    "ref": "bootstrap-factory",
+                    "sha": "ea76fcf330b189121cc09418331fef3a6b053481",
+                    "user": {
+                        "login": "eclipse-leshan",
+                        "id": 137814549,
+                        "node_id": "O_kgDOCDbiFQ",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/eclipse-leshan",
+                        "html_url": "https://github.com/eclipse-leshan",
+                        "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                        "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                        "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                        "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                        "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 30419413,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkzMDQxOTQxMw==",
+                        "name": "leshan",
+                        "full_name": "eclipse-leshan/leshan",
+                        "private": false,
+                        "owner": {
+                            "login": "eclipse-leshan",
+                            "id": 137814549,
+                            "node_id": "O_kgDOCDbiFQ",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/eclipse-leshan",
+                            "html_url": "https://github.com/eclipse-leshan",
+                            "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                            "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                            "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                            "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                            "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/eclipse-leshan/leshan",
+                        "description": "Java Library for LWM2M",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                        "forks_url": "https://api.github.com/repos/eclipse-leshan/leshan/forks",
+                        "keys_url": "https://api.github.com/repos/eclipse-leshan/leshan/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/eclipse-leshan/leshan/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/eclipse-leshan/leshan/teams",
+                        "hooks_url": "https://api.github.com/repos/eclipse-leshan/leshan/hooks",
+                        "issue_events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/events",
+                        "assignees_url": "https://api.github.com/repos/eclipse-leshan/leshan/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/eclipse-leshan/leshan/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/tags",
+                        "blobs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/eclipse-leshan/leshan/languages",
+                        "stargazers_url": "https://api.github.com/repos/eclipse-leshan/leshan/stargazers",
+                        "contributors_url": "https://api.github.com/repos/eclipse-leshan/leshan/contributors",
+                        "subscribers_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscribers",
+                        "subscription_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscription",
+                        "commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/eclipse-leshan/leshan/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/eclipse-leshan/leshan/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/eclipse-leshan/leshan/merges",
+                        "archive_url": "https://api.github.com/repos/eclipse-leshan/leshan/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/eclipse-leshan/leshan/downloads",
+                        "issues_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/eclipse-leshan/leshan/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/eclipse-leshan/leshan/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/eclipse-leshan/leshan/deployments",
+                        "created_at": "2015-02-06T15:44:24Z",
+                        "updated_at": "2023-10-20T22:37:30Z",
+                        "pushed_at": "2023-10-27T09:59:44Z",
+                        "git_url": "git://github.com/eclipse-leshan/leshan.git",
+                        "ssh_url": "git@github.com:eclipse-leshan/leshan.git",
+                        "clone_url": "https://github.com/eclipse-leshan/leshan.git",
+                        "svn_url": "https://github.com/eclipse-leshan/leshan",
+                        "homepage": "https://www.eclipse.org/leshan/",
+                        "size": 12487,
+                        "stargazers_count": 624,
+                        "watchers_count": 624,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 427,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 83,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bootstrap-server",
+                            "coap",
+                            "device-management",
+                            "eclipse",
+                            "eclipseiot",
+                            "internet-of-things",
+                            "iot",
+                            "java",
+                            "lwm2m",
+                            "lwm2m-client",
+                            "lwm2m-protocol",
+                            "lwm2m-server"
+                        ],
+                        "visibility": "public",
+                        "forks": 427,
+                        "open_issues": 83,
+                        "watchers": 624,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "eclipse-leshan:master",
+                    "ref": "master",
+                    "sha": "082e05c38f087c4a2c11fe302436d15f7fe70c47",
+                    "user": {
+                        "login": "eclipse-leshan",
+                        "id": 137814549,
+                        "node_id": "O_kgDOCDbiFQ",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/eclipse-leshan",
+                        "html_url": "https://github.com/eclipse-leshan",
+                        "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                        "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                        "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                        "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                        "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 30419413,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkzMDQxOTQxMw==",
+                        "name": "leshan",
+                        "full_name": "eclipse-leshan/leshan",
+                        "private": false,
+                        "owner": {
+                            "login": "eclipse-leshan",
+                            "id": 137814549,
+                            "node_id": "O_kgDOCDbiFQ",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/eclipse-leshan",
+                            "html_url": "https://github.com/eclipse-leshan",
+                            "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                            "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                            "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                            "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                            "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/eclipse-leshan/leshan",
+                        "description": "Java Library for LWM2M",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                        "forks_url": "https://api.github.com/repos/eclipse-leshan/leshan/forks",
+                        "keys_url": "https://api.github.com/repos/eclipse-leshan/leshan/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/eclipse-leshan/leshan/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/eclipse-leshan/leshan/teams",
+                        "hooks_url": "https://api.github.com/repos/eclipse-leshan/leshan/hooks",
+                        "issue_events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/events",
+                        "assignees_url": "https://api.github.com/repos/eclipse-leshan/leshan/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/eclipse-leshan/leshan/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/tags",
+                        "blobs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/eclipse-leshan/leshan/languages",
+                        "stargazers_url": "https://api.github.com/repos/eclipse-leshan/leshan/stargazers",
+                        "contributors_url": "https://api.github.com/repos/eclipse-leshan/leshan/contributors",
+                        "subscribers_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscribers",
+                        "subscription_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscription",
+                        "commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/eclipse-leshan/leshan/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/eclipse-leshan/leshan/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/eclipse-leshan/leshan/merges",
+                        "archive_url": "https://api.github.com/repos/eclipse-leshan/leshan/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/eclipse-leshan/leshan/downloads",
+                        "issues_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/eclipse-leshan/leshan/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/eclipse-leshan/leshan/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/eclipse-leshan/leshan/deployments",
+                        "created_at": "2015-02-06T15:44:24Z",
+                        "updated_at": "2023-10-20T22:37:30Z",
+                        "pushed_at": "2023-10-27T09:59:44Z",
+                        "git_url": "git://github.com/eclipse-leshan/leshan.git",
+                        "ssh_url": "git@github.com:eclipse-leshan/leshan.git",
+                        "clone_url": "https://github.com/eclipse-leshan/leshan.git",
+                        "svn_url": "https://github.com/eclipse-leshan/leshan",
+                        "homepage": "https://www.eclipse.org/leshan/",
+                        "size": 12487,
+                        "stargazers_count": 624,
+                        "watchers_count": 624,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 427,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 83,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bootstrap-server",
+                            "coap",
+                            "device-management",
+                            "eclipse",
+                            "eclipseiot",
+                            "internet-of-things",
+                            "iot",
+                            "java",
+                            "lwm2m",
+                            "lwm2m-client",
+                            "lwm2m-protocol",
+                            "lwm2m-server"
+                        ],
+                        "visibility": "public",
+                        "forks": 427,
+                        "open_issues": 83,
+                        "watchers": 624,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1530"
+                    },
+                    "html": {
+                        "href": "https://github.com/eclipse-leshan/leshan/pull/1530"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1530"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1530/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1530/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1530/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/ea76fcf330b189121cc09418331fef3a6b053481"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 7,
+                "additions": 77,
+                "deletions": 0,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:59:45Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32894824100",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "bootstrap-factory",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "Java Library for LWM2M",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:56:41Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32893419678",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1512",
+                "id": 1900600367,
+                "node_id": "PR_kwDOAdAp1c5ajSl9",
+                "number": 1512,
+                "title": "Setting objects value via CLI using BootstrapWriteRequest",
+                "user": {
+                    "login": "mgdlkundera",
+                    "id": 141422640,
+                    "node_id": "U_kgDOCG3wMA",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/141422640?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mgdlkundera",
+                    "html_url": "https://github.com/mgdlkundera",
+                    "followers_url": "https://api.github.com/users/mgdlkundera/followers",
+                    "following_url": "https://api.github.com/users/mgdlkundera/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mgdlkundera/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mgdlkundera/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mgdlkundera/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mgdlkundera/orgs",
+                    "repos_url": "https://api.github.com/users/mgdlkundera/repos",
+                    "events_url": "https://api.github.com/users/mgdlkundera/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mgdlkundera/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-09-18T10:10:50Z",
+                "updated_at": "2023-10-27T09:03:41Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1512",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/pull/1512",
+                    "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1512.diff",
+                    "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1512.patch",
+                    "merged_at": null
+                },
+                "body": "Setting objects value via CLI using BootstrapWriteRequest.\r\n\r\nThis PR aims to implement : https://github.com/eclipse-leshan/leshan/issues/1482\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1782560870",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1512#issuecomment-1782560870",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512",
+                "id": 1782560870,
+                "node_id": "IC_kwDOAdAp1c5qP7hm",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T09:03:41Z",
+                "updated_at": "2023-10-27T09:03:41Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "I'm going to work on this.  (try to rebase on master, review a last time and eventually fix what I will found)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1782560870/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:03:41Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32893359821",
+        "type": "PushEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "repository_id": 30419413,
+            "push_id": 15589109822,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "082e05c38f087c4a2c11fe302436d15f7fe70c47",
+            "before": "a8d4af1f76114b0a6c88c14f47e722ba06e61df2",
+            "commits": [
+                {
+                    "sha": "4fb816e628eb85da201eb1c73c3681f9bf3e90a7",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Fix -jh(--java-coap-host) option behavior of server-demo.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/4fb816e628eb85da201eb1c73c3681f9bf3e90a7"
+                },
+                {
+                    "sha": "d3cd591a7e39163fe9b53081d4ed573a083140a5",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Use java-coap provider in DeleteClientOnlyTest",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/d3cd591a7e39163fe9b53081d4ed573a083140a5"
+                },
+                {
+                    "sha": "082e05c38f087c4a2c11fe302436d15f7fe70c47",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Move register_with_invalid_request from RegistrationTest to LockStepTest",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/082e05c38f087c4a2c11fe302436d15f7fe70c47"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:01:26Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32891357472",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/issues/1529",
+                "id": 1964578505,
+                "node_id": "I_kwDOAdAp1c51GRbJ",
+                "number": 1529,
+                "title": "Leshan refuses custom test objects models with value higher than 42768. ",
+                "user": {
+                    "login": "AlexBHQ",
+                    "id": 136717754,
+                    "node_id": "U_kgDOCCYlug",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/136717754?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/AlexBHQ",
+                    "html_url": "https://github.com/AlexBHQ",
+                    "followers_url": "https://api.github.com/users/AlexBHQ/followers",
+                    "following_url": "https://api.github.com/users/AlexBHQ/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/AlexBHQ/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/AlexBHQ/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/AlexBHQ/subscriptions",
+                    "organizations_url": "https://api.github.com/users/AlexBHQ/orgs",
+                    "repos_url": "https://api.github.com/users/AlexBHQ/repos",
+                    "events_url": "https://api.github.com/users/AlexBHQ/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/AlexBHQ/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 174444919,
+                        "node_id": "MDU6TGFiZWwxNzQ0NDQ5MTk=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": "Dysfunctionnal behavior"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-27T00:49:12Z",
+                "updated_at": "2023-10-27T07:42:49Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Version(s)\n\n2.0.0-M10\n\n### Which components\n\nserver\n\n### Tested With\n\n42800.xml\n\n### What happened\n\nNo big deal but unless the server has a way to know if it's running in production or dev. It should not restrict the usage of test IDs.\r\nHopefully I did not miss a configuration somewhere.\r\n\r\n42769 - 42800 | Object IDs for testing purpose. These IDs MUST NOT be used in production as collisions with other Object IDs are possible.\r\n\n\n### How to reproduce\n\nCreate a custom object with id 42800\r\nplace it in the models folder and run the server.\r\n\r\n\n\n### Relevant Output\n\n2023-10-27 00:36:43,355 ObjectLoader         [WARN] Unable to load object models for /opt/models/42800.xml\r\norg.eclipse.leshan.core.model.InvalidModelException: Model for Object (42800) in 42800.xml is invalid : Object id MUST be between 0 and 42768\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1782451860",
+                "html_url": "https://github.com/eclipse-leshan/leshan/issues/1529#issuecomment-1782451860",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529",
+                "id": 1782451860,
+                "node_id": "IC_kwDOAdAp1c5qPg6U",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T07:42:48Z",
+                "updated_at": "2023-10-27T07:42:48Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Thx for reporting this :pray: \r\n\r\nThis looks like duplicate of : https://github.com/eclipse-leshan/leshan/issues/1513\r\n\r\nThis should be fixed in `master` now and should be available in next release : 2.0.0-M14.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1782451860/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:42:49Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32885192273",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 136717754,
+            "login": "AlexBHQ",
+            "display_login": "AlexBHQ",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AlexBHQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/136717754?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/issues/1529",
+                "id": 1964578505,
+                "node_id": "I_kwDOAdAp1c51GRbJ",
+                "number": 1529,
+                "title": "Leshan refuses custom test objects models with value higher than 42768. ",
+                "user": {
+                    "login": "AlexBHQ",
+                    "id": 136717754,
+                    "node_id": "U_kgDOCCYlug",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/136717754?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/AlexBHQ",
+                    "html_url": "https://github.com/AlexBHQ",
+                    "followers_url": "https://api.github.com/users/AlexBHQ/followers",
+                    "following_url": "https://api.github.com/users/AlexBHQ/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/AlexBHQ/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/AlexBHQ/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/AlexBHQ/subscriptions",
+                    "organizations_url": "https://api.github.com/users/AlexBHQ/orgs",
+                    "repos_url": "https://api.github.com/users/AlexBHQ/repos",
+                    "events_url": "https://api.github.com/users/AlexBHQ/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/AlexBHQ/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 174444919,
+                        "node_id": "MDU6TGFiZWwxNzQ0NDQ5MTk=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/bug",
+                        "name": "bug",
+                        "color": "fc2929",
+                        "default": true,
+                        "description": "Dysfunctionnal behavior"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T00:49:12Z",
+                "updated_at": "2023-10-27T00:49:12Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Version(s)\n\n2.0.0-M10\n\n### Which components\n\nserver\n\n### Tested With\n\n42800.xml\n\n### What happened\n\nNo big deal but unless the server has a way to know if it's running in production or dev. It should not restrict the usage of test IDs.\r\nHopefully I did not miss a configuration somewhere.\r\n\r\n42769 - 42800 | Object IDs for testing purpose. These IDs MUST NOT be used in production as collisions with other Object IDs are possible.\r\n\n\n### How to reproduce\n\nCreate a custom object with id 42800\r\nplace it in the models folder and run the server.\r\n\r\n\n\n### Relevant Output\n\n2023-10-27 00:36:43,355 ObjectLoader         [WARN] Unable to load object models for /opt/models/42800.xml\r\norg.eclipse.leshan.core.model.InvalidModelException: Model for Object (42800) in 42800.xml is invalid : Object id MUST be between 0 and 42768\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1529/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:49:13Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32875391967",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1528,
+            "pull_request": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1528",
+                "id": 1575185430,
+                "node_id": "PR_kwDOAdAp1c5d42wW",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1528",
+                "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1528.diff",
+                "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1528.patch",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1528",
+                "number": 1528,
+                "state": "open",
+                "locked": false,
+                "title": "Add coap+tcp support based on java-coap to client and server. ",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "This is a first try about adding` coap+tcp` support based on **java-coap**.\r\n\r\nThis include a `CoapTcpTransport` based on **netty** which is not Leshan dependent and could be included in **java-coap** repository.\r\nAll code about that is in package : `org.eclipse.leshan.transport.javacoap.server.coaptcp.transport` \r\n\r\nThis is not mature at all (especially all around connection/deconnection/reconnection) but this is in a testable state. \r\n\r\n**leshan-server-demo** provide a new endpoint for `coap+tcp` at port 5683.\r\n**leshan-client-demo** can be used with `coap+tcp` launching command : `java -jar leshan-client-demo.jar -u coap+tcp://localhost:5683 `\r\n\r\n(This doesn't include bootstrap server support)\r\n",
+                "created_at": "2023-10-26T16:30:02Z",
+                "updated_at": "2023-10-26T16:30:02Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1528/commits",
+                "review_comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1528/comments",
+                "review_comment_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1528/comments",
+                "statuses_url": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/102248675b5395c849245499246b5cf270cc9ff4",
+                "head": {
+                    "label": "eclipse-leshan:java-coap-tcp",
+                    "ref": "java-coap-tcp",
+                    "sha": "102248675b5395c849245499246b5cf270cc9ff4",
+                    "user": {
+                        "login": "eclipse-leshan",
+                        "id": 137814549,
+                        "node_id": "O_kgDOCDbiFQ",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/eclipse-leshan",
+                        "html_url": "https://github.com/eclipse-leshan",
+                        "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                        "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                        "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                        "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                        "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 30419413,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkzMDQxOTQxMw==",
+                        "name": "leshan",
+                        "full_name": "eclipse-leshan/leshan",
+                        "private": false,
+                        "owner": {
+                            "login": "eclipse-leshan",
+                            "id": 137814549,
+                            "node_id": "O_kgDOCDbiFQ",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/eclipse-leshan",
+                            "html_url": "https://github.com/eclipse-leshan",
+                            "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                            "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                            "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                            "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                            "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/eclipse-leshan/leshan",
+                        "description": "Java Library for LWM2M",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                        "forks_url": "https://api.github.com/repos/eclipse-leshan/leshan/forks",
+                        "keys_url": "https://api.github.com/repos/eclipse-leshan/leshan/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/eclipse-leshan/leshan/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/eclipse-leshan/leshan/teams",
+                        "hooks_url": "https://api.github.com/repos/eclipse-leshan/leshan/hooks",
+                        "issue_events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/events",
+                        "assignees_url": "https://api.github.com/repos/eclipse-leshan/leshan/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/eclipse-leshan/leshan/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/tags",
+                        "blobs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/eclipse-leshan/leshan/languages",
+                        "stargazers_url": "https://api.github.com/repos/eclipse-leshan/leshan/stargazers",
+                        "contributors_url": "https://api.github.com/repos/eclipse-leshan/leshan/contributors",
+                        "subscribers_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscribers",
+                        "subscription_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscription",
+                        "commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/eclipse-leshan/leshan/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/eclipse-leshan/leshan/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/eclipse-leshan/leshan/merges",
+                        "archive_url": "https://api.github.com/repos/eclipse-leshan/leshan/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/eclipse-leshan/leshan/downloads",
+                        "issues_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/eclipse-leshan/leshan/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/eclipse-leshan/leshan/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/eclipse-leshan/leshan/deployments",
+                        "created_at": "2015-02-06T15:44:24Z",
+                        "updated_at": "2023-10-20T22:37:30Z",
+                        "pushed_at": "2023-10-26T16:30:02Z",
+                        "git_url": "git://github.com/eclipse-leshan/leshan.git",
+                        "ssh_url": "git@github.com:eclipse-leshan/leshan.git",
+                        "clone_url": "https://github.com/eclipse-leshan/leshan.git",
+                        "svn_url": "https://github.com/eclipse-leshan/leshan",
+                        "homepage": "https://www.eclipse.org/leshan/",
+                        "size": 12416,
+                        "stargazers_count": 624,
+                        "watchers_count": 624,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 427,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 81,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bootstrap-server",
+                            "coap",
+                            "device-management",
+                            "eclipse",
+                            "eclipseiot",
+                            "internet-of-things",
+                            "iot",
+                            "java",
+                            "lwm2m",
+                            "lwm2m-client",
+                            "lwm2m-protocol",
+                            "lwm2m-server"
+                        ],
+                        "visibility": "public",
+                        "forks": 427,
+                        "open_issues": 81,
+                        "watchers": 624,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "eclipse-leshan:master",
+                    "ref": "master",
+                    "sha": "a8d4af1f76114b0a6c88c14f47e722ba06e61df2",
+                    "user": {
+                        "login": "eclipse-leshan",
+                        "id": 137814549,
+                        "node_id": "O_kgDOCDbiFQ",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/eclipse-leshan",
+                        "html_url": "https://github.com/eclipse-leshan",
+                        "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                        "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                        "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                        "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                        "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 30419413,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkzMDQxOTQxMw==",
+                        "name": "leshan",
+                        "full_name": "eclipse-leshan/leshan",
+                        "private": false,
+                        "owner": {
+                            "login": "eclipse-leshan",
+                            "id": 137814549,
+                            "node_id": "O_kgDOCDbiFQ",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/eclipse-leshan",
+                            "html_url": "https://github.com/eclipse-leshan",
+                            "followers_url": "https://api.github.com/users/eclipse-leshan/followers",
+                            "following_url": "https://api.github.com/users/eclipse-leshan/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/eclipse-leshan/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/eclipse-leshan/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/eclipse-leshan/subscriptions",
+                            "organizations_url": "https://api.github.com/users/eclipse-leshan/orgs",
+                            "repos_url": "https://api.github.com/users/eclipse-leshan/repos",
+                            "events_url": "https://api.github.com/users/eclipse-leshan/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/eclipse-leshan/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/eclipse-leshan/leshan",
+                        "description": "Java Library for LWM2M",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                        "forks_url": "https://api.github.com/repos/eclipse-leshan/leshan/forks",
+                        "keys_url": "https://api.github.com/repos/eclipse-leshan/leshan/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/eclipse-leshan/leshan/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/eclipse-leshan/leshan/teams",
+                        "hooks_url": "https://api.github.com/repos/eclipse-leshan/leshan/hooks",
+                        "issue_events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/events",
+                        "assignees_url": "https://api.github.com/repos/eclipse-leshan/leshan/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/eclipse-leshan/leshan/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/tags",
+                        "blobs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/eclipse-leshan/leshan/languages",
+                        "stargazers_url": "https://api.github.com/repos/eclipse-leshan/leshan/stargazers",
+                        "contributors_url": "https://api.github.com/repos/eclipse-leshan/leshan/contributors",
+                        "subscribers_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscribers",
+                        "subscription_url": "https://api.github.com/repos/eclipse-leshan/leshan/subscription",
+                        "commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/eclipse-leshan/leshan/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/eclipse-leshan/leshan/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/eclipse-leshan/leshan/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/eclipse-leshan/leshan/merges",
+                        "archive_url": "https://api.github.com/repos/eclipse-leshan/leshan/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/eclipse-leshan/leshan/downloads",
+                        "issues_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/eclipse-leshan/leshan/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/eclipse-leshan/leshan/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/eclipse-leshan/leshan/deployments",
+                        "created_at": "2015-02-06T15:44:24Z",
+                        "updated_at": "2023-10-20T22:37:30Z",
+                        "pushed_at": "2023-10-26T16:30:02Z",
+                        "git_url": "git://github.com/eclipse-leshan/leshan.git",
+                        "ssh_url": "git@github.com:eclipse-leshan/leshan.git",
+                        "clone_url": "https://github.com/eclipse-leshan/leshan.git",
+                        "svn_url": "https://github.com/eclipse-leshan/leshan",
+                        "homepage": "https://www.eclipse.org/leshan/",
+                        "size": 12416,
+                        "stargazers_count": 624,
+                        "watchers_count": 624,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 427,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 81,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bootstrap-server",
+                            "coap",
+                            "device-management",
+                            "eclipse",
+                            "eclipseiot",
+                            "internet-of-things",
+                            "iot",
+                            "java",
+                            "lwm2m",
+                            "lwm2m-client",
+                            "lwm2m-protocol",
+                            "lwm2m-server"
+                        ],
+                        "visibility": "public",
+                        "forks": 427,
+                        "open_issues": 81,
+                        "watchers": 624,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1528"
+                    },
+                    "html": {
+                        "href": "https://github.com/eclipse-leshan/leshan/pull/1528"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1528"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1528/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1528/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1528/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/eclipse-leshan/leshan/statuses/102248675b5395c849245499246b5cf270cc9ff4"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 5,
+                "additions": 1239,
+                "deletions": 361,
+                "changed_files": 48
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:30:04Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32875061327",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "java-coap-tcp",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "Java Library for LWM2M",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:17:45Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32869375870",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                "id": 1903091627,
+                "node_id": "PR_kwDOAdAp1c5arxQy",
+                "number": 1514,
+                "title": "First experimentation about Write Attributes support at cliend side.",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 10,
+                "created_at": "2023-09-19T14:12:54Z",
+                "updated_at": "2023-10-26T13:22:11Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": true,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1514",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                    "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1514.diff",
+                    "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1514.patch",
+                    "merged_at": null
+                },
+                "body": "This is experimental work to try to implement #534.\r\n\r\nI tried to find solution to manage how to skip or delay notification. This a maybe a bit twisted but until now I can not find a simple way... :grimacing: \r\n\r\nWe can not really do that at `ObjectListener` of `LwM2mObjectEnabler` because : \r\n - this will affect all listeners (not only listeners related to observation)\r\n - this will affect all observe relation but attribute are attached by server. (and even [by request in LWM2M v1.2.x](https://www.openmobilealliance.org/release/LightweightM2M/V1_2_1-20221209-A/HTML-Version/OMA-TS-LightweightM2M_Core-V1_2_1-20221209-A.html#6-4-1-0-641-Observe-Operation) )\r\n\r\nNote that  : \r\n- I didn't test if this will fit with `java-coap`\r\n- I didn't think about Observe-Composite\r\n- the code is not complete but this is more a proof of concept which can be used as base for more development about that. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1781115993",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514#issuecomment-1781115993",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "id": 1781115993,
+                "node_id": "IC_kwDOAdAp1c5qKaxZ",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T13:22:11Z",
+                "updated_at": "2023-10-26T13:22:11Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "> Where we should place data of Notification RW Storing When Disabled or Offline\r\n\r\nI maybe missed something but \"Storing When Disabled or Offline\" is completely another feature ?\r\n\r\n> And another question is about data structure in NotificationDataStore how should look like data structure here \r\n\r\nData structure depends on needs.\r\nIf you **don't want** to support \"multi server\" and \"composite observe\" in first time, you can maybe go with something like : \r\na map<LwM2mPath, NotificationData>\r\n\r\n\r\n>  should be place there TimeStamped data?\r\n\r\nI didn't think too much about that but why would we need to timestamped data ? (which use case ?)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1781115993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:22:12Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32868364290",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 141422640,
+            "login": "mgdlkundera",
+            "display_login": "mgdlkundera",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mgdlkundera",
+            "avatar_url": "https://avatars.githubusercontent.com/u/141422640?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                "id": 1903091627,
+                "node_id": "PR_kwDOAdAp1c5arxQy",
+                "number": 1514,
+                "title": "First experimentation about Write Attributes support at cliend side.",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 9,
+                "created_at": "2023-09-19T14:12:54Z",
+                "updated_at": "2023-10-26T12:51:53Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": true,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1514",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                    "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1514.diff",
+                    "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1514.patch",
+                    "merged_at": null
+                },
+                "body": "This is experimental work to try to implement #534.\r\n\r\nI tried to find solution to manage how to skip or delay notification. This a maybe a bit twisted but until now I can not find a simple way... :grimacing: \r\n\r\nWe can not really do that at `ObjectListener` of `LwM2mObjectEnabler` because : \r\n - this will affect all listeners (not only listeners related to observation)\r\n - this will affect all observe relation but attribute are attached by server. (and even [by request in LWM2M v1.2.x](https://www.openmobilealliance.org/release/LightweightM2M/V1_2_1-20221209-A/HTML-Version/OMA-TS-LightweightM2M_Core-V1_2_1-20221209-A.html#6-4-1-0-641-Observe-Operation) )\r\n\r\nNote that  : \r\n- I didn't test if this will fit with `java-coap`\r\n- I didn't think about Observe-Composite\r\n- the code is not complete but this is more a proof of concept which can be used as base for more development about that. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1781062264",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514#issuecomment-1781062264",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "id": 1781062264,
+                "node_id": "IC_kwDOAdAp1c5qKNp4",
+                "user": {
+                    "login": "mgdlkundera",
+                    "id": 141422640,
+                    "node_id": "U_kgDOCG3wMA",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/141422640?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mgdlkundera",
+                    "html_url": "https://github.com/mgdlkundera",
+                    "followers_url": "https://api.github.com/users/mgdlkundera/followers",
+                    "following_url": "https://api.github.com/users/mgdlkundera/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mgdlkundera/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mgdlkundera/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mgdlkundera/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mgdlkundera/orgs",
+                    "repos_url": "https://api.github.com/users/mgdlkundera/repos",
+                    "events_url": "https://api.github.com/users/mgdlkundera/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mgdlkundera/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T12:51:53Z",
+                "updated_at": "2023-10-26T12:51:53Z",
+                "author_association": "NONE",
+                "body": "@sbernard31 Where we should place data of Notification RW Storing When Disabled or Offline, in NotificationDataStore? \r\n\r\nAnd another question is about data structure in NotificationDataStore how should look like data structure here and should be place there TimeStamped data?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1781062264/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T12:51:53Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32835066685",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                "id": 1903091627,
+                "node_id": "PR_kwDOAdAp1c5arxQy",
+                "number": 1514,
+                "title": "First experimentation about Write Attributes support at cliend side.",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2023-09-19T14:12:54Z",
+                "updated_at": "2023-10-25T12:38:47Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": true,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1514",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                    "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1514.diff",
+                    "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1514.patch",
+                    "merged_at": null
+                },
+                "body": "This is experimental work to try to implement #534.\r\n\r\nI tried to find solution to manage how to skip or delay notification. This a maybe a bit twisted but until now I can not find a simple way... :grimacing: \r\n\r\nWe can not really do that at `ObjectListener` of `LwM2mObjectEnabler` because : \r\n - this will affect all listeners (not only listeners related to observation)\r\n - this will affect all observe relation but attribute are attached by server. (and even [by request in LWM2M v1.2.x](https://www.openmobilealliance.org/release/LightweightM2M/V1_2_1-20221209-A/HTML-Version/OMA-TS-LightweightM2M_Core-V1_2_1-20221209-A.html#6-4-1-0-641-Observe-Operation) )\r\n\r\nNote that  : \r\n- I didn't test if this will fit with `java-coap`\r\n- I didn't think about Observe-Composite\r\n- the code is not complete but this is more a proof of concept which can be used as base for more development about that. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1779183579",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514#issuecomment-1779183579",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "id": 1779183579,
+                "node_id": "IC_kwDOAdAp1c5qDC_b",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T12:38:47Z",
+                "updated_at": "2023-10-25T12:38:47Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "> You write in TODO to use objectTree to get attribute, can you explain what do you mean exactly by this?\r\n\r\nThis PR is mainly a POC to ensure it's possible to modify default observe behavior, I don't know if this is the right way to go but when I write this code  I had in mind that `NotificationManager` is just responsible to modify the default  \"observe behavior\" based on \"write attributes\" set on the device.\r\n\r\nSo when a observe relation is established, `NotificationManager` need to get this \"write attributes\" currently set on the device.\r\nI was thinking this will be accessible through objectTree but I didn't think too much how it could look like. \r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1779183579/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:38:47Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32831489258",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 141422640,
+            "login": "mgdlkundera",
+            "display_login": "mgdlkundera",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mgdlkundera",
+            "avatar_url": "https://avatars.githubusercontent.com/u/141422640?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                "id": 1903091627,
+                "node_id": "PR_kwDOAdAp1c5arxQy",
+                "number": 1514,
+                "title": "First experimentation about Write Attributes support at cliend side.",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2023-09-19T14:12:54Z",
+                "updated_at": "2023-10-25T10:31:08Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": true,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1514",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514",
+                    "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1514.diff",
+                    "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1514.patch",
+                    "merged_at": null
+                },
+                "body": "This is experimental work to try to implement #534.\r\n\r\nI tried to find solution to manage how to skip or delay notification. This a maybe a bit twisted but until now I can not find a simple way... :grimacing: \r\n\r\nWe can not really do that at `ObjectListener` of `LwM2mObjectEnabler` because : \r\n - this will affect all listeners (not only listeners related to observation)\r\n - this will affect all observe relation but attribute are attached by server. (and even [by request in LWM2M v1.2.x](https://www.openmobilealliance.org/release/LightweightM2M/V1_2_1-20221209-A/HTML-Version/OMA-TS-LightweightM2M_Core-V1_2_1-20221209-A.html#6-4-1-0-641-Observe-Operation) )\r\n\r\nNote that  : \r\n- I didn't test if this will fit with `java-coap`\r\n- I didn't think about Observe-Composite\r\n- the code is not complete but this is more a proof of concept which can be used as base for more development about that. \r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1778971113",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1514#issuecomment-1778971113",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1514",
+                "id": 1778971113,
+                "node_id": "IC_kwDOAdAp1c5qCPHp",
+                "user": {
+                    "login": "mgdlkundera",
+                    "id": 141422640,
+                    "node_id": "U_kgDOCG3wMA",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/141422640?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mgdlkundera",
+                    "html_url": "https://github.com/mgdlkundera",
+                    "followers_url": "https://api.github.com/users/mgdlkundera/followers",
+                    "following_url": "https://api.github.com/users/mgdlkundera/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mgdlkundera/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mgdlkundera/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mgdlkundera/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mgdlkundera/orgs",
+                    "repos_url": "https://api.github.com/users/mgdlkundera/repos",
+                    "events_url": "https://api.github.com/users/mgdlkundera/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mgdlkundera/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T10:31:08Z",
+                "updated_at": "2023-10-25T10:31:08Z",
+                "author_association": "NONE",
+                "body": "@sbernard31 I have question about \r\nNotificationManager.getAttributes(LwM2mServer server, ObserveRequest request) \r\nYou write in TODO to use objectTree to get attribute, can you explain what do you mean exactly by this? ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1778971113/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:31:09Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32804286057",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1512",
+                "id": 1900600367,
+                "node_id": "PR_kwDOAdAp1c5ajSl9",
+                "number": 1512,
+                "title": "Setting objects value via CLI using BootstrapWriteRequest",
+                "user": {
+                    "login": "mgdlkundera",
+                    "id": 141422640,
+                    "node_id": "U_kgDOCG3wMA",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/141422640?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mgdlkundera",
+                    "html_url": "https://github.com/mgdlkundera",
+                    "followers_url": "https://api.github.com/users/mgdlkundera/followers",
+                    "following_url": "https://api.github.com/users/mgdlkundera/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mgdlkundera/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mgdlkundera/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mgdlkundera/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mgdlkundera/orgs",
+                    "repos_url": "https://api.github.com/users/mgdlkundera/repos",
+                    "events_url": "https://api.github.com/users/mgdlkundera/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mgdlkundera/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-09-18T10:10:50Z",
+                "updated_at": "2023-10-24T13:30:24Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/pulls/1512",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/pull/1512",
+                    "diff_url": "https://github.com/eclipse-leshan/leshan/pull/1512.diff",
+                    "patch_url": "https://github.com/eclipse-leshan/leshan/pull/1512.patch",
+                    "merged_at": null
+                },
+                "body": "Setting objects value via CLI using BootstrapWriteRequest.\r\n\r\nThis PR aims to implement : https://github.com/eclipse-leshan/leshan/issues/1482\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1777210064",
+                "html_url": "https://github.com/eclipse-leshan/leshan/pull/1512#issuecomment-1777210064",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1512",
+                "id": 1777210064,
+                "node_id": "IC_kwDOAdAp1c5p7hLQ",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-24T13:30:24Z",
+                "updated_at": "2023-10-24T13:30:24Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "@mgdlkundera it seems there is unwanted commits in this PR. I let you know it just in case you didn't notice it.  :slightly_smiling_face: ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1777210064/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T13:30:25Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32769178305",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 35079630,
+            "login": "itayYaakov",
+            "display_login": "itayYaakov",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/itayYaakov",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35079630?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "forkee": {
+                "id": 708781026,
+                "node_id": "R_kgDOKj8j4g",
+                "name": "leshan",
+                "full_name": "itayYaakov/leshan",
+                "private": false,
+                "owner": {
+                    "login": "itayYaakov",
+                    "id": 35079630,
+                    "node_id": "MDQ6VXNlcjM1MDc5NjMw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/35079630?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/itayYaakov",
+                    "html_url": "https://github.com/itayYaakov",
+                    "followers_url": "https://api.github.com/users/itayYaakov/followers",
+                    "following_url": "https://api.github.com/users/itayYaakov/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/itayYaakov/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/itayYaakov/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/itayYaakov/subscriptions",
+                    "organizations_url": "https://api.github.com/users/itayYaakov/orgs",
+                    "repos_url": "https://api.github.com/users/itayYaakov/repos",
+                    "events_url": "https://api.github.com/users/itayYaakov/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/itayYaakov/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/itayYaakov/leshan",
+                "description": "Java Library for LWM2M",
+                "fork": true,
+                "url": "https://api.github.com/repos/itayYaakov/leshan",
+                "forks_url": "https://api.github.com/repos/itayYaakov/leshan/forks",
+                "keys_url": "https://api.github.com/repos/itayYaakov/leshan/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/itayYaakov/leshan/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/itayYaakov/leshan/teams",
+                "hooks_url": "https://api.github.com/repos/itayYaakov/leshan/hooks",
+                "issue_events_url": "https://api.github.com/repos/itayYaakov/leshan/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/itayYaakov/leshan/events",
+                "assignees_url": "https://api.github.com/repos/itayYaakov/leshan/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/itayYaakov/leshan/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/itayYaakov/leshan/tags",
+                "blobs_url": "https://api.github.com/repos/itayYaakov/leshan/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/itayYaakov/leshan/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/itayYaakov/leshan/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/itayYaakov/leshan/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/itayYaakov/leshan/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/itayYaakov/leshan/languages",
+                "stargazers_url": "https://api.github.com/repos/itayYaakov/leshan/stargazers",
+                "contributors_url": "https://api.github.com/repos/itayYaakov/leshan/contributors",
+                "subscribers_url": "https://api.github.com/repos/itayYaakov/leshan/subscribers",
+                "subscription_url": "https://api.github.com/repos/itayYaakov/leshan/subscription",
+                "commits_url": "https://api.github.com/repos/itayYaakov/leshan/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/itayYaakov/leshan/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/itayYaakov/leshan/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/itayYaakov/leshan/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/itayYaakov/leshan/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/itayYaakov/leshan/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/itayYaakov/leshan/merges",
+                "archive_url": "https://api.github.com/repos/itayYaakov/leshan/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/itayYaakov/leshan/downloads",
+                "issues_url": "https://api.github.com/repos/itayYaakov/leshan/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/itayYaakov/leshan/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/itayYaakov/leshan/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/itayYaakov/leshan/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/itayYaakov/leshan/labels{/name}",
+                "releases_url": "https://api.github.com/repos/itayYaakov/leshan/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/itayYaakov/leshan/deployments",
+                "created_at": "2023-10-23T11:34:22Z",
+                "updated_at": "2023-10-23T11:34:22Z",
+                "pushed_at": "2023-10-23T08:33:01Z",
+                "git_url": "git://github.com/itayYaakov/leshan.git",
+                "ssh_url": "git@github.com:itayYaakov/leshan.git",
+                "clone_url": "https://github.com/itayYaakov/leshan.git",
+                "svn_url": "https://github.com/itayYaakov/leshan",
+                "homepage": "https://www.eclipse.org/leshan/",
+                "size": 12416,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "bsd-3-clause",
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "spdx_id": "BSD-3-Clause",
+                    "url": "https://api.github.com/licenses/bsd-3-clause",
+                    "node_id": "MDc6TGljZW5zZTU="
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "master",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T11:34:24Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32715849281",
+        "type": "PushEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "repository_id": 30419413,
+            "push_id": 15497097753,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/sni",
+            "head": "b8c65b791729d9b717ed167a89224c8e6110f7b9",
+            "before": "d6cf2bce480775823bc2b92a756c04c9b3ccf122",
+            "commits": [
+                {
+                    "sha": "89b69e074e1c9cb02c677a2db6d84451e0838e05",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Use SNI value from Security object (id:0) to validate certificate.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/89b69e074e1c9cb02c677a2db6d84451e0838e05"
+                },
+                {
+                    "sha": "b8c65b791729d9b717ed167a89224c8e6110f7b9",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add Integration test about bootstrap using SNI with X509",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/b8c65b791729d9b717ed167a89224c8e6110f7b9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T08:40:10Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32698408556",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "transport_command2",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:36:28Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32698404261",
+        "type": "PushEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "repository_id": 30419413,
+            "push_id": 15488185036,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/transport_command",
+            "head": "dfdeacd01ceee859b52f796ff37de23f90cf7567",
+            "before": "eb8badc5dbd0cacddb8b99415dc56e852fd0ac73",
+            "commits": [
+                {
+                    "sha": "dfdeacd01ceee859b52f796ff37de23f90cf7567",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "(in progress work to add command add server side)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/dfdeacd01ceee859b52f796ff37de23f90cf7567"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:36:18Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32698337705",
+        "type": "PushEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "repository_id": 30419413,
+            "push_id": 15488152325,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/transport_command",
+            "head": "eb8badc5dbd0cacddb8b99415dc56e852fd0ac73",
+            "before": "f849a7f61f70d3ad888c3ff011e16b7ea2d0b497",
+            "commits": [
+                {
+                    "sha": "eb8badc5dbd0cacddb8b99415dc56e852fd0ac73",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add \"transport\" command to leshan-client-demo.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/eb8badc5dbd0cacddb8b99415dc56e852fd0ac73"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:33:42Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32698184304",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "java_coap_client",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:27:55Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32698155748",
+        "type": "PushEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "repository_id": 30419413,
+            "push_id": 15488066085,
+            "size": 28,
+            "distinct_size": 1,
+            "ref": "refs/heads/transport_command",
+            "head": "f849a7f61f70d3ad888c3ff011e16b7ea2d0b497",
+            "before": "9301b71a75f9c6c8d4605eb4a6a4c82a17b252b2",
+            "commits": [
+                {
+                    "sha": "13e78c0797eae160277d4dd6cfd6cbb1fcd1aabb",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "validate object are registered in Send Request.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/13e78c0797eae160277d4dd6cfd6cbb1fcd1aabb"
+                },
+                {
+                    "sha": "401a2049800340d21642addeabcf56e730a593b5",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Upgrade slf4j from 2.0.7 to 2.0.9.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/401a2049800340d21642addeabcf56e730a593b5"
+                },
+                {
+                    "sha": "a3244c49f41b874fd6212c41573d5d6982acc51c",
+                    "author": {
+                        "email": "jaroslaw.legierski@orange.com",
+                        "name": "JaroslawLegierski"
+                    },
+                    "message": "GH-1524: Error handling improvement in SendHandler.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/a3244c49f41b874fd6212c41573d5d6982acc51c"
+                },
+                {
+                    "sha": "3c4651d4daf9179119bc77a17d199df82ab4e091",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add support of multiple endpoint provider at server side.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/3c4651d4daf9179119bc77a17d199df82ab4e091"
+                },
+                {
+                    "sha": "73b6c8615cc299b16edfd19e82df287bf88bd1d1",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add support of multiple endpoint provider at client side.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/73b6c8615cc299b16edfd19e82df287bf88bd1d1"
+                },
+                {
+                    "sha": "cd722fa0cacea4ebc83b2db769e22e071a7d9265",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add support of multiple endpoint provider at bootstrap server side.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/cd722fa0cacea4ebc83b2db769e22e071a7d9265"
+                },
+                {
+                    "sha": "89efce7957b751354f8b7fb816430f5d8967ce2c",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add description to LwM2mServerEndpoint",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/89efce7957b751354f8b7fb816430f5d8967ce2c"
+                },
+                {
+                    "sha": "d561e9e65415ad13b5d54d70e2086065db878361",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add description to LwM2mClientEndpoint",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/d561e9e65415ad13b5d54d70e2086065db878361"
+                },
+                {
+                    "sha": "05ff45c3679d6aead422c7d7d0b9fd9e6dc46443",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add description to LwM2mBootstrapServerEndpoint",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/05ff45c3679d6aead422c7d7d0b9fd9e6dc46443"
+                },
+                {
+                    "sha": "8be094d1b6b224e44a66120ca4d689b1d9c4b0e6",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "UI demos get (bootstrap) server endpoints dynamically.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/8be094d1b6b224e44a66120ca4d689b1d9c4b0e6"
+                },
+                {
+                    "sha": "38b3d91b8ed00be871ad9299ea323b67e6f6a0f2",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Fix DynamicIPObserveTest name.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/38b3d91b8ed00be871ad9299ea323b67e6f6a0f2"
+                },
+                {
+                    "sha": "960e4f90c8d84be9f7a9c3684128a91bb0b282d2",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add some test combinations in ReadCompositeTest.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/960e4f90c8d84be9f7a9c3684128a91bb0b282d2"
+                },
+                {
+                    "sha": "35af53d49658664fd43ce4bcd8e17ee5e2d17c0c",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Move some integration tests in Server/Client Only class.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/35af53d49658664fd43ce4bcd8e17ee5e2d17c0c"
+                },
+                {
+                    "sha": "71cb086b25c3d101ea8b9b855194fb1e6e808c3f",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Fix possible NPE in client BootstrapHandler.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/71cb086b25c3d101ea8b9b855194fb1e6e808c3f"
+                },
+                {
+                    "sha": "a8824a760308366984b589eee170374c62dfaf8b",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "GH-1461: Fix X.509 tests issue happening on some execution environment.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/a8824a760308366984b589eee170374c62dfaf8b"
+                },
+                {
+                    "sha": "7e6ea6f6a4fff0dbfa6f74924fca4ea37f314c3f",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add ErrorHandler to XML Parser in DDFFileParser",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/7e6ea6f6a4fff0dbfa6f74924fca4ea37f314c3f"
+                },
+                {
+                    "sha": "624ad251bc9647d9ddecf97ddf4c3cbefebf606c",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add CoAP endpoint provider based on java-coap at Server side",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/624ad251bc9647d9ddecf97ddf4c3cbefebf606c"
+                },
+                {
+                    "sha": "732203255485d19aeac57a2046d9e5c79428d016",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Test Server CoAP endpoint based on java-coap in integration tests.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/732203255485d19aeac57a2046d9e5c79428d016"
+                },
+                {
+                    "sha": "edc4edf06a983fa9d8471cf3711a397bb600d7c6",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Add CoAP endpoint based on java-coap to leshan-server-demo",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/edc4edf06a983fa9d8471cf3711a397bb600d7c6"
+                },
+                {
+                    "sha": "27605c6f5c93b106012409831f1702887ffd2fa4",
+                    "author": {
+                        "email": "sbernard@sierrawireless.com",
+                        "name": "Simon Bernard"
+                    },
+                    "message": "Fix JavaCoapServerEndpoint description.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/commits/27605c6f5c93b106012409831f1702887ffd2fa4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:26:52Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697940820",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1025",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1025/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1025/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1025/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/issues/1025",
+                "id": 916185145,
+                "node_id": "MDU6SXNzdWU5MTYxODUxNDU=",
+                "number": 1025,
+                "title": "Add a way to add more transport Layer ",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 174444921,
+                        "node_id": "MDU6TGFiZWwxNzQ0NDQ5MjE=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/new%20feature",
+                        "name": "new feature",
+                        "color": "84b6eb",
+                        "default": false,
+                        "description": "New feature from LWM2M specification"
+                    },
+                    {
+                        "id": 469326070,
+                        "node_id": "MDU6TGFiZWw0NjkzMjYwNzA=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/client",
+                        "name": "client",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": "Impact LWM2M client"
+                    },
+                    {
+                        "id": 469326261,
+                        "node_id": "MDU6TGFiZWw0NjkzMjYyNjE=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/server",
+                        "name": "server",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": "Impact LWM2M server"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones/1",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/milestone/1",
+                    "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones/1/labels",
+                    "id": 4573000,
+                    "node_id": "MDk6TWlsZXN0b25lNDU3MzAwMA==",
+                    "number": 1,
+                    "title": "2.0.0",
+                    "description": "Leshan 2.0.0 which aims to support (at least partially) LWM2M 1.1.",
+                    "creator": {
+                        "login": "sbernard31",
+                        "id": 840294,
+                        "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sbernard31",
+                        "html_url": "https://github.com/sbernard31",
+                        "followers_url": "https://api.github.com/users/sbernard31/followers",
+                        "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                        "repos_url": "https://api.github.com/users/sbernard31/repos",
+                        "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 11,
+                    "closed_issues": 33,
+                    "state": "open",
+                    "created_at": "2019-08-14T14:56:26Z",
+                    "updated_at": "2022-11-30T14:25:23Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 10,
+                "created_at": "2021-06-09T13:11:00Z",
+                "updated_at": "2023-10-19T16:18:48Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "In v1.0, LWM2M was only based CoAP(s).\r\nIn v1.1, LWM2M can be used over  CoAP+TCP,  CIoT or LoRaWAN\r\nIn v1.2, LWM2M can be used over MQTT and HTTP (theorically ... https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/issues/520)\r\n\r\nSo at some time we will need to refactor the code to allow this kind of addition.\r\n\r\nThis issue is create to discuss/ start thinking about this. \r\n\r\n**Identified goals :dart:  are** : \r\n -  remove strong californium dependencies. (cf should only be used to implement an endpoints provider)\r\n -  being able to add any number of endpoints. (not just 1 coap and 1 coaps)\r\n -  being able to add more transport layer.\r\n -  being able to have different implementation of same transport layer. (could be different underlying library or just same library with different configuration)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1025/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1025/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1771317952",
+                "html_url": "https://github.com/eclipse-leshan/leshan/issues/1025#issuecomment-1771317952",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1025",
+                "id": 1771317952,
+                "node_id": "IC_kwDOAdAp1c5plCrA",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T16:18:47Z",
+                "updated_at": "2023-10-19T16:18:47Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Some news about that : \r\n - https://github.com/eclipse-leshan/leshan/issues/1373 is done.\r\n - https://github.com/eclipse-leshan/leshan/pull/1525 is done too.\r\n\r\n Next step try to implement :\r\n  - https://github.com/eclipse-leshan/leshan/issues/1047#issuecomment-1771317556",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1771317952/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:18:48Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697933857",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1047",
+                "repository_url": "https://api.github.com/repos/eclipse-leshan/leshan",
+                "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1047/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1047/comments",
+                "events_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1047/events",
+                "html_url": "https://github.com/eclipse-leshan/leshan/issues/1047",
+                "id": 934997315,
+                "node_id": "MDU6SXNzdWU5MzQ5OTczMTU=",
+                "number": 1047,
+                "title": "Add CoAP over TCP transport layer ",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 174444921,
+                        "node_id": "MDU6TGFiZWwxNzQ0NDQ5MjE=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/new%20feature",
+                        "name": "new feature",
+                        "color": "84b6eb",
+                        "default": false,
+                        "description": "New feature from LWM2M specification"
+                    },
+                    {
+                        "id": 469326070,
+                        "node_id": "MDU6TGFiZWw0NjkzMjYwNzA=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/client",
+                        "name": "client",
+                        "color": "fef2c0",
+                        "default": false,
+                        "description": "Impact LWM2M client"
+                    },
+                    {
+                        "id": 469326261,
+                        "node_id": "MDU6TGFiZWw0NjkzMjYyNjE=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/server",
+                        "name": "server",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": "Impact LWM2M server"
+                    },
+                    {
+                        "id": 582374890,
+                        "node_id": "MDU6TGFiZWw1ODIzNzQ4OTA=",
+                        "url": "https://api.github.com/repos/eclipse-leshan/leshan/labels/bsserver",
+                        "name": "bsserver",
+                        "color": "d4c5f9",
+                        "default": false,
+                        "description": "Impact LWM2M bootstrap server"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones/1",
+                    "html_url": "https://github.com/eclipse-leshan/leshan/milestone/1",
+                    "labels_url": "https://api.github.com/repos/eclipse-leshan/leshan/milestones/1/labels",
+                    "id": 4573000,
+                    "node_id": "MDk6TWlsZXN0b25lNDU3MzAwMA==",
+                    "number": 1,
+                    "title": "2.0.0",
+                    "description": "Leshan 2.0.0 which aims to support (at least partially) LWM2M 1.1.",
+                    "creator": {
+                        "login": "sbernard31",
+                        "id": 840294,
+                        "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sbernard31",
+                        "html_url": "https://github.com/sbernard31",
+                        "followers_url": "https://api.github.com/users/sbernard31/followers",
+                        "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                        "repos_url": "https://api.github.com/users/sbernard31/repos",
+                        "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 11,
+                    "closed_issues": 33,
+                    "state": "open",
+                    "created_at": "2019-08-14T14:56:26Z",
+                    "updated_at": "2022-11-30T14:25:23Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 12,
+                "created_at": "2021-07-01T16:03:17Z",
+                "updated_at": "2023-10-19T16:18:32Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "This issue aims to centralize discussion about adding CoAP over TCP transport layer. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1047/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1047/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1771317556",
+                "html_url": "https://github.com/eclipse-leshan/leshan/issues/1047#issuecomment-1771317556",
+                "issue_url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/1047",
+                "id": 1771317556,
+                "node_id": "IC_kwDOAdAp1c5plCk0",
+                "user": {
+                    "login": "sbernard31",
+                    "id": 840294,
+                    "node_id": "MDQ6VXNlcjg0MDI5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/840294?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sbernard31",
+                    "html_url": "https://github.com/sbernard31",
+                    "followers_url": "https://api.github.com/users/sbernard31/followers",
+                    "following_url": "https://api.github.com/users/sbernard31/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sbernard31/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sbernard31/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sbernard31/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sbernard31/orgs",
+                    "repos_url": "https://api.github.com/users/sbernard31/repos",
+                    "events_url": "https://api.github.com/users/sbernard31/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sbernard31/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T16:18:32Z",
+                "updated_at": "2023-10-19T16:18:32Z",
+                "author_association": "CONTRIBUTOR",
+                "body": " - https://github.com/eclipse-leshan/leshan/issues/1373 is done \r\n \r\n So we can try to use this lib now to support coap+tcp. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse-leshan/leshan/issues/comments/1771317556/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:18:32Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697804800",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "java_coap_client_observe",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:49Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697804195",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "java_coap_server_observe",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:48Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697801803",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "java-coap2",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:43Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697800544",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "validate_send",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:40Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697797852",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "multi_endpoint",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:34Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697793829",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "fix_build",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:25Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697793185",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "log_xml_parser",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:24Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    },
+    {
+        "id": "32697791939",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 840294,
+            "login": "sbernard31",
+            "display_login": "sbernard31",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sbernard31",
+            "avatar_url": "https://avatars.githubusercontent.com/u/840294?"
+        },
+        "repo": {
+            "id": 30419413,
+            "name": "eclipse-leshan/leshan",
+            "url": "https://api.github.com/repos/eclipse-leshan/leshan"
+        },
+        "payload": {
+            "ref": "java-coap",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-19T16:13:21Z",
+        "org": {
+            "id": 137814549,
+            "login": "eclipse-leshan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse-leshan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/137814549?"
+        }
+    }
+]

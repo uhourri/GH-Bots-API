@@ -1,0 +1,1730 @@
+[
+    {
+        "id": "32893672302",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15589261399,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/dev/fvenneti/rdir-count-m2-databases",
+            "head": "8c28b6b1bbe61847fc58f597fa1843635b850b04",
+            "before": "18e5dfcd5d70c1cbb7d2bf2af1fb1214af962219",
+            "commits": [
+                {
+                    "sha": "20a7f730922f21019df3a89c8297f839c1b94b4c",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: implement meta2/count request\n\nThis new request counts the number of records for a specific meta2\ndatabase. Also fix a bunch of memory leaks.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/20a7f730922f21019df3a89c8297f839c1b94b4c"
+                },
+                {
+                    "sha": "ab015f4b3ed7e4886b262d90c02aadbb9121bca0",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: include the list of volumes in /status responses",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/ab015f4b3ed7e4886b262d90c02aadbb9121bca0"
+                },
+                {
+                    "sha": "8c28b6b1bbe61847fc58f597fa1843635b850b04",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: add the number of databases per meta2 service in /status",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/8c28b6b1bbe61847fc58f597fa1843635b850b04"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:13:12Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32893255943",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15589060242,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev/jloyet/rawx_gracefull_restart",
+            "head": "1a79e8d96e1db606d0cfc9c360ffa3b1779b8875",
+            "before": "68461269eed27e5e1ee1fb2e8f2c55edae5ab19a",
+            "commits": [
+                {
+                    "sha": "1a79e8d96e1db606d0cfc9c360ffa3b1779b8875",
+                    "author": {
+                        "email": "822436+fatpat@users.noreply.github.com",
+                        "name": "J\u00e9r\u00f4me LOYET"
+                    },
+                    "message": "rawx: refactor to handle gracefull restart (OBSTO-1855)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/1a79e8d96e1db606d0cfc9c360ffa3b1779b8875"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:57:33Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32892912654",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15588897681,
+            "size": 9,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev/jloyet/rawx_gracefull_restart",
+            "head": "68461269eed27e5e1ee1fb2e8f2c55edae5ab19a",
+            "before": "a7260e49b9f52abe5ec8bc97c1c5b9986603fd31",
+            "commits": [
+                {
+                    "sha": "5cec2ef8d47e678e369c15a9f648fc0e7e578141",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "tests: make rdir tests clean the crap they produce",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/5cec2ef8d47e678e369c15a9f648fc0e7e578141"
+                },
+                {
+                    "sha": "deb6a656753933a4e3ecc6763b24f747df3bfa82",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "tests: define identifiable names for test objects\n\nMany tests do not clean what they create. Giving clear names will help\nunderstand which tests must be improved so they don't influence other\ntests.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/deb6a656753933a4e3ecc6763b24f747df3bfa82"
+                },
+                {
+                    "sha": "3c6453633266c3a0cdc02e47168cb139842e23c3",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "xcute: allow to exclude some rawx services automatically",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/3c6453633266c3a0cdc02e47168cb139842e23c3"
+                },
+                {
+                    "sha": "8be5f4bb252cd3a5efbc46e81a8685baf7524826",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "CI: try to get xcute code coverage",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/8be5f4bb252cd3a5efbc46e81a8685baf7524826"
+                },
+                {
+                    "sha": "0e6f217953056e5214e020a3cc143ba074c871b7",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Use urgent mode when cleaning timeout\n\nCleaning the shard in the customer path should have\nas little impact as possible.\nBut if the customer makes too many requests on its shard\nto the point of preventing the cleanup, using urgent mode\n(temporarily) prevents the cleanup from failing.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/0e6f217953056e5214e020a3cc143ba074c871b7"
+                },
+                {
+                    "sha": "9571f244b4422b01af2a183b6e158bd3e1d27c79",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: leave elections cleanly before shutting down\n\nOn SIGTERM signal, leave elections cleanly before shutting down.\nOn SIGINT signal, do a fast shutdown, just leave elections locally.\n\nAlso, add an option to \"balance masters\" preventing a service which just\nleft an election to rejoin it immediatly after.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/9571f244b4422b01af2a183b6e158bd3e1d27c79"
+                },
+                {
+                    "sha": "34b8587f0f65221435bd04a3afc0f8906e67a897",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: improve the autoconf of the maximum number of open databases",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/34b8587f0f65221435bd04a3afc0f8906e67a897"
+                },
+                {
+                    "sha": "6725fb1f6e8f0cdd3420cc83a050fe96912b27a1",
+                    "author": {
+                        "email": "lhoussain.ait-assou@ovhcloud.com",
+                        "name": "lhoussain.ait-assou"
+                    },
+                    "message": "meta2: verify content and chunks are read from db",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/6725fb1f6e8f0cdd3420cc83a050fe96912b27a1"
+                },
+                {
+                    "sha": "68461269eed27e5e1ee1fb2e8f2c55edae5ab19a",
+                    "author": {
+                        "email": "822436+fatpat@users.noreply.github.com",
+                        "name": "J\u00e9r\u00f4me LOYET"
+                    },
+                    "message": "rawx: refactor to handle gracefull restart (OBSTO-1855)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/68461269eed27e5e1ee1fb2e8f2c55edae5ab19a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:44:39Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32890810069",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15587889486,
+            "size": 3,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "deb27bb40d72eb004eac0c96bb76827dcb9732c1",
+            "before": "daed665c0a3e3edc81429f001bbdc45b3ea6be3a",
+            "commits": [
+                {
+                    "sha": "6725fb1f6e8f0cdd3420cc83a050fe96912b27a1",
+                    "author": {
+                        "email": "lhoussain.ait-assou@ovhcloud.com",
+                        "name": "lhoussain.ait-assou"
+                    },
+                    "message": "meta2: verify content and chunks are read from db",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/6725fb1f6e8f0cdd3420cc83a050fe96912b27a1"
+                },
+                {
+                    "sha": "5904b5faff91640f080007c547ecda8c93dbfeb5",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/5904b5faff91640f080007c547ecda8c93dbfeb5"
+                },
+                {
+                    "sha": "deb27bb40d72eb004eac0c96bb76827dcb9732c1",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/deb27bb40d72eb004eac0c96bb76827dcb9732c1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:19:34Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32873712096",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "ref": "dev/laitasso/check-content-locate",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:31:08Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32873711510",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15579173451,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "6725fb1f6e8f0cdd3420cc83a050fe96912b27a1",
+            "before": "34b8587f0f65221435bd04a3afc0f8906e67a897",
+            "commits": [
+                {
+                    "sha": "6725fb1f6e8f0cdd3420cc83a050fe96912b27a1",
+                    "author": {
+                        "email": "lhoussain.ait-assou@ovhcloud.com",
+                        "name": "lhoussain.ait-assou"
+                    },
+                    "message": "meta2: verify content and chunks are read from db",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/6725fb1f6e8f0cdd3420cc83a050fe96912b27a1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:31:07Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32840153868",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15562468199,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/dev/aducroqu/sharding-avoid-vacuum-operations-on-client-accessible-databases",
+            "head": "2e701306cf61e47d66bc5735b5bd1b83f5cf60b4",
+            "before": "69aedf08974b8560bae3ac0c0929da972452a540",
+            "commits": [
+                {
+                    "sha": "52cd7723a96aaf82a84182f2426a495070850b4d",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Avoid vacuum operations on client-accessible databases\n\nBy default, VACUUM is disabled because there is \"auto_vacuum\" which\ncan do it afterwards (taking care not to disturb the client too much).",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/52cd7723a96aaf82a84182f2426a495070850b4d"
+                },
+                {
+                    "sha": "632afaa5894577d38ac6235b714465852a66f007",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Vacuum as soon as a cleaning request is successful\n\nIf VACUUM is requested, it should be triggered, after attempting\nto clean the shard, as soon as a cleaning request is successful.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/632afaa5894577d38ac6235b714465852a66f007"
+                },
+                {
+                    "sha": "2e701306cf61e47d66bc5735b5bd1b83f5cf60b4",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "CI: Test the VACUUM operations during the sharding",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/2e701306cf61e47d66bc5735b5bd1b83f5cf60b4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T15:07:01Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32834286898",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15559612745,
+            "size": 5,
+            "distinct_size": 3,
+            "ref": "refs/heads/dev/aducroqu/sharding-avoid-vacuum-operations-on-client-accessible-databases",
+            "head": "69aedf08974b8560bae3ac0c0929da972452a540",
+            "before": "218adcad469a6eab6c488b451375f96e98463540",
+            "commits": [
+                {
+                    "sha": "9571f244b4422b01af2a183b6e158bd3e1d27c79",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: leave elections cleanly before shutting down\n\nOn SIGTERM signal, leave elections cleanly before shutting down.\nOn SIGINT signal, do a fast shutdown, just leave elections locally.\n\nAlso, add an option to \"balance masters\" preventing a service which just\nleft an election to rejoin it immediatly after.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/9571f244b4422b01af2a183b6e158bd3e1d27c79"
+                },
+                {
+                    "sha": "34b8587f0f65221435bd04a3afc0f8906e67a897",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: improve the autoconf of the maximum number of open databases",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/34b8587f0f65221435bd04a3afc0f8906e67a897"
+                },
+                {
+                    "sha": "b1f79d203a5e6fafa1ff1907d878648a18f0b33a",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Avoid vacuum operations on client-accessible databases\n\nBy default, VACUUM is disabled because there is \"auto_vacuum\" which\ncan do it afterwards (taking care not to disturb the client too much).",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/b1f79d203a5e6fafa1ff1907d878648a18f0b33a"
+                },
+                {
+                    "sha": "114c2c1df1982077d49d32ec20df12d233f43a7c",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Vacuum as soon as a cleaning request is successful\n\nIf VACUUM is requested, it should be triggered, after attempting\nto clean the shard, as soon as a cleaning request is successful.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/114c2c1df1982077d49d32ec20df12d233f43a7c"
+                },
+                {
+                    "sha": "69aedf08974b8560bae3ac0c0929da972452a540",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "CI: Test the VACUUM operations during the sharding",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/69aedf08974b8560bae3ac0c0929da972452a540"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:13:38Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32828830312",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15556946674,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev/fvenneti/rdir-count-m2-databases",
+            "head": "18e5dfcd5d70c1cbb7d2bf2af1fb1214af962219",
+            "before": "a8c9a151815c93cc002b2293a51ede45c7c2854a",
+            "commits": [
+                {
+                    "sha": "18e5dfcd5d70c1cbb7d2bf2af1fb1214af962219",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: add the number of databases per meta2 service in /status",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/18e5dfcd5d70c1cbb7d2bf2af1fb1214af962219"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:01:55Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32827754655",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15556430496,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "daed665c0a3e3edc81429f001bbdc45b3ea6be3a",
+            "before": "321a6f32c8d1b6e086f48bb7ebb23c06937c2a7d",
+            "commits": [
+                {
+                    "sha": "c32d05d24cead0537371cf3a801ecc5c3d10a3e4",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/c32d05d24cead0537371cf3a801ecc5c3d10a3e4"
+                },
+                {
+                    "sha": "daed665c0a3e3edc81429f001bbdc45b3ea6be3a",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/daed665c0a3e3edc81429f001bbdc45b3ea6be3a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T08:25:59Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32827687569",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15556398841,
+            "size": 4,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "321a6f32c8d1b6e086f48bb7ebb23c06937c2a7d",
+            "before": "5bc6774c1ca529e6ee4c0bf382853441ee2689de",
+            "commits": [
+                {
+                    "sha": "9571f244b4422b01af2a183b6e158bd3e1d27c79",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: leave elections cleanly before shutting down\n\nOn SIGTERM signal, leave elections cleanly before shutting down.\nOn SIGINT signal, do a fast shutdown, just leave elections locally.\n\nAlso, add an option to \"balance masters\" preventing a service which just\nleft an election to rejoin it immediatly after.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/9571f244b4422b01af2a183b6e158bd3e1d27c79"
+                },
+                {
+                    "sha": "34b8587f0f65221435bd04a3afc0f8906e67a897",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: improve the autoconf of the maximum number of open databases",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/34b8587f0f65221435bd04a3afc0f8906e67a897"
+                },
+                {
+                    "sha": "5b1bc2a9aa1c1378af48447b4663bd80de5af90d",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/5b1bc2a9aa1c1378af48447b4663bd80de5af90d"
+                },
+                {
+                    "sha": "321a6f32c8d1b6e086f48bb7ebb23c06937c2a7d",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/321a6f32c8d1b6e086f48bb7ebb23c06937c2a7d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T08:23:40Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32827324654",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15556226649,
+            "size": 5,
+            "distinct_size": 3,
+            "ref": "refs/heads/dev/fvenneti/rdir-count-m2-databases",
+            "head": "a8c9a151815c93cc002b2293a51ede45c7c2854a",
+            "before": "8360fd3686dd865fce143bc880af1ee463cc0f55",
+            "commits": [
+                {
+                    "sha": "9571f244b4422b01af2a183b6e158bd3e1d27c79",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: leave elections cleanly before shutting down\n\nOn SIGTERM signal, leave elections cleanly before shutting down.\nOn SIGINT signal, do a fast shutdown, just leave elections locally.\n\nAlso, add an option to \"balance masters\" preventing a service which just\nleft an election to rejoin it immediatly after.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/9571f244b4422b01af2a183b6e158bd3e1d27c79"
+                },
+                {
+                    "sha": "34b8587f0f65221435bd04a3afc0f8906e67a897",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: improve the autoconf of the maximum number of open databases",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/34b8587f0f65221435bd04a3afc0f8906e67a897"
+                },
+                {
+                    "sha": "d5fd8d27c9d9dfbd6fef35f49c10e21007c4de33",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: implement meta2/count request\n\nThis new request counts the number of records for a specific meta2\ndatabase. Also fix a bunch of memory leaks.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/d5fd8d27c9d9dfbd6fef35f49c10e21007c4de33"
+                },
+                {
+                    "sha": "865f9ed072d5abb1b17e0b36052b3454f51e621c",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: include the list of volumes in /status responses",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/865f9ed072d5abb1b17e0b36052b3454f51e621c"
+                },
+                {
+                    "sha": "a8c9a151815c93cc002b2293a51ede45c7c2854a",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: add the number of databases per meta2 service in /status",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/a8c9a151815c93cc002b2293a51ede45c7c2854a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T08:10:56Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32810502911",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15547685695,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/fvenneti/rdir-count-m2-databases",
+            "head": "8360fd3686dd865fce143bc880af1ee463cc0f55",
+            "before": "1a445b7848f9b89b13ffba4d5b110e1c8caa8612",
+            "commits": [
+                {
+                    "sha": "f2f5cf0a29ee2239923822e72341123dbce490a3",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: include the list of volumes in /status responses",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/f2f5cf0a29ee2239923822e72341123dbce490a3"
+                },
+                {
+                    "sha": "8360fd3686dd865fce143bc880af1ee463cc0f55",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: compute the number of databases per meta2 service",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/8360fd3686dd865fce143bc880af1ee463cc0f55"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T16:52:44Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32807655376",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15546310990,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev/fvenneti/rdir-count-m2-databases",
+            "head": "1a445b7848f9b89b13ffba4d5b110e1c8caa8612",
+            "before": "e9f65ff24e7a568a2da2c9ce8c35c2aaa7c08ca3",
+            "commits": [
+                {
+                    "sha": "1a445b7848f9b89b13ffba4d5b110e1c8caa8612",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: include the list of volumes in /status responses",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/1a445b7848f9b89b13ffba4d5b110e1c8caa8612"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T15:12:12Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32806486654",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "ref": "dev/fvenneti/leave-elections",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-24T14:36:42Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32806486098",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15545759437,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "34b8587f0f65221435bd04a3afc0f8906e67a897",
+            "before": "0e6f217953056e5214e020a3cc143ba074c871b7",
+            "commits": [
+                {
+                    "sha": "9571f244b4422b01af2a183b6e158bd3e1d27c79",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: leave elections cleanly before shutting down\n\nOn SIGTERM signal, leave elections cleanly before shutting down.\nOn SIGINT signal, do a fast shutdown, just leave elections locally.\n\nAlso, add an option to \"balance masters\" preventing a service which just\nleft an election to rejoin it immediatly after.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/9571f244b4422b01af2a183b6e158bd3e1d27c79"
+                },
+                {
+                    "sha": "34b8587f0f65221435bd04a3afc0f8906e67a897",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "meta2: improve the autoconf of the maximum number of open databases",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/34b8587f0f65221435bd04a3afc0f8906e67a897"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T14:36:41Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32805980860",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15545517659,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev/fvenneti/rdir-count-m2-databases",
+            "head": "e9f65ff24e7a568a2da2c9ce8c35c2aaa7c08ca3",
+            "before": "5a6ab4c83f31670d9d153fec33261fc2c2281a8f",
+            "commits": [
+                {
+                    "sha": "e9f65ff24e7a568a2da2c9ce8c35c2aaa7c08ca3",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "rdir: include the list of volumes in /status responses",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/e9f65ff24e7a568a2da2c9ce8c35c2aaa7c08ca3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T14:21:42Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32798751747",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "ref": "dev/fvenneti/rdir-count-m2-databases",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "High Performance Software-Defined Object Storage for Big Data and AI, that supports Amazon S3 and Openstack Swift",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-24T10:02:35Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32796611758",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15540918868,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "5bc6774c1ca529e6ee4c0bf382853441ee2689de",
+            "before": "405f6277f01e159399954837245a478b30cb2148",
+            "commits": [
+                {
+                    "sha": "4cffec3c47c8ecd42c2bd7376510d58d618da2b9",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/4cffec3c47c8ecd42c2bd7376510d58d618da2b9"
+                },
+                {
+                    "sha": "5bc6774c1ca529e6ee4c0bf382853441ee2689de",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/5bc6774c1ca529e6ee4c0bf382853441ee2689de"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T08:45:26Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32779602507",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "ref": "dev/aducroqu/sharding-avoid-vacuum-operations-on-client-accessible-databases",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "High Performance Software-Defined Object Storage for Big Data and AI, that supports Amazon S3 and Openstack Swift",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T17:19:44Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32777418972",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15531304882,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "405f6277f01e159399954837245a478b30cb2148",
+            "before": "12372fc9d3006a056757ee0bdd6bf2e29237c023",
+            "commits": [
+                {
+                    "sha": "fe70c84d6ce56ae06072e9e917482794378d30f3",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/fe70c84d6ce56ae06072e9e917482794378d30f3"
+                },
+                {
+                    "sha": "405f6277f01e159399954837245a478b30cb2148",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/405f6277f01e159399954837245a478b30cb2148"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T15:58:14Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32776065667",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15530662703,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "12372fc9d3006a056757ee0bdd6bf2e29237c023",
+            "before": "b0c772c47fcfdaa809443a734045f9a4e61d7def",
+            "commits": [
+                {
+                    "sha": "2da62375a8d2126054ebd7a1b2392c872371d847",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/2da62375a8d2126054ebd7a1b2392c872371d847"
+                },
+                {
+                    "sha": "12372fc9d3006a056757ee0bdd6bf2e29237c023",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/12372fc9d3006a056757ee0bdd6bf2e29237c023"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T15:13:47Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32774510779",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15529933744,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "b0c772c47fcfdaa809443a734045f9a4e61d7def",
+            "before": "37afda29de8dfdac2ea4f49cd7a8c176bb2f02e3",
+            "commits": [
+                {
+                    "sha": "a51f4bd7cdb2b90585c222b440aea6d868f4bbff",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/a51f4bd7cdb2b90585c222b440aea6d868f4bbff"
+                },
+                {
+                    "sha": "b0c772c47fcfdaa809443a734045f9a4e61d7def",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/b0c772c47fcfdaa809443a734045f9a4e61d7def"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:27:14Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32774135692",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15529747329,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "37afda29de8dfdac2ea4f49cd7a8c176bb2f02e3",
+            "before": "d4bfa1f9936068197a3be73eefd71e58d0dfe872",
+            "commits": [
+                {
+                    "sha": "66df607686af1a79c556e975a1a4fafbc1c7032a",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/66df607686af1a79c556e975a1a4fafbc1c7032a"
+                },
+                {
+                    "sha": "37afda29de8dfdac2ea4f49cd7a8c176bb2f02e3",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Refactor: introduce get_file_hash method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/37afda29de8dfdac2ea4f49cd7a8c176bb2f02e3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T14:16:54Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32769866937",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15527680232,
+            "size": 6,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev/firakoze/local-mover",
+            "head": "d4bfa1f9936068197a3be73eefd71e58d0dfe872",
+            "before": "bd091448736eabae2ab9f78946fdd99e821d30c6",
+            "commits": [
+                {
+                    "sha": "5cec2ef8d47e678e369c15a9f648fc0e7e578141",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "tests: make rdir tests clean the crap they produce",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/5cec2ef8d47e678e369c15a9f648fc0e7e578141"
+                },
+                {
+                    "sha": "deb6a656753933a4e3ecc6763b24f747df3bfa82",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "tests: define identifiable names for test objects\n\nMany tests do not clean what they create. Giving clear names will help\nunderstand which tests must be improved so they don't influence other\ntests.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/deb6a656753933a4e3ecc6763b24f747df3bfa82"
+                },
+                {
+                    "sha": "3c6453633266c3a0cdc02e47168cb139842e23c3",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "xcute: allow to exclude some rawx services automatically",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/3c6453633266c3a0cdc02e47168cb139842e23c3"
+                },
+                {
+                    "sha": "8be5f4bb252cd3a5efbc46e81a8685baf7524826",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "CI: try to get xcute code coverage",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/8be5f4bb252cd3a5efbc46e81a8685baf7524826"
+                },
+                {
+                    "sha": "0e6f217953056e5214e020a3cc143ba074c871b7",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Use urgent mode when cleaning timeout\n\nCleaning the shard in the customer path should have\nas little impact as possible.\nBut if the customer makes too many requests on its shard\nto the point of preventing the cleanup, using urgent mode\n(temporarily) prevents the cleanup from failing.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/0e6f217953056e5214e020a3cc143ba074c871b7"
+                },
+                {
+                    "sha": "d4bfa1f9936068197a3be73eefd71e58d0dfe872",
+                    "author": {
+                        "email": "franco-davy.irakoze@ovhcloud.com",
+                        "name": "Franco Davy Irakoze"
+                    },
+                    "message": "Make mover choose local placement in priority",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/d4bfa1f9936068197a3be73eefd71e58d0dfe872"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T12:01:19Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32765736541",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "ref": "dev/aducroqu/sharding-use-urgent-mode-when-cleaning-timeout",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T09:27:12Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32765736105",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15525714126,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "0e6f217953056e5214e020a3cc143ba074c871b7",
+            "before": "8be5f4bb252cd3a5efbc46e81a8685baf7524826",
+            "commits": [
+                {
+                    "sha": "0e6f217953056e5214e020a3cc143ba074c871b7",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Use urgent mode when cleaning timeout\n\nCleaning the shard in the customer path should have\nas little impact as possible.\nBut if the customer makes too many requests on its shard\nto the point of preventing the cleanup, using urgent mode\n(temporarily) prevents the cleanup from failing.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/0e6f217953056e5214e020a3cc143ba074c871b7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T09:27:11Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32764212856",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "ref": "dev/fvenneti/xcute-rawx-auto-exclude",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:34:13Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32764212215",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15525005971,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/master",
+            "head": "8be5f4bb252cd3a5efbc46e81a8685baf7524826",
+            "before": "9abd884fad5311d120f26dc75aff286471401889",
+            "commits": [
+                {
+                    "sha": "5cec2ef8d47e678e369c15a9f648fc0e7e578141",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "tests: make rdir tests clean the crap they produce",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/5cec2ef8d47e678e369c15a9f648fc0e7e578141"
+                },
+                {
+                    "sha": "deb6a656753933a4e3ecc6763b24f747df3bfa82",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "tests: define identifiable names for test objects\n\nMany tests do not clean what they create. Giving clear names will help\nunderstand which tests must be improved so they don't influence other\ntests.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/deb6a656753933a4e3ecc6763b24f747df3bfa82"
+                },
+                {
+                    "sha": "3c6453633266c3a0cdc02e47168cb139842e23c3",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "xcute: allow to exclude some rawx services automatically",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/3c6453633266c3a0cdc02e47168cb139842e23c3"
+                },
+                {
+                    "sha": "8be5f4bb252cd3a5efbc46e81a8685baf7524826",
+                    "author": {
+                        "email": "florent.vennetier@ovhcloud.com",
+                        "name": "Florent Vennetier"
+                    },
+                    "message": "CI: try to get xcute code coverage",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/8be5f4bb252cd3a5efbc46e81a8685baf7524826"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:34:11Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    },
+    {
+        "id": "32728069130",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16101265,
+            "login": "openiobot",
+            "display_login": "openiobot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openiobot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16101265?"
+        },
+        "repo": {
+            "id": 32169193,
+            "name": "open-io/oio-sds",
+            "url": "https://api.github.com/repos/open-io/oio-sds"
+        },
+        "payload": {
+            "repository_id": 32169193,
+            "push_id": 15503131557,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev/aducroqu/sharding-use-urgent-mode-when-cleaning-timeout",
+            "head": "3afee830773a885d16cd5a52aa39f86d3723663a",
+            "before": "1b747a4db2a48c2cbc1275eec3e0d34e39049136",
+            "commits": [
+                {
+                    "sha": "3afee830773a885d16cd5a52aa39f86d3723663a",
+                    "author": {
+                        "email": "aymeric.ducroquetz@ovhcloud.com",
+                        "name": "Aymeric Ducroquetz"
+                    },
+                    "message": "sharding: Use urgent mode when cleaning timeout\n\nCleaning the shard in the customer path should have\nas little impact as possible.\nBut if the customer makes too many requests on its shard\nto the point of preventing the cleanup, using urgent mode\n(temporarily) prevents the cleanup from failing.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/open-io/oio-sds/commits/3afee830773a885d16cd5a52aa39f86d3723663a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:14:28Z",
+        "org": {
+            "id": 11300184,
+            "login": "open-io",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-io",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11300184?"
+        }
+    }
+]

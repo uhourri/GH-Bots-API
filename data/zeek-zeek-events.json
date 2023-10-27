@@ -1,0 +1,1874 @@
+[
+    {
+        "id": "32895664373",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "repository_id": 4930716,
+            "push_id": 15590241226,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/topic/awelzel/3398-protocol-analyzer-packet-fuzzing",
+            "head": "1b41363885d7cf4dc5fd2ffa0411505f7da81d01",
+            "before": "96c6042ff6314e1e244e714b7348ea7412fbc7e4",
+            "commits": [
+                {
+                    "sha": "1b41363885d7cf4dc5fd2ffa0411505f7da81d01",
+                    "author": {
+                        "email": "arne.welzel@corelight.com",
+                        "name": "Arne Welzel"
+                    },
+                    "message": "fuzzers: Add DTLS fuzzer\n\nNot sure it adds a lot over the SSL analyzer as they share code, but it\nprovides a distinct entry point at least.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/1b41363885d7cf4dc5fd2ffa0411505f7da81d01"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:28:18Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32895630089",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "repository_id": 4930716,
+            "push_id": 15590223952,
+            "size": 10,
+            "distinct_size": 2,
+            "ref": "refs/heads/topic/awelzel/3398-protocol-analyzer-packet-fuzzing",
+            "head": "96c6042ff6314e1e244e714b7348ea7412fbc7e4",
+            "before": "0b111525ce25074f2a2c5a17160e4bff65438e09",
+            "commits": [
+                {
+                    "sha": "9a77f718086ccc7481c8c57459c8319cfc7e0143",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Bump auxil/spicy to latest release",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/9a77f718086ccc7481c8c57459c8319cfc7e0143"
+                },
+                {
+                    "sha": "dfba2d6df707840cabf822d70354f9e2e635b863",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Install libmaxminddb in macOS CI",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/dfba2d6df707840cabf822d70354f9e2e635b863"
+                },
+                {
+                    "sha": "caaffd0324ac0557ba4c5ce0290d07a4d013a735",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Fix tests so they work both with GNU and BSD tools\n\nThe GNU and BSD versions of `touch` and `truncate` allow slightly\ndifferent arguments, change the tests so they work in both versions.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/caaffd0324ac0557ba4c5ce0290d07a4d013a735"
+                },
+                {
+                    "sha": "08d9a1934fa87980049a85d7432decd348c0a0ef",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Merge branch 'origin/topic/bbannier/fix-core.mmdb-tests'",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/08d9a1934fa87980049a85d7432decd348c0a0ef"
+                },
+                {
+                    "sha": "48af1711107f60c2207954c3a80c0783e8b107d6",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Merge remote-tracking branch 'origin/topic/bbannier/bump-spicy'",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/48af1711107f60c2207954c3a80c0783e8b107d6"
+                },
+                {
+                    "sha": "05e4d1cfde64e83df383578718f614700e716e69",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Bump outdated baseline\n\nThis fixes an outdated baseline added with\ncaaffd0324ac0557ba4c5ce0290d07a4d013a735.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/05e4d1cfde64e83df383578718f614700e716e69"
+                },
+                {
+                    "sha": "2b44cea1413bce7fdeb0ae3704df78b6185b017c",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Require `truncate` for a test using it\n\nIt looks like older versions of macOS like Monterey do not ship with\n`truncate`. Make a recently added test require it to suppress spurious\nfailures.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/2b44cea1413bce7fdeb0ae3704df78b6185b017c"
+                },
+                {
+                    "sha": "4d3e9de3d309c77f0ee7a55447ad66eb6e6887e4",
+                    "author": {
+                        "email": "benjamin.bannier@corelight.com",
+                        "name": "Benjamin Bannier"
+                    },
+                    "message": "Merge remote-tracking branch 'origin/topic/bbannier/monterey-truncate'",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/4d3e9de3d309c77f0ee7a55447ad66eb6e6887e4"
+                },
+                {
+                    "sha": "36d433d56e53fc8cf755076deef007c4f00321b5",
+                    "author": {
+                        "email": "arne.welzel@corelight.com",
+                        "name": "Arne Welzel"
+                    },
+                    "message": "generic-analyzer-fuzzer: Support NextPacket() fuzzing\n\nA number of analyzers that we've been fuzzing with the generic-analyzer-fuzzer\nsetup do not implement DeliverStream() and instead only work with DeliverPacket()\n(ntp, syslog, sip, radius, ...). Calling DeliverStream() on those is\npretty much a noop and fuzzing not effective.\n\nThis change adds support to fuzz DeliverPacket(). Whether to use packet\nor stream fuzzing is configured through a define via CMake.\n\nThis is still a bit limited in that for analyzers that support both,\nDeliverPacket() and DeliverStream(), only one code path is fuzzed.\n\nClosed #3398",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/36d433d56e53fc8cf755076deef007c4f00321b5"
+                },
+                {
+                    "sha": "96c6042ff6314e1e244e714b7348ea7412fbc7e4",
+                    "author": {
+                        "email": "arne.welzel@corelight.com",
+                        "name": "Arne Welzel"
+                    },
+                    "message": "fuzzers: Add DTLS fuzzer\n\nNot sure it adds a lot over the SSL analyzer as they share code, but it\nprovides a distinct entry point at least.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/zeek/zeek/commits/96c6042ff6314e1e244e714b7348ea7412fbc7e4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:26:59Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32895193352",
+        "type": "PullRequestReviewCommentEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "action": "created",
+            "comment": {
+                "url": "https://api.github.com/repos/zeek/zeek/pulls/comments/1374358305",
+                "pull_request_review_id": 1701440226,
+                "id": 1374358305,
+                "node_id": "PRRC_kwDOAEs8nM5R6wsh",
+                "diff_hunk": "@@ -94,27 +102,29 @@ add_generic_analyzer_fuzz_target(pop3)\n add_generic_analyzer_fuzz_target(smtp)\n \n add_generic_analyzer_fuzz_target(dce_rpc)\n-add_generic_analyzer_fuzz_target(dhcp)\n+add_generic_analyzer_fuzz_target(dhcp packet)",
+                "path": "src/fuzzers/CMakeLists.txt",
+                "commit_id": "0b111525ce25074f2a2c5a17160e4bff65438e09",
+                "original_commit_id": "0b111525ce25074f2a2c5a17160e4bff65438e09",
+                "user": {
+                    "login": "awelzel",
+                    "id": 2100509,
+                    "node_id": "MDQ6VXNlcjIxMDA1MDk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2100509?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/awelzel",
+                    "html_url": "https://github.com/awelzel",
+                    "followers_url": "https://api.github.com/users/awelzel/followers",
+                    "following_url": "https://api.github.com/users/awelzel/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/awelzel/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/awelzel/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/awelzel/subscriptions",
+                    "organizations_url": "https://api.github.com/users/awelzel/orgs",
+                    "repos_url": "https://api.github.com/users/awelzel/repos",
+                    "events_url": "https://api.github.com/users/awelzel/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/awelzel/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "As in DM moving to tcp/udp. I'm naming the environment variable `_PROTO` instead of `_TYPE` so we can add another dimension later if wanted.",
+                "created_at": "2023-10-27T10:10:45Z",
+                "updated_at": "2023-10-27T10:10:45Z",
+                "html_url": "https://github.com/zeek/zeek/pull/3410#discussion_r1374358305",
+                "pull_request_url": "https://api.github.com/repos/zeek/zeek/pulls/3410",
+                "author_association": "CONTRIBUTOR",
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/comments/1374358305"
+                    },
+                    "html": {
+                        "href": "https://github.com/zeek/zeek/pull/3410#discussion_r1374358305"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410"
+                    }
+                },
+                "reactions": {
+                    "url": "https://api.github.com/repos/zeek/zeek/pulls/comments/1374358305/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "start_line": null,
+                "original_start_line": null,
+                "start_side": null,
+                "line": 105,
+                "original_line": 105,
+                "side": "RIGHT",
+                "in_reply_to_id": 1373410899,
+                "original_position": 24,
+                "position": 24,
+                "subject_type": "line"
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/zeek/zeek/pulls/3410",
+                "id": 1574589666,
+                "node_id": "PR_kwDOAEs8nM5d2lTi",
+                "html_url": "https://github.com/zeek/zeek/pull/3410",
+                "diff_url": "https://github.com/zeek/zeek/pull/3410.diff",
+                "patch_url": "https://github.com/zeek/zeek/pull/3410.patch",
+                "issue_url": "https://api.github.com/repos/zeek/zeek/issues/3410",
+                "number": 3410,
+                "state": "open",
+                "locked": false,
+                "title": "generic-analyzer-fuzzer: Support NextPacket() fuzzing, too.",
+                "user": {
+                    "login": "awelzel",
+                    "id": 2100509,
+                    "node_id": "MDQ6VXNlcjIxMDA1MDk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2100509?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/awelzel",
+                    "html_url": "https://github.com/awelzel",
+                    "followers_url": "https://api.github.com/users/awelzel/followers",
+                    "following_url": "https://api.github.com/users/awelzel/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/awelzel/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/awelzel/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/awelzel/subscriptions",
+                    "organizations_url": "https://api.github.com/users/awelzel/orgs",
+                    "repos_url": "https://api.github.com/users/awelzel/repos",
+                    "events_url": "https://api.github.com/users/awelzel/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/awelzel/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "A number of analyzers that we've been fuzzing with the generic-analyzer-fuzzer setup do not implement DeliverStream() and instead only work with DeliverPacket() (ntp, syslog, sip, radius, ...). Calling DeliverStream() on those is pretty much a noop and fuzzing not effective.\r\n\r\nThis change adds support to fuzz DeliverPacket(). Whether to use packet or stream fuzzing is configured through a define via CMake.\r\n\r\nThis is still somewhat limited in that analyzers that support both, DeliverPacket() and DeliverStream(), only one path is fuzzed.\r\n\r\nClosed #3398\r\n\r\n\r\n---\r\n\r\nAlso add a new fuzzer for DTLS. Mainly used that one for checking that packet based fuzzing starts :-)",
+                "created_at": "2023-10-26T11:07:01Z",
+                "updated_at": "2023-10-27T10:10:45Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "48758aba523848f20c8ad714e50a8eff2d5201ac",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/zeek/zeek/pulls/3410/commits",
+                "review_comments_url": "https://api.github.com/repos/zeek/zeek/pulls/3410/comments",
+                "review_comment_url": "https://api.github.com/repos/zeek/zeek/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/zeek/zeek/issues/3410/comments",
+                "statuses_url": "https://api.github.com/repos/zeek/zeek/statuses/0b111525ce25074f2a2c5a17160e4bff65438e09",
+                "head": {
+                    "label": "zeek:topic/awelzel/3398-protocol-analyzer-packet-fuzzing",
+                    "ref": "topic/awelzel/3398-protocol-analyzer-packet-fuzzing",
+                    "sha": "0b111525ce25074f2a2c5a17160e4bff65438e09",
+                    "user": {
+                        "login": "zeek",
+                        "id": 1194067,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/zeek",
+                        "html_url": "https://github.com/zeek",
+                        "followers_url": "https://api.github.com/users/zeek/followers",
+                        "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                        "organizations_url": "https://api.github.com/users/zeek/orgs",
+                        "repos_url": "https://api.github.com/users/zeek/repos",
+                        "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/zeek/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 4930716,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0OTMwNzE2",
+                        "name": "zeek",
+                        "full_name": "zeek/zeek",
+                        "private": false,
+                        "owner": {
+                            "login": "zeek",
+                            "id": 1194067,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/zeek",
+                            "html_url": "https://github.com/zeek",
+                            "followers_url": "https://api.github.com/users/zeek/followers",
+                            "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                            "organizations_url": "https://api.github.com/users/zeek/orgs",
+                            "repos_url": "https://api.github.com/users/zeek/repos",
+                            "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/zeek/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/zeek/zeek",
+                        "description": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/zeek/zeek",
+                        "forks_url": "https://api.github.com/repos/zeek/zeek/forks",
+                        "keys_url": "https://api.github.com/repos/zeek/zeek/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/zeek/zeek/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/zeek/zeek/teams",
+                        "hooks_url": "https://api.github.com/repos/zeek/zeek/hooks",
+                        "issue_events_url": "https://api.github.com/repos/zeek/zeek/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/zeek/zeek/events",
+                        "assignees_url": "https://api.github.com/repos/zeek/zeek/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/zeek/zeek/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/zeek/zeek/tags",
+                        "blobs_url": "https://api.github.com/repos/zeek/zeek/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/zeek/zeek/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/zeek/zeek/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/zeek/zeek/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/zeek/zeek/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/zeek/zeek/languages",
+                        "stargazers_url": "https://api.github.com/repos/zeek/zeek/stargazers",
+                        "contributors_url": "https://api.github.com/repos/zeek/zeek/contributors",
+                        "subscribers_url": "https://api.github.com/repos/zeek/zeek/subscribers",
+                        "subscription_url": "https://api.github.com/repos/zeek/zeek/subscription",
+                        "commits_url": "https://api.github.com/repos/zeek/zeek/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/zeek/zeek/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/zeek/zeek/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/zeek/zeek/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/zeek/zeek/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/zeek/zeek/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/zeek/zeek/merges",
+                        "archive_url": "https://api.github.com/repos/zeek/zeek/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/zeek/zeek/downloads",
+                        "issues_url": "https://api.github.com/repos/zeek/zeek/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/zeek/zeek/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/zeek/zeek/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/zeek/zeek/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/zeek/zeek/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/zeek/zeek/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/zeek/zeek/deployments",
+                        "created_at": "2012-07-06T20:30:16Z",
+                        "updated_at": "2023-10-26T02:14:13Z",
+                        "pushed_at": "2023-10-27T09:54:39Z",
+                        "git_url": "git://github.com/zeek/zeek.git",
+                        "ssh_url": "git@github.com:zeek/zeek.git",
+                        "clone_url": "https://github.com/zeek/zeek.git",
+                        "svn_url": "https://github.com/zeek/zeek",
+                        "homepage": "https://www.zeek.org",
+                        "size": 154042,
+                        "stargazers_count": 5563,
+                        "watchers_count": 5563,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 1170,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 130,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bro",
+                            "dfir",
+                            "network-monitoring",
+                            "nsm",
+                            "pcap",
+                            "security",
+                            "zeek"
+                        ],
+                        "visibility": "public",
+                        "forks": 1170,
+                        "open_issues": 130,
+                        "watchers": 5563,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "zeek:master",
+                    "ref": "master",
+                    "sha": "d999b74b9997e199c4262b9466374e2fd0987db9",
+                    "user": {
+                        "login": "zeek",
+                        "id": 1194067,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/zeek",
+                        "html_url": "https://github.com/zeek",
+                        "followers_url": "https://api.github.com/users/zeek/followers",
+                        "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                        "organizations_url": "https://api.github.com/users/zeek/orgs",
+                        "repos_url": "https://api.github.com/users/zeek/repos",
+                        "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/zeek/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 4930716,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0OTMwNzE2",
+                        "name": "zeek",
+                        "full_name": "zeek/zeek",
+                        "private": false,
+                        "owner": {
+                            "login": "zeek",
+                            "id": 1194067,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/zeek",
+                            "html_url": "https://github.com/zeek",
+                            "followers_url": "https://api.github.com/users/zeek/followers",
+                            "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                            "organizations_url": "https://api.github.com/users/zeek/orgs",
+                            "repos_url": "https://api.github.com/users/zeek/repos",
+                            "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/zeek/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/zeek/zeek",
+                        "description": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/zeek/zeek",
+                        "forks_url": "https://api.github.com/repos/zeek/zeek/forks",
+                        "keys_url": "https://api.github.com/repos/zeek/zeek/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/zeek/zeek/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/zeek/zeek/teams",
+                        "hooks_url": "https://api.github.com/repos/zeek/zeek/hooks",
+                        "issue_events_url": "https://api.github.com/repos/zeek/zeek/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/zeek/zeek/events",
+                        "assignees_url": "https://api.github.com/repos/zeek/zeek/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/zeek/zeek/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/zeek/zeek/tags",
+                        "blobs_url": "https://api.github.com/repos/zeek/zeek/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/zeek/zeek/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/zeek/zeek/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/zeek/zeek/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/zeek/zeek/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/zeek/zeek/languages",
+                        "stargazers_url": "https://api.github.com/repos/zeek/zeek/stargazers",
+                        "contributors_url": "https://api.github.com/repos/zeek/zeek/contributors",
+                        "subscribers_url": "https://api.github.com/repos/zeek/zeek/subscribers",
+                        "subscription_url": "https://api.github.com/repos/zeek/zeek/subscription",
+                        "commits_url": "https://api.github.com/repos/zeek/zeek/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/zeek/zeek/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/zeek/zeek/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/zeek/zeek/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/zeek/zeek/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/zeek/zeek/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/zeek/zeek/merges",
+                        "archive_url": "https://api.github.com/repos/zeek/zeek/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/zeek/zeek/downloads",
+                        "issues_url": "https://api.github.com/repos/zeek/zeek/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/zeek/zeek/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/zeek/zeek/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/zeek/zeek/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/zeek/zeek/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/zeek/zeek/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/zeek/zeek/deployments",
+                        "created_at": "2012-07-06T20:30:16Z",
+                        "updated_at": "2023-10-26T02:14:13Z",
+                        "pushed_at": "2023-10-27T09:54:39Z",
+                        "git_url": "git://github.com/zeek/zeek.git",
+                        "ssh_url": "git@github.com:zeek/zeek.git",
+                        "clone_url": "https://github.com/zeek/zeek.git",
+                        "svn_url": "https://github.com/zeek/zeek",
+                        "homepage": "https://www.zeek.org",
+                        "size": 154042,
+                        "stargazers_count": 5563,
+                        "watchers_count": 5563,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 1170,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 130,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bro",
+                            "dfir",
+                            "network-monitoring",
+                            "nsm",
+                            "pcap",
+                            "security",
+                            "zeek"
+                        ],
+                        "visibility": "public",
+                        "forks": 1170,
+                        "open_issues": 130,
+                        "watchers": 5563,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410"
+                    },
+                    "html": {
+                        "href": "https://github.com/zeek/zeek/pull/3410"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/zeek/zeek/issues/3410"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/zeek/zeek/issues/3410/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/zeek/zeek/statuses/0b111525ce25074f2a2c5a17160e4bff65438e09"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:10:45Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32895193253",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1701440226,
+                "node_id": "PRR_kwDOAEs8nM5laeri",
+                "user": {
+                    "login": "awelzel",
+                    "id": 2100509,
+                    "node_id": "MDQ6VXNlcjIxMDA1MDk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2100509?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/awelzel",
+                    "html_url": "https://github.com/awelzel",
+                    "followers_url": "https://api.github.com/users/awelzel/followers",
+                    "following_url": "https://api.github.com/users/awelzel/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/awelzel/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/awelzel/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/awelzel/subscriptions",
+                    "organizations_url": "https://api.github.com/users/awelzel/orgs",
+                    "repos_url": "https://api.github.com/users/awelzel/repos",
+                    "events_url": "https://api.github.com/users/awelzel/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/awelzel/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "commit_id": "0b111525ce25074f2a2c5a17160e4bff65438e09",
+                "submitted_at": "2023-10-27T10:10:45Z",
+                "state": "commented",
+                "html_url": "https://github.com/zeek/zeek/pull/3410#pullrequestreview-1701440226",
+                "pull_request_url": "https://api.github.com/repos/zeek/zeek/pulls/3410",
+                "author_association": "CONTRIBUTOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/zeek/zeek/pull/3410#pullrequestreview-1701440226"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/zeek/zeek/pulls/3410",
+                "id": 1574589666,
+                "node_id": "PR_kwDOAEs8nM5d2lTi",
+                "html_url": "https://github.com/zeek/zeek/pull/3410",
+                "diff_url": "https://github.com/zeek/zeek/pull/3410.diff",
+                "patch_url": "https://github.com/zeek/zeek/pull/3410.patch",
+                "issue_url": "https://api.github.com/repos/zeek/zeek/issues/3410",
+                "number": 3410,
+                "state": "open",
+                "locked": false,
+                "title": "generic-analyzer-fuzzer: Support NextPacket() fuzzing, too.",
+                "user": {
+                    "login": "awelzel",
+                    "id": 2100509,
+                    "node_id": "MDQ6VXNlcjIxMDA1MDk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2100509?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/awelzel",
+                    "html_url": "https://github.com/awelzel",
+                    "followers_url": "https://api.github.com/users/awelzel/followers",
+                    "following_url": "https://api.github.com/users/awelzel/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/awelzel/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/awelzel/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/awelzel/subscriptions",
+                    "organizations_url": "https://api.github.com/users/awelzel/orgs",
+                    "repos_url": "https://api.github.com/users/awelzel/repos",
+                    "events_url": "https://api.github.com/users/awelzel/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/awelzel/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "A number of analyzers that we've been fuzzing with the generic-analyzer-fuzzer setup do not implement DeliverStream() and instead only work with DeliverPacket() (ntp, syslog, sip, radius, ...). Calling DeliverStream() on those is pretty much a noop and fuzzing not effective.\r\n\r\nThis change adds support to fuzz DeliverPacket(). Whether to use packet or stream fuzzing is configured through a define via CMake.\r\n\r\nThis is still somewhat limited in that analyzers that support both, DeliverPacket() and DeliverStream(), only one path is fuzzed.\r\n\r\nClosed #3398\r\n\r\n\r\n---\r\n\r\nAlso add a new fuzzer for DTLS. Mainly used that one for checking that packet based fuzzing starts :-)",
+                "created_at": "2023-10-26T11:07:01Z",
+                "updated_at": "2023-10-27T10:10:45Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "48758aba523848f20c8ad714e50a8eff2d5201ac",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/zeek/zeek/pulls/3410/commits",
+                "review_comments_url": "https://api.github.com/repos/zeek/zeek/pulls/3410/comments",
+                "review_comment_url": "https://api.github.com/repos/zeek/zeek/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/zeek/zeek/issues/3410/comments",
+                "statuses_url": "https://api.github.com/repos/zeek/zeek/statuses/0b111525ce25074f2a2c5a17160e4bff65438e09",
+                "head": {
+                    "label": "zeek:topic/awelzel/3398-protocol-analyzer-packet-fuzzing",
+                    "ref": "topic/awelzel/3398-protocol-analyzer-packet-fuzzing",
+                    "sha": "0b111525ce25074f2a2c5a17160e4bff65438e09",
+                    "user": {
+                        "login": "zeek",
+                        "id": 1194067,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/zeek",
+                        "html_url": "https://github.com/zeek",
+                        "followers_url": "https://api.github.com/users/zeek/followers",
+                        "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                        "organizations_url": "https://api.github.com/users/zeek/orgs",
+                        "repos_url": "https://api.github.com/users/zeek/repos",
+                        "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/zeek/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 4930716,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0OTMwNzE2",
+                        "name": "zeek",
+                        "full_name": "zeek/zeek",
+                        "private": false,
+                        "owner": {
+                            "login": "zeek",
+                            "id": 1194067,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/zeek",
+                            "html_url": "https://github.com/zeek",
+                            "followers_url": "https://api.github.com/users/zeek/followers",
+                            "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                            "organizations_url": "https://api.github.com/users/zeek/orgs",
+                            "repos_url": "https://api.github.com/users/zeek/repos",
+                            "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/zeek/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/zeek/zeek",
+                        "description": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/zeek/zeek",
+                        "forks_url": "https://api.github.com/repos/zeek/zeek/forks",
+                        "keys_url": "https://api.github.com/repos/zeek/zeek/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/zeek/zeek/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/zeek/zeek/teams",
+                        "hooks_url": "https://api.github.com/repos/zeek/zeek/hooks",
+                        "issue_events_url": "https://api.github.com/repos/zeek/zeek/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/zeek/zeek/events",
+                        "assignees_url": "https://api.github.com/repos/zeek/zeek/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/zeek/zeek/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/zeek/zeek/tags",
+                        "blobs_url": "https://api.github.com/repos/zeek/zeek/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/zeek/zeek/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/zeek/zeek/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/zeek/zeek/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/zeek/zeek/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/zeek/zeek/languages",
+                        "stargazers_url": "https://api.github.com/repos/zeek/zeek/stargazers",
+                        "contributors_url": "https://api.github.com/repos/zeek/zeek/contributors",
+                        "subscribers_url": "https://api.github.com/repos/zeek/zeek/subscribers",
+                        "subscription_url": "https://api.github.com/repos/zeek/zeek/subscription",
+                        "commits_url": "https://api.github.com/repos/zeek/zeek/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/zeek/zeek/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/zeek/zeek/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/zeek/zeek/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/zeek/zeek/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/zeek/zeek/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/zeek/zeek/merges",
+                        "archive_url": "https://api.github.com/repos/zeek/zeek/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/zeek/zeek/downloads",
+                        "issues_url": "https://api.github.com/repos/zeek/zeek/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/zeek/zeek/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/zeek/zeek/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/zeek/zeek/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/zeek/zeek/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/zeek/zeek/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/zeek/zeek/deployments",
+                        "created_at": "2012-07-06T20:30:16Z",
+                        "updated_at": "2023-10-26T02:14:13Z",
+                        "pushed_at": "2023-10-27T09:54:39Z",
+                        "git_url": "git://github.com/zeek/zeek.git",
+                        "ssh_url": "git@github.com:zeek/zeek.git",
+                        "clone_url": "https://github.com/zeek/zeek.git",
+                        "svn_url": "https://github.com/zeek/zeek",
+                        "homepage": "https://www.zeek.org",
+                        "size": 154042,
+                        "stargazers_count": 5563,
+                        "watchers_count": 5563,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 1170,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 130,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bro",
+                            "dfir",
+                            "network-monitoring",
+                            "nsm",
+                            "pcap",
+                            "security",
+                            "zeek"
+                        ],
+                        "visibility": "public",
+                        "forks": 1170,
+                        "open_issues": 130,
+                        "watchers": 5563,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "zeek:master",
+                    "ref": "master",
+                    "sha": "d999b74b9997e199c4262b9466374e2fd0987db9",
+                    "user": {
+                        "login": "zeek",
+                        "id": 1194067,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/zeek",
+                        "html_url": "https://github.com/zeek",
+                        "followers_url": "https://api.github.com/users/zeek/followers",
+                        "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                        "organizations_url": "https://api.github.com/users/zeek/orgs",
+                        "repos_url": "https://api.github.com/users/zeek/repos",
+                        "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/zeek/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 4930716,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0OTMwNzE2",
+                        "name": "zeek",
+                        "full_name": "zeek/zeek",
+                        "private": false,
+                        "owner": {
+                            "login": "zeek",
+                            "id": 1194067,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjExOTQwNjc=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/zeek",
+                            "html_url": "https://github.com/zeek",
+                            "followers_url": "https://api.github.com/users/zeek/followers",
+                            "following_url": "https://api.github.com/users/zeek/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/zeek/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/zeek/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/zeek/subscriptions",
+                            "organizations_url": "https://api.github.com/users/zeek/orgs",
+                            "repos_url": "https://api.github.com/users/zeek/repos",
+                            "events_url": "https://api.github.com/users/zeek/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/zeek/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/zeek/zeek",
+                        "description": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/zeek/zeek",
+                        "forks_url": "https://api.github.com/repos/zeek/zeek/forks",
+                        "keys_url": "https://api.github.com/repos/zeek/zeek/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/zeek/zeek/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/zeek/zeek/teams",
+                        "hooks_url": "https://api.github.com/repos/zeek/zeek/hooks",
+                        "issue_events_url": "https://api.github.com/repos/zeek/zeek/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/zeek/zeek/events",
+                        "assignees_url": "https://api.github.com/repos/zeek/zeek/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/zeek/zeek/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/zeek/zeek/tags",
+                        "blobs_url": "https://api.github.com/repos/zeek/zeek/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/zeek/zeek/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/zeek/zeek/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/zeek/zeek/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/zeek/zeek/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/zeek/zeek/languages",
+                        "stargazers_url": "https://api.github.com/repos/zeek/zeek/stargazers",
+                        "contributors_url": "https://api.github.com/repos/zeek/zeek/contributors",
+                        "subscribers_url": "https://api.github.com/repos/zeek/zeek/subscribers",
+                        "subscription_url": "https://api.github.com/repos/zeek/zeek/subscription",
+                        "commits_url": "https://api.github.com/repos/zeek/zeek/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/zeek/zeek/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/zeek/zeek/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/zeek/zeek/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/zeek/zeek/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/zeek/zeek/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/zeek/zeek/merges",
+                        "archive_url": "https://api.github.com/repos/zeek/zeek/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/zeek/zeek/downloads",
+                        "issues_url": "https://api.github.com/repos/zeek/zeek/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/zeek/zeek/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/zeek/zeek/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/zeek/zeek/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/zeek/zeek/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/zeek/zeek/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/zeek/zeek/deployments",
+                        "created_at": "2012-07-06T20:30:16Z",
+                        "updated_at": "2023-10-26T02:14:13Z",
+                        "pushed_at": "2023-10-27T09:54:39Z",
+                        "git_url": "git://github.com/zeek/zeek.git",
+                        "ssh_url": "git@github.com:zeek/zeek.git",
+                        "clone_url": "https://github.com/zeek/zeek.git",
+                        "svn_url": "https://github.com/zeek/zeek",
+                        "homepage": "https://www.zeek.org",
+                        "size": 154042,
+                        "stargazers_count": 5563,
+                        "watchers_count": 5563,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 1170,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 130,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bro",
+                            "dfir",
+                            "network-monitoring",
+                            "nsm",
+                            "pcap",
+                            "security",
+                            "zeek"
+                        ],
+                        "visibility": "public",
+                        "forks": 1170,
+                        "open_issues": 130,
+                        "watchers": 5563,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410"
+                    },
+                    "html": {
+                        "href": "https://github.com/zeek/zeek/pull/3410"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/zeek/zeek/issues/3410"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/zeek/zeek/issues/3410/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/zeek/zeek/pulls/3410/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/zeek/zeek/statuses/0b111525ce25074f2a2c5a17160e4bff65438e09"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:10:46Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894771158",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 324957,
+            "login": "bbannier",
+            "display_login": "bbannier",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bbannier",
+            "avatar_url": "https://avatars.githubusercontent.com/u/324957?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/bbannier/bifcl-issue-15",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:54:40Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894763733",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 324957,
+            "login": "bbannier",
+            "display_login": "bbannier",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bbannier",
+            "avatar_url": "https://avatars.githubusercontent.com/u/324957?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/bbannier/issue-2675",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:54:23Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894719101",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/2845-http-09-tim-plus-something-else",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:52:41Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894711688",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/if-analyze-follow-up",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:52:25Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894711691",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/centos7-openssl11",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:52:25Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894675219",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/2837-builtin-plugin-ci",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:51:04Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894658454",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/zeek-5-smb-dce-rpc",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:25Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894658384",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/trying-some-perf-changes",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:25Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894658433",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/variadic-static-analysis-try",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:25Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894658277",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/try-module-identifiers",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:25Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894658236",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/ssl-extensions-ja3-perf",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:24Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894658107",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/pktsrc-pseudo-realtime-special-case",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:24Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894657986",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/generate-doc-ccache",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:24Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894657874",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/deferred-default-non-const-v2",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:24Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894657681",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/deferred-default-non-const",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:23Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894657665",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/2571-port-array-vs-map",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:23Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599475",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/zeek-seed-env",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:11Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599405",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/try-broker-metrics-import-topics",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:11Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599428",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/try-collect-broker-metrics",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:11Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599377",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/topic/awelzel/smb2-delete-on-close",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:11Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599349",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/sort-mime-types-to-analyzers",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:11Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599284",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/function-ingredients-intrusive",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:11Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599198",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/freebsd-14-snap-fix",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:10Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599171",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/fixup-val-from-json-namespace",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:10Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894599042",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/event-ts-test-follow-up",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:10Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    },
+    {
+        "id": "32894598920",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 2100509,
+            "login": "awelzel",
+            "display_login": "awelzel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/awelzel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2100509?"
+        },
+        "repo": {
+            "id": 4930716,
+            "name": "zeek/zeek",
+            "url": "https://api.github.com/repos/zeek/zeek"
+        },
+        "payload": {
+            "ref": "topic/awelzel/dnssec-ci",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:48:10Z",
+        "org": {
+            "id": 1194067,
+            "login": "zeek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zeek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1194067?"
+        }
+    }
+]

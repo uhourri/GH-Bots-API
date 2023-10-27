@@ -1,0 +1,1769 @@
+[
+    {
+        "id": "32896703569",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 3819,
+            "pull_request": {
+                "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/3819",
+                "id": 1576401391,
+                "node_id": "PR_kwDOAyE6JM5d9fnv",
+                "html_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/pull/3819",
+                "diff_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/pull/3819.diff",
+                "patch_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/pull/3819.patch",
+                "issue_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/3819",
+                "number": 3819,
+                "state": "open",
+                "locked": false,
+                "title": "Try CI split",
+                "user": {
+                    "login": "vga91",
+                    "id": 25103389,
+                    "node_id": "MDQ6VXNlcjI1MTAzMzg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25103389?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vga91",
+                    "html_url": "https://github.com/vga91",
+                    "followers_url": "https://api.github.com/users/vga91/followers",
+                    "following_url": "https://api.github.com/users/vga91/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vga91/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vga91/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vga91/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vga91/orgs",
+                    "repos_url": "https://api.github.com/users/vga91/repos",
+                    "events_url": "https://api.github.com/users/vga91/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vga91/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2023-10-27T11:11:23Z",
+                "updated_at": "2023-10-27T11:11:23Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 4012403600,
+                        "node_id": "LA_kwDOAyE6JM7vKGuQ",
+                        "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/labels/extended-functionality",
+                        "name": "extended-functionality",
+                        "color": "FF6700",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/3819/commits",
+                "review_comments_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/3819/comments",
+                "review_comment_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/3819/comments",
+                "statuses_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/statuses/eaec3f3f25721c0f6f4166047a62fb5d65a53221",
+                "head": {
+                    "label": "neo4j-contrib:try-ci-split",
+                    "ref": "try-ci-split",
+                    "sha": "eaec3f3f25721c0f6f4166047a62fb5d65a53221",
+                    "user": {
+                        "login": "neo4j-contrib",
+                        "id": 916372,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjkxNjM3Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/916372?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/neo4j-contrib",
+                        "html_url": "https://github.com/neo4j-contrib",
+                        "followers_url": "https://api.github.com/users/neo4j-contrib/followers",
+                        "following_url": "https://api.github.com/users/neo4j-contrib/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/neo4j-contrib/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/neo4j-contrib/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/neo4j-contrib/subscriptions",
+                        "organizations_url": "https://api.github.com/users/neo4j-contrib/orgs",
+                        "repos_url": "https://api.github.com/users/neo4j-contrib/repos",
+                        "events_url": "https://api.github.com/users/neo4j-contrib/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/neo4j-contrib/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 52509220,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk1MjUwOTIyMA==",
+                        "name": "neo4j-apoc-procedures",
+                        "full_name": "neo4j-contrib/neo4j-apoc-procedures",
+                        "private": false,
+                        "owner": {
+                            "login": "neo4j-contrib",
+                            "id": 916372,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjkxNjM3Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/916372?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/neo4j-contrib",
+                            "html_url": "https://github.com/neo4j-contrib",
+                            "followers_url": "https://api.github.com/users/neo4j-contrib/followers",
+                            "following_url": "https://api.github.com/users/neo4j-contrib/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/neo4j-contrib/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/neo4j-contrib/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/neo4j-contrib/subscriptions",
+                            "organizations_url": "https://api.github.com/users/neo4j-contrib/orgs",
+                            "repos_url": "https://api.github.com/users/neo4j-contrib/repos",
+                            "events_url": "https://api.github.com/users/neo4j-contrib/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/neo4j-contrib/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures",
+                        "description": "Awesome Procedures On Cypher for Neo4j - codenamed \"apoc\" \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0If you like it, please \u2605 above \u21e7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures",
+                        "forks_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/forks",
+                        "keys_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/teams",
+                        "hooks_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/hooks",
+                        "issue_events_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/events",
+                        "assignees_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/tags",
+                        "blobs_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/languages",
+                        "stargazers_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/stargazers",
+                        "contributors_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/contributors",
+                        "subscribers_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/subscribers",
+                        "subscription_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/subscription",
+                        "commits_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/merges",
+                        "archive_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/downloads",
+                        "issues_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/deployments",
+                        "created_at": "2016-02-25T08:33:37Z",
+                        "updated_at": "2023-10-23T14:21:19Z",
+                        "pushed_at": "2023-10-27T11:11:23Z",
+                        "git_url": "git://github.com/neo4j-contrib/neo4j-apoc-procedures.git",
+                        "ssh_url": "git@github.com:neo4j-contrib/neo4j-apoc-procedures.git",
+                        "clone_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures.git",
+                        "svn_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures",
+                        "homepage": "https://neo4j.com/labs/apoc",
+                        "size": 56411,
+                        "stargazers_count": 1625,
+                        "watchers_count": 1625,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 488,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 142,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "graph-algorithms",
+                            "graph-database",
+                            "hacktoberfest",
+                            "neo4j",
+                            "neo4j-plugin",
+                            "stored-procedures"
+                        ],
+                        "visibility": "public",
+                        "forks": 488,
+                        "open_issues": 142,
+                        "watchers": 1625,
+                        "default_branch": "dev"
+                    }
+                },
+                "base": {
+                    "label": "neo4j-contrib:4.4",
+                    "ref": "4.4",
+                    "sha": "2305371ccea732037961020cb13ef71b1bed9a9c",
+                    "user": {
+                        "login": "neo4j-contrib",
+                        "id": 916372,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjkxNjM3Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/916372?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/neo4j-contrib",
+                        "html_url": "https://github.com/neo4j-contrib",
+                        "followers_url": "https://api.github.com/users/neo4j-contrib/followers",
+                        "following_url": "https://api.github.com/users/neo4j-contrib/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/neo4j-contrib/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/neo4j-contrib/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/neo4j-contrib/subscriptions",
+                        "organizations_url": "https://api.github.com/users/neo4j-contrib/orgs",
+                        "repos_url": "https://api.github.com/users/neo4j-contrib/repos",
+                        "events_url": "https://api.github.com/users/neo4j-contrib/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/neo4j-contrib/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 52509220,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk1MjUwOTIyMA==",
+                        "name": "neo4j-apoc-procedures",
+                        "full_name": "neo4j-contrib/neo4j-apoc-procedures",
+                        "private": false,
+                        "owner": {
+                            "login": "neo4j-contrib",
+                            "id": 916372,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjkxNjM3Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/916372?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/neo4j-contrib",
+                            "html_url": "https://github.com/neo4j-contrib",
+                            "followers_url": "https://api.github.com/users/neo4j-contrib/followers",
+                            "following_url": "https://api.github.com/users/neo4j-contrib/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/neo4j-contrib/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/neo4j-contrib/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/neo4j-contrib/subscriptions",
+                            "organizations_url": "https://api.github.com/users/neo4j-contrib/orgs",
+                            "repos_url": "https://api.github.com/users/neo4j-contrib/repos",
+                            "events_url": "https://api.github.com/users/neo4j-contrib/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/neo4j-contrib/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures",
+                        "description": "Awesome Procedures On Cypher for Neo4j - codenamed \"apoc\" \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0If you like it, please \u2605 above \u21e7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures",
+                        "forks_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/forks",
+                        "keys_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/teams",
+                        "hooks_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/hooks",
+                        "issue_events_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/events",
+                        "assignees_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/tags",
+                        "blobs_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/languages",
+                        "stargazers_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/stargazers",
+                        "contributors_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/contributors",
+                        "subscribers_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/subscribers",
+                        "subscription_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/subscription",
+                        "commits_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/merges",
+                        "archive_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/downloads",
+                        "issues_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/deployments",
+                        "created_at": "2016-02-25T08:33:37Z",
+                        "updated_at": "2023-10-23T14:21:19Z",
+                        "pushed_at": "2023-10-27T11:11:23Z",
+                        "git_url": "git://github.com/neo4j-contrib/neo4j-apoc-procedures.git",
+                        "ssh_url": "git@github.com:neo4j-contrib/neo4j-apoc-procedures.git",
+                        "clone_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures.git",
+                        "svn_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures",
+                        "homepage": "https://neo4j.com/labs/apoc",
+                        "size": 56411,
+                        "stargazers_count": 1625,
+                        "watchers_count": 1625,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 488,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 142,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "graph-algorithms",
+                            "graph-database",
+                            "hacktoberfest",
+                            "neo4j",
+                            "neo4j-plugin",
+                            "stored-procedures"
+                        ],
+                        "visibility": "public",
+                        "forks": 488,
+                        "open_issues": 142,
+                        "watchers": 1625,
+                        "default_branch": "dev"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/3819"
+                    },
+                    "html": {
+                        "href": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/pull/3819"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/3819"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/issues/3819/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/3819/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/pulls/3819/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/statuses/eaec3f3f25721c0f6f4166047a62fb5d65a53221"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 2,
+                "deletions": 1,
+                "changed_files": 2
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:11:25Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32896675837",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "ref": "try-ci-split",
+            "ref_type": "branch",
+            "master_branch": "dev",
+            "description": "Awesome Procedures On Cypher for Neo4j - codenamed \"apoc\" \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0If you like it, please \u2605 above \u21e7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:10:16Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32895318274",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15590061696,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "b03cc283349a41f8a5b424f4488805a9dd5268d9",
+            "before": "3121018dac75cb52b36971d7cc51fb2c742342ae",
+            "commits": [
+                {
+                    "sha": "b03cc283349a41f8a5b424f4488805a9dd5268d9",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "hardcoded assemble",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/b03cc283349a41f8a5b424f4488805a9dd5268d9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:15:38Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32894690175",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15589751758,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "3121018dac75cb52b36971d7cc51fb2c742342ae",
+            "before": "a094bf4c3d81c15a086b608d7f2a494fcf8f4f65",
+            "commits": [
+                {
+                    "sha": "3121018dac75cb52b36971d7cc51fb2c742342ae",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try incrementing version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/3121018dac75cb52b36971d7cc51fb2c742342ae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:51:37Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32894223682",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15589527360,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "a094bf4c3d81c15a086b608d7f2a494fcf8f4f65",
+            "before": "afa7476586707b713615db033f82e7bba158aa32",
+            "commits": [
+                {
+                    "sha": "a094bf4c3d81c15a086b608d7f2a494fcf8f4f65",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try checkout",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/a094bf4c3d81c15a086b608d7f2a494fcf8f4f65"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:33:57Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32893949085",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15589394812,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "afa7476586707b713615db033f82e7bba158aa32",
+            "before": "f434e3d93c19a04f7d9587cde9d24ab2c17ceee5",
+            "commits": [
+                {
+                    "sha": "afa7476586707b713615db033f82e7bba158aa32",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try checkout",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/afa7476586707b713615db033f82e7bba158aa32"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:23:33Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32893625260",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15589238589,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "f434e3d93c19a04f7d9587cde9d24ab2c17ceee5",
+            "before": "145dc1ac01c310dced5bdbf730f5ded9d8f4b63e",
+            "commits": [
+                {
+                    "sha": "f434e3d93c19a04f7d9587cde9d24ab2c17ceee5",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try hardcoded jobs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/f434e3d93c19a04f7d9587cde9d24ab2c17ceee5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:11:27Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32893212705",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15589040316,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "145dc1ac01c310dced5bdbf730f5ded9d8f4b63e",
+            "before": "97cc2a0971d9a656faf33d6240530490b97211c5",
+            "commits": [
+                {
+                    "sha": "145dc1ac01c310dced5bdbf730f5ded9d8f4b63e",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "debug assemble error",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/145dc1ac01c310dced5bdbf730f5ded9d8f4b63e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:55:59Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32892874009",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15588879274,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "97cc2a0971d9a656faf33d6240530490b97211c5",
+            "before": "3f87c73221abe2528c6d79f4b53141ec8f1f1979",
+            "commits": [
+                {
+                    "sha": "97cc2a0971d9a656faf33d6240530490b97211c5",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try with build",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/97cc2a0971d9a656faf33d6240530490b97211c5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:43:08Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32892658419",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15588776210,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "3f87c73221abe2528c6d79f4b53141ec8f1f1979",
+            "before": "c25e6a1e3325a3f0a1023e5deb949aa6b824e405",
+            "commits": [
+                {
+                    "sha": "3f87c73221abe2528c6d79f4b53141ec8f1f1979",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added java version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/3f87c73221abe2528c6d79f4b53141ec8f1f1979"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:34:48Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32892566636",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15588731932,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "c25e6a1e3325a3f0a1023e5deb949aa6b824e405",
+            "before": "f9f583a2f3cb8afca381141a9dc0ddd893254ff0",
+            "commits": [
+                {
+                    "sha": "c25e6a1e3325a3f0a1023e5deb949aa6b824e405",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added java version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/c25e6a1e3325a3f0a1023e5deb949aa6b824e405"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:31:12Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32892535645",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15588716889,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "f9f583a2f3cb8afca381141a9dc0ddd893254ff0",
+            "before": "f2023347a040b00d10d33d8d8fd8372ef702724f",
+            "commits": [
+                {
+                    "sha": "f9f583a2f3cb8afca381141a9dc0ddd893254ff0",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added java version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/f9f583a2f3cb8afca381141a9dc0ddd893254ff0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:30:02Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32891964609",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15588444102,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "f2023347a040b00d10d33d8d8fd8372ef702724f",
+            "before": "b7920b427a4d34d2376bcbf090eed407c5cea273",
+            "commits": [
+                {
+                    "sha": "f2023347a040b00d10d33d8d8fd8372ef702724f",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added checkout before assemble",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/f2023347a040b00d10d33d8d8fd8372ef702724f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:07:44Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32891625781",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15588281070,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "b7920b427a4d34d2376bcbf090eed407c5cea273",
+            "before": "6a445c416e454faea3c378d5462330f0309786ca",
+            "commits": [
+                {
+                    "sha": "b7920b427a4d34d2376bcbf090eed407c5cea273",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added checkout before assemble",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/b7920b427a4d34d2376bcbf090eed407c5cea273"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:54:01Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32891502310",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15588222393,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "6a445c416e454faea3c378d5462330f0309786ca",
+            "before": "0c429e322f489342c0d865e3372a00a81d10ab0d",
+            "commits": [
+                {
+                    "sha": "6a445c416e454faea3c378d5462330f0309786ca",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added assemble gradle",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/6a445c416e454faea3c378d5462330f0309786ca"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:48:54Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32883664921",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15584082461,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "0c429e322f489342c0d865e3372a00a81d10ab0d",
+            "before": "043abb5d8101782ad22e92590e8bef38a7a4126d",
+            "commits": [
+                {
+                    "sha": "0c429e322f489342c0d865e3372a00a81d10ab0d",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added twodots",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/0c429e322f489342c0d865e3372a00a81d10ab0d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T22:49:20Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32883310800",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15583902411,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "043abb5d8101782ad22e92590e8bef38a7a4126d",
+            "before": "6198dc9d6442b285bf589624eebd09f908d6993b",
+            "commits": [
+                {
+                    "sha": "043abb5d8101782ad22e92590e8bef38a7a4126d",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try with shadowJar",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/043abb5d8101782ad22e92590e8bef38a7a4126d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T22:25:13Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32882535659",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15583497214,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "6198dc9d6442b285bf589624eebd09f908d6993b",
+            "before": "142386e041bf71beac2d4a42b88fa3f50ea3991f",
+            "commits": [
+                {
+                    "sha": "6198dc9d6442b285bf589624eebd09f908d6993b",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "add compileJava",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/6198dc9d6442b285bf589624eebd09f908d6993b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:39:46Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32874497790",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15579550598,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/spit-tests",
+            "head": "142386e041bf71beac2d4a42b88fa3f50ea3991f",
+            "before": "1e72a280c968584029b641661dda632aa3129dd2",
+            "commits": [
+                {
+                    "sha": "8b46da610d5587860667c1d1349789902592ff4c",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "removed duplicated action",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/8b46da610d5587860667c1d1349789902592ff4c"
+                },
+                {
+                    "sha": "142386e041bf71beac2d4a42b88fa3f50ea3991f",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "restored neo4j version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/142386e041bf71beac2d4a42b88fa3f50ea3991f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:57:46Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32874370647",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15579489456,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "1e72a280c968584029b641661dda632aa3129dd2",
+            "before": "ce9c62fd40685e25b1cd5105c324fc2f4a6448ec",
+            "commits": [
+                {
+                    "sha": "1e72a280c968584029b641661dda632aa3129dd2",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "remove excludedTaskNames",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/1e72a280c968584029b641661dda632aa3129dd2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:53:22Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32874270508",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15579441150,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "ce9c62fd40685e25b1cd5105c324fc2f4a6448ec",
+            "before": "59479a47f540d75a1ba32cebeefbd49670b70b4f",
+            "commits": [
+                {
+                    "sha": "ce9c62fd40685e25b1cd5105c324fc2f4a6448ec",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try remove tasks",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/ce9c62fd40685e25b1cd5105c324fc2f4a6448ec"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:49:55Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32874144469",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15579380049,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "59479a47f540d75a1ba32cebeefbd49670b70b4f",
+            "before": "a4e17f51710d92cd2a0009cdddd15198707168f3",
+            "commits": [
+                {
+                    "sha": "59479a47f540d75a1ba32cebeefbd49670b70b4f",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "changed settings.gradle",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/59479a47f540d75a1ba32cebeefbd49670b70b4f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:45:36Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32873881077",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15579255237,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "a4e17f51710d92cd2a0009cdddd15198707168f3",
+            "before": "3fdc513ccde34ed0326a35302fc82323db121bf0",
+            "commits": [
+                {
+                    "sha": "a4e17f51710d92cd2a0009cdddd15198707168f3",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try removed commented yaml code",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/a4e17f51710d92cd2a0009cdddd15198707168f3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:36:42Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32873110251",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15578884780,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "3fdc513ccde34ed0326a35302fc82323db121bf0",
+            "before": "2025847896b0f29bdca415861cf3c7c12758fb5b",
+            "commits": [
+                {
+                    "sha": "3fdc513ccde34ed0326a35302fc82323db121bf0",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "changed checkout version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/3fdc513ccde34ed0326a35302fc82323db121bf0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:12:02Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32872814956",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15578742432,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "2025847896b0f29bdca415861cf3c7c12758fb5b",
+            "before": "ba5b794bc8e486c3213e0338562457ab3f611866",
+            "commits": [
+                {
+                    "sha": "2025847896b0f29bdca415861cf3c7c12758fb5b",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "changed matrix tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/2025847896b0f29bdca415861cf3c7c12758fb5b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:02:57Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32872418895",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15578550831,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "ba5b794bc8e486c3213e0338562457ab3f611866",
+            "before": "ebc8bd98fd74fcf62ab695a46877a59cba351a96",
+            "commits": [
+                {
+                    "sha": "ba5b794bc8e486c3213e0338562457ab3f611866",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added shell: bash",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/ba5b794bc8e486c3213e0338562457ab3f611866"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:51:12Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32872106217",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15578402071,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "ebc8bd98fd74fcf62ab695a46877a59cba351a96",
+            "before": "8aad3eeab06b2d918a3f8a1d88fe681ab8440729",
+            "commits": [
+                {
+                    "sha": "ebc8bd98fd74fcf62ab695a46877a59cba351a96",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "changed compile java",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/ebc8bd98fd74fcf62ab695a46877a59cba351a96"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:41:49Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32871897486",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15578302984,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "8aad3eeab06b2d918a3f8a1d88fe681ab8440729",
+            "before": "f15afcdf6aef4a64e6898ab21c78d51e04798835",
+            "commits": [
+                {
+                    "sha": "8aad3eeab06b2d918a3f8a1d88fe681ab8440729",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added maxParallelForks",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/8aad3eeab06b2d918a3f8a1d88fe681ab8440729"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:35:33Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32871169858",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15577939402,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "f15afcdf6aef4a64e6898ab21c78d51e04798835",
+            "before": "9fdeed0ef427b60cf40f1692be46355e50f826c8",
+            "commits": [
+                {
+                    "sha": "f15afcdf6aef4a64e6898ab21c78d51e04798835",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "added key to gradle-cache",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/f15afcdf6aef4a64e6898ab21c78d51e04798835"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:14:49Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    },
+    {
+        "id": "32870981753",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25103389,
+            "login": "vga91",
+            "display_login": "vga91",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vga91",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25103389?"
+        },
+        "repo": {
+            "id": 52509220,
+            "name": "neo4j-contrib/neo4j-apoc-procedures",
+            "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures"
+        },
+        "payload": {
+            "repository_id": 52509220,
+            "push_id": 15577848267,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/spit-tests",
+            "head": "9fdeed0ef427b60cf40f1692be46355e50f826c8",
+            "before": "04aabf5d233c6871619a01123925cd505cf67bf5",
+            "commits": [
+                {
+                    "sha": "9fdeed0ef427b60cf40f1692be46355e50f826c8",
+                    "author": {
+                        "email": "giuseppe.villani@larus-ba.it",
+                        "name": "vga91"
+                    },
+                    "message": "try start ci",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/neo4j-contrib/neo4j-apoc-procedures/commits/9fdeed0ef427b60cf40f1692be46355e50f826c8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:09:17Z",
+        "org": {
+            "id": 916372,
+            "login": "neo4j-contrib",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neo4j-contrib",
+            "avatar_url": "https://avatars.githubusercontent.com/u/916372?"
+        }
+    }
+]

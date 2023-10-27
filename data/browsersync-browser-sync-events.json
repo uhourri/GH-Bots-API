@@ -1,0 +1,1855 @@
+[
+    {
+        "id": "32889747665",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 143112461,
+            "login": "GitThingsDan",
+            "display_login": "GitThingsDan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/GitThingsDan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/143112461?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:28:04Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32819942816",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 145762361,
+            "login": "sahu-SuMiT",
+            "display_login": "sahu-SuMiT",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sahu-SuMiT",
+            "avatar_url": "https://avatars.githubusercontent.com/u/145762361?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1883",
+                "repository_url": "https://api.github.com/repos/BrowserSync/browser-sync",
+                "labels_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1883/labels{/name}",
+                "comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1883/comments",
+                "events_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1883/events",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/1883",
+                "id": 926465218,
+                "node_id": "MDU6SXNzdWU5MjY0NjUyMTg=",
+                "number": 1883,
+                "title": "Browsersync won't start, running scripts disabled. Installed globally through npm",
+                "user": {
+                    "login": "Obspogon",
+                    "id": 72287594,
+                    "node_id": "MDQ6VXNlcjcyMjg3NTk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/72287594?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Obspogon",
+                    "html_url": "https://github.com/Obspogon",
+                    "followers_url": "https://api.github.com/users/Obspogon/followers",
+                    "following_url": "https://api.github.com/users/Obspogon/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Obspogon/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Obspogon/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Obspogon/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Obspogon/orgs",
+                    "repos_url": "https://api.github.com/users/Obspogon/repos",
+                    "events_url": "https://api.github.com/users/Obspogon/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Obspogon/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2021-06-21T18:03:40Z",
+                "updated_at": "2023-10-25T00:49:43Z",
+                "closed_at": "2021-07-03T04:42:28Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Issue details\r\n\r\nBrowsersync won't start, I get this error:\r\n\r\n```\r\nbrowser-sync : File C:\\Users\\alico\\AppData\\Roaming\\npm\\browser-sync.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at \r\nhttps:/go.microsoft.com/fwlink/?LinkID=135170.\r\nAt line:1 char:1\r\n+ browser-sync start\r\n+ ~~~~~~~~~~~~\r\n    + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n    + FullyQualifiedErrorId : UnauthorizedAccess\r\n```\r\n\r\n### Steps to reproduce/test case\r\n\r\nWhenever I try `browser-sync start`\r\n\r\n### Please specify which version of Browsersync, node and npm you're running\r\n\r\n- Browsersync [2.26.14]\r\n- Node        [14.17.1]\r\n- Npm         [6.14.13]\r\n\r\n### Affected platforms\r\n\r\n- [ ] linux\r\n- [X] windows\r\n- [ ] OS X\r\n- [ ] freebsd\r\n- [ ] solaris\r\n- [ ] other _(please specify which)_\r\n\r\n### Browsersync use-case\r\n\r\n- [ ] API\r\n- [ ] Gulp\r\n- [ ] Grunt\r\n- [X] CLI\r\n\r\n### If CLI, please paste the entire command below\r\n\r\n `browser-sync start`\r\n\r\n### for all other use-cases, (gulp, grunt etc), please show us exactly how you're using Browsersync\r\n\r\n{Browsersync init code here}\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1883/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1883/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1778296251",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/1883#issuecomment-1778296251",
+                "issue_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1883",
+                "id": 1778296251,
+                "node_id": "IC_kwDOAM5q0c5p_qW7",
+                "user": {
+                    "login": "sahu-SuMiT",
+                    "id": 145762361,
+                    "node_id": "U_kgDOCLAoOQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/145762361?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sahu-SuMiT",
+                    "html_url": "https://github.com/sahu-SuMiT",
+                    "followers_url": "https://api.github.com/users/sahu-SuMiT/followers",
+                    "following_url": "https://api.github.com/users/sahu-SuMiT/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sahu-SuMiT/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sahu-SuMiT/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sahu-SuMiT/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sahu-SuMiT/orgs",
+                    "repos_url": "https://api.github.com/users/sahu-SuMiT/repos",
+                    "events_url": "https://api.github.com/users/sahu-SuMiT/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sahu-SuMiT/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T00:49:43Z",
+                "updated_at": "2023-10-25T00:49:43Z",
+                "author_association": "NONE",
+                "body": "browser-sync --version works on command prompt but not on Windows Terminal",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1778296251/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T00:49:44Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32784552443",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13926051,
+            "login": "riazul701",
+            "display_login": "riazul701",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/riazul701",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13926051?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T20:43:12Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32775886561",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 64338319,
+            "login": "fairhopeweb",
+            "display_login": "fairhopeweb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fairhopeweb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64338319?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T15:08:18Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32694838908",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 23349958,
+            "login": "hom",
+            "display_login": "hom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23349958?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-19T14:39:06Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32670033570",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 39207179,
+            "login": "milliorn",
+            "display_login": "milliorn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/milliorn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39207179?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-18T20:03:31Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32580912687",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14543110,
+            "login": "maxproc",
+            "display_login": "maxproc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/maxproc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14543110?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-16T06:34:05Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32495456024",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 125664,
+            "login": "ericmorand",
+            "display_login": "ericmorand",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericmorand",
+            "avatar_url": "https://avatars.githubusercontent.com/u/125664?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1701",
+                "repository_url": "https://api.github.com/repos/BrowserSync/browser-sync",
+                "labels_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1701/labels{/name}",
+                "comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1701/comments",
+                "events_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1701/events",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/1701",
+                "id": 456073777,
+                "node_id": "MDU6SXNzdWU0NTYwNzM3Nzc=",
+                "number": 1701,
+                "title": "How to call init banner programmatically?",
+                "user": {
+                    "login": "Grawl",
+                    "id": 846774,
+                    "node_id": "MDQ6VXNlcjg0Njc3NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/846774?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Grawl",
+                    "html_url": "https://github.com/Grawl",
+                    "followers_url": "https://api.github.com/users/Grawl/followers",
+                    "following_url": "https://api.github.com/users/Grawl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Grawl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Grawl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Grawl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Grawl/orgs",
+                    "repos_url": "https://api.github.com/users/Grawl/repos",
+                    "events_url": "https://api.github.com/users/Grawl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Grawl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2019-06-14T05:58:21Z",
+                "updated_at": "2023-10-11T21:15:13Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Issue details\r\n\r\nWhen Browsersync starts, it shows this banner to command line:\r\n\r\n```\r\n[BrowserSync] Proxying: http://localhost:10623\r\n[BrowserSync] Access URLs:\r\n --------------------------------------\r\n       Local: http://localhost:30623\r\n    External: http://192.168.1.71:30623\r\n --------------------------------------\r\n          UI: http://localhost:3001\r\n UI External: http://localhost:3001\r\n --------------------------------------\r\n```\r\n\r\nI want to get it every time when my Gulp watcher is running, to get something like Webpack log.\r\n\r\nIs there a way to get it? Or even some Gulp plugin to do something like this?\r\n\r\n### Steps to reproduce/test case\r\n\r\nStart Browsersync and look at command line output\r\n\r\n### Please specify which version of Browsersync, node and npm you're running\r\n\r\n- Browsersync [  2.26.3  ]\r\n- Node        [  10.15.1  ]\r\n- Yarn         [  1.16.0  ]\r\n\r\n### Browsersync use-case\r\n\r\n- [ ] API\r\n- [x] Gulp\r\n- [ ] Grunt\r\n- [ ] CLI",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1701/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1701/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1758554227",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/1701#issuecomment-1758554227",
+                "issue_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1701",
+                "id": 1758554227,
+                "node_id": "IC_kwDOAM5q0c5o0Whz",
+                "user": {
+                    "login": "ericmorand",
+                    "id": 125664,
+                    "node_id": "MDQ6VXNlcjEyNTY2NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/125664?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ericmorand",
+                    "html_url": "https://github.com/ericmorand",
+                    "followers_url": "https://api.github.com/users/ericmorand/followers",
+                    "following_url": "https://api.github.com/users/ericmorand/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ericmorand/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ericmorand/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ericmorand/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ericmorand/orgs",
+                    "repos_url": "https://api.github.com/users/ericmorand/repos",
+                    "events_url": "https://api.github.com/users/ericmorand/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ericmorand/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-11T21:15:13Z",
+                "updated_at": "2023-10-11T21:15:13Z",
+                "author_association": "NONE",
+                "body": "I know this question was asked a long time ago, but since I just stumbled into it by looking for the same answer, allow me to answer: there is a non-documented (_but_ exposed by the API and the TypeScript definitions) function available on each BrowserSync instance, named `getOption`.\r\n\r\nYou can use it like this to get a Map of all the URLs listened by Browsersync server:\r\n\r\n```js\r\nbrowserSyncInstance.getOption('urls');\r\n```\r\n\r\nFrom there, you can construct your own banner.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1758554227/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-11T21:15:14Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32407951141",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 10653399,
+            "login": "robisadev",
+            "display_login": "robisadev",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/robisadev",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10653399?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-09T05:48:12Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32407602246",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14306048,
+            "login": "bruceeelin",
+            "display_login": "bruceeelin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bruceeelin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14306048?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-09T05:21:31Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32387997079",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14979092,
+            "login": "abydosx",
+            "display_login": "abydosx",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/abydosx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14979092?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-07T09:20:10Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32345652551",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 112888267,
+            "login": "MEZ901",
+            "display_login": "MEZ901",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MEZ901",
+            "avatar_url": "https://avatars.githubusercontent.com/u/112888267?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-05T15:25:11Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32320381136",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 3441783,
+            "login": "bedware",
+            "display_login": "bedware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bedware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3441783?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-04T19:20:35Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32313303278",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5212649,
+            "login": "MrVoltz",
+            "display_login": "MrVoltz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MrVoltz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5212649?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/701",
+                "repository_url": "https://api.github.com/repos/BrowserSync/browser-sync",
+                "labels_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/701/labels{/name}",
+                "comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/701/comments",
+                "events_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/701/events",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/701",
+                "id": 92208270,
+                "node_id": "MDU6SXNzdWU5MjIwODI3MA==",
+                "number": 701,
+                "title": "Character replacement, possibly an encoding issue",
+                "user": {
+                    "login": "colinrotherham",
+                    "id": 415517,
+                    "node_id": "MDQ6VXNlcjQxNTUxNw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/415517?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/colinrotherham",
+                    "html_url": "https://github.com/colinrotherham",
+                    "followers_url": "https://api.github.com/users/colinrotherham/followers",
+                    "following_url": "https://api.github.com/users/colinrotherham/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/colinrotherham/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/colinrotherham/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/colinrotherham/subscriptions",
+                    "organizations_url": "https://api.github.com/users/colinrotherham/orgs",
+                    "repos_url": "https://api.github.com/users/colinrotherham/repos",
+                    "events_url": "https://api.github.com/users/colinrotherham/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/colinrotherham/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2015-06-30T21:43:41Z",
+                "updated_at": "2023-10-04T14:49:18Z",
+                "closed_at": "2015-08-17T20:31:36Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\n\nI've noticed the following HTML markup is being replaced from this:  \n`<p class=\"scroller__description\">Video\u2019s your choice, available when your visitors and agents want.</p>`\n\nTo this (over the Browsersync proxy):  \n`<p class=\"scroller__description\">Video\ufffd\ufffd\ufffds your choice, available when your visitors and agents want.</p>`\n\ni.e. A curly single quote is becoming `\ufffd\ufffd\ufffd`\n\nOther single quotes, double quotes or other unicode characters are displaying correctly\u2014perhaps this is a string replacement or regex issue? Changing the class attribute fixes the issue.\n\nCould possibly be related to issue #661\n\nThanks\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/701/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/701/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1747034036",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/701#issuecomment-1747034036",
+                "issue_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/701",
+                "id": 1747034036,
+                "node_id": "IC_kwDOAM5q0c5oIZ-0",
+                "user": {
+                    "login": "MrVoltz",
+                    "id": 5212649,
+                    "node_id": "MDQ6VXNlcjUyMTI2NDk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5212649?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/MrVoltz",
+                    "html_url": "https://github.com/MrVoltz",
+                    "followers_url": "https://api.github.com/users/MrVoltz/followers",
+                    "following_url": "https://api.github.com/users/MrVoltz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/MrVoltz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/MrVoltz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/MrVoltz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/MrVoltz/orgs",
+                    "repos_url": "https://api.github.com/users/MrVoltz/repos",
+                    "events_url": "https://api.github.com/users/MrVoltz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/MrVoltz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-04T14:49:17Z",
+                "updated_at": "2023-10-04T14:49:17Z",
+                "author_association": "NONE",
+                "body": "I have the same issue and my suspicion is that Browsersync decodes the incoming stream in chunks and sometimes the chunk boundary lies in the middle of an UTF-8 character.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1747034036/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-04T14:49:18Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32277244598",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4125158,
+            "login": "gwolves",
+            "display_login": "gwolves",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gwolves",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4125158?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-03T12:36:03Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32271377495",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 90105000,
+            "login": "halfway-there1",
+            "display_login": "halfway-there1",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/halfway-there1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/90105000?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1705",
+                "repository_url": "https://api.github.com/repos/BrowserSync/browser-sync",
+                "labels_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1705/labels{/name}",
+                "comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1705/comments",
+                "events_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1705/events",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/1705",
+                "id": 460340697,
+                "node_id": "MDU6SXNzdWU0NjAzNDA2OTc=",
+                "number": 1705,
+                "title": "Error: listen EACCES: permission denied 0.0.0.0:3100",
+                "user": {
+                    "login": "Chriscon1994",
+                    "id": 52200350,
+                    "node_id": "MDQ6VXNlcjUyMjAwMzUw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/52200350?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Chriscon1994",
+                    "html_url": "https://github.com/Chriscon1994",
+                    "followers_url": "https://api.github.com/users/Chriscon1994/followers",
+                    "following_url": "https://api.github.com/users/Chriscon1994/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Chriscon1994/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Chriscon1994/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Chriscon1994/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Chriscon1994/orgs",
+                    "repos_url": "https://api.github.com/users/Chriscon1994/repos",
+                    "events_url": "https://api.github.com/users/Chriscon1994/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Chriscon1994/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2019-06-25T10:26:36Z",
+                "updated_at": "2023-10-03T08:56:31Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Node.js: v12.4.0.\r\nWindows: 10\r\nNPM: 6.9.0\r\n\r\nI keep getting this error and I'm unsure how to resolve it. Any help would be greatly appreciated, error code below:\r\n\r\nevents.js:177\r\n      throw er; // Unhandled 'error' event\r\n      ^\r\n\r\nError: listen EACCES: permission denied 0.0.0.0:3100\r\n    at Server.setupListenHandle [as _listen2] (net.js:1209:19)\r\n    at listenInCluster (net.js:1274:12)\r\n    at Server.listen (net.js:1362:7)\r\n    at Object.<anonymous> (C:\\Users\\chrisconnolly\\customer-support\\server.js:167:8)\r\n    at Module._compile (internal/modules/cjs/loader.js:774:30)\r\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)\r\n    at Module.load (internal/modules/cjs/loader.js:641:32)\r\n    at Function.Module._load (internal/modules/cjs/loader.js:556:12)\r\n    at Function.Module.runMain (internal/modules/cjs/loader.js:837:10)\r\n    at internal/main/run_main_module.js:17:11\r\nEmitted 'error' event at:\r\n    at emitErrorNT (net.js:1253:8)\r\n    at processTicksAndRejections (internal/process/task_queues.js:84:9) {\r\n  code: 'EACCES',\r\n  errno: 'EACCES',\r\n  syscall: 'listen',\r\n  address: '0.0.0.0',\r\n  port: 3100\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1705/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1705/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1744524639",
+                "html_url": "https://github.com/BrowserSync/browser-sync/issues/1705#issuecomment-1744524639",
+                "issue_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1705",
+                "id": 1744524639,
+                "node_id": "IC_kwDOAM5q0c5n-1Vf",
+                "user": {
+                    "login": "halfway-there1",
+                    "id": 90105000,
+                    "node_id": "MDQ6VXNlcjkwMTA1MDAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/90105000?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/halfway-there1",
+                    "html_url": "https://github.com/halfway-there1",
+                    "followers_url": "https://api.github.com/users/halfway-there1/followers",
+                    "following_url": "https://api.github.com/users/halfway-there1/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/halfway-there1/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/halfway-there1/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/halfway-there1/subscriptions",
+                    "organizations_url": "https://api.github.com/users/halfway-there1/orgs",
+                    "repos_url": "https://api.github.com/users/halfway-there1/repos",
+                    "events_url": "https://api.github.com/users/halfway-there1/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/halfway-there1/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-03T08:56:31Z",
+                "updated_at": "2023-10-03T08:56:31Z",
+                "author_association": "NONE",
+                "body": "I was facing somewhat same issue for most of ports (even on ports above 1024 that don't need any special permission)\r\nThis helped me on **#Windows**\r\n\r\n```\r\nnet stop winnat\r\nnet start winnat\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1744524639/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-03T08:56:32Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32261672104",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 47871887,
+            "login": "sepsol",
+            "display_login": "sepsol",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sepsol",
+            "avatar_url": "https://avatars.githubusercontent.com/u/47871887?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-02T22:57:14Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32230118562",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 32225868,
+            "login": "dacturne",
+            "display_login": "dacturne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dacturne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32225868?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-01T15:05:50Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32229008629",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 70529767,
+            "login": "fejm64",
+            "display_login": "fejm64",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fejm64",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70529767?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-01T13:01:58Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32221931984",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 32884105,
+            "login": "bufo24",
+            "display_login": "bufo24",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bufo24",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32884105?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 2054,
+            "pull_request": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/2054",
+                "id": 1536687328,
+                "node_id": "PR_kwDOAM5q0c5bl_zg",
+                "html_url": "https://github.com/BrowserSync/browser-sync/pull/2054",
+                "diff_url": "https://github.com/BrowserSync/browser-sync/pull/2054.diff",
+                "patch_url": "https://github.com/BrowserSync/browser-sync/pull/2054.patch",
+                "issue_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/2054",
+                "number": 2054,
+                "state": "open",
+                "locked": false,
+                "title": "fix: dist path",
+                "user": {
+                    "login": "bufo24",
+                    "id": 32884105,
+                    "node_id": "MDQ6VXNlcjMyODg0MTA1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/32884105?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bufo24",
+                    "html_url": "https://github.com/bufo24",
+                    "followers_url": "https://api.github.com/users/bufo24/followers",
+                    "following_url": "https://api.github.com/users/bufo24/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bufo24/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bufo24/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bufo24/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bufo24/orgs",
+                    "repos_url": "https://api.github.com/users/bufo24/repos",
+                    "events_url": "https://api.github.com/users/bufo24/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bufo24/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "seems like the lib folder has been moved to dist. ",
+                "created_at": "2023-09-30T19:16:43Z",
+                "updated_at": "2023-09-30T19:16:43Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/2054/commits",
+                "review_comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/2054/comments",
+                "review_comment_url": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/2054/comments",
+                "statuses_url": "https://api.github.com/repos/BrowserSync/browser-sync/statuses/58d8ff88ed0450727235237b263531c707c218e6",
+                "head": {
+                    "label": "bufo24:fix/dist-directory",
+                    "ref": "fix/dist-directory",
+                    "sha": "58d8ff88ed0450727235237b263531c707c218e6",
+                    "user": {
+                        "login": "bufo24",
+                        "id": 32884105,
+                        "node_id": "MDQ6VXNlcjMyODg0MTA1",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/32884105?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/bufo24",
+                        "html_url": "https://github.com/bufo24",
+                        "followers_url": "https://api.github.com/users/bufo24/followers",
+                        "following_url": "https://api.github.com/users/bufo24/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/bufo24/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/bufo24/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/bufo24/subscriptions",
+                        "organizations_url": "https://api.github.com/users/bufo24/orgs",
+                        "repos_url": "https://api.github.com/users/bufo24/repos",
+                        "events_url": "https://api.github.com/users/bufo24/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/bufo24/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 698725786,
+                        "node_id": "R_kgDOKaW1mg",
+                        "name": "browser-sync",
+                        "full_name": "bufo24/browser-sync",
+                        "private": false,
+                        "owner": {
+                            "login": "bufo24",
+                            "id": 32884105,
+                            "node_id": "MDQ6VXNlcjMyODg0MTA1",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/32884105?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/bufo24",
+                            "html_url": "https://github.com/bufo24",
+                            "followers_url": "https://api.github.com/users/bufo24/followers",
+                            "following_url": "https://api.github.com/users/bufo24/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/bufo24/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/bufo24/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/bufo24/subscriptions",
+                            "organizations_url": "https://api.github.com/users/bufo24/orgs",
+                            "repos_url": "https://api.github.com/users/bufo24/repos",
+                            "events_url": "https://api.github.com/users/bufo24/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/bufo24/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/bufo24/browser-sync",
+                        "description": "Keep multiple browsers & devices in sync when building websites. http://browsersync.io",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/bufo24/browser-sync",
+                        "forks_url": "https://api.github.com/repos/bufo24/browser-sync/forks",
+                        "keys_url": "https://api.github.com/repos/bufo24/browser-sync/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/bufo24/browser-sync/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/bufo24/browser-sync/teams",
+                        "hooks_url": "https://api.github.com/repos/bufo24/browser-sync/hooks",
+                        "issue_events_url": "https://api.github.com/repos/bufo24/browser-sync/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/bufo24/browser-sync/events",
+                        "assignees_url": "https://api.github.com/repos/bufo24/browser-sync/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/bufo24/browser-sync/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/bufo24/browser-sync/tags",
+                        "blobs_url": "https://api.github.com/repos/bufo24/browser-sync/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/bufo24/browser-sync/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/bufo24/browser-sync/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/bufo24/browser-sync/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/bufo24/browser-sync/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/bufo24/browser-sync/languages",
+                        "stargazers_url": "https://api.github.com/repos/bufo24/browser-sync/stargazers",
+                        "contributors_url": "https://api.github.com/repos/bufo24/browser-sync/contributors",
+                        "subscribers_url": "https://api.github.com/repos/bufo24/browser-sync/subscribers",
+                        "subscription_url": "https://api.github.com/repos/bufo24/browser-sync/subscription",
+                        "commits_url": "https://api.github.com/repos/bufo24/browser-sync/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/bufo24/browser-sync/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/bufo24/browser-sync/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/bufo24/browser-sync/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/bufo24/browser-sync/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/bufo24/browser-sync/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/bufo24/browser-sync/merges",
+                        "archive_url": "https://api.github.com/repos/bufo24/browser-sync/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/bufo24/browser-sync/downloads",
+                        "issues_url": "https://api.github.com/repos/bufo24/browser-sync/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/bufo24/browser-sync/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/bufo24/browser-sync/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/bufo24/browser-sync/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/bufo24/browser-sync/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/bufo24/browser-sync/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/bufo24/browser-sync/deployments",
+                        "created_at": "2023-09-30T19:15:09Z",
+                        "updated_at": "2023-09-30T19:15:09Z",
+                        "pushed_at": "2023-09-30T19:16:02Z",
+                        "git_url": "git://github.com/bufo24/browser-sync.git",
+                        "ssh_url": "git@github.com:bufo24/browser-sync.git",
+                        "clone_url": "https://github.com/bufo24/browser-sync.git",
+                        "svn_url": "https://github.com/bufo24/browser-sync",
+                        "homepage": "",
+                        "size": 13772,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "BrowserSync:master",
+                    "ref": "master",
+                    "sha": "d787281a1b93af59b6fb58daed3e018bfcfcca6d",
+                    "user": {
+                        "login": "BrowserSync",
+                        "id": 10654171,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjEwNjU0MTcx",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/10654171?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/BrowserSync",
+                        "html_url": "https://github.com/BrowserSync",
+                        "followers_url": "https://api.github.com/users/BrowserSync/followers",
+                        "following_url": "https://api.github.com/users/BrowserSync/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/BrowserSync/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/BrowserSync/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/BrowserSync/subscriptions",
+                        "organizations_url": "https://api.github.com/users/BrowserSync/orgs",
+                        "repos_url": "https://api.github.com/users/BrowserSync/repos",
+                        "events_url": "https://api.github.com/users/BrowserSync/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/BrowserSync/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 13527761,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMzUyNzc2MQ==",
+                        "name": "browser-sync",
+                        "full_name": "BrowserSync/browser-sync",
+                        "private": false,
+                        "owner": {
+                            "login": "BrowserSync",
+                            "id": 10654171,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEwNjU0MTcx",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/BrowserSync",
+                            "html_url": "https://github.com/BrowserSync",
+                            "followers_url": "https://api.github.com/users/BrowserSync/followers",
+                            "following_url": "https://api.github.com/users/BrowserSync/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/BrowserSync/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/BrowserSync/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/BrowserSync/subscriptions",
+                            "organizations_url": "https://api.github.com/users/BrowserSync/orgs",
+                            "repos_url": "https://api.github.com/users/BrowserSync/repos",
+                            "events_url": "https://api.github.com/users/BrowserSync/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/BrowserSync/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/BrowserSync/browser-sync",
+                        "description": "Keep multiple browsers & devices in sync when building websites. http://browsersync.io",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/BrowserSync/browser-sync",
+                        "forks_url": "https://api.github.com/repos/BrowserSync/browser-sync/forks",
+                        "keys_url": "https://api.github.com/repos/BrowserSync/browser-sync/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/BrowserSync/browser-sync/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/BrowserSync/browser-sync/teams",
+                        "hooks_url": "https://api.github.com/repos/BrowserSync/browser-sync/hooks",
+                        "issue_events_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/BrowserSync/browser-sync/events",
+                        "assignees_url": "https://api.github.com/repos/BrowserSync/browser-sync/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/BrowserSync/browser-sync/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/BrowserSync/browser-sync/tags",
+                        "blobs_url": "https://api.github.com/repos/BrowserSync/browser-sync/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/BrowserSync/browser-sync/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/BrowserSync/browser-sync/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/BrowserSync/browser-sync/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/BrowserSync/browser-sync/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/BrowserSync/browser-sync/languages",
+                        "stargazers_url": "https://api.github.com/repos/BrowserSync/browser-sync/stargazers",
+                        "contributors_url": "https://api.github.com/repos/BrowserSync/browser-sync/contributors",
+                        "subscribers_url": "https://api.github.com/repos/BrowserSync/browser-sync/subscribers",
+                        "subscription_url": "https://api.github.com/repos/BrowserSync/browser-sync/subscription",
+                        "commits_url": "https://api.github.com/repos/BrowserSync/browser-sync/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/BrowserSync/browser-sync/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/BrowserSync/browser-sync/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/BrowserSync/browser-sync/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/BrowserSync/browser-sync/merges",
+                        "archive_url": "https://api.github.com/repos/BrowserSync/browser-sync/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/BrowserSync/browser-sync/downloads",
+                        "issues_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/BrowserSync/browser-sync/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/BrowserSync/browser-sync/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/BrowserSync/browser-sync/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/BrowserSync/browser-sync/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/BrowserSync/browser-sync/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/BrowserSync/browser-sync/deployments",
+                        "created_at": "2013-10-12T19:35:45Z",
+                        "updated_at": "2023-09-28T10:23:01Z",
+                        "pushed_at": "2023-09-30T19:16:43Z",
+                        "git_url": "git://github.com/BrowserSync/browser-sync.git",
+                        "ssh_url": "git@github.com:BrowserSync/browser-sync.git",
+                        "clone_url": "https://github.com/BrowserSync/browser-sync.git",
+                        "svn_url": "https://github.com/BrowserSync/browser-sync",
+                        "homepage": "",
+                        "size": 13772,
+                        "stargazers_count": 12023,
+                        "watchers_count": 12023,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 792,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 562,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 792,
+                        "open_issues": 562,
+                        "watchers": 12023,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/2054"
+                    },
+                    "html": {
+                        "href": "https://github.com/BrowserSync/browser-sync/pull/2054"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/BrowserSync/browser-sync/issues/2054"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/BrowserSync/browser-sync/issues/2054/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/2054/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/2054/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/BrowserSync/browser-sync/statuses/58d8ff88ed0450727235237b263531c707c218e6"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": true,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 1,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-30T19:16:44Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32221921611",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 32884105,
+            "login": "bufo24",
+            "display_login": "bufo24",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bufo24",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32884105?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "forkee": {
+                "id": 698725786,
+                "node_id": "R_kgDOKaW1mg",
+                "name": "browser-sync",
+                "full_name": "bufo24/browser-sync",
+                "private": false,
+                "owner": {
+                    "login": "bufo24",
+                    "id": 32884105,
+                    "node_id": "MDQ6VXNlcjMyODg0MTA1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/32884105?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bufo24",
+                    "html_url": "https://github.com/bufo24",
+                    "followers_url": "https://api.github.com/users/bufo24/followers",
+                    "following_url": "https://api.github.com/users/bufo24/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bufo24/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bufo24/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bufo24/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bufo24/orgs",
+                    "repos_url": "https://api.github.com/users/bufo24/repos",
+                    "events_url": "https://api.github.com/users/bufo24/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bufo24/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/bufo24/browser-sync",
+                "description": "Keep multiple browsers & devices in sync when building websites. http://browsersync.io",
+                "fork": true,
+                "url": "https://api.github.com/repos/bufo24/browser-sync",
+                "forks_url": "https://api.github.com/repos/bufo24/browser-sync/forks",
+                "keys_url": "https://api.github.com/repos/bufo24/browser-sync/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/bufo24/browser-sync/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/bufo24/browser-sync/teams",
+                "hooks_url": "https://api.github.com/repos/bufo24/browser-sync/hooks",
+                "issue_events_url": "https://api.github.com/repos/bufo24/browser-sync/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/bufo24/browser-sync/events",
+                "assignees_url": "https://api.github.com/repos/bufo24/browser-sync/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/bufo24/browser-sync/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/bufo24/browser-sync/tags",
+                "blobs_url": "https://api.github.com/repos/bufo24/browser-sync/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/bufo24/browser-sync/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/bufo24/browser-sync/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/bufo24/browser-sync/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/bufo24/browser-sync/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/bufo24/browser-sync/languages",
+                "stargazers_url": "https://api.github.com/repos/bufo24/browser-sync/stargazers",
+                "contributors_url": "https://api.github.com/repos/bufo24/browser-sync/contributors",
+                "subscribers_url": "https://api.github.com/repos/bufo24/browser-sync/subscribers",
+                "subscription_url": "https://api.github.com/repos/bufo24/browser-sync/subscription",
+                "commits_url": "https://api.github.com/repos/bufo24/browser-sync/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/bufo24/browser-sync/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/bufo24/browser-sync/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/bufo24/browser-sync/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/bufo24/browser-sync/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/bufo24/browser-sync/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/bufo24/browser-sync/merges",
+                "archive_url": "https://api.github.com/repos/bufo24/browser-sync/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/bufo24/browser-sync/downloads",
+                "issues_url": "https://api.github.com/repos/bufo24/browser-sync/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/bufo24/browser-sync/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/bufo24/browser-sync/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/bufo24/browser-sync/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/bufo24/browser-sync/labels{/name}",
+                "releases_url": "https://api.github.com/repos/bufo24/browser-sync/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/bufo24/browser-sync/deployments",
+                "created_at": "2023-09-30T19:15:09Z",
+                "updated_at": "2023-09-30T19:15:09Z",
+                "pushed_at": "2023-09-30T15:53:52Z",
+                "git_url": "git://github.com/bufo24/browser-sync.git",
+                "ssh_url": "git@github.com:bufo24/browser-sync.git",
+                "clone_url": "https://github.com/bufo24/browser-sync.git",
+                "svn_url": "https://github.com/bufo24/browser-sync",
+                "homepage": "",
+                "size": 13772,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-30T19:15:10Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32138991850",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 84515283,
+            "login": "lemurifor",
+            "display_login": "lemurifor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lemurifor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/84515283?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-27T10:37:57Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32114496578",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1656595,
+            "login": "cossssmin",
+            "display_login": "cossssmin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cossssmin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1656595?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1970",
+                "repository_url": "https://api.github.com/repos/BrowserSync/browser-sync",
+                "labels_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1970/labels{/name}",
+                "comments_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1970/comments",
+                "events_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1970/events",
+                "html_url": "https://github.com/BrowserSync/browser-sync/pull/1970",
+                "id": 1268585364,
+                "node_id": "PR_kwDOAM5q0c45hMpR",
+                "number": 1970,
+                "title": "fix ui-external url",
+                "user": {
+                    "login": "qdirks",
+                    "id": 26916078,
+                    "node_id": "MDQ6VXNlcjI2OTE2MDc4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/26916078?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/qdirks",
+                    "html_url": "https://github.com/qdirks",
+                    "followers_url": "https://api.github.com/users/qdirks/followers",
+                    "following_url": "https://api.github.com/users/qdirks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/qdirks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/qdirks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/qdirks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/qdirks/orgs",
+                    "repos_url": "https://api.github.com/users/qdirks/repos",
+                    "events_url": "https://api.github.com/users/qdirks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/qdirks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-06-12T13:39:59Z",
+                "updated_at": "2023-09-26T14:39:44Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/pulls/1970",
+                    "html_url": "https://github.com/BrowserSync/browser-sync/pull/1970",
+                    "diff_url": "https://github.com/BrowserSync/browser-sync/pull/1970.diff",
+                    "patch_url": "https://github.com/BrowserSync/browser-sync/pull/1970.patch",
+                    "merged_at": null
+                },
+                "body": "When browser-sync is serving files, this is what it prints in the console:\r\n```\r\n[Browsersync] Access URLs:\r\n --------------------------------------\r\n       Local: http://localhost:3000\r\n    External: http://192.168.0.242:3000\r\n --------------------------------------\r\n          UI: http://localhost:3001\r\n UI External: http://localhost:3001         <-- This is not the external access url\r\n --------------------------------------\r\n[Browsersync] Serving files from: ./\r\n```\r\n\r\nThis pull request changes it to this:\r\n```\r\n[Browsersync] Access URLs:\r\n --------------------------------------\r\n       Local: http://localhost:3000\r\n    External: http://192.168.0.242:3000\r\n --------------------------------------\r\n          UI: http://localhost:3001\r\n UI External: http://192.168.0.242:3001\r\n --------------------------------------\r\n[Browsersync] Serving files from: ./\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1970/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1970/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1735683065",
+                "html_url": "https://github.com/BrowserSync/browser-sync/pull/1970#issuecomment-1735683065",
+                "issue_url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/1970",
+                "id": 1735683065,
+                "node_id": "IC_kwDOAM5q0c5ndGv5",
+                "user": {
+                    "login": "cossssmin",
+                    "id": 1656595,
+                    "node_id": "MDQ6VXNlcjE2NTY1OTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1656595?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/cossssmin",
+                    "html_url": "https://github.com/cossssmin",
+                    "followers_url": "https://api.github.com/users/cossssmin/followers",
+                    "following_url": "https://api.github.com/users/cossssmin/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/cossssmin/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/cossssmin/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/cossssmin/subscriptions",
+                    "organizations_url": "https://api.github.com/users/cossssmin/orgs",
+                    "repos_url": "https://api.github.com/users/cossssmin/repos",
+                    "events_url": "https://api.github.com/users/cossssmin/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/cossssmin/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-09-26T14:39:44Z",
+                "updated_at": "2023-09-26T14:39:44Z",
+                "author_association": "NONE",
+                "body": "Any chance we can see this merged in the next patch release? \ud83d\ude07",
+                "reactions": {
+                    "url": "https://api.github.com/repos/BrowserSync/browser-sync/issues/comments/1735683065/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-26T14:39:45Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32096406629",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 9150073,
+            "login": "kenkoooo",
+            "display_login": "kenkoooo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kenkoooo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9150073?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-26T01:56:30Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32080155449",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 143593735,
+            "login": "Tokyo1991",
+            "display_login": "Tokyo1991",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Tokyo1991",
+            "avatar_url": "https://avatars.githubusercontent.com/u/143593735?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-25T13:29:03Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32066495641",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 39691800,
+            "login": "y3un9",
+            "display_login": "y3un9",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/y3un9",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39691800?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-25T03:46:15Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "32053351905",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 53299913,
+            "login": "mars-low",
+            "display_login": "mars-low",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mars-low",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53299913?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-23T20:29:30Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "31986625780",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 30746218,
+            "login": "NeverStop1024",
+            "display_login": "NeverStop1024",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/NeverStop1024",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30746218?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-21T00:14:23Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "31968778978",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 77048647,
+            "login": "a3mitskevich",
+            "display_login": "a3mitskevich",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/a3mitskevich",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77048647?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-20T11:35:00Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    },
+    {
+        "id": "31933051142",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 87929529,
+            "login": "skaarlcooper",
+            "display_login": "skaarlcooper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/skaarlcooper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/87929529?"
+        },
+        "repo": {
+            "id": 13527761,
+            "name": "BrowserSync/browser-sync",
+            "url": "https://api.github.com/repos/BrowserSync/browser-sync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-19T08:43:04Z",
+        "org": {
+            "id": 10654171,
+            "login": "BrowserSync",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BrowserSync",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10654171?"
+        }
+    }
+]

@@ -1,0 +1,2012 @@
+[
+    {
+        "id": "32864211941",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4083816,
+            "login": "esrrhs",
+            "display_login": "esrrhs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/esrrhs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4083816?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:22:25Z"
+    },
+    {
+        "id": "32851412395",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 34870188,
+            "login": "Mouradouchane",
+            "display_login": "Mouradouchane",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Mouradouchane",
+            "avatar_url": "https://avatars.githubusercontent.com/u/34870188?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T22:52:44Z"
+    },
+    {
+        "id": "32834651535",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15559793163,
+            "size": 5,
+            "distinct_size": 0,
+            "ref": "refs/heads/master",
+            "head": "d0b792791fa707861947e600f5b119d2a1ecb9db",
+            "before": "357c63bdbf68886650e3a4360b1eb1c91756abc1",
+            "commits": [
+                {
+                    "sha": "60f568590fc198f0c97081e0f8a0444abed5e89d",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: no, the layer isn't ignored anymore.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/60f568590fc198f0c97081e0f8a0444abed5e89d"
+                },
+                {
+                    "sha": "00305a7c5347e258e596249cff0316b39f3c5e0f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: rename test cases to match the actual API being tested.\n\nThe function isn't strictly limited to just lines, can work with whole\nblocks too.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/00305a7c5347e258e596249cff0316b39f3c5e0f"
+                },
+                {
+                    "sha": "32485baae8ed6814d9ea14884bc4f9b6c35280dc",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: add renderGlyphQuadsInto() overload taking cache-global glyph IDs.\n\nWhich also allows the internals to be a bit simpler / potentially more\nefficient, as the implementation can now access the glyph cache contents\ndirectly, without a getter.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/32485baae8ed6814d9ea14884bc4f9b6c35280dc"
+                },
+                {
+                    "sha": "ce2b5fb16a4e1072797944fb71c3171ee141bdd3",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "doc: somehow I forgot to list the fancy new Text APIs in the changelog.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/ce2b5fb16a4e1072797944fb71c3171ee141bdd3"
+                },
+                {
+                    "sha": "d0b792791fa707861947e600f5b119d2a1ecb9db",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: taking a pointer in cache.findFont() is stupid, don't.\n\nEspecially given that nullptr causes an assert. All call sites basically\nended up passing a &font and all that extra annoyance just doesn't make\nsense.\n\nGiven this API is still relatively recent, I'm not bothering with\nbackwards compatibility.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/d0b792791fa707861947e600f5b119d2a1ecb9db"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:25:17Z"
+    },
+    {
+        "id": "32833893292",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15559420906,
+            "size": 5,
+            "distinct_size": 5,
+            "ref": "refs/heads/next",
+            "head": "d0b792791fa707861947e600f5b119d2a1ecb9db",
+            "before": "357c63bdbf68886650e3a4360b1eb1c91756abc1",
+            "commits": [
+                {
+                    "sha": "60f568590fc198f0c97081e0f8a0444abed5e89d",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: no, the layer isn't ignored anymore.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/60f568590fc198f0c97081e0f8a0444abed5e89d"
+                },
+                {
+                    "sha": "00305a7c5347e258e596249cff0316b39f3c5e0f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: rename test cases to match the actual API being tested.\n\nThe function isn't strictly limited to just lines, can work with whole\nblocks too.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/00305a7c5347e258e596249cff0316b39f3c5e0f"
+                },
+                {
+                    "sha": "32485baae8ed6814d9ea14884bc4f9b6c35280dc",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: add renderGlyphQuadsInto() overload taking cache-global glyph IDs.\n\nWhich also allows the internals to be a bit simpler / potentially more\nefficient, as the implementation can now access the glyph cache contents\ndirectly, without a getter.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/32485baae8ed6814d9ea14884bc4f9b6c35280dc"
+                },
+                {
+                    "sha": "ce2b5fb16a4e1072797944fb71c3171ee141bdd3",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "doc: somehow I forgot to list the fancy new Text APIs in the changelog.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/ce2b5fb16a4e1072797944fb71c3171ee141bdd3"
+                },
+                {
+                    "sha": "d0b792791fa707861947e600f5b119d2a1ecb9db",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: taking a pointer in cache.findFont() is stupid, don't.\n\nEspecially given that nullptr causes an assert. All call sites basically\nended up passing a &font and all that extra annoyance just doesn't make\nsense.\n\nGiven this API is still relatively recent, I'm not bothering with\nbackwards compatibility.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/d0b792791fa707861947e600f5b119d2a1ecb9db"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:00:33Z"
+    },
+    {
+        "id": "32755953640",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 36443980,
+            "login": "MatheusBonavite",
+            "display_login": "MatheusBonavite",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MatheusBonavite",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36443980?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T23:04:19Z"
+    },
+    {
+        "id": "32755502059",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7266412,
+            "login": "pineapplemachine",
+            "display_login": "pineapplemachine",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pineapplemachine",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7266412?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T22:00:49Z"
+    },
+    {
+        "id": "32755171549",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15520241991,
+            "size": 1,
+            "distinct_size": 0,
+            "ref": "refs/heads/master",
+            "head": "357c63bdbf68886650e3a4360b1eb1c91756abc1",
+            "before": "ac35d747fabac0ea82ae0c8c65f42d5a4e8e4706",
+            "commits": [
+                {
+                    "sha": "357c63bdbf68886650e3a4360b1eb1c91756abc1",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: fix the non-GL build.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/357c63bdbf68886650e3a4360b1eb1c91756abc1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-22T21:11:39Z"
+    },
+    {
+        "id": "32754968338",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15520103195,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/next",
+            "head": "357c63bdbf68886650e3a4360b1eb1c91756abc1",
+            "before": "810c3796cac52a5b381f6a3ccde06c248a54f7da",
+            "commits": [
+                {
+                    "sha": "357c63bdbf68886650e3a4360b1eb1c91756abc1",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: fix the non-GL build.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/357c63bdbf68886650e3a4360b1eb1c91756abc1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-22T20:42:57Z"
+    },
+    {
+        "id": "32754943613",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15520086353,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/next",
+            "head": "810c3796cac52a5b381f6a3ccde06c248a54f7da",
+            "before": "70be830697fc927ccab4c53c1f6e2acbdb7a1804",
+            "commits": [
+                {
+                    "sha": "810c3796cac52a5b381f6a3ccde06c248a54f7da",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: fix the non-GL build.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/810c3796cac52a5b381f6a3ccde06c248a54f7da"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-22T20:39:20Z"
+    },
+    {
+        "id": "32754913542",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15520065631,
+            "size": 3,
+            "distinct_size": 1,
+            "ref": "refs/heads/next",
+            "head": "70be830697fc927ccab4c53c1f6e2acbdb7a1804",
+            "before": "0cecf5e8305c7b8c97d32a0d7bb3f49fb03543d0",
+            "commits": [
+                {
+                    "sha": "9bc1b9b3b1411d05e71a3e834b27529d0f7885b6",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: separate glyph ID and offset/advance retrieval in AbstractShaper.\n\nIn basically all cases it's two independent operations so forcing them\nto be done together doesn't really bring any potential efficiency\nadvantages. On the other hand, splitting them allows allows the caller\nto better make use of available memory, as the new\nrenderGlyphQuadsInto() allows the input and output arrays to be aliased.\n\nBumping AbstractFont plugin interface versions as this is a breaking\nchange.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/9bc1b9b3b1411d05e71a3e834b27529d0f7885b6"
+                },
+                {
+                    "sha": "ac35d747fabac0ea82ae0c8c65f42d5a4e8e4706",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: avoid a temporary allocation for storing glyph info in Renderer.\n\nThe new API makes it possible to alias storage for the glyph offsets,\nadvances and IDs (20 bytes per glyph) directly with the output positions\n+ texcoords (16 bytes per glyph, times four) by splitting the retrieval\nin two steps.\n\nI wonder how long will it take before this bites back, heh.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/ac35d747fabac0ea82ae0c8c65f42d5a4e8e4706"
+                },
+                {
+                    "sha": "70be830697fc927ccab4c53c1f6e2acbdb7a1804",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: fix the non-GL build.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/70be830697fc927ccab4c53c1f6e2acbdb7a1804"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-22T20:34:58Z"
+    },
+    {
+        "id": "32754882648",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15520044641,
+            "size": 13,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "ac35d747fabac0ea82ae0c8c65f42d5a4e8e4706",
+            "before": "8950085c97c8e2afb38f39a94127d85f196e3c7f",
+            "commits": [
+                {
+                    "sha": "6414daf3a9c02d9a9a63f4b27a4adcc954442d44",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: make internal Alignment values less cryptic.\n\nProbably didn't know that enum values can be directly reused in other\nvalues back in 2013.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/6414daf3a9c02d9a9a63f4b27a4adcc954442d44"
+                },
+                {
+                    "sha": "9686ccfd50b6edf32273ea63ee2833f645b273d6",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: the decomposed offsets don't really help anything in the test.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/9686ccfd50b6edf32273ea63ee2833f645b273d6"
+                },
+                {
+                    "sha": "0524079d92afb39fb2792e1611acfb8ac496ff3f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: further improve test for multiline Renderer.\n\nStill not good enough regression testing for the changes I need to make.\nThis was absolutely not verifying correct behavior of the other vertical\nalignment values for multiline text.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/0524079d92afb39fb2792e1611acfb8ac496ff3f"
+                },
+                {
+                    "sha": "818442a391dfac6d0b163d340cbcc1c3ef92bccf",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: align based just on font metric and cursor by default.\n\nSo it's possible to shape the text even before having all glyphs ready.\nThat's one reason, second reason is that this is a more common behavior\n-- it usually doesn't make sense to make the text jump based on whether\nit's \"zaxaca\", \"KEKEKE\" or \"yqpyq\".\n\nThe original alignment based on glyph bounds is now moved into dedicated\n`*GlyphBounds` variants. Additionally the `*LeftGlyphBounds` were\nchanged to subtract the initial glyph offset as well, `*Integer` now\nrounds only in the direction where it's needed because a division by 2\nhappened, and there's a set of `*Bottom*` values that somehow weren't\nthere before.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/818442a391dfac6d0b163d340cbcc1c3ef92bccf"
+                },
+                {
+                    "sha": "f6256359c697c565c0e80663341671cc43a599e0",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: these directionality guarantees are too strong, remove.\n\nI don't want to restrict myself this much, especially given various\ntests don't hold onto these.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/f6256359c697c565c0e80663341671cc43a599e0"
+                },
+                {
+                    "sha": "0e35c0e761478038018fe5925360fd0bcf9ac166",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: add a LayoutDirection enum.\n\nTo be used as a placeholder argument in the reworked renderer APIs. No\nintention to deal with the complexities of this right now, just taking\nit to not have to deprecate & replace the API when this feature actually\ngets implemented.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/0e35c0e761478038018fe5925360fd0bcf9ac166"
+                },
+                {
+                    "sha": "a2d2856c4194ecf1acf5445e2f4acb0ade365f4f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Math: properly test scaledFromCenter() for Range subclasses.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/a2d2856c4194ecf1acf5445e2f4acb0ade365f4f"
+                },
+                {
+                    "sha": "72b36347c300d544d5fb15fe96dc5b8af22ad3e6",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Math: add Range::scaled() and scaledFromCenter() taking a scalar.\n\nHaving to form a vector when scaling by the same value in all dimensions\nis wasteful.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/72b36347c300d544d5fb15fe96dc5b8af22ad3e6"
+                },
+                {
+                    "sha": "58e88c177b7e93ca031705711e860387f3d40699",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: document that Renderer is only available on GL builds.\n\nStill need to rename it, along with the glyph caches.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/58e88c177b7e93ca031705711e860387f3d40699"
+                },
+                {
+                    "sha": "4383b2fe015a9691937c4851445400113cea5a20",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: can now test most Renderer APIs without a GL context.\n\nThis is the case as of 96d56c6d2f21d811df2702e33bedfacf1eaf4ee0, where\nthe GPU-independent AbstractGlyphCache can be used.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/4383b2fe015a9691937c4851445400113cea5a20"
+                },
+                {
+                    "sha": "568a4205a66da527547e4afd15274bfcd905ae5f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: new, reusable and composable guts for the Renderer.\n\nThe awful original STL-heavy public API is kept the same for now, it's\njust the internals being now implemented using brand new APIs that are\nactually usable with multiple fonts, font sizes and runs with different\nscripts/languages/directions. There's also preparation for configurable\nvertical text layouting, although for now the functionality asserts that\nhorizontal text is used.\n\nThis also makes Renderer.h header available on non-GL builds, as the new\nAPIs don't rely on a class full of GL objects anymore. The class will\nget eventually renamed and moved to a dedicated RendererGL.h header, but\nfor now this partial update has to suffice.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/568a4205a66da527547e4afd15274bfcd905ae5f"
+                },
+                {
+                    "sha": "9bc1b9b3b1411d05e71a3e834b27529d0f7885b6",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: separate glyph ID and offset/advance retrieval in AbstractShaper.\n\nIn basically all cases it's two independent operations so forcing them\nto be done together doesn't really bring any potential efficiency\nadvantages. On the other hand, splitting them allows allows the caller\nto better make use of available memory, as the new\nrenderGlyphQuadsInto() allows the input and output arrays to be aliased.\n\nBumping AbstractFont plugin interface versions as this is a breaking\nchange.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/9bc1b9b3b1411d05e71a3e834b27529d0f7885b6"
+                },
+                {
+                    "sha": "ac35d747fabac0ea82ae0c8c65f42d5a4e8e4706",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: avoid a temporary allocation for storing glyph info in Renderer.\n\nThe new API makes it possible to alias storage for the glyph offsets,\nadvances and IDs (20 bytes per glyph) directly with the output positions\n+ texcoords (16 bytes per glyph, times four) by splitting the retrieval\nin two steps.\n\nI wonder how long will it take before this bites back, heh.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/ac35d747fabac0ea82ae0c8c65f42d5a4e8e4706"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-22T20:30:35Z"
+    },
+    {
+        "id": "32747827325",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 23381,
+            "login": "willr",
+            "display_login": "willr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/willr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23381?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T04:38:29Z"
+    },
+    {
+        "id": "32740378329",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15510098557,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/next",
+            "head": "0cecf5e8305c7b8c97d32a0d7bb3f49fb03543d0",
+            "before": "568a4205a66da527547e4afd15274bfcd905ae5f",
+            "commits": [
+                {
+                    "sha": "759f3ccfe246d6ca86e126e3da844ab4d16f3515",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: separate glyph ID and offset/advance retrieval in AbstractShaper.\n\nIn basically all cases it's two independent operations so forcing them\nto be done together doesn't really bring any potential efficiency\nadvantages. On the other hand, splitting them allows allows the caller\nto better make use of available memory, as the new\nrenderGlyphQuadsInto() allows the input and output arrays to be aliased.\n\nBumping AbstractFont plugin interface versions as this is a breaking\nchange.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/759f3ccfe246d6ca86e126e3da844ab4d16f3515"
+                },
+                {
+                    "sha": "0cecf5e8305c7b8c97d32a0d7bb3f49fb03543d0",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: avoid a temporary allocation for storing glyph info in Renderer.\n\nThe new API makes it possible to alias storage for the glyph offsets,\nadvances and IDs (20 bytes per glyph) directly with the output positions\n+ texcoords (16 bytes per glyph, times four) by splitting the retrieval\nin two steps.\n\nI wonder how long will it take before this bites back, heh.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/0cecf5e8305c7b8c97d32a0d7bb3f49fb03543d0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-21T10:06:01Z"
+    },
+    {
+        "id": "32736195988",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 21271300,
+            "login": "manuduggal",
+            "display_login": "manuduggal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/manuduggal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21271300?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T00:04:53Z"
+    },
+    {
+        "id": "32735336493",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 32279381,
+            "login": "Happyseaweed",
+            "display_login": "Happyseaweed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Happyseaweed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32279381?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T22:38:51Z"
+    },
+    {
+        "id": "32730140261",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15504178640,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/next",
+            "head": "568a4205a66da527547e4afd15274bfcd905ae5f",
+            "before": "e18391b13c61ebacd5446897177a3699b4ad1f19",
+            "commits": [
+                {
+                    "sha": "568a4205a66da527547e4afd15274bfcd905ae5f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: new, reusable and composable guts for the Renderer.\n\nThe awful original STL-heavy public API is kept the same for now, it's\njust the internals being now implemented using brand new APIs that are\nactually usable with multiple fonts, font sizes and runs with different\nscripts/languages/directions. There's also preparation for configurable\nvertical text layouting, although for now the functionality asserts that\nhorizontal text is used.\n\nThis also makes Renderer.h header available on non-GL builds, as the new\nAPIs don't rely on a class full of GL objects anymore. The class will\nget eventually renamed and moved to a dedicated RendererGL.h header, but\nfor now this partial update has to suffice.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/568a4205a66da527547e4afd15274bfcd905ae5f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T17:48:37Z"
+    },
+    {
+        "id": "32729042631",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15503615408,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/next",
+            "head": "e18391b13c61ebacd5446897177a3699b4ad1f19",
+            "before": "a346eaa12418681cbbab0d6d9335fbff8a567d2d",
+            "commits": [
+                {
+                    "sha": "58e88c177b7e93ca031705711e860387f3d40699",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: document that Renderer is only available on GL builds.\n\nStill need to rename it, along with the glyph caches.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/58e88c177b7e93ca031705711e860387f3d40699"
+                },
+                {
+                    "sha": "4383b2fe015a9691937c4851445400113cea5a20",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: can now test most Renderer APIs without a GL context.\n\nThis is the case as of 96d56c6d2f21d811df2702e33bedfacf1eaf4ee0, where\nthe GPU-independent AbstractGlyphCache can be used.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/4383b2fe015a9691937c4851445400113cea5a20"
+                },
+                {
+                    "sha": "e18391b13c61ebacd5446897177a3699b4ad1f19",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: new, reusable and composable guts for the Renderer.\n\nThe awful original STL-heavy public API is kept the same for now, it's\njust the internals being now implemented using brand new APIs that are\nactually usable with multiple fonts, font sizes and runs with different\nscripts/languages/directions. There's also preparation for configurable\nvertical text layouting, although for now the functionality asserts that\nhorizontal text is used.\n\nThis also makes Renderer.h header available on non-GL builds, as the new\nAPIs don't rely on a class full of GL objects anymore. The class will\nget eventually renamed and moved to a dedicated RendererGL.h header, but\nfor now this partial update has to suffice.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/e18391b13c61ebacd5446897177a3699b4ad1f19"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:57:31Z"
+    },
+    {
+        "id": "32713846313",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13112620,
+            "login": "jinzhiyuangit",
+            "display_login": "jinzhiyuangit",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jinzhiyuangit",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13112620?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T07:19:53Z"
+    },
+    {
+        "id": "32703062776",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15490492378,
+            "size": 2,
+            "distinct_size": 0,
+            "ref": "refs/heads/master",
+            "head": "8950085c97c8e2afb38f39a94127d85f196e3c7f",
+            "before": "68f6d75ee3f2aa4bf20ac3df706303e586cff323",
+            "commits": [
+                {
+                    "sha": "13158fb6cd4fcb29c838ecc964a8baa41a7c1e86",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: mention the texture coordinate matrix helper in AbstractGlyphCache.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/13158fb6cd4fcb29c838ecc964a8baa41a7c1e86"
+                },
+                {
+                    "sha": "8950085c97c8e2afb38f39a94127d85f196e3c7f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: rename Direction to ShapeDirection, move to a dedicated header.\n\nBecause there's going to be LayoutDirection as well, for controlling how\nline progression happens. Because nothing in text rendering is simple.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/8950085c97c8e2afb38f39a94127d85f196e3c7f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T19:52:08Z"
+    },
+    {
+        "id": "32703045921",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15490484110,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/next",
+            "head": "a346eaa12418681cbbab0d6d9335fbff8a567d2d",
+            "before": "0e35c0e761478038018fe5925360fd0bcf9ac166",
+            "commits": [
+                {
+                    "sha": "a2d2856c4194ecf1acf5445e2f4acb0ade365f4f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Math: properly test scaledFromCenter() for Range subclasses.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/a2d2856c4194ecf1acf5445e2f4acb0ade365f4f"
+                },
+                {
+                    "sha": "72b36347c300d544d5fb15fe96dc5b8af22ad3e6",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Math: add Range::scaled() and scaledFromCenter() taking a scalar.\n\nHaving to form a vector when scaling by the same value in all dimensions\nis wasteful.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/72b36347c300d544d5fb15fe96dc5b8af22ad3e6"
+                },
+                {
+                    "sha": "a346eaa12418681cbbab0d6d9335fbff8a567d2d",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "[wip] Text: new, reusable and composable guts for the Renderer.\n\nThe awful original STL-heavy public API is kept the same for now, it's\njust the internals being now implemented using brand new APIs that are\nactually usable with multiple fonts, font sizes and runs with different\nscripts/languages/directions. There's also preparation for configurable\nvertical text layouting, although for now the functionality asserts that\nhorizontal text is used.\n\nTODO: test the new functionality directly, especially to be sure that\n  the scaling happens in a correct place\nTODO: test the new asserts\nTODO: test the aliased view usage in both cases\nTODO: which needs the AbstractShaper API to get more flexible",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/a346eaa12418681cbbab0d6d9335fbff8a567d2d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T19:51:24Z"
+    },
+    {
+        "id": "32697276068",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "repository_url": "https://api.github.com/repos/mosra/magnum",
+                "labels_url": "https://api.github.com/repos/mosra/magnum/issues/629/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mosra/magnum/issues/629/comments",
+                "events_url": "https://api.github.com/repos/mosra/magnum/issues/629/events",
+                "html_url": "https://github.com/mosra/magnum/issues/629",
+                "id": 1952410774,
+                "node_id": "I_kwDOABIMJM50X2yW",
+                "number": 629,
+                "title": "Parallel rendering with glb files",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-10-19T14:32:24Z",
+                "updated_at": "2023-10-19T15:55:13Z",
+                "closed_at": "2023-10-19T15:55:13Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nWe have some *.glb files to render with magnum. Is there a functionality that we can use for parallel rendering (say, 20 different viewpoints in the same scene in parallel) in python?\r\n\r\nMany thanks in advance!\r\n\r\nBest,\r\nJiawei",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/629/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mosra/magnum/issues/629/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771277650",
+                "html_url": "https://github.com/mosra/magnum/issues/629#issuecomment-1771277650",
+                "issue_url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "id": 1771277650,
+                "node_id": "IC_kwDOABIMJM5pk41S",
+                "user": {
+                    "login": "mosra",
+                    "id": 344828,
+                    "node_id": "MDQ6VXNlcjM0NDgyOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/344828?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosra",
+                    "html_url": "https://github.com/mosra",
+                    "followers_url": "https://api.github.com/users/mosra/followers",
+                    "following_url": "https://api.github.com/users/mosra/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosra/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosra/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosra/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosra/orgs",
+                    "repos_url": "https://api.github.com/users/mosra/repos",
+                    "events_url": "https://api.github.com/users/mosra/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosra/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T15:55:13Z",
+                "updated_at": "2023-10-19T15:55:13Z",
+                "author_association": "OWNER",
+                "body": "The Python API isn't complete enough for batch-renderer-like workflow yet, you'll need to use the C++ APIs directly. A high-level rendering process and asset constraints are hopefully explained clear enough in the docs I linked, and I tried my best to make the `gfx::batch::Renderer` internals documented and clear to follow as well.\r\n\r\nAccording to my benchmarks, the scene setup & submission process in the batch renderer itself wasn't really a bottleneck where any parallelization would help much, most of the time was spent waiting on the GPU, and for example the transformation processing was just about 2% of the frame time. With the pre-processed assets there isn't really any other complexity happening that would need to be heavily parallelized to achieve substantial speed improvements. What was slow in comparison was the high-level (Python) code managing the scenes, physics, etc.\r\n\r\nHave fun, and let's use the habitat-sim issue tracker for future questions re the batch renderer :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771277650/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T15:55:13Z"
+    },
+    {
+        "id": "32697276194",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "repository_url": "https://api.github.com/repos/mosra/magnum",
+                "labels_url": "https://api.github.com/repos/mosra/magnum/issues/629/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mosra/magnum/issues/629/comments",
+                "events_url": "https://api.github.com/repos/mosra/magnum/issues/629/events",
+                "html_url": "https://github.com/mosra/magnum/issues/629",
+                "id": 1952410774,
+                "node_id": "I_kwDOABIMJM50X2yW",
+                "number": 629,
+                "title": "Parallel rendering with glb files",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-10-19T14:32:24Z",
+                "updated_at": "2023-10-19T15:55:13Z",
+                "closed_at": "2023-10-19T15:55:13Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nWe have some *.glb files to render with magnum. Is there a functionality that we can use for parallel rendering (say, 20 different viewpoints in the same scene in parallel) in python?\r\n\r\nMany thanks in advance!\r\n\r\nBest,\r\nJiawei",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/629/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mosra/magnum/issues/629/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T15:55:14Z"
+    },
+    {
+        "id": "32696712954",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 36950676,
+            "login": "JayeFu",
+            "display_login": "JayeFu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JayeFu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36950676?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "repository_url": "https://api.github.com/repos/mosra/magnum",
+                "labels_url": "https://api.github.com/repos/mosra/magnum/issues/629/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mosra/magnum/issues/629/comments",
+                "events_url": "https://api.github.com/repos/mosra/magnum/issues/629/events",
+                "html_url": "https://github.com/mosra/magnum/issues/629",
+                "id": 1952410774,
+                "node_id": "I_kwDOABIMJM50X2yW",
+                "number": 629,
+                "title": "Parallel rendering with glb files",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-19T14:32:24Z",
+                "updated_at": "2023-10-19T15:36:10Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nWe have some *.glb files to render with magnum. Is there a functionality that we can use for parallel rendering (say, 20 different viewpoints in the same scene in parallel) in python?\r\n\r\nMany thanks in advance!\r\n\r\nBest,\r\nJiawei",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/629/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mosra/magnum/issues/629/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771235723",
+                "html_url": "https://github.com/mosra/magnum/issues/629#issuecomment-1771235723",
+                "issue_url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "id": 1771235723,
+                "node_id": "IC_kwDOABIMJM5pkumL",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T15:36:09Z",
+                "updated_at": "2023-10-19T15:36:09Z",
+                "author_association": "NONE",
+                "body": "Thanks a lot for the reply!\r\n\r\nThe `gfx_batch` seems to be very attractive. We are looking into it now.\r\n\r\nIf we choose to implement the stuff with plain Magnum, could you please point us to some pointers about the whole pipeline of using Magnum Python API for rendering .glb files? I guess we could also try directly parallelizing that.\r\n\r\nMany thanks in advance!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771235723/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T15:36:10Z"
+    },
+    {
+        "id": "32696341129",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "repository_url": "https://api.github.com/repos/mosra/magnum",
+                "labels_url": "https://api.github.com/repos/mosra/magnum/issues/629/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mosra/magnum/issues/629/comments",
+                "events_url": "https://api.github.com/repos/mosra/magnum/issues/629/events",
+                "html_url": "https://github.com/mosra/magnum/issues/629",
+                "id": 1952410774,
+                "node_id": "I_kwDOABIMJM50X2yW",
+                "number": 629,
+                "title": "Parallel rendering with glb files",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-19T14:32:24Z",
+                "updated_at": "2023-10-19T15:24:16Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nWe have some *.glb files to render with magnum. Is there a functionality that we can use for parallel rendering (say, 20 different viewpoints in the same scene in parallel) in python?\r\n\r\nMany thanks in advance!\r\n\r\nBest,\r\nJiawei",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/629/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mosra/magnum/issues/629/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771215251",
+                "html_url": "https://github.com/mosra/magnum/issues/629#issuecomment-1771215251",
+                "issue_url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "id": 1771215251,
+                "node_id": "IC_kwDOABIMJM5pkpmT",
+                "user": {
+                    "login": "mosra",
+                    "id": 344828,
+                    "node_id": "MDQ6VXNlcjM0NDgyOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/344828?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosra",
+                    "html_url": "https://github.com/mosra",
+                    "followers_url": "https://api.github.com/users/mosra/followers",
+                    "following_url": "https://api.github.com/users/mosra/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosra/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosra/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosra/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosra/orgs",
+                    "repos_url": "https://api.github.com/users/mosra/repos",
+                    "events_url": "https://api.github.com/users/mosra/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosra/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T15:24:16Z",
+                "updated_at": "2023-10-19T15:24:16Z",
+                "author_association": "OWNER",
+                "body": "In habitat-sim I'm working on a batch renderer that aims to solve this exact issue. Or at least to reduce some of the unnecessary repetition, such as calculating scene transformations and submitting the draws just once, because (apart from doing some multi-GPU submission, which is a complex topic on its own) processing the command buffer to render everything is still inherently a linear operation.\r\n\r\nIn its current state it's however not exposed to Python yet, there's [just a C++ API](https://aihabitat.org/docs/habitat-sim/classesp_1_1gfx__batch_1_1Renderer.html), it's currently just with multi-scene support, and to make full use of the speed improvements it requires source files to be processed to a so-called \"composite file\". Multi-sensor / multi-framebuffer support is on my TODO list (https://github.com/facebookresearch/habitat-sim/pull/2170), I wasn't able to get back to that yet.\r\n\r\n> So we are thinking about whether we can circumvent habitat-sim and just using magnum for rendering in parallel.\r\n\r\nTo answer this -- yes, you theoretically _could_, the `gfx_batch` renderer mostly just puts together functionality that's available directly in Magnum. \r\n\r\nThen it's a question of what you think would be the best path forward for you -- whether trying to bend / extend the current batch rendering code that's there, or whether trying to reimplement what you need with plain Magnum, or whether to wait until I get back to it and finish the multi-sensor / multi-framebuffer support.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771215251/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T15:24:17Z"
+    },
+    {
+        "id": "32695854783",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 36950676,
+            "login": "JayeFu",
+            "display_login": "JayeFu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JayeFu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36950676?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "repository_url": "https://api.github.com/repos/mosra/magnum",
+                "labels_url": "https://api.github.com/repos/mosra/magnum/issues/629/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mosra/magnum/issues/629/comments",
+                "events_url": "https://api.github.com/repos/mosra/magnum/issues/629/events",
+                "html_url": "https://github.com/mosra/magnum/issues/629",
+                "id": 1952410774,
+                "node_id": "I_kwDOABIMJM50X2yW",
+                "number": 629,
+                "title": "Parallel rendering with glb files",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-19T14:32:24Z",
+                "updated_at": "2023-10-19T15:09:04Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nWe have some *.glb files to render with magnum. Is there a functionality that we can use for parallel rendering (say, 20 different viewpoints in the same scene in parallel) in python?\r\n\r\nMany thanks in advance!\r\n\r\nBest,\r\nJiawei",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/629/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mosra/magnum/issues/629/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771186510",
+                "html_url": "https://github.com/mosra/magnum/issues/629#issuecomment-1771186510",
+                "issue_url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "id": 1771186510,
+                "node_id": "IC_kwDOABIMJM5pkilO",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T15:09:04Z",
+                "updated_at": "2023-10-19T15:09:04Z",
+                "author_association": "NONE",
+                "body": "Hi, lol yep! We are using habitat-sim for simulation. :)\r\n\r\nNow we are trying to put many (~20) rgb sensors on the robot. However, the rendering in habitat-sim seems to be sequential from [this line](https://github.com/facebookresearch/habitat-sim/blob/9826bd1794dbb95ba026cf1938006bc1b29be47e/src_python/habitat_sim/simulator.py#L414). And we did some benchmarking and found that the rendering time is indeed linear w.r.t. to the number of sensors.\r\n\r\nSo we are thinking about whether we can circumvent habitat-sim and just using magnum for rendering in parallel.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771186510/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T15:09:05Z"
+    },
+    {
+        "id": "32695272751",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "repository_url": "https://api.github.com/repos/mosra/magnum",
+                "labels_url": "https://api.github.com/repos/mosra/magnum/issues/629/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mosra/magnum/issues/629/comments",
+                "events_url": "https://api.github.com/repos/mosra/magnum/issues/629/events",
+                "html_url": "https://github.com/mosra/magnum/issues/629",
+                "id": 1952410774,
+                "node_id": "I_kwDOABIMJM50X2yW",
+                "number": 629,
+                "title": "Parallel rendering with glb files",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-19T14:32:24Z",
+                "updated_at": "2023-10-19T14:51:49Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nWe have some *.glb files to render with magnum. Is there a functionality that we can use for parallel rendering (say, 20 different viewpoints in the same scene in parallel) in python?\r\n\r\nMany thanks in advance!\r\n\r\nBest,\r\nJiawei",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/629/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mosra/magnum/issues/629/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771153600",
+                "html_url": "https://github.com/mosra/magnum/issues/629#issuecomment-1771153600",
+                "issue_url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "id": 1771153600,
+                "node_id": "IC_kwDOABIMJM5pkajA",
+                "user": {
+                    "login": "mosra",
+                    "id": 344828,
+                    "node_id": "MDQ6VXNlcjM0NDgyOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/344828?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosra",
+                    "html_url": "https://github.com/mosra",
+                    "followers_url": "https://api.github.com/users/mosra/followers",
+                    "following_url": "https://api.github.com/users/mosra/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosra/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosra/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosra/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosra/orgs",
+                    "repos_url": "https://api.github.com/users/mosra/repos",
+                    "events_url": "https://api.github.com/users/mosra/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosra/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T14:51:49Z",
+                "updated_at": "2023-10-19T14:51:49Z",
+                "author_association": "OWNER",
+                "body": "Hi, a wild guess before we go into details, to avoid wheel reinvention -- is this in any way related to habitat-sim, or not at all? :) My answer will depend on that.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/comments/1771153600/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T14:51:50Z"
+    },
+    {
+        "id": "32694616682",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 36950676,
+            "login": "JayeFu",
+            "display_login": "JayeFu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JayeFu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36950676?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/mosra/magnum/issues/629",
+                "repository_url": "https://api.github.com/repos/mosra/magnum",
+                "labels_url": "https://api.github.com/repos/mosra/magnum/issues/629/labels{/name}",
+                "comments_url": "https://api.github.com/repos/mosra/magnum/issues/629/comments",
+                "events_url": "https://api.github.com/repos/mosra/magnum/issues/629/events",
+                "html_url": "https://github.com/mosra/magnum/issues/629",
+                "id": 1952410774,
+                "node_id": "I_kwDOABIMJM50X2yW",
+                "number": 629,
+                "title": "Parallel rendering with glb files",
+                "user": {
+                    "login": "JayeFu",
+                    "id": 36950676,
+                    "node_id": "MDQ6VXNlcjM2OTUwNjc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36950676?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JayeFu",
+                    "html_url": "https://github.com/JayeFu",
+                    "followers_url": "https://api.github.com/users/JayeFu/followers",
+                    "following_url": "https://api.github.com/users/JayeFu/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JayeFu/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JayeFu/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JayeFu/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JayeFu/orgs",
+                    "repos_url": "https://api.github.com/users/JayeFu/repos",
+                    "events_url": "https://api.github.com/users/JayeFu/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JayeFu/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-19T14:32:24Z",
+                "updated_at": "2023-10-19T14:32:24Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nWe have some *.glb files to render with magnum. Is there a functionality that we can use for parallel rendering (say, 20 different viewpoints in the same scene in parallel) in python?\r\n\r\nMany thanks in advance!\r\n\r\nBest,\r\nJiawei",
+                "reactions": {
+                    "url": "https://api.github.com/repos/mosra/magnum/issues/629/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/mosra/magnum/issues/629/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T14:32:26Z"
+    },
+    {
+        "id": "32688518722",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15483432942,
+            "size": 7,
+            "distinct_size": 7,
+            "ref": "refs/heads/next",
+            "head": "0e35c0e761478038018fe5925360fd0bcf9ac166",
+            "before": "72df3c9cf3d7b2bc51b50c7fc3ee58d41a42fdfc",
+            "commits": [
+                {
+                    "sha": "8950085c97c8e2afb38f39a94127d85f196e3c7f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: rename Direction to ShapeDirection, move to a dedicated header.\n\nBecause there's going to be LayoutDirection as well, for controlling how\nline progression happens. Because nothing in text rendering is simple.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/8950085c97c8e2afb38f39a94127d85f196e3c7f"
+                },
+                {
+                    "sha": "6414daf3a9c02d9a9a63f4b27a4adcc954442d44",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: make internal Alignment values less cryptic.\n\nProbably didn't know that enum values can be directly reused in other\nvalues back in 2013.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/6414daf3a9c02d9a9a63f4b27a4adcc954442d44"
+                },
+                {
+                    "sha": "9686ccfd50b6edf32273ea63ee2833f645b273d6",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: the decomposed offsets don't really help anything in the test.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/9686ccfd50b6edf32273ea63ee2833f645b273d6"
+                },
+                {
+                    "sha": "0524079d92afb39fb2792e1611acfb8ac496ff3f",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: further improve test for multiline Renderer.\n\nStill not good enough regression testing for the changes I need to make.\nThis was absolutely not verifying correct behavior of the other vertical\nalignment values for multiline text.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/0524079d92afb39fb2792e1611acfb8ac496ff3f"
+                },
+                {
+                    "sha": "818442a391dfac6d0b163d340cbcc1c3ef92bccf",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: align based just on font metric and cursor by default.\n\nSo it's possible to shape the text even before having all glyphs ready.\nThat's one reason, second reason is that this is a more common behavior\n-- it usually doesn't make sense to make the text jump based on whether\nit's \"zaxaca\", \"KEKEKE\" or \"yqpyq\".\n\nThe original alignment based on glyph bounds is now moved into dedicated\n`*GlyphBounds` variants. Additionally the `*LeftGlyphBounds` were\nchanged to subtract the initial glyph offset as well, `*Integer` now\nrounds only in the direction where it's needed because a division by 2\nhappened, and there's a set of `*Bottom*` values that somehow weren't\nthere before.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/818442a391dfac6d0b163d340cbcc1c3ef92bccf"
+                },
+                {
+                    "sha": "f6256359c697c565c0e80663341671cc43a599e0",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: these directionality guarantees are too strong, remove.\n\nI don't want to restrict myself this much, especially given various\ntests don't hold onto these.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/f6256359c697c565c0e80663341671cc43a599e0"
+                },
+                {
+                    "sha": "0e35c0e761478038018fe5925360fd0bcf9ac166",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: add a LayoutDirection enum.\n\nTo be used as a placeholder argument in the reworked renderer APIs. No\nintention to deal with the complexities of this right now, just taking\nit to not have to deprecate & replace the API when this feature actually\ngets implemented.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/0e35c0e761478038018fe5925360fd0bcf9ac166"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T11:23:59Z"
+    },
+    {
+        "id": "32687864116",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15483123775,
+            "size": 5,
+            "distinct_size": 5,
+            "ref": "refs/heads/next",
+            "head": "72df3c9cf3d7b2bc51b50c7fc3ee58d41a42fdfc",
+            "before": "83cc8c3a698628c5506eeafaf9ab258092c662eb",
+            "commits": [
+                {
+                    "sha": "bc24889964189025d4b4794de7aeafacb1904826",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: rename Direction to ShapeDirection, move to a dedicated header.\n\nBecause there's going to be LayoutDirection as well, for controlling how\nline progression happens. Because nothing in text rendering is simple.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/bc24889964189025d4b4794de7aeafacb1904826"
+                },
+                {
+                    "sha": "954d0e46da5f01e05bb60e15cac4ccaa24519b02",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: make internal Alignment values less cryptic.\n\nProbably didn't know that enum values can be directly reused in other\nvalues back in 2013.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/954d0e46da5f01e05bb60e15cac4ccaa24519b02"
+                },
+                {
+                    "sha": "4878579c4c0cb26dac3956b62c57c09045b190e8",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: the decomposed offsets don't really help anything in the test.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/4878579c4c0cb26dac3956b62c57c09045b190e8"
+                },
+                {
+                    "sha": "4363254eac824af2784e9146b7453645e69822ee",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: further improve test for multiline Renderer.\n\nStill not good enough regression testing for the changes I need to make.\nThis was absolutely not verifying correct behavior of the other vertical\nalignment values for multiline text.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/4363254eac824af2784e9146b7453645e69822ee"
+                },
+                {
+                    "sha": "72df3c9cf3d7b2bc51b50c7fc3ee58d41a42fdfc",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: align based just on font metric and cursor by default.\n\nSo it's possible to shape the text even before having all glyphs ready.\nThat's one reason, second reason is that this is a more common behavior\n-- it usually doesn't make sense to make the text jump based on whether\nit's \"zaxaca\", \"KEKEKE\" or \"yqpyq\".\n\nThe original alignment based on glyph bounds is now moved into dedicated\n`*GlyphBounds` variants. Additionally the `*LeftGlyphBounds` were\nchanged to subtract the initial glyph offset as well, `*Integer` now\nrounds only in the direction where it's needed because a division by 2\nhappened, and there's a set of `*Bottom*` values that somehow weren't\nthere before.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/72df3c9cf3d7b2bc51b50c7fc3ee58d41a42fdfc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T11:01:09Z"
+    },
+    {
+        "id": "32687432202",
+        "type": "PushEvent",
+        "actor": {
+            "id": 344828,
+            "login": "mosra",
+            "display_login": "mosra",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosra",
+            "avatar_url": "https://avatars.githubusercontent.com/u/344828?"
+        },
+        "repo": {
+            "id": 1182756,
+            "name": "mosra/magnum",
+            "url": "https://api.github.com/repos/mosra/magnum"
+        },
+        "payload": {
+            "repository_id": 1182756,
+            "push_id": 15482918619,
+            "size": 7,
+            "distinct_size": 6,
+            "ref": "refs/heads/next",
+            "head": "83cc8c3a698628c5506eeafaf9ab258092c662eb",
+            "before": "49958fc3d33e47bed0c0a2bd994cc88a1f094194",
+            "commits": [
+                {
+                    "sha": "68f6d75ee3f2aa4bf20ac3df706303e586cff323",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Doc++",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/68f6d75ee3f2aa4bf20ac3df706303e586cff323"
+                },
+                {
+                    "sha": "13158fb6cd4fcb29c838ecc964a8baa41a7c1e86",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: mention the texture coordinate matrix helper in AbstractGlyphCache.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/13158fb6cd4fcb29c838ecc964a8baa41a7c1e86"
+                },
+                {
+                    "sha": "680192b2518ae4fa10297580b85d801fc2ea56c2",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: rename Direction to ShapeDirection.\n\nBecause there's going to be LayoutDirection as well, for controlling how\nline progression happens. Because nothing in text rendering is simple.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/680192b2518ae4fa10297580b85d801fc2ea56c2"
+                },
+                {
+                    "sha": "1446de35a7aee89d259e7073fabdb29b52cb4c88",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: make internal Alignment values less cryptic.\n\nProbably didn't know that enum values can be directly reused in other\nvalues back in 2013.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/1446de35a7aee89d259e7073fabdb29b52cb4c88"
+                },
+                {
+                    "sha": "54a28915ace9534cdf7a04571da196294a83f858",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: the decomposed offsets don't really help anything in the test.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/54a28915ace9534cdf7a04571da196294a83f858"
+                },
+                {
+                    "sha": "5cab298906433bd351078b23d58590bede335d03",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: further improve test for multiline Renderer.\n\nStill not good enough regression testing for the changes I need to make.\nThis was absolutely not verifying correct behavior of the other vertical\nalignment values for multiline text.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/5cab298906433bd351078b23d58590bede335d03"
+                },
+                {
+                    "sha": "83cc8c3a698628c5506eeafaf9ab258092c662eb",
+                    "author": {
+                        "email": "mosra@centrum.cz",
+                        "name": "Vladim\u00edr Vondru\u0161"
+                    },
+                    "message": "Text: align based just on font metric and cursor by default.\n\nSo it's possible to shape the text even before having all glyphs ready.\nThat's one reason, second reason is that this is a more common behavior\n-- it usually doesn't make sense to make the text jump based on whether\nit's \"zaxaca\", \"KEKEKE\" or \"yqpyq\".\n\nThe original alignment based on glyph bounds is now moved into dedicated\n`*GlyphBounds` variants. Additionally the `*LeftGlyphBounds` were\nchanged to subtract the initial glyph offset as well, `*Integer` now\nrounds only in the direction where it's needed because a division by 2\nhappened, and there's a set of `*Bottom*` values that somehow weren't\nthere before.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosra/magnum/commits/83cc8c3a698628c5506eeafaf9ab258092c662eb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T10:45:51Z"
+    }
+]

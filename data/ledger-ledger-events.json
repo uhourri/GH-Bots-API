@@ -1,0 +1,2477 @@
+[
+    {
+        "id": "32829763228",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 84017191,
+            "login": "pomahtri",
+            "display_login": "pomahtri",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pomahtri",
+            "avatar_url": "https://avatars.githubusercontent.com/u/84017191?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:32:45Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32803205805",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 21134999,
+            "login": "dwrz",
+            "display_login": "dwrz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dwrz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21134999?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1908",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1908/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1908/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1908/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1908",
+                "id": 619573829,
+                "node_id": "MDU6SXNzdWU2MTk1NzM4Mjk=",
+                "number": 1908,
+                "title": "--invert does not work with composite reports",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2020-05-16T23:22:21Z",
+                "updated_at": "2023-10-24T12:55:47Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "Because --invert inverts the actual amount, and not just the displayed amount, any filter that sums amounts to produce an aggregate amount \u2014 such as `--gains` \u2014 will end up undoing the meaning of --invert, since the component amounts are first inverted, and then the total is inverted.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1908/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1908/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1777152985",
+                "html_url": "https://github.com/ledger/ledger/issues/1908#issuecomment-1777152985",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1908",
+                "id": 1777152985,
+                "node_id": "IC_kwDNP7XOae0z2Q",
+                "user": {
+                    "login": "dwrz",
+                    "id": 21134999,
+                    "node_id": "MDQ6VXNlcjIxMTM0OTk5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/21134999?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dwrz",
+                    "html_url": "https://github.com/dwrz",
+                    "followers_url": "https://api.github.com/users/dwrz/followers",
+                    "following_url": "https://api.github.com/users/dwrz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dwrz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dwrz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dwrz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dwrz/orgs",
+                    "repos_url": "https://api.github.com/users/dwrz/repos",
+                    "events_url": "https://api.github.com/users/dwrz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dwrz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-24T12:55:47Z",
+                "updated_at": "2023-10-24T12:55:47Z",
+                "author_association": "NONE",
+                "body": "I ran into this issue with something like the following:\r\n\r\n```\r\n2023-01-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n\r\n2023-01-15 * Dividend\r\n    Assets:Checking                            10.00 USD\r\n    Income:Rewards\r\n\r\n2023-02-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n\r\n2023-03-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n\r\n2023-04-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n```\r\n\r\nWith:\r\n```\r\nledger --file test.ledger --amount-data --collapse --invert --limit \"commodity == 'USD'\" --monthly register ^Income\r\n```\r\n\r\n@bhagany's workaround fixed my use case.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1777152985/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T12:55:48Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32803169268",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 131281615,
+            "login": "driccardizhu-wish",
+            "display_login": "driccardizhu-wish",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/driccardizhu-wish",
+            "avatar_url": "https://avatars.githubusercontent.com/u/131281615?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1908",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1908/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1908/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1908/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1908",
+                "id": 619573829,
+                "node_id": "MDU6SXNzdWU2MTk1NzM4Mjk=",
+                "number": 1908,
+                "title": "--invert does not work with composite reports",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2020-05-16T23:22:21Z",
+                "updated_at": "2023-10-24T12:54:38Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "Because --invert inverts the actual amount, and not just the displayed amount, any filter that sums amounts to produce an aggregate amount \u2014 such as `--gains` \u2014 will end up undoing the meaning of --invert, since the component amounts are first inverted, and then the total is inverted.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1908/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1908/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1777151151",
+                "html_url": "https://github.com/ledger/ledger/issues/1908#issuecomment-1777151151",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1908",
+                "id": 1777151151,
+                "node_id": "IC_kwDNP7XOae0srw",
+                "user": {
+                    "login": "driccardizhu-wish",
+                    "id": 131281615,
+                    "node_id": "U_kgDOB9Myzw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/131281615?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/driccardizhu-wish",
+                    "html_url": "https://github.com/driccardizhu-wish",
+                    "followers_url": "https://api.github.com/users/driccardizhu-wish/followers",
+                    "following_url": "https://api.github.com/users/driccardizhu-wish/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/driccardizhu-wish/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/driccardizhu-wish/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/driccardizhu-wish/subscriptions",
+                    "organizations_url": "https://api.github.com/users/driccardizhu-wish/orgs",
+                    "repos_url": "https://api.github.com/users/driccardizhu-wish/repos",
+                    "events_url": "https://api.github.com/users/driccardizhu-wish/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/driccardizhu-wish/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-24T12:54:37Z",
+                "updated_at": "2023-10-24T12:54:37Z",
+                "author_association": "NONE",
+                "body": "I ran into this issue with something like the following:\r\n\r\n```\r\n2023-01-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n\r\n2023-01-15 * Dividend\r\n    Assets:Checking                            10.00 USD\r\n    Income:Rewards\r\n\r\n2023-02-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n\r\n2023-03-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n\r\n2023-04-01 * Acme\r\n    Assets:Savings                            100.00 USD\r\n    Income:Work\r\n```\r\n\r\nWith:\r\n```\r\nledger --file test.ledger --amount-data --collapse --invert --limit \"commodity == 'USD'\" --monthly register ^Income\r\n```\r\n\r\n@bhagany's workaround fixed my use case.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1777151151/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T12:54:38Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32754280865",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 56863895,
+            "login": "mefabis",
+            "display_login": "mefabis",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mefabis",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56863895?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:09:58Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32754277167",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 105589995,
+            "login": "LiamOrrill",
+            "display_login": "LiamOrrill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LiamOrrill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/105589995?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:09:30Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32753902240",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 27140265,
+            "login": "andrew521",
+            "display_login": "andrew521",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andrew521",
+            "avatar_url": "https://avatars.githubusercontent.com/u/27140265?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/695",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/695/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/695/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/695/events",
+                "html_url": "https://github.com/ledger/ledger/issues/695",
+                "id": 324232862,
+                "node_id": "MDU6SXNzdWUzMjQyMzI4NjI=",
+                "number": 695,
+                "title": "--init-file is ignored (BZ#695)",
+                "user": {
+                    "login": "tbm",
+                    "id": 1556037,
+                    "node_id": "MDQ6VXNlcjE1NTYwMzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1556037?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/tbm",
+                    "html_url": "https://github.com/tbm",
+                    "followers_url": "https://api.github.com/users/tbm/followers",
+                    "following_url": "https://api.github.com/users/tbm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/tbm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/tbm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/tbm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/tbm/orgs",
+                    "repos_url": "https://api.github.com/users/tbm/repos",
+                    "events_url": "https://api.github.com/users/tbm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/tbm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    },
+                    {
+                        "id": 936770096,
+                        "node_id": "MDU6TGFiZWw5MzY3NzAwOTY=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/P2",
+                        "name": "P2",
+                        "color": "d93f0b",
+                        "default": false,
+                        "description": "Second highest priority"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2012-03-12T17:21:20Z",
+                "updated_at": "2023-10-22T18:21:25Z",
+                "closed_at": "2016-01-22T18:07:43Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Note: the issue was created automatically with bugzilla2github\n\nBugzilla bug ID: BZ#695\nFrom: John Wiegley (@jwiegley)\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/695/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/695/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1774163563",
+                "html_url": "https://github.com/ledger/ledger/issues/695#issuecomment-1774163563",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/695",
+                "id": 1774163563,
+                "node_id": "IC_kwDNP7XOab-Waw",
+                "user": {
+                    "login": "andrew521",
+                    "id": 27140265,
+                    "node_id": "MDQ6VXNlcjI3MTQwMjY1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/27140265?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/andrew521",
+                    "html_url": "https://github.com/andrew521",
+                    "followers_url": "https://api.github.com/users/andrew521/followers",
+                    "following_url": "https://api.github.com/users/andrew521/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/andrew521/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/andrew521/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/andrew521/subscriptions",
+                    "organizations_url": "https://api.github.com/users/andrew521/orgs",
+                    "repos_url": "https://api.github.com/users/andrew521/repos",
+                    "events_url": "https://api.github.com/users/andrew521/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/andrew521/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-22T18:21:25Z",
+                "updated_at": "2023-10-22T18:21:25Z",
+                "author_association": "NONE",
+                "body": "$ ledger --version\r\nLedger 3.1.3-20190331, the command-line accounting tool\r\n\r\nissue not fixed. whenever ~/.ledgerrc is present, the init file specified is ignored and the default one is loaded.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1774163563/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-22T18:21:26Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32746091028",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8460,
+            "login": "jwiegley",
+            "display_login": "jwiegley",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwiegley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8460?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 20,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-21T23:11:36Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773942903",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773942903",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773942903,
+                "node_id": "IC_kwDNP7XOabw4dw",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-21T23:11:36Z",
+                "updated_at": "2023-10-21T23:11:36Z",
+                "author_association": "MEMBER",
+                "body": "Thank you for all the extra information! It does seem that you've found another case that I'll need to take a look at.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773942903/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-21T23:11:37Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32745828325",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1953951,
+            "login": "revengel",
+            "display_login": "revengel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/revengel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1953951?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T22:23:38Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32742762056",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 39014349,
+            "login": "afranks",
+            "display_login": "afranks",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/afranks",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39014349?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T15:12:15Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32742524237",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 55622895,
+            "login": "vberezhnev",
+            "display_login": "vberezhnev",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vberezhnev",
+            "avatar_url": "https://avatars.githubusercontent.com/u/55622895?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T14:41:58Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32741852901",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 21107703,
+            "login": "eremt",
+            "display_login": "eremt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eremt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21107703?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T13:17:31Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32740880009",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24698778,
+            "login": "kaushalyap",
+            "display_login": "kaushalyap",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kaushalyap",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24698778?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T11:13:16Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32740253815",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4562670,
+            "login": "gemmadlou",
+            "display_login": "gemmadlou",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gemmadlou",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4562670?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T09:48:04Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32738744201",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 489420,
+            "login": "porridge",
+            "display_login": "porridge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/porridge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/489420?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 19,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-21T05:58:55Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773685543",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773685543",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773685543,
+                "node_id": "IC_kwDNP7XOabhLJw",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-21T05:58:55Z",
+                "updated_at": "2023-10-21T05:58:55Z",
+                "author_association": "NONE",
+                "body": "In the above toy case providing `--historical` and/or omitting `--market` is a sufficient workaround.\r\n\r\nOTOH in my original ledger file I'm hitting an error where this does not help.\r\n\r\nOne thing worth mentioning here that might help others, is that with `--sort` there is no context posting mentioned in the error message:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"koniec\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nOmitting `--sort` at least helps pin down the source _somewhat_.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773685543/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-21T05:58:55Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32738657548",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 489420,
+            "login": "porridge",
+            "display_login": "porridge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/porridge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/489420?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-21T05:43:27Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773680208",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773680208",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773680208,
+                "node_id": "IC_kwDNP7XOabg2UA",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-21T05:43:27Z",
+                "updated_at": "2023-10-21T05:43:27Z",
+                "author_association": "NONE",
+                "body": "Whoa... hang on, I think we're talking about two different things here.\r\n\r\n## Not a bug case\r\n\r\nIt seems you reduced my problem down to this:\r\n\r\n```\r\n$ cat bug.dat \r\n1950-01-01 t\r\n    a1        1 USD\r\n    ; ending:: [1950-01-01]\r\n    a2\r\n\r\n$ ledger -f bug.dat --format \"%(format_date(tag('ending'), '%Y-%m-%d'))\\n\" reg\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nWhile handling posting from \"/srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/bug.dat\", line 4:\r\n>     a2\r\nError: Cannot convert an uninitialized value to a date\r\n1950-01-01\r\n$\r\n```\r\n\r\n... because the error message is similar.\r\n\r\nBut this is not a bug! This is a user error - one tries to format a tag that does not exist. And the solution here is to `--limit` the processed postings like this:\r\n\r\n```\r\n$ ledger -f bug.dat --format \"%(format_date(tag('ending'), '%Y-%m-%d'))\\n\" --limit \"has_tag('ending')\" reg\r\n1950-01-01\r\n```\r\n\r\nThe litmus test here is that the error message is correct:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n[...]\r\nWhile handling posting from \"/srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/bug.dat\", line 4:\r\n>     a2\r\n```\r\n\r\ni.e. \"we're avaluating an expression involving `tag(\"ending\")` on a posting that does not contain such tag.\r\n\r\nI'm talking about something different:\r\n\r\n## Bug case\r\n\r\nMy point is that, on this file:\r\n\r\n```\r\n$ cat repro3.ledger\r\n1950-01-01 ! t1\r\n    a1        10 USD\r\n    ; ending:: [1950-01-01]\r\n    a2\r\n\r\n\r\n1950-01-02 ! t2\r\n    a1       -10 USD\r\n    a3\r\n    ; ending:: [1950-01-04]\r\n```\r\n\r\nThe following command works:\r\n\r\n```\r\n$ ledger -f repro3.ledger --format \"%(format_date(tag('ending'), '%Y-%m-%d'))\\n\" --limit \"has_tag('ending')\" --market reg\r\n1950-01-01\r\n1950-01-04\r\n```\r\n\r\nBut on this file:\r\n```\r\n$ cat repro2.ledger\r\n1950-01-01 ! t1\r\n    a1        10 GOOG @ 3 USD\r\n    ; ending:: [1950-01-01]\r\n    a2\r\n\r\n\r\n1950-01-02 ! t2\r\n    a1       -10 GOOG @ 4 USD\r\n    a3\r\n    ; ending:: [1950-01-04]\r\n```\r\n\r\nWhere the difference is only the per-unit costs:\r\n\r\n```\r\n$ diff -u repro3.ledger repro2.ledger \r\n--- repro3.ledger\t2023-10-21 07:21:20.921955595 +0200\r\n+++ repro2.ledger\t2023-10-20 21:27:16.065341503 +0200\r\n@@ -1,10 +1,10 @@\r\n 1950-01-01 ! t1\r\n-    a1        10 USD\r\n+    a1        10 GOOG @ 3 USD\r\n     ; ending:: [1950-01-01]\r\n     a2\r\n \r\n \r\n 1950-01-02 ! t2\r\n-    a1       -10 USD\r\n+    a1       -10 GOOG @ 4 USD\r\n     a3\r\n     ; ending:: [1950-01-04]\r\n```\r\n\r\nthe same command **does not work**:\r\n\r\n```\r\n$ ledger -f repro2.ledger --format \"%(format_date(tag('ending'), '%Y-%m-%d'))\\n\" --limit \"has_tag('ending')\" --market reg\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nWhile handling posting from \"/srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/repro2.ledger\", lines 9-10:\r\n>     a3\r\n>     ; ending:: [1950-01-04]\r\nError: Cannot convert an uninitialized value to a date\r\n1950-01-01\r\n```\r\n\r\nAnd note well that the error message is subtly but importantly different: it's saying \"the `ending` tag is uninitialized on this posting that **clearly does contain** the ending tag!\".\r\n\r\nIs the above making sense?\r\n\r\n## The cause\r\n\r\nPlease take this with a grain of salt - I'm not trying to pretend I understand everything that is going on. However it seems that in the piece of code I [mentioned earlier](https://github.com/ledger/ledger/issues/1993#issuecomment-1773335099), because unit prices are involved, we want to output intermedate prices for a `previous_post` (that happens not to contain a tag, and thus should have been filtered away by `--limit`) but using a format expression that does expect a tag.\r\n\r\nThis above is the first part - that ledger will sometimes evaluate postings that should have been filtered out with `--limit`. I'm not an accountant - this whole idea of revaluations is opaque to me - so I cannot tell whether this should be expected or not - but it certainly is a usability problem.\r\n\r\nAdditionally, because (I think) the evaluation happens in the context of posting that does contain a tag, this tag-bearing posting is displayed in the `While handling posting...` error message, resulting in a self-denying message which incredibly confuses the user. This is the second part of the issue.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773680208/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-21T05:43:28Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32738281758",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 6392899,
+            "login": "JoachimC",
+            "display_login": "JoachimC",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JoachimC",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6392899?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T04:45:46Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32733896679",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8460,
+            "login": "jwiegley",
+            "display_login": "jwiegley",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwiegley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8460?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 17,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T21:00:53Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773388508",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773388508",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773388508,
+                "node_id": "IC_kwDNP7XOabPC3A",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T21:00:52Z",
+                "updated_at": "2023-10-20T21:00:52Z",
+                "author_association": "MEMBER",
+                "body": "Yes, but I was able to manifest your error without the `--market` switch, so the changed value code you mentioned above was not being triggered.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773388508/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T21:00:53Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32733885633",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8460,
+            "login": "jwiegley",
+            "display_login": "jwiegley",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwiegley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8460?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 16,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T21:00:18Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773387813",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773387813",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773387813,
+                "node_id": "IC_kwDNP7XOabPAJQ",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T21:00:18Z",
+                "updated_at": "2023-10-20T21:00:18Z",
+                "author_association": "MEMBER",
+                "body": "You could use `tag(...) ? value1 : value2` in order to provide an alternate string when the date is missing.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773387813/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T21:00:19Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32732986671",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 489420,
+            "login": "porridge",
+            "display_login": "porridge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/porridge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/489420?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 15,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T20:10:10Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773335099",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773335099",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773335099,
+                "node_id": "IC_kwDNP7XOabLyOw",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T20:10:10Z",
+                "updated_at": "2023-10-20T20:10:10Z",
+                "author_association": "NONE",
+                "body": "Actually I do want the date to apply to only selected posts in a transaction. That's legal, right? I run this query to list active investments, and sort them by the date when they are supposed to finish. So I'm not really interested in where the money was taken, just what it was invested into. I hope I'm describing this clearly.\r\n\r\nFrom my limited understanding of the issue, it seems in this piece of code:\r\n\r\n```\r\nvoid changed_value_posts::operator()(post_t& post)\r\n{\r\n  if (last_post) {\r\n    if (! for_accounts_report && ! historical_prices_only)\r\n      output_intermediate_prices(*last_post, post.value_date());\r\n    output_revaluation(*last_post, post.value_date());\r\n  }\r\n```\r\n\r\n`post` refers to the post I want to be printed, while `last_post` is the previous post that was looked at (which happens to be one without a tag) but when it's evaluated, the expression that is applied assumes the tag does exist. Am I making sense? :-)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773335099/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T20:10:11Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32732796157",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8460,
+            "login": "jwiegley",
+            "display_login": "jwiegley",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwiegley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8460?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 14,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T20:00:19Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773324004",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773324004",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773324004,
+                "node_id": "IC_kwDNP7XOabLG5A",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T20:00:18Z",
+                "updated_at": "2023-10-20T20:00:18Z",
+                "author_association": "MEMBER",
+                "body": "@porridge Ok, I have found the problem: Note all of your postings have an `a_date` field, only 2 out of the 4. That is why you're seeing the error. If you want the `a_date` to apply to them all, the comment line must be the first item in the transaction, not after the first posting.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773324004/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T20:00:19Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32732700939",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8460,
+            "login": "jwiegley",
+            "display_login": "jwiegley",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwiegley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8460?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 13,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T19:55:21Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773318604",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773318604",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773318604,
+                "node_id": "IC_kwDNP7XOabKxzA",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T19:55:21Z",
+                "updated_at": "2023-10-20T19:55:21Z",
+                "author_association": "MEMBER",
+                "body": "I can reproduce your error with just this:\r\n```\r\nledger -f bug.dat --format \"%(format_date(tag('a_date'), '%Y-%m-%d'))\\n\" reg\r\n```\r\nso the filtering is not needed to manifest the problem.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773318604/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T19:55:22Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32732629153",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8460,
+            "login": "jwiegley",
+            "display_login": "jwiegley",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwiegley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8460?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 12,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T19:51:29Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773314400",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773314400",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773314400,
+                "node_id": "IC_kwDNP7XOabKhYA",
+                "user": {
+                    "login": "jwiegley",
+                    "id": 8460,
+                    "node_id": "MDQ6VXNlcjg0NjA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8460?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jwiegley",
+                    "html_url": "https://github.com/jwiegley",
+                    "followers_url": "https://api.github.com/users/jwiegley/followers",
+                    "following_url": "https://api.github.com/users/jwiegley/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jwiegley/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jwiegley/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jwiegley/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jwiegley/orgs",
+                    "repos_url": "https://api.github.com/users/jwiegley/repos",
+                    "events_url": "https://api.github.com/users/jwiegley/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jwiegley/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T19:51:29Z",
+                "updated_at": "2023-10-20T19:51:29Z",
+                "author_association": "MEMBER",
+                "body": "It sounds like a post detail isn't being copied...",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773314400/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T19:51:30Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32732527568",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 489420,
+            "login": "porridge",
+            "display_login": "porridge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/porridge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/489420?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 11,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T19:46:05Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773308843",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773308843",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773308843,
+                "node_id": "IC_kwDNP7XOabKLqw",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T19:46:05Z",
+                "updated_at": "2023-10-20T19:46:05Z",
+                "author_association": "NONE",
+                "body": "Oh, and this is a backtrace of where roughly the unexpected uninitialized value is encountered:\r\n\r\n```\r\n(gdb) bt\r\n#0  ledger::value_t::in_place_cast (this=0x7fffffffb548, cast_type=ledger::value_t::DATE) at ./src/value.cc:1085\r\n#1  0x00007ffff7db2f11 in ledger::value_t::to_date (this=<optimized out>) at ./src/value.cc:170\r\n#2  0x00007ffff7d05bfd in ledger::call_scope_t::get<boost::gregorian::date> (convert=true, index=0, this=0x7fffffffb700) at ./src/scope.h:534\r\n#3  ledger::report_t::fn_format_date (this=<optimized out>, args=...) at ./src/report.cc:802\r\n#4  0x00007ffff7d11bf7 in boost::_mfi::mf1<ledger::value_t, ledger::report_t, ledger::call_scope_t&>::operator() (a1=..., p=<optimized out>, this=<optimized out>)\r\n    at /usr/include/boost/bind/mem_fn_template.hpp:165\r\n#5  boost::_bi::list2<boost::_bi::value<ledger::report_t*>, boost::arg<1> >::operator()<ledger::value_t, boost::_mfi::mf1<ledger::value_t, ledger::report_t, ledger::call_scope_t&>, boost::_bi::rrlist1<ledger::call_scope_t&> > (a=<synthetic pointer>..., f=..., this=<optimized out>) at /usr/include/boost/bind/bind.hpp:309\r\n#6  boost::_bi::bind_t<ledger::value_t, boost::_mfi::mf1<ledger::value_t, ledger::report_t, ledger::call_scope_t&>, boost::_bi::list2<boost::_bi::value<ledger::report_t*>, boost::arg<1> > >::operator()<ledger::call_scope_t&> (a1=..., this=<optimized out>) at /usr/include/boost/bind/bind.hpp:1306\r\n#7  boost::detail::function::function_obj_invoker1<boost::_bi::bind_t<ledger::value_t, boost::_mfi::mf1<ledger::value_t, ledger::report_t, ledger::call_scope_t&>, boost::_bi::list2<boost::_bi::value<ledger::report_t*>, boost::arg<1> > >, ledger::value_t, ledger::call_scope_t&>::invoke (function_obj_ptr=..., a0=...) at /usr/include/boost/function/function_template.hpp:137\r\n#8  0x00007ffff7da48c4 in boost::function1<ledger::value_t, ledger::call_scope_t&>::operator() (a0=..., this=<optimized out>) at /usr/include/boost/function/function_template.hpp:764\r\n#9  ledger::expr_t::op_t::calc_call (this=0x555557b981a0, scope=..., locus=0x7fffffffbcb8, depth=depth@entry=0) at ./src/op.cc:551\r\n#10 0x00007ffff7da0ad7 in ledger::expr_t::op_t::calc (this=0x555557b981a0, scope=..., locus=locus@entry=0x7fffffffbcb8, depth=depth@entry=0) at ./src/op.cc:320\r\n#11 0x00007ffff7d9bc09 in ledger::expr_t::real_calc (this=0x555557b74380, scope=...) at ./src/expr.cc:134\r\n#12 0x00007ffff7d8f61c in ledger::expr_base_t<ledger::value_t>::calc (scope=..., this=0x555557b74380) at ./src/exprbase.h:178\r\n#13 ledger::format_t::real_calc[abi:cxx11](ledger::scope_t&) (this=<optimized out>, scope=...) at ./src/format.cc:430\r\n#14 0x00007ffff7cd00ed in ledger::expr_base_t<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::calc (scope=..., this=0x555558d85650) at ./src/exprbase.h:178\r\n#15 ledger::expr_base_t<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator() (scope=..., this=0x555558d85650) at ./src/exprbase.h:153\r\n#16 ledger::format_posts::operator() (this=0x555558d85630, post=...) at ./src/output.cc:113\r\n#17 0x00007ffff7ceb488 in ledger::(anonymous namespace)::handle_value (value=..., account=<optimized out>, xact=xact@entry=0x555558d93560, temps=..., handler=..., date=..., act_date_p=true, total=..., \r\n    direct_amount=false, mark_visited=false, bidir_link=true) at ./src/filters.cc:402\r\n#18 0x00007ffff7cebc5c in ledger::changed_value_posts::output_revaluation (this=this@entry=0x555557ba6ca0, post=..., date=...) at ./src/filters.cc:692\r\n#19 0x00007ffff7cec0cf in ledger::changed_value_posts::output_intermediate_prices (this=this@entry=0x555557ba6ca0, post=..., current=...) at ./src/filters.cc:822\r\n#20 0x00007ffff7cec691 in ledger::changed_value_posts::operator() (this=0x555557ba6ca0, post=...) at ./src/filters.cc:837\r\n#21 0x00007ffff7cea6f4 in ledger::item_handler<ledger::post_t>::operator() (item=..., this=0x555558d844b0) at /usr/include/boost/smart_ptr/detail/operator_bool.hpp:12\r\n#22 ledger::calc_posts::operator() (this=0x555558d844b0, post=...) at ./src/filters.cc:327\r\n#23 0x00007ffff7ce6617 in ledger::filter_posts::operator() (post=..., this=0x555557dac520) at ./src/filters.h:346\r\n#24 ledger::filter_posts::operator() (this=0x555557dac520, post=...) at ./src/filters.h:342\r\n#25 0x00007ffff7d1a071 in ledger::item_handler<ledger::post_t>::operator() (item=..., this=0x7fffffffd1f0) at ./src/chain.h:81\r\n#26 ledger::item_handler<ledger::post_t>::operator() (item=..., this=0x7fffffffd1f0) at ./src/chain.h:78\r\n#27 ledger::pass_down_posts<ledger::journal_posts_iterator>::pass_down_posts (this=0x7fffffffd1f0, handler=..., iter=...) at ./src/filters.h:159\r\n#28 0x00007ffff7d04f55 in ledger::report_t::posts_report (this=0x55555560cfb0, handler=...) at ./src/report.cc:358\r\n#29 0x00007ffff7d2104e in ledger::reporter<ledger::post_t, boost::shared_ptr<ledger::item_handler<ledger::post_t> >, &ledger::report_t::posts_report>::operator() (args=..., this=0x555557e51430)\r\n    at ./src/report.h:1106\r\n#30 boost::detail::function::function_obj_invoker1<ledger::reporter<ledger::post_t, boost::shared_ptr<ledger::item_handler<ledger::post_t> >, &ledger::report_t::posts_report>, ledger::value_t, ledger::call_scope_t&>::invoke (function_obj_ptr=..., a0=...) at /usr/include/boost/function/function_template.hpp:137\r\n#31 0x000055555559ad3f in boost::function1<ledger::value_t, ledger::call_scope_t&>::operator() (a0=..., this=0x7fffffffd440) at /usr/include/boost/function/function_template.hpp:764\r\n#32 ledger::global_scope_t::execute_command (this=this@entry=0x5555556088d0, args=std::__cxx11::list = {...}, at_repl=at_repl@entry=false) at ./src/global.cc:272\r\n#33 0x000055555559c122 in ledger::global_scope_t::execute_command_wrapper (this=this@entry=0x5555556088d0, args=std::__cxx11::list = {...}, at_repl=at_repl@entry=false) at ./src/global.cc:282\r\n#34 0x000055555558b7d6 in main (argc=<optimized out>, argv=<optimized out>, envp=<optimized out>) at ./src/main.cc:130\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773308843/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T19:46:06Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32732393284",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 489420,
+            "login": "porridge",
+            "display_login": "porridge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/porridge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/489420?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "repository_url": "https://api.github.com/repos/ledger/ledger",
+                "labels_url": "https://api.github.com/repos/ledger/ledger/issues/1993/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ledger/ledger/issues/1993/comments",
+                "events_url": "https://api.github.com/repos/ledger/ledger/issues/1993/events",
+                "html_url": "https://github.com/ledger/ledger/issues/1993",
+                "id": 789841982,
+                "node_id": "MDU6SXNzdWU3ODk4NDE5ODI=",
+                "number": 1993,
+                "title": "Tags values can become spontaneously uninitialized",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 879080400,
+                        "node_id": "MDU6TGFiZWw4NzkwODA0MDA=",
+                        "url": "https://api.github.com/repos/ledger/ledger/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 10,
+                "created_at": "2021-01-20T10:18:54Z",
+                "updated_at": "2023-10-20T19:38:59Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In some cases I'm getting errors such as:\r\n\r\n```\r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nError: Cannot convert an uninitialized value to a date\r\n```\r\n\r\nClose investigation shows that this happens in some cases when using `--sort` and tags.\r\nI managed to come up with a [minimal repro case](https://github.com/porridge/ledger-issue-repro) input file consisting of two postings. However the error does *not* happen when:\r\n- processing each of the postings individually, or\r\n- [changing the value of the tag](https://github.com/porridge/ledger-issue-repro/compare/same-tag-date),\r\n- [disabling `--sort`](https://github.com/porridge/ledger-issue-repro/compare/disabling-sorting)\r\n- (more interestingly) - [changing the posting dates!](https://github.com/porridge/ledger-issue-repro/compare/changed-posting-date)\r\n\r\nI think the program is hitting some kind of unspecified behavior...\r\n\r\nI'm using ledger 3.1.2-20190205.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/1993/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ledger/ledger/issues/1993/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773300919",
+                "html_url": "https://github.com/ledger/ledger/issues/1993#issuecomment-1773300919",
+                "issue_url": "https://api.github.com/repos/ledger/ledger/issues/1993",
+                "id": 1773300919,
+                "node_id": "IC_kwDNP7XOabJstw",
+                "user": {
+                    "login": "porridge",
+                    "id": 489420,
+                    "node_id": "MDQ6VXNlcjQ4OTQyMA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/489420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/porridge",
+                    "html_url": "https://github.com/porridge",
+                    "followers_url": "https://api.github.com/users/porridge/followers",
+                    "following_url": "https://api.github.com/users/porridge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/porridge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/porridge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/porridge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/porridge/orgs",
+                    "repos_url": "https://api.github.com/users/porridge/repos",
+                    "events_url": "https://api.github.com/users/porridge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/porridge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T19:38:58Z",
+                "updated_at": "2023-10-20T19:38:58Z",
+                "author_association": "NONE",
+                "body": "I think I made a baby step forward after spending some time with GDB yesterday and today.\r\nI ran roughly the following:\r\n```\r\n$ cat <<END > repro2.journal\r\n1950-01-01 ! t1\r\n    a1        10 GOOG @ 3 USD\r\n    ; ending:: [1950-01-01]\r\n    a2\r\n\r\n\r\n1950-01-02 ! t2\r\n    a1       -10 GOOG @ 4 USD\r\n    a3\r\n    ; ending:: [1950-01-04]\r\nEND\r\n$ cmake -DBUILD_DEBUG=1 .\r\n$ make -j2 ledger\r\n$ gdb ./ledger\r\n(gdb) break main\r\n(gdb) run --price-db /dev/null -f repro2.ledger --limit \"has_tag('ending')\"  --format \"%(format_date(tag('ending'), '%Y-%m-%d')) %(amount)\\n\"  --market reg --verify --verify-memory --debug times.parse  --trace  5\r\n(gdb) break ledger::filter_posts::operator()\r\n(gdb) c\r\nBreakpoint 3, ledger::filter_posts::operator() (this=0x55555572a2d0, post=...) at /srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/src/filters.h:343\r\n343\t    bind_scope_t bound_scope(context, post);\r\n(gdb) p post->metadata->begin().operator*().second.first->storage->type\r\n$16 = ledger::value_t::DATE\r\n(gdb) c\r\nContinuing.\r\n\r\nBreakpoint 3, ledger::filter_posts::operator() (this=0x55555572a2d0, post=...) at /srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/src/filters.h:343\r\n343\t    bind_scope_t bound_scope(context, post);\r\n(gdb) p\r\n$17 = ledger::value_t::DATE\r\n(gdb) c\r\nContinuing.\r\n\r\nBreakpoint 3, ledger::filter_posts::operator() (this=0x55555572a2d0, post=...) at /srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/src/filters.h:343\r\n343\t    bind_scope_t bound_scope(context, post);\r\n(gdb) p\r\n$18 = ledger::value_t::DATE\r\n(gdb) c\r\nContinuing.\r\n\r\nBreakpoint 3, ledger::filter_posts::operator() (this=0x55555572a2d0, post=...) at /srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/src/filters.h:343\r\n343\t    bind_scope_t bound_scope(context, post);\r\n(gdb) p\r\n$19 = ledger::value_t::DATE\r\n(gdb) p post->metadata->begin().operator*().second.first->as_date().day()\r\n$21 = {<boost::CV::constrained_value<boost::CV::simple_exception_policy<unsigned short, 1, 31, boost::gregorian::bad_day_of_month> >> = {value_ = 4}, <No data fields>}\r\n```\r\n\r\nSo at this point it seems the tag data is still intact. However in the handler a few lines later it's already corrupt:\r\n\r\n```\r\n(gdb) n\r\n344\t    if (pred(bound_scope)) {\r\n(gdb) \r\n345\t      post.xdata().add_flags(POST_EXT_MATCHES);\r\n(gdb) \r\n346\t      (*handler)(post);\r\n(gdb) \r\nWhile evaluating value expression:\r\n  format_date(tag(\"ending\"), \"%Y-%m-%d\")\r\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nThe value expression tree was:\r\n  0x55555572d790    O_CALL (2)\r\n  0x55555572a8b0     IDENT: format_date (1)\r\n  0x55555572e010      FUNCTION (1)\r\n  0x55555572d880     O_CONS (1)\r\n  0x55555572d8d0      O_CALL (1)\r\n  0x55555572dbb0       IDENT: tag (1)\r\n  0x55555572db60        FUNCTION (1)\r\n  0x55555571a2e0       VALUE: \"ending\" (1)\r\n  0x55555571a620      O_CONS (1)\r\n  0x55555571a670       VALUE: \"%Y-%m-%d\" (1)\r\nWhile converting :\r\nWhile calling function 'format_date (, %Y-%m-%d)':\r\nWhile handling posting from \"/srv/home/porridge/Pulpit/coding/ledger/ledger-3.3.0/repro2.ledger\", lines 9-10:\r\n>     a3\r\n>     ; ending:: [1950-01-04]\r\nError: Cannot convert an uninitialized value to a date\r\n1950-01-01 10 GOOG {USD3} [1950/01/01]\r\n193758ms      0b    123K  [INFO]  Ledger ended (Boost/libstdc++ may still hold memory)\r\n[Inferior 1 (process 1582694) exited with code 01]\r\n(gdb) \r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ledger/ledger/issues/comments/1773300919/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T19:38:59Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32732166819",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 321689,
+            "login": "radus",
+            "display_login": "radus",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/radus",
+            "avatar_url": "https://avatars.githubusercontent.com/u/321689?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T19:27:18Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32727827751",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13578798,
+            "login": "interniq",
+            "display_login": "interniq",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/interniq",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13578798?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:04:25Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32725717799",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 3023318,
+            "login": "poscard",
+            "display_login": "poscard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/poscard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3023318?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T14:45:39Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32725075821",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 54514693,
+            "login": "queirvz",
+            "display_login": "queirvz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/queirvz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54514693?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T14:23:29Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32720957322",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2251723,
+            "login": "nisegami",
+            "display_login": "nisegami",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nisegami",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2251723?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T11:59:11Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    },
+    {
+        "id": "32719595916",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 3351767,
+            "login": "arcanemachine",
+            "display_login": "arcanemachine",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/arcanemachine",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3351767?"
+        },
+        "repo": {
+            "id": 16309,
+            "name": "ledger/ledger",
+            "url": "https://api.github.com/repos/ledger/ledger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T11:02:05Z",
+        "org": {
+            "id": 2710687,
+            "login": "ledger",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ledger",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2710687?"
+        }
+    }
+]

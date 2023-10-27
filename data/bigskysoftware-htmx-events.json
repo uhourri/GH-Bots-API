@@ -1,0 +1,3121 @@
+[
+    {
+        "id": "32897623937",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1878991,
+            "login": "xhaggi",
+            "display_login": "xhaggi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/xhaggi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1878991?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794",
+                "repository_url": "https://api.github.com/repos/bigskysoftware/htmx",
+                "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/comments",
+                "events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/events",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1794",
+                "id": 1896696886,
+                "node_id": "PR_kwDODzjFgM5aWZi-",
+                "number": 1794,
+                "title": "Improve parsing of HTML response to support combining OOB and table elements",
+                "user": {
+                    "login": "xhaggi",
+                    "id": 1878991,
+                    "node_id": "MDQ6VXNlcjE4Nzg5OTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1878991?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/xhaggi",
+                    "html_url": "https://github.com/xhaggi",
+                    "followers_url": "https://api.github.com/users/xhaggi/followers",
+                    "following_url": "https://api.github.com/users/xhaggi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/xhaggi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/xhaggi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/xhaggi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/xhaggi/orgs",
+                    "repos_url": "https://api.github.com/users/xhaggi/repos",
+                    "events_url": "https://api.github.com/users/xhaggi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/xhaggi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1983053525,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTI1",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2023-09-14T14:27:55Z",
+                "updated_at": "2023-10-27T11:50:05Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1794",
+                    "html_url": "https://github.com/bigskysoftware/htmx/pull/1794",
+                    "diff_url": "https://github.com/bigskysoftware/htmx/pull/1794.diff",
+                    "patch_url": "https://github.com/bigskysoftware/htmx/pull/1794.patch",
+                    "merged_at": null
+                },
+                "body": "After a talk on Discord with @yazalulloa about the issue #1538, I have been working on a fix to be able to use table elements like `<tbody>`, `<tr>` etc. together with OOB elements in a response.\r\n\r\n```html\r\n<div id=\"counter\" hx-swap-oob=\"true\">1 Item</div>\r\n<tr>\r\n  <td>Row 1</td>\r\n</tr>\r\n<tr>\r\n  <td>Row 2</td>\r\n</tr>\r\n```\r\n\r\nWhile there is a workaround via `htmx.config.useTemplateFragments` introduces in 1d52b23 (not IE11 compatible), this also leads to problems. If you do not place the OOB elements after the table elements, it will not work (see https://jsfiddle.net/2o957cpu/). So with this PR, the order of the elements should no longer matter.\r\n\r\nMind taking a look in the hope that this PR will not be closed again immediately \ud83d\ude04 \r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1782781122",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1794#issuecomment-1782781122",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794",
+                "id": 1782781122,
+                "node_id": "IC_kwDODzjFgM5qQxTC",
+                "user": {
+                    "login": "xhaggi",
+                    "id": 1878991,
+                    "node_id": "MDQ6VXNlcjE4Nzg5OTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1878991?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/xhaggi",
+                    "html_url": "https://github.com/xhaggi",
+                    "followers_url": "https://api.github.com/users/xhaggi/followers",
+                    "following_url": "https://api.github.com/users/xhaggi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/xhaggi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/xhaggi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/xhaggi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/xhaggi/orgs",
+                    "repos_url": "https://api.github.com/users/xhaggi/repos",
+                    "events_url": "https://api.github.com/users/xhaggi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/xhaggi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T11:50:05Z",
+                "updated_at": "2023-10-27T11:50:05Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "@Telroshan I have made further optimizations to the current implementation. I removed the complex regex for custom elements, since we delegate the parsing to the browser anyway. I also fixed some issues with self-closing tags and text nodes, for which I also added additional tests.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1782781122/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:50:06Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32897408645",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 100654893,
+            "login": "KingnotPy",
+            "display_login": "KingnotPy",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/KingnotPy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/100654893?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:41:02Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32896393204",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 224472,
+            "login": "fusion5",
+            "display_login": "fusion5",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fusion5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/224472?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:58:41Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32895423652",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28950257,
+            "login": "w3sheldon",
+            "display_login": "w3sheldon",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/w3sheldon",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28950257?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:19:34Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32894631460",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 72509654,
+            "login": "sunanmau5",
+            "display_login": "sunanmau5",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sunanmau5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72509654?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:49:26Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32894306748",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 23704,
+            "login": "aomader",
+            "display_login": "aomader",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aomader",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23704?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1221",
+                "repository_url": "https://api.github.com/repos/bigskysoftware/htmx",
+                "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1221/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1221/comments",
+                "events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1221/events",
+                "html_url": "https://github.com/bigskysoftware/htmx/issues/1221",
+                "id": 1558758876,
+                "node_id": "I_kwDODzjFgM5c6MXc",
+                "number": 1221,
+                "title": "History cache not cleared after historyCacheSize has been set to 0 and cache was not empty",
+                "user": {
+                    "login": "aomader",
+                    "id": 23704,
+                    "node_id": "MDQ6VXNlcjIzNzA0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomader",
+                    "html_url": "https://github.com/aomader",
+                    "followers_url": "https://api.github.com/users/aomader/followers",
+                    "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomader/orgs",
+                    "repos_url": "https://api.github.com/users/aomader/repos",
+                    "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomader/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-01-26T20:48:55Z",
+                "updated_at": "2023-10-27T09:37:00Z",
+                "closed_at": "2023-10-27T09:37:00Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "If the history cache is not empty and the `historyCacheSize` is set to 0, the history cache is not cleared, but still used. This leads to very subtle bugs.\r\n\r\nhttps://github.com/bigskysoftware/htmx/blob/7ea35d03c6226aaf278b47d80170132bad9384f0/src/htmx.js#L1945-L1956",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1221/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1221/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:37:01Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32892648285",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13304739,
+            "login": "bram-pkg",
+            "display_login": "bram-pkg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bram-pkg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13304739?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:34:24Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32892296785",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1878991,
+            "login": "xhaggi",
+            "display_login": "xhaggi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/xhaggi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1878991?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794",
+                "repository_url": "https://api.github.com/repos/bigskysoftware/htmx",
+                "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/comments",
+                "events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/events",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1794",
+                "id": 1896696886,
+                "node_id": "PR_kwDODzjFgM5aWZi-",
+                "number": 1794,
+                "title": "Improve parsing of HTML response to support combining OOB and table elements",
+                "user": {
+                    "login": "xhaggi",
+                    "id": 1878991,
+                    "node_id": "MDQ6VXNlcjE4Nzg5OTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1878991?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/xhaggi",
+                    "html_url": "https://github.com/xhaggi",
+                    "followers_url": "https://api.github.com/users/xhaggi/followers",
+                    "following_url": "https://api.github.com/users/xhaggi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/xhaggi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/xhaggi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/xhaggi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/xhaggi/orgs",
+                    "repos_url": "https://api.github.com/users/xhaggi/repos",
+                    "events_url": "https://api.github.com/users/xhaggi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/xhaggi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1983053525,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTI1",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2023-09-14T14:27:55Z",
+                "updated_at": "2023-10-27T08:20:49Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1794",
+                    "html_url": "https://github.com/bigskysoftware/htmx/pull/1794",
+                    "diff_url": "https://github.com/bigskysoftware/htmx/pull/1794.diff",
+                    "patch_url": "https://github.com/bigskysoftware/htmx/pull/1794.patch",
+                    "merged_at": null
+                },
+                "body": "After a talk on Discord with @yazalulloa about the issue #1538, I have been working on a fix to be able to use table elements like `<tbody>`, `<tr>` etc. together with OOB elements in a response.\r\n\r\n```html\r\n<div id=\"counter\" hx-swap-oob=\"true\">1 Item</div>\r\n<tr>\r\n  <td>Row 1</td>\r\n</tr>\r\n<tr>\r\n  <td>Row 2</td>\r\n</tr>\r\n```\r\n\r\nWhile there is a workaround via `htmx.config.useTemplateFragments` introduces in 1d52b23 (not IE11 compatible), this also leads to problems. If you do not place the OOB elements after the table elements, it will not work (see https://jsfiddle.net/2o957cpu/). So with this PR, the order of the elements should no longer matter.\r\n\r\nMind taking a look in the hope that this PR will not be closed again immediately \ud83d\ude04 \r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1782501347",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1794#issuecomment-1782501347",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1794",
+                "id": 1782501347,
+                "node_id": "IC_kwDODzjFgM5qPs_j",
+                "user": {
+                    "login": "xhaggi",
+                    "id": 1878991,
+                    "node_id": "MDQ6VXNlcjE4Nzg5OTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1878991?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/xhaggi",
+                    "html_url": "https://github.com/xhaggi",
+                    "followers_url": "https://api.github.com/users/xhaggi/followers",
+                    "following_url": "https://api.github.com/users/xhaggi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/xhaggi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/xhaggi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/xhaggi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/xhaggi/orgs",
+                    "repos_url": "https://api.github.com/users/xhaggi/repos",
+                    "events_url": "https://api.github.com/users/xhaggi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/xhaggi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T08:20:49Z",
+                "updated_at": "2023-10-27T08:20:49Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "@ostcar thanks for the detailed tests. I added a silly bug in the regex, but it is now fixed. I have also added your example response as a test case to be sure everything now works as expected. Could you please give it another try?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1782501347/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:20:49Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32892056850",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 20725046,
+            "login": "Renerick",
+            "display_login": "Renerick",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Renerick",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20725046?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "ref": "1896-fix-websocket-polling",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:11:25Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32889699927",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 104083992,
+            "login": "telmo3mt",
+            "display_login": "telmo3mt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/telmo3mt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/104083992?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:25:25Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32889690788",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 40231134,
+            "login": "emanueldonalds",
+            "display_login": "emanueldonalds",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/emanueldonalds",
+            "avatar_url": "https://avatars.githubusercontent.com/u/40231134?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/146",
+                "repository_url": "https://api.github.com/repos/bigskysoftware/htmx",
+                "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/146/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/146/comments",
+                "events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/146/events",
+                "html_url": "https://github.com/bigskysoftware/htmx/issues/146",
+                "id": 664996481,
+                "node_id": "MDU6SXNzdWU2NjQ5OTY0ODE=",
+                "number": 146,
+                "title": "Submitting Two Forms with One Button Click",
+                "user": {
+                    "login": "thecodeclimber",
+                    "id": 65869221,
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1ODY5MjIx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/65869221?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thecodeclimber",
+                    "html_url": "https://github.com/thecodeclimber",
+                    "followers_url": "https://api.github.com/users/thecodeclimber/followers",
+                    "following_url": "https://api.github.com/users/thecodeclimber/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thecodeclimber/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thecodeclimber/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thecodeclimber/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thecodeclimber/orgs",
+                    "repos_url": "https://api.github.com/users/thecodeclimber/repos",
+                    "events_url": "https://api.github.com/users/thecodeclimber/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thecodeclimber/received_events",
+                    "type": "Organization",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1983053537,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTM3",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/information%20needed",
+                        "name": "information needed",
+                        "color": "d876e3",
+                        "default": false,
+                        "description": "Further information is requested"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 10,
+                "created_at": "2020-07-24T08:14:13Z",
+                "updated_at": "2023-10-27T06:24:55Z",
+                "closed_at": "2020-10-01T15:17:05Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello, I just stumbled upon htmx a few minutes ago and am wondering if it can help me with the following.  \r\n\r\nI have two forms that I want to submit with the same button click.  I.e., I click on a submit button and the data from both form1 and form2 gets submitted.  Is this possible with htmx?  If so, how would I do it?  \r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/146/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/146/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1782365740",
+                "html_url": "https://github.com/bigskysoftware/htmx/issues/146#issuecomment-1782365740",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/146",
+                "id": 1782365740,
+                "node_id": "IC_kwDODzjFgM5qPL4s",
+                "user": {
+                    "login": "emanueldonalds",
+                    "id": 40231134,
+                    "node_id": "MDQ6VXNlcjQwMjMxMTM0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/40231134?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/emanueldonalds",
+                    "html_url": "https://github.com/emanueldonalds",
+                    "followers_url": "https://api.github.com/users/emanueldonalds/followers",
+                    "following_url": "https://api.github.com/users/emanueldonalds/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/emanueldonalds/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/emanueldonalds/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/emanueldonalds/subscriptions",
+                    "organizations_url": "https://api.github.com/users/emanueldonalds/orgs",
+                    "repos_url": "https://api.github.com/users/emanueldonalds/repos",
+                    "events_url": "https://api.github.com/users/emanueldonalds/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/emanueldonalds/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T06:24:55Z",
+                "updated_at": "2023-10-27T06:24:55Z",
+                "author_association": "NONE",
+                "body": "What do you think about using cookies for this use case, or is that against the whole idea of HTMX? \r\n\r\nIn mmokross's example, the location and specific year would both be stored in a cookie, so when the selected year is change, the server gets the location from the cookie, and vice versa.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1782365740/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:24:55Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32887484768",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 139707676,
+            "login": "NOTlAlGOODlIDEA",
+            "display_login": "NOTlAlGOODlIDEA",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/NOTlAlGOODlIDEA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/139707676?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:51:09Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32887275713",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 93001,
+            "login": "gereltod",
+            "display_login": "gereltod",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gereltod",
+            "avatar_url": "https://avatars.githubusercontent.com/u/93001?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:33:12Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32887154632",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 118801625,
+            "login": "TheoIsDumb",
+            "display_login": "TheoIsDumb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheoIsDumb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/118801625?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:23:04Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32886583214",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2167618,
+            "login": "princeyesuraj",
+            "display_login": "princeyesuraj",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/princeyesuraj",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2167618?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:37:03Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32886425503",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 80497165,
+            "login": "ethanprescott",
+            "display_login": "ethanprescott",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ethanprescott",
+            "avatar_url": "https://avatars.githubusercontent.com/u/80497165?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:24:45Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32886111971",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 978067,
+            "login": "moioo",
+            "display_login": "moioo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/moioo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/978067?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:00:17Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32885660962",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 20761166,
+            "login": "ecreeth",
+            "display_login": "ecreeth",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ecreeth",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20761166?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:26:39Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32885604892",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2399,
+            "login": "cdmwebs",
+            "display_login": "cdmwebs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cdmwebs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2399?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:22:02Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32885245039",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 20389025,
+            "login": "AlthafHussainK",
+            "display_login": "AlthafHussainK",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AlthafHussainK",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20389025?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:53:33Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32884703592",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 97439873,
+            "login": "mdaadoun",
+            "display_login": "mdaadoun",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mdaadoun",
+            "avatar_url": "https://avatars.githubusercontent.com/u/97439873?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:10:48Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32884165802",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 102733205,
+            "login": "anguzuDaniel",
+            "display_login": "anguzuDaniel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anguzuDaniel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102733205?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T23:26:47Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32884043336",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14703164,
+            "login": "yeskunall",
+            "display_login": "yeskunall",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yeskunall",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14703164?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T23:16:55Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32884037938",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 65350229,
+            "login": "ali1rh",
+            "display_login": "ali1rh",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ali1rh",
+            "avatar_url": "https://avatars.githubusercontent.com/u/65350229?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T23:16:29Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32882570741",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 487758,
+            "login": "matiboy",
+            "display_login": "matiboy",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/matiboy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/487758?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1610",
+                "repository_url": "https://api.github.com/repos/bigskysoftware/htmx",
+                "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1610/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1610/comments",
+                "events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1610/events",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1610",
+                "id": 1810772884,
+                "node_id": "PR_kwDODzjFgM5V1GfM",
+                "number": 1610,
+                "title": "Fix `confirmed` being ignored in htmx:confirm event",
+                "user": {
+                    "login": "matiboy",
+                    "id": 487758,
+                    "node_id": "MDQ6VXNlcjQ4Nzc1OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/487758?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/matiboy",
+                    "html_url": "https://github.com/matiboy",
+                    "followers_url": "https://api.github.com/users/matiboy/followers",
+                    "following_url": "https://api.github.com/users/matiboy/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/matiboy/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/matiboy/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/matiboy/subscriptions",
+                    "organizations_url": "https://api.github.com/users/matiboy/orgs",
+                    "repos_url": "https://api.github.com/users/matiboy/repos",
+                    "events_url": "https://api.github.com/users/matiboy/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/matiboy/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1983053525,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTI1",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    },
+                    {
+                        "id": 5742903652,
+                        "node_id": "LA_kwDODzjFgM8AAAABVk3BZA",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/ready%20for%20review",
+                        "name": "ready for review",
+                        "color": "FBCA04",
+                        "default": false,
+                        "description": "Issues that are ready to be considered for merging"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 9,
+                "created_at": "2023-07-18T21:50:53Z",
+                "updated_at": "2023-10-26T21:41:55Z",
+                "closed_at": "2023-10-26T20:43:41Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1610",
+                    "html_url": "https://github.com/bigskysoftware/htmx/pull/1610",
+                    "diff_url": "https://github.com/bigskysoftware/htmx/pull/1610.diff",
+                    "patch_url": "https://github.com/bigskysoftware/htmx/pull/1610.patch",
+                    "merged_at": "2023-10-26T20:43:41Z"
+                },
+                "body": "Referring to #1588 \r\n\r\n- Adds test for existing `hx-confirm` behavior by stubbing window.confirm; tests were added to a new test file `hx-confirm.js`\r\n- Enhance `htmx:confirm` event detail to include the value found in `hx-confirm` (set to `detail.question`)\r\n- Allow passing `skipConfirmation` to `detail.issueRequest`; when true, this skips window.confirm and triggers the request right away\r\n- Fix the missing check for `confirmed` in original code (that was the original issue)\r\n- Fix typo in [original `htmx:config` test ](https://github.com/bigskysoftware/htmx/blob/2534a970b6d606cb590edd8f6097e4a6440d8d06/test/core/events.js#L646) (incorrect handler would be removed in case of test failure)\r\n\r\nBackwards compatibility: if `skipConfirmation` is not passed, the behaviour remains the same as it was previously, meaning it still calls window.confirm if `hx-confirm` has a value; I think it's incorrect, but it is the old behavior, so this should be backwards compatible\r\n\r\nCloses #1588 ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1610/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1610/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1781933502",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1610#issuecomment-1781933502",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1610",
+                "id": 1781933502,
+                "node_id": "IC_kwDODzjFgM5qNiW-",
+                "user": {
+                    "login": "matiboy",
+                    "id": 487758,
+                    "node_id": "MDQ6VXNlcjQ4Nzc1OA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/487758?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/matiboy",
+                    "html_url": "https://github.com/matiboy",
+                    "followers_url": "https://api.github.com/users/matiboy/followers",
+                    "following_url": "https://api.github.com/users/matiboy/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/matiboy/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/matiboy/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/matiboy/subscriptions",
+                    "organizations_url": "https://api.github.com/users/matiboy/orgs",
+                    "repos_url": "https://api.github.com/users/matiboy/repos",
+                    "events_url": "https://api.github.com/users/matiboy/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/matiboy/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T21:41:54Z",
+                "updated_at": "2023-10-26T21:41:54Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "> Thank you @matiboy can I ask you to add some docs on the hx-confirm.md page as well?\r\n\r\nHi @1cg the PR already contains the edits to `hx-confirm.md` and a revamp of the `examples/confirm.md` to reflect the changes.\r\n\r\nPlease let me know if you need me to add anything else.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments/1781933502/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:41:55Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32881808438",
+        "type": "PushEvent",
+        "actor": {
+            "id": 469183,
+            "login": "1cg",
+            "display_login": "1cg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/1cg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/469183?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "repository_id": 255378816,
+            "push_id": 15583130324,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev",
+            "head": "ff45076a249307ad2867d0d07f0d36f61bf1a435",
+            "before": "fdd2570ac8f0ca93381235dc553b9a385b2f4cb6",
+            "commits": [
+                {
+                    "sha": "ff45076a249307ad2867d0d07f0d36f61bf1a435",
+                    "author": {
+                        "email": "b52@reaktor42.de",
+                        "name": "Oli"
+                    },
+                    "message": "Clear cache when historyCacheSize is set to 0 (#1222)\n\n* Update htmx.js\r\n\r\n* Purge history cache early if it should not exist\r\n\r\n---------\r\n\r\nCo-authored-by: Alexander Oliver Mader <AlexanderOliver.Mader@bosch.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/commits/ff45076a249307ad2867d0d07f0d36f61bf1a435"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:02:00Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32881808213",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 469183,
+            "login": "1cg",
+            "display_login": "1cg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/1cg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/469183?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 1222,
+            "pull_request": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222",
+                "id": 1218429763,
+                "node_id": "PR_kwDODzjFgM5In8ND",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1222",
+                "diff_url": "https://github.com/bigskysoftware/htmx/pull/1222.diff",
+                "patch_url": "https://github.com/bigskysoftware/htmx/pull/1222.patch",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222",
+                "number": 1222,
+                "state": "closed",
+                "locked": false,
+                "title": "Clear cache when historyCacheSize is set to 0",
+                "user": {
+                    "login": "aomader",
+                    "id": 23704,
+                    "node_id": "MDQ6VXNlcjIzNzA0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomader",
+                    "html_url": "https://github.com/aomader",
+                    "followers_url": "https://api.github.com/users/aomader/followers",
+                    "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomader/orgs",
+                    "repos_url": "https://api.github.com/users/aomader/repos",
+                    "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomader/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Fixes #1221 ",
+                "created_at": "2023-01-26T20:55:53Z",
+                "updated_at": "2023-10-26T21:01:59Z",
+                "closed_at": "2023-10-26T21:01:58Z",
+                "merged_at": "2023-10-26T21:01:58Z",
+                "merge_commit_sha": "ff45076a249307ad2867d0d07f0d36f61bf1a435",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 1983053516,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTE2",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    },
+                    {
+                        "id": 5742903652,
+                        "node_id": "LA_kwDODzjFgM8AAAABVk3BZA",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/ready%20for%20review",
+                        "name": "ready for review",
+                        "color": "FBCA04",
+                        "default": false,
+                        "description": "Issues that are ready to be considered for merging"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/commits",
+                "review_comments_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/comments",
+                "review_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222/comments",
+                "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/6c2046443024bbccbadcf38d334e4193d552e7cd",
+                "head": {
+                    "label": "aomader:clear-history-cache",
+                    "ref": "clear-history-cache",
+                    "sha": "6c2046443024bbccbadcf38d334e4193d552e7cd",
+                    "user": {
+                        "login": "aomader",
+                        "id": 23704,
+                        "node_id": "MDQ6VXNlcjIzNzA0",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/aomader",
+                        "html_url": "https://github.com/aomader",
+                        "followers_url": "https://api.github.com/users/aomader/followers",
+                        "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                        "organizations_url": "https://api.github.com/users/aomader/orgs",
+                        "repos_url": "https://api.github.com/users/aomader/repos",
+                        "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/aomader/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 593787275,
+                        "node_id": "R_kgDOI2R5iw",
+                        "name": "htmx",
+                        "full_name": "aomader/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "aomader",
+                            "id": 23704,
+                            "node_id": "MDQ6VXNlcjIzNzA0",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/aomader",
+                            "html_url": "https://github.com/aomader",
+                            "followers_url": "https://api.github.com/users/aomader/followers",
+                            "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                            "organizations_url": "https://api.github.com/users/aomader/orgs",
+                            "repos_url": "https://api.github.com/users/aomader/repos",
+                            "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/aomader/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/aomader/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/aomader/htmx",
+                        "forks_url": "https://api.github.com/repos/aomader/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/aomader/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/aomader/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/aomader/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/aomader/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/aomader/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/aomader/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/aomader/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/aomader/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/aomader/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/aomader/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/aomader/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/aomader/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/aomader/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/aomader/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/aomader/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/aomader/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/aomader/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/aomader/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/aomader/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/aomader/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/aomader/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/aomader/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/aomader/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/aomader/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/aomader/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/aomader/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/aomader/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/aomader/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/aomader/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/aomader/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/aomader/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/aomader/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/aomader/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/aomader/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/aomader/htmx/deployments",
+                        "created_at": "2023-01-26T20:50:27Z",
+                        "updated_at": "2023-01-26T20:35:48Z",
+                        "pushed_at": "2023-10-26T18:36:57Z",
+                        "git_url": "git://github.com/aomader/htmx.git",
+                        "ssh_url": "git@github.com:aomader/htmx.git",
+                        "clone_url": "https://github.com/aomader/htmx.git",
+                        "svn_url": "https://github.com/aomader/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 26279,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "bigskysoftware:dev",
+                    "ref": "dev",
+                    "sha": "1040ace09377abb453ceff56cafa9931f4e097a4",
+                    "user": {
+                        "login": "bigskysoftware",
+                        "id": 48798027,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/bigskysoftware",
+                        "html_url": "https://github.com/bigskysoftware",
+                        "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                        "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                        "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                        "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                        "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 255378816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTUzNzg4MTY=",
+                        "name": "htmx",
+                        "full_name": "bigskysoftware/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "bigskysoftware",
+                            "id": 48798027,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/bigskysoftware",
+                            "html_url": "https://github.com/bigskysoftware",
+                            "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                            "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                            "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                            "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                            "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/bigskysoftware/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx",
+                        "forks_url": "https://api.github.com/repos/bigskysoftware/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/bigskysoftware/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/bigskysoftware/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/bigskysoftware/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/bigskysoftware/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/bigskysoftware/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/bigskysoftware/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/bigskysoftware/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/bigskysoftware/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/bigskysoftware/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/bigskysoftware/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/bigskysoftware/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/bigskysoftware/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/bigskysoftware/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/bigskysoftware/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/bigskysoftware/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/bigskysoftware/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/bigskysoftware/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/bigskysoftware/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/bigskysoftware/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/bigskysoftware/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/bigskysoftware/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/bigskysoftware/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/bigskysoftware/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/bigskysoftware/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/bigskysoftware/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/bigskysoftware/htmx/deployments",
+                        "created_at": "2020-04-13T16:17:51Z",
+                        "updated_at": "2023-10-26T20:38:06Z",
+                        "pushed_at": "2023-10-26T21:01:58Z",
+                        "git_url": "git://github.com/bigskysoftware/htmx.git",
+                        "ssh_url": "git@github.com:bigskysoftware/htmx.git",
+                        "clone_url": "https://github.com/bigskysoftware/htmx.git",
+                        "svn_url": "https://github.com/bigskysoftware/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 26771,
+                        "stargazers_count": 22641,
+                        "watchers_count": 22641,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 809,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 298,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "hateoas",
+                            "html",
+                            "htmx",
+                            "hyperscript",
+                            "javascript",
+                            "rest"
+                        ],
+                        "visibility": "public",
+                        "forks": 809,
+                        "open_issues": 298,
+                        "watchers": 22641,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222"
+                    },
+                    "html": {
+                        "href": "https://github.com/bigskysoftware/htmx/pull/1222"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/statuses/6c2046443024bbccbadcf38d334e4193d552e7cd"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "1cg",
+                    "id": 469183,
+                    "node_id": "MDQ6VXNlcjQ2OTE4Mw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/469183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/1cg",
+                    "html_url": "https://github.com/1cg",
+                    "followers_url": "https://api.github.com/users/1cg/followers",
+                    "following_url": "https://api.github.com/users/1cg/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/1cg/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/1cg/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/1cg/subscriptions",
+                    "organizations_url": "https://api.github.com/users/1cg/orgs",
+                    "repos_url": "https://api.github.com/users/1cg/repos",
+                    "events_url": "https://api.github.com/users/1cg/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/1cg/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 2,
+                "review_comments": 4,
+                "maintainer_can_modify": false,
+                "commits": 2,
+                "additions": 6,
+                "deletions": 0,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:01:59Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32881805911",
+        "type": "PullRequestReviewCommentEvent",
+        "actor": {
+            "id": 469183,
+            "login": "1cg",
+            "display_login": "1cg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/1cg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/469183?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "created",
+            "comment": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments/1373811133",
+                "pull_request_review_id": 1700638316,
+                "id": 1373811133,
+                "node_id": "PRRC_kwDODzjFgM5R4rG9",
+                "diff_hunk": "@@ -2193,6 +2193,7 @@ return (function () {\n                     historyCache.shift(); // shrink the cache and retry\n                 }\n             }\n+            if (historyCache.length === 0) localStorage.removeItem(\"htmx-history-cache\");",
+                "path": "src/htmx.js",
+                "commit_id": "6c2046443024bbccbadcf38d334e4193d552e7cd",
+                "original_commit_id": "70523adb688de87a6c22f20b8b6f82a7d7c36752",
+                "user": {
+                    "login": "1cg",
+                    "id": 469183,
+                    "node_id": "MDQ6VXNlcjQ2OTE4Mw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/469183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/1cg",
+                    "html_url": "https://github.com/1cg",
+                    "followers_url": "https://api.github.com/users/1cg/followers",
+                    "following_url": "https://api.github.com/users/1cg/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/1cg/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/1cg/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/1cg/subscriptions",
+                    "organizations_url": "https://api.github.com/users/1cg/orgs",
+                    "repos_url": "https://api.github.com/users/1cg/repos",
+                    "events_url": "https://api.github.com/users/1cg/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/1cg/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "agree",
+                "created_at": "2023-10-26T21:01:52Z",
+                "updated_at": "2023-10-26T21:01:52Z",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1222#discussion_r1373811133",
+                "pull_request_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222",
+                "author_association": "CONTRIBUTOR",
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments/1373811133"
+                    },
+                    "html": {
+                        "href": "https://github.com/bigskysoftware/htmx/pull/1222#discussion_r1373811133"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222"
+                    }
+                },
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments/1373811133/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "start_line": null,
+                "original_start_line": null,
+                "start_side": null,
+                "line": null,
+                "original_line": 2196,
+                "side": "RIGHT",
+                "in_reply_to_id": 1349458536,
+                "original_position": 4,
+                "position": null,
+                "subject_type": "line"
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222",
+                "id": 1218429763,
+                "node_id": "PR_kwDODzjFgM5In8ND",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1222",
+                "diff_url": "https://github.com/bigskysoftware/htmx/pull/1222.diff",
+                "patch_url": "https://github.com/bigskysoftware/htmx/pull/1222.patch",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222",
+                "number": 1222,
+                "state": "open",
+                "locked": false,
+                "title": "Clear cache when historyCacheSize is set to 0",
+                "user": {
+                    "login": "aomader",
+                    "id": 23704,
+                    "node_id": "MDQ6VXNlcjIzNzA0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomader",
+                    "html_url": "https://github.com/aomader",
+                    "followers_url": "https://api.github.com/users/aomader/followers",
+                    "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomader/orgs",
+                    "repos_url": "https://api.github.com/users/aomader/repos",
+                    "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomader/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Fixes #1221 ",
+                "created_at": "2023-01-26T20:55:53Z",
+                "updated_at": "2023-10-26T21:01:52Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "b1008de724865b481607c05aac8137272b4de7f7",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 1983053516,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTE2",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    },
+                    {
+                        "id": 5742903652,
+                        "node_id": "LA_kwDODzjFgM8AAAABVk3BZA",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/ready%20for%20review",
+                        "name": "ready for review",
+                        "color": "FBCA04",
+                        "default": false,
+                        "description": "Issues that are ready to be considered for merging"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/commits",
+                "review_comments_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/comments",
+                "review_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222/comments",
+                "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/6c2046443024bbccbadcf38d334e4193d552e7cd",
+                "head": {
+                    "label": "aomader:clear-history-cache",
+                    "ref": "clear-history-cache",
+                    "sha": "6c2046443024bbccbadcf38d334e4193d552e7cd",
+                    "user": {
+                        "login": "aomader",
+                        "id": 23704,
+                        "node_id": "MDQ6VXNlcjIzNzA0",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/aomader",
+                        "html_url": "https://github.com/aomader",
+                        "followers_url": "https://api.github.com/users/aomader/followers",
+                        "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                        "organizations_url": "https://api.github.com/users/aomader/orgs",
+                        "repos_url": "https://api.github.com/users/aomader/repos",
+                        "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/aomader/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 593787275,
+                        "node_id": "R_kgDOI2R5iw",
+                        "name": "htmx",
+                        "full_name": "aomader/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "aomader",
+                            "id": 23704,
+                            "node_id": "MDQ6VXNlcjIzNzA0",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/aomader",
+                            "html_url": "https://github.com/aomader",
+                            "followers_url": "https://api.github.com/users/aomader/followers",
+                            "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                            "organizations_url": "https://api.github.com/users/aomader/orgs",
+                            "repos_url": "https://api.github.com/users/aomader/repos",
+                            "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/aomader/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/aomader/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/aomader/htmx",
+                        "forks_url": "https://api.github.com/repos/aomader/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/aomader/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/aomader/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/aomader/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/aomader/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/aomader/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/aomader/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/aomader/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/aomader/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/aomader/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/aomader/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/aomader/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/aomader/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/aomader/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/aomader/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/aomader/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/aomader/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/aomader/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/aomader/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/aomader/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/aomader/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/aomader/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/aomader/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/aomader/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/aomader/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/aomader/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/aomader/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/aomader/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/aomader/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/aomader/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/aomader/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/aomader/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/aomader/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/aomader/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/aomader/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/aomader/htmx/deployments",
+                        "created_at": "2023-01-26T20:50:27Z",
+                        "updated_at": "2023-01-26T20:35:48Z",
+                        "pushed_at": "2023-10-26T18:36:57Z",
+                        "git_url": "git://github.com/aomader/htmx.git",
+                        "ssh_url": "git@github.com:aomader/htmx.git",
+                        "clone_url": "https://github.com/aomader/htmx.git",
+                        "svn_url": "https://github.com/aomader/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 26279,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "bigskysoftware:dev",
+                    "ref": "dev",
+                    "sha": "1040ace09377abb453ceff56cafa9931f4e097a4",
+                    "user": {
+                        "login": "bigskysoftware",
+                        "id": 48798027,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/bigskysoftware",
+                        "html_url": "https://github.com/bigskysoftware",
+                        "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                        "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                        "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                        "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                        "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 255378816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTUzNzg4MTY=",
+                        "name": "htmx",
+                        "full_name": "bigskysoftware/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "bigskysoftware",
+                            "id": 48798027,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/bigskysoftware",
+                            "html_url": "https://github.com/bigskysoftware",
+                            "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                            "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                            "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                            "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                            "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/bigskysoftware/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx",
+                        "forks_url": "https://api.github.com/repos/bigskysoftware/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/bigskysoftware/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/bigskysoftware/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/bigskysoftware/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/bigskysoftware/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/bigskysoftware/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/bigskysoftware/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/bigskysoftware/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/bigskysoftware/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/bigskysoftware/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/bigskysoftware/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/bigskysoftware/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/bigskysoftware/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/bigskysoftware/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/bigskysoftware/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/bigskysoftware/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/bigskysoftware/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/bigskysoftware/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/bigskysoftware/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/bigskysoftware/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/bigskysoftware/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/bigskysoftware/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/bigskysoftware/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/bigskysoftware/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/bigskysoftware/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/bigskysoftware/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/bigskysoftware/htmx/deployments",
+                        "created_at": "2020-04-13T16:17:51Z",
+                        "updated_at": "2023-10-26T20:38:06Z",
+                        "pushed_at": "2023-10-26T20:45:46Z",
+                        "git_url": "git://github.com/bigskysoftware/htmx.git",
+                        "ssh_url": "git@github.com:bigskysoftware/htmx.git",
+                        "clone_url": "https://github.com/bigskysoftware/htmx.git",
+                        "svn_url": "https://github.com/bigskysoftware/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 26771,
+                        "stargazers_count": 22641,
+                        "watchers_count": 22641,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 809,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 299,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "hateoas",
+                            "html",
+                            "htmx",
+                            "hyperscript",
+                            "javascript",
+                            "rest"
+                        ],
+                        "visibility": "public",
+                        "forks": 809,
+                        "open_issues": 299,
+                        "watchers": 22641,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222"
+                    },
+                    "html": {
+                        "href": "https://github.com/bigskysoftware/htmx/pull/1222"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/statuses/6c2046443024bbccbadcf38d334e4193d552e7cd"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:01:52Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32881805824",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 469183,
+            "login": "1cg",
+            "display_login": "1cg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/1cg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/469183?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1700638316,
+                "node_id": "PRR_kwDODzjFgM5lXa5s",
+                "user": {
+                    "login": "1cg",
+                    "id": 469183,
+                    "node_id": "MDQ6VXNlcjQ2OTE4Mw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/469183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/1cg",
+                    "html_url": "https://github.com/1cg",
+                    "followers_url": "https://api.github.com/users/1cg/followers",
+                    "following_url": "https://api.github.com/users/1cg/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/1cg/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/1cg/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/1cg/subscriptions",
+                    "organizations_url": "https://api.github.com/users/1cg/orgs",
+                    "repos_url": "https://api.github.com/users/1cg/repos",
+                    "events_url": "https://api.github.com/users/1cg/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/1cg/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "commit_id": "70523adb688de87a6c22f20b8b6f82a7d7c36752",
+                "submitted_at": "2023-10-26T21:01:52Z",
+                "state": "commented",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1222#pullrequestreview-1700638316",
+                "pull_request_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222",
+                "author_association": "CONTRIBUTOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/bigskysoftware/htmx/pull/1222#pullrequestreview-1700638316"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222",
+                "id": 1218429763,
+                "node_id": "PR_kwDODzjFgM5In8ND",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1222",
+                "diff_url": "https://github.com/bigskysoftware/htmx/pull/1222.diff",
+                "patch_url": "https://github.com/bigskysoftware/htmx/pull/1222.patch",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222",
+                "number": 1222,
+                "state": "open",
+                "locked": false,
+                "title": "Clear cache when historyCacheSize is set to 0",
+                "user": {
+                    "login": "aomader",
+                    "id": 23704,
+                    "node_id": "MDQ6VXNlcjIzNzA0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomader",
+                    "html_url": "https://github.com/aomader",
+                    "followers_url": "https://api.github.com/users/aomader/followers",
+                    "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomader/orgs",
+                    "repos_url": "https://api.github.com/users/aomader/repos",
+                    "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomader/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Fixes #1221 ",
+                "created_at": "2023-01-26T20:55:53Z",
+                "updated_at": "2023-10-26T21:01:52Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "b1008de724865b481607c05aac8137272b4de7f7",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 1983053516,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTE2",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    },
+                    {
+                        "id": 5742903652,
+                        "node_id": "LA_kwDODzjFgM8AAAABVk3BZA",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/ready%20for%20review",
+                        "name": "ready for review",
+                        "color": "FBCA04",
+                        "default": false,
+                        "description": "Issues that are ready to be considered for merging"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/commits",
+                "review_comments_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/comments",
+                "review_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222/comments",
+                "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/6c2046443024bbccbadcf38d334e4193d552e7cd",
+                "head": {
+                    "label": "aomader:clear-history-cache",
+                    "ref": "clear-history-cache",
+                    "sha": "6c2046443024bbccbadcf38d334e4193d552e7cd",
+                    "user": {
+                        "login": "aomader",
+                        "id": 23704,
+                        "node_id": "MDQ6VXNlcjIzNzA0",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/aomader",
+                        "html_url": "https://github.com/aomader",
+                        "followers_url": "https://api.github.com/users/aomader/followers",
+                        "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                        "organizations_url": "https://api.github.com/users/aomader/orgs",
+                        "repos_url": "https://api.github.com/users/aomader/repos",
+                        "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/aomader/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 593787275,
+                        "node_id": "R_kgDOI2R5iw",
+                        "name": "htmx",
+                        "full_name": "aomader/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "aomader",
+                            "id": 23704,
+                            "node_id": "MDQ6VXNlcjIzNzA0",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/23704?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/aomader",
+                            "html_url": "https://github.com/aomader",
+                            "followers_url": "https://api.github.com/users/aomader/followers",
+                            "following_url": "https://api.github.com/users/aomader/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/aomader/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/aomader/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/aomader/subscriptions",
+                            "organizations_url": "https://api.github.com/users/aomader/orgs",
+                            "repos_url": "https://api.github.com/users/aomader/repos",
+                            "events_url": "https://api.github.com/users/aomader/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/aomader/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/aomader/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/aomader/htmx",
+                        "forks_url": "https://api.github.com/repos/aomader/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/aomader/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/aomader/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/aomader/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/aomader/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/aomader/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/aomader/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/aomader/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/aomader/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/aomader/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/aomader/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/aomader/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/aomader/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/aomader/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/aomader/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/aomader/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/aomader/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/aomader/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/aomader/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/aomader/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/aomader/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/aomader/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/aomader/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/aomader/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/aomader/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/aomader/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/aomader/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/aomader/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/aomader/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/aomader/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/aomader/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/aomader/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/aomader/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/aomader/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/aomader/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/aomader/htmx/deployments",
+                        "created_at": "2023-01-26T20:50:27Z",
+                        "updated_at": "2023-01-26T20:35:48Z",
+                        "pushed_at": "2023-10-26T18:36:57Z",
+                        "git_url": "git://github.com/aomader/htmx.git",
+                        "ssh_url": "git@github.com:aomader/htmx.git",
+                        "clone_url": "https://github.com/aomader/htmx.git",
+                        "svn_url": "https://github.com/aomader/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 26279,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "bigskysoftware:dev",
+                    "ref": "dev",
+                    "sha": "1040ace09377abb453ceff56cafa9931f4e097a4",
+                    "user": {
+                        "login": "bigskysoftware",
+                        "id": 48798027,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/bigskysoftware",
+                        "html_url": "https://github.com/bigskysoftware",
+                        "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                        "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                        "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                        "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                        "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 255378816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTUzNzg4MTY=",
+                        "name": "htmx",
+                        "full_name": "bigskysoftware/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "bigskysoftware",
+                            "id": 48798027,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/bigskysoftware",
+                            "html_url": "https://github.com/bigskysoftware",
+                            "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                            "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                            "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                            "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                            "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/bigskysoftware/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx",
+                        "forks_url": "https://api.github.com/repos/bigskysoftware/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/bigskysoftware/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/bigskysoftware/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/bigskysoftware/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/bigskysoftware/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/bigskysoftware/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/bigskysoftware/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/bigskysoftware/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/bigskysoftware/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/bigskysoftware/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/bigskysoftware/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/bigskysoftware/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/bigskysoftware/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/bigskysoftware/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/bigskysoftware/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/bigskysoftware/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/bigskysoftware/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/bigskysoftware/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/bigskysoftware/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/bigskysoftware/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/bigskysoftware/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/bigskysoftware/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/bigskysoftware/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/bigskysoftware/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/bigskysoftware/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/bigskysoftware/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/bigskysoftware/htmx/deployments",
+                        "created_at": "2020-04-13T16:17:51Z",
+                        "updated_at": "2023-10-26T20:38:06Z",
+                        "pushed_at": "2023-10-26T20:45:46Z",
+                        "git_url": "git://github.com/bigskysoftware/htmx.git",
+                        "ssh_url": "git@github.com:bigskysoftware/htmx.git",
+                        "clone_url": "https://github.com/bigskysoftware/htmx.git",
+                        "svn_url": "https://github.com/bigskysoftware/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 26771,
+                        "stargazers_count": 22641,
+                        "watchers_count": 22641,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 809,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 299,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "hateoas",
+                            "html",
+                            "htmx",
+                            "hyperscript",
+                            "javascript",
+                            "rest"
+                        ],
+                        "visibility": "public",
+                        "forks": 809,
+                        "open_issues": 299,
+                        "watchers": 22641,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222"
+                    },
+                    "html": {
+                        "href": "https://github.com/bigskysoftware/htmx/pull/1222"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1222/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1222/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/statuses/6c2046443024bbccbadcf38d334e4193d552e7cd"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:01:53Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    },
+    {
+        "id": "32881790687",
+        "type": "PullRequestReviewCommentEvent",
+        "actor": {
+            "id": 469183,
+            "login": "1cg",
+            "display_login": "1cg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/1cg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/469183?"
+        },
+        "repo": {
+            "id": 255378816,
+            "name": "bigskysoftware/htmx",
+            "url": "https://api.github.com/repos/bigskysoftware/htmx"
+        },
+        "payload": {
+            "action": "created",
+            "comment": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments/1373810478",
+                "pull_request_review_id": 1700637307,
+                "id": 1373810478,
+                "node_id": "PRRC_kwDODzjFgM5R4q8u",
+                "diff_hunk": "@@ -1906,32 +1906,45 @@ return (function () {\n             }\n         }\n \n+        // Handle submit buttons/inputs that have the form attribute set\n+        // see https://developer.mozilla.org/docs/Web/HTML/Element/button\n+         function maybeSetLastButtonClicked(evt) {\n+            var elt = closest(evt.target, \"button, input[type='submit']\");",
+                "path": "src/htmx.js",
+                "commit_id": "10e8894ef5b6ef8e89f132dfd9dee3692e5ea917",
+                "original_commit_id": "10e8894ef5b6ef8e89f132dfd9dee3692e5ea917",
+                "user": {
+                    "login": "1cg",
+                    "id": 469183,
+                    "node_id": "MDQ6VXNlcjQ2OTE4Mw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/469183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/1cg",
+                    "html_url": "https://github.com/1cg",
+                    "followers_url": "https://api.github.com/users/1cg/followers",
+                    "following_url": "https://api.github.com/users/1cg/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/1cg/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/1cg/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/1cg/subscriptions",
+                    "organizations_url": "https://api.github.com/users/1cg/orgs",
+                    "repos_url": "https://api.github.com/users/1cg/repos",
+                    "events_url": "https://api.github.com/users/1cg/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/1cg/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "feel like the first bit of these two functions could be refactored to use a common method, maybe `findRelatedForm(elt)` that returns nothing if there is none, then the logic can be boiled down to a check and set in both.\r\n\r\ndoes that make sense?",
+                "created_at": "2023-10-26T21:01:04Z",
+                "updated_at": "2023-10-26T21:01:10Z",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1820#discussion_r1373810478",
+                "pull_request_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820",
+                "author_association": "CONTRIBUTOR",
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments/1373810478"
+                    },
+                    "html": {
+                        "href": "https://github.com/bigskysoftware/htmx/pull/1820#discussion_r1373810478"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820"
+                    }
+                },
+                "reactions": {
+                    "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments/1373810478/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "start_line": null,
+                "original_start_line": null,
+                "start_side": null,
+                "line": 1912,
+                "original_line": 1912,
+                "side": "RIGHT",
+                "original_position": 7,
+                "position": 7,
+                "subject_type": "line"
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820",
+                "id": 1526194754,
+                "node_id": "PR_kwDODzjFgM5a9-JC",
+                "html_url": "https://github.com/bigskysoftware/htmx/pull/1820",
+                "diff_url": "https://github.com/bigskysoftware/htmx/pull/1820.diff",
+                "patch_url": "https://github.com/bigskysoftware/htmx/pull/1820.patch",
+                "issue_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1820",
+                "number": 1820,
+                "state": "open",
+                "locked": false,
+                "title": "Fix stale form references",
+                "user": {
+                    "login": "ekwoka",
+                    "id": 43540491,
+                    "node_id": "MDQ6VXNlcjQzNTQwNDkx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/43540491?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ekwoka",
+                    "html_url": "https://github.com/ekwoka",
+                    "followers_url": "https://api.github.com/users/ekwoka/followers",
+                    "following_url": "https://api.github.com/users/ekwoka/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ekwoka/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ekwoka/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ekwoka/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ekwoka/orgs",
+                    "repos_url": "https://api.github.com/users/ekwoka/repos",
+                    "events_url": "https://api.github.com/users/ekwoka/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ekwoka/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Solves #1819 \r\n\r\nBasically, the `form` reference was stale because it was stored outside the listener.\r\n\r\nThis also means that the form is more likely to be cleaned up since the closure no longer references the form element.\r\n\r\nTests seem broken/flaky. Change nothing and anywhere from 50 to 150 tests failed. The tests that seem like they'd be relevent to this change all passed, and the failures seem pretty unrelated.",
+                "created_at": "2023-09-22T08:50:17Z",
+                "updated_at": "2023-10-26T21:01:10Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "457b3b406480828cb5ad826d6bdf08b4fb398c3a",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 1983053516,
+                        "node_id": "MDU6TGFiZWwxOTgzMDUzNTE2",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    },
+                    {
+                        "id": 5742903652,
+                        "node_id": "LA_kwDODzjFgM8AAAABVk3BZA",
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx/labels/ready%20for%20review",
+                        "name": "ready for review",
+                        "color": "FBCA04",
+                        "default": false,
+                        "description": "Issues that are ready to be considered for merging"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820/commits",
+                "review_comments_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820/comments",
+                "review_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/1820/comments",
+                "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/10e8894ef5b6ef8e89f132dfd9dee3692e5ea917",
+                "head": {
+                    "label": "ekwoka:fix-external-buttons-referencing-wrong-form",
+                    "ref": "fix-external-buttons-referencing-wrong-form",
+                    "sha": "10e8894ef5b6ef8e89f132dfd9dee3692e5ea917",
+                    "user": {
+                        "login": "ekwoka",
+                        "id": 43540491,
+                        "node_id": "MDQ6VXNlcjQzNTQwNDkx",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/43540491?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/ekwoka",
+                        "html_url": "https://github.com/ekwoka",
+                        "followers_url": "https://api.github.com/users/ekwoka/followers",
+                        "following_url": "https://api.github.com/users/ekwoka/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/ekwoka/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/ekwoka/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/ekwoka/subscriptions",
+                        "organizations_url": "https://api.github.com/users/ekwoka/orgs",
+                        "repos_url": "https://api.github.com/users/ekwoka/repos",
+                        "events_url": "https://api.github.com/users/ekwoka/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/ekwoka/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 605160865,
+                        "node_id": "R_kgDOJBIFoQ",
+                        "name": "htmx",
+                        "full_name": "ekwoka/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "ekwoka",
+                            "id": 43540491,
+                            "node_id": "MDQ6VXNlcjQzNTQwNDkx",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/43540491?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/ekwoka",
+                            "html_url": "https://github.com/ekwoka",
+                            "followers_url": "https://api.github.com/users/ekwoka/followers",
+                            "following_url": "https://api.github.com/users/ekwoka/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/ekwoka/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/ekwoka/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/ekwoka/subscriptions",
+                            "organizations_url": "https://api.github.com/users/ekwoka/orgs",
+                            "repos_url": "https://api.github.com/users/ekwoka/repos",
+                            "events_url": "https://api.github.com/users/ekwoka/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/ekwoka/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/ekwoka/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/ekwoka/htmx",
+                        "forks_url": "https://api.github.com/repos/ekwoka/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/ekwoka/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/ekwoka/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/ekwoka/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/ekwoka/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/ekwoka/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/ekwoka/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/ekwoka/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/ekwoka/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/ekwoka/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/ekwoka/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/ekwoka/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/ekwoka/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/ekwoka/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/ekwoka/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/ekwoka/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/ekwoka/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/ekwoka/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/ekwoka/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/ekwoka/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/ekwoka/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/ekwoka/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/ekwoka/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/ekwoka/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/ekwoka/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/ekwoka/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/ekwoka/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/ekwoka/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/ekwoka/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/ekwoka/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/ekwoka/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/ekwoka/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/ekwoka/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/ekwoka/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/ekwoka/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/ekwoka/htmx/deployments",
+                        "created_at": "2023-02-22T15:18:55Z",
+                        "updated_at": "2023-09-22T19:26:16Z",
+                        "pushed_at": "2023-09-25T09:13:24Z",
+                        "git_url": "git://github.com/ekwoka/htmx.git",
+                        "ssh_url": "git@github.com:ekwoka/htmx.git",
+                        "clone_url": "https://github.com/ekwoka/htmx.git",
+                        "svn_url": "https://github.com/ekwoka/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 25960,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "JavaScript",
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "bigskysoftware:dev",
+                    "ref": "dev",
+                    "sha": "04250d57f4fe15e7fab90e8114569853eb03fa5b",
+                    "user": {
+                        "login": "bigskysoftware",
+                        "id": 48798027,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/bigskysoftware",
+                        "html_url": "https://github.com/bigskysoftware",
+                        "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                        "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                        "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                        "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                        "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 255378816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTUzNzg4MTY=",
+                        "name": "htmx",
+                        "full_name": "bigskysoftware/htmx",
+                        "private": false,
+                        "owner": {
+                            "login": "bigskysoftware",
+                            "id": 48798027,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ4Nzk4MDI3",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/bigskysoftware",
+                            "html_url": "https://github.com/bigskysoftware",
+                            "followers_url": "https://api.github.com/users/bigskysoftware/followers",
+                            "following_url": "https://api.github.com/users/bigskysoftware/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/bigskysoftware/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/bigskysoftware/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/bigskysoftware/subscriptions",
+                            "organizations_url": "https://api.github.com/users/bigskysoftware/orgs",
+                            "repos_url": "https://api.github.com/users/bigskysoftware/repos",
+                            "events_url": "https://api.github.com/users/bigskysoftware/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/bigskysoftware/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/bigskysoftware/htmx",
+                        "description": "</> htmx - high power tools for HTML",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/bigskysoftware/htmx",
+                        "forks_url": "https://api.github.com/repos/bigskysoftware/htmx/forks",
+                        "keys_url": "https://api.github.com/repos/bigskysoftware/htmx/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/bigskysoftware/htmx/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/bigskysoftware/htmx/teams",
+                        "hooks_url": "https://api.github.com/repos/bigskysoftware/htmx/hooks",
+                        "issue_events_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/bigskysoftware/htmx/events",
+                        "assignees_url": "https://api.github.com/repos/bigskysoftware/htmx/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/bigskysoftware/htmx/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/bigskysoftware/htmx/tags",
+                        "blobs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/bigskysoftware/htmx/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/bigskysoftware/htmx/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/bigskysoftware/htmx/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/bigskysoftware/htmx/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/bigskysoftware/htmx/languages",
+                        "stargazers_url": "https://api.github.com/repos/bigskysoftware/htmx/stargazers",
+                        "contributors_url": "https://api.github.com/repos/bigskysoftware/htmx/contributors",
+                        "subscribers_url": "https://api.github.com/repos/bigskysoftware/htmx/subscribers",
+                        "subscription_url": "https://api.github.com/repos/bigskysoftware/htmx/subscription",
+                        "commits_url": "https://api.github.com/repos/bigskysoftware/htmx/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/bigskysoftware/htmx/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/bigskysoftware/htmx/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/bigskysoftware/htmx/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/bigskysoftware/htmx/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/bigskysoftware/htmx/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/bigskysoftware/htmx/merges",
+                        "archive_url": "https://api.github.com/repos/bigskysoftware/htmx/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/bigskysoftware/htmx/downloads",
+                        "issues_url": "https://api.github.com/repos/bigskysoftware/htmx/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/bigskysoftware/htmx/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/bigskysoftware/htmx/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/bigskysoftware/htmx/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/bigskysoftware/htmx/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/bigskysoftware/htmx/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/bigskysoftware/htmx/deployments",
+                        "created_at": "2020-04-13T16:17:51Z",
+                        "updated_at": "2023-10-26T20:38:06Z",
+                        "pushed_at": "2023-10-26T20:45:46Z",
+                        "git_url": "git://github.com/bigskysoftware/htmx.git",
+                        "ssh_url": "git@github.com:bigskysoftware/htmx.git",
+                        "clone_url": "https://github.com/bigskysoftware/htmx.git",
+                        "svn_url": "https://github.com/bigskysoftware/htmx",
+                        "homepage": "https://htmx.org",
+                        "size": 26771,
+                        "stargazers_count": 22641,
+                        "watchers_count": 22641,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 809,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 299,
+                        "license": {
+                            "key": "bsd-2-clause",
+                            "name": "BSD 2-Clause \"Simplified\" License",
+                            "spdx_id": "BSD-2-Clause",
+                            "url": "https://api.github.com/licenses/bsd-2-clause",
+                            "node_id": "MDc6TGljZW5zZTQ="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "hateoas",
+                            "html",
+                            "htmx",
+                            "hyperscript",
+                            "javascript",
+                            "rest"
+                        ],
+                        "visibility": "public",
+                        "forks": 809,
+                        "open_issues": 299,
+                        "watchers": 22641,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820"
+                    },
+                    "html": {
+                        "href": "https://github.com/bigskysoftware/htmx/pull/1820"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1820"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/issues/1820/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/pulls/1820/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/bigskysoftware/htmx/statuses/10e8894ef5b6ef8e89f132dfd9dee3692e5ea917"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:01:04Z",
+        "org": {
+            "id": 48798027,
+            "login": "bigskysoftware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bigskysoftware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48798027?"
+        }
+    }
+]

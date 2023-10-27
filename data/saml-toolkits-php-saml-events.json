@@ -1,0 +1,2245 @@
+[
+    {
+        "id": "32881638258",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 755106,
+            "login": "s-dsk",
+            "display_login": "s-dsk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/s-dsk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/755106?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:53:53Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32791159439",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 29683939,
+            "login": "mouadziani",
+            "display_login": "mouadziani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mouadziani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29683939?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T03:48:34Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32722368059",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 6817275,
+            "login": "plufz",
+            "display_login": "plufz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/plufz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6817275?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523",
+                "repository_url": "https://api.github.com/repos/SAML-Toolkits/php-saml",
+                "labels_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/comments",
+                "events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/events",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/523",
+                "id": 1241904649,
+                "node_id": "I_kwDOAAqr9s5KBfYJ",
+                "number": 523,
+                "title": "POST binding support for authnrequest",
+                "user": {
+                    "login": "ismailaksim",
+                    "id": 35666502,
+                    "node_id": "MDQ6VXNlcjM1NjY2NTAy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/35666502?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ismailaksim",
+                    "html_url": "https://github.com/ismailaksim",
+                    "followers_url": "https://api.github.com/users/ismailaksim/followers",
+                    "following_url": "https://api.github.com/users/ismailaksim/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ismailaksim/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ismailaksim/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ismailaksim/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ismailaksim/orgs",
+                    "repos_url": "https://api.github.com/users/ismailaksim/repos",
+                    "events_url": "https://api.github.com/users/ismailaksim/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ismailaksim/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4951135607,
+                        "node_id": "LA_kwDOAAqr9s8AAAABJxxVdw",
+                        "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/labels/question",
+                        "name": "question",
+                        "color": "60FAC2",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-05-19T14:48:09Z",
+                "updated_at": "2023-10-20T12:51:45Z",
+                "closed_at": "2022-12-29T06:16:12Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello Everyone,\r\n\r\nI hope you are doing well,\r\nI wanna ask about is there a way to make my authnrequest to support POST Binding or its impossible, I found some posts here about that but I don't know if you did add this functionnality or its still impossible to do that.\r\n\r\nthank you",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1772685445",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/523#issuecomment-1772685445",
+                "issue_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523",
+                "id": 1772685445,
+                "node_id": "IC_kwDOAAqr9s5pqQiF",
+                "user": {
+                    "login": "plufz",
+                    "id": 6817275,
+                    "node_id": "MDQ6VXNlcjY4MTcyNzU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6817275?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/plufz",
+                    "html_url": "https://github.com/plufz",
+                    "followers_url": "https://api.github.com/users/plufz/followers",
+                    "following_url": "https://api.github.com/users/plufz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/plufz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/plufz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/plufz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/plufz/orgs",
+                    "repos_url": "https://api.github.com/users/plufz/repos",
+                    "events_url": "https://api.github.com/users/plufz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/plufz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T12:51:44Z",
+                "updated_at": "2023-10-20T12:51:44Z",
+                "author_association": "NONE",
+                "body": "@pitbulk That was a very reasonable answer, thank you for the quick and informed reply. My customer do support HTTP-Redirect but they said that they prefer POST. But if HTTP-Redirect is mandatory in the standard I think I can stand my ground in relation to my customer. ;)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1772685445/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T12:51:45Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32722067501",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523",
+                "repository_url": "https://api.github.com/repos/SAML-Toolkits/php-saml",
+                "labels_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/comments",
+                "events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/events",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/523",
+                "id": 1241904649,
+                "node_id": "I_kwDOAAqr9s5KBfYJ",
+                "number": 523,
+                "title": "POST binding support for authnrequest",
+                "user": {
+                    "login": "ismailaksim",
+                    "id": 35666502,
+                    "node_id": "MDQ6VXNlcjM1NjY2NTAy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/35666502?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ismailaksim",
+                    "html_url": "https://github.com/ismailaksim",
+                    "followers_url": "https://api.github.com/users/ismailaksim/followers",
+                    "following_url": "https://api.github.com/users/ismailaksim/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ismailaksim/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ismailaksim/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ismailaksim/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ismailaksim/orgs",
+                    "repos_url": "https://api.github.com/users/ismailaksim/repos",
+                    "events_url": "https://api.github.com/users/ismailaksim/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ismailaksim/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4951135607,
+                        "node_id": "LA_kwDOAAqr9s8AAAABJxxVdw",
+                        "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/labels/question",
+                        "name": "question",
+                        "color": "60FAC2",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-05-19T14:48:09Z",
+                "updated_at": "2023-10-20T12:40:49Z",
+                "closed_at": "2022-12-29T06:16:12Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello Everyone,\r\n\r\nI hope you are doing well,\r\nI wanna ask about is there a way to make my authnrequest to support POST Binding or its impossible, I found some posts here about that but I don't know if you did add this functionnality or its still impossible to do that.\r\n\r\nthank you",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1772670213",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/523#issuecomment-1772670213",
+                "issue_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523",
+                "id": 1772670213,
+                "node_id": "IC_kwDOAAqr9s5pqM0F",
+                "user": {
+                    "login": "pitbulk",
+                    "id": 600897,
+                    "node_id": "MDQ6VXNlcjYwMDg5Nw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/600897?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/pitbulk",
+                    "html_url": "https://github.com/pitbulk",
+                    "followers_url": "https://api.github.com/users/pitbulk/followers",
+                    "following_url": "https://api.github.com/users/pitbulk/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/pitbulk/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/pitbulk/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/pitbulk/subscriptions",
+                    "organizations_url": "https://api.github.com/users/pitbulk/orgs",
+                    "repos_url": "https://api.github.com/users/pitbulk/repos",
+                    "events_url": "https://api.github.com/users/pitbulk/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/pitbulk/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T12:40:49Z",
+                "updated_at": "2023-10-20T12:40:49Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "@plufz, the real reason can be found [here](https://github.com/SAML-Toolkits/php-saml/pull/348#issuecomment-447669065).\r\n\r\nHTTP-Redirect binding is the one that the SAML standard set as mandatory for AuthRequest, LogoutRequest and LogoutResponse, that way the SAML toolkits support this binding for such messages, and expect SAMLResponses using HTTP-POST as the standard also mandates.\r\n\r\nWhich IdP are you using that does not support HTTP-Redirect binding on AuthRequests?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1772670213/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T12:40:50Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32721036799",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 6817275,
+            "login": "plufz",
+            "display_login": "plufz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/plufz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6817275?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523",
+                "repository_url": "https://api.github.com/repos/SAML-Toolkits/php-saml",
+                "labels_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/comments",
+                "events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/events",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/523",
+                "id": 1241904649,
+                "node_id": "I_kwDOAAqr9s5KBfYJ",
+                "number": 523,
+                "title": "POST binding support for authnrequest",
+                "user": {
+                    "login": "ismailaksim",
+                    "id": 35666502,
+                    "node_id": "MDQ6VXNlcjM1NjY2NTAy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/35666502?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ismailaksim",
+                    "html_url": "https://github.com/ismailaksim",
+                    "followers_url": "https://api.github.com/users/ismailaksim/followers",
+                    "following_url": "https://api.github.com/users/ismailaksim/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ismailaksim/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ismailaksim/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ismailaksim/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ismailaksim/orgs",
+                    "repos_url": "https://api.github.com/users/ismailaksim/repos",
+                    "events_url": "https://api.github.com/users/ismailaksim/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ismailaksim/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4951135607,
+                        "node_id": "LA_kwDOAAqr9s8AAAABJxxVdw",
+                        "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/labels/question",
+                        "name": "question",
+                        "color": "60FAC2",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2022-05-19T14:48:09Z",
+                "updated_at": "2023-10-20T12:02:20Z",
+                "closed_at": "2022-12-29T06:16:12Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello Everyone,\r\n\r\nI hope you are doing well,\r\nI wanna ask about is there a way to make my authnrequest to support POST Binding or its impossible, I found some posts here about that but I don't know if you did add this functionnality or its still impossible to do that.\r\n\r\nthank you",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1772607261",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/523#issuecomment-1772607261",
+                "issue_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/523",
+                "id": 1772607261,
+                "node_id": "IC_kwDOAAqr9s5pp9cd",
+                "user": {
+                    "login": "plufz",
+                    "id": 6817275,
+                    "node_id": "MDQ6VXNlcjY4MTcyNzU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6817275?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/plufz",
+                    "html_url": "https://github.com/plufz",
+                    "followers_url": "https://api.github.com/users/plufz/followers",
+                    "following_url": "https://api.github.com/users/plufz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/plufz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/plufz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/plufz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/plufz/orgs",
+                    "repos_url": "https://api.github.com/users/plufz/repos",
+                    "events_url": "https://api.github.com/users/plufz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/plufz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-20T12:02:20Z",
+                "updated_at": "2023-10-20T12:02:20Z",
+                "author_association": "NONE",
+                "body": "First I want to say that I think that this is a great library and it has been a joy to use, clear error messages and easy to grasp documentation. Thank you!\r\n\r\nFrom what I understand the reason you are not implementing this is because OneLogin does not use HTTP POST as you stated in #92. I selected the library because it described itself as a general library \"SAML PHP toolkit let you build a SP (Service Provider) over your PHP application and connect it to any IdP (Identity Provider).\".\r\n\r\nMy customer wants to use HTTP POST for their IdP and from what I can see in different issues here, some other people also would really like POST support. I would rather not maintain a fork, especially on a library that is security related, and the existing PR seems to make changes to the standard files. Can HTTP POST be implemented with the current toolkit without forking?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1772607261/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T12:02:21Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32648494367",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 70108431,
+            "login": "haukepauke",
+            "display_login": "haukepauke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haukepauke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70108431?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-18T07:47:27Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32640808836",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 145961266,
+            "login": "takeda-n-kamakura",
+            "display_login": "takeda-n-kamakura",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/takeda-n-kamakura",
+            "avatar_url": "https://avatars.githubusercontent.com/u/145961266?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-18T00:13:19Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32611292016",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 2148312,
+            "login": "dnadesign",
+            "display_login": "dnadesign",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dnadesign",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2148312?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "forkee": {
+                "id": 705978977,
+                "node_id": "R_kgDOKhRiYQ",
+                "name": "php-saml",
+                "full_name": "dnadesign/php-saml",
+                "private": false,
+                "owner": {
+                    "login": "dnadesign",
+                    "id": 2148312,
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjIxNDgzMTI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2148312?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dnadesign",
+                    "html_url": "https://github.com/dnadesign",
+                    "followers_url": "https://api.github.com/users/dnadesign/followers",
+                    "following_url": "https://api.github.com/users/dnadesign/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dnadesign/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dnadesign/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dnadesign/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dnadesign/orgs",
+                    "repos_url": "https://api.github.com/users/dnadesign/repos",
+                    "events_url": "https://api.github.com/users/dnadesign/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dnadesign/received_events",
+                    "type": "Organization",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/dnadesign/php-saml",
+                "description": "Simple SAML toolkit for PHP",
+                "fork": true,
+                "url": "https://api.github.com/repos/dnadesign/php-saml",
+                "forks_url": "https://api.github.com/repos/dnadesign/php-saml/forks",
+                "keys_url": "https://api.github.com/repos/dnadesign/php-saml/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/dnadesign/php-saml/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/dnadesign/php-saml/teams",
+                "hooks_url": "https://api.github.com/repos/dnadesign/php-saml/hooks",
+                "issue_events_url": "https://api.github.com/repos/dnadesign/php-saml/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/dnadesign/php-saml/events",
+                "assignees_url": "https://api.github.com/repos/dnadesign/php-saml/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/dnadesign/php-saml/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/dnadesign/php-saml/tags",
+                "blobs_url": "https://api.github.com/repos/dnadesign/php-saml/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/dnadesign/php-saml/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/dnadesign/php-saml/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/dnadesign/php-saml/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/dnadesign/php-saml/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/dnadesign/php-saml/languages",
+                "stargazers_url": "https://api.github.com/repos/dnadesign/php-saml/stargazers",
+                "contributors_url": "https://api.github.com/repos/dnadesign/php-saml/contributors",
+                "subscribers_url": "https://api.github.com/repos/dnadesign/php-saml/subscribers",
+                "subscription_url": "https://api.github.com/repos/dnadesign/php-saml/subscription",
+                "commits_url": "https://api.github.com/repos/dnadesign/php-saml/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/dnadesign/php-saml/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/dnadesign/php-saml/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/dnadesign/php-saml/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/dnadesign/php-saml/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/dnadesign/php-saml/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/dnadesign/php-saml/merges",
+                "archive_url": "https://api.github.com/repos/dnadesign/php-saml/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/dnadesign/php-saml/downloads",
+                "issues_url": "https://api.github.com/repos/dnadesign/php-saml/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/dnadesign/php-saml/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/dnadesign/php-saml/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/dnadesign/php-saml/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/dnadesign/php-saml/labels{/name}",
+                "releases_url": "https://api.github.com/repos/dnadesign/php-saml/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/dnadesign/php-saml/deployments",
+                "created_at": "2023-10-17T04:30:44Z",
+                "updated_at": "2023-10-17T04:30:44Z",
+                "pushed_at": "2023-09-30T23:06:27Z",
+                "git_url": "git://github.com/dnadesign/php-saml.git",
+                "ssh_url": "git@github.com:dnadesign/php-saml.git",
+                "clone_url": "https://github.com/dnadesign/php-saml.git",
+                "svn_url": "https://github.com/dnadesign/php-saml",
+                "homepage": "",
+                "size": 4674,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-17T04:30:46Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32600982052",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 838556,
+            "login": "challapradyumna",
+            "display_login": "challapradyumna",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/challapradyumna",
+            "avatar_url": "https://avatars.githubusercontent.com/u/838556?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-16T18:16:55Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32569451782",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 6642299,
+            "login": "Armenian",
+            "display_login": "Armenian",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Armenian",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6642299?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "forkee": {
+                "id": 705194045,
+                "node_id": "R_kgDOKghoPQ",
+                "name": "php-saml",
+                "full_name": "Armenian/php-saml",
+                "private": false,
+                "owner": {
+                    "login": "Armenian",
+                    "id": 6642299,
+                    "node_id": "MDQ6VXNlcjY2NDIyOTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6642299?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Armenian",
+                    "html_url": "https://github.com/Armenian",
+                    "followers_url": "https://api.github.com/users/Armenian/followers",
+                    "following_url": "https://api.github.com/users/Armenian/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Armenian/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Armenian/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Armenian/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Armenian/orgs",
+                    "repos_url": "https://api.github.com/users/Armenian/repos",
+                    "events_url": "https://api.github.com/users/Armenian/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Armenian/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/Armenian/php-saml",
+                "description": "Simple SAML toolkit for PHP",
+                "fork": true,
+                "url": "https://api.github.com/repos/Armenian/php-saml",
+                "forks_url": "https://api.github.com/repos/Armenian/php-saml/forks",
+                "keys_url": "https://api.github.com/repos/Armenian/php-saml/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/Armenian/php-saml/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/Armenian/php-saml/teams",
+                "hooks_url": "https://api.github.com/repos/Armenian/php-saml/hooks",
+                "issue_events_url": "https://api.github.com/repos/Armenian/php-saml/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/Armenian/php-saml/events",
+                "assignees_url": "https://api.github.com/repos/Armenian/php-saml/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/Armenian/php-saml/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/Armenian/php-saml/tags",
+                "blobs_url": "https://api.github.com/repos/Armenian/php-saml/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/Armenian/php-saml/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/Armenian/php-saml/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/Armenian/php-saml/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/Armenian/php-saml/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/Armenian/php-saml/languages",
+                "stargazers_url": "https://api.github.com/repos/Armenian/php-saml/stargazers",
+                "contributors_url": "https://api.github.com/repos/Armenian/php-saml/contributors",
+                "subscribers_url": "https://api.github.com/repos/Armenian/php-saml/subscribers",
+                "subscription_url": "https://api.github.com/repos/Armenian/php-saml/subscription",
+                "commits_url": "https://api.github.com/repos/Armenian/php-saml/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/Armenian/php-saml/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/Armenian/php-saml/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/Armenian/php-saml/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/Armenian/php-saml/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/Armenian/php-saml/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/Armenian/php-saml/merges",
+                "archive_url": "https://api.github.com/repos/Armenian/php-saml/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/Armenian/php-saml/downloads",
+                "issues_url": "https://api.github.com/repos/Armenian/php-saml/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/Armenian/php-saml/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/Armenian/php-saml/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/Armenian/php-saml/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/Armenian/php-saml/labels{/name}",
+                "releases_url": "https://api.github.com/repos/Armenian/php-saml/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/Armenian/php-saml/deployments",
+                "created_at": "2023-10-15T10:15:45Z",
+                "updated_at": "2023-10-15T10:15:45Z",
+                "pushed_at": "2023-09-30T23:06:27Z",
+                "git_url": "git://github.com/Armenian/php-saml.git",
+                "ssh_url": "git@github.com:Armenian/php-saml.git",
+                "clone_url": "https://github.com/Armenian/php-saml.git",
+                "svn_url": "https://github.com/Armenian/php-saml",
+                "homepage": "",
+                "size": 4674,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-15T10:15:46Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32569432582",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 6642299,
+            "login": "Armenian",
+            "display_login": "Armenian",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Armenian",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6642299?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "forkee": {
+                "id": 705193434,
+                "node_id": "R_kgDOKghl2g",
+                "name": "php-saml",
+                "full_name": "Armenian/php-saml",
+                "private": false,
+                "owner": {
+                    "login": "Armenian",
+                    "id": 6642299,
+                    "node_id": "MDQ6VXNlcjY2NDIyOTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6642299?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Armenian",
+                    "html_url": "https://github.com/Armenian",
+                    "followers_url": "https://api.github.com/users/Armenian/followers",
+                    "following_url": "https://api.github.com/users/Armenian/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Armenian/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Armenian/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Armenian/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Armenian/orgs",
+                    "repos_url": "https://api.github.com/users/Armenian/repos",
+                    "events_url": "https://api.github.com/users/Armenian/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Armenian/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/Armenian/php-saml",
+                "description": "Simple SAML toolkit for PHP",
+                "fork": true,
+                "url": "https://api.github.com/repos/Armenian/php-saml",
+                "forks_url": "https://api.github.com/repos/Armenian/php-saml/forks",
+                "keys_url": "https://api.github.com/repos/Armenian/php-saml/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/Armenian/php-saml/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/Armenian/php-saml/teams",
+                "hooks_url": "https://api.github.com/repos/Armenian/php-saml/hooks",
+                "issue_events_url": "https://api.github.com/repos/Armenian/php-saml/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/Armenian/php-saml/events",
+                "assignees_url": "https://api.github.com/repos/Armenian/php-saml/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/Armenian/php-saml/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/Armenian/php-saml/tags",
+                "blobs_url": "https://api.github.com/repos/Armenian/php-saml/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/Armenian/php-saml/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/Armenian/php-saml/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/Armenian/php-saml/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/Armenian/php-saml/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/Armenian/php-saml/languages",
+                "stargazers_url": "https://api.github.com/repos/Armenian/php-saml/stargazers",
+                "contributors_url": "https://api.github.com/repos/Armenian/php-saml/contributors",
+                "subscribers_url": "https://api.github.com/repos/Armenian/php-saml/subscribers",
+                "subscription_url": "https://api.github.com/repos/Armenian/php-saml/subscription",
+                "commits_url": "https://api.github.com/repos/Armenian/php-saml/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/Armenian/php-saml/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/Armenian/php-saml/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/Armenian/php-saml/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/Armenian/php-saml/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/Armenian/php-saml/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/Armenian/php-saml/merges",
+                "archive_url": "https://api.github.com/repos/Armenian/php-saml/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/Armenian/php-saml/downloads",
+                "issues_url": "https://api.github.com/repos/Armenian/php-saml/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/Armenian/php-saml/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/Armenian/php-saml/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/Armenian/php-saml/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/Armenian/php-saml/labels{/name}",
+                "releases_url": "https://api.github.com/repos/Armenian/php-saml/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/Armenian/php-saml/deployments",
+                "created_at": "2023-10-15T10:13:13Z",
+                "updated_at": "2023-10-15T10:13:13Z",
+                "pushed_at": "2023-09-30T23:06:27Z",
+                "git_url": "git://github.com/Armenian/php-saml.git",
+                "ssh_url": "git@github.com:Armenian/php-saml.git",
+                "clone_url": "https://github.com/Armenian/php-saml.git",
+                "svn_url": "https://github.com/Armenian/php-saml",
+                "homepage": "",
+                "size": 4674,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-15T10:13:14Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32487526407",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 64137708,
+            "login": "jameshenderson12",
+            "display_login": "jameshenderson12",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jameshenderson12",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64137708?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-11T15:42:14Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32463467658",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 23142649,
+            "login": "FDHoho007",
+            "display_login": "FDHoho007",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/FDHoho007",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23142649?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-10T21:42:13Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32389796584",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 6393607,
+            "login": "YutaShibatsuji",
+            "display_login": "YutaShibatsuji",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YutaShibatsuji",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6393607?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-07T13:19:19Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32386649396",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 8295991,
+            "login": "gjimish",
+            "display_login": "gjimish",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gjimish",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8295991?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-07T06:06:47Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32381096492",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 36080867,
+            "login": "norepository",
+            "display_login": "norepository",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/norepository",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36080867?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-06T20:19:12Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32356794217",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 6226188,
+            "login": "jcs224",
+            "display_login": "jcs224",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jcs224",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6226188?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-06T00:37:50Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32295185627",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 443162,
+            "login": "vamenard",
+            "display_login": "vamenard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vamenard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/443162?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-04T01:45:06Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32279036033",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 89685613,
+            "login": "IT20150266",
+            "display_login": "IT20150266",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/IT20150266",
+            "avatar_url": "https://avatars.githubusercontent.com/u/89685613?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "forkee": {
+                "id": 699857306,
+                "node_id": "R_kgDOKbb5mg",
+                "name": "php-ssd",
+                "full_name": "IT20150266/php-ssd",
+                "private": false,
+                "owner": {
+                    "login": "IT20150266",
+                    "id": 89685613,
+                    "node_id": "MDQ6VXNlcjg5Njg1NjEz",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/89685613?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/IT20150266",
+                    "html_url": "https://github.com/IT20150266",
+                    "followers_url": "https://api.github.com/users/IT20150266/followers",
+                    "following_url": "https://api.github.com/users/IT20150266/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/IT20150266/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/IT20150266/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/IT20150266/subscriptions",
+                    "organizations_url": "https://api.github.com/users/IT20150266/orgs",
+                    "repos_url": "https://api.github.com/users/IT20150266/repos",
+                    "events_url": "https://api.github.com/users/IT20150266/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/IT20150266/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/IT20150266/php-ssd",
+                "description": "Simple SAML toolkit for PHP",
+                "fork": true,
+                "url": "https://api.github.com/repos/IT20150266/php-ssd",
+                "forks_url": "https://api.github.com/repos/IT20150266/php-ssd/forks",
+                "keys_url": "https://api.github.com/repos/IT20150266/php-ssd/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/IT20150266/php-ssd/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/IT20150266/php-ssd/teams",
+                "hooks_url": "https://api.github.com/repos/IT20150266/php-ssd/hooks",
+                "issue_events_url": "https://api.github.com/repos/IT20150266/php-ssd/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/IT20150266/php-ssd/events",
+                "assignees_url": "https://api.github.com/repos/IT20150266/php-ssd/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/IT20150266/php-ssd/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/IT20150266/php-ssd/tags",
+                "blobs_url": "https://api.github.com/repos/IT20150266/php-ssd/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/IT20150266/php-ssd/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/IT20150266/php-ssd/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/IT20150266/php-ssd/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/IT20150266/php-ssd/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/IT20150266/php-ssd/languages",
+                "stargazers_url": "https://api.github.com/repos/IT20150266/php-ssd/stargazers",
+                "contributors_url": "https://api.github.com/repos/IT20150266/php-ssd/contributors",
+                "subscribers_url": "https://api.github.com/repos/IT20150266/php-ssd/subscribers",
+                "subscription_url": "https://api.github.com/repos/IT20150266/php-ssd/subscription",
+                "commits_url": "https://api.github.com/repos/IT20150266/php-ssd/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/IT20150266/php-ssd/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/IT20150266/php-ssd/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/IT20150266/php-ssd/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/IT20150266/php-ssd/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/IT20150266/php-ssd/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/IT20150266/php-ssd/merges",
+                "archive_url": "https://api.github.com/repos/IT20150266/php-ssd/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/IT20150266/php-ssd/downloads",
+                "issues_url": "https://api.github.com/repos/IT20150266/php-ssd/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/IT20150266/php-ssd/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/IT20150266/php-ssd/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/IT20150266/php-ssd/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/IT20150266/php-ssd/labels{/name}",
+                "releases_url": "https://api.github.com/repos/IT20150266/php-ssd/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/IT20150266/php-ssd/deployments",
+                "created_at": "2023-10-03T13:33:02Z",
+                "updated_at": "2023-10-03T13:33:02Z",
+                "pushed_at": "2023-09-30T23:06:27Z",
+                "git_url": "git://github.com/IT20150266/php-ssd.git",
+                "ssh_url": "git@github.com:IT20150266/php-ssd.git",
+                "clone_url": "https://github.com/IT20150266/php-ssd.git",
+                "svn_url": "https://github.com/IT20150266/php-ssd",
+                "homepage": "",
+                "size": 4674,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-03T13:33:04Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32223311523",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15243517337,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "64c0d492aeec5b394c4cfdf23cb93e4a8054614f",
+            "before": "e4ff0466b03598723e6ef6204bd3c443abe6bf2b",
+            "commits": [
+                {
+                    "sha": "64c0d492aeec5b394c4cfdf23cb93e4a8054614f",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Rename pdf doc",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/64c0d492aeec5b394c4cfdf23cb93e4a8054614f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-30T23:06:28Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32214743406",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15237667117,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e4ff0466b03598723e6ef6204bd3c443abe6bf2b",
+            "before": "79cbb000fecf1bf77a95cbe4519ede567654ef16",
+            "commits": [
+                {
+                    "sha": "e4ff0466b03598723e6ef6204bd3c443abe6bf2b",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Add new documentation",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/e4ff0466b03598723e6ef6204bd3c443abe6bf2b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-30T01:20:26Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32214733580",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15237660940,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "79cbb000fecf1bf77a95cbe4519ede567654ef16",
+            "before": "546ca72a68e87d24f9b36d332c45bf8a2b57dbdc",
+            "commits": [
+                {
+                    "sha": "79cbb000fecf1bf77a95cbe4519ede567654ef16",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Remove deprecated docs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/79cbb000fecf1bf77a95cbe4519ede567654ef16"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-30T01:18:53Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32214667963",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5900728,
+            "login": "yphoenix",
+            "display_login": "yphoenix",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yphoenix",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5900728?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/562",
+                "repository_url": "https://api.github.com/repos/SAML-Toolkits/php-saml",
+                "labels_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/562/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/562/comments",
+                "events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/562/events",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/562",
+                "id": 1825298834,
+                "node_id": "I_kwDOAAqr9s5sy9mS",
+                "number": 562,
+                "title": "Issue decrypting signed assertion under PHP 8.1 (7.4 is just fine)",
+                "user": {
+                    "login": "yphoenix",
+                    "id": 5900728,
+                    "node_id": "MDQ6VXNlcjU5MDA3Mjg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5900728?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/yphoenix",
+                    "html_url": "https://github.com/yphoenix",
+                    "followers_url": "https://api.github.com/users/yphoenix/followers",
+                    "following_url": "https://api.github.com/users/yphoenix/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/yphoenix/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/yphoenix/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/yphoenix/subscriptions",
+                    "organizations_url": "https://api.github.com/users/yphoenix/orgs",
+                    "repos_url": "https://api.github.com/users/yphoenix/repos",
+                    "events_url": "https://api.github.com/users/yphoenix/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/yphoenix/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 15,
+                "created_at": "2023-07-27T22:17:07Z",
+                "updated_at": "2023-09-30T01:09:26Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Starting with the response......\r\n```\r\n<ns5:Response\r\n\txmlns:ns5=\"urn:oasis:names:tc:SAML:2.0:protocol\"\r\n\txmlns=\"http://www.w3.org/2009/xmlenc11#\"\r\n\txmlns:ns2=\"urn:oasis:names:tc:SAML:2.0:assertion\"\r\n\txmlns:ns3=\"http://www.w3.org/2000/09/xmldsig#\"\r\n\txmlns:ns4=\"http://www.w3.org/2001/04/xmlenc#\" Destination=\"https://xxxx\" ID=\"xxx\" InResponseTo=\"ONELOGIN_81aeef9ca3d98b3fa3e505164baff00b3aeeab16\" IssueInstant=\"2023-07-26T23:35:07.423Z\" Version=\"2.0\">\r\n\t<ns2:Issuer Format=\"urn:oasis:names:tc:SAML:2.0:nameid-format:entity\">xxx</ns2:Issuer>\r\n\t<ds:Signature\r\n\t\txmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\">\r\n\t\t<ds:SignedInfo>\r\n\t\t\t<ds:CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/>\r\n\t\t\t<ds:SignatureMethod Algorithm=\"http://www.w3.org/2001/04/xmldsig-more#rsa-sha256\"/>\r\n\t\t\t<ds:Reference URI=\"#_a13a2e99a1a23945f8d58c5df3f781772c47\">\r\n\t\t\t\t<ds:Transforms>\r\n\t\t\t\t\t<ds:Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\"/>\r\n\t\t\t\t\t<ds:Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/>\r\n\t\t\t\t</ds:Transforms>\r\n\t\t\t\t<ds:DigestMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#sha256\"/>\r\n\t\t\t\t<ds:DigestValue>xxxx=</ds:DigestValue>\r\n\t\t\t</ds:Reference>\r\n\t\t</ds:SignedInfo>\r\n\t\t<ds:SignatureValue>xxx==</ds:SignatureValue>\r\n\t\t<ds:KeyInfo\r\n\t\t\txmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\">\r\n\t\t\t<ds:X509Data>\r\n\t\t\t\t<ds:X509Certificate>MIIFxxxxx=</ds:X509Certificate>\r\n\t\t\t</ds:X509Data>\r\n\t\t</ds:KeyInfo>\r\n\t</ds:Signature>\r\n\t<ns5:Status>\r\n\t\t<ns5:StatusCode Value=\"urn:oasis:names:tc:SAML:2.0:status:Success\"/>\r\n\t</ns5:Status>\r\n\t<ns2:EncryptedAssertion\r\n\t\txmlns=\"http://www.w3.org/2009/xmlenc11#\"\r\n\t\txmlns:ns2=\"urn:oasis:names:tc:SAML:2.0:assertion\"\r\n\t\txmlns:ns3=\"http://www.w3.org/2000/09/xmldsig#\"\r\n\t\txmlns:ns4=\"http://www.w3.org/2001/04/xmlenc#\"\r\n\t\txmlns:ns5=\"urn:oasis:names:tc:SAML:2.0:protocol\">\r\n\t\t<xenc:EncryptedData\r\n\t\t\txmlns:xenc=\"http://www.w3.org/2001/04/xmlenc#\" Type=\"http://www.w3.org/2001/04/xmlenc#Element\">\r\n\t\t\t<xenc:EncryptionMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#aes256-cbc\"/>\r\n\t\t\t<ds:KeyInfo\r\n\t\t\t\txmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\">\r\n\t\t\t\t<xenc:EncryptedKey\r\n\t\t\t\t\txmlns:xenc=\"http://www.w3.org/2001/04/xmlenc#\">\r\n\t\t\t\t\t<xenc:EncryptionMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p\"/>\r\n\t\t\t\t\t<xenc:CipherData>\r\n\t\t\t\t\t\t<xenc:CipherValue>xxxxx==</xenc:CipherValue>\r\n\t\t\t\t\t</xenc:CipherData>\r\n\t\t\t\t</xenc:EncryptedKey>\r\n\t\t\t\t<ds:X509Data>\r\n\t\t\t\t\t<ds:X509Certificate>MIIGMxxxxxx</ds:X509Certificate>\r\n\t\t\t\t</ds:X509Data>\r\n\t\t\t</ds:KeyInfo>\r\n\t\t\t<xenc:CipherData>\r\n\t\t\t\t<xenc:CipherValue>xxxxx</xenc:CipherValue>\r\n\t\t\t</xenc:CipherData>\r\n\t\t</xenc:EncryptedData>\r\n\t</ns2:EncryptedAssertion>\r\n</ns5:Response>\r\n```\r\n\r\nIt all gets decrypted just fine (8.1 & 7.4), ...\r\n```\r\n<ns2:Assertion xmlns:ns2=\"urn:oasis:names:tc:SAML:2.0:assertion\" ID=\"_f1a2269c3902a05d627c7829ab8e3eed50bd\" IssueInstant=\"2023-07-26T23:35:07.423Z\" Version=\"2.0\">\r\n        <ns2:Issuer Format=\"urn:oasis:names:tc:SAML:2.0:nameid-format:entity\">xxx</ns2:Issuer><ds:Signature xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm=\"http://www.w3.org/2001/04/xmldsig-more#rsa-sha256\"></ds:SignatureMethod><ds:Reference URI=\"#_f1a2269c3902a05d627c7829ab8e3eed50bd\"><ds:Transforms><ds:Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\"></ds:Transform><ds:Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#sha256\"></ds:DigestMethod><ds:DigestValue>xxx=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>xxx==</ds:SignatureValue><ds:KeyInfo xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"><ds:X509Data><ds:X509Certificate>MIIF...=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>\r\n        <ns2:Subject>\r\n            <ns2:NameID Format=\"urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified\">1039893981</ns2:NameID>\r\n            <ns2:SubjectConfirmation Method=\"urn:oasis:names:tc:SAML:2.0:cm:bearer\">\r\n                <ns2:SubjectConfirmationData InResponseTo=\"ONELOGIN_81aeef9ca3d98b3fa3e505164baff00b3aeeab16\" NotOnOrAfter=\"2023-07-26T23:36:37.407Z\" Recipient=\"xxx\"></ns2:SubjectConfirmationData>\r\n            </ns2:SubjectConfirmation>\r\n        </ns2:Subject>\r\n        <ns2:Conditions NotBefore=\"2023-07-26T23:34:37.407Z\" NotOnOrAfter=\"2023-07-26T23:36:37.407Z\">\r\n            <ns2:AudienceRestriction>\r\n                <ns2:Audience>xxx</ns2:Audience>\r\n            </ns2:AudienceRestriction>\r\n        </ns2:Conditions>\r\n        <ns2:AuthnStatement AuthnInstant=\"2023-07-26T23:34:32.401Z\" SessionIndex=\"Qn7OdKYdWW5JzPPHtWEeGjGmM54=YbXNfA==\">\r\n            <ns2:AuthnContext>\r\n                <ns2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</ns2:AuthnContextClassRef>\r\n            </ns2:AuthnContext>\r\n        </ns2:AuthnStatement>\r\n        <ns2:AttributeStatement>\r\n\t\t\t...\r\n        </ns2:AttributeStatement>\r\n</ns2:Assertion>\r\n```\r\n\r\nIn particular the ds:Signature section..\r\n```\r\n<ds:Signature xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm=\"http://www.w3.org/2001/04/xmldsig-more#rsa-sha256\"></ds:SignatureMethod><ds:Reference URI=\"#_f1a2269c3902a05d627c7829ab8e3eed50bd\"><ds:Transforms><ds:Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\"></ds:Transform><ds:Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#sha256\"></ds:DigestMethod><ds:DigestValue>xxx=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>xxx==</ds:SignatureValue><ds:KeyInfo xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"><ds:X509Data><ds:X509Certificate>MIIF...=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>\r\n```\r\n\r\nNow all goes well until the decrypted XML is merged in to replace the encrypted XML in the `Utils::treeCopyReplace()` routine\r\nAfter which it becomes...\r\n**PHP 7.4**\r\n```\r\n<ns2:Assertion xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" ID=\"_f1a2269c3902a05d627c7829ab8e3eed50bd\" IssueInstant=\"2023-07-26T23:35:07.423Z\" Version=\"2.0\">\r\n        <ns2:Issuer Format=\"urn:oasis:names:tc:SAML:2.0:nameid-format:entity\">xxx</ns2:Issuer><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod...\r\n```\r\nAll OK, but **PHP 8.1**\r\n```\r\n<ns2:Assertion xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" ID=\"_f1a2269c3902a05d627c7829ab8e3eed50bd\" IssueInstant=\"2023-07-26T23:35:07.423Z\" Version=\"2.0\">\r\n        <ns2:Issuer Format=\"urn:oasis:names:tc:SAML:2.0:nameid-format:entity\">xxx</ns2:Issuer><ns3:Signature><ns3:SignedInfo><ds:CanonicalizationMethod ...\r\n```\r\nThe `<ds:...>` blocks become `<ns3:...>` blocks and of course the signature then fails.... because the data that was signed has been mangled and become something else.\r\n\r\nNote: PHP 7.4, perfect, 8.1, not so much.\r\n\r\nThanks",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/562/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/562/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1741613930",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/issues/562#issuecomment-1741613930",
+                "issue_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/562",
+                "id": 1741613930,
+                "node_id": "IC_kwDOAAqr9s5nzutq",
+                "user": {
+                    "login": "yphoenix",
+                    "id": 5900728,
+                    "node_id": "MDQ6VXNlcjU5MDA3Mjg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5900728?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/yphoenix",
+                    "html_url": "https://github.com/yphoenix",
+                    "followers_url": "https://api.github.com/users/yphoenix/followers",
+                    "following_url": "https://api.github.com/users/yphoenix/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/yphoenix/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/yphoenix/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/yphoenix/subscriptions",
+                    "organizations_url": "https://api.github.com/users/yphoenix/orgs",
+                    "repos_url": "https://api.github.com/users/yphoenix/repos",
+                    "events_url": "https://api.github.com/users/yphoenix/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/yphoenix/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-09-30T01:09:26Z",
+                "updated_at": "2023-09-30T01:09:26Z",
+                "author_association": "NONE",
+                "body": "That is an interesting idea, however, first I need to check that it is indeed fixed in 8.1.25 and then decided whether to work on a fix that is needed for PHP 8.1.21-8.1.24 (and appropriate 8.2 / 8.3 versions) or suggest that it is documented that they are broken and leave it at that.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments/1741613930/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-30T01:09:27Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32214208930",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15237321031,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "546ca72a68e87d24f9b36d332c45bf8a2b57dbdc",
+            "before": "df28f27e456b23542795b18d2f64b4e64996039e",
+            "commits": [
+                {
+                    "sha": "546ca72a68e87d24f9b36d332c45bf8a2b57dbdc",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Fix payload for old library's tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/546ca72a68e87d24f9b36d332c45bf8a2b57dbdc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-30T00:09:35Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32214159496",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 565,
+            "pull_request": {
+                "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/565",
+                "id": 1525854000,
+                "node_id": "PR_kwDOAAqr9s5a8q8w",
+                "html_url": "https://github.com/SAML-Toolkits/php-saml/pull/565",
+                "diff_url": "https://github.com/SAML-Toolkits/php-saml/pull/565.diff",
+                "patch_url": "https://github.com/SAML-Toolkits/php-saml/pull/565.patch",
+                "issue_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/565",
+                "number": 565,
+                "state": "closed",
+                "locked": false,
+                "title": "Test openssl",
+                "user": {
+                    "login": "pitbulk",
+                    "id": 600897,
+                    "node_id": "MDQ6VXNlcjYwMDg5Nw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/600897?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/pitbulk",
+                    "html_url": "https://github.com/pitbulk",
+                    "followers_url": "https://api.github.com/users/pitbulk/followers",
+                    "following_url": "https://api.github.com/users/pitbulk/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/pitbulk/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/pitbulk/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/pitbulk/subscriptions",
+                    "organizations_url": "https://api.github.com/users/pitbulk/orgs",
+                    "repos_url": "https://api.github.com/users/pitbulk/repos",
+                    "events_url": "https://api.github.com/users/pitbulk/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/pitbulk/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2023-09-22T02:28:54Z",
+                "updated_at": "2023-09-30T00:03:31Z",
+                "closed_at": "2023-09-30T00:03:31Z",
+                "merged_at": null,
+                "merge_commit_sha": "847d7668e8e3c4e5b3f3c0e5585d3df0c2e74070",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/565/commits",
+                "review_comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/565/comments",
+                "review_comment_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/565/comments",
+                "statuses_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/statuses/9f6b9898e606f7decb35adf6a9d0a528e3bc9ee6",
+                "head": {
+                    "label": "SAML-Toolkits:test_openssl",
+                    "ref": "test_openssl",
+                    "sha": "9f6b9898e606f7decb35adf6a9d0a528e3bc9ee6",
+                    "user": {
+                        "login": "SAML-Toolkits",
+                        "id": 116213842,
+                        "node_id": "O_kgDOBu1IUg",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/116213842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/SAML-Toolkits",
+                        "html_url": "https://github.com/SAML-Toolkits",
+                        "followers_url": "https://api.github.com/users/SAML-Toolkits/followers",
+                        "following_url": "https://api.github.com/users/SAML-Toolkits/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/SAML-Toolkits/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/SAML-Toolkits/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/SAML-Toolkits/subscriptions",
+                        "organizations_url": "https://api.github.com/users/SAML-Toolkits/orgs",
+                        "repos_url": "https://api.github.com/users/SAML-Toolkits/repos",
+                        "events_url": "https://api.github.com/users/SAML-Toolkits/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/SAML-Toolkits/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 699382,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk2OTkzODI=",
+                        "name": "php-saml",
+                        "full_name": "SAML-Toolkits/php-saml",
+                        "private": false,
+                        "owner": {
+                            "login": "SAML-Toolkits",
+                            "id": 116213842,
+                            "node_id": "O_kgDOBu1IUg",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/SAML-Toolkits",
+                            "html_url": "https://github.com/SAML-Toolkits",
+                            "followers_url": "https://api.github.com/users/SAML-Toolkits/followers",
+                            "following_url": "https://api.github.com/users/SAML-Toolkits/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/SAML-Toolkits/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/SAML-Toolkits/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/SAML-Toolkits/subscriptions",
+                            "organizations_url": "https://api.github.com/users/SAML-Toolkits/orgs",
+                            "repos_url": "https://api.github.com/users/SAML-Toolkits/repos",
+                            "events_url": "https://api.github.com/users/SAML-Toolkits/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/SAML-Toolkits/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/SAML-Toolkits/php-saml",
+                        "description": "Simple SAML toolkit for PHP",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/SAML-Toolkits/php-saml",
+                        "forks_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/forks",
+                        "keys_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/teams",
+                        "hooks_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/hooks",
+                        "issue_events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/events",
+                        "assignees_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/tags",
+                        "blobs_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/languages",
+                        "stargazers_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/stargazers",
+                        "contributors_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/contributors",
+                        "subscribers_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/subscribers",
+                        "subscription_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/subscription",
+                        "commits_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/merges",
+                        "archive_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/downloads",
+                        "issues_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/deployments",
+                        "created_at": "2010-06-02T15:40:42Z",
+                        "updated_at": "2023-09-28T14:26:13Z",
+                        "pushed_at": "2023-09-30T00:02:04Z",
+                        "git_url": "git://github.com/SAML-Toolkits/php-saml.git",
+                        "ssh_url": "git@github.com:SAML-Toolkits/php-saml.git",
+                        "clone_url": "https://github.com/SAML-Toolkits/php-saml.git",
+                        "svn_url": "https://github.com/SAML-Toolkits/php-saml",
+                        "homepage": "",
+                        "size": 3664,
+                        "stargazers_count": 1139,
+                        "watchers_count": 1139,
+                        "language": "PHP",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 484,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 41,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 484,
+                        "open_issues": 41,
+                        "watchers": 1139,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "SAML-Toolkits:4.x-dev",
+                    "ref": "4.x-dev",
+                    "sha": "786baa5de9f622aeaa36b57358c9142962f8d1f5",
+                    "user": {
+                        "login": "SAML-Toolkits",
+                        "id": 116213842,
+                        "node_id": "O_kgDOBu1IUg",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/116213842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/SAML-Toolkits",
+                        "html_url": "https://github.com/SAML-Toolkits",
+                        "followers_url": "https://api.github.com/users/SAML-Toolkits/followers",
+                        "following_url": "https://api.github.com/users/SAML-Toolkits/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/SAML-Toolkits/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/SAML-Toolkits/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/SAML-Toolkits/subscriptions",
+                        "organizations_url": "https://api.github.com/users/SAML-Toolkits/orgs",
+                        "repos_url": "https://api.github.com/users/SAML-Toolkits/repos",
+                        "events_url": "https://api.github.com/users/SAML-Toolkits/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/SAML-Toolkits/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 699382,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk2OTkzODI=",
+                        "name": "php-saml",
+                        "full_name": "SAML-Toolkits/php-saml",
+                        "private": false,
+                        "owner": {
+                            "login": "SAML-Toolkits",
+                            "id": 116213842,
+                            "node_id": "O_kgDOBu1IUg",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/SAML-Toolkits",
+                            "html_url": "https://github.com/SAML-Toolkits",
+                            "followers_url": "https://api.github.com/users/SAML-Toolkits/followers",
+                            "following_url": "https://api.github.com/users/SAML-Toolkits/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/SAML-Toolkits/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/SAML-Toolkits/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/SAML-Toolkits/subscriptions",
+                            "organizations_url": "https://api.github.com/users/SAML-Toolkits/orgs",
+                            "repos_url": "https://api.github.com/users/SAML-Toolkits/repos",
+                            "events_url": "https://api.github.com/users/SAML-Toolkits/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/SAML-Toolkits/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/SAML-Toolkits/php-saml",
+                        "description": "Simple SAML toolkit for PHP",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/SAML-Toolkits/php-saml",
+                        "forks_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/forks",
+                        "keys_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/teams",
+                        "hooks_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/hooks",
+                        "issue_events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/events",
+                        "assignees_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/tags",
+                        "blobs_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/languages",
+                        "stargazers_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/stargazers",
+                        "contributors_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/contributors",
+                        "subscribers_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/subscribers",
+                        "subscription_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/subscription",
+                        "commits_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/merges",
+                        "archive_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/downloads",
+                        "issues_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/SAML-Toolkits/php-saml/deployments",
+                        "created_at": "2010-06-02T15:40:42Z",
+                        "updated_at": "2023-09-28T14:26:13Z",
+                        "pushed_at": "2023-09-30T00:02:04Z",
+                        "git_url": "git://github.com/SAML-Toolkits/php-saml.git",
+                        "ssh_url": "git@github.com:SAML-Toolkits/php-saml.git",
+                        "clone_url": "https://github.com/SAML-Toolkits/php-saml.git",
+                        "svn_url": "https://github.com/SAML-Toolkits/php-saml",
+                        "homepage": "",
+                        "size": 3664,
+                        "stargazers_count": 1139,
+                        "watchers_count": 1139,
+                        "language": "PHP",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 484,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 41,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 484,
+                        "open_issues": 41,
+                        "watchers": 1139,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/565"
+                    },
+                    "html": {
+                        "href": "https://github.com/SAML-Toolkits/php-saml/pull/565"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/565"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/SAML-Toolkits/php-saml/issues/565/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/565/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/SAML-Toolkits/php-saml/pulls/565/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/SAML-Toolkits/php-saml/statuses/9f6b9898e606f7decb35adf6a9d0a528e3bc9ee6"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": true,
+                "rebaseable": false,
+                "mergeable_state": "unstable",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 4,
+                "additions": 13,
+                "deletions": 13,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-30T00:03:32Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32214146537",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15237284421,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "df28f27e456b23542795b18d2f64b4e64996039e",
+            "before": "b7e078fa4a0037bb76ae356bc1b1f29c997eabfe",
+            "commits": [
+                {
+                    "sha": "df28f27e456b23542795b18d2f64b4e64996039e",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Set NotOnOrAfter to year 2993 so payloads not expire",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/df28f27e456b23542795b18d2f64b4e64996039e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-30T00:02:05Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32213856758",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15237118833,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/3.x-dev",
+            "head": "ba61295cdf53944fd2e458161009a9adf28f802b",
+            "before": "6084aac24cdd67904471745ef24ce8bddf9b3fa4",
+            "commits": [
+                {
+                    "sha": "071dcfc941c175608b38eaca6e2b77b08da2f8a1",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Set NotOnOrAfter to year 2993 so payloads not expire",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/071dcfc941c175608b38eaca6e2b77b08da2f8a1"
+                },
+                {
+                    "sha": "ba61295cdf53944fd2e458161009a9adf28f802b",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Fix generateNameID tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/ba61295cdf53944fd2e458161009a9adf28f802b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-29T23:27:09Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32206408029",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15233307132,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/4.x-dev",
+            "head": "bc21928d646a114629dda7e7587f133a2ac20270",
+            "before": "516ab9db37b54ff593186ba6a8b6d921e57b2505",
+            "commits": [
+                {
+                    "sha": "bc21928d646a114629dda7e7587f133a2ac20270",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Fix genrateNameID tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/bc21928d646a114629dda7e7587f133a2ac20270"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-29T16:14:31Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32205438277",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15232836427,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/4.x-dev",
+            "head": "516ab9db37b54ff593186ba6a8b6d921e57b2505",
+            "before": "786baa5de9f622aeaa36b57358c9142962f8d1f5",
+            "commits": [
+                {
+                    "sha": "516ab9db37b54ff593186ba6a8b6d921e57b2505",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Set NotOnOrAfter to year 2993 so payloads not expire",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/516ab9db37b54ff593186ba6a8b6d921e57b2505"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-29T15:33:20Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    },
+    {
+        "id": "32195959336",
+        "type": "PushEvent",
+        "actor": {
+            "id": 600897,
+            "login": "pitbulk",
+            "display_login": "pitbulk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pitbulk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/600897?"
+        },
+        "repo": {
+            "id": 699382,
+            "name": "SAML-Toolkits/php-saml",
+            "url": "https://api.github.com/repos/SAML-Toolkits/php-saml"
+        },
+        "payload": {
+            "repository_id": 699382,
+            "push_id": 15228109359,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/test_openssl",
+            "head": "9f6b9898e606f7decb35adf6a9d0a528e3bc9ee6",
+            "before": "61e868e916b2365fc1607a1107fefceb170938b7",
+            "commits": [
+                {
+                    "sha": "9f6b9898e606f7decb35adf6a9d0a528e3bc9ee6",
+                    "author": {
+                        "email": "pitbulk@gmail.com",
+                        "name": "Sixto Martin"
+                    },
+                    "message": "Fix paths",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/SAML-Toolkits/php-saml/commits/9f6b9898e606f7decb35adf6a9d0a528e3bc9ee6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-29T09:11:32Z",
+        "org": {
+            "id": 116213842,
+            "login": "SAML-Toolkits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SAML-Toolkits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116213842?"
+        }
+    }
+]

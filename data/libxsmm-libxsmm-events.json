@@ -1,0 +1,2846 @@
+[
+    {
+        "id": "32889352825",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22852324,
+            "login": "f6ra07nk14",
+            "display_login": "f6ra07nk14",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/f6ra07nk14",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22852324?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:06:17Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32878782531",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15581637555,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "6199767acfcf188c98761c6de78512d4290de2c7",
+            "before": "409283f573a1010bd5aaaf79d433fe1db02e9530",
+            "commits": [
+                {
+                    "sha": "6199767acfcf188c98761c6de78512d4290de2c7",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Fixed comverts for vl256 to be non-permute based",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/6199767acfcf188c98761c6de78512d4290de2c7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:46:42Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32856132638",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15570553227,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "409283f573a1010bd5aaaf79d433fe1db02e9530",
+            "before": "73198380b1cbf686a4101b9b287bdf03538d81f8",
+            "commits": [
+                {
+                    "sha": "90aa0c1669d0ac0d25ed3ec4069b1fa19e7d7d99",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Throw error in case we don;t support the u4u8i32 kernel",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/90aa0c1669d0ac0d25ed3ec4069b1fa19e7d7d99"
+                },
+                {
+                    "sha": "7f37f2e1c2e7671687b01231e3590db60675fcf9",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Added more checks",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/7f37f2e1c2e7671687b01231e3590db60675fcf9"
+                },
+                {
+                    "sha": "409283f573a1010bd5aaaf79d433fe1db02e9530",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "driver ammend",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/409283f573a1010bd5aaaf79d433fe1db02e9530"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:45:38Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32852122487",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15568378361,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "73198380b1cbf686a4101b9b287bdf03538d81f8",
+            "before": "3098dd625762a4f47df5ad2fd91b18b5002834c3",
+            "commits": [
+                {
+                    "sha": "73198380b1cbf686a4101b9b287bdf03538d81f8",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Updated allowlists",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/73198380b1cbf686a4101b9b287bdf03538d81f8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T23:42:17Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32845726114",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15565197664,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "3098dd625762a4f47df5ad2fd91b18b5002834c3",
+            "before": "f5efdc5dfb16e78f431d6cd697370de60a2016a8",
+            "commits": [
+                {
+                    "sha": "3098dd625762a4f47df5ad2fd91b18b5002834c3",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Added offs br fix for  < amx",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/3098dd625762a4f47df5ad2fd91b18b5002834c3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T18:29:12Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32818683717",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "feature_spplit_f16_fma",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-24T23:11:58Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32786274609",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15535613640,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "f5efdc5dfb16e78f431d6cd697370de60a2016a8",
+            "before": "1af57e78824a7a58d17adf368229b5b74224e460",
+            "commits": [
+                {
+                    "sha": "f5efdc5dfb16e78f431d6cd697370de60a2016a8",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Using Mx1 tileblocking whenever possible",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/f5efdc5dfb16e78f431d6cd697370de60a2016a8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T22:08:17Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32710990553",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "main_stable",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-20T04:33:03Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32710990293",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-20T04:33:02Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32710981842",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "hfp_main",
+            "ref_type": "branch",
+            "master_branch": "main_stable",
+            "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-20T04:32:20Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32710981743",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-20T04:32:20Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32678572716",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15478618940,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "1af57e78824a7a58d17adf368229b5b74224e460",
+            "before": "d9135117d127f8368cd230cc8c131d70583b425a",
+            "commits": [
+                {
+                    "sha": "1af57e78824a7a58d17adf368229b5b74224e460",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Adjusted sample size",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/1af57e78824a7a58d17adf368229b5b74224e460"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T04:58:59Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32678352522",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15478514779,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "d9135117d127f8368cd230cc8c131d70583b425a",
+            "before": "97eda69e04d6ae8f189d487023100f1c3ee1d887",
+            "commits": [
+                {
+                    "sha": "d9135117d127f8368cd230cc8c131d70583b425a",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "COrrect kernel name",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/d9135117d127f8368cd230cc8c131d70583b425a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T04:44:57Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32678107347",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15478389459,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "97eda69e04d6ae8f189d487023100f1c3ee1d887",
+            "before": "30f826b90a262c9611ad1e6b764d3a50fb857599",
+            "commits": [
+                {
+                    "sha": "97eda69e04d6ae8f189d487023100f1c3ee1d887",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "More CI fixes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/97eda69e04d6ae8f189d487023100f1c3ee1d887"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T04:27:55Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32669377468",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15473901610,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "30f826b90a262c9611ad1e6b764d3a50fb857599",
+            "before": "a8df64b8d16a82afc57549a55325747a06189bbe",
+            "commits": [
+                {
+                    "sha": "30f826b90a262c9611ad1e6b764d3a50fb857599",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Fixed CI",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/30f826b90a262c9611ad1e6b764d3a50fb857599"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T19:35:47Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32668522046",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15473482528,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "a8df64b8d16a82afc57549a55325747a06189bbe",
+            "before": "e9c5a623f566374320879714d704f3e81a6b9bc5",
+            "commits": [
+                {
+                    "sha": "a8df64b8d16a82afc57549a55325747a06189bbe",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Added unit tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/a8df64b8d16a82afc57549a55325747a06189bbe"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T19:00:41Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32667908860",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15473178876,
+            "size": 16,
+            "distinct_size": 7,
+            "ref": "refs/heads/feature_i4i8_vnni_gemms",
+            "head": "e9c5a623f566374320879714d704f3e81a6b9bc5",
+            "before": "e7593047f9e42ddaf5153f39775cb5246ce8f9d7",
+            "commits": [
+                {
+                    "sha": "7e3539e8b014782dd41497bae009e229a228bd08",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 1: align users to new buildkite setup",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/7e3539e8b014782dd41497bae009e229a228bd08"
+                },
+                {
+                    "sha": "95c78452feac2aff857965c7421ebfc89b362c53",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 2: Fake env script to map to system compilers",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/95c78452feac2aff857965c7421ebfc89b362c53"
+                },
+                {
+                    "sha": "81fd0fb0336272d91666f6533efdd1d277d02e14",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 3: using system versions of binutils and datamash",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/81fd0fb0336272d91666f6533efdd1d277d02e14"
+                },
+                {
+                    "sha": "1d413b14c37a8e16b04d34ff826a9d02a7816ece",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 4: Don't use Intel Python (we don't install this anymore with\noneapi)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/1d413b14c37a8e16b04d34ff826a9d02a7816ece"
+                },
+                {
+                    "sha": "69a6b1fb086d62a4810891d47eb4de4990fe623a",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 5: reverting 55d523557a0c2bfc0824a7c2067bd9fd22a1f2aa",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/69a6b1fb086d62a4810891d47eb4de4990fe623a"
+                },
+                {
+                    "sha": "b74430587a2c9b84cd9bf710ff0db69dc760835d",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 6: adopting new buildkite agent name",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/b74430587a2c9b84cd9bf710ff0db69dc760835d"
+                },
+                {
+                    "sha": "887343665a48655b1798bd8f5d2681e56318cd7a",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 7: admend b74430587",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/887343665a48655b1798bd8f5d2681e56318cd7a"
+                },
+                {
+                    "sha": "732ec72777cf41fb4e9bd31f1eec2ad4c1d73744",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "Finalize Windows support (#822)\n\n* added xmm6-xmm16 state save under window to GEMM kernel\r\n\r\n* Added xmm parts of Windows x64 ABI, right now no optimization is preformed to avoid using xmm6-xmm15\r\n\r\n* Fixed Warning when compiling in VS2022\r\n\r\n* fixed code length tracking",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/732ec72777cf41fb4e9bd31f1eec2ad4c1d73744"
+                },
+                {
+                    "sha": "54b8bb32042d204ff6fe550fa70d961f22c0b99e",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "Merging refactors of \"main\" branch back to \"main_stable\" (#825)\n\n* Print command-line into LIBXSMM_MATDIFF-log.\r\n\r\n* Updated API documentation/comments.\r\n\r\n* Fixed minor typo (code comment).\r\n\r\n* Updated convert test after #758. With stochastic rounding based on portable RNG, related LP-conversion can always be tested.\r\n\r\n* Reformulated libxsmm_stochastic_convert_fp32_bf8 (equivalent) to extract scalar variant, i.e., to separate stochastic implementation from LP-conversion.\r\n\r\n* Separated stochastic implementation from LP-conversion.\r\n\r\n* Use full RNG-state instead of truncating RNG-state to scalar bit-width.\r\n\r\n* Updated environment (GCC 11.4).\r\n\r\n* tool_report.py: fixed building list of filenames.\r\n\r\n* tool_logrept.sh: keep output in sync and avoid using stdout and stderr in the same script.\r\n\r\n* Improved error messages (generator).\r\n\r\n* Revised handling signals. Handle SIGSEGV.\r\n\r\n* Updated allow-list for A64FX (Bf8-related).\r\n\r\n* Append to PATH (rather than prepend) to avoid hiding alternative Python environment when sourced by ENV_PYTHON=1.\r\n\r\n* tool_report.py: refined condition for untied plots.\r\n\r\n* Realign libxsmm_stochastic_convert_fp32_bf8 to exactly match implementation of main_stable branch. This will be revisited once stochastic rounding implementation is settled.\r\n\r\n* tool_report.py: fixed label (legend).\r\n\r\n* Avoid potential compilation warning about type-conversion.\r\n\r\n* More compatible/defensive compiler flags (Makefile.inc).\r\n\r\n* tool_pexec.sh: disabled logfile(s) by default (it is more suitable to enable logging rather than disabling it).\r\n\r\n* Avoid trailing white space (libxsmm_print_cmdline).\r\n\r\n* Fixed measured up-time after rip-out of timer API.\r\n\r\n* Fixed typos in code comments.\r\n\r\n* Modernized eltwise to rely on libxsmm_matdiff_epsilon (benefit of LIBXSMM_MATDIFF-tool, etc).\r\n\r\n* Modernized equation tests to rely on libxsmm_matdiff_epsilon (benefit of LIBXSMM_MATDIFF-tool, and more robust norm, etc).\r\n\r\n* Complemented 4c5547e8d57bc52cf28c1d7a4038808826bcf052.\r\n\r\n* Adjusted/tightened bounds (equation_layernorm).\r\n\r\n* Eventually amend LIBXSMM_MATDIFF output with error bound since different bounds are populated depending on actual case/formula.\r\n\r\n* Tightened error bounds (eltwise).\r\n\r\n* Adjusted console output (newline).\r\n\r\n* Improved math test (LIBXSMM_UPF).\r\n\r\n* Introduced LIBXSMM_FSSPMDM_DENSE_BIAS (FsSpMDM).\r\n\r\n* Rely on libxsmm_matdiff_epsilon (TODO: adjust margin).\r\n\r\n* Cleanup console output.\r\n\r\n* Updated error margin.\r\n\r\n* Updated error margins.\r\n\r\n* Avoid potential division by zero (calculated speedup). Code cleanup.\r\n\r\n* Updated error margins. Code cleanup.\r\n\r\n* Improved accuracy of division (libxsmm_timer_duration_rtc). Rely on clock_gettime_nsec_np (OSX).\r\n\r\n* Print newline.\r\n\r\n* Code cleanup (libxsmm_coprime2).\r\n\r\n* Introduced LIBXSMM_MATDIFF_SHUFFLE optionally shuffling input sequence to avoid numerical emphasis because of somewhat ascend/descendant ordered numbers.\r\n\r\n* Limit warning about LIBXSMM_TARGET beyond CPUID to NDEBUG (verbose output), and avoid calling CPUID at all if LIBXSMM_TARGET is given. This regime allows easier debugging under ARM since no SIGILL must be handled, etc.\r\n\r\n* Fixed code/format conformance (libxsmm_get_ulp_precision).\r\n\r\n* Reset error bounds (unary simple), and introduced separate bounds for legacy/baseline ARM64 (TODO: tighten new bounds or fix OP-accuracy/Newton for ASIMD).\r\n\r\n* Code cleanup.\r\n\r\n* Code cleanup (libxsmm_timer_tick_rtc/libxsmm_timer_duration_rtc).\r\n\r\n* Fixed typo.\r\n\r\n* Tightened an error bound.\r\n\r\n* Code cleanup.\r\n\r\n* Separate error bounds.\r\n\r\n* Updated error bounds.\r\n\r\n* Code cleanup and call libxsmm_rng_set_seed.\r\n\r\n* Updated error bound.\r\n\r\n* Code cleanup.\r\n\r\n* Fixed testing for existing directory in case of empty input (Makefile.inc).\r\n\r\n* Avoid non-portable flag under BSD (join).\r\n\r\n* Fixed opreduce script generating test-scripts (chmod executable flag).\r\n\r\n* Adjusted error bound.\r\n\r\n* Updated error bounds.\r\n\r\n* Adjusted error message.\r\n\r\n* Avoid warning about constant condition.\r\n\r\n* Avoid warning about constant condition.\r\n\r\n* Adjusted API of libxsmm_shuffle (libxsmm_memory.h).\r\n\r\n* Code cleanup.\r\n\r\n* Disabled CHECK_REALLOC under Windows.\r\n\r\n* More accurate LIBXSMM_PAGE_MINSIZE.\r\n\r\n* Conditional error depending on platform (#775).\r\n\r\n* Consolidated handling errors in libxsmm_malloc_xattrib (#775).\r\n\r\n* More reasonable internal limits (in-place shuffle).\r\n\r\n* Avoid repeated error message.\r\n\r\n* Attempt to improve targeting AArch64 under Windows.\r\n\r\n* Improved portability and platform support.\r\n\r\n* Renamed LIBXSMM_CPUID_ARM_MRS to LIBXSMM_ARM_MRS. Attempt to implement LIBXSMM_TIMER_RDTSC on AArch64 (disabled).\r\n\r\n* Removed some platform specific flow.\r\n\r\n* Enabled LIBXSMM_TIMER_RDTSC on AArch64.\r\n\r\n* Fixed warning about unused variable.\r\n\r\n* Fixed potential warning.\r\n\r\n* Fixed 12bedaa00210fc7427bc19c4e53f556b42027fe0.\r\n\r\n* Disable verbosity during PyFR benchmark.\r\n\r\n* Report tool: Removed non-portable flags, and adjusted flow to encode image (base64). Added option for debugging script (PyFR).\r\n\r\n* Eltwise: support generating test-scripts in an out-of-tree fashion Ensure all temporary files are removed at exit (generate_unary_transform_test_scripts.sh); there cannot be multiple EXIT-traps per script.\r\n\r\n* Support generating test-scripts in an out-of-tree fashion (xgemm).\r\n\r\n* Use EXIT-trap to remove temporary file (equation tests).\r\n\r\n* Complement 7ecd3320401206145ac04c79d01ed5fa115e4dd7.\r\n\r\n* tool_pexec.sh: cleanup.\r\n\r\n* Revert \"Use EXIT-trap to remove temporary file (equation tests).\"\r\n\r\nThis reverts commit accc23ee56a03d35374d6d7889e5b27483cec9cb.\r\n\r\n* Adjusted error margin.\r\n\r\n* Limit environment setup/restore (tool_test.sh). Introduced option to omit absolute path values (tool_envrestore.sh).\r\n\r\n* Complement 31395852f11708e611077c3a385d8cb35172e9f3.\r\n\r\n* Minor improvement of driver code (FsSpMDM).\r\n\r\n* Fixed a typo (40c3e8a49ce93b7e5371957394050d27e4cd4553).\r\n\r\n* Avoid uploading same artifacts multiple times.\r\n\r\n* Complemented/fixed e2dc979ffb75ec2e29aa76c91f7f06e0708da622.\r\n\r\n* Emit warning only if founded by feature not present.\r\n\r\n* Avoid potential compilation warning.\r\n\r\n* Makefile.inc: disabled forcing coherent flags between Fortran and C/C++ (if CTARGET was accepted by Fortran compiler). Improved mixed compiler setup under MacOS, i.e., GFortran and Native/Clang/Apple compiler (added library search-path towards libSystem to LDFLAGS).\r\n\r\n* Get rid of local path when uploading artifact from an out-of-tree directory.\r\n\r\n* MacOS: account for non-Clang/Apple compiler on newer OS/SDK (Makefile.inc).\r\n\r\n* PyFR: print validation results in expected order (X vs Gold).\r\n\r\n* Avoid RNG-based initialization for reproducible initialization across platforms.\r\n\r\n* PyFR: print location of largest error.\r\n\r\n* Code cleanup.\r\n\r\n* Capture shared library file-pattern for all supported platforms (#783).\r\n\r\n* Avoid warning/remark about missing prototype. Made libxsmm_get_gemm_typename use LIBXSMM_API_INLINE requiring no prototype and effectively making the function private/internal (not part of the API).\r\n\r\n* Enable DB-backup even if no new entry/input was provided (-i \"\"). Adjusted condition for retention to allow trimming DB without need to rely on two command-line flags. Limit warning message to invalid filename/directory.\r\n\r\n* Adjusted condition for rebuilding plots (untied).\r\n\r\n* Revised handling retention to allow pruning the DB. Fixed filtering branch.\r\n\r\n* Updated ABI specification.\r\n\r\n* Fixed warning about unused variable. Include missing translation units (VS project).\r\n\r\n* Adjusted error margin.\r\n\r\n* Fixed typos (code comments, etc).\r\n\r\n* Removed all occurrences of JUMP_LABEL_TRACKER_MALLOC\r\n\r\n* The tracker was free'd at scope's end, which is exactly what the stack based tracker serves.\r\n* If there was a case for malloc not being free in the same scope, it was a resources leak.\r\n* This code caused static analysis (SA) to claim resource leakage, e.g., in case of an error (LIBXSMM_HANDLE_ERROR+return).\r\n* The issue was raised by recently added BCSC code not covering all error paths by freeing memory (pending SA issues).\r\n* Removed all JUMP_LABEL_TRACKER_MALLOC related code and rely on pointing to stack based loop-label tracker.\r\n* Note: some BE-functions still get the tracker as well as the microkernel-config as part of their arguments.\r\n* TODO: let libxsmm_micro_kernel_config embed tracker by-value, not by-pointer?\r\n\r\n* Fix an issue with zero rows with FsSpMDM on NEON.\r\n\r\n* Avoid relying on temporary index-buffer (libxsmm_shuffle).\r\n\r\n* tool_report.py: judge result/deviation against bounds based on current vs last value unless considering the trend (against median of history).\r\n\r\n* Fixed #787.\r\n\r\n* tool_report.py: check index before access.\r\n\r\n* tool_envrestore.sh: evaluate strict settings even in immediate mode.\r\n\r\n* Updated/improved documentation of tool_report and tool_pexec.\r\n\r\n* Regenerated documentation. Updated/added requirements (Python).\r\n\r\n* Workaround incorrect signature (LIBATOMIC=1).\r\n\r\n* Fixed order of variable definition (Makefile.inc).\r\n\r\n* Updated environment (Clang 16.0.6)\r\n\r\n* Simplified transferring the environment.\r\n\r\n* tool_envrestore.sh: transfer paths if parent exists on target (even in strict mode), and always prune path-like values to cover existing parent directories.\r\n\r\n* Unset IFS.\r\n\r\n* tool_test.sh: minor cleanup/simplification.\r\n\r\n* tool_envrestore.sh: avoid non-portable flag (diff), and adjusted strict mode.\r\n\r\n* tool_test.sh: modernized echoing and piping variables (cleanup).\r\n\r\n* tool_envrestore.sh: introduced proper command-line interface and introduced option to translate values of environment variables (search and replace).\r\n\r\n* Install tool_envrestore.sh (make install-dev).\r\n\r\n* tool_envrestore.sh: fixed appending to existing values. Improved help output (also shown in case of an error).\r\n\r\n* Conforming signature to rely on size_t (libxsmm_rng_seq).\r\n\r\n* Extended and improved tests (memory primitives).\r\n\r\n* Added sample (shuffle). Include sample code in VS project.\r\n\r\n* Fixed warning about comparing signed and unsigned integer.\r\n\r\n* Avoid (de-)referencing NULL-pointer (libxsmm_matrix_eqns[idx]).\r\n\r\n* Revised base environment.\r\n\r\n* Use PYTHON environment variable instead of ENV_PYTHONBIN. Do not attempt to install Python packages when source'ing base-environment.\r\n\r\n* Install requested Python packages (tool_test.sh).\r\n\r\n* tool_envrestore.sh: revised environment transfer.\r\n\r\n* tool_envrestore.sh: prepend rather than append to existing environment variables.\r\n\r\n* tool_envrestore.sh: fixed pattern.\r\n\r\n* Reformatted (black -l79).\r\n\r\n* tool_normalize.sh: integrated Black and Shellcheck (optional). Minor modernization (EXIT trap).\r\n\r\n* Improved shuffle/2 and sample code.\r\n\r\n* Improved libxsmm_shuffle and sample code. Code cleanup.\r\n\r\n* Fixed typo.\r\n\r\n* Fixed typo.\r\n\r\n* Improved test (memory). Adjusted shuffle implementation (minor).\r\n\r\n* Improved test (memory). Adjusted shuffle implementation (minor).\r\n\r\n* tool_report.py: extended \"untied\" argument to allow an optional string (not considered yet).\r\n\r\n* tool_report.py: handle invalid input more robustly (try/except).\r\n\r\n* tool_report.py: optionally flatten multi-value plots completely (one axis per entry)\r\n\r\n* Adjusted untied command-line argument to be interpreted as an integer level.\r\n* Wired LOGRPTSEP into revise untied-flag.\r\n\r\n* tool_report.py: fixed code conformance/warnings (flake8).\r\n\r\n* tool_report.py: revised setup of grouped and flat plots.\r\n\r\n* Simplified embedding artifact URL.\r\n\r\n* Reinstated removal of JUMP_LABEL_TRACKER_MALLOC after merge.\r\n\r\n* tool_envrestore.sh: made strict restore the default, and introduced --unrestricted.\r\n\r\n* Slightly modernized performance.sh.\r\n\r\n* tool_logrept.sh: revised launching DBSCRT (eval), and syntactically avoid echoing a variable into a command-pipeline.\r\n\r\n* tool_logrept.sh: fixed quoting command.\r\n\r\n* Avoid name-clash in certain environments.\r\n\r\n* tool_report.py: improved console output.\r\n\r\n* tool_report.py: purify (down-)loaded logs (remove Escape sequences).\r\n\r\n* tool_report.py: adjusted default margin.\r\n\r\n* tool_pexec.sh: allow under-subscription (PEXEC_SP<0).\r\n\r\n* Updated environment (GCC 10.5.0)\r\n\r\n* tool_logrept.sh: fallback to tool_report.py if wrapper is not available.\r\n\r\n* Fixed issues pointed out by Shellcheck.\r\n\r\n* PyFR: adjusted error handling of script.\r\n\r\n* tool_test.sh: support additional/fallback upload path (artifacts).\r\n\r\n* tool_logrept.sh: support alternative database location. Cleanup.\r\n\r\n* Adjusted command association for scripts running under debug (set -xv).\r\n\r\n* tool_logrept.sh: fixed quoting.\r\n\r\n* tool_test.sh: implemented ARTIFACT_UPLOAD_DB, and adjusted tool_logrept.sh accordingly.\r\n\r\n* Updated upload path (artifacts).\r\n\r\n* Upload artifacts according to ARTIFACT_UPLOAD_PATTERN.\r\n\r\n* Revert \"Updated upload path (artifacts).\"\r\n\r\nThis reverts commit ce30a9d53fe659c83a0b4d5a7a70e13494a576d4.\r\n\r\n* Fixed and simplified uploading/downloading artifacts.\r\n\r\n* Fixed uploading artifacts. Cleanup.\r\n\r\n* tool_test.sh: fixed ARTIFACT_UPLOAD_DB.\r\n\r\n* tool_test.sh: rely on artifact_download function.\r\n\r\n* Code cleanup.\r\n\r\n* Optionally measure entropy of shuffled data.\r\n\r\n* Rely on local variables in Bash function (artifact_download). Fixed issue pointed out by Shellcheck.\r\n\r\n* Fixed compilation warnings. Adjusted console output.\r\n\r\n* Improved sample code (shuffle).\r\n\r\n* Improved sample code (shuffle).\r\n\r\n* Introduced WARNING message when GNU=1 was requested but CXX, CC, or FC are defined.\r\n\r\n* tool_report.py: adjusted margin (deviation).\r\n\r\n* Fixed compilation warnings.\r\n\r\n* Calculate move-distance (average).\r\n\r\n* Fixed a typo.\r\n\r\n* Count actual number of swaps during shuffle (permutation). Code cleanup.\r\n\r\n* Avoid compilation warning (type conversion; printf).\r\n\r\n* Improved tests (libxsmm_coprime/2).\r\n\r\n* Code cleanup.\r\n\r\n* Updated MkDocs (v1.5.2).\r\n\r\n* Updated documentation.\r\n\r\n* Adjusted sample code (equation_gather_dot and equation_gather_bcstmul_add) for main branch (libxsmm_intrinsics_x86.h -> utils/libxsmm_intrinsics_x86.h). Added VC project files.\r\n\r\n* Adjusted expression.\r\n\r\n* Updated environment (GCC 13.2).\r\n\r\n* Streamlined and commented code.\r\n\r\n* Improved/simplified syntax (minor).\r\n\r\n* Enable header-only installation for out-of-tree builds (related to https://github.com/libxsmm/libxsmm-dnn/issues/17#issuecomment-1681763034).\r\n\r\n* Removed cumbersome dependency treating libxsmm_hash.c as header/include file.\r\n* Moved libxsmm_matdiff.h into source directory.\r\n\r\n* Support removing an existing PREFIX when \"make PREFIX=... install\" (CLEAN=1).\r\n\r\n* Makefile.inc: allow to keep build state (STATEFLT=0). Permit deletion of PREFIX location if CLEAN=1 is given (removed test about HOME-location).\r\n\r\n* CI: removed \"clxap\" and \"clxaptrb\" (similar to or complements #809).\r\n\r\n* Adjusted sample code for portability, use signed integer for OpenMP-loop. Added VS project.\r\n\r\n* Updated documentation with section about \"Verification\". [skip ci]\r\n\r\n* See https://blog.readthedocs.com/migrate-configuration-v2/\r\n\r\n* Updated Git-attributes.\r\n\r\n* Enforce GNU if requested.\r\n\r\n* Complemented ae5647b8cef4a2f8524d3805f19bce45bfd8707e.\r\n\r\n* slight re-org of incl. such that an user of the LIBXSMM doesn't have to\r\ndecide between incl. utils and none utils directory\r\n\r\n* admend a7bb26179\r\n\r\n* removed comment\r\n\r\n* fixed type mismatches in vnni_pack example\r\n\r\n* revert some of the changes, this is for easier debugging of new TPPs,\r\nthus the reverted code is under #if 0\r\n\r\n* fixed some datatypes in static code printer\r\n\r\n---------\r\n\r\nCo-authored-by: Hans Pabst <hans.pabst@intel.com>\r\nCo-authored-by: Freddie Witherden <freddie@witherden.org>",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/54b8bb32042d204ff6fe550fa70d961f22c0b99e"
+                },
+                {
+                    "sha": "cc1ed28f1ca25f09d44b047246a091ea186f7abd",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Merge branch 'main_stable' into feature_i4i8_vnni_gemms",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/cc1ed28f1ca25f09d44b047246a091ea186f7abd"
+                },
+                {
+                    "sha": "9a6680559c989170f66077fc500ff3c170832fb5",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Used CLX instruction sequence for the zero pts conversion",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/9a6680559c989170f66077fc500ff3c170832fb5"
+                },
+                {
+                    "sha": "6cfe1bfe0ac2d2632debf77f23642ecc37547f9d",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Started adding infra from i4i8 on amx",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/6cfe1bfe0ac2d2632debf77f23642ecc37547f9d"
+                },
+                {
+                    "sha": "6d39cc00ec640bbafa81d97917970a051afa77e3",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Got strdbrgemms and gemms working",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/6d39cc00ec640bbafa81d97917970a051afa77e3"
+                },
+                {
+                    "sha": "8c1608476a57f07b1e5dfcc015aa2fd23ee5dafe",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Added loop and prefetches fr dequant",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/8c1608476a57f07b1e5dfcc015aa2fd23ee5dafe"
+                },
+                {
+                    "sha": "02621b40a40addbe17a4a15e609114238abfa32b",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Added in some refactoring",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/02621b40a40addbe17a4a15e609114238abfa32b"
+                },
+                {
+                    "sha": "e9c5a623f566374320879714d704f3e81a6b9bc5",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "egeorgan"
+                    },
+                    "message": "Added fincs in header file",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/e9c5a623f566374320879714d704f3e81a6b9bc5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T18:36:28Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32613383506",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15446498280,
+            "size": 27,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature_sse_eltwise",
+            "head": "e1d24b9e07392fdc27e919d4bf4dcdfaec880e67",
+            "before": "330523e94151419fc3608ba6316b615b650be540",
+            "commits": [
+                {
+                    "sha": "f26a393a4f8ace9b56ac46ef86d8b977cde9ffea",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "Added LLM KV Cache / some GNN equation samples  (#802)\n\n* added initial gold implementation for kvcache 1 benchmark\r\n\r\n* added verious tpp implementations\r\n\r\n* use smaller blocking for GEMM path\r\n\r\n* added equation version for mul + reduce\r\n\r\n* added also gather + mul + reduce\r\n\r\n* added compiler version benchmarking\r\n\r\n* added AVX512 intrinsic version\r\n\r\n* attempt to fix CI\r\n\r\n* attempt to fix CI\r\n\r\n* renamed filed & functions\r\n\r\n* add second kv cache driver\r\n\r\n* added initial tpp implementation\r\n\r\n* renamed file\r\n\r\n* fixed bug in intrinsic code\r\n\r\n* cleaned-up the implementation\r\n\r\n* enable CI for new added equations",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/f26a393a4f8ace9b56ac46ef86d8b977cde9ffea"
+                },
+                {
+                    "sha": "b60cc3f63f6ec709f526c2c4b4a43434695c9e5a",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "uint4fp16 and uint8fp16/unit8bf16 GEMM (#801)\n\n* added usigned int4 weight and f16 activation kernel\r\n\r\n* renamed variable\r\n\r\n* added uint8 * fp16/bf16 kernel",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/b60cc3f63f6ec709f526c2c4b4a43434695c9e5a"
+                },
+                {
+                    "sha": "c38c752f2d6dba92ffcbecc5f40d2bd652684d00",
+                    "author": {
+                        "email": "heinecke.alex@gmail.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "fixed out-of-tree build",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/c38c752f2d6dba92ffcbecc5f40d2bd652684d00"
+                },
+                {
+                    "sha": "78695ed5b3d924a9434d335084e4d68234473294",
+                    "author": {
+                        "email": "hans.pabst@intel.com",
+                        "name": "Hans Pabst"
+                    },
+                    "message": "Backported frontend/implementation updates. (#807)\n\n* Updated ABI spec (outdated on main_stable).\r\n* Bugfixed src/libxsmm_matrixeqn.c.\r\n* Improved tests (corner cases).",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/78695ed5b3d924a9434d335084e4d68234473294"
+                },
+                {
+                    "sha": "44580e8a589dd6301875cddd9ad44ef50bdfd317",
+                    "author": {
+                        "email": "hans.pabst@intel.com",
+                        "name": "Hans Pabst"
+                    },
+                    "message": "Issue #790: restore error bounds/logic. (#808)\n\n* It can be assumed libxsmm_matdiff_epsilon mostly impacted by normf_rel (old/new error bounds applicable before/after).\r\n* This keeps calculating error based on libxsmm_matdiff_epsilon (rather than normf_rel).\r\n* Any tighter error bounds introduced by #785 are kept (tighter is better).",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/44580e8a589dd6301875cddd9ad44ef50bdfd317"
+                },
+                {
+                    "sha": "b6c972229ecdd7a6178400e1f5496d128b17d985",
+                    "author": {
+                        "email": "hans.pabst@intel.com",
+                        "name": "Hans Pabst"
+                    },
+                    "message": "Backported environment, scripts, build system, samples, and documentation updates (#806)\n\n* Updated environment and requirements.\r\n\r\n* Updated/added Visual Studio projects and new sample code.\r\n\r\n* Main/stable: backported build system updates (Makefile*).\r\n\r\n* Main/stable: backported documentation updates.\r\n\r\n* Main/stable: backported script updates.\r\n\r\n* Main/stable: backported sample updates.\r\n\r\n---------\r\n\r\nCo-authored-by: Alexander Heinecke <alexander.heinecke@intel.com>",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/b6c972229ecdd7a6178400e1f5496d128b17d985"
+                },
+                {
+                    "sha": "3ce7e7bdcfc8dc577044487961a3375583eac4e8",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "Standalone VNNI Pack example for benchmarking against TPP-MLIR (#800)\n\n* added initial vnni pack standalone driver\r\n\r\n* fixed initial implementation\r\n\r\n* added LIBXSMM kernels",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/3ce7e7bdcfc8dc577044487961a3375583eac4e8"
+                },
+                {
+                    "sha": "887a571ff7612a933e4f48971a9e035f344c6c87",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "Evangelos Georganas"
+                    },
+                    "message": "Feature add min col idx reduce (#810)\n\n* Added reduced cols idx min TPP\r\n\r\n* Added CI tests\r\n\r\n* Consolidated inf_acc flags",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/887a571ff7612a933e4f48971a9e035f344c6c87"
+                },
+                {
+                    "sha": "c639194c222894b4a6293fdedbe4e00d913fd59c",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "Remove Support for KNL and KNM (#809)\n\n* removed support for KNL and KNM\r\n\r\n* additional fix\r\n\r\n* more fixes\r\n\r\n* removed unused variable\r\n\r\n* more touch ups\r\n\r\n* one more fix\r\n\r\n* fixed condition pointed out in review",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/c639194c222894b4a6293fdedbe4e00d913fd59c"
+                },
+                {
+                    "sha": "4e2273f0bb0ad2c82e5e55f0ac383203ab2aedf0",
+                    "author": {
+                        "email": "heinecke.alex@gmail.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "HOTFIX (as we cannot merge #812 at the moment): removing clxap from CI\ninfrastructure",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/4e2273f0bb0ad2c82e5e55f0ac383203ab2aedf0"
+                },
+                {
+                    "sha": "ac5609f33296db7585f6555b8fedaae508a4bde2",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "admend #809 (#813)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/ac5609f33296db7585f6555b8fedaae508a4bde2"
+                },
+                {
+                    "sha": "0d1610b6564d947e468a2f058cdc3eb9bd60d335",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "Evangelos Georganas"
+                    },
+                    "message": "Fixed mantissa threshold for hf8 overflow convert (#814)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/0d1610b6564d947e468a2f058cdc3eb9bd60d335"
+                },
+                {
+                    "sha": "55d523557a0c2bfc0824a7c2067bd9fd22a1f2aa",
+                    "author": {
+                        "email": "heinecke.alex@gmail.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "HOTFIX: temporarily reduce number of tested combinations to accomodate\nlimited CI resource during infrastructure renewal",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/55d523557a0c2bfc0824a7c2067bd9fd22a1f2aa"
+                },
+                {
+                    "sha": "39233961cdd27a66a5dda8705ef71e4e30bdf0b6",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "aligned norms across all tests, fixing #811 by switching back to old (#816)\n\nnorm",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/39233961cdd27a66a5dda8705ef71e4e30bdf0b6"
+                },
+                {
+                    "sha": "d561d3e4dbf99b92e2f4e78c041c8cbbd8042e1f",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "Evangelos Georganas"
+                    },
+                    "message": "Fix SPR BF16 AMX GEMM issues and introduce F16F16F32F16/F32 GEMMs with fusion (incl AMX) (#817)\n\n* First set of changes\r\n\r\n* Ammend for 4x1 blocking\r\n\r\n* Ammend to n blocking when having C vnni in the amx kernel\r\n\r\n* Started adding F16 amx kernel\r\n\r\n* Added f16 colbias\r\n\r\n* Added fixed f16 colbias\r\n\r\n* Added fusion in the gemm AMX f16 implementation\r\n\r\n* FIxed CI\r\n\r\n* Fixed sigmoid bf8/hf8 fused AMX\r\n\r\n* Fixed HF8/BF8 spr relu\r\n\r\n* Added fallback logic for bvnni and spr\r\n\r\n* Ammend to rpevious commit\r\n\r\n* Fixed f16 fusion scipts\r\n\r\n* Ypdated CI sscripts and allowlists\r\n\r\n* gnr f16 amx fixes\r\n\r\n* Cleaned up comments\r\n\r\n* MOdularized converts\r\n\r\n* Fix CI",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/d561d3e4dbf99b92e2f4e78c041c8cbbd8042e1f"
+                },
+                {
+                    "sha": "e4a511ceb3525ce062cecec4b23d6c8aed075083",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "Evangelos Georganas"
+                    },
+                    "message": "Added knob to control srf max n gemm blocking (#820)\n\n* Added knob to control srf max n gemm blocking\r\n\r\n* Fix CI\r\n\r\n* Ammend to PR",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/e4a511ceb3525ce062cecec4b23d6c8aed075083"
+                },
+                {
+                    "sha": "648a279b30e30dbb28f992c88e2f75538e9b0557",
+                    "author": {
+                        "email": "evangelos.georganas@intel.com",
+                        "name": "Evangelos Georganas"
+                    },
+                    "message": "Enhance reduce cols idx tpp (#821)\n\n* Unified PF specific code\r\n\r\n* Simplified x86 code\r\n\r\n* Simplified aarch64 generator\r\n\r\n* Added some infra\r\n\r\n* Fixed instr selection\r\n\r\n* Fixed inf acc init\r\n\r\n* infra for aarch64 codegen\r\n\r\n* Removed unused var\r\n\r\n* Removed dead code\r\n\r\n* Added support for unary reduce min\r\n\r\n* Fixed compilation issue\r\n\r\n* Removed opreduce composite TPP",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/648a279b30e30dbb28f992c88e2f75538e9b0557"
+                },
+                {
+                    "sha": "7e3539e8b014782dd41497bae009e229a228bd08",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 1: align users to new buildkite setup",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/7e3539e8b014782dd41497bae009e229a228bd08"
+                },
+                {
+                    "sha": "95c78452feac2aff857965c7421ebfc89b362c53",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 2: Fake env script to map to system compilers",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/95c78452feac2aff857965c7421ebfc89b362c53"
+                },
+                {
+                    "sha": "81fd0fb0336272d91666f6533efdd1d277d02e14",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "CI-HOTFIX 3: using system versions of binutils and datamash",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/81fd0fb0336272d91666f6533efdd1d277d02e14"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-17T06:36:19Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32612984028",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "feature_broadcast_idx",
+            "ref_type": "branch",
+            "master_branch": "main_stable",
+            "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-17T06:17:01Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32612974518",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "feature_broadcast_idx",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-17T06:16:33Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32612971093",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "refactor_cienv_makebuild_fixes",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-17T06:16:22Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32612951227",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "refactor_and_fix_loop_label_tracker",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-17T06:15:23Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32612951473",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "feature_xsmm_v2",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-17T06:15:24Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32579203392",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "feature_main_merge",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-16T04:49:55Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32579202631",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15429705938,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main_stable",
+            "head": "54b8bb32042d204ff6fe550fa70d961f22c0b99e",
+            "before": "732ec72777cf41fb4e9bd31f1eec2ad4c1d73744",
+            "commits": [
+                {
+                    "sha": "54b8bb32042d204ff6fe550fa70d961f22c0b99e",
+                    "author": {
+                        "email": "alexander.heinecke@intel.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "Merging refactors of \"main\" branch back to \"main_stable\" (#825)\n\n* Print command-line into LIBXSMM_MATDIFF-log.\r\n\r\n* Updated API documentation/comments.\r\n\r\n* Fixed minor typo (code comment).\r\n\r\n* Updated convert test after #758. With stochastic rounding based on portable RNG, related LP-conversion can always be tested.\r\n\r\n* Reformulated libxsmm_stochastic_convert_fp32_bf8 (equivalent) to extract scalar variant, i.e., to separate stochastic implementation from LP-conversion.\r\n\r\n* Separated stochastic implementation from LP-conversion.\r\n\r\n* Use full RNG-state instead of truncating RNG-state to scalar bit-width.\r\n\r\n* Updated environment (GCC 11.4).\r\n\r\n* tool_report.py: fixed building list of filenames.\r\n\r\n* tool_logrept.sh: keep output in sync and avoid using stdout and stderr in the same script.\r\n\r\n* Improved error messages (generator).\r\n\r\n* Revised handling signals. Handle SIGSEGV.\r\n\r\n* Updated allow-list for A64FX (Bf8-related).\r\n\r\n* Append to PATH (rather than prepend) to avoid hiding alternative Python environment when sourced by ENV_PYTHON=1.\r\n\r\n* tool_report.py: refined condition for untied plots.\r\n\r\n* Realign libxsmm_stochastic_convert_fp32_bf8 to exactly match implementation of main_stable branch. This will be revisited once stochastic rounding implementation is settled.\r\n\r\n* tool_report.py: fixed label (legend).\r\n\r\n* Avoid potential compilation warning about type-conversion.\r\n\r\n* More compatible/defensive compiler flags (Makefile.inc).\r\n\r\n* tool_pexec.sh: disabled logfile(s) by default (it is more suitable to enable logging rather than disabling it).\r\n\r\n* Avoid trailing white space (libxsmm_print_cmdline).\r\n\r\n* Fixed measured up-time after rip-out of timer API.\r\n\r\n* Fixed typos in code comments.\r\n\r\n* Modernized eltwise to rely on libxsmm_matdiff_epsilon (benefit of LIBXSMM_MATDIFF-tool, etc).\r\n\r\n* Modernized equation tests to rely on libxsmm_matdiff_epsilon (benefit of LIBXSMM_MATDIFF-tool, and more robust norm, etc).\r\n\r\n* Complemented 4c5547e8d57bc52cf28c1d7a4038808826bcf052.\r\n\r\n* Adjusted/tightened bounds (equation_layernorm).\r\n\r\n* Eventually amend LIBXSMM_MATDIFF output with error bound since different bounds are populated depending on actual case/formula.\r\n\r\n* Tightened error bounds (eltwise).\r\n\r\n* Adjusted console output (newline).\r\n\r\n* Improved math test (LIBXSMM_UPF).\r\n\r\n* Introduced LIBXSMM_FSSPMDM_DENSE_BIAS (FsSpMDM).\r\n\r\n* Rely on libxsmm_matdiff_epsilon (TODO: adjust margin).\r\n\r\n* Cleanup console output.\r\n\r\n* Updated error margin.\r\n\r\n* Updated error margins.\r\n\r\n* Avoid potential division by zero (calculated speedup). Code cleanup.\r\n\r\n* Updated error margins. Code cleanup.\r\n\r\n* Improved accuracy of division (libxsmm_timer_duration_rtc). Rely on clock_gettime_nsec_np (OSX).\r\n\r\n* Print newline.\r\n\r\n* Code cleanup (libxsmm_coprime2).\r\n\r\n* Introduced LIBXSMM_MATDIFF_SHUFFLE optionally shuffling input sequence to avoid numerical emphasis because of somewhat ascend/descendant ordered numbers.\r\n\r\n* Limit warning about LIBXSMM_TARGET beyond CPUID to NDEBUG (verbose output), and avoid calling CPUID at all if LIBXSMM_TARGET is given. This regime allows easier debugging under ARM since no SIGILL must be handled, etc.\r\n\r\n* Fixed code/format conformance (libxsmm_get_ulp_precision).\r\n\r\n* Reset error bounds (unary simple), and introduced separate bounds for legacy/baseline ARM64 (TODO: tighten new bounds or fix OP-accuracy/Newton for ASIMD).\r\n\r\n* Code cleanup.\r\n\r\n* Code cleanup (libxsmm_timer_tick_rtc/libxsmm_timer_duration_rtc).\r\n\r\n* Fixed typo.\r\n\r\n* Tightened an error bound.\r\n\r\n* Code cleanup.\r\n\r\n* Separate error bounds.\r\n\r\n* Updated error bounds.\r\n\r\n* Code cleanup and call libxsmm_rng_set_seed.\r\n\r\n* Updated error bound.\r\n\r\n* Code cleanup.\r\n\r\n* Fixed testing for existing directory in case of empty input (Makefile.inc).\r\n\r\n* Avoid non-portable flag under BSD (join).\r\n\r\n* Fixed opreduce script generating test-scripts (chmod executable flag).\r\n\r\n* Adjusted error bound.\r\n\r\n* Updated error bounds.\r\n\r\n* Adjusted error message.\r\n\r\n* Avoid warning about constant condition.\r\n\r\n* Avoid warning about constant condition.\r\n\r\n* Adjusted API of libxsmm_shuffle (libxsmm_memory.h).\r\n\r\n* Code cleanup.\r\n\r\n* Disabled CHECK_REALLOC under Windows.\r\n\r\n* More accurate LIBXSMM_PAGE_MINSIZE.\r\n\r\n* Conditional error depending on platform (#775).\r\n\r\n* Consolidated handling errors in libxsmm_malloc_xattrib (#775).\r\n\r\n* More reasonable internal limits (in-place shuffle).\r\n\r\n* Avoid repeated error message.\r\n\r\n* Attempt to improve targeting AArch64 under Windows.\r\n\r\n* Improved portability and platform support.\r\n\r\n* Renamed LIBXSMM_CPUID_ARM_MRS to LIBXSMM_ARM_MRS. Attempt to implement LIBXSMM_TIMER_RDTSC on AArch64 (disabled).\r\n\r\n* Removed some platform specific flow.\r\n\r\n* Enabled LIBXSMM_TIMER_RDTSC on AArch64.\r\n\r\n* Fixed warning about unused variable.\r\n\r\n* Fixed potential warning.\r\n\r\n* Fixed 12bedaa00210fc7427bc19c4e53f556b42027fe0.\r\n\r\n* Disable verbosity during PyFR benchmark.\r\n\r\n* Report tool: Removed non-portable flags, and adjusted flow to encode image (base64). Added option for debugging script (PyFR).\r\n\r\n* Eltwise: support generating test-scripts in an out-of-tree fashion Ensure all temporary files are removed at exit (generate_unary_transform_test_scripts.sh); there cannot be multiple EXIT-traps per script.\r\n\r\n* Support generating test-scripts in an out-of-tree fashion (xgemm).\r\n\r\n* Use EXIT-trap to remove temporary file (equation tests).\r\n\r\n* Complement 7ecd3320401206145ac04c79d01ed5fa115e4dd7.\r\n\r\n* tool_pexec.sh: cleanup.\r\n\r\n* Revert \"Use EXIT-trap to remove temporary file (equation tests).\"\r\n\r\nThis reverts commit accc23ee56a03d35374d6d7889e5b27483cec9cb.\r\n\r\n* Adjusted error margin.\r\n\r\n* Limit environment setup/restore (tool_test.sh). Introduced option to omit absolute path values (tool_envrestore.sh).\r\n\r\n* Complement 31395852f11708e611077c3a385d8cb35172e9f3.\r\n\r\n* Minor improvement of driver code (FsSpMDM).\r\n\r\n* Fixed a typo (40c3e8a49ce93b7e5371957394050d27e4cd4553).\r\n\r\n* Avoid uploading same artifacts multiple times.\r\n\r\n* Complemented/fixed e2dc979ffb75ec2e29aa76c91f7f06e0708da622.\r\n\r\n* Emit warning only if founded by feature not present.\r\n\r\n* Avoid potential compilation warning.\r\n\r\n* Makefile.inc: disabled forcing coherent flags between Fortran and C/C++ (if CTARGET was accepted by Fortran compiler). Improved mixed compiler setup under MacOS, i.e., GFortran and Native/Clang/Apple compiler (added library search-path towards libSystem to LDFLAGS).\r\n\r\n* Get rid of local path when uploading artifact from an out-of-tree directory.\r\n\r\n* MacOS: account for non-Clang/Apple compiler on newer OS/SDK (Makefile.inc).\r\n\r\n* PyFR: print validation results in expected order (X vs Gold).\r\n\r\n* Avoid RNG-based initialization for reproducible initialization across platforms.\r\n\r\n* PyFR: print location of largest error.\r\n\r\n* Code cleanup.\r\n\r\n* Capture shared library file-pattern for all supported platforms (#783).\r\n\r\n* Avoid warning/remark about missing prototype. Made libxsmm_get_gemm_typename use LIBXSMM_API_INLINE requiring no prototype and effectively making the function private/internal (not part of the API).\r\n\r\n* Enable DB-backup even if no new entry/input was provided (-i \"\"). Adjusted condition for retention to allow trimming DB without need to rely on two command-line flags. Limit warning message to invalid filename/directory.\r\n\r\n* Adjusted condition for rebuilding plots (untied).\r\n\r\n* Revised handling retention to allow pruning the DB. Fixed filtering branch.\r\n\r\n* Updated ABI specification.\r\n\r\n* Fixed warning about unused variable. Include missing translation units (VS project).\r\n\r\n* Adjusted error margin.\r\n\r\n* Fixed typos (code comments, etc).\r\n\r\n* Removed all occurrences of JUMP_LABEL_TRACKER_MALLOC\r\n\r\n* The tracker was free'd at scope's end, which is exactly what the stack based tracker serves.\r\n* If there was a case for malloc not being free in the same scope, it was a resources leak.\r\n* This code caused static analysis (SA) to claim resource leakage, e.g., in case of an error (LIBXSMM_HANDLE_ERROR+return).\r\n* The issue was raised by recently added BCSC code not covering all error paths by freeing memory (pending SA issues).\r\n* Removed all JUMP_LABEL_TRACKER_MALLOC related code and rely on pointing to stack based loop-label tracker.\r\n* Note: some BE-functions still get the tracker as well as the microkernel-config as part of their arguments.\r\n* TODO: let libxsmm_micro_kernel_config embed tracker by-value, not by-pointer?\r\n\r\n* Fix an issue with zero rows with FsSpMDM on NEON.\r\n\r\n* Avoid relying on temporary index-buffer (libxsmm_shuffle).\r\n\r\n* tool_report.py: judge result/deviation against bounds based on current vs last value unless considering the trend (against median of history).\r\n\r\n* Fixed #787.\r\n\r\n* tool_report.py: check index before access.\r\n\r\n* tool_envrestore.sh: evaluate strict settings even in immediate mode.\r\n\r\n* Updated/improved documentation of tool_report and tool_pexec.\r\n\r\n* Regenerated documentation. Updated/added requirements (Python).\r\n\r\n* Workaround incorrect signature (LIBATOMIC=1).\r\n\r\n* Fixed order of variable definition (Makefile.inc).\r\n\r\n* Updated environment (Clang 16.0.6)\r\n\r\n* Simplified transferring the environment.\r\n\r\n* tool_envrestore.sh: transfer paths if parent exists on target (even in strict mode), and always prune path-like values to cover existing parent directories.\r\n\r\n* Unset IFS.\r\n\r\n* tool_test.sh: minor cleanup/simplification.\r\n\r\n* tool_envrestore.sh: avoid non-portable flag (diff), and adjusted strict mode.\r\n\r\n* tool_test.sh: modernized echoing and piping variables (cleanup).\r\n\r\n* tool_envrestore.sh: introduced proper command-line interface and introduced option to translate values of environment variables (search and replace).\r\n\r\n* Install tool_envrestore.sh (make install-dev).\r\n\r\n* tool_envrestore.sh: fixed appending to existing values. Improved help output (also shown in case of an error).\r\n\r\n* Conforming signature to rely on size_t (libxsmm_rng_seq).\r\n\r\n* Extended and improved tests (memory primitives).\r\n\r\n* Added sample (shuffle). Include sample code in VS project.\r\n\r\n* Fixed warning about comparing signed and unsigned integer.\r\n\r\n* Avoid (de-)referencing NULL-pointer (libxsmm_matrix_eqns[idx]).\r\n\r\n* Revised base environment.\r\n\r\n* Use PYTHON environment variable instead of ENV_PYTHONBIN. Do not attempt to install Python packages when source'ing base-environment.\r\n\r\n* Install requested Python packages (tool_test.sh).\r\n\r\n* tool_envrestore.sh: revised environment transfer.\r\n\r\n* tool_envrestore.sh: prepend rather than append to existing environment variables.\r\n\r\n* tool_envrestore.sh: fixed pattern.\r\n\r\n* Reformatted (black -l79).\r\n\r\n* tool_normalize.sh: integrated Black and Shellcheck (optional). Minor modernization (EXIT trap).\r\n\r\n* Improved shuffle/2 and sample code.\r\n\r\n* Improved libxsmm_shuffle and sample code. Code cleanup.\r\n\r\n* Fixed typo.\r\n\r\n* Fixed typo.\r\n\r\n* Improved test (memory). Adjusted shuffle implementation (minor).\r\n\r\n* Improved test (memory). Adjusted shuffle implementation (minor).\r\n\r\n* tool_report.py: extended \"untied\" argument to allow an optional string (not considered yet).\r\n\r\n* tool_report.py: handle invalid input more robustly (try/except).\r\n\r\n* tool_report.py: optionally flatten multi-value plots completely (one axis per entry)\r\n\r\n* Adjusted untied command-line argument to be interpreted as an integer level.\r\n* Wired LOGRPTSEP into revise untied-flag.\r\n\r\n* tool_report.py: fixed code conformance/warnings (flake8).\r\n\r\n* tool_report.py: revised setup of grouped and flat plots.\r\n\r\n* Simplified embedding artifact URL.\r\n\r\n* Reinstated removal of JUMP_LABEL_TRACKER_MALLOC after merge.\r\n\r\n* tool_envrestore.sh: made strict restore the default, and introduced --unrestricted.\r\n\r\n* Slightly modernized performance.sh.\r\n\r\n* tool_logrept.sh: revised launching DBSCRT (eval), and syntactically avoid echoing a variable into a command-pipeline.\r\n\r\n* tool_logrept.sh: fixed quoting command.\r\n\r\n* Avoid name-clash in certain environments.\r\n\r\n* tool_report.py: improved console output.\r\n\r\n* tool_report.py: purify (down-)loaded logs (remove Escape sequences).\r\n\r\n* tool_report.py: adjusted default margin.\r\n\r\n* tool_pexec.sh: allow under-subscription (PEXEC_SP<0).\r\n\r\n* Updated environment (GCC 10.5.0)\r\n\r\n* tool_logrept.sh: fallback to tool_report.py if wrapper is not available.\r\n\r\n* Fixed issues pointed out by Shellcheck.\r\n\r\n* PyFR: adjusted error handling of script.\r\n\r\n* tool_test.sh: support additional/fallback upload path (artifacts).\r\n\r\n* tool_logrept.sh: support alternative database location. Cleanup.\r\n\r\n* Adjusted command association for scripts running under debug (set -xv).\r\n\r\n* tool_logrept.sh: fixed quoting.\r\n\r\n* tool_test.sh: implemented ARTIFACT_UPLOAD_DB, and adjusted tool_logrept.sh accordingly.\r\n\r\n* Updated upload path (artifacts).\r\n\r\n* Upload artifacts according to ARTIFACT_UPLOAD_PATTERN.\r\n\r\n* Revert \"Updated upload path (artifacts).\"\r\n\r\nThis reverts commit ce30a9d53fe659c83a0b4d5a7a70e13494a576d4.\r\n\r\n* Fixed and simplified uploading/downloading artifacts.\r\n\r\n* Fixed uploading artifacts. Cleanup.\r\n\r\n* tool_test.sh: fixed ARTIFACT_UPLOAD_DB.\r\n\r\n* tool_test.sh: rely on artifact_download function.\r\n\r\n* Code cleanup.\r\n\r\n* Optionally measure entropy of shuffled data.\r\n\r\n* Rely on local variables in Bash function (artifact_download). Fixed issue pointed out by Shellcheck.\r\n\r\n* Fixed compilation warnings. Adjusted console output.\r\n\r\n* Improved sample code (shuffle).\r\n\r\n* Improved sample code (shuffle).\r\n\r\n* Introduced WARNING message when GNU=1 was requested but CXX, CC, or FC are defined.\r\n\r\n* tool_report.py: adjusted margin (deviation).\r\n\r\n* Fixed compilation warnings.\r\n\r\n* Calculate move-distance (average).\r\n\r\n* Fixed a typo.\r\n\r\n* Count actual number of swaps during shuffle (permutation). Code cleanup.\r\n\r\n* Avoid compilation warning (type conversion; printf).\r\n\r\n* Improved tests (libxsmm_coprime/2).\r\n\r\n* Code cleanup.\r\n\r\n* Updated MkDocs (v1.5.2).\r\n\r\n* Updated documentation.\r\n\r\n* Adjusted sample code (equation_gather_dot and equation_gather_bcstmul_add) for main branch (libxsmm_intrinsics_x86.h -> utils/libxsmm_intrinsics_x86.h). Added VC project files.\r\n\r\n* Adjusted expression.\r\n\r\n* Updated environment (GCC 13.2).\r\n\r\n* Streamlined and commented code.\r\n\r\n* Improved/simplified syntax (minor).\r\n\r\n* Enable header-only installation for out-of-tree builds (related to https://github.com/libxsmm/libxsmm-dnn/issues/17#issuecomment-1681763034).\r\n\r\n* Removed cumbersome dependency treating libxsmm_hash.c as header/include file.\r\n* Moved libxsmm_matdiff.h into source directory.\r\n\r\n* Support removing an existing PREFIX when \"make PREFIX=... install\" (CLEAN=1).\r\n\r\n* Makefile.inc: allow to keep build state (STATEFLT=0). Permit deletion of PREFIX location if CLEAN=1 is given (removed test about HOME-location).\r\n\r\n* CI: removed \"clxap\" and \"clxaptrb\" (similar to or complements #809).\r\n\r\n* Adjusted sample code for portability, use signed integer for OpenMP-loop. Added VS project.\r\n\r\n* Updated documentation with section about \"Verification\". [skip ci]\r\n\r\n* See https://blog.readthedocs.com/migrate-configuration-v2/\r\n\r\n* Updated Git-attributes.\r\n\r\n* Enforce GNU if requested.\r\n\r\n* Complemented ae5647b8cef4a2f8524d3805f19bce45bfd8707e.\r\n\r\n* slight re-org of incl. such that an user of the LIBXSMM doesn't have to\r\ndecide between incl. utils and none utils directory\r\n\r\n* admend a7bb26179\r\n\r\n* removed comment\r\n\r\n* fixed type mismatches in vnni_pack example\r\n\r\n* revert some of the changes, this is for easier debugging of new TPPs,\r\nthus the reverted code is under #if 0\r\n\r\n* fixed some datatypes in static code printer\r\n\r\n---------\r\n\r\nCo-authored-by: Hans Pabst <hans.pabst@intel.com>\r\nCo-authored-by: Freddie Witherden <freddie@witherden.org>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/54b8bb32042d204ff6fe550fa70d961f22c0b99e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-16T04:49:51Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32579202505",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 825,
+            "pull_request": {
+                "url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825",
+                "id": 1547212834,
+                "node_id": "PR_kwDOAXP2Fs5cOJgi",
+                "html_url": "https://github.com/libxsmm/libxsmm/pull/825",
+                "diff_url": "https://github.com/libxsmm/libxsmm/pull/825.diff",
+                "patch_url": "https://github.com/libxsmm/libxsmm/pull/825.patch",
+                "issue_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/825",
+                "number": 825,
+                "state": "closed",
+                "locked": false,
+                "title": "Merging refactors of \"main\" branch back to \"main_stable\"",
+                "user": {
+                    "login": "alheinecke",
+                    "id": 6407923,
+                    "node_id": "MDQ6VXNlcjY0MDc5MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6407923?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alheinecke",
+                    "html_url": "https://github.com/alheinecke",
+                    "followers_url": "https://api.github.com/users/alheinecke/followers",
+                    "following_url": "https://api.github.com/users/alheinecke/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alheinecke/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alheinecke/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alheinecke/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alheinecke/orgs",
+                    "repos_url": "https://api.github.com/users/alheinecke/repos",
+                    "events_url": "https://api.github.com/users/alheinecke/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alheinecke/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "The purpose of this PR is to rework \"main\" such that it's mergable to \"main_stable\" with minimal structural changes.",
+                "created_at": "2023-10-09T05:43:10Z",
+                "updated_at": "2023-10-16T04:49:50Z",
+                "closed_at": "2023-10-16T04:49:49Z",
+                "merged_at": "2023-10-16T04:49:49Z",
+                "merge_commit_sha": "54b8bb32042d204ff6fe550fa70d961f22c0b99e",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "hfp",
+                        "id": 6748085,
+                        "node_id": "MDQ6VXNlcjY3NDgwODU=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/6748085?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/hfp",
+                        "html_url": "https://github.com/hfp",
+                        "followers_url": "https://api.github.com/users/hfp/followers",
+                        "following_url": "https://api.github.com/users/hfp/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/hfp/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/hfp/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/hfp/subscriptions",
+                        "organizations_url": "https://api.github.com/users/hfp/orgs",
+                        "repos_url": "https://api.github.com/users/hfp/repos",
+                        "events_url": "https://api.github.com/users/hfp/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/hfp/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/commits",
+                "review_comments_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/comments",
+                "review_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/825/comments",
+                "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                "head": {
+                    "label": "libxsmm:feature_main_merge",
+                    "ref": "feature_main_merge",
+                    "sha": "b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                    "user": {
+                        "login": "libxsmm",
+                        "id": 73218023,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/libxsmm",
+                        "html_url": "https://github.com/libxsmm",
+                        "followers_url": "https://api.github.com/users/libxsmm/followers",
+                        "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                        "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                        "repos_url": "https://api.github.com/users/libxsmm/repos",
+                        "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 24376854,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNDM3Njg1NA==",
+                        "name": "libxsmm",
+                        "full_name": "libxsmm/libxsmm",
+                        "private": false,
+                        "owner": {
+                            "login": "libxsmm",
+                            "id": 73218023,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/libxsmm",
+                            "html_url": "https://github.com/libxsmm",
+                            "followers_url": "https://api.github.com/users/libxsmm/followers",
+                            "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                            "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                            "repos_url": "https://api.github.com/users/libxsmm/repos",
+                            "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/libxsmm/libxsmm",
+                        "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/libxsmm/libxsmm",
+                        "forks_url": "https://api.github.com/repos/libxsmm/libxsmm/forks",
+                        "keys_url": "https://api.github.com/repos/libxsmm/libxsmm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/libxsmm/libxsmm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/libxsmm/libxsmm/teams",
+                        "hooks_url": "https://api.github.com/repos/libxsmm/libxsmm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/libxsmm/libxsmm/events",
+                        "assignees_url": "https://api.github.com/repos/libxsmm/libxsmm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/libxsmm/libxsmm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/libxsmm/libxsmm/tags",
+                        "blobs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/libxsmm/libxsmm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/libxsmm/libxsmm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/libxsmm/libxsmm/languages",
+                        "stargazers_url": "https://api.github.com/repos/libxsmm/libxsmm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/libxsmm/libxsmm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/libxsmm/libxsmm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/libxsmm/libxsmm/subscription",
+                        "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/libxsmm/libxsmm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/libxsmm/libxsmm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/libxsmm/libxsmm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/libxsmm/libxsmm/merges",
+                        "archive_url": "https://api.github.com/repos/libxsmm/libxsmm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/libxsmm/libxsmm/downloads",
+                        "issues_url": "https://api.github.com/repos/libxsmm/libxsmm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/libxsmm/libxsmm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/libxsmm/libxsmm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/libxsmm/libxsmm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/libxsmm/libxsmm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/libxsmm/libxsmm/deployments",
+                        "created_at": "2014-09-23T15:20:20Z",
+                        "updated_at": "2023-10-07T14:00:07Z",
+                        "pushed_at": "2023-10-16T04:49:49Z",
+                        "git_url": "git://github.com/libxsmm/libxsmm.git",
+                        "ssh_url": "git@github.com:libxsmm/libxsmm.git",
+                        "clone_url": "https://github.com/libxsmm/libxsmm.git",
+                        "svn_url": "https://github.com/libxsmm/libxsmm",
+                        "homepage": "https://libxsmm.readthedocs.io/",
+                        "size": 312699,
+                        "stargazers_count": 753,
+                        "watchers_count": 753,
+                        "language": "C",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 175,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 26,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "amx",
+                            "avx",
+                            "avx2",
+                            "avx512",
+                            "bfloat16",
+                            "blas",
+                            "convolution",
+                            "fortran",
+                            "intel",
+                            "jit",
+                            "machine-learning",
+                            "matrix",
+                            "matrix-multiplication",
+                            "simd",
+                            "sparse",
+                            "sse",
+                            "tensor",
+                            "transpose",
+                            "vector"
+                        ],
+                        "visibility": "public",
+                        "forks": 175,
+                        "open_issues": 26,
+                        "watchers": 753,
+                        "default_branch": "main_stable"
+                    }
+                },
+                "base": {
+                    "label": "libxsmm:main_stable",
+                    "ref": "main_stable",
+                    "sha": "732ec72777cf41fb4e9bd31f1eec2ad4c1d73744",
+                    "user": {
+                        "login": "libxsmm",
+                        "id": 73218023,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/libxsmm",
+                        "html_url": "https://github.com/libxsmm",
+                        "followers_url": "https://api.github.com/users/libxsmm/followers",
+                        "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                        "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                        "repos_url": "https://api.github.com/users/libxsmm/repos",
+                        "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 24376854,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNDM3Njg1NA==",
+                        "name": "libxsmm",
+                        "full_name": "libxsmm/libxsmm",
+                        "private": false,
+                        "owner": {
+                            "login": "libxsmm",
+                            "id": 73218023,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/libxsmm",
+                            "html_url": "https://github.com/libxsmm",
+                            "followers_url": "https://api.github.com/users/libxsmm/followers",
+                            "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                            "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                            "repos_url": "https://api.github.com/users/libxsmm/repos",
+                            "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/libxsmm/libxsmm",
+                        "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/libxsmm/libxsmm",
+                        "forks_url": "https://api.github.com/repos/libxsmm/libxsmm/forks",
+                        "keys_url": "https://api.github.com/repos/libxsmm/libxsmm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/libxsmm/libxsmm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/libxsmm/libxsmm/teams",
+                        "hooks_url": "https://api.github.com/repos/libxsmm/libxsmm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/libxsmm/libxsmm/events",
+                        "assignees_url": "https://api.github.com/repos/libxsmm/libxsmm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/libxsmm/libxsmm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/libxsmm/libxsmm/tags",
+                        "blobs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/libxsmm/libxsmm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/libxsmm/libxsmm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/libxsmm/libxsmm/languages",
+                        "stargazers_url": "https://api.github.com/repos/libxsmm/libxsmm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/libxsmm/libxsmm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/libxsmm/libxsmm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/libxsmm/libxsmm/subscription",
+                        "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/libxsmm/libxsmm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/libxsmm/libxsmm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/libxsmm/libxsmm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/libxsmm/libxsmm/merges",
+                        "archive_url": "https://api.github.com/repos/libxsmm/libxsmm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/libxsmm/libxsmm/downloads",
+                        "issues_url": "https://api.github.com/repos/libxsmm/libxsmm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/libxsmm/libxsmm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/libxsmm/libxsmm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/libxsmm/libxsmm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/libxsmm/libxsmm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/libxsmm/libxsmm/deployments",
+                        "created_at": "2014-09-23T15:20:20Z",
+                        "updated_at": "2023-10-07T14:00:07Z",
+                        "pushed_at": "2023-10-16T04:49:49Z",
+                        "git_url": "git://github.com/libxsmm/libxsmm.git",
+                        "ssh_url": "git@github.com:libxsmm/libxsmm.git",
+                        "clone_url": "https://github.com/libxsmm/libxsmm.git",
+                        "svn_url": "https://github.com/libxsmm/libxsmm",
+                        "homepage": "https://libxsmm.readthedocs.io/",
+                        "size": 312699,
+                        "stargazers_count": 753,
+                        "watchers_count": 753,
+                        "language": "C",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 175,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 26,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "amx",
+                            "avx",
+                            "avx2",
+                            "avx512",
+                            "bfloat16",
+                            "blas",
+                            "convolution",
+                            "fortran",
+                            "intel",
+                            "jit",
+                            "machine-learning",
+                            "matrix",
+                            "matrix-multiplication",
+                            "simd",
+                            "sparse",
+                            "sse",
+                            "tensor",
+                            "transpose",
+                            "vector"
+                        ],
+                        "visibility": "public",
+                        "forks": 175,
+                        "open_issues": 26,
+                        "watchers": 753,
+                        "default_branch": "main_stable"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825"
+                    },
+                    "html": {
+                        "href": "https://github.com/libxsmm/libxsmm/pull/825"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/issues/825"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/issues/825/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/statuses/b9c4253605cb0a0fea9abce2b68b8692b0db8b37"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "alheinecke",
+                    "id": 6407923,
+                    "node_id": "MDQ6VXNlcjY0MDc5MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6407923?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alheinecke",
+                    "html_url": "https://github.com/alheinecke",
+                    "followers_url": "https://api.github.com/users/alheinecke/followers",
+                    "following_url": "https://api.github.com/users/alheinecke/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alheinecke/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alheinecke/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alheinecke/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alheinecke/orgs",
+                    "repos_url": "https://api.github.com/users/alheinecke/repos",
+                    "events_url": "https://api.github.com/users/alheinecke/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alheinecke/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 400,
+                "additions": 2818,
+                "deletions": 2561,
+                "changed_files": 108
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-16T04:49:51Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32579186923",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1679087742,
+                "node_id": "PRR_kwDOAXP2Fs5kFNh-",
+                "user": {
+                    "login": "egeor",
+                    "id": 1154358,
+                    "node_id": "MDQ6VXNlcjExNTQzNTg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1154358?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/egeor",
+                    "html_url": "https://github.com/egeor",
+                    "followers_url": "https://api.github.com/users/egeor/followers",
+                    "following_url": "https://api.github.com/users/egeor/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/egeor/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/egeor/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/egeor/subscriptions",
+                    "organizations_url": "https://api.github.com/users/egeor/orgs",
+                    "repos_url": "https://api.github.com/users/egeor/repos",
+                    "events_url": "https://api.github.com/users/egeor/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/egeor/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Looks good to me",
+                "commit_id": "b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                "submitted_at": "2023-10-16T04:48:38Z",
+                "state": "approved",
+                "html_url": "https://github.com/libxsmm/libxsmm/pull/825#pullrequestreview-1679087742",
+                "pull_request_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825",
+                "author_association": "COLLABORATOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/libxsmm/libxsmm/pull/825#pullrequestreview-1679087742"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825",
+                "id": 1547212834,
+                "node_id": "PR_kwDOAXP2Fs5cOJgi",
+                "html_url": "https://github.com/libxsmm/libxsmm/pull/825",
+                "diff_url": "https://github.com/libxsmm/libxsmm/pull/825.diff",
+                "patch_url": "https://github.com/libxsmm/libxsmm/pull/825.patch",
+                "issue_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/825",
+                "number": 825,
+                "state": "open",
+                "locked": false,
+                "title": "Merging refactors of \"main\" branch back to \"main_stable\"",
+                "user": {
+                    "login": "alheinecke",
+                    "id": 6407923,
+                    "node_id": "MDQ6VXNlcjY0MDc5MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6407923?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alheinecke",
+                    "html_url": "https://github.com/alheinecke",
+                    "followers_url": "https://api.github.com/users/alheinecke/followers",
+                    "following_url": "https://api.github.com/users/alheinecke/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alheinecke/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alheinecke/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alheinecke/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alheinecke/orgs",
+                    "repos_url": "https://api.github.com/users/alheinecke/repos",
+                    "events_url": "https://api.github.com/users/alheinecke/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alheinecke/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "The purpose of this PR is to rework \"main\" such that it's mergable to \"main_stable\" with minimal structural changes.",
+                "created_at": "2023-10-09T05:43:10Z",
+                "updated_at": "2023-10-16T04:48:38Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "d84b5ba2ac32fa20b6f97385a25089e7373bc96b",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "hfp",
+                        "id": 6748085,
+                        "node_id": "MDQ6VXNlcjY3NDgwODU=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/6748085?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/hfp",
+                        "html_url": "https://github.com/hfp",
+                        "followers_url": "https://api.github.com/users/hfp/followers",
+                        "following_url": "https://api.github.com/users/hfp/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/hfp/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/hfp/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/hfp/subscriptions",
+                        "organizations_url": "https://api.github.com/users/hfp/orgs",
+                        "repos_url": "https://api.github.com/users/hfp/repos",
+                        "events_url": "https://api.github.com/users/hfp/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/hfp/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/commits",
+                "review_comments_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/comments",
+                "review_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/825/comments",
+                "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                "head": {
+                    "label": "libxsmm:feature_main_merge",
+                    "ref": "feature_main_merge",
+                    "sha": "b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                    "user": {
+                        "login": "libxsmm",
+                        "id": 73218023,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/libxsmm",
+                        "html_url": "https://github.com/libxsmm",
+                        "followers_url": "https://api.github.com/users/libxsmm/followers",
+                        "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                        "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                        "repos_url": "https://api.github.com/users/libxsmm/repos",
+                        "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 24376854,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNDM3Njg1NA==",
+                        "name": "libxsmm",
+                        "full_name": "libxsmm/libxsmm",
+                        "private": false,
+                        "owner": {
+                            "login": "libxsmm",
+                            "id": 73218023,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/libxsmm",
+                            "html_url": "https://github.com/libxsmm",
+                            "followers_url": "https://api.github.com/users/libxsmm/followers",
+                            "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                            "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                            "repos_url": "https://api.github.com/users/libxsmm/repos",
+                            "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/libxsmm/libxsmm",
+                        "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/libxsmm/libxsmm",
+                        "forks_url": "https://api.github.com/repos/libxsmm/libxsmm/forks",
+                        "keys_url": "https://api.github.com/repos/libxsmm/libxsmm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/libxsmm/libxsmm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/libxsmm/libxsmm/teams",
+                        "hooks_url": "https://api.github.com/repos/libxsmm/libxsmm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/libxsmm/libxsmm/events",
+                        "assignees_url": "https://api.github.com/repos/libxsmm/libxsmm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/libxsmm/libxsmm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/libxsmm/libxsmm/tags",
+                        "blobs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/libxsmm/libxsmm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/libxsmm/libxsmm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/libxsmm/libxsmm/languages",
+                        "stargazers_url": "https://api.github.com/repos/libxsmm/libxsmm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/libxsmm/libxsmm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/libxsmm/libxsmm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/libxsmm/libxsmm/subscription",
+                        "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/libxsmm/libxsmm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/libxsmm/libxsmm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/libxsmm/libxsmm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/libxsmm/libxsmm/merges",
+                        "archive_url": "https://api.github.com/repos/libxsmm/libxsmm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/libxsmm/libxsmm/downloads",
+                        "issues_url": "https://api.github.com/repos/libxsmm/libxsmm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/libxsmm/libxsmm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/libxsmm/libxsmm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/libxsmm/libxsmm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/libxsmm/libxsmm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/libxsmm/libxsmm/deployments",
+                        "created_at": "2014-09-23T15:20:20Z",
+                        "updated_at": "2023-10-07T14:00:07Z",
+                        "pushed_at": "2023-10-14T17:58:06Z",
+                        "git_url": "git://github.com/libxsmm/libxsmm.git",
+                        "ssh_url": "git@github.com:libxsmm/libxsmm.git",
+                        "clone_url": "https://github.com/libxsmm/libxsmm.git",
+                        "svn_url": "https://github.com/libxsmm/libxsmm",
+                        "homepage": "https://libxsmm.readthedocs.io/",
+                        "size": 312699,
+                        "stargazers_count": 753,
+                        "watchers_count": 753,
+                        "language": "C",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 175,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 27,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "amx",
+                            "avx",
+                            "avx2",
+                            "avx512",
+                            "bfloat16",
+                            "blas",
+                            "convolution",
+                            "fortran",
+                            "intel",
+                            "jit",
+                            "machine-learning",
+                            "matrix",
+                            "matrix-multiplication",
+                            "simd",
+                            "sparse",
+                            "sse",
+                            "tensor",
+                            "transpose",
+                            "vector"
+                        ],
+                        "visibility": "public",
+                        "forks": 175,
+                        "open_issues": 27,
+                        "watchers": 753,
+                        "default_branch": "main_stable"
+                    }
+                },
+                "base": {
+                    "label": "libxsmm:main_stable",
+                    "ref": "main_stable",
+                    "sha": "732ec72777cf41fb4e9bd31f1eec2ad4c1d73744",
+                    "user": {
+                        "login": "libxsmm",
+                        "id": 73218023,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/libxsmm",
+                        "html_url": "https://github.com/libxsmm",
+                        "followers_url": "https://api.github.com/users/libxsmm/followers",
+                        "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                        "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                        "repos_url": "https://api.github.com/users/libxsmm/repos",
+                        "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 24376854,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNDM3Njg1NA==",
+                        "name": "libxsmm",
+                        "full_name": "libxsmm/libxsmm",
+                        "private": false,
+                        "owner": {
+                            "login": "libxsmm",
+                            "id": 73218023,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/libxsmm",
+                            "html_url": "https://github.com/libxsmm",
+                            "followers_url": "https://api.github.com/users/libxsmm/followers",
+                            "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                            "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                            "repos_url": "https://api.github.com/users/libxsmm/repos",
+                            "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/libxsmm/libxsmm",
+                        "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/libxsmm/libxsmm",
+                        "forks_url": "https://api.github.com/repos/libxsmm/libxsmm/forks",
+                        "keys_url": "https://api.github.com/repos/libxsmm/libxsmm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/libxsmm/libxsmm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/libxsmm/libxsmm/teams",
+                        "hooks_url": "https://api.github.com/repos/libxsmm/libxsmm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/libxsmm/libxsmm/events",
+                        "assignees_url": "https://api.github.com/repos/libxsmm/libxsmm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/libxsmm/libxsmm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/libxsmm/libxsmm/tags",
+                        "blobs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/libxsmm/libxsmm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/libxsmm/libxsmm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/libxsmm/libxsmm/languages",
+                        "stargazers_url": "https://api.github.com/repos/libxsmm/libxsmm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/libxsmm/libxsmm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/libxsmm/libxsmm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/libxsmm/libxsmm/subscription",
+                        "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/libxsmm/libxsmm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/libxsmm/libxsmm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/libxsmm/libxsmm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/libxsmm/libxsmm/merges",
+                        "archive_url": "https://api.github.com/repos/libxsmm/libxsmm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/libxsmm/libxsmm/downloads",
+                        "issues_url": "https://api.github.com/repos/libxsmm/libxsmm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/libxsmm/libxsmm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/libxsmm/libxsmm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/libxsmm/libxsmm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/libxsmm/libxsmm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/libxsmm/libxsmm/deployments",
+                        "created_at": "2014-09-23T15:20:20Z",
+                        "updated_at": "2023-10-07T14:00:07Z",
+                        "pushed_at": "2023-10-14T17:58:06Z",
+                        "git_url": "git://github.com/libxsmm/libxsmm.git",
+                        "ssh_url": "git@github.com:libxsmm/libxsmm.git",
+                        "clone_url": "https://github.com/libxsmm/libxsmm.git",
+                        "svn_url": "https://github.com/libxsmm/libxsmm",
+                        "homepage": "https://libxsmm.readthedocs.io/",
+                        "size": 312699,
+                        "stargazers_count": 753,
+                        "watchers_count": 753,
+                        "language": "C",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 175,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 27,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "amx",
+                            "avx",
+                            "avx2",
+                            "avx512",
+                            "bfloat16",
+                            "blas",
+                            "convolution",
+                            "fortran",
+                            "intel",
+                            "jit",
+                            "machine-learning",
+                            "matrix",
+                            "matrix-multiplication",
+                            "simd",
+                            "sparse",
+                            "sse",
+                            "tensor",
+                            "transpose",
+                            "vector"
+                        ],
+                        "visibility": "public",
+                        "forks": 175,
+                        "open_issues": 27,
+                        "watchers": 753,
+                        "default_branch": "main_stable"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825"
+                    },
+                    "html": {
+                        "href": "https://github.com/libxsmm/libxsmm/pull/825"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/issues/825"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/issues/825/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/statuses/b9c4253605cb0a0fea9abce2b68b8692b0db8b37"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-16T04:48:39Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32563444060",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1678264760,
+                "node_id": "PRR_kwDOAXP2Fs5kCEm4",
+                "user": {
+                    "login": "alheinecke",
+                    "id": 6407923,
+                    "node_id": "MDQ6VXNlcjY0MDc5MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6407923?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alheinecke",
+                    "html_url": "https://github.com/alheinecke",
+                    "followers_url": "https://api.github.com/users/alheinecke/followers",
+                    "following_url": "https://api.github.com/users/alheinecke/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alheinecke/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alheinecke/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alheinecke/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alheinecke/orgs",
+                    "repos_url": "https://api.github.com/users/alheinecke/repos",
+                    "events_url": "https://api.github.com/users/alheinecke/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alheinecke/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Ready for review",
+                "commit_id": "b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                "submitted_at": "2023-10-14T17:58:54Z",
+                "state": "commented",
+                "html_url": "https://github.com/libxsmm/libxsmm/pull/825#pullrequestreview-1678264760",
+                "pull_request_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825",
+                "author_association": "COLLABORATOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/libxsmm/libxsmm/pull/825#pullrequestreview-1678264760"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825",
+                "id": 1547212834,
+                "node_id": "PR_kwDOAXP2Fs5cOJgi",
+                "html_url": "https://github.com/libxsmm/libxsmm/pull/825",
+                "diff_url": "https://github.com/libxsmm/libxsmm/pull/825.diff",
+                "patch_url": "https://github.com/libxsmm/libxsmm/pull/825.patch",
+                "issue_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/825",
+                "number": 825,
+                "state": "open",
+                "locked": false,
+                "title": "Merging refactors of \"main\" branch back to \"main_stable\"",
+                "user": {
+                    "login": "alheinecke",
+                    "id": 6407923,
+                    "node_id": "MDQ6VXNlcjY0MDc5MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6407923?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alheinecke",
+                    "html_url": "https://github.com/alheinecke",
+                    "followers_url": "https://api.github.com/users/alheinecke/followers",
+                    "following_url": "https://api.github.com/users/alheinecke/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alheinecke/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alheinecke/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alheinecke/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alheinecke/orgs",
+                    "repos_url": "https://api.github.com/users/alheinecke/repos",
+                    "events_url": "https://api.github.com/users/alheinecke/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alheinecke/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "The purpose of this PR is to rework \"main\" such that it's mergable to \"main_stable\" with minimal structural changes.",
+                "created_at": "2023-10-09T05:43:10Z",
+                "updated_at": "2023-10-14T17:58:54Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "d84b5ba2ac32fa20b6f97385a25089e7373bc96b",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": true,
+                "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/commits",
+                "review_comments_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/comments",
+                "review_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/825/comments",
+                "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                "head": {
+                    "label": "libxsmm:feature_main_merge",
+                    "ref": "feature_main_merge",
+                    "sha": "b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                    "user": {
+                        "login": "libxsmm",
+                        "id": 73218023,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/libxsmm",
+                        "html_url": "https://github.com/libxsmm",
+                        "followers_url": "https://api.github.com/users/libxsmm/followers",
+                        "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                        "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                        "repos_url": "https://api.github.com/users/libxsmm/repos",
+                        "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 24376854,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNDM3Njg1NA==",
+                        "name": "libxsmm",
+                        "full_name": "libxsmm/libxsmm",
+                        "private": false,
+                        "owner": {
+                            "login": "libxsmm",
+                            "id": 73218023,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/libxsmm",
+                            "html_url": "https://github.com/libxsmm",
+                            "followers_url": "https://api.github.com/users/libxsmm/followers",
+                            "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                            "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                            "repos_url": "https://api.github.com/users/libxsmm/repos",
+                            "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/libxsmm/libxsmm",
+                        "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/libxsmm/libxsmm",
+                        "forks_url": "https://api.github.com/repos/libxsmm/libxsmm/forks",
+                        "keys_url": "https://api.github.com/repos/libxsmm/libxsmm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/libxsmm/libxsmm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/libxsmm/libxsmm/teams",
+                        "hooks_url": "https://api.github.com/repos/libxsmm/libxsmm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/libxsmm/libxsmm/events",
+                        "assignees_url": "https://api.github.com/repos/libxsmm/libxsmm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/libxsmm/libxsmm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/libxsmm/libxsmm/tags",
+                        "blobs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/libxsmm/libxsmm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/libxsmm/libxsmm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/libxsmm/libxsmm/languages",
+                        "stargazers_url": "https://api.github.com/repos/libxsmm/libxsmm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/libxsmm/libxsmm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/libxsmm/libxsmm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/libxsmm/libxsmm/subscription",
+                        "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/libxsmm/libxsmm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/libxsmm/libxsmm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/libxsmm/libxsmm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/libxsmm/libxsmm/merges",
+                        "archive_url": "https://api.github.com/repos/libxsmm/libxsmm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/libxsmm/libxsmm/downloads",
+                        "issues_url": "https://api.github.com/repos/libxsmm/libxsmm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/libxsmm/libxsmm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/libxsmm/libxsmm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/libxsmm/libxsmm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/libxsmm/libxsmm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/libxsmm/libxsmm/deployments",
+                        "created_at": "2014-09-23T15:20:20Z",
+                        "updated_at": "2023-10-07T14:00:07Z",
+                        "pushed_at": "2023-10-14T17:58:06Z",
+                        "git_url": "git://github.com/libxsmm/libxsmm.git",
+                        "ssh_url": "git@github.com:libxsmm/libxsmm.git",
+                        "clone_url": "https://github.com/libxsmm/libxsmm.git",
+                        "svn_url": "https://github.com/libxsmm/libxsmm",
+                        "homepage": "https://libxsmm.readthedocs.io/",
+                        "size": 312667,
+                        "stargazers_count": 753,
+                        "watchers_count": 753,
+                        "language": "C",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 175,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 27,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "amx",
+                            "avx",
+                            "avx2",
+                            "avx512",
+                            "bfloat16",
+                            "blas",
+                            "convolution",
+                            "fortran",
+                            "intel",
+                            "jit",
+                            "machine-learning",
+                            "matrix",
+                            "matrix-multiplication",
+                            "simd",
+                            "sparse",
+                            "sse",
+                            "tensor",
+                            "transpose",
+                            "vector"
+                        ],
+                        "visibility": "public",
+                        "forks": 175,
+                        "open_issues": 27,
+                        "watchers": 753,
+                        "default_branch": "main_stable"
+                    }
+                },
+                "base": {
+                    "label": "libxsmm:main_stable",
+                    "ref": "main_stable",
+                    "sha": "732ec72777cf41fb4e9bd31f1eec2ad4c1d73744",
+                    "user": {
+                        "login": "libxsmm",
+                        "id": 73218023,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/libxsmm",
+                        "html_url": "https://github.com/libxsmm",
+                        "followers_url": "https://api.github.com/users/libxsmm/followers",
+                        "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                        "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                        "repos_url": "https://api.github.com/users/libxsmm/repos",
+                        "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 24376854,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNDM3Njg1NA==",
+                        "name": "libxsmm",
+                        "full_name": "libxsmm/libxsmm",
+                        "private": false,
+                        "owner": {
+                            "login": "libxsmm",
+                            "id": 73218023,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjczMjE4MDIz",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/libxsmm",
+                            "html_url": "https://github.com/libxsmm",
+                            "followers_url": "https://api.github.com/users/libxsmm/followers",
+                            "following_url": "https://api.github.com/users/libxsmm/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/libxsmm/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/libxsmm/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/libxsmm/subscriptions",
+                            "organizations_url": "https://api.github.com/users/libxsmm/orgs",
+                            "repos_url": "https://api.github.com/users/libxsmm/repos",
+                            "events_url": "https://api.github.com/users/libxsmm/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/libxsmm/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/libxsmm/libxsmm",
+                        "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/libxsmm/libxsmm",
+                        "forks_url": "https://api.github.com/repos/libxsmm/libxsmm/forks",
+                        "keys_url": "https://api.github.com/repos/libxsmm/libxsmm/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/libxsmm/libxsmm/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/libxsmm/libxsmm/teams",
+                        "hooks_url": "https://api.github.com/repos/libxsmm/libxsmm/hooks",
+                        "issue_events_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/libxsmm/libxsmm/events",
+                        "assignees_url": "https://api.github.com/repos/libxsmm/libxsmm/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/libxsmm/libxsmm/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/libxsmm/libxsmm/tags",
+                        "blobs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/libxsmm/libxsmm/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/libxsmm/libxsmm/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/libxsmm/libxsmm/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/libxsmm/libxsmm/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/libxsmm/libxsmm/languages",
+                        "stargazers_url": "https://api.github.com/repos/libxsmm/libxsmm/stargazers",
+                        "contributors_url": "https://api.github.com/repos/libxsmm/libxsmm/contributors",
+                        "subscribers_url": "https://api.github.com/repos/libxsmm/libxsmm/subscribers",
+                        "subscription_url": "https://api.github.com/repos/libxsmm/libxsmm/subscription",
+                        "commits_url": "https://api.github.com/repos/libxsmm/libxsmm/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/libxsmm/libxsmm/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/libxsmm/libxsmm/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/libxsmm/libxsmm/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/libxsmm/libxsmm/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/libxsmm/libxsmm/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/libxsmm/libxsmm/merges",
+                        "archive_url": "https://api.github.com/repos/libxsmm/libxsmm/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/libxsmm/libxsmm/downloads",
+                        "issues_url": "https://api.github.com/repos/libxsmm/libxsmm/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/libxsmm/libxsmm/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/libxsmm/libxsmm/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/libxsmm/libxsmm/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/libxsmm/libxsmm/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/libxsmm/libxsmm/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/libxsmm/libxsmm/deployments",
+                        "created_at": "2014-09-23T15:20:20Z",
+                        "updated_at": "2023-10-07T14:00:07Z",
+                        "pushed_at": "2023-10-14T17:58:06Z",
+                        "git_url": "git://github.com/libxsmm/libxsmm.git",
+                        "ssh_url": "git@github.com:libxsmm/libxsmm.git",
+                        "clone_url": "https://github.com/libxsmm/libxsmm.git",
+                        "svn_url": "https://github.com/libxsmm/libxsmm",
+                        "homepage": "https://libxsmm.readthedocs.io/",
+                        "size": 312667,
+                        "stargazers_count": 753,
+                        "watchers_count": 753,
+                        "language": "C",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 175,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 27,
+                        "license": {
+                            "key": "bsd-3-clause",
+                            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                            "spdx_id": "BSD-3-Clause",
+                            "url": "https://api.github.com/licenses/bsd-3-clause",
+                            "node_id": "MDc6TGljZW5zZTU="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "amx",
+                            "avx",
+                            "avx2",
+                            "avx512",
+                            "bfloat16",
+                            "blas",
+                            "convolution",
+                            "fortran",
+                            "intel",
+                            "jit",
+                            "machine-learning",
+                            "matrix",
+                            "matrix-multiplication",
+                            "simd",
+                            "sparse",
+                            "sse",
+                            "tensor",
+                            "transpose",
+                            "vector"
+                        ],
+                        "visibility": "public",
+                        "forks": 175,
+                        "open_issues": 27,
+                        "watchers": 753,
+                        "default_branch": "main_stable"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825"
+                    },
+                    "html": {
+                        "href": "https://github.com/libxsmm/libxsmm/pull/825"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/issues/825"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/issues/825/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/pulls/825/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/libxsmm/libxsmm/statuses/b9c4253605cb0a0fea9abce2b68b8692b0db8b37"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-14T17:58:55Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32563438372",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6407923,
+            "login": "alheinecke",
+            "display_login": "alheinecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alheinecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6407923?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "repository_id": 24376854,
+            "push_id": 15419668392,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/feature_main_merge",
+            "head": "b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+            "before": "3eb83dedbf70436365b9921957625df9a72532b1",
+            "commits": [
+                {
+                    "sha": "5e1630edf98d01782efd1d82f0923a71e79841b8",
+                    "author": {
+                        "email": "heinecke.alex@gmail.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "removed comment",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/5e1630edf98d01782efd1d82f0923a71e79841b8"
+                },
+                {
+                    "sha": "aa5d470708ed1953f4d2c46aec3e2638c7b06791",
+                    "author": {
+                        "email": "heinecke.alex@gmail.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "fixed type mismatches in vnni_pack example",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/aa5d470708ed1953f4d2c46aec3e2638c7b06791"
+                },
+                {
+                    "sha": "cab933747b0f2cbf32cff8989387a544fb82ccc6",
+                    "author": {
+                        "email": "heinecke.alex@gmail.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "revert some of the changes, this is for easier debugging of new TPPs,\nthus the reverted code is under #if 0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/cab933747b0f2cbf32cff8989387a544fb82ccc6"
+                },
+                {
+                    "sha": "b9c4253605cb0a0fea9abce2b68b8692b0db8b37",
+                    "author": {
+                        "email": "heinecke.alex@gmail.com",
+                        "name": "Alexander Heinecke"
+                    },
+                    "message": "fixed some datatypes in static code printer",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/libxsmm/libxsmm/commits/b9c4253605cb0a0fea9abce2b68b8692b0db8b37"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-14T17:58:04Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    },
+    {
+        "id": "32558746585",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1154358,
+            "login": "egeor",
+            "display_login": "egeor",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egeor",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1154358?"
+        },
+        "repo": {
+            "id": 24376854,
+            "name": "libxsmm/libxsmm",
+            "url": "https://api.github.com/repos/libxsmm/libxsmm"
+        },
+        "payload": {
+            "ref": "feature_i4i8_vnni_gemms",
+            "ref_type": "branch",
+            "master_branch": "main_stable",
+            "description": "Library for specialized dense and sparse matrix operations, and deep learning primitives.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-14T07:31:14Z",
+        "org": {
+            "id": 73218023,
+            "login": "libxsmm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/libxsmm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73218023?"
+        }
+    }
+]

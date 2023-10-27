@@ -1,0 +1,2952 @@
+[
+    {
+        "id": "32886354510",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 29507,
+            "login": "dantti",
+            "display_login": "dantti",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dantti",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29507?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 421,
+            "pull_request": {
+                "url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/421",
+                "id": 1575826098,
+                "node_id": "PR_kwDOCrzkac5d7TKy",
+                "html_url": "https://github.com/KDAB/KDDockWidgets/pull/421",
+                "diff_url": "https://github.com/KDAB/KDDockWidgets/pull/421.diff",
+                "patch_url": "https://github.com/KDAB/KDDockWidgets/pull/421.patch",
+                "issue_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/421",
+                "number": 421,
+                "state": "open",
+                "locked": false,
+                "title": "GitHub actions add Python bindings to macos and windows",
+                "user": {
+                    "login": "dantti",
+                    "id": 29507,
+                    "node_id": "MDQ6VXNlcjI5NTA3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29507?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dantti",
+                    "html_url": "https://github.com/dantti",
+                    "followers_url": "https://api.github.com/users/dantti/followers",
+                    "following_url": "https://api.github.com/users/dantti/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dantti/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dantti/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dantti/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dantti/orgs",
+                    "repos_url": "https://api.github.com/users/dantti/repos",
+                    "events_url": "https://api.github.com/users/dantti/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dantti/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2023-10-27T02:19:20Z",
+                "updated_at": "2023-10-27T02:19:20Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/421/commits",
+                "review_comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/421/comments",
+                "review_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/421/comments",
+                "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/ff1c662fff1265bad9b073d908c7541d27f994ba",
+                "head": {
+                    "label": "KDAB:dantti/gha_python_mac_win_2",
+                    "ref": "dantti/gha_python_mac_win_2",
+                    "sha": "ff1c662fff1265bad9b073d908c7541d27f994ba",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-27T02:19:21Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29301,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 22,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 22,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "base": {
+                    "label": "KDAB:2.0",
+                    "ref": "2.0",
+                    "sha": "93be711dc84079ab57c8f6523f7ad341c7f2fe7f",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-27T02:19:21Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29301,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 22,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 22,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/421"
+                    },
+                    "html": {
+                        "href": "https://github.com/KDAB/KDDockWidgets/pull/421"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/421"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/421/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/421/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/421/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/ff1c662fff1265bad9b073d908c7541d27f994ba"
+                    }
+                },
+                "author_association": "MEMBER",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 228,
+                "deletions": 152,
+                "changed_files": 2
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:19:22Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32886353641",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 29507,
+            "login": "dantti",
+            "display_login": "dantti",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dantti",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29507?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "ref": "dantti/gha_python_mac_win_2",
+            "ref_type": "branch",
+            "master_branch": "2.0",
+            "description": "KDAB's Dock Widget Framework for Qt",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:19:18Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32884137116",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15584330688,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "93be711dc84079ab57c8f6523f7ad341c7f2fe7f",
+            "before": "34e64e86db97c2159845206ece25fad278cb1360",
+            "commits": [
+                {
+                    "sha": "93be711dc84079ab57c8f6523f7ad341c7f2fe7f",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Honour LayoutSavingOptions::Skip when writing to JSON as well\n\nShould fix issue #420\n\n(cherry-picked from commit 01c51fcf233cb7fb15fa0f7e3ab2253afc376be3)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/93be711dc84079ab57c8f6523f7ad341c7f2fe7f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T23:24:25Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32883861603",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15584184046,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/2.0",
+            "head": "34e64e86db97c2159845206ece25fad278cb1360",
+            "before": "f2e3137844d8560c877635316a916a3abcfb9e6e",
+            "commits": [
+                {
+                    "sha": "5766366080a5adbba16e9bd0cb8886a0a41580f7",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Fix some typos in comments\n\n(cherry-picked from commit 189885c86cdeafc3e06e0b1fceb910979b44bb50)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/5766366080a5adbba16e9bd0cb8886a0a41580f7"
+                },
+                {
+                    "sha": "34e64e86db97c2159845206ece25fad278cb1360",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "example: Make more dock widgets use LayoutSaverOption::Skip\n\nSo it's easier to check manually.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/34e64e86db97c2159845206ece25fad278cb1360"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T23:03:13Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32882945893",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15583705224,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/1.7",
+            "head": "01c51fcf233cb7fb15fa0f7e3ab2253afc376be3",
+            "before": "4060dbfcdb488f41af7103fe6bb6e203d9883753",
+            "commits": [
+                {
+                    "sha": "01c51fcf233cb7fb15fa0f7e3ab2253afc376be3",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Honour LayoutSavingOptions::Skip when writing to JSON as well",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/01c51fcf233cb7fb15fa0f7e3ab2253afc376be3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T22:04:17Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32877215120",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15580876418,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "f2e3137844d8560c877635316a916a3abcfb9e6e",
+            "before": "14f0ee718769057a2676a6c5527f35f42b55bc44",
+            "commits": [
+                {
+                    "sha": "f2e3137844d8560c877635316a916a3abcfb9e6e",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Rename MDIDockingAreaInstantiator to MainWindowMDIInstantiator\n\nSince it instantiates a MainWindowMDI",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/f2e3137844d8560c877635316a916a3abcfb9e6e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:42:17Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32874046811",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15579333758,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "14f0ee718769057a2676a6c5527f35f42b55bc44",
+            "before": "912329128a6116d695578db8dac4fe18a487338f",
+            "commits": [
+                {
+                    "sha": "14f0ee718769057a2676a6c5527f35f42b55bc44",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Remove confusing ViewType::MDIArea\n\nView types only exist for views that also have a controller.\nFor example, ViewType::TitleBar has QtWidgets::TitleBar as the\nview and Core::TitleBar.\n\nMdiArea however is just a wrapper around an MDILayout which already\nhas an enumerator in ViewType",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/14f0ee718769057a2676a6c5527f35f42b55bc44"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:42:18Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32871881257",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15578295198,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "912329128a6116d695578db8dac4fe18a487338f",
+            "before": "8e301a6553792860288e424ca82a17b317de59cf",
+            "commits": [
+                {
+                    "sha": "912329128a6116d695578db8dac4fe18a487338f",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Minor rename of function arguments\n\nf standed for \"Frame\", but Frame has been renamed to Group",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/912329128a6116d695578db8dac4fe18a487338f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:35:05Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32865940537",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15575375162,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/1.7",
+            "head": "4060dbfcdb488f41af7103fe6bb6e203d9883753",
+            "before": "529ea88a3a380906ac1cc023b04ab101955a0602",
+            "commits": [
+                {
+                    "sha": "4060dbfcdb488f41af7103fe6bb6e203d9883753",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "examples: Amend last commit and use widgets 6, 7 and 8 instead\n\nAs they are already floating",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/4060dbfcdb488f41af7103fe6bb6e203d9883753"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:26:59Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32865741446",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15575277564,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/1.7",
+            "head": "529ea88a3a380906ac1cc023b04ab101955a0602",
+            "before": "189885c86cdeafc3e06e0b1fceb910979b44bb50",
+            "commits": [
+                {
+                    "sha": "529ea88a3a380906ac1cc023b04ab101955a0602",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "example: Also allow dock #3 to use LayoutSaverOption::Skip\n\nBetter to have 2 dock widgets, so we can nest them and see how\nit behaves as well\n\nFor issue #420",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/529ea88a3a380906ac1cc023b04ab101955a0602"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:19:20Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32865263608",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15575040632,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/1.7",
+            "head": "189885c86cdeafc3e06e0b1fceb910979b44bb50",
+            "before": "8ce3b67490a5ca4599e4376dc374f6f7fcb3764a",
+            "commits": [
+                {
+                    "sha": "189885c86cdeafc3e06e0b1fceb910979b44bb50",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Fix some typos in comments",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/189885c86cdeafc3e06e0b1fceb910979b44bb50"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:01:09Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32863887801",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "ref": "do_not_delete-6b0777e4927c9e87f9542d61508c5e33f1795f64",
+            "ref_type": "tag",
+            "master_branch": "2.0",
+            "description": "KDAB's Dock Widget Framework for Qt",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:11:17Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32863213795",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15574025987,
+            "size": 3,
+            "distinct_size": 1,
+            "ref": "refs/heads/1.7",
+            "head": "8ce3b67490a5ca4599e4376dc374f6f7fcb3764a",
+            "before": "254eca52361fe5071c1330ceb4ec683bec5c5a59",
+            "commits": [
+                {
+                    "sha": "cf5becc9dd18d340dfb0d4b20e1b1781472f960d",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Fix developer build due to unused local variable\n\nWe won't do more 1.6 releases, but I sometimes need to build it to\ncompare behaviour if debugging something",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/cf5becc9dd18d340dfb0d4b20e1b1781472f960d"
+                },
+                {
+                    "sha": "8ae400570edf477df59a2ed6b609851218f3649d",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Wayland: Fix it being possible to drag group into itself\n\nWhich doesn't make sense and would make the group just disappear.\n\n(cherry-picked from commit c4f04db4ac06b2da369220eb432c8a3a81238f15)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/8ae400570edf477df59a2ed6b609851218f3649d"
+                },
+                {
+                    "sha": "8ce3b67490a5ca4599e4376dc374f6f7fcb3764a",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Merge branch '1.6' into 1.7\n\nBrings in a wayland fix",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/8ce3b67490a5ca4599e4376dc374f6f7fcb3764a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:48:25Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32862744762",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15573800812,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/1.6",
+            "head": "8ae400570edf477df59a2ed6b609851218f3649d",
+            "before": "cf5becc9dd18d340dfb0d4b20e1b1781472f960d",
+            "commits": [
+                {
+                    "sha": "8ae400570edf477df59a2ed6b609851218f3649d",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Wayland: Fix it being possible to drag group into itself\n\nWhich doesn't make sense and would make the group just disappear.\n\n(cherry-picked from commit c4f04db4ac06b2da369220eb432c8a3a81238f15)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/8ae400570edf477df59a2ed6b609851218f3649d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:32:40Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32849000999",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15566812239,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "8e301a6553792860288e424ca82a17b317de59cf",
+            "before": "6e2413b6be1e659082b17f97cd19a4775aae54c9",
+            "commits": [
+                {
+                    "sha": "8e301a6553792860288e424ca82a17b317de59cf",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "docker: Update to Pyside 6.6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/8e301a6553792860288e424ca82a17b317de59cf"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:47:29Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32848774170",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15566701153,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "6e2413b6be1e659082b17f97cd19a4775aae54c9",
+            "before": "cc8857c879f05f34750d33803dfa634310603c0d",
+            "commits": [
+                {
+                    "sha": "6e2413b6be1e659082b17f97cd19a4775aae54c9",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "python: Delete some commented-out code\n\nI've confirmed Windows,macOS and Linux all still build Python\nsupport fine",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/6e2413b6be1e659082b17f97cd19a4775aae54c9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:37:00Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32848453384",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "ref": "dantti/gha_python",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:22:36Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32848450904",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15566540757,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "cc8857c879f05f34750d33803dfa634310603c0d",
+            "before": "19256def73bf94639f0c0580992870d8b2adec99",
+            "commits": [
+                {
+                    "sha": "cc8857c879f05f34750d33803dfa634310603c0d",
+                    "author": {
+                        "email": "daniel.nicoletti@kdab.com",
+                        "name": "Daniel Nicoletti"
+                    },
+                    "message": "GitHub Actions add Python6 preset",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/cc8857c879f05f34750d33803dfa634310603c0d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:22:30Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32848450624",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 413,
+            "pull_request": {
+                "url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/413",
+                "id": 1564926387,
+                "node_id": "PR_kwDOCrzkac5dRuGz",
+                "html_url": "https://github.com/KDAB/KDDockWidgets/pull/413",
+                "diff_url": "https://github.com/KDAB/KDDockWidgets/pull/413.diff",
+                "patch_url": "https://github.com/KDAB/KDDockWidgets/pull/413.patch",
+                "issue_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/413",
+                "number": 413,
+                "state": "closed",
+                "locked": false,
+                "title": "GitHub Actions add Python6 preset",
+                "user": {
+                    "login": "dantti",
+                    "id": 29507,
+                    "node_id": "MDQ6VXNlcjI5NTA3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29507?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dantti",
+                    "html_url": "https://github.com/dantti",
+                    "followers_url": "https://api.github.com/users/dantti/followers",
+                    "following_url": "https://api.github.com/users/dantti/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dantti/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dantti/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dantti/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dantti/orgs",
+                    "repos_url": "https://api.github.com/users/dantti/repos",
+                    "events_url": "https://api.github.com/users/dantti/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dantti/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2023-10-19T13:41:41Z",
+                "updated_at": "2023-10-25T20:22:28Z",
+                "closed_at": "2023-10-25T20:22:28Z",
+                "merged_at": "2023-10-25T20:22:28Z",
+                "merge_commit_sha": "cc8857c879f05f34750d33803dfa634310603c0d",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "iamsergio",
+                        "id": 20387,
+                        "node_id": "MDQ6VXNlcjIwMzg3",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/20387?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/iamsergio",
+                        "html_url": "https://github.com/iamsergio",
+                        "followers_url": "https://api.github.com/users/iamsergio/followers",
+                        "following_url": "https://api.github.com/users/iamsergio/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/iamsergio/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/iamsergio/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/iamsergio/subscriptions",
+                        "organizations_url": "https://api.github.com/users/iamsergio/orgs",
+                        "repos_url": "https://api.github.com/users/iamsergio/repos",
+                        "events_url": "https://api.github.com/users/iamsergio/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/iamsergio/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    {
+                        "login": "renatofilho",
+                        "id": 534787,
+                        "node_id": "MDQ6VXNlcjUzNDc4Nw==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/534787?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/renatofilho",
+                        "html_url": "https://github.com/renatofilho",
+                        "followers_url": "https://api.github.com/users/renatofilho/followers",
+                        "following_url": "https://api.github.com/users/renatofilho/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/renatofilho/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/renatofilho/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/renatofilho/subscriptions",
+                        "organizations_url": "https://api.github.com/users/renatofilho/orgs",
+                        "repos_url": "https://api.github.com/users/renatofilho/repos",
+                        "events_url": "https://api.github.com/users/renatofilho/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/renatofilho/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/413/commits",
+                "review_comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/413/comments",
+                "review_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/413/comments",
+                "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/254edbe46b452460473d43e951a565fda299ed1a",
+                "head": {
+                    "label": "KDAB:dantti/gha_python",
+                    "ref": "dantti/gha_python",
+                    "sha": "254edbe46b452460473d43e951a565fda299ed1a",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-25T20:22:28Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29248,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 21,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 21,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "base": {
+                    "label": "KDAB:2.0",
+                    "ref": "2.0",
+                    "sha": "19256def73bf94639f0c0580992870d8b2adec99",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-25T20:22:28Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29248,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 21,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 21,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/413"
+                    },
+                    "html": {
+                        "href": "https://github.com/KDAB/KDDockWidgets/pull/413"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/413"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/413/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/413/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/413/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/254edbe46b452460473d43e951a565fda299ed1a"
+                    }
+                },
+                "author_association": "MEMBER",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "iamsergio",
+                    "id": 20387,
+                    "node_id": "MDQ6VXNlcjIwMzg3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20387?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/iamsergio",
+                    "html_url": "https://github.com/iamsergio",
+                    "followers_url": "https://api.github.com/users/iamsergio/followers",
+                    "following_url": "https://api.github.com/users/iamsergio/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/iamsergio/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/iamsergio/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/iamsergio/subscriptions",
+                    "organizations_url": "https://api.github.com/users/iamsergio/orgs",
+                    "repos_url": "https://api.github.com/users/iamsergio/repos",
+                    "events_url": "https://api.github.com/users/iamsergio/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/iamsergio/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 39,
+                "deletions": 3,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:22:29Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32835282592",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2375604,
+            "login": "dkprice",
+            "display_login": "dkprice",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dkprice",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2375604?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/420",
+                "repository_url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/420/labels{/name}",
+                "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/420/comments",
+                "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/420/events",
+                "html_url": "https://github.com/KDAB/KDDockWidgets/issues/420",
+                "id": 1961341635,
+                "node_id": "I_kwDOCrzkac5057LD",
+                "number": 420,
+                "title": "Widgets with LayoutSaverOption::Skip are still saved by the LayoutSaver",
+                "user": {
+                    "login": "dkprice",
+                    "id": 2375604,
+                    "node_id": "MDQ6VXNlcjIzNzU2MDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2375604?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dkprice",
+                    "html_url": "https://github.com/dkprice",
+                    "followers_url": "https://api.github.com/users/dkprice/followers",
+                    "following_url": "https://api.github.com/users/dkprice/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dkprice/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dkprice/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dkprice/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dkprice/orgs",
+                    "repos_url": "https://api.github.com/users/dkprice/repos",
+                    "events_url": "https://api.github.com/users/dkprice/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dkprice/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T12:45:27Z",
+                "updated_at": "2023-10-25T12:45:27Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm trying to use LayoutSaverOption::Skip to suppress the save of certain dock widgets into my persisted layout. My use case is that we have some transient windows that are highly specific to certain situations, and as such, are not meaningful when restored.\r\n\r\nThe docs for it say:\r\n\r\n`///< The dock widget won't participate in save/restore. Currently only available for floating windows.`\r\n\r\nI can confirm that floating window widgets with this option applied are still saved to the layout data. I'm currently using KDDockWidgets 1.7.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/420/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/420/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:45:28Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32833678052",
+        "type": "PushEvent",
+        "actor": {
+            "id": 29507,
+            "login": "dantti",
+            "display_login": "dantti",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dantti",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29507?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15559318246,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dantti/gha_python",
+            "head": "254edbe46b452460473d43e951a565fda299ed1a",
+            "before": "3df86880b451b9ccd12912ecfa2a2d51532b6331",
+            "commits": [
+                {
+                    "sha": "254edbe46b452460473d43e951a565fda299ed1a",
+                    "author": {
+                        "email": "daniel.nicoletti@kdab.com",
+                        "name": "Daniel Nicoletti"
+                    },
+                    "message": "GitHub Actions add Python6 preset",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/254edbe46b452460473d43e951a565fda299ed1a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:53:05Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32833457877",
+        "type": "PushEvent",
+        "actor": {
+            "id": 29507,
+            "login": "dantti",
+            "display_login": "dantti",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dantti",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29507?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15559210616,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dantti/gha_python",
+            "head": "3df86880b451b9ccd12912ecfa2a2d51532b6331",
+            "before": "3bd2ee307d44cc8a43117ae41935e8a0735c9eda",
+            "commits": [
+                {
+                    "sha": "3df86880b451b9ccd12912ecfa2a2d51532b6331",
+                    "author": {
+                        "email": "daniel.nicoletti@kdab.com",
+                        "name": "Daniel Nicoletti"
+                    },
+                    "message": "GitHub Actions add Python6 preset",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/3df86880b451b9ccd12912ecfa2a2d51532b6331"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:44:57Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32833408235",
+        "type": "PushEvent",
+        "actor": {
+            "id": 29507,
+            "login": "dantti",
+            "display_login": "dantti",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dantti",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29507?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15559186660,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dantti/gha_python",
+            "head": "3bd2ee307d44cc8a43117ae41935e8a0735c9eda",
+            "before": "3e2e3ed594edc1fa16caf786f0c9a602e49e5e41",
+            "commits": [
+                {
+                    "sha": "3bd2ee307d44cc8a43117ae41935e8a0735c9eda",
+                    "author": {
+                        "email": "daniel.nicoletti@kdab.com",
+                        "name": "Daniel Nicoletti"
+                    },
+                    "message": "GitHub Actions add Python6 preset",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/3bd2ee307d44cc8a43117ae41935e8a0735c9eda"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:43:07Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32833298875",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 419,
+            "pull_request": {
+                "url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419",
+                "id": 1572509330,
+                "node_id": "PR_kwDOCrzkac5dupaS",
+                "html_url": "https://github.com/KDAB/KDDockWidgets/pull/419",
+                "diff_url": "https://github.com/KDAB/KDDockWidgets/pull/419.diff",
+                "patch_url": "https://github.com/KDAB/KDDockWidgets/pull/419.patch",
+                "issue_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419",
+                "number": 419,
+                "state": "closed",
+                "locked": false,
+                "title": "CI: Don't build examples initially in examples.yml",
+                "user": {
+                    "login": "iamsergio",
+                    "id": 20387,
+                    "node_id": "MDQ6VXNlcjIwMzg3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20387?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/iamsergio",
+                    "html_url": "https://github.com/iamsergio",
+                    "followers_url": "https://api.github.com/users/iamsergio/followers",
+                    "following_url": "https://api.github.com/users/iamsergio/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/iamsergio/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/iamsergio/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/iamsergio/subscriptions",
+                    "organizations_url": "https://api.github.com/users/iamsergio/orgs",
+                    "repos_url": "https://api.github.com/users/iamsergio/repos",
+                    "events_url": "https://api.github.com/users/iamsergio/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/iamsergio/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Here we build the examples one by one against an installed KDDW. Let's not waste time building the examples when we're building KDDW itself.",
+                "created_at": "2023-10-25T09:21:04Z",
+                "updated_at": "2023-10-25T11:39:03Z",
+                "closed_at": "2023-10-25T11:39:02Z",
+                "merged_at": null,
+                "merge_commit_sha": "590ed722e24787fbd802e377121fbdfdc8bfe703",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/commits",
+                "review_comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/comments",
+                "review_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/comments",
+                "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/5cae38cc02a2e265a80f77c360bd9970593d503d",
+                "head": {
+                    "label": "KDAB:examples_ci",
+                    "ref": "examples_ci",
+                    "sha": "5cae38cc02a2e265a80f77c360bd9970593d503d",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-25T11:29:05Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29248,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 21,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 21,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "base": {
+                    "label": "KDAB:2.0",
+                    "ref": "2.0",
+                    "sha": "4521732d51ff70abec9267ccc1b6bc6be84266af",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-25T11:29:05Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29248,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 21,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 21,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419"
+                    },
+                    "html": {
+                        "href": "https://github.com/KDAB/KDDockWidgets/pull/419"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/5cae38cc02a2e265a80f77c360bd9970593d503d"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": true,
+                "rebaseable": false,
+                "mergeable_state": "clean",
+                "merged_by": null,
+                "comments": 1,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 183,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:39:04Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32833298660",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419",
+                "repository_url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/labels{/name}",
+                "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/comments",
+                "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/events",
+                "html_url": "https://github.com/KDAB/KDDockWidgets/pull/419",
+                "id": 1960938855,
+                "node_id": "PR_kwDOCrzkac5dupaS",
+                "number": 419,
+                "title": "CI: Don't build examples initially in examples.yml",
+                "user": {
+                    "login": "iamsergio",
+                    "id": 20387,
+                    "node_id": "MDQ6VXNlcjIwMzg3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20387?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/iamsergio",
+                    "html_url": "https://github.com/iamsergio",
+                    "followers_url": "https://api.github.com/users/iamsergio/followers",
+                    "following_url": "https://api.github.com/users/iamsergio/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/iamsergio/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/iamsergio/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/iamsergio/subscriptions",
+                    "organizations_url": "https://api.github.com/users/iamsergio/orgs",
+                    "repos_url": "https://api.github.com/users/iamsergio/repos",
+                    "events_url": "https://api.github.com/users/iamsergio/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/iamsergio/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T09:21:04Z",
+                "updated_at": "2023-10-25T11:39:03Z",
+                "closed_at": "2023-10-25T11:39:02Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419",
+                    "html_url": "https://github.com/KDAB/KDDockWidgets/pull/419",
+                    "diff_url": "https://github.com/KDAB/KDDockWidgets/pull/419.diff",
+                    "patch_url": "https://github.com/KDAB/KDDockWidgets/pull/419.patch",
+                    "merged_at": null
+                },
+                "body": "Here we build the examples one by one against an installed KDDW. Let's not waste time building the examples when we're building KDDW itself.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments/1779076786",
+                "html_url": "https://github.com/KDAB/KDDockWidgets/pull/419#issuecomment-1779076786",
+                "issue_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419",
+                "id": 1779076786,
+                "node_id": "IC_kwDOCrzkac5qCo6y",
+                "user": {
+                    "login": "iamsergio",
+                    "id": 20387,
+                    "node_id": "MDQ6VXNlcjIwMzg3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20387?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/iamsergio",
+                    "html_url": "https://github.com/iamsergio",
+                    "followers_url": "https://api.github.com/users/iamsergio/followers",
+                    "following_url": "https://api.github.com/users/iamsergio/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/iamsergio/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/iamsergio/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/iamsergio/subscriptions",
+                    "organizations_url": "https://api.github.com/users/iamsergio/orgs",
+                    "repos_url": "https://api.github.com/users/iamsergio/repos",
+                    "events_url": "https://api.github.com/users/iamsergio/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/iamsergio/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T11:39:02Z",
+                "updated_at": "2023-10-25T11:39:02Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "already merged",
+                "reactions": {
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments/1779076786/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:39:03Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32833032629",
+        "type": "PushEvent",
+        "actor": {
+            "id": 29507,
+            "login": "dantti",
+            "display_login": "dantti",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dantti",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29507?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15559003845,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dantti/gha_python",
+            "head": "3e2e3ed594edc1fa16caf786f0c9a602e49e5e41",
+            "before": "cb39f5ecbb7983a8ec491c04e26d76a5bdce5102",
+            "commits": [
+                {
+                    "sha": "3e2e3ed594edc1fa16caf786f0c9a602e49e5e41",
+                    "author": {
+                        "email": "daniel.nicoletti@kdab.com",
+                        "name": "Daniel Nicoletti"
+                    },
+                    "message": "GitHub Actions add Python6 preset",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/3e2e3ed594edc1fa16caf786f0c9a602e49e5e41"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:29:03Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32830305334",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15557654799,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/2.0",
+            "head": "19256def73bf94639f0c0580992870d8b2adec99",
+            "before": "4521732d51ff70abec9267ccc1b6bc6be84266af",
+            "commits": [
+                {
+                    "sha": "19256def73bf94639f0c0580992870d8b2adec99",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "CI: Don't build examples initially in examples.yml [skip ci]\n\nHere we build the examples one by one against an installed KDDW.\nLet's not waste time building the examples when we're building\nKDDW itself.\n\nSkipping CI as I already ran this under CI.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/19256def73bf94639f0c0580992870d8b2adec99"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:51:01Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32829411845",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 419,
+            "pull_request": {
+                "url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419",
+                "id": 1572509330,
+                "node_id": "PR_kwDOCrzkac5dupaS",
+                "html_url": "https://github.com/KDAB/KDDockWidgets/pull/419",
+                "diff_url": "https://github.com/KDAB/KDDockWidgets/pull/419.diff",
+                "patch_url": "https://github.com/KDAB/KDDockWidgets/pull/419.patch",
+                "issue_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419",
+                "number": 419,
+                "state": "open",
+                "locked": false,
+                "title": "CI: Don't build examples initially in examples.yml",
+                "user": {
+                    "login": "iamsergio",
+                    "id": 20387,
+                    "node_id": "MDQ6VXNlcjIwMzg3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20387?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/iamsergio",
+                    "html_url": "https://github.com/iamsergio",
+                    "followers_url": "https://api.github.com/users/iamsergio/followers",
+                    "following_url": "https://api.github.com/users/iamsergio/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/iamsergio/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/iamsergio/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/iamsergio/subscriptions",
+                    "organizations_url": "https://api.github.com/users/iamsergio/orgs",
+                    "repos_url": "https://api.github.com/users/iamsergio/repos",
+                    "events_url": "https://api.github.com/users/iamsergio/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/iamsergio/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Here we build the examples one by one against an installed KDDW. Let's not waste time building the examples when we're building KDDW itself.",
+                "created_at": "2023-10-25T09:21:04Z",
+                "updated_at": "2023-10-25T09:21:04Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/commits",
+                "review_comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/comments",
+                "review_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/comments",
+                "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/5cae38cc02a2e265a80f77c360bd9970593d503d",
+                "head": {
+                    "label": "KDAB:examples_ci",
+                    "ref": "examples_ci",
+                    "sha": "5cae38cc02a2e265a80f77c360bd9970593d503d",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-25T09:21:04Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29246,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 22,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 22,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "base": {
+                    "label": "KDAB:2.0",
+                    "ref": "2.0",
+                    "sha": "4521732d51ff70abec9267ccc1b6bc6be84266af",
+                    "user": {
+                        "login": "KDAB",
+                        "id": 402842,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/KDAB",
+                        "html_url": "https://github.com/KDAB",
+                        "followers_url": "https://api.github.com/users/KDAB/followers",
+                        "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                        "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                        "repos_url": "https://api.github.com/users/KDAB/repos",
+                        "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 180151401,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxODAxNTE0MDE=",
+                        "name": "KDDockWidgets",
+                        "full_name": "KDAB/KDDockWidgets",
+                        "private": false,
+                        "owner": {
+                            "login": "KDAB",
+                            "id": 402842,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwMjg0Mg==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/402842?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/KDAB",
+                            "html_url": "https://github.com/KDAB",
+                            "followers_url": "https://api.github.com/users/KDAB/followers",
+                            "following_url": "https://api.github.com/users/KDAB/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/KDAB/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/KDAB/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/KDAB/subscriptions",
+                            "organizations_url": "https://api.github.com/users/KDAB/orgs",
+                            "repos_url": "https://api.github.com/users/KDAB/repos",
+                            "events_url": "https://api.github.com/users/KDAB/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/KDAB/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/KDAB/KDDockWidgets",
+                        "description": "KDAB's Dock Widget Framework for Qt",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/KDAB/KDDockWidgets",
+                        "forks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/forks",
+                        "keys_url": "https://api.github.com/repos/KDAB/KDDockWidgets/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/KDAB/KDDockWidgets/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/KDAB/KDDockWidgets/teams",
+                        "hooks_url": "https://api.github.com/repos/KDAB/KDDockWidgets/hooks",
+                        "issue_events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/KDAB/KDDockWidgets/events",
+                        "assignees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/KDAB/KDDockWidgets/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/tags",
+                        "blobs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/KDAB/KDDockWidgets/languages",
+                        "stargazers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/stargazers",
+                        "contributors_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contributors",
+                        "subscribers_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscribers",
+                        "subscription_url": "https://api.github.com/repos/KDAB/KDDockWidgets/subscription",
+                        "commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/KDAB/KDDockWidgets/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/KDAB/KDDockWidgets/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/KDAB/KDDockWidgets/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/KDAB/KDDockWidgets/merges",
+                        "archive_url": "https://api.github.com/repos/KDAB/KDDockWidgets/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/KDAB/KDDockWidgets/downloads",
+                        "issues_url": "https://api.github.com/repos/KDAB/KDDockWidgets/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/KDAB/KDDockWidgets/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/KDAB/KDDockWidgets/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/KDAB/KDDockWidgets/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/KDAB/KDDockWidgets/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/KDAB/KDDockWidgets/deployments",
+                        "created_at": "2019-04-08T13:08:44Z",
+                        "updated_at": "2023-10-23T10:55:37Z",
+                        "pushed_at": "2023-10-25T09:21:04Z",
+                        "git_url": "git://github.com/KDAB/KDDockWidgets.git",
+                        "ssh_url": "git@github.com:KDAB/KDDockWidgets.git",
+                        "clone_url": "https://github.com/KDAB/KDDockWidgets.git",
+                        "svn_url": "https://github.com/KDAB/KDDockWidgets",
+                        "homepage": "https://www.kdab.com/development-resources/qt-tools/kddockwidgets",
+                        "size": 29246,
+                        "stargazers_count": 657,
+                        "watchers_count": 657,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 143,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 22,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 143,
+                        "open_issues": 22,
+                        "watchers": 657,
+                        "default_branch": "2.0"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419"
+                    },
+                    "html": {
+                        "href": "https://github.com/KDAB/KDDockWidgets/pull/419"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/issues/419/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/pulls/419/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/KDAB/KDDockWidgets/statuses/5cae38cc02a2e265a80f77c360bd9970593d503d"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 183,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:21:05Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32829405446",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15557224084,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/examples_ci",
+            "head": "5cae38cc02a2e265a80f77c360bd9970593d503d",
+            "before": "4521732d51ff70abec9267ccc1b6bc6be84266af",
+            "commits": [
+                {
+                    "sha": "5cae38cc02a2e265a80f77c360bd9970593d503d",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "CI: Don't build examples initially in examples.yml\n\nHere we build the examples one by one against an installed KDDW.\nLet's not waste time building the examples when we're building\nKDDW itself.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/5cae38cc02a2e265a80f77c360bd9970593d503d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:20:53Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    },
+    {
+        "id": "32829254166",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20387,
+            "login": "iamsergio",
+            "display_login": "iamsergio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamsergio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20387?"
+        },
+        "repo": {
+            "id": 180151401,
+            "name": "KDAB/KDDockWidgets",
+            "url": "https://api.github.com/repos/KDAB/KDDockWidgets"
+        },
+        "payload": {
+            "repository_id": 180151401,
+            "push_id": 15557150444,
+            "size": 2,
+            "distinct_size": 0,
+            "ref": "refs/heads/examples_ci",
+            "head": "4521732d51ff70abec9267ccc1b6bc6be84266af",
+            "before": "96c380f5c05adac6ec85aeb1db90887cdcef64ff",
+            "commits": [
+                {
+                    "sha": "95818b9f021b1c482776434d39afd43987bd9511",
+                    "author": {
+                        "email": "allen.winter@kdab.com",
+                        "name": "Allen Winter"
+                    },
+                    "message": "examples/qtquick/customseparator/README.md - markdownlint",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/95818b9f021b1c482776434d39afd43987bd9511"
+                },
+                {
+                    "sha": "4521732d51ff70abec9267ccc1b6bc6be84266af",
+                    "author": {
+                        "email": "sergio.martins@kdab.com",
+                        "name": "Sergio Martins"
+                    },
+                    "message": "Added CI for building the examples independently [skip ci]\n\nAs many times we have build errors due to missing installed headers.\n\nAlready ran CI, so skipping it here.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/KDAB/KDDockWidgets/commits/4521732d51ff70abec9267ccc1b6bc6be84266af"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:15:54Z",
+        "org": {
+            "id": 402842,
+            "login": "KDAB",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/KDAB",
+            "avatar_url": "https://avatars.githubusercontent.com/u/402842?"
+        }
+    }
+]

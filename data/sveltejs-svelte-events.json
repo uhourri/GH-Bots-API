@@ -1,0 +1,1586 @@
+[
+    {
+        "id": "32897328791",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 88532016,
+            "login": "KazunguDev",
+            "display_login": "KazunguDev",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/KazunguDev",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88532016?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:37:37Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32897118046",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 74919942,
+            "login": "watchakorn-18k",
+            "display_login": "watchakorn-18k",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/watchakorn-18k",
+            "avatar_url": "https://avatars.githubusercontent.com/u/74919942?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:28:38Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32894783208",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 29704098,
+            "login": "7nik",
+            "display_login": "7nik",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/7nik",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29704098?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/8750",
+                "repository_url": "https://api.github.com/repos/sveltejs/svelte",
+                "labels_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/comments",
+                "events_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/events",
+                "html_url": "https://github.com/sveltejs/svelte/issues/8750",
+                "id": 1761768613,
+                "node_id": "I_kwDOBG2gSc5pAnSl",
+                "number": 8750,
+                "title": "$: reactive statement ignored during beforeUpdate",
+                "user": {
+                    "login": "ibmua",
+                    "id": 2233511,
+                    "node_id": "MDQ6VXNlcjIyMzM1MTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2233511?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ibmua",
+                    "html_url": "https://github.com/ibmua",
+                    "followers_url": "https://api.github.com/users/ibmua/followers",
+                    "following_url": "https://api.github.com/users/ibmua/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ibmua/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ibmua/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ibmua/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ibmua/orgs",
+                    "repos_url": "https://api.github.com/users/ibmua/repos",
+                    "events_url": "https://api.github.com/users/ibmua/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ibmua/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-06-17T10:32:03Z",
+                "updated_at": "2023-10-27T09:55:07Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Describe the bug\r\n\r\n$: reactive statements are ignored if values are modified in beforeUpdate.\r\n\r\n### Reproduction\r\n\r\nSolve https://learn.svelte.dev/tutorial/update\r\nand add\r\n```\r\n\t$: {\r\n\t\tconsole.log(\"autoscroll\", autoscroll)\r\n\t}\r\n\r\n```\r\nYou'll see that nothing will be logged. If you add some variable changes like\r\n```\r\n\r\nlet st = true\r\n\t$: {\r\n\t\tconsole.log(\"autoscroll\", autoscroll)\r\n\t\tst = !st\r\n\t}\r\n\r\n```\r\nyou'll see they don't change\r\n\r\n### Logs\r\n\r\n_No response_\r\n\r\n### System Info\r\n\r\n```shell\r\nhttps://learn.svelte.dev/tutorial/update on Chrome\r\n```\r\n\r\n\r\n### Severity\r\n\r\nPretty serious bug",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/reactions",
+                    "total_count": 3,
+                    "+1": 3,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1782633208",
+                "html_url": "https://github.com/sveltejs/svelte/issues/8750#issuecomment-1782633208",
+                "issue_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750",
+                "id": 1782633208,
+                "node_id": "IC_kwDOBG2gSc5qQNL4",
+                "user": {
+                    "login": "7nik",
+                    "id": 29704098,
+                    "node_id": "MDQ6VXNlcjI5NzA0MDk4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29704098?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/7nik",
+                    "html_url": "https://github.com/7nik",
+                    "followers_url": "https://api.github.com/users/7nik/followers",
+                    "following_url": "https://api.github.com/users/7nik/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/7nik/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/7nik/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/7nik/subscriptions",
+                    "organizations_url": "https://api.github.com/users/7nik/orgs",
+                    "repos_url": "https://api.github.com/users/7nik/repos",
+                    "events_url": "https://api.github.com/users/7nik/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/7nik/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T09:55:07Z",
+                "updated_at": "2023-10-27T09:55:07Z",
+                "author_association": "NONE",
+                "body": "No, it doesn't. When a variable changes (marked dirty), the following happens:\r\n1. looping over each `$:` block and running the ones that depend on dirtied variables;\r\n2. running `beforeUpdate`;\r\n3. marking all variables as up to date;\r\n4. updating DOM;\r\n5. running `afterUpdate`.\r\n\r\nStep 3 prevents infinite loops, plus proper udirting variables individually is too tricky or probably even impossible.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1782633208/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:55:08Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32892508979",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2270425,
+            "login": "danielo515",
+            "display_login": "danielo515",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielo515",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2270425?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/2940",
+                "repository_url": "https://api.github.com/repos/sveltejs/svelte",
+                "labels_url": "https://api.github.com/repos/sveltejs/svelte/issues/2940/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sveltejs/svelte/issues/2940/comments",
+                "events_url": "https://api.github.com/repos/sveltejs/svelte/issues/2940/events",
+                "html_url": "https://github.com/sveltejs/svelte/issues/2940",
+                "id": 451295914,
+                "node_id": "MDU6SXNzdWU0NTEyOTU5MTQ=",
+                "number": 2940,
+                "title": "Multiple components in one file",
+                "user": {
+                    "login": "clitetailor",
+                    "id": 16368559,
+                    "node_id": "MDQ6VXNlcjE2MzY4NTU5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16368559?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/clitetailor",
+                    "html_url": "https://github.com/clitetailor",
+                    "followers_url": "https://api.github.com/users/clitetailor/followers",
+                    "following_url": "https://api.github.com/users/clitetailor/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/clitetailor/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/clitetailor/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/clitetailor/subscriptions",
+                    "organizations_url": "https://api.github.com/users/clitetailor/orgs",
+                    "repos_url": "https://api.github.com/users/clitetailor/repos",
+                    "events_url": "https://api.github.com/users/clitetailor/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/clitetailor/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 46,
+                "created_at": "2019-06-03T05:15:01Z",
+                "updated_at": "2023-10-27T08:28:58Z",
+                "closed_at": "2019-06-12T14:04:50Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**What is this**: This is a feature request\r\n\r\n**Description**:\r\nSometimes, putting one component per one file is overkill and hard to maintain, especially when you have a lot of components. Use cases:\r\n\r\n- Styled components.\r\n- Private component (Component for local use only)\r\n\r\nAllow multiple-component declarations in one file would help a lot.\r\n\r\n**Proposal Example**:\r\n\r\n**design.svelte**\r\n\r\n```html\r\n{#def Input}\r\n  <input class=\"input\" {...$$props} />\r\n\r\n  <style>\r\n    .input {\r\n      background: blue;\r\n    }\r\n  </style>\r\n{/def}\r\n\r\n{#def Button}\r\n  <button class=\"button\" {...$$props}>\r\n    <slot></slot>\r\n  </button>\r\n\r\n  <style>\r\n    .button {\r\n      background: blue;\r\n    }\r\n  </style>\r\n{/def}\r\n```\r\n\r\n**app.svelte**\r\n\r\n```html\r\n<Button>Hi</Button>\r\n\r\n<script>\r\n  import { Button, Input } from './design.svelte'\r\n</script>\r\n```\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/2940/reactions",
+                    "total_count": 126,
+                    "+1": 108,
+                    "-1": 11,
+                    "laugh": 3,
+                    "hooray": 0,
+                    "confused": 3,
+                    "heart": 0,
+                    "rocket": 1,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sveltejs/svelte/issues/2940/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1782512392",
+                "html_url": "https://github.com/sveltejs/svelte/issues/2940#issuecomment-1782512392",
+                "issue_url": "https://api.github.com/repos/sveltejs/svelte/issues/2940",
+                "id": 1782512392,
+                "node_id": "IC_kwDOBG2gSc5qPvsI",
+                "user": {
+                    "login": "danielo515",
+                    "id": 2270425,
+                    "node_id": "MDQ6VXNlcjIyNzA0MjU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2270425?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/danielo515",
+                    "html_url": "https://github.com/danielo515",
+                    "followers_url": "https://api.github.com/users/danielo515/followers",
+                    "following_url": "https://api.github.com/users/danielo515/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/danielo515/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/danielo515/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/danielo515/subscriptions",
+                    "organizations_url": "https://api.github.com/users/danielo515/orgs",
+                    "repos_url": "https://api.github.com/users/danielo515/repos",
+                    "events_url": "https://api.github.com/users/danielo515/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/danielo515/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T08:28:58Z",
+                "updated_at": "2023-10-27T08:28:58Z",
+                "author_association": "NONE",
+                "body": "People complains about svelte having a lot of syntax already, but that is due to the design decisions made. Svelte thought that custom syntax for things the language can already solve was a great idea, and hence it ended with a lot of syntax that really looks like a niche metalanguage.\r\nThe reason this why this is trivial in other libraries, not even needing anything from the library itself, just JS syntax, and as oppose in Svelte it will require new syntax is because this decisions, but there is now way back unless they decide to greatly simplify in a future release.\r\n\r\nMy point is that, Svelte should accept that they require a lot of syntax for things that are trivial in other frameworks, and fulfill the needs of their community.\r\nThis is a necessity, and many people already explained many reasons.\r\nSomething as simple as having the same UI section of a component appear in several places already requires this. And no, I don't want to create a separate component and have to come up with a nice name that makes clear it is a internal component and not a general component to use, my IDE does not differentiate, and I don't want to see 5k components when fuzzy jumping to a part of my application.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1782512392/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:28:58Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32892225785",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 44518959,
+            "login": "athultr1997",
+            "display_login": "athultr1997",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/athultr1997",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44518959?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:18:04Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32891755483",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 100701133,
+            "login": "alvarnydev",
+            "display_login": "alvarnydev",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alvarnydev",
+            "avatar_url": "https://avatars.githubusercontent.com/u/100701133?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:59:23Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32891360760",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 11535502,
+            "login": "naimo84",
+            "display_login": "naimo84",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/naimo84",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11535502?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:42:57Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32891115135",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 22002885,
+            "login": "AndrXiangZi",
+            "display_login": "AndrXiangZi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AndrXiangZi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22002885?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "forkee": {
+                "id": 710670981,
+                "node_id": "R_kgDOKlv6hQ",
+                "name": "svelte",
+                "full_name": "AndrXiangZi/svelte",
+                "private": false,
+                "owner": {
+                    "login": "AndrXiangZi",
+                    "id": 22002885,
+                    "node_id": "MDQ6VXNlcjIyMDAyODg1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22002885?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/AndrXiangZi",
+                    "html_url": "https://github.com/AndrXiangZi",
+                    "followers_url": "https://api.github.com/users/AndrXiangZi/followers",
+                    "following_url": "https://api.github.com/users/AndrXiangZi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/AndrXiangZi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/AndrXiangZi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/AndrXiangZi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/AndrXiangZi/orgs",
+                    "repos_url": "https://api.github.com/users/AndrXiangZi/repos",
+                    "events_url": "https://api.github.com/users/AndrXiangZi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/AndrXiangZi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/AndrXiangZi/svelte",
+                "description": "Cybernetically enhanced web apps",
+                "fork": true,
+                "url": "https://api.github.com/repos/AndrXiangZi/svelte",
+                "forks_url": "https://api.github.com/repos/AndrXiangZi/svelte/forks",
+                "keys_url": "https://api.github.com/repos/AndrXiangZi/svelte/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/AndrXiangZi/svelte/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/AndrXiangZi/svelte/teams",
+                "hooks_url": "https://api.github.com/repos/AndrXiangZi/svelte/hooks",
+                "issue_events_url": "https://api.github.com/repos/AndrXiangZi/svelte/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/AndrXiangZi/svelte/events",
+                "assignees_url": "https://api.github.com/repos/AndrXiangZi/svelte/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/AndrXiangZi/svelte/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/AndrXiangZi/svelte/tags",
+                "blobs_url": "https://api.github.com/repos/AndrXiangZi/svelte/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/AndrXiangZi/svelte/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/AndrXiangZi/svelte/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/AndrXiangZi/svelte/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/AndrXiangZi/svelte/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/AndrXiangZi/svelte/languages",
+                "stargazers_url": "https://api.github.com/repos/AndrXiangZi/svelte/stargazers",
+                "contributors_url": "https://api.github.com/repos/AndrXiangZi/svelte/contributors",
+                "subscribers_url": "https://api.github.com/repos/AndrXiangZi/svelte/subscribers",
+                "subscription_url": "https://api.github.com/repos/AndrXiangZi/svelte/subscription",
+                "commits_url": "https://api.github.com/repos/AndrXiangZi/svelte/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/AndrXiangZi/svelte/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/AndrXiangZi/svelte/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/AndrXiangZi/svelte/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/AndrXiangZi/svelte/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/AndrXiangZi/svelte/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/AndrXiangZi/svelte/merges",
+                "archive_url": "https://api.github.com/repos/AndrXiangZi/svelte/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/AndrXiangZi/svelte/downloads",
+                "issues_url": "https://api.github.com/repos/AndrXiangZi/svelte/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/AndrXiangZi/svelte/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/AndrXiangZi/svelte/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/AndrXiangZi/svelte/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/AndrXiangZi/svelte/labels{/name}",
+                "releases_url": "https://api.github.com/repos/AndrXiangZi/svelte/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/AndrXiangZi/svelte/deployments",
+                "created_at": "2023-10-27T07:32:35Z",
+                "updated_at": "2023-10-27T07:32:35Z",
+                "pushed_at": "2023-10-25T06:53:57Z",
+                "git_url": "git://github.com/AndrXiangZi/svelte.git",
+                "ssh_url": "git@github.com:AndrXiangZi/svelte.git",
+                "clone_url": "https://github.com/AndrXiangZi/svelte.git",
+                "svn_url": "https://github.com/AndrXiangZi/svelte",
+                "homepage": "https://svelte.dev",
+                "size": 98444,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:32:36Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32890385798",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14327094,
+            "login": "meap158",
+            "display_login": "meap158",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/meap158",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14327094?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:19Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32889991475",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 55314062,
+            "login": "hchen19",
+            "display_login": "hchen19",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hchen19",
+            "avatar_url": "https://avatars.githubusercontent.com/u/55314062?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:40:47Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32888765976",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12489689,
+            "login": "RoloEdits",
+            "display_login": "RoloEdits",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RoloEdits",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12489689?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T05:27:27Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32882269492",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 10146319,
+            "login": "slacle",
+            "display_login": "slacle",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/slacle",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10146319?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:25:02Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32881883421",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 15256609,
+            "login": "nkhaskho",
+            "display_login": "nkhaskho",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nkhaskho",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15256609?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:05:36Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32880302547",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 80943664,
+            "login": "spifory",
+            "display_login": "spifory",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/spifory",
+            "avatar_url": "https://avatars.githubusercontent.com/u/80943664?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:52:38Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32879838595",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 8037559,
+            "login": "MrAmericanMike",
+            "display_login": "MrAmericanMike",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MrAmericanMike",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8037559?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/8750",
+                "repository_url": "https://api.github.com/repos/sveltejs/svelte",
+                "labels_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/comments",
+                "events_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/events",
+                "html_url": "https://github.com/sveltejs/svelte/issues/8750",
+                "id": 1761768613,
+                "node_id": "I_kwDOBG2gSc5pAnSl",
+                "number": 8750,
+                "title": "$: reactive statement ignored during beforeUpdate",
+                "user": {
+                    "login": "ibmua",
+                    "id": 2233511,
+                    "node_id": "MDQ6VXNlcjIyMzM1MTE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2233511?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ibmua",
+                    "html_url": "https://github.com/ibmua",
+                    "followers_url": "https://api.github.com/users/ibmua/followers",
+                    "following_url": "https://api.github.com/users/ibmua/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ibmua/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ibmua/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ibmua/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ibmua/orgs",
+                    "repos_url": "https://api.github.com/users/ibmua/repos",
+                    "events_url": "https://api.github.com/users/ibmua/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ibmua/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-06-17T10:32:03Z",
+                "updated_at": "2023-10-26T19:31:25Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Describe the bug\r\n\r\n$: reactive statements are ignored if values are modified in beforeUpdate.\r\n\r\n### Reproduction\r\n\r\nSolve https://learn.svelte.dev/tutorial/update\r\nand add\r\n```\r\n\t$: {\r\n\t\tconsole.log(\"autoscroll\", autoscroll)\r\n\t}\r\n\r\n```\r\nYou'll see that nothing will be logged. If you add some variable changes like\r\n```\r\n\r\nlet st = true\r\n\t$: {\r\n\t\tconsole.log(\"autoscroll\", autoscroll)\r\n\t\tst = !st\r\n\t}\r\n\r\n```\r\nyou'll see they don't change\r\n\r\n### Logs\r\n\r\n_No response_\r\n\r\n### System Info\r\n\r\n```shell\r\nhttps://learn.svelte.dev/tutorial/update on Chrome\r\n```\r\n\r\n\r\n### Severity\r\n\r\nPretty serious bug",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/reactions",
+                    "total_count": 3,
+                    "+1": 3,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1781777921",
+                "html_url": "https://github.com/sveltejs/svelte/issues/8750#issuecomment-1781777921",
+                "issue_url": "https://api.github.com/repos/sveltejs/svelte/issues/8750",
+                "id": 1781777921,
+                "node_id": "IC_kwDOBG2gSc5qM8YB",
+                "user": {
+                    "login": "MrAmericanMike",
+                    "id": 8037559,
+                    "node_id": "MDQ6VXNlcjgwMzc1NTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8037559?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/MrAmericanMike",
+                    "html_url": "https://github.com/MrAmericanMike",
+                    "followers_url": "https://api.github.com/users/MrAmericanMike/followers",
+                    "following_url": "https://api.github.com/users/MrAmericanMike/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/MrAmericanMike/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/MrAmericanMike/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/MrAmericanMike/subscriptions",
+                    "organizations_url": "https://api.github.com/users/MrAmericanMike/orgs",
+                    "repos_url": "https://api.github.com/users/MrAmericanMike/repos",
+                    "events_url": "https://api.github.com/users/MrAmericanMike/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/MrAmericanMike/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T19:31:25Z",
+                "updated_at": "2023-10-26T19:31:25Z",
+                "author_association": "NONE",
+                "body": "I'm not sure I fully understand what the issue here is, but I'm intrigued by this part of the code.\r\n\r\n```js\r\n\t$: {\r\n\t\tconsole.log({val1, val2, domDep}),\r\n\t\tval2 = !val2\r\n\t}\r\n\t```\r\nIf we are updating the value of val2 inside this reactive block, and the block is supposed to run each time val2 changes because we are logging it to the console. Wouldn't this cause (shouldn't this cause) an infinite loop?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1781777921/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:31:26Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32879668741",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 60577287,
+            "login": "EngAbdalrhman",
+            "display_login": "EngAbdalrhman",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/EngAbdalrhman",
+            "avatar_url": "https://avatars.githubusercontent.com/u/60577287?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:23:53Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32878352765",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 23120972,
+            "login": "bmadone",
+            "display_login": "bmadone",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bmadone",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23120972?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:29:09Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32877794652",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 99897841,
+            "login": "mglikesbikes",
+            "display_login": "mglikesbikes",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mglikesbikes",
+            "avatar_url": "https://avatars.githubusercontent.com/u/99897841?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:06:34Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32877677536",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 31595230,
+            "login": "orlmonteverde",
+            "display_login": "orlmonteverde",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/orlmonteverde",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31595230?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:01:42Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32874823902",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 89448102,
+            "login": "LukasKram",
+            "display_login": "LukasKram",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LukasKram",
+            "avatar_url": "https://avatars.githubusercontent.com/u/89448102?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:09:05Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32869078421",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 34133543,
+            "login": "LeqitDev",
+            "display_login": "LeqitDev",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LeqitDev",
+            "avatar_url": "https://avatars.githubusercontent.com/u/34133543?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:13:23Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32866936312",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 39985263,
+            "login": "GreatZPP",
+            "display_login": "GreatZPP",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/GreatZPP",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39985263?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T12:04:58Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32866122973",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 77626115,
+            "login": "secneuqes",
+            "display_login": "secneuqes",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/secneuqes",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77626115?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:34:02Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32865180084",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 73595368,
+            "login": "philipstam",
+            "display_login": "philipstam",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/philipstam",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73595368?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:58:02Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32864995182",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 102789786,
+            "login": "pratikpatel-aurochs",
+            "display_login": "pratikpatel-aurochs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pratikpatel-aurochs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102789786?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:51:01Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32864700512",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 42928828,
+            "login": "sida-wang",
+            "display_login": "sida-wang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sida-wang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42928828?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "forkee": {
+                "id": 710258704,
+                "node_id": "R_kgDOKlWwEA",
+                "name": "svelte",
+                "full_name": "sida-wang/svelte",
+                "private": false,
+                "owner": {
+                    "login": "sida-wang",
+                    "id": 42928828,
+                    "node_id": "MDQ6VXNlcjQyOTI4ODI4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42928828?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sida-wang",
+                    "html_url": "https://github.com/sida-wang",
+                    "followers_url": "https://api.github.com/users/sida-wang/followers",
+                    "following_url": "https://api.github.com/users/sida-wang/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sida-wang/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sida-wang/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sida-wang/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sida-wang/orgs",
+                    "repos_url": "https://api.github.com/users/sida-wang/repos",
+                    "events_url": "https://api.github.com/users/sida-wang/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sida-wang/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/sida-wang/svelte",
+                "description": "Cybernetically enhanced web apps",
+                "fork": true,
+                "url": "https://api.github.com/repos/sida-wang/svelte",
+                "forks_url": "https://api.github.com/repos/sida-wang/svelte/forks",
+                "keys_url": "https://api.github.com/repos/sida-wang/svelte/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/sida-wang/svelte/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/sida-wang/svelte/teams",
+                "hooks_url": "https://api.github.com/repos/sida-wang/svelte/hooks",
+                "issue_events_url": "https://api.github.com/repos/sida-wang/svelte/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/sida-wang/svelte/events",
+                "assignees_url": "https://api.github.com/repos/sida-wang/svelte/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/sida-wang/svelte/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/sida-wang/svelte/tags",
+                "blobs_url": "https://api.github.com/repos/sida-wang/svelte/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/sida-wang/svelte/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/sida-wang/svelte/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/sida-wang/svelte/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/sida-wang/svelte/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/sida-wang/svelte/languages",
+                "stargazers_url": "https://api.github.com/repos/sida-wang/svelte/stargazers",
+                "contributors_url": "https://api.github.com/repos/sida-wang/svelte/contributors",
+                "subscribers_url": "https://api.github.com/repos/sida-wang/svelte/subscribers",
+                "subscription_url": "https://api.github.com/repos/sida-wang/svelte/subscription",
+                "commits_url": "https://api.github.com/repos/sida-wang/svelte/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/sida-wang/svelte/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/sida-wang/svelte/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/sida-wang/svelte/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/sida-wang/svelte/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/sida-wang/svelte/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/sida-wang/svelte/merges",
+                "archive_url": "https://api.github.com/repos/sida-wang/svelte/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/sida-wang/svelte/downloads",
+                "issues_url": "https://api.github.com/repos/sida-wang/svelte/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/sida-wang/svelte/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/sida-wang/svelte/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/sida-wang/svelte/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/sida-wang/svelte/labels{/name}",
+                "releases_url": "https://api.github.com/repos/sida-wang/svelte/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/sida-wang/svelte/deployments",
+                "created_at": "2023-10-26T10:39:50Z",
+                "updated_at": "2023-10-26T10:39:50Z",
+                "pushed_at": "2023-10-25T06:53:57Z",
+                "git_url": "git://github.com/sida-wang/svelte.git",
+                "ssh_url": "git@github.com:sida-wang/svelte.git",
+                "clone_url": "https://github.com/sida-wang/svelte.git",
+                "svn_url": "https://github.com/sida-wang/svelte",
+                "homepage": "https://svelte.dev",
+                "size": 98444,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:39:51Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32864368040",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5968653,
+            "login": "dummdidumm",
+            "display_login": "dummdidumm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dummdidumm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5968653?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/5018",
+                "repository_url": "https://api.github.com/repos/sveltejs/svelte",
+                "labels_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/comments",
+                "events_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/events",
+                "html_url": "https://github.com/sveltejs/svelte/issues/5018",
+                "id": 638518813,
+                "node_id": "MDU6SXNzdWU2Mzg1MTg4MTM=",
+                "number": 5018,
+                "title": "Updating a contenteditable w/ on:input function is prepending, not replacing, if initial value is empty",
+                "user": {
+                    "login": "noahlh",
+                    "id": 113276,
+                    "node_id": "MDQ6VXNlcjExMzI3Ng==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/113276?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/noahlh",
+                    "html_url": "https://github.com/noahlh",
+                    "followers_url": "https://api.github.com/users/noahlh/followers",
+                    "following_url": "https://api.github.com/users/noahlh/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/noahlh/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/noahlh/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/noahlh/subscriptions",
+                    "organizations_url": "https://api.github.com/users/noahlh/orgs",
+                    "repos_url": "https://api.github.com/users/noahlh/repos",
+                    "events_url": "https://api.github.com/users/noahlh/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/noahlh/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 485407404,
+                        "node_id": "MDU6TGFiZWw0ODU0MDc0MDQ=",
+                        "url": "https://api.github.com/repos/sveltejs/svelte/labels/bug",
+                        "name": "bug",
+                        "color": "ee0701",
+                        "default": true,
+                        "description": ""
+                    },
+                    {
+                        "id": 3119803778,
+                        "node_id": "MDU6TGFiZWwzMTE5ODAzNzc4",
+                        "url": "https://api.github.com/repos/sveltejs/svelte/labels/temp-stale",
+                        "name": "temp-stale",
+                        "color": "c2e0c6",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 11,
+                "created_at": "2020-06-15T03:46:35Z",
+                "updated_at": "2023-10-26T10:27:31Z",
+                "closed_at": "2023-10-26T10:27:31Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nSorry for the mouthful of a title.  Showing is often easier than telling:\r\n\r\nhttps://svelte.dev/repl/04d08576e3db43d6a7f5c3fd7ae593a3?version=3.23.2\r\n\r\nIf the initial value is empty, typing into the contenteditable div causes the value to be prepended with the previous value after each keystroke (instead of replaced).  Eg typing \"Hello\" nets a value of:\r\n\r\nHelloHelloHellHelHeH\r\n\r\nThis does not happen if a) the initial value of the field is non-empty or b) after you complete that initial input, you select all the garbage text, delete it, and re-enter new text.\r\n\r\n**Expected behavior**\r\nThe value of the element's innerText should reflect exactly what is typed.\r\n\r\n**Information about your Svelte project:**\r\n- Chrome 81 & Safari 13.1.1\r\n- MacOS 10.15.5\r\n- Svelte 3.23.2\r\n\r\n**Severity**\r\nAnnoying / semi-blocking (I can work around this in my project, but it does prevent me from initializing the div with an empty value, which I'd prefer)\r\n\r\n**Additional context**\r\nChecked with #support on Discord and was suggested that I file a bug.  I searched and couldn't find any related issues.  Apologies in advance if this is my mistake and not actually a bug!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:27:32Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32864367887",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5968653,
+            "login": "dummdidumm",
+            "display_login": "dummdidumm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dummdidumm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5968653?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/5018",
+                "repository_url": "https://api.github.com/repos/sveltejs/svelte",
+                "labels_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/comments",
+                "events_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/events",
+                "html_url": "https://github.com/sveltejs/svelte/issues/5018",
+                "id": 638518813,
+                "node_id": "MDU6SXNzdWU2Mzg1MTg4MTM=",
+                "number": 5018,
+                "title": "Updating a contenteditable w/ on:input function is prepending, not replacing, if initial value is empty",
+                "user": {
+                    "login": "noahlh",
+                    "id": 113276,
+                    "node_id": "MDQ6VXNlcjExMzI3Ng==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/113276?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/noahlh",
+                    "html_url": "https://github.com/noahlh",
+                    "followers_url": "https://api.github.com/users/noahlh/followers",
+                    "following_url": "https://api.github.com/users/noahlh/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/noahlh/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/noahlh/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/noahlh/subscriptions",
+                    "organizations_url": "https://api.github.com/users/noahlh/orgs",
+                    "repos_url": "https://api.github.com/users/noahlh/repos",
+                    "events_url": "https://api.github.com/users/noahlh/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/noahlh/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 485407404,
+                        "node_id": "MDU6TGFiZWw0ODU0MDc0MDQ=",
+                        "url": "https://api.github.com/repos/sveltejs/svelte/labels/bug",
+                        "name": "bug",
+                        "color": "ee0701",
+                        "default": true,
+                        "description": ""
+                    },
+                    {
+                        "id": 3119803778,
+                        "node_id": "MDU6TGFiZWwzMTE5ODAzNzc4",
+                        "url": "https://api.github.com/repos/sveltejs/svelte/labels/temp-stale",
+                        "name": "temp-stale",
+                        "color": "c2e0c6",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 11,
+                "created_at": "2020-06-15T03:46:35Z",
+                "updated_at": "2023-10-26T10:27:31Z",
+                "closed_at": "2023-10-26T10:27:31Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nSorry for the mouthful of a title.  Showing is often easier than telling:\r\n\r\nhttps://svelte.dev/repl/04d08576e3db43d6a7f5c3fd7ae593a3?version=3.23.2\r\n\r\nIf the initial value is empty, typing into the contenteditable div causes the value to be prepended with the previous value after each keystroke (instead of replaced).  Eg typing \"Hello\" nets a value of:\r\n\r\nHelloHelloHellHelHeH\r\n\r\nThis does not happen if a) the initial value of the field is non-empty or b) after you complete that initial input, you select all the garbage text, delete it, and re-enter new text.\r\n\r\n**Expected behavior**\r\nThe value of the element's innerText should reflect exactly what is typed.\r\n\r\n**Information about your Svelte project:**\r\n- Chrome 81 & Safari 13.1.1\r\n- MacOS 10.15.5\r\n- Svelte 3.23.2\r\n\r\n**Severity**\r\nAnnoying / semi-blocking (I can work around this in my project, but it does prevent me from initializing the div with an empty value, which I'd prefer)\r\n\r\n**Additional context**\r\nChecked with #support on Discord and was suggested that I file a bug.  I searched and couldn't find any related issues.  Apologies in advance if this is my mistake and not actually a bug!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1780844963",
+                "html_url": "https://github.com/sveltejs/svelte/issues/5018#issuecomment-1780844963",
+                "issue_url": "https://api.github.com/repos/sveltejs/svelte/issues/5018",
+                "id": 1780844963,
+                "node_id": "IC_kwDOBG2gSc5qJYmj",
+                "user": {
+                    "login": "dummdidumm",
+                    "id": 5968653,
+                    "node_id": "MDQ6VXNlcjU5Njg2NTM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5968653?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dummdidumm",
+                    "html_url": "https://github.com/dummdidumm",
+                    "followers_url": "https://api.github.com/users/dummdidumm/followers",
+                    "following_url": "https://api.github.com/users/dummdidumm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dummdidumm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dummdidumm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dummdidumm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dummdidumm/orgs",
+                    "repos_url": "https://api.github.com/users/dummdidumm/repos",
+                    "events_url": "https://api.github.com/users/dummdidumm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dummdidumm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T10:27:31Z",
+                "updated_at": "2023-10-26T10:27:31Z",
+                "author_association": "MEMBER",
+                "body": "Using contenteditable is a nasty beast, and there's not much Svelte can do to make this behave correctly in all situations. Back when this issue was created `bind:innerText` didn't exist yet, but it now does, and it should be used instead.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sveltejs/svelte/issues/comments/1780844963/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:27:32Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32864087285",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12584502,
+            "login": "BoWenL",
+            "display_login": "BoWenL",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BoWenL",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12584502?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:18:18Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    },
+    {
+        "id": "32862760675",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 35628201,
+            "login": "zakyi",
+            "display_login": "zakyi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zakyi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35628201?"
+        },
+        "repo": {
+            "id": 74293321,
+            "name": "sveltejs/svelte",
+            "url": "https://api.github.com/repos/sveltejs/svelte"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:33:12Z",
+        "org": {
+            "id": 23617963,
+            "login": "sveltejs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sveltejs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23617963?"
+        }
+    }
+]

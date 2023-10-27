@@ -1,0 +1,1156 @@
+[
+    {
+        "id": "32895027360",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 16327442,
+            "login": "fferroni",
+            "display_login": "fferroni",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fferroni",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16327442?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/facebookresearch/faiss/issues/3112",
+                "repository_url": "https://api.github.com/repos/facebookresearch/faiss",
+                "labels_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3112/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3112/comments",
+                "events_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3112/events",
+                "html_url": "https://github.com/facebookresearch/faiss/issues/3112",
+                "id": 1958878450,
+                "node_id": "I_kwDOBNds_c50whzy",
+                "number": 3112,
+                "title": "Inconsistent retrievals using IDSelectorBatch",
+                "user": {
+                    "login": "fferroni",
+                    "id": 16327442,
+                    "node_id": "MDQ6VXNlcjE2MzI3NDQy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16327442?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fferroni",
+                    "html_url": "https://github.com/fferroni",
+                    "followers_url": "https://api.github.com/users/fferroni/followers",
+                    "following_url": "https://api.github.com/users/fferroni/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fferroni/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fferroni/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fferroni/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fferroni/orgs",
+                    "repos_url": "https://api.github.com/users/fferroni/repos",
+                    "events_url": "https://api.github.com/users/fferroni/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fferroni/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 534246309,
+                        "node_id": "MDU6TGFiZWw1MzQyNDYzMDk=",
+                        "url": "https://api.github.com/repos/facebookresearch/faiss/labels/bug",
+                        "name": "bug",
+                        "color": "ee0701",
+                        "default": true,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-24T09:39:32Z",
+                "updated_at": "2023-10-27T10:04:22Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "# Summary\r\n\r\nWhen I try using the IDSelectorBatch, I get `-1` returns for elements that should exist.\r\n\r\n# Platform\r\n\r\nOS: Ubuntu 22.04\r\nFaiss version: 1.7.3\r\n\r\nRunning on:\r\n- [ x] CPU\r\n- [ ] GPU\r\n\r\nInterface: \r\n- [ ] C++\r\n- [ x] Python\r\n\r\n# Reproduction instructions\r\n\r\nA basic code to replicate the issue. I first query without any ID selectors to get the best known best IDs, and then add these known IDs to a subset of the total ID list.\r\n\r\n```\r\nimport faiss\r\nfrom faiss.contrib import datasets\r\nimport numpy as np\r\n\r\n# generate data\r\ndim = 768\r\nds = datasets.SyntheticDataset(dim, 200_000, 1, 1, seed=42, metric=\"IP\")\r\nxt = ds.xt\r\nxq = ds.xq\r\nfaiss.normalize_L2(xt)\r\nfaiss.normalize_L2(xq)\r\n\r\nnlist = 4096\r\nfor compression in [\"Flat\", \"SQ8\", \"SQ4\"]:\r\n\r\n    # create index\r\n    index_key = f\"IVF{nlist},{compression}\"\r\n    index = faiss.index_factory(dim, index_key, faiss.METRIC_INNER_PRODUCT)\r\n    index.train(xt)\r\n    index.add(xt)\r\n\r\n    # set as high as possible\r\n    index.nprobe = nlist\r\n        \r\n    # query index\r\n    k = 10\r\n    res1 = index.search(xq, k)\r\n    \r\n    # randomly sample pool of IDs, and also add the ones returned in res1\r\n    ids = np.array(list(set(np.random.randint(0, index.ntotal, 1000).tolist() + res1[1][0].tolist()))).astype(\"int64\")\r\n    \r\n    sel = faiss.IDSelectorBatch(ids)\r\n    params = (\r\n        faiss.SearchParametersIVF(sel=sel) if \"IVF\" in index_key else\r\n        faiss.SearchParametersPQ(sel=sel) if \"PQ\" in index_key else\r\n        faiss.SearchParameters(sel=sel)\r\n    )\r\n    \r\n    res2 = index.search(xq, k, params=params)\r\n\r\n    print(f\"Index type: {index_key}\")\r\n    print(\"Top-k without IDSelectorBatch\", np.sort(res1[1][0]))\r\n    print(\"Top-k With IDSelectorBatch\", np.sort(res2[1][0]))\r\n```\r\n\r\nI get for example:\r\n```\r\nIndex type: IVF4096,Flat\r\nTop-k without IDSelectorBatch [  8190   8623  61563  91591  96073 102753 142386 146507 152858 177282]\r\nTop-k With IDSelectorBatch [   -1    -1    -1    -1    -1    -1    -1    -1    -1 96073]\r\nIndex type: IVF4096,SQ4\r\nTop-k without IDSelectorBatch [  8190   8623  61563  91591  96073 102753 142386 146507 152858 177282]\r\nTop-k With IDSelectorBatch [   -1    -1    -1    -1    -1    -1    -1    -1    -1 96073]\r\nIndex type: IVF4096,SQ8\r\nTop-k without IDSelectorBatch [  8190   8623  61563  91591  96073 102753 142386 146507 152858 177282]\r\nTop-k With IDSelectorBatch [   -1    -1    -1    -1    -1    -1    -1    -1    -1 96073]\r\n```\r\n\r\nThe indices are stable regardless of the compression for the search without IDSelectorBatch. I'm also increasing the nlist to basically exhaustively search through all partitions.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/faiss/issues/3112/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3112/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/facebookresearch/faiss/issues/comments/1782646030",
+                "html_url": "https://github.com/facebookresearch/faiss/issues/3112#issuecomment-1782646030",
+                "issue_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3112",
+                "id": 1782646030,
+                "node_id": "IC_kwDOBNds_c5qQQUO",
+                "user": {
+                    "login": "fferroni",
+                    "id": 16327442,
+                    "node_id": "MDQ6VXNlcjE2MzI3NDQy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16327442?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fferroni",
+                    "html_url": "https://github.com/fferroni",
+                    "followers_url": "https://api.github.com/users/fferroni/followers",
+                    "following_url": "https://api.github.com/users/fferroni/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fferroni/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fferroni/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fferroni/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fferroni/orgs",
+                    "repos_url": "https://api.github.com/users/fferroni/repos",
+                    "events_url": "https://api.github.com/users/fferroni/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fferroni/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T10:04:21Z",
+                "updated_at": "2023-10-27T10:04:21Z",
+                "author_association": "NONE",
+                "body": "@mdouze , any idea where the issue could be? Could potentially try to take a look too",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/faiss/issues/comments/1782646030/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:04:22Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32894480994",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5643094,
+            "login": "yanglicheng8",
+            "display_login": "yanglicheng8",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yanglicheng8",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5643094?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:43:40Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32893001785",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 41178002,
+            "login": "Peng-Lei",
+            "display_login": "Peng-Lei",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Peng-Lei",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41178002?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:48:05Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32890886125",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1058934,
+            "login": "zyrikby",
+            "display_login": "zyrikby",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zyrikby",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1058934?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:22:53Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32890728117",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12152166,
+            "login": "AntSnow",
+            "display_login": "AntSnow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AntSnow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12152166?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:15:56Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32889583478",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 110395849,
+            "login": "saken-tukenov",
+            "display_login": "saken-tukenov",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/saken-tukenov",
+            "avatar_url": "https://avatars.githubusercontent.com/u/110395849?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T06:19:12Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32888556433",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13166956,
+            "login": "lvlinkeji",
+            "display_login": "lvlinkeji",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lvlinkeji",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13166956?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T05:14:34Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32887996182",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4099994,
+            "login": "damhonglinh",
+            "display_login": "damhonglinh",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/damhonglinh",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4099994?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T04:32:16Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32887712887",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 43444842,
+            "login": "JeremyLIU1997",
+            "display_login": "JeremyLIU1997",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JeremyLIU1997",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43444842?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T04:09:42Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32887354464",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 143054177,
+            "login": "LeonP3ndragon",
+            "display_login": "LeonP3ndragon",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LeonP3ndragon",
+            "avatar_url": "https://avatars.githubusercontent.com/u/143054177?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:39:52Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32887255486",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 19658252,
+            "login": "Shepherddot",
+            "display_login": "Shepherddot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Shepherddot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19658252?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:31:27Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32886677563",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 58175002,
+            "login": "hupu1dong",
+            "display_login": "hupu1dong",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hupu1dong",
+            "avatar_url": "https://avatars.githubusercontent.com/u/58175002?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:44:59Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32886232674",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 20723142,
+            "login": "Bin-Huang",
+            "display_login": "Bin-Huang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Bin-Huang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20723142?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:09:45Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32883511071",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 8824599,
+            "login": "ryansann",
+            "display_login": "ryansann",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ryansann",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8824599?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T22:38:25Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32879516150",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1021101,
+            "login": "lovincyrus",
+            "display_login": "lovincyrus",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lovincyrus",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1021101?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:17:16Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32877604789",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 128874491,
+            "login": "usmmsy",
+            "display_login": "usmmsy",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/usmmsy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/128874491?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:58:45Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32874792928",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 70269796,
+            "login": "thedavidyoungblood",
+            "display_login": "thedavidyoungblood",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thedavidyoungblood",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70269796?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:08:00Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32874050878",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 58089381,
+            "login": "Kabilan108",
+            "display_login": "Kabilan108",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Kabilan108",
+            "avatar_url": "https://avatars.githubusercontent.com/u/58089381?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:42:26Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32873986834",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 78400701,
+            "login": "silver-ymz",
+            "display_login": "silver-ymz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/silver-ymz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/78400701?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:40:14Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32872388496",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 9008102,
+            "login": "daanrongen",
+            "display_login": "daanrongen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/daanrongen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9008102?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:50:16Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32871447021",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 53418492,
+            "login": "Waleed794",
+            "display_login": "Waleed794",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Waleed794",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53418492?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/facebookresearch/faiss/issues/3078",
+                "repository_url": "https://api.github.com/repos/facebookresearch/faiss",
+                "labels_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3078/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3078/comments",
+                "events_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3078/events",
+                "html_url": "https://github.com/facebookresearch/faiss/issues/3078",
+                "id": 1918127741,
+                "node_id": "I_kwDOBNds_c5yVE59",
+                "number": 3078,
+                "title": "Feature Request: Batch Retrieval Support for 'index.reconstruct()'",
+                "user": {
+                    "login": "Waleed794",
+                    "id": 53418492,
+                    "node_id": "MDQ6VXNlcjUzNDE4NDky",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/53418492?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Waleed794",
+                    "html_url": "https://github.com/Waleed794",
+                    "followers_url": "https://api.github.com/users/Waleed794/followers",
+                    "following_url": "https://api.github.com/users/Waleed794/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Waleed794/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Waleed794/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Waleed794/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Waleed794/orgs",
+                    "repos_url": "https://api.github.com/users/Waleed794/repos",
+                    "events_url": "https://api.github.com/users/Waleed794/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Waleed794/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 534246314,
+                        "node_id": "MDU6TGFiZWw1MzQyNDYzMTQ=",
+                        "url": "https://api.github.com/repos/facebookresearch/faiss/labels/question",
+                        "name": "question",
+                        "color": "cc317c",
+                        "default": true,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-09-28T19:22:08Z",
+                "updated_at": "2023-10-26T14:22:26Z",
+                "closed_at": "2023-10-26T14:22:26Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "# Summary\r\nFeature Request: Batch Retrieval Support for `index.reconstruct()`\r\n\r\n# Platform\r\n\r\nRunning on:\r\n- [x] CPU\r\n- [ ] GPU\r\n\r\nInterface: \r\n- [ ] C++\r\n- [x] Python\r\n\r\n\r\n## Description:\r\nCurrently, the `index.reconstruct()` method in FAISS allows users to retrieve a single vector at a time, requiring multiple function calls to retrieve multiple vectors. In scenarios where there is a need to retrieve a batch of vectors, this can result in suboptimal performance and increased overhead.\r\n\r\n## Feature Request:\r\nI would like to propose the addition of batch retrieval support for the `index.reconstruct()` method. Specifically, I suggest enhancing the method to accept a list of indices or positions and return a corresponding list of retrieved vectors in a single function call.\r\n\r\n## Use Case:\r\nThis feature would be particularly valuable in scenarios where users need to retrieve multiple vectors simultaneously, such as when working with large datasets or conducting batch inference with embeddings stored in FAISS.\r\n\r\n## Benefits:\r\n1. Improved Efficiency: Batch retrieval reduces the number of function calls and potentially enhances the performance of retrieval operations, especially when dealing with large datasets.\r\n\r\n2. Simplified Code: Users can simplify their code by avoiding repetitive calls to `index.reconstruct()` for each vector.\r\n\r\n## Example:\r\n\r\n### Current Usage (Sequential Retrieval)\r\nretrieved_vectors = [index.reconstruct(i) for i in indices]\r\n\r\n### Proposed Usage (Batch Retrieval)\r\nretrieved_vectors = index.reconstruct_batch(indices)\r\n\r\n- Proposed Method Signature: reconstruct_batch(indices: List[int]) -> List[Tensor]\r\n- The function would take a list of indices (positions) as input and return a list of tensors (vectors) as output.\r\n- The existing index.reconstruct() method can continue to be supported for single-vector retrieval.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/faiss/issues/3078/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebookresearch/faiss/issues/3078/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:22:27Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32869504769",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 93339610,
+            "login": "PRigas96",
+            "display_login": "PRigas96",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/PRigas96",
+            "avatar_url": "https://avatars.githubusercontent.com/u/93339610?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:26:02Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32863868888",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7448780,
+            "login": "wgfi110",
+            "display_login": "wgfi110",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wgfi110",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7448780?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:10:38Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32862652557",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2258158,
+            "login": "liuchangdong",
+            "display_login": "liuchangdong",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/liuchangdong",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2258158?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:29:34Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32857028996",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 45646718,
+            "login": "hpdic",
+            "display_login": "hpdic",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hpdic",
+            "avatar_url": "https://avatars.githubusercontent.com/u/45646718?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "forkee": {
+                "id": 710146354,
+                "node_id": "R_kgDOKlP5Mg",
+                "name": "faiss",
+                "full_name": "hpdic/faiss",
+                "private": false,
+                "owner": {
+                    "login": "hpdic",
+                    "id": 45646718,
+                    "node_id": "MDQ6VXNlcjQ1NjQ2NzE4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/45646718?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hpdic",
+                    "html_url": "https://github.com/hpdic",
+                    "followers_url": "https://api.github.com/users/hpdic/followers",
+                    "following_url": "https://api.github.com/users/hpdic/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hpdic/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hpdic/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hpdic/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hpdic/orgs",
+                    "repos_url": "https://api.github.com/users/hpdic/repos",
+                    "events_url": "https://api.github.com/users/hpdic/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hpdic/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/hpdic/faiss",
+                "description": "A library for efficient similarity search and clustering of dense vectors.",
+                "fork": true,
+                "url": "https://api.github.com/repos/hpdic/faiss",
+                "forks_url": "https://api.github.com/repos/hpdic/faiss/forks",
+                "keys_url": "https://api.github.com/repos/hpdic/faiss/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/hpdic/faiss/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/hpdic/faiss/teams",
+                "hooks_url": "https://api.github.com/repos/hpdic/faiss/hooks",
+                "issue_events_url": "https://api.github.com/repos/hpdic/faiss/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/hpdic/faiss/events",
+                "assignees_url": "https://api.github.com/repos/hpdic/faiss/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/hpdic/faiss/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/hpdic/faiss/tags",
+                "blobs_url": "https://api.github.com/repos/hpdic/faiss/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/hpdic/faiss/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/hpdic/faiss/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/hpdic/faiss/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/hpdic/faiss/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/hpdic/faiss/languages",
+                "stargazers_url": "https://api.github.com/repos/hpdic/faiss/stargazers",
+                "contributors_url": "https://api.github.com/repos/hpdic/faiss/contributors",
+                "subscribers_url": "https://api.github.com/repos/hpdic/faiss/subscribers",
+                "subscription_url": "https://api.github.com/repos/hpdic/faiss/subscription",
+                "commits_url": "https://api.github.com/repos/hpdic/faiss/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/hpdic/faiss/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/hpdic/faiss/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/hpdic/faiss/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/hpdic/faiss/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/hpdic/faiss/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/hpdic/faiss/merges",
+                "archive_url": "https://api.github.com/repos/hpdic/faiss/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/hpdic/faiss/downloads",
+                "issues_url": "https://api.github.com/repos/hpdic/faiss/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/hpdic/faiss/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/hpdic/faiss/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/hpdic/faiss/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/hpdic/faiss/labels{/name}",
+                "releases_url": "https://api.github.com/repos/hpdic/faiss/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/hpdic/faiss/deployments",
+                "created_at": "2023-10-26T05:44:07Z",
+                "updated_at": "2023-10-26T05:44:08Z",
+                "pushed_at": "2023-10-25T07:09:08Z",
+                "git_url": "git://github.com/hpdic/faiss.git",
+                "ssh_url": "git@github.com:hpdic/faiss.git",
+                "clone_url": "https://github.com/hpdic/faiss.git",
+                "svn_url": "https://github.com/hpdic/faiss",
+                "homepage": "https://faiss.ai",
+                "size": 142030,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T05:44:08Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32855639242",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 8175938,
+            "login": "NemoFree",
+            "display_login": "NemoFree",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/NemoFree",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8175938?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:08:25Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32855471030",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 18898740,
+            "login": "jvdd",
+            "display_login": "jvdd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jvdd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18898740?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T03:55:26Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32854707312",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 30452676,
+            "login": "hjjdazzling",
+            "display_login": "hjjdazzling",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hjjdazzling",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30452676?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T02:56:42Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32854273274",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 49025539,
+            "login": "tylin45816",
+            "display_login": "tylin45816",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tylin45816",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49025539?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T02:23:38Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32854121348",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 111792923,
+            "login": "kityeungfe",
+            "display_login": "kityeungfe",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kityeungfe",
+            "avatar_url": "https://avatars.githubusercontent.com/u/111792923?"
+        },
+        "repo": {
+            "id": 81227005,
+            "name": "facebookresearch/faiss",
+            "url": "https://api.github.com/repos/facebookresearch/faiss"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T02:12:12Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    }
+]

@@ -1,0 +1,827 @@
+[
+    {
+        "id": "32659137469",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 24426034,
+            "login": "chouetz",
+            "display_login": "chouetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/chouetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24426034?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 3932,
+            "pull_request": {
+                "url": "https://api.github.com/repos/DataDog/dd-agent/pulls/3932",
+                "id": 1411550686,
+                "node_id": "PR_kwDOABJ2185UIo3e",
+                "html_url": "https://github.com/DataDog/dd-agent/pull/3932",
+                "diff_url": "https://github.com/DataDog/dd-agent/pull/3932.diff",
+                "patch_url": "https://github.com/DataDog/dd-agent/pull/3932.patch",
+                "issue_url": "https://api.github.com/repos/DataDog/dd-agent/issues/3932",
+                "number": 3932,
+                "state": "closed",
+                "locked": false,
+                "title": "bintray was stopped, get the artefact from elsewhere",
+                "user": {
+                    "login": "chouetz",
+                    "id": 24426034,
+                    "node_id": "MDQ6VXNlcjI0NDI2MDM0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24426034?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/chouetz",
+                    "html_url": "https://github.com/chouetz",
+                    "followers_url": "https://api.github.com/users/chouetz/followers",
+                    "following_url": "https://api.github.com/users/chouetz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/chouetz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/chouetz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/chouetz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/chouetz/orgs",
+                    "repos_url": "https://api.github.com/users/chouetz/repos",
+                    "events_url": "https://api.github.com/users/chouetz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/chouetz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "\r\n### What does this PR do?\r\nChange the source to fetch the jmxfetch jar used in the CI\r\n\r\n### Motivation\r\nI wanted to have a green build on dd-agent\r\n\r\n### Testing Guidelines\r\nThis is a pure CI update\r\n\r\n### Additional Notes\r\n\r\n",
+                "created_at": "2023-06-28T12:20:18Z",
+                "updated_at": "2023-10-18T13:41:47Z",
+                "closed_at": "2023-10-18T13:41:47Z",
+                "merged_at": null,
+                "merge_commit_sha": "e2e87b9b1f74e2c6e2e5e1bc26f7f5c67f23266a",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 140825700,
+                        "node_id": "MDU6TGFiZWwxNDA4MjU3MDA=",
+                        "url": "https://api.github.com/repos/DataDog/dd-agent/labels/bugfix",
+                        "name": "bugfix",
+                        "color": "eb6420",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 171765078,
+                        "node_id": "MDU6TGFiZWwxNzE3NjUwNzg=",
+                        "url": "https://api.github.com/repos/DataDog/dd-agent/labels/dev/tooling",
+                        "name": "dev/tooling",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "milestone": {
+                    "url": "https://api.github.com/repos/DataDog/dd-agent/milestones/16",
+                    "html_url": "https://github.com/DataDog/dd-agent/milestone/16",
+                    "labels_url": "https://api.github.com/repos/DataDog/dd-agent/milestones/16/labels",
+                    "id": 198411,
+                    "node_id": "MDk6TWlsZXN0b25lMTk4NDEx",
+                    "number": 16,
+                    "title": "Future",
+                    "description": "<!---\r\n@huboard:{\"order\":0.0}\r\n-->\r\n",
+                    "creator": {
+                        "login": "alq666",
+                        "id": 19755,
+                        "node_id": "MDQ6VXNlcjE5NzU1",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19755?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/alq666",
+                        "html_url": "https://github.com/alq666",
+                        "followers_url": "https://api.github.com/users/alq666/followers",
+                        "following_url": "https://api.github.com/users/alq666/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/alq666/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/alq666/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/alq666/subscriptions",
+                        "organizations_url": "https://api.github.com/users/alq666/orgs",
+                        "repos_url": "https://api.github.com/users/alq666/repos",
+                        "events_url": "https://api.github.com/users/alq666/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/alq666/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 21,
+                    "closed_issues": 111,
+                    "state": "open",
+                    "created_at": "2012-10-19T19:54:23Z",
+                    "updated_at": "2023-10-18T13:41:47Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/DataDog/dd-agent/pulls/3932/commits",
+                "review_comments_url": "https://api.github.com/repos/DataDog/dd-agent/pulls/3932/comments",
+                "review_comment_url": "https://api.github.com/repos/DataDog/dd-agent/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/DataDog/dd-agent/issues/3932/comments",
+                "statuses_url": "https://api.github.com/repos/DataDog/dd-agent/statuses/75a121402e85e06b740773a556e02aec3b7d829c",
+                "head": {
+                    "label": "DataDog:nschweitzer/jmxfetch",
+                    "ref": "nschweitzer/jmxfetch",
+                    "sha": "75a121402e85e06b740773a556e02aec3b7d829c",
+                    "user": {
+                        "login": "DataDog",
+                        "id": 365230,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjM2NTIzMA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/365230?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/DataDog",
+                        "html_url": "https://github.com/DataDog",
+                        "followers_url": "https://api.github.com/users/DataDog/followers",
+                        "following_url": "https://api.github.com/users/DataDog/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/DataDog/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/DataDog/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/DataDog/subscriptions",
+                        "organizations_url": "https://api.github.com/users/DataDog/orgs",
+                        "repos_url": "https://api.github.com/users/DataDog/repos",
+                        "events_url": "https://api.github.com/users/DataDog/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/DataDog/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 1210071,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjEwMDcx",
+                        "name": "dd-agent",
+                        "full_name": "DataDog/dd-agent",
+                        "private": false,
+                        "owner": {
+                            "login": "DataDog",
+                            "id": 365230,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjM2NTIzMA==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/365230?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/DataDog",
+                            "html_url": "https://github.com/DataDog",
+                            "followers_url": "https://api.github.com/users/DataDog/followers",
+                            "following_url": "https://api.github.com/users/DataDog/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/DataDog/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/DataDog/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/DataDog/subscriptions",
+                            "organizations_url": "https://api.github.com/users/DataDog/orgs",
+                            "repos_url": "https://api.github.com/users/DataDog/repos",
+                            "events_url": "https://api.github.com/users/DataDog/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/DataDog/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/DataDog/dd-agent",
+                        "description": "Datadog Agent Version 5",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/DataDog/dd-agent",
+                        "forks_url": "https://api.github.com/repos/DataDog/dd-agent/forks",
+                        "keys_url": "https://api.github.com/repos/DataDog/dd-agent/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/DataDog/dd-agent/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/DataDog/dd-agent/teams",
+                        "hooks_url": "https://api.github.com/repos/DataDog/dd-agent/hooks",
+                        "issue_events_url": "https://api.github.com/repos/DataDog/dd-agent/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/DataDog/dd-agent/events",
+                        "assignees_url": "https://api.github.com/repos/DataDog/dd-agent/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/DataDog/dd-agent/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/DataDog/dd-agent/tags",
+                        "blobs_url": "https://api.github.com/repos/DataDog/dd-agent/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/DataDog/dd-agent/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/DataDog/dd-agent/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/DataDog/dd-agent/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/DataDog/dd-agent/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/DataDog/dd-agent/languages",
+                        "stargazers_url": "https://api.github.com/repos/DataDog/dd-agent/stargazers",
+                        "contributors_url": "https://api.github.com/repos/DataDog/dd-agent/contributors",
+                        "subscribers_url": "https://api.github.com/repos/DataDog/dd-agent/subscribers",
+                        "subscription_url": "https://api.github.com/repos/DataDog/dd-agent/subscription",
+                        "commits_url": "https://api.github.com/repos/DataDog/dd-agent/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/DataDog/dd-agent/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/DataDog/dd-agent/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/DataDog/dd-agent/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/DataDog/dd-agent/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/DataDog/dd-agent/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/DataDog/dd-agent/merges",
+                        "archive_url": "https://api.github.com/repos/DataDog/dd-agent/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/DataDog/dd-agent/downloads",
+                        "issues_url": "https://api.github.com/repos/DataDog/dd-agent/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/DataDog/dd-agent/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/DataDog/dd-agent/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/DataDog/dd-agent/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/DataDog/dd-agent/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/DataDog/dd-agent/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/DataDog/dd-agent/deployments",
+                        "created_at": "2010-12-31T03:02:47Z",
+                        "updated_at": "2023-10-08T14:55:48Z",
+                        "pushed_at": "2023-09-07T09:03:21Z",
+                        "git_url": "git://github.com/DataDog/dd-agent.git",
+                        "ssh_url": "git@github.com:DataDog/dd-agent.git",
+                        "clone_url": "https://github.com/DataDog/dd-agent.git",
+                        "svn_url": "https://github.com/DataDog/dd-agent",
+                        "homepage": "https://docs.datadoghq.com/",
+                        "size": 44791,
+                        "stargazers_count": 1293,
+                        "watchers_count": 1293,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": false,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 851,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 189,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "agent",
+                            "agent-checks",
+                            "datadog",
+                            "datadog-agent",
+                            "dd",
+                            "devops",
+                            "monitoring",
+                            "python"
+                        ],
+                        "visibility": "public",
+                        "forks": 851,
+                        "open_issues": 189,
+                        "watchers": 1293,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "DataDog:master",
+                    "ref": "master",
+                    "sha": "0fec665036997d163f82511157efca4a163fd330",
+                    "user": {
+                        "login": "DataDog",
+                        "id": 365230,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjM2NTIzMA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/365230?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/DataDog",
+                        "html_url": "https://github.com/DataDog",
+                        "followers_url": "https://api.github.com/users/DataDog/followers",
+                        "following_url": "https://api.github.com/users/DataDog/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/DataDog/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/DataDog/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/DataDog/subscriptions",
+                        "organizations_url": "https://api.github.com/users/DataDog/orgs",
+                        "repos_url": "https://api.github.com/users/DataDog/repos",
+                        "events_url": "https://api.github.com/users/DataDog/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/DataDog/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 1210071,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjEwMDcx",
+                        "name": "dd-agent",
+                        "full_name": "DataDog/dd-agent",
+                        "private": false,
+                        "owner": {
+                            "login": "DataDog",
+                            "id": 365230,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjM2NTIzMA==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/365230?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/DataDog",
+                            "html_url": "https://github.com/DataDog",
+                            "followers_url": "https://api.github.com/users/DataDog/followers",
+                            "following_url": "https://api.github.com/users/DataDog/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/DataDog/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/DataDog/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/DataDog/subscriptions",
+                            "organizations_url": "https://api.github.com/users/DataDog/orgs",
+                            "repos_url": "https://api.github.com/users/DataDog/repos",
+                            "events_url": "https://api.github.com/users/DataDog/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/DataDog/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/DataDog/dd-agent",
+                        "description": "Datadog Agent Version 5",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/DataDog/dd-agent",
+                        "forks_url": "https://api.github.com/repos/DataDog/dd-agent/forks",
+                        "keys_url": "https://api.github.com/repos/DataDog/dd-agent/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/DataDog/dd-agent/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/DataDog/dd-agent/teams",
+                        "hooks_url": "https://api.github.com/repos/DataDog/dd-agent/hooks",
+                        "issue_events_url": "https://api.github.com/repos/DataDog/dd-agent/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/DataDog/dd-agent/events",
+                        "assignees_url": "https://api.github.com/repos/DataDog/dd-agent/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/DataDog/dd-agent/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/DataDog/dd-agent/tags",
+                        "blobs_url": "https://api.github.com/repos/DataDog/dd-agent/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/DataDog/dd-agent/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/DataDog/dd-agent/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/DataDog/dd-agent/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/DataDog/dd-agent/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/DataDog/dd-agent/languages",
+                        "stargazers_url": "https://api.github.com/repos/DataDog/dd-agent/stargazers",
+                        "contributors_url": "https://api.github.com/repos/DataDog/dd-agent/contributors",
+                        "subscribers_url": "https://api.github.com/repos/DataDog/dd-agent/subscribers",
+                        "subscription_url": "https://api.github.com/repos/DataDog/dd-agent/subscription",
+                        "commits_url": "https://api.github.com/repos/DataDog/dd-agent/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/DataDog/dd-agent/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/DataDog/dd-agent/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/DataDog/dd-agent/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/DataDog/dd-agent/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/DataDog/dd-agent/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/DataDog/dd-agent/merges",
+                        "archive_url": "https://api.github.com/repos/DataDog/dd-agent/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/DataDog/dd-agent/downloads",
+                        "issues_url": "https://api.github.com/repos/DataDog/dd-agent/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/DataDog/dd-agent/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/DataDog/dd-agent/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/DataDog/dd-agent/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/DataDog/dd-agent/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/DataDog/dd-agent/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/DataDog/dd-agent/deployments",
+                        "created_at": "2010-12-31T03:02:47Z",
+                        "updated_at": "2023-10-08T14:55:48Z",
+                        "pushed_at": "2023-09-07T09:03:21Z",
+                        "git_url": "git://github.com/DataDog/dd-agent.git",
+                        "ssh_url": "git@github.com:DataDog/dd-agent.git",
+                        "clone_url": "https://github.com/DataDog/dd-agent.git",
+                        "svn_url": "https://github.com/DataDog/dd-agent",
+                        "homepage": "https://docs.datadoghq.com/",
+                        "size": 44791,
+                        "stargazers_count": 1293,
+                        "watchers_count": 1293,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": false,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 851,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 189,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "agent",
+                            "agent-checks",
+                            "datadog",
+                            "datadog-agent",
+                            "dd",
+                            "devops",
+                            "monitoring",
+                            "python"
+                        ],
+                        "visibility": "public",
+                        "forks": 851,
+                        "open_issues": 189,
+                        "watchers": 1293,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/DataDog/dd-agent/pulls/3932"
+                    },
+                    "html": {
+                        "href": "https://github.com/DataDog/dd-agent/pull/3932"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/DataDog/dd-agent/issues/3932"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/DataDog/dd-agent/issues/3932/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/DataDog/dd-agent/pulls/3932/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/DataDog/dd-agent/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/DataDog/dd-agent/pulls/3932/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/DataDog/dd-agent/statuses/75a121402e85e06b740773a556e02aec3b7d829c"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": true,
+                "rebaseable": false,
+                "mergeable_state": "unstable",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 1,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 4,
+                "deletions": 4,
+                "changed_files": 2
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-18T13:41:48Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "32400279237",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 147326656,
+            "login": "ShreyaRoy-24",
+            "display_login": "ShreyaRoy-24",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ShreyaRoy-24",
+            "avatar_url": "https://avatars.githubusercontent.com/u/147326656?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-08T14:55:48Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "32368450917",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 11817278,
+            "login": "sonus21",
+            "display_login": "sonus21",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sonus21",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11817278?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/DataDog/dd-agent/issues/3933",
+                "repository_url": "https://api.github.com/repos/DataDog/dd-agent",
+                "labels_url": "https://api.github.com/repos/DataDog/dd-agent/issues/3933/labels{/name}",
+                "comments_url": "https://api.github.com/repos/DataDog/dd-agent/issues/3933/comments",
+                "events_url": "https://api.github.com/repos/DataDog/dd-agent/issues/3933/events",
+                "html_url": "https://github.com/DataDog/dd-agent/issues/3933",
+                "id": 1929975497,
+                "node_id": "I_kwDOABJ2185zCRbJ",
+                "number": 3933,
+                "title": "Create New Span Always ",
+                "user": {
+                    "login": "sonus21",
+                    "id": 11817278,
+                    "node_id": "MDQ6VXNlcjExODE3Mjc4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11817278?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sonus21",
+                    "html_url": "https://github.com/sonus21",
+                    "followers_url": "https://api.github.com/users/sonus21/followers",
+                    "following_url": "https://api.github.com/users/sonus21/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sonus21/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sonus21/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sonus21/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sonus21/orgs",
+                    "repos_url": "https://api.github.com/users/sonus21/repos",
+                    "events_url": "https://api.github.com/users/sonus21/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sonus21/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-06T11:30:47Z",
+                "updated_at": "2023-10-06T11:30:47Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm using Datadog tracer in Java 8, my integration is with Spring Boot App. In many places we would like to create new span, using `@Trace` annotation unfortunately this does not work when its used on a method thats called from an executor.   Like Spring `Transactional` annotation is there a way to say create a trace always in some cases?\r\n\r\n```java\r\n\r\n@Component\r\npublic class OrderAggregationsEventSubscriber extends EventSubscriber {\r\n   ...\r\n    @Override\r\n    @Trace(operationName = \"event.bus\", resourceName=\"order-aggregator.process-order\")\r\n    public void processOrderEvent(Event event) {\r\n    // logic\r\n    }\r\n}   \r\n```\r\n\r\nThe problem here is, `processOrderEvent` is method called from Guava event bus executor but Datadog just create a separate span for this method. But what I want is, it should a create a new trace. \r\n\r\n\r\nHow can we fix this issue?\r\n\r\n ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/DataDog/dd-agent/issues/3933/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/DataDog/dd-agent/issues/3933/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-06T11:30:47Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "32129725513",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 49507334,
+            "login": "jikebin",
+            "display_login": "jikebin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jikebin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49507334?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-27T03:28:51Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "32128981399",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22778721,
+            "login": "vinnysenthil",
+            "display_login": "vinnysenthil",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vinnysenthil",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22778721?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-27T02:29:24Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "31661129599",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4912500,
+            "login": "olivielpeau",
+            "display_login": "olivielpeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/olivielpeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4912500?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "repository_id": 1210071,
+            "push_id": 14953459555,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "8602169bf6c0f48e33bb70e20a1a24ffcc1daa93",
+            "before": "16fa4ec9ae11ca0adfffbd260c5b4899dc73509f",
+            "commits": [
+                {
+                    "sha": "8602169bf6c0f48e33bb70e20a1a24ffcc1daa93",
+                    "author": {
+                        "email": "olivielpeau@users.noreply.github.com",
+                        "name": "Olivier Vielpeau"
+                    },
+                    "message": "[changelog] Correct a date",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/DataDog/dd-agent/commits/8602169bf6c0f48e33bb70e20a1a24ffcc1daa93"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-07T09:03:23Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "31486996663",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 122048418,
+            "login": "zelmo-ingeniero",
+            "display_login": "zelmo-ingeniero",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zelmo-ingeniero",
+            "avatar_url": "https://avatars.githubusercontent.com/u/122048418?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-08-30T17:29:03Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "31411523913",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 9198875,
+            "login": "Zibaire",
+            "display_login": "Zibaire",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Zibaire",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9198875?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-08-28T07:44:51Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "31409813709",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 31760354,
+            "login": "mahaide",
+            "display_login": "mahaide",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mahaide",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31760354?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-08-28T06:28:11Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "31389811868",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 46205035,
+            "login": "jastalos",
+            "display_login": "jastalos",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jastalos",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46205035?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-08-26T07:25:23Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    },
+    {
+        "id": "31121358752",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 142296174,
+            "login": "rickylin7213",
+            "display_login": "rickylin7213",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rickylin7213",
+            "avatar_url": "https://avatars.githubusercontent.com/u/142296174?"
+        },
+        "repo": {
+            "id": 1210071,
+            "name": "DataDog/dd-agent",
+            "url": "https://api.github.com/repos/DataDog/dd-agent"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-08-15T07:25:29Z",
+        "org": {
+            "id": 365230,
+            "login": "DataDog",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/DataDog",
+            "avatar_url": "https://avatars.githubusercontent.com/u/365230?"
+        }
+    }
+]

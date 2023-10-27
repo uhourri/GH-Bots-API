@@ -1,0 +1,3011 @@
+[
+    {
+        "id": "32679621918",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 110809167,
+            "login": "singhniraj08",
+            "display_login": "singhniraj08",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/singhniraj08",
+            "avatar_url": "https://avatars.githubusercontent.com/u/110809167?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-analysis",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/events",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/173",
+                "id": 1823670272,
+                "node_id": "I_kwDOB4qsyc5sswAA",
+                "number": 173,
+                "title": "Render_plot is failing",
+                "user": {
+                    "login": "siddharthroy",
+                    "id": 29692082,
+                    "node_id": "MDQ6VXNlcjI5NjkyMDgy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29692082?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/siddharthroy",
+                    "html_url": "https://github.com/siddharthroy",
+                    "followers_url": "https://api.github.com/users/siddharthroy/followers",
+                    "following_url": "https://api.github.com/users/siddharthroy/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/siddharthroy/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/siddharthroy/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/siddharthroy/subscriptions",
+                    "organizations_url": "https://api.github.com/users/siddharthroy/orgs",
+                    "repos_url": "https://api.github.com/users/siddharthroy/repos",
+                    "events_url": "https://api.github.com/users/siddharthroy/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/siddharthroy/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1102100001,
+                        "node_id": "MDU6TGFiZWwxMTAyMTAwMDAx",
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis/labels/type:bug",
+                        "name": "type:bug",
+                        "color": "159b2e",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1102104203,
+                        "node_id": "MDU6TGFiZWwxMTAyMTA0MjAz",
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis/labels/stat:awaiting%20response",
+                        "name": "stat:awaiting response",
+                        "color": "f4b400",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "singhniraj08",
+                    "id": 110809167,
+                    "node_id": "U_kgDOBprQTw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/singhniraj08",
+                    "html_url": "https://github.com/singhniraj08",
+                    "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                    "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                    "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                    "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                    "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "singhniraj08",
+                        "id": 110809167,
+                        "node_id": "U_kgDOBprQTw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/singhniraj08",
+                        "html_url": "https://github.com/singhniraj08",
+                        "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                        "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                        "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                        "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                        "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-07-27T05:56:59Z",
+                "updated_at": "2023-10-19T05:58:38Z",
+                "closed_at": "2023-10-19T05:58:37Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### System information\r\n\r\n-   **I have used stock example script provided in TensorFlow Model Analysis**: https://github.com/tensorflow/tfx/blob/master/docs/tutorials/model_analysis/tfma_basic.ipynb\r\n-   **OS Platform and Distribution (e.g., Linux Ubuntu 16.04)**: Windows 10\r\n-   **TensorFlow Model Analysis installed from (source or binary)**: binary using pip install\r\n-   **TensorFlow Model Analysis version (use command below)**: 0.41.0, 0.42.0, 0.43.0, 0.44.0 (tried all versions 1-by-1)\r\n-   **Python version**: 3.9\r\n-   **Jupyter Notebook version**: tried with jupyterlab==3.5.3 as well as 4.0.3\r\n-   **Exact command to reproduce**: \r\n     tfma.view.render_plot(\r\n                   eval_result,\r\n                   tfma.SlicingSpec(feature_values={'trip_start_hour': '1'}))\r\n\r\n\r\n### Describe the problem\r\n\r\nNo plot is being rendered. It fails with below error:\r\n<img width=\"681\" alt=\"TFMA render_plot JS error\" src=\"https://github.com/tensorflow/model-analysis/assets/29692082/ece622ad-344f-4eee-b487-06b23c46dc78\">\r\n\r\nI tried to run the tutorial notebook on colab as well, but very first step of TFMA installation itself failed, so I couldn't proceed to generate this error in colab.\r\n\r\nPlease help. Thanks!!!\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T05:58:39Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32679621823",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 110809167,
+            "login": "singhniraj08",
+            "display_login": "singhniraj08",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/singhniraj08",
+            "avatar_url": "https://avatars.githubusercontent.com/u/110809167?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-analysis",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/events",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/173",
+                "id": 1823670272,
+                "node_id": "I_kwDOB4qsyc5sswAA",
+                "number": 173,
+                "title": "Render_plot is failing",
+                "user": {
+                    "login": "siddharthroy",
+                    "id": 29692082,
+                    "node_id": "MDQ6VXNlcjI5NjkyMDgy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29692082?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/siddharthroy",
+                    "html_url": "https://github.com/siddharthroy",
+                    "followers_url": "https://api.github.com/users/siddharthroy/followers",
+                    "following_url": "https://api.github.com/users/siddharthroy/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/siddharthroy/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/siddharthroy/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/siddharthroy/subscriptions",
+                    "organizations_url": "https://api.github.com/users/siddharthroy/orgs",
+                    "repos_url": "https://api.github.com/users/siddharthroy/repos",
+                    "events_url": "https://api.github.com/users/siddharthroy/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/siddharthroy/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1102100001,
+                        "node_id": "MDU6TGFiZWwxMTAyMTAwMDAx",
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis/labels/type:bug",
+                        "name": "type:bug",
+                        "color": "159b2e",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1102104203,
+                        "node_id": "MDU6TGFiZWwxMTAyMTA0MjAz",
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis/labels/stat:awaiting%20response",
+                        "name": "stat:awaiting response",
+                        "color": "f4b400",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "singhniraj08",
+                    "id": 110809167,
+                    "node_id": "U_kgDOBprQTw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/singhniraj08",
+                    "html_url": "https://github.com/singhniraj08",
+                    "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                    "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                    "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                    "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                    "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "singhniraj08",
+                        "id": 110809167,
+                        "node_id": "U_kgDOBprQTw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/singhniraj08",
+                        "html_url": "https://github.com/singhniraj08",
+                        "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                        "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                        "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                        "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                        "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-07-27T05:56:59Z",
+                "updated_at": "2023-10-19T05:58:38Z",
+                "closed_at": "2023-10-19T05:58:37Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### System information\r\n\r\n-   **I have used stock example script provided in TensorFlow Model Analysis**: https://github.com/tensorflow/tfx/blob/master/docs/tutorials/model_analysis/tfma_basic.ipynb\r\n-   **OS Platform and Distribution (e.g., Linux Ubuntu 16.04)**: Windows 10\r\n-   **TensorFlow Model Analysis installed from (source or binary)**: binary using pip install\r\n-   **TensorFlow Model Analysis version (use command below)**: 0.41.0, 0.42.0, 0.43.0, 0.44.0 (tried all versions 1-by-1)\r\n-   **Python version**: 3.9\r\n-   **Jupyter Notebook version**: tried with jupyterlab==3.5.3 as well as 4.0.3\r\n-   **Exact command to reproduce**: \r\n     tfma.view.render_plot(\r\n                   eval_result,\r\n                   tfma.SlicingSpec(feature_values={'trip_start_hour': '1'}))\r\n\r\n\r\n### Describe the problem\r\n\r\nNo plot is being rendered. It fails with below error:\r\n<img width=\"681\" alt=\"TFMA render_plot JS error\" src=\"https://github.com/tensorflow/model-analysis/assets/29692082/ece622ad-344f-4eee-b487-06b23c46dc78\">\r\n\r\nI tried to run the tutorial notebook on colab as well, but very first step of TFMA installation itself failed, so I couldn't proceed to generate this error in colab.\r\n\r\nPlease help. Thanks!!!\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments/1770114766",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/173#issuecomment-1770114766",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173",
+                "id": 1770114766,
+                "node_id": "IC_kwDOB4qsyc5pgc7O",
+                "user": {
+                    "login": "singhniraj08",
+                    "id": 110809167,
+                    "node_id": "U_kgDOBprQTw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/singhniraj08",
+                    "html_url": "https://github.com/singhniraj08",
+                    "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                    "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                    "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                    "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                    "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-19T05:58:37Z",
+                "updated_at": "2023-10-19T05:58:37Z",
+                "author_association": "NONE",
+                "body": "Closing this due to inactivity. Please take a look into the answers provided above, feel free to reopen and post your comments(if you still have queries on this). Thank you! ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments/1770114766/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-19T05:58:38Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32608551917",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4251076,
+            "login": "dkim010",
+            "display_login": "dkim010",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dkim010",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4251076?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-17T01:05:16Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32467403626",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 15370638491,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "d3c1e25778f4630434e1fb4b67bb68d2d10fb851",
+            "before": "82c12e1587683b73464f827c316589954677786b",
+            "commits": [
+                {
+                    "sha": "d3c1e25778f4630434e1fb4b67bb68d2d10fb851",
+                    "author": {
+                        "email": "wssong@google.com",
+                        "name": "wssong"
+                    },
+                    "message": "Relax upperbound for attrs, google-cloud-bigquery and tensorflow-hub of TFX OSS to allow more recent version of apache-airflow and apache-beam\n\nPiperOrigin-RevId: 572431724",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/d3c1e25778f4630434e1fb4b67bb68d2d10fb851"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-11T02:15:20Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32269888435",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 185856,
+            "login": "superbobry",
+            "display_login": "superbobry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/superbobry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/185856?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 16,
+            "pull_request": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/16",
+                "id": 210440134,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0MjEwNDQwMTM0",
+                "html_url": "https://github.com/tensorflow/model-analysis/pull/16",
+                "diff_url": "https://github.com/tensorflow/model-analysis/pull/16.diff",
+                "patch_url": "https://github.com/tensorflow/model-analysis/pull/16.patch",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/16",
+                "number": 16,
+                "state": "closed",
+                "locked": false,
+                "title": "Eval loss is now always available as a metric",
+                "user": {
+                    "login": "superbobry",
+                    "id": 185856,
+                    "node_id": "MDQ6VXNlcjE4NTg1Ng==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/185856?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/superbobry",
+                    "html_url": "https://github.com/superbobry",
+                    "followers_url": "https://api.github.com/users/superbobry/followers",
+                    "following_url": "https://api.github.com/users/superbobry/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/superbobry/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/superbobry/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/superbobry/subscriptions",
+                    "organizations_url": "https://api.github.com/users/superbobry/orgs",
+                    "repos_url": "https://api.github.com/users/superbobry/repos",
+                    "events_url": "https://api.github.com/users/superbobry/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/superbobry/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "It is often handy to inspect the dependence of the pointwise loss on\r\nvalues of a specific column. IIUC the only way of doing this with TFMA\r\nprior to this commit is adding a \"fake\" metric\r\n\r\n    eval_metric_ops={\"eval-loss\": tf.metrics.mean(loss)}\r\n\r\nThe name \"loss\" is reserved for the actual loss, therefore the users\r\nare forced to use something different.",
+                "created_at": "2018-08-23T13:01:42Z",
+                "updated_at": "2023-10-03T08:00:24Z",
+                "closed_at": "2023-10-03T08:00:24Z",
+                "merged_at": null,
+                "merge_commit_sha": "6b4317d88ba9883bba7a9437546fd576c6768a36",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/16/commits",
+                "review_comments_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/16/comments",
+                "review_comment_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/16/comments",
+                "statuses_url": "https://api.github.com/repos/tensorflow/model-analysis/statuses/b44075a0b16c9e29aabafe609c57cd3f1a6769a5",
+                "head": {
+                    "label": "criteo-forks:expose-eval-loss-as-metric",
+                    "ref": "expose-eval-loss-as-metric",
+                    "sha": "b44075a0b16c9e29aabafe609c57cd3f1a6769a5",
+                    "user": {
+                        "login": "criteo-forks",
+                        "id": 9960514,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5NjA1MTQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/9960514?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/criteo-forks",
+                        "html_url": "https://github.com/criteo-forks",
+                        "followers_url": "https://api.github.com/users/criteo-forks/followers",
+                        "following_url": "https://api.github.com/users/criteo-forks/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/criteo-forks/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/criteo-forks/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/criteo-forks/subscriptions",
+                        "organizations_url": "https://api.github.com/users/criteo-forks/orgs",
+                        "repos_url": "https://api.github.com/users/criteo-forks/repos",
+                        "events_url": "https://api.github.com/users/criteo-forks/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/criteo-forks/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 145013640,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxNDUwMTM2NDA=",
+                        "name": "model-analysis",
+                        "full_name": "criteo-forks/model-analysis",
+                        "private": false,
+                        "owner": {
+                            "login": "criteo-forks",
+                            "id": 9960514,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5NjA1MTQ=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/9960514?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/criteo-forks",
+                            "html_url": "https://github.com/criteo-forks",
+                            "followers_url": "https://api.github.com/users/criteo-forks/followers",
+                            "following_url": "https://api.github.com/users/criteo-forks/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/criteo-forks/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/criteo-forks/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/criteo-forks/subscriptions",
+                            "organizations_url": "https://api.github.com/users/criteo-forks/orgs",
+                            "repos_url": "https://api.github.com/users/criteo-forks/repos",
+                            "events_url": "https://api.github.com/users/criteo-forks/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/criteo-forks/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/criteo-forks/model-analysis",
+                        "description": "Model analysis tools for TensorFlow",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/criteo-forks/model-analysis",
+                        "forks_url": "https://api.github.com/repos/criteo-forks/model-analysis/forks",
+                        "keys_url": "https://api.github.com/repos/criteo-forks/model-analysis/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/criteo-forks/model-analysis/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/criteo-forks/model-analysis/teams",
+                        "hooks_url": "https://api.github.com/repos/criteo-forks/model-analysis/hooks",
+                        "issue_events_url": "https://api.github.com/repos/criteo-forks/model-analysis/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/criteo-forks/model-analysis/events",
+                        "assignees_url": "https://api.github.com/repos/criteo-forks/model-analysis/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/criteo-forks/model-analysis/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/criteo-forks/model-analysis/tags",
+                        "blobs_url": "https://api.github.com/repos/criteo-forks/model-analysis/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/criteo-forks/model-analysis/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/criteo-forks/model-analysis/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/criteo-forks/model-analysis/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/criteo-forks/model-analysis/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/criteo-forks/model-analysis/languages",
+                        "stargazers_url": "https://api.github.com/repos/criteo-forks/model-analysis/stargazers",
+                        "contributors_url": "https://api.github.com/repos/criteo-forks/model-analysis/contributors",
+                        "subscribers_url": "https://api.github.com/repos/criteo-forks/model-analysis/subscribers",
+                        "subscription_url": "https://api.github.com/repos/criteo-forks/model-analysis/subscription",
+                        "commits_url": "https://api.github.com/repos/criteo-forks/model-analysis/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/criteo-forks/model-analysis/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/criteo-forks/model-analysis/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/criteo-forks/model-analysis/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/criteo-forks/model-analysis/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/criteo-forks/model-analysis/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/criteo-forks/model-analysis/merges",
+                        "archive_url": "https://api.github.com/repos/criteo-forks/model-analysis/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/criteo-forks/model-analysis/downloads",
+                        "issues_url": "https://api.github.com/repos/criteo-forks/model-analysis/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/criteo-forks/model-analysis/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/criteo-forks/model-analysis/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/criteo-forks/model-analysis/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/criteo-forks/model-analysis/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/criteo-forks/model-analysis/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/criteo-forks/model-analysis/deployments",
+                        "created_at": "2018-08-16T16:29:02Z",
+                        "updated_at": "2018-12-17T12:01:36Z",
+                        "pushed_at": "2018-08-23T13:01:19Z",
+                        "git_url": "git://github.com/criteo-forks/model-analysis.git",
+                        "ssh_url": "git@github.com:criteo-forks/model-analysis.git",
+                        "clone_url": "https://github.com/criteo-forks/model-analysis.git",
+                        "svn_url": "https://github.com/criteo-forks/model-analysis",
+                        "homepage": null,
+                        "size": 3289,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "HTML",
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "tensorflow:master",
+                    "ref": "master",
+                    "sha": "e081016a1c81f17057ad3714f867832632899504",
+                    "user": {
+                        "login": "tensorflow",
+                        "id": 15658638,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/tensorflow",
+                        "html_url": "https://github.com/tensorflow",
+                        "followers_url": "https://api.github.com/users/tensorflow/followers",
+                        "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                        "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                        "repos_url": "https://api.github.com/users/tensorflow/repos",
+                        "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 126528713,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjY1Mjg3MTM=",
+                        "name": "model-analysis",
+                        "full_name": "tensorflow/model-analysis",
+                        "private": false,
+                        "owner": {
+                            "login": "tensorflow",
+                            "id": 15658638,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/tensorflow",
+                            "html_url": "https://github.com/tensorflow",
+                            "followers_url": "https://api.github.com/users/tensorflow/followers",
+                            "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                            "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                            "repos_url": "https://api.github.com/users/tensorflow/repos",
+                            "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/tensorflow/model-analysis",
+                        "description": "Model analysis tools for TensorFlow",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis",
+                        "forks_url": "https://api.github.com/repos/tensorflow/model-analysis/forks",
+                        "keys_url": "https://api.github.com/repos/tensorflow/model-analysis/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/tensorflow/model-analysis/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/tensorflow/model-analysis/teams",
+                        "hooks_url": "https://api.github.com/repos/tensorflow/model-analysis/hooks",
+                        "issue_events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/tensorflow/model-analysis/events",
+                        "assignees_url": "https://api.github.com/repos/tensorflow/model-analysis/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/tensorflow/model-analysis/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/tensorflow/model-analysis/tags",
+                        "blobs_url": "https://api.github.com/repos/tensorflow/model-analysis/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/tensorflow/model-analysis/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/tensorflow/model-analysis/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/tensorflow/model-analysis/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/tensorflow/model-analysis/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/tensorflow/model-analysis/languages",
+                        "stargazers_url": "https://api.github.com/repos/tensorflow/model-analysis/stargazers",
+                        "contributors_url": "https://api.github.com/repos/tensorflow/model-analysis/contributors",
+                        "subscribers_url": "https://api.github.com/repos/tensorflow/model-analysis/subscribers",
+                        "subscription_url": "https://api.github.com/repos/tensorflow/model-analysis/subscription",
+                        "commits_url": "https://api.github.com/repos/tensorflow/model-analysis/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/tensorflow/model-analysis/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/tensorflow/model-analysis/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/tensorflow/model-analysis/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/tensorflow/model-analysis/merges",
+                        "archive_url": "https://api.github.com/repos/tensorflow/model-analysis/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/tensorflow/model-analysis/downloads",
+                        "issues_url": "https://api.github.com/repos/tensorflow/model-analysis/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/tensorflow/model-analysis/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/tensorflow/model-analysis/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/tensorflow/model-analysis/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/tensorflow/model-analysis/deployments",
+                        "created_at": "2018-03-23T19:08:49Z",
+                        "updated_at": "2023-10-01T10:16:57Z",
+                        "pushed_at": "2023-09-28T23:19:46Z",
+                        "git_url": "git://github.com/tensorflow/model-analysis.git",
+                        "ssh_url": "git@github.com:tensorflow/model-analysis.git",
+                        "clone_url": "https://github.com/tensorflow/model-analysis.git",
+                        "svn_url": "https://github.com/tensorflow/model-analysis",
+                        "homepage": null,
+                        "size": 22548,
+                        "stargazers_count": 1213,
+                        "watchers_count": 1213,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 266,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 33,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 266,
+                        "open_issues": 33,
+                        "watchers": 1213,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/16"
+                    },
+                    "html": {
+                        "href": "https://github.com/tensorflow/model-analysis/pull/16"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/issues/16"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/issues/16/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/16/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/16/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/statuses/b44075a0b16c9e29aabafe609c57cd3f1a6769a5"
+                    }
+                },
+                "author_association": "MEMBER",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": false,
+                "rebaseable": false,
+                "mergeable_state": "dirty",
+                "merged_by": null,
+                "comments": 2,
+                "review_comments": 5,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 5,
+                "deletions": 1,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-03T08:00:25Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32227273609",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12510086,
+            "login": "Jeffresh",
+            "display_login": "Jeffresh",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Jeffresh",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12510086?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-01T09:30:36Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32187673851",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 15223802525,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "82c12e1587683b73464f827c316589954677786b",
+            "before": "6b852f977c398b419781b3d3fc9ce1bb66cb1a84",
+            "commits": [
+                {
+                    "sha": "82c12e1587683b73464f827c316589954677786b",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Increase documentation of ROUGE.\n\nPiperOrigin-RevId: 569319475",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/82c12e1587683b73464f827c316589954677786b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-28T23:19:47Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "32098988950",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 15180066586,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "6b852f977c398b419781b3d3fc9ce1bb66cb1a84",
+            "before": "6480f895e01a2ab63ea6fd534048516bdbdba50c",
+            "commits": [
+                {
+                    "sha": "6b852f977c398b419781b3d3fc9ce1bb66cb1a84",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Add BLEU Metric. http://aclweb.org/anthology/W14-3346\n\nPiperOrigin-RevId: 568415799",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/6b852f977c398b419781b3d3fc9ce1bb66cb1a84"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-26T05:15:19Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31983204733",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 15119120039,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "6480f895e01a2ab63ea6fd534048516bdbdba50c",
+            "before": "e0dc75338a5396660814d220e23815a78b35ffec",
+            "commits": [
+                {
+                    "sha": "6480f895e01a2ab63ea6fd534048516bdbdba50c",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Code change for internal Google use only.\n\nPiperOrigin-RevId: 567063639",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/6480f895e01a2ab63ea6fd534048516bdbdba50c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-20T20:31:29Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31975993269",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 28541758,
+            "login": "DavidSpek",
+            "display_login": "DavidSpek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DavidSpek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28541758?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 176,
+            "pull_request": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/176",
+                "id": 1523331498,
+                "node_id": "PR_kwDOB4qsyc5azDGq",
+                "html_url": "https://github.com/tensorflow/model-analysis/pull/176",
+                "diff_url": "https://github.com/tensorflow/model-analysis/pull/176.diff",
+                "patch_url": "https://github.com/tensorflow/model-analysis/pull/176.patch",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/176",
+                "number": 176,
+                "state": "open",
+                "locked": false,
+                "title": "fix: bump range for attrs",
+                "user": {
+                    "login": "DavidSpek",
+                    "id": 28541758,
+                    "node_id": "MDQ6VXNlcjI4NTQxNzU4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28541758?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/DavidSpek",
+                    "html_url": "https://github.com/DavidSpek",
+                    "followers_url": "https://api.github.com/users/DavidSpek/followers",
+                    "following_url": "https://api.github.com/users/DavidSpek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/DavidSpek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/DavidSpek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/DavidSpek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/DavidSpek/orgs",
+                    "repos_url": "https://api.github.com/users/DavidSpek/repos",
+                    "events_url": "https://api.github.com/users/DavidSpek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/DavidSpek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "This PR bumps the range for `attrs` since I've seen it causing a conflict with many packages (like `jsonschema`, `nbformat`,  `gcsfs`, `aiohttp`).",
+                "created_at": "2023-09-20T15:27:47Z",
+                "updated_at": "2023-09-20T15:27:47Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/176/commits",
+                "review_comments_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/176/comments",
+                "review_comment_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/176/comments",
+                "statuses_url": "https://api.github.com/repos/tensorflow/model-analysis/statuses/8f7af63a525c10eed24ece9392232f67c50c39ea",
+                "head": {
+                    "label": "DavidSpek:attrs-bump",
+                    "ref": "attrs-bump",
+                    "sha": "8f7af63a525c10eed24ece9392232f67c50c39ea",
+                    "user": {
+                        "login": "DavidSpek",
+                        "id": 28541758,
+                        "node_id": "MDQ6VXNlcjI4NTQxNzU4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/28541758?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/DavidSpek",
+                        "html_url": "https://github.com/DavidSpek",
+                        "followers_url": "https://api.github.com/users/DavidSpek/followers",
+                        "following_url": "https://api.github.com/users/DavidSpek/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/DavidSpek/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/DavidSpek/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/DavidSpek/subscriptions",
+                        "organizations_url": "https://api.github.com/users/DavidSpek/orgs",
+                        "repos_url": "https://api.github.com/users/DavidSpek/repos",
+                        "events_url": "https://api.github.com/users/DavidSpek/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/DavidSpek/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 694229648,
+                        "node_id": "R_kgDOKWEakA",
+                        "name": "model-analysis",
+                        "full_name": "DavidSpek/model-analysis",
+                        "private": false,
+                        "owner": {
+                            "login": "DavidSpek",
+                            "id": 28541758,
+                            "node_id": "MDQ6VXNlcjI4NTQxNzU4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/28541758?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/DavidSpek",
+                            "html_url": "https://github.com/DavidSpek",
+                            "followers_url": "https://api.github.com/users/DavidSpek/followers",
+                            "following_url": "https://api.github.com/users/DavidSpek/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/DavidSpek/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/DavidSpek/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/DavidSpek/subscriptions",
+                            "organizations_url": "https://api.github.com/users/DavidSpek/orgs",
+                            "repos_url": "https://api.github.com/users/DavidSpek/repos",
+                            "events_url": "https://api.github.com/users/DavidSpek/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/DavidSpek/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/DavidSpek/model-analysis",
+                        "description": "Model analysis tools for TensorFlow",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/DavidSpek/model-analysis",
+                        "forks_url": "https://api.github.com/repos/DavidSpek/model-analysis/forks",
+                        "keys_url": "https://api.github.com/repos/DavidSpek/model-analysis/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/DavidSpek/model-analysis/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/DavidSpek/model-analysis/teams",
+                        "hooks_url": "https://api.github.com/repos/DavidSpek/model-analysis/hooks",
+                        "issue_events_url": "https://api.github.com/repos/DavidSpek/model-analysis/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/DavidSpek/model-analysis/events",
+                        "assignees_url": "https://api.github.com/repos/DavidSpek/model-analysis/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/DavidSpek/model-analysis/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/DavidSpek/model-analysis/tags",
+                        "blobs_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/DavidSpek/model-analysis/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/DavidSpek/model-analysis/languages",
+                        "stargazers_url": "https://api.github.com/repos/DavidSpek/model-analysis/stargazers",
+                        "contributors_url": "https://api.github.com/repos/DavidSpek/model-analysis/contributors",
+                        "subscribers_url": "https://api.github.com/repos/DavidSpek/model-analysis/subscribers",
+                        "subscription_url": "https://api.github.com/repos/DavidSpek/model-analysis/subscription",
+                        "commits_url": "https://api.github.com/repos/DavidSpek/model-analysis/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/DavidSpek/model-analysis/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/DavidSpek/model-analysis/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/DavidSpek/model-analysis/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/DavidSpek/model-analysis/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/DavidSpek/model-analysis/merges",
+                        "archive_url": "https://api.github.com/repos/DavidSpek/model-analysis/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/DavidSpek/model-analysis/downloads",
+                        "issues_url": "https://api.github.com/repos/DavidSpek/model-analysis/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/DavidSpek/model-analysis/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/DavidSpek/model-analysis/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/DavidSpek/model-analysis/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/DavidSpek/model-analysis/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/DavidSpek/model-analysis/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/DavidSpek/model-analysis/deployments",
+                        "created_at": "2023-09-20T15:22:34Z",
+                        "updated_at": "2023-09-20T15:22:34Z",
+                        "pushed_at": "2023-09-20T15:25:27Z",
+                        "git_url": "git://github.com/DavidSpek/model-analysis.git",
+                        "ssh_url": "git@github.com:DavidSpek/model-analysis.git",
+                        "clone_url": "https://github.com/DavidSpek/model-analysis.git",
+                        "svn_url": "https://github.com/DavidSpek/model-analysis",
+                        "homepage": null,
+                        "size": 22519,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "tensorflow:master",
+                    "ref": "master",
+                    "sha": "e0dc75338a5396660814d220e23815a78b35ffec",
+                    "user": {
+                        "login": "tensorflow",
+                        "id": 15658638,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/tensorflow",
+                        "html_url": "https://github.com/tensorflow",
+                        "followers_url": "https://api.github.com/users/tensorflow/followers",
+                        "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                        "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                        "repos_url": "https://api.github.com/users/tensorflow/repos",
+                        "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 126528713,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjY1Mjg3MTM=",
+                        "name": "model-analysis",
+                        "full_name": "tensorflow/model-analysis",
+                        "private": false,
+                        "owner": {
+                            "login": "tensorflow",
+                            "id": 15658638,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/tensorflow",
+                            "html_url": "https://github.com/tensorflow",
+                            "followers_url": "https://api.github.com/users/tensorflow/followers",
+                            "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                            "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                            "repos_url": "https://api.github.com/users/tensorflow/repos",
+                            "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/tensorflow/model-analysis",
+                        "description": "Model analysis tools for TensorFlow",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis",
+                        "forks_url": "https://api.github.com/repos/tensorflow/model-analysis/forks",
+                        "keys_url": "https://api.github.com/repos/tensorflow/model-analysis/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/tensorflow/model-analysis/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/tensorflow/model-analysis/teams",
+                        "hooks_url": "https://api.github.com/repos/tensorflow/model-analysis/hooks",
+                        "issue_events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/tensorflow/model-analysis/events",
+                        "assignees_url": "https://api.github.com/repos/tensorflow/model-analysis/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/tensorflow/model-analysis/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/tensorflow/model-analysis/tags",
+                        "blobs_url": "https://api.github.com/repos/tensorflow/model-analysis/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/tensorflow/model-analysis/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/tensorflow/model-analysis/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/tensorflow/model-analysis/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/tensorflow/model-analysis/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/tensorflow/model-analysis/languages",
+                        "stargazers_url": "https://api.github.com/repos/tensorflow/model-analysis/stargazers",
+                        "contributors_url": "https://api.github.com/repos/tensorflow/model-analysis/contributors",
+                        "subscribers_url": "https://api.github.com/repos/tensorflow/model-analysis/subscribers",
+                        "subscription_url": "https://api.github.com/repos/tensorflow/model-analysis/subscription",
+                        "commits_url": "https://api.github.com/repos/tensorflow/model-analysis/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/tensorflow/model-analysis/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/tensorflow/model-analysis/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/tensorflow/model-analysis/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/tensorflow/model-analysis/merges",
+                        "archive_url": "https://api.github.com/repos/tensorflow/model-analysis/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/tensorflow/model-analysis/downloads",
+                        "issues_url": "https://api.github.com/repos/tensorflow/model-analysis/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/tensorflow/model-analysis/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/tensorflow/model-analysis/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/tensorflow/model-analysis/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/tensorflow/model-analysis/deployments",
+                        "created_at": "2018-03-23T19:08:49Z",
+                        "updated_at": "2023-09-08T03:06:12Z",
+                        "pushed_at": "2023-09-20T15:27:47Z",
+                        "git_url": "git://github.com/tensorflow/model-analysis.git",
+                        "ssh_url": "git@github.com:tensorflow/model-analysis.git",
+                        "clone_url": "https://github.com/tensorflow/model-analysis.git",
+                        "svn_url": "https://github.com/tensorflow/model-analysis",
+                        "homepage": null,
+                        "size": 22519,
+                        "stargazers_count": 1214,
+                        "watchers_count": 1214,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 266,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 34,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 266,
+                        "open_issues": 34,
+                        "watchers": 1214,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/176"
+                    },
+                    "html": {
+                        "href": "https://github.com/tensorflow/model-analysis/pull/176"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/issues/176"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/issues/176/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/176/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/176/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/statuses/8f7af63a525c10eed24ece9392232f67c50c39ea"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": true,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 1,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-20T15:27:48Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31975836757",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 28541758,
+            "login": "DavidSpek",
+            "display_login": "DavidSpek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DavidSpek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28541758?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "forkee": {
+                "id": 694229648,
+                "node_id": "R_kgDOKWEakA",
+                "name": "model-analysis",
+                "full_name": "DavidSpek/model-analysis",
+                "private": false,
+                "owner": {
+                    "login": "DavidSpek",
+                    "id": 28541758,
+                    "node_id": "MDQ6VXNlcjI4NTQxNzU4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/28541758?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/DavidSpek",
+                    "html_url": "https://github.com/DavidSpek",
+                    "followers_url": "https://api.github.com/users/DavidSpek/followers",
+                    "following_url": "https://api.github.com/users/DavidSpek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/DavidSpek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/DavidSpek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/DavidSpek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/DavidSpek/orgs",
+                    "repos_url": "https://api.github.com/users/DavidSpek/repos",
+                    "events_url": "https://api.github.com/users/DavidSpek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/DavidSpek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/DavidSpek/model-analysis",
+                "description": "Model analysis tools for TensorFlow",
+                "fork": true,
+                "url": "https://api.github.com/repos/DavidSpek/model-analysis",
+                "forks_url": "https://api.github.com/repos/DavidSpek/model-analysis/forks",
+                "keys_url": "https://api.github.com/repos/DavidSpek/model-analysis/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/DavidSpek/model-analysis/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/DavidSpek/model-analysis/teams",
+                "hooks_url": "https://api.github.com/repos/DavidSpek/model-analysis/hooks",
+                "issue_events_url": "https://api.github.com/repos/DavidSpek/model-analysis/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/DavidSpek/model-analysis/events",
+                "assignees_url": "https://api.github.com/repos/DavidSpek/model-analysis/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/DavidSpek/model-analysis/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/DavidSpek/model-analysis/tags",
+                "blobs_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/DavidSpek/model-analysis/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/DavidSpek/model-analysis/languages",
+                "stargazers_url": "https://api.github.com/repos/DavidSpek/model-analysis/stargazers",
+                "contributors_url": "https://api.github.com/repos/DavidSpek/model-analysis/contributors",
+                "subscribers_url": "https://api.github.com/repos/DavidSpek/model-analysis/subscribers",
+                "subscription_url": "https://api.github.com/repos/DavidSpek/model-analysis/subscription",
+                "commits_url": "https://api.github.com/repos/DavidSpek/model-analysis/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/DavidSpek/model-analysis/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/DavidSpek/model-analysis/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/DavidSpek/model-analysis/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/DavidSpek/model-analysis/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/DavidSpek/model-analysis/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/DavidSpek/model-analysis/merges",
+                "archive_url": "https://api.github.com/repos/DavidSpek/model-analysis/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/DavidSpek/model-analysis/downloads",
+                "issues_url": "https://api.github.com/repos/DavidSpek/model-analysis/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/DavidSpek/model-analysis/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/DavidSpek/model-analysis/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/DavidSpek/model-analysis/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/DavidSpek/model-analysis/labels{/name}",
+                "releases_url": "https://api.github.com/repos/DavidSpek/model-analysis/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/DavidSpek/model-analysis/deployments",
+                "created_at": "2023-09-20T15:22:34Z",
+                "updated_at": "2023-09-20T15:22:34Z",
+                "pushed_at": "2023-09-15T05:09:39Z",
+                "git_url": "git://github.com/DavidSpek/model-analysis.git",
+                "ssh_url": "git@github.com:DavidSpek/model-analysis.git",
+                "clone_url": "https://github.com/DavidSpek/model-analysis.git",
+                "svn_url": "https://github.com/DavidSpek/model-analysis",
+                "homepage": null,
+                "size": 22519,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "apache-2.0",
+                    "name": "Apache License 2.0",
+                    "spdx_id": "Apache-2.0",
+                    "url": "https://api.github.com/licenses/apache-2.0",
+                    "node_id": "MDc6TGljZW5zZTI="
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "master",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-09-20T15:22:36Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31853514058",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 15051612327,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e0dc75338a5396660814d220e23815a78b35ffec",
+            "before": "0ec6467d6498e3dea968f993edb796d40e909ca0",
+            "commits": [
+                {
+                    "sha": "e0dc75338a5396660814d220e23815a78b35ffec",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "For internal use only.\n\nPiperOrigin-RevId: 565569646",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/e0dc75338a5396660814d220e23815a78b35ffec"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-15T05:09:40Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31847575668",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 15048465172,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "0ec6467d6498e3dea968f993edb796d40e909ca0",
+            "before": "b207d58b52dbac8a613993c74d361b30764ef5a5",
+            "commits": [
+                {
+                    "sha": "0ec6467d6498e3dea968f993edb796d40e909ca0",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Support for quantization/dequantization for TF-Lite models in TFMA.\n\nPiperOrigin-RevId: 565475078",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/0ec6467d6498e3dea968f993edb796d40e909ca0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-14T21:17:23Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31683340933",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1515662,
+            "login": "daviddwlee84",
+            "display_login": "daviddwlee84",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/daviddwlee84",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1515662?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-08T03:06:11Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31652967472",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 14949366385,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "b207d58b52dbac8a613993c74d361b30764ef5a5",
+            "before": "6edb56140d5713c96c628ca00966576d7bc89eb3",
+            "commits": [
+                {
+                    "sha": "b207d58b52dbac8a613993c74d361b30764ef5a5",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Adds constant for outputting prediction logs.\n\nPiperOrigin-RevId: 563267880",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/b207d58b52dbac8a613993c74d361b30764ef5a5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-07T01:01:24Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31433934671",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 14838100727,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "6edb56140d5713c96c628ca00966576d7bc89eb3",
+            "before": "3af99d4cd1c8dfb9819142a85856769d384e8526",
+            "commits": [
+                {
+                    "sha": "6edb56140d5713c96c628ca00966576d7bc89eb3",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Fixing test code for `inference_base.py`\n\nPiperOrigin-RevId: 560853708",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/6edb56140d5713c96c628ca00966576d7bc89eb3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-08-28T23:44:55Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31431254650",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 900775,
+            "login": "matthiasak",
+            "display_login": "matthiasak",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/matthiasak",
+            "avatar_url": "https://avatars.githubusercontent.com/u/900775?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-08-28T20:53:25Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31399304128",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 35773375,
+            "login": "MrParosk",
+            "display_login": "MrParosk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MrParosk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35773375?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-08-27T10:11:24Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31358591172",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 14797877966,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3af99d4cd1c8dfb9819142a85856769d384e8526",
+            "before": "d9f312ea31988a9b5779e1b50f0ea9ce422653e1",
+            "commits": [
+                {
+                    "sha": "3af99d4cd1c8dfb9819142a85856769d384e8526",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "No-Op.\n\nPiperOrigin-RevId: 559865719",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/3af99d4cd1c8dfb9819142a85856769d384e8526"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-08-24T21:14:00Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31358190845",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 14797681006,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "d9f312ea31988a9b5779e1b50f0ea9ce422653e1",
+            "before": "ee0d8eff562bfe068a3ffdc4da0472cc90adaf41",
+            "commits": [
+                {
+                    "sha": "d9f312ea31988a9b5779e1b50f0ea9ce422653e1",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Add ROUGE Metrics.\n\nPiperOrigin-RevId: 559859028",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/d9f312ea31988a9b5779e1b50f0ea9ce422653e1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-08-24T20:53:13Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31246770238",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 110809167,
+            "login": "singhniraj08",
+            "display_login": "singhniraj08",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/singhniraj08",
+            "avatar_url": "https://avatars.githubusercontent.com/u/110809167?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-analysis",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/events",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/173",
+                "id": 1823670272,
+                "node_id": "I_kwDOB4qsyc5sswAA",
+                "number": 173,
+                "title": "Render_plot is failing",
+                "user": {
+                    "login": "siddharthroy",
+                    "id": 29692082,
+                    "node_id": "MDQ6VXNlcjI5NjkyMDgy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29692082?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/siddharthroy",
+                    "html_url": "https://github.com/siddharthroy",
+                    "followers_url": "https://api.github.com/users/siddharthroy/followers",
+                    "following_url": "https://api.github.com/users/siddharthroy/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/siddharthroy/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/siddharthroy/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/siddharthroy/subscriptions",
+                    "organizations_url": "https://api.github.com/users/siddharthroy/orgs",
+                    "repos_url": "https://api.github.com/users/siddharthroy/repos",
+                    "events_url": "https://api.github.com/users/siddharthroy/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/siddharthroy/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1102100001,
+                        "node_id": "MDU6TGFiZWwxMTAyMTAwMDAx",
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis/labels/type:bug",
+                        "name": "type:bug",
+                        "color": "159b2e",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "singhniraj08",
+                    "id": 110809167,
+                    "node_id": "U_kgDOBprQTw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/singhniraj08",
+                    "html_url": "https://github.com/singhniraj08",
+                    "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                    "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                    "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                    "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                    "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "singhniraj08",
+                        "id": 110809167,
+                        "node_id": "U_kgDOBprQTw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/singhniraj08",
+                        "html_url": "https://github.com/singhniraj08",
+                        "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                        "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                        "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                        "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                        "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-07-27T05:56:59Z",
+                "updated_at": "2023-08-21T06:37:19Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### System information\r\n\r\n-   **I have used stock example script provided in TensorFlow Model Analysis**: https://github.com/tensorflow/tfx/blob/master/docs/tutorials/model_analysis/tfma_basic.ipynb\r\n-   **OS Platform and Distribution (e.g., Linux Ubuntu 16.04)**: Windows 10\r\n-   **TensorFlow Model Analysis installed from (source or binary)**: binary using pip install\r\n-   **TensorFlow Model Analysis version (use command below)**: 0.41.0, 0.42.0, 0.43.0, 0.44.0 (tried all versions 1-by-1)\r\n-   **Python version**: 3.9\r\n-   **Jupyter Notebook version**: tried with jupyterlab==3.5.3 as well as 4.0.3\r\n-   **Exact command to reproduce**: \r\n     tfma.view.render_plot(\r\n                   eval_result,\r\n                   tfma.SlicingSpec(feature_values={'trip_start_hour': '1'}))\r\n\r\n\r\n### Describe the problem\r\n\r\nNo plot is being rendered. It fails with below error:\r\n<img width=\"681\" alt=\"TFMA render_plot JS error\" src=\"https://github.com/tensorflow/model-analysis/assets/29692082/ece622ad-344f-4eee-b487-06b23c46dc78\">\r\n\r\nI tried to run the tutorial notebook on colab as well, but very first step of TFMA installation itself failed, so I couldn't proceed to generate this error in colab.\r\n\r\nPlease help. Thanks!!!\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments/1685736132",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/173#issuecomment-1685736132",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/173",
+                "id": 1685736132,
+                "node_id": "IC_kwDOB4qsyc5kekrE",
+                "user": {
+                    "login": "singhniraj08",
+                    "id": 110809167,
+                    "node_id": "U_kgDOBprQTw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/110809167?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/singhniraj08",
+                    "html_url": "https://github.com/singhniraj08",
+                    "followers_url": "https://api.github.com/users/singhniraj08/followers",
+                    "following_url": "https://api.github.com/users/singhniraj08/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/singhniraj08/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/singhniraj08/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/singhniraj08/subscriptions",
+                    "organizations_url": "https://api.github.com/users/singhniraj08/orgs",
+                    "repos_url": "https://api.github.com/users/singhniraj08/repos",
+                    "events_url": "https://api.github.com/users/singhniraj08/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/singhniraj08/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-08-21T06:37:19Z",
+                "updated_at": "2023-08-21T06:37:19Z",
+                "author_association": "NONE",
+                "body": "@siddharthroy,\r\n\r\nI am able to run the `render_plot()` successfully in Colab Environment. Ref: screenshot below\r\nTFMA installation in colab failed in your case because of Python version mismatch between Python 3.10 installed in colab and python supported version by TFMA. There is a workaround to install TFMA in colab. You can refer to attached [gist](https://colab.sandbox.google.com/gist/singhniraj08/168a9c158eb87290eb3f53cbb7a56172/copy-of-tfma_basic.ipynb).\r\n\r\nThe error you are facing looks like is because of Jupyter extensions missing. Please make sure Jupyter extensions are installed as shown in [tutorial](https://www.tensorflow.org/tfx/tutorials/model_analysis/tfma_basic#install_jupyter_extensions) and let us know if still you are facing issues. Thank you!\r\n\r\n![image](https://github.com/tensorflow/model-analysis/assets/110809167/431b49ed-d9cf-4151-8561-57afec8c2164)\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments/1685736132/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-08-21T06:37:19Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31197970863",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 14715843596,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "ee0d8eff562bfe068a3ffdc4da0472cc90adaf41",
+            "before": "71325d3d63c8f01fcc01fddbc1de9d814c0f5e31",
+            "commits": [
+                {
+                    "sha": "ee0d8eff562bfe068a3ffdc4da0472cc90adaf41",
+                    "author": {
+                        "email": "tensorflow-extended-team@google.com",
+                        "name": "tf-model-analysis-team"
+                    },
+                    "message": "Cleaning Mean Metric.\n\nPiperOrigin-RevId: 557956584",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/ee0d8eff562bfe068a3ffdc4da0472cc90adaf41"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-08-17T22:40:29Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31167261628",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4520383,
+            "login": "zippeurfou",
+            "display_login": "zippeurfou",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zippeurfou",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4520383?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-analysis",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/events",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/175",
+                "id": 1850783021,
+                "node_id": "I_kwDOB4qsyc5uULUt",
+                "number": 175,
+                "title": "Feat: Have ability to return the HTML rather than creating the plots",
+                "user": {
+                    "login": "zippeurfou",
+                    "id": 4520383,
+                    "node_id": "MDQ6VXNlcjQ1MjAzODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4520383?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zippeurfou",
+                    "html_url": "https://github.com/zippeurfou",
+                    "followers_url": "https://api.github.com/users/zippeurfou/followers",
+                    "following_url": "https://api.github.com/users/zippeurfou/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zippeurfou/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zippeurfou/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zippeurfou/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zippeurfou/orgs",
+                    "repos_url": "https://api.github.com/users/zippeurfou/repos",
+                    "events_url": "https://api.github.com/users/zippeurfou/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zippeurfou/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-08-15T01:33:15Z",
+                "updated_at": "2023-08-16T20:47:59Z",
+                "closed_at": "2023-08-16T20:47:59Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "This is a feature request so not following the template.\r\nLet me know if I should anyways.\r\n\r\nIn tfdv there is the ability to get the HTML using `get_statistics_html` https://github.com/tensorflow/data-validation/blob/v1.13.0/tensorflow_data_validation/utils/display_util.py#L403-L466.\r\nThis is pretty handy as sometimes you do want to create HTML files you save on your computer.\r\ntfma has a few functions:\r\n- `render_slicing_attributions`\r\n- `render_plot`\r\n- `render_slicing_metrics`\r\n- `render_time_series`\r\n\r\nIt would be very handy to be able to just return the HTML for these.\r\nFor context https://github.com/tensorflow/model-analysis/issues/10 solves `render_slicing_metrics` but not the others one as far as I am aware (thanks @Bobgy for the help)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-08-16T20:48:00Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31167261529",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4520383,
+            "login": "zippeurfou",
+            "display_login": "zippeurfou",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zippeurfou",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4520383?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-analysis",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/events",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/175",
+                "id": 1850783021,
+                "node_id": "I_kwDOB4qsyc5uULUt",
+                "number": 175,
+                "title": "Feat: Have ability to return the HTML rather than creating the plots",
+                "user": {
+                    "login": "zippeurfou",
+                    "id": 4520383,
+                    "node_id": "MDQ6VXNlcjQ1MjAzODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4520383?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zippeurfou",
+                    "html_url": "https://github.com/zippeurfou",
+                    "followers_url": "https://api.github.com/users/zippeurfou/followers",
+                    "following_url": "https://api.github.com/users/zippeurfou/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zippeurfou/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zippeurfou/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zippeurfou/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zippeurfou/orgs",
+                    "repos_url": "https://api.github.com/users/zippeurfou/repos",
+                    "events_url": "https://api.github.com/users/zippeurfou/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zippeurfou/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-08-15T01:33:15Z",
+                "updated_at": "2023-08-16T20:47:59Z",
+                "closed_at": "2023-08-16T20:47:59Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "This is a feature request so not following the template.\r\nLet me know if I should anyways.\r\n\r\nIn tfdv there is the ability to get the HTML using `get_statistics_html` https://github.com/tensorflow/data-validation/blob/v1.13.0/tensorflow_data_validation/utils/display_util.py#L403-L466.\r\nThis is pretty handy as sometimes you do want to create HTML files you save on your computer.\r\ntfma has a few functions:\r\n- `render_slicing_attributions`\r\n- `render_plot`\r\n- `render_slicing_metrics`\r\n- `render_time_series`\r\n\r\nIt would be very handy to be able to just return the HTML for these.\r\nFor context https://github.com/tensorflow/model-analysis/issues/10 solves `render_slicing_metrics` but not the others one as far as I am aware (thanks @Bobgy for the help)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments/1681250939",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/175#issuecomment-1681250939",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175",
+                "id": 1681250939,
+                "node_id": "IC_kwDOB4qsyc5kNdp7",
+                "user": {
+                    "login": "zippeurfou",
+                    "id": 4520383,
+                    "node_id": "MDQ6VXNlcjQ1MjAzODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4520383?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zippeurfou",
+                    "html_url": "https://github.com/zippeurfou",
+                    "followers_url": "https://api.github.com/users/zippeurfou/followers",
+                    "following_url": "https://api.github.com/users/zippeurfou/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zippeurfou/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zippeurfou/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zippeurfou/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zippeurfou/orgs",
+                    "repos_url": "https://api.github.com/users/zippeurfou/repos",
+                    "events_url": "https://api.github.com/users/zippeurfou/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zippeurfou/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-08-16T20:47:59Z",
+                "updated_at": "2023-08-16T20:47:59Z",
+                "author_association": "NONE",
+                "body": "Closing this as #10 solves it.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments/1681250939/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-08-16T20:48:00Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31122750304",
+        "type": "PushEvent",
+        "actor": {
+            "id": 56741989,
+            "login": "copybara-service[bot]",
+            "display_login": "copybara-service",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/copybara-service[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56741989?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 14678615269,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "71325d3d63c8f01fcc01fddbc1de9d814c0f5e31",
+            "before": "692fa68bb0390cdbb96ed2d1f53906594694af93",
+            "commits": [
+                {
+                    "sha": "71325d3d63c8f01fcc01fddbc1de9d814c0f5e31",
+                    "author": {
+                        "email": "matrixzhou@google.com",
+                        "name": "matrixzhou"
+                    },
+                    "message": "The unsized numpy array like np.array(None) and np.array(0) are going to be reshaped with shape (1,) to avoid batching issues.\n\nPiperOrigin-RevId: 557057420",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/71325d3d63c8f01fcc01fddbc1de9d814c0f5e31"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-08-15T08:41:39Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31117230480",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4520383,
+            "login": "zippeurfou",
+            "display_login": "zippeurfou",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zippeurfou",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4520383?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175",
+                "repository_url": "https://api.github.com/repos/tensorflow/model-analysis",
+                "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/comments",
+                "events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/events",
+                "html_url": "https://github.com/tensorflow/model-analysis/issues/175",
+                "id": 1850783021,
+                "node_id": "I_kwDOB4qsyc5uULUt",
+                "number": 175,
+                "title": "Feat: Have ability to return the HTML rather than creating the plots",
+                "user": {
+                    "login": "zippeurfou",
+                    "id": 4520383,
+                    "node_id": "MDQ6VXNlcjQ1MjAzODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4520383?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zippeurfou",
+                    "html_url": "https://github.com/zippeurfou",
+                    "followers_url": "https://api.github.com/users/zippeurfou/followers",
+                    "following_url": "https://api.github.com/users/zippeurfou/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zippeurfou/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zippeurfou/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zippeurfou/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zippeurfou/orgs",
+                    "repos_url": "https://api.github.com/users/zippeurfou/repos",
+                    "events_url": "https://api.github.com/users/zippeurfou/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zippeurfou/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-08-15T01:33:15Z",
+                "updated_at": "2023-08-15T01:33:15Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "This is a feature request so not following the template.\r\nLet me know if I should anyways.\r\n\r\nIn tfdv there is the ability to get the HTML using `get_statistics_html` https://github.com/tensorflow/data-validation/blob/v1.13.0/tensorflow_data_validation/utils/display_util.py#L403-L466.\r\nThis is pretty handy as sometimes you do want to create HTML files you save on your computer.\r\ntfma has a few functions:\r\n- `render_slicing_attributions`\r\n- `render_plot`\r\n- `render_slicing_metrics`\r\n- `render_time_series`\r\n\r\nIt would be very handy to be able to just return the HTML for these.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/175/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-08-15T01:33:16Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31112598632",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 36429068,
+            "login": "rtg0795",
+            "display_login": "rtg0795",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rtg0795",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36429068?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "ref": "v0.45.0",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "Model analysis tools for TensorFlow",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-08-14T20:20:01Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31112598364",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 36429068,
+            "login": "rtg0795",
+            "display_login": "rtg0795",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rtg0795",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36429068?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/releases/117223668",
+                "assets_url": "https://api.github.com/repos/tensorflow/model-analysis/releases/117223668/assets",
+                "upload_url": "https://uploads.github.com/repos/tensorflow/model-analysis/releases/117223668/assets{?name,label}",
+                "html_url": "https://github.com/tensorflow/model-analysis/releases/tag/v0.45.0",
+                "id": 117223668,
+                "author": {
+                    "login": "rtg0795",
+                    "id": 36429068,
+                    "node_id": "MDQ6VXNlcjM2NDI5MDY4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36429068?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rtg0795",
+                    "html_url": "https://github.com/rtg0795",
+                    "followers_url": "https://api.github.com/users/rtg0795/followers",
+                    "following_url": "https://api.github.com/users/rtg0795/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rtg0795/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rtg0795/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rtg0795/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rtg0795/orgs",
+                    "repos_url": "https://api.github.com/users/rtg0795/repos",
+                    "events_url": "https://api.github.com/users/rtg0795/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rtg0795/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOB4qsyc4G_LD0",
+                "tag_name": "v0.45.0",
+                "target_commitish": "r0.45.0",
+                "name": "TensorFlow Model Analysis 0.45.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-08-14T20:18:26Z",
+                "published_at": "2023-08-14T20:20:00Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/tensorflow/model-analysis/tarball/v0.45.0",
+                "zipball_url": "https://api.github.com/repos/tensorflow/model-analysis/zipball/v0.45.0",
+                "body": "## Major Features and Improvements\r\n\r\n*   Add F1, False positive rate, and Accuracy into the confusion matrix plot.\r\n*   Add support for setting top_k and class_id at the same time for confusion\r\n    matrix metrics.\r\n*   Add the false positive for semantic segmentation metrics.\r\n*   Add Mean Metric (experimental) which calculates the mean of any feature. *.\r\n    Adds support of `output_keypath` to ModelSignatureDoFn to explicitly set a\r\n    chain of output keys in the multi-level dict (extracts). Adds output_keypath\r\n    to common prediction extractors.\r\n\r\n## Bug fixes and other Changes\r\n\r\n*   Fix the bug that SetMatchRecall is always 1 when top_k is set.\r\n*   Add 'tfma_eval' model_type in model_specs as the identifier for\r\n    eval_saved_model, allowing signature='eval' to now be used with other model\r\n    types.\r\n*   Add \"materialized_prediction\" model type to allow users bypassing model\r\n    inference explicitly.\r\n*   Depends on `pyarrow>=10,<11`.\r\n*   Depends on `apache-beam>=2.47,<3`.\r\n*   Depends on `numpy>=1.23.0`.\r\n*   Depends on `tensorflow>=2.13.0,<3`.\r\n\r\n## Breaking Changes\r\n\r\n*   Depend on PIL for image related metrics.\r\n*   Separate extract_key from signature names in `ModelSignaturesDoFn`.\r\n\r\n## Deprecations\r\n\r\n*   N/A",
+                "short_description_html": "<h2>Major Features and Improvements</h2>\n<ul>\n<li>Add F1, False positive rate, and Accuracy into the confusion matrix plot.</li>\n<li>Add support for setting top_k and class_id at the same time for confusion<br>\nmatrix metrics.</li>\n<li>A\u2026</li>\n</ul>",
+                "is_short_description_html_truncated": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-08-14T20:20:00Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31112566993",
+        "type": "PushEvent",
+        "actor": {
+            "id": 36429068,
+            "login": "rtg0795",
+            "display_login": "rtg0795",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rtg0795",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36429068?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "repository_id": 126528713,
+            "push_id": 14673426767,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/r0.45.0",
+            "head": "6f225685dcf2e094bcf620f835c5f6e169b6cf16",
+            "before": "692fa68bb0390cdbb96ed2d1f53906594694af93",
+            "commits": [
+                {
+                    "sha": "72e4b6534bbc573029adaca58591fc7510c25cc7",
+                    "author": {
+                        "email": "rtg0795@gmail.com",
+                        "name": "RaviTeja Gorijala"
+                    },
+                    "message": "Update 0.45.0 in version.py and RELEASE.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/72e4b6534bbc573029adaca58591fc7510c25cc7"
+                },
+                {
+                    "sha": "6f225685dcf2e094bcf620f835c5f6e169b6cf16",
+                    "author": {
+                        "email": "36429068+rtg0795@users.noreply.github.com",
+                        "name": "Raviteja Gorijala"
+                    },
+                    "message": "Merge pull request #174 from rtg0795/releng_20230814_131716\n\nUpdate 0.45.0 in version.py and RELEASE.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tensorflow/model-analysis/commits/6f225685dcf2e094bcf620f835c5f6e169b6cf16"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-08-14T20:18:28Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    },
+    {
+        "id": "31112566742",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 36429068,
+            "login": "rtg0795",
+            "display_login": "rtg0795",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rtg0795",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36429068?"
+        },
+        "repo": {
+            "id": 126528713,
+            "name": "tensorflow/model-analysis",
+            "url": "https://api.github.com/repos/tensorflow/model-analysis"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 174,
+            "pull_request": {
+                "url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/174",
+                "id": 1475042799,
+                "node_id": "PR_kwDOB4qsyc5X613v",
+                "html_url": "https://github.com/tensorflow/model-analysis/pull/174",
+                "diff_url": "https://github.com/tensorflow/model-analysis/pull/174.diff",
+                "patch_url": "https://github.com/tensorflow/model-analysis/pull/174.patch",
+                "issue_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/174",
+                "number": 174,
+                "state": "closed",
+                "locked": false,
+                "title": "Update 0.45.0 in version.py and RELEASE.md",
+                "user": {
+                    "login": "rtg0795",
+                    "id": 36429068,
+                    "node_id": "MDQ6VXNlcjM2NDI5MDY4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36429068?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rtg0795",
+                    "html_url": "https://github.com/rtg0795",
+                    "followers_url": "https://api.github.com/users/rtg0795/followers",
+                    "following_url": "https://api.github.com/users/rtg0795/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rtg0795/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rtg0795/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rtg0795/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rtg0795/orgs",
+                    "repos_url": "https://api.github.com/users/rtg0795/repos",
+                    "events_url": "https://api.github.com/users/rtg0795/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rtg0795/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2023-08-14T20:18:02Z",
+                "updated_at": "2023-08-14T20:18:26Z",
+                "closed_at": "2023-08-14T20:18:26Z",
+                "merged_at": "2023-08-14T20:18:26Z",
+                "merge_commit_sha": "6f225685dcf2e094bcf620f835c5f6e169b6cf16",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/174/commits",
+                "review_comments_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/174/comments",
+                "review_comment_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/174/comments",
+                "statuses_url": "https://api.github.com/repos/tensorflow/model-analysis/statuses/72e4b6534bbc573029adaca58591fc7510c25cc7",
+                "head": {
+                    "label": "rtg0795:releng_20230814_131716",
+                    "ref": "releng_20230814_131716",
+                    "sha": "72e4b6534bbc573029adaca58591fc7510c25cc7",
+                    "user": {
+                        "login": "rtg0795",
+                        "id": 36429068,
+                        "node_id": "MDQ6VXNlcjM2NDI5MDY4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/36429068?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/rtg0795",
+                        "html_url": "https://github.com/rtg0795",
+                        "followers_url": "https://api.github.com/users/rtg0795/followers",
+                        "following_url": "https://api.github.com/users/rtg0795/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/rtg0795/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/rtg0795/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/rtg0795/subscriptions",
+                        "organizations_url": "https://api.github.com/users/rtg0795/orgs",
+                        "repos_url": "https://api.github.com/users/rtg0795/repos",
+                        "events_url": "https://api.github.com/users/rtg0795/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/rtg0795/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 546895028,
+                        "node_id": "R_kgDOIJj0tA",
+                        "name": "model-analysis",
+                        "full_name": "rtg0795/model-analysis",
+                        "private": false,
+                        "owner": {
+                            "login": "rtg0795",
+                            "id": 36429068,
+                            "node_id": "MDQ6VXNlcjM2NDI5MDY4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/36429068?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/rtg0795",
+                            "html_url": "https://github.com/rtg0795",
+                            "followers_url": "https://api.github.com/users/rtg0795/followers",
+                            "following_url": "https://api.github.com/users/rtg0795/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/rtg0795/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/rtg0795/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/rtg0795/subscriptions",
+                            "organizations_url": "https://api.github.com/users/rtg0795/orgs",
+                            "repos_url": "https://api.github.com/users/rtg0795/repos",
+                            "events_url": "https://api.github.com/users/rtg0795/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/rtg0795/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/rtg0795/model-analysis",
+                        "description": "Model analysis tools for TensorFlow",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/rtg0795/model-analysis",
+                        "forks_url": "https://api.github.com/repos/rtg0795/model-analysis/forks",
+                        "keys_url": "https://api.github.com/repos/rtg0795/model-analysis/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/rtg0795/model-analysis/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/rtg0795/model-analysis/teams",
+                        "hooks_url": "https://api.github.com/repos/rtg0795/model-analysis/hooks",
+                        "issue_events_url": "https://api.github.com/repos/rtg0795/model-analysis/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/rtg0795/model-analysis/events",
+                        "assignees_url": "https://api.github.com/repos/rtg0795/model-analysis/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/rtg0795/model-analysis/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/rtg0795/model-analysis/tags",
+                        "blobs_url": "https://api.github.com/repos/rtg0795/model-analysis/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/rtg0795/model-analysis/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/rtg0795/model-analysis/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/rtg0795/model-analysis/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/rtg0795/model-analysis/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/rtg0795/model-analysis/languages",
+                        "stargazers_url": "https://api.github.com/repos/rtg0795/model-analysis/stargazers",
+                        "contributors_url": "https://api.github.com/repos/rtg0795/model-analysis/contributors",
+                        "subscribers_url": "https://api.github.com/repos/rtg0795/model-analysis/subscribers",
+                        "subscription_url": "https://api.github.com/repos/rtg0795/model-analysis/subscription",
+                        "commits_url": "https://api.github.com/repos/rtg0795/model-analysis/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/rtg0795/model-analysis/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/rtg0795/model-analysis/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/rtg0795/model-analysis/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/rtg0795/model-analysis/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/rtg0795/model-analysis/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/rtg0795/model-analysis/merges",
+                        "archive_url": "https://api.github.com/repos/rtg0795/model-analysis/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/rtg0795/model-analysis/downloads",
+                        "issues_url": "https://api.github.com/repos/rtg0795/model-analysis/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/rtg0795/model-analysis/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/rtg0795/model-analysis/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/rtg0795/model-analysis/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/rtg0795/model-analysis/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/rtg0795/model-analysis/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/rtg0795/model-analysis/deployments",
+                        "created_at": "2022-10-06T20:33:50Z",
+                        "updated_at": "2022-09-29T11:12:10Z",
+                        "pushed_at": "2023-08-14T20:17:42Z",
+                        "git_url": "git://github.com/rtg0795/model-analysis.git",
+                        "ssh_url": "git@github.com:rtg0795/model-analysis.git",
+                        "clone_url": "https://github.com/rtg0795/model-analysis.git",
+                        "svn_url": "https://github.com/rtg0795/model-analysis",
+                        "homepage": null,
+                        "size": 22214,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "tensorflow:r0.45.0",
+                    "ref": "r0.45.0",
+                    "sha": "692fa68bb0390cdbb96ed2d1f53906594694af93",
+                    "user": {
+                        "login": "tensorflow",
+                        "id": 15658638,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/tensorflow",
+                        "html_url": "https://github.com/tensorflow",
+                        "followers_url": "https://api.github.com/users/tensorflow/followers",
+                        "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                        "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                        "repos_url": "https://api.github.com/users/tensorflow/repos",
+                        "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 126528713,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjY1Mjg3MTM=",
+                        "name": "model-analysis",
+                        "full_name": "tensorflow/model-analysis",
+                        "private": false,
+                        "owner": {
+                            "login": "tensorflow",
+                            "id": 15658638,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1NjU4NjM4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/tensorflow",
+                            "html_url": "https://github.com/tensorflow",
+                            "followers_url": "https://api.github.com/users/tensorflow/followers",
+                            "following_url": "https://api.github.com/users/tensorflow/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/tensorflow/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/tensorflow/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/tensorflow/subscriptions",
+                            "organizations_url": "https://api.github.com/users/tensorflow/orgs",
+                            "repos_url": "https://api.github.com/users/tensorflow/repos",
+                            "events_url": "https://api.github.com/users/tensorflow/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/tensorflow/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/tensorflow/model-analysis",
+                        "description": "Model analysis tools for TensorFlow",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/tensorflow/model-analysis",
+                        "forks_url": "https://api.github.com/repos/tensorflow/model-analysis/forks",
+                        "keys_url": "https://api.github.com/repos/tensorflow/model-analysis/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/tensorflow/model-analysis/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/tensorflow/model-analysis/teams",
+                        "hooks_url": "https://api.github.com/repos/tensorflow/model-analysis/hooks",
+                        "issue_events_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/tensorflow/model-analysis/events",
+                        "assignees_url": "https://api.github.com/repos/tensorflow/model-analysis/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/tensorflow/model-analysis/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/tensorflow/model-analysis/tags",
+                        "blobs_url": "https://api.github.com/repos/tensorflow/model-analysis/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/tensorflow/model-analysis/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/tensorflow/model-analysis/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/tensorflow/model-analysis/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/tensorflow/model-analysis/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/tensorflow/model-analysis/languages",
+                        "stargazers_url": "https://api.github.com/repos/tensorflow/model-analysis/stargazers",
+                        "contributors_url": "https://api.github.com/repos/tensorflow/model-analysis/contributors",
+                        "subscribers_url": "https://api.github.com/repos/tensorflow/model-analysis/subscribers",
+                        "subscription_url": "https://api.github.com/repos/tensorflow/model-analysis/subscription",
+                        "commits_url": "https://api.github.com/repos/tensorflow/model-analysis/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/tensorflow/model-analysis/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/tensorflow/model-analysis/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/tensorflow/model-analysis/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/tensorflow/model-analysis/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/tensorflow/model-analysis/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/tensorflow/model-analysis/merges",
+                        "archive_url": "https://api.github.com/repos/tensorflow/model-analysis/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/tensorflow/model-analysis/downloads",
+                        "issues_url": "https://api.github.com/repos/tensorflow/model-analysis/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/tensorflow/model-analysis/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/tensorflow/model-analysis/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/tensorflow/model-analysis/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/tensorflow/model-analysis/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/tensorflow/model-analysis/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/tensorflow/model-analysis/deployments",
+                        "created_at": "2018-03-23T19:08:49Z",
+                        "updated_at": "2023-08-09T14:14:11Z",
+                        "pushed_at": "2023-08-14T20:18:26Z",
+                        "git_url": "git://github.com/tensorflow/model-analysis.git",
+                        "ssh_url": "git@github.com:tensorflow/model-analysis.git",
+                        "clone_url": "https://github.com/tensorflow/model-analysis.git",
+                        "svn_url": "https://github.com/tensorflow/model-analysis",
+                        "homepage": null,
+                        "size": 22554,
+                        "stargazers_count": 1211,
+                        "watchers_count": 1211,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 266,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 33,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 266,
+                        "open_issues": 33,
+                        "watchers": 1211,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/174"
+                    },
+                    "html": {
+                        "href": "https://github.com/tensorflow/model-analysis/pull/174"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/issues/174"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/issues/174/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/174/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/pulls/174/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/tensorflow/model-analysis/statuses/72e4b6534bbc573029adaca58591fc7510c25cc7"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "rtg0795",
+                    "id": 36429068,
+                    "node_id": "MDQ6VXNlcjM2NDI5MDY4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36429068?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rtg0795",
+                    "html_url": "https://github.com/rtg0795",
+                    "followers_url": "https://api.github.com/users/rtg0795/followers",
+                    "following_url": "https://api.github.com/users/rtg0795/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rtg0795/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rtg0795/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rtg0795/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rtg0795/orgs",
+                    "repos_url": "https://api.github.com/users/rtg0795/repos",
+                    "events_url": "https://api.github.com/users/rtg0795/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rtg0795/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 2,
+                "deletions": 1708,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-08-14T20:18:27Z",
+        "org": {
+            "id": 15658638,
+            "login": "tensorflow",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tensorflow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15658638?"
+        }
+    }
+]

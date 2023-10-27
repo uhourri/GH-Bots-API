@@ -1,0 +1,1739 @@
+[
+    {
+        "id": "32892802767",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 67318078,
+            "login": "tobireinbo",
+            "display_login": "tobireinbo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tobireinbo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67318078?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:40:23Z"
+    },
+    {
+        "id": "32888809218",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "reopened",
+            "issue": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820",
+                "repository_url": "https://api.github.com/repos/hajimehoshi/ebiten",
+                "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/comments",
+                "events_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/events",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2820",
+                "id": 1964600612,
+                "node_id": "I_kwDOAKOZU851GW0k",
+                "number": 2820,
+                "title": "ebiten: (*ebiten.Image).At before the main loop didn't panic",
+                "user": {
+                    "login": "hajimehoshi",
+                    "id": 16950,
+                    "node_id": "MDQ6VXNlcjE2OTUw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hajimehoshi",
+                    "html_url": "https://github.com/hajimehoshi",
+                    "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                    "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                    "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                    "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 43656955,
+                        "node_id": "MDU6TGFiZWw0MzY1Njk1NQ==",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/bug",
+                        "name": "bug",
+                        "color": "D93F0B",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88",
+                    "html_url": "https://github.com/hajimehoshi/ebiten/milestone/88",
+                    "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88/labels",
+                    "id": 8357691,
+                    "node_id": "MI_kwDOAKOZU84Af4c7",
+                    "number": 88,
+                    "title": "v2.7.0",
+                    "description": "",
+                    "creator": {
+                        "login": "hajimehoshi",
+                        "id": 16950,
+                        "node_id": "MDQ6VXNlcjE2OTUw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/hajimehoshi",
+                        "html_url": "https://github.com/hajimehoshi",
+                        "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                        "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                        "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                        "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                        "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 60,
+                    "closed_issues": 10,
+                    "state": "open",
+                    "created_at": "2022-08-28T16:08:33Z",
+                    "updated_at": "2023-10-27T05:30:27Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 1,
+                "created_at": "2023-10-27T01:18:56Z",
+                "updated_at": "2023-10-27T05:30:27Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "### Ebitengine Version\n\nv2.6.2\n\n### Operating System\n\n- [ ] Windows\n- [ ] macOS\n- [ ] Linux\n- [ ] FreeBSD\n- [ ] OpenBSD\n- [ ] Android\n- [ ] iOS\n- [ ] Nintendo Switch\n- [ ] PlayStation 5\n- [ ] Xbox\n- [ ] Web Browsers\n\n### Go Version (`go version`)\n\ngo version go1.21.1 darwin/amd64\n\n### What steps will reproduce the problem?\n\nRun this program:\r\n\r\n```go\r\nfunc init() {\r\n        defer func() {\r\n                if e := recover(); e == nil {\r\n                        panic(\"(*ebiten.Image).At before the main loop must panic but not\")\r\n                }\r\n        }()\r\n\r\n        done := make(chan struct{})\r\n        go func() {\r\n                select {\r\n                case <-done:\r\n                        return\r\n                case <-time.After(time.Second):\r\n                        panic(\"timeout\")\r\n                }\r\n        }()\r\n        img := ebiten.NewImage(1, 1)\r\n        img.At(0, 0)\r\n        close(done)\r\n}\r\n```\n\n### What is the expected result?\n\nThis test passes without errors\n\n### What happens instead?\n\n\"timeout\" is shown\n\n### Anything else you feel useful to add?\n\nThough this is an issue in v2.6, I am not sure I should backport the fix to v2.6 as this should not be so serious.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "reopened"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T05:30:27Z"
+    },
+    {
+        "id": "32888808123",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15586868728,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "457f6bb964cc33aa7ba16de6c32de3adeb6e9798",
+            "before": "2f6df3d4d60ac0d5ed90474e3f0c372eb499aa50",
+            "commits": [
+                {
+                    "sha": "457f6bb964cc33aa7ba16de6c32de3adeb6e9798",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "Revert \"internal/ui: bug fix: panic at ReadPixels before running\"\n\nThis reverts commit 2f6df3d4d60ac0d5ed90474e3f0c372eb499aa50.\n\nReason: regression by calling (*ebiten.Image).At from a different goroutine\n\nUpdates #2820",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/457f6bb964cc33aa7ba16de6c32de3adeb6e9798"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T05:30:23Z"
+    },
+    {
+        "id": "32888794757",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820",
+                "repository_url": "https://api.github.com/repos/hajimehoshi/ebiten",
+                "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/comments",
+                "events_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/events",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2820",
+                "id": 1964600612,
+                "node_id": "I_kwDOAKOZU851GW0k",
+                "number": 2820,
+                "title": "ebiten: (*ebiten.Image).At before the main loop didn't panic",
+                "user": {
+                    "login": "hajimehoshi",
+                    "id": 16950,
+                    "node_id": "MDQ6VXNlcjE2OTUw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hajimehoshi",
+                    "html_url": "https://github.com/hajimehoshi",
+                    "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                    "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                    "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                    "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 43656955,
+                        "node_id": "MDU6TGFiZWw0MzY1Njk1NQ==",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/bug",
+                        "name": "bug",
+                        "color": "D93F0B",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88",
+                    "html_url": "https://github.com/hajimehoshi/ebiten/milestone/88",
+                    "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88/labels",
+                    "id": 8357691,
+                    "node_id": "MI_kwDOAKOZU84Af4c7",
+                    "number": 88,
+                    "title": "v2.7.0",
+                    "description": "",
+                    "creator": {
+                        "login": "hajimehoshi",
+                        "id": 16950,
+                        "node_id": "MDQ6VXNlcjE2OTUw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/hajimehoshi",
+                        "html_url": "https://github.com/hajimehoshi",
+                        "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                        "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                        "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                        "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                        "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 59,
+                    "closed_issues": 11,
+                    "state": "open",
+                    "created_at": "2022-08-28T16:08:33Z",
+                    "updated_at": "2023-10-27T03:21:11Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 1,
+                "created_at": "2023-10-27T01:18:56Z",
+                "updated_at": "2023-10-27T05:29:27Z",
+                "closed_at": "2023-10-27T03:21:11Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "### Ebitengine Version\n\nv2.6.2\n\n### Operating System\n\n- [ ] Windows\n- [ ] macOS\n- [ ] Linux\n- [ ] FreeBSD\n- [ ] OpenBSD\n- [ ] Android\n- [ ] iOS\n- [ ] Nintendo Switch\n- [ ] PlayStation 5\n- [ ] Xbox\n- [ ] Web Browsers\n\n### Go Version (`go version`)\n\ngo version go1.21.1 darwin/amd64\n\n### What steps will reproduce the problem?\n\nRun this program:\r\n\r\n```go\r\nfunc init() {\r\n        defer func() {\r\n                if e := recover(); e == nil {\r\n                        panic(\"(*ebiten.Image).At before the main loop must panic but not\")\r\n                }\r\n        }()\r\n\r\n        done := make(chan struct{})\r\n        go func() {\r\n                select {\r\n                case <-done:\r\n                        return\r\n                case <-time.After(time.Second):\r\n                        panic(\"timeout\")\r\n                }\r\n        }()\r\n        img := ebiten.NewImage(1, 1)\r\n        img.At(0, 0)\r\n        close(done)\r\n}\r\n```\n\n### What is the expected result?\n\nThis test passes without errors\n\n### What happens instead?\n\n\"timeout\" is shown\n\n### Anything else you feel useful to add?\n\nThough this is an issue in v2.6, I am not sure I should backport the fix to v2.6 as this should not be so serious.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/comments/1782318626",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2820#issuecomment-1782318626",
+                "issue_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820",
+                "id": 1782318626,
+                "node_id": "IC_kwDOAKOZU85qPAYi",
+                "user": {
+                    "login": "hajimehoshi",
+                    "id": 16950,
+                    "node_id": "MDQ6VXNlcjE2OTUw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hajimehoshi",
+                    "html_url": "https://github.com/hajimehoshi",
+                    "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                    "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                    "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                    "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T05:29:27Z",
+                "updated_at": "2023-10-27T05:29:27Z",
+                "author_association": "OWNER",
+                "body": "I realized the fix causes a regression when At is called in a separate goroutine:\r\n\r\n```go\r\nfunc init() {\r\n        go func() {\r\n                img := ebiten.NewImage(1, 1)\r\n                img.At(0, 0) // This should not panic\r\n        }()\r\n}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/comments/1782318626/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T05:29:28Z"
+    },
+    {
+        "id": "32887131170",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820",
+                "repository_url": "https://api.github.com/repos/hajimehoshi/ebiten",
+                "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/comments",
+                "events_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/events",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2820",
+                "id": 1964600612,
+                "node_id": "I_kwDOAKOZU851GW0k",
+                "number": 2820,
+                "title": "ebiten: (*ebiten.Image).At before the main loop didn't panic",
+                "user": {
+                    "login": "hajimehoshi",
+                    "id": 16950,
+                    "node_id": "MDQ6VXNlcjE2OTUw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hajimehoshi",
+                    "html_url": "https://github.com/hajimehoshi",
+                    "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                    "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                    "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                    "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 43656955,
+                        "node_id": "MDU6TGFiZWw0MzY1Njk1NQ==",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/bug",
+                        "name": "bug",
+                        "color": "D93F0B",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88",
+                    "html_url": "https://github.com/hajimehoshi/ebiten/milestone/88",
+                    "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88/labels",
+                    "id": 8357691,
+                    "node_id": "MI_kwDOAKOZU84Af4c7",
+                    "number": 88,
+                    "title": "v2.7.0",
+                    "description": "",
+                    "creator": {
+                        "login": "hajimehoshi",
+                        "id": 16950,
+                        "node_id": "MDQ6VXNlcjE2OTUw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/hajimehoshi",
+                        "html_url": "https://github.com/hajimehoshi",
+                        "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                        "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                        "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                        "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                        "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 59,
+                    "closed_issues": 11,
+                    "state": "open",
+                    "created_at": "2022-08-28T16:08:33Z",
+                    "updated_at": "2023-10-27T03:21:11Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 0,
+                "created_at": "2023-10-27T01:18:56Z",
+                "updated_at": "2023-10-27T03:21:11Z",
+                "closed_at": "2023-10-27T03:21:11Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "### Ebitengine Version\n\nv2.6.2\n\n### Operating System\n\n- [ ] Windows\n- [ ] macOS\n- [ ] Linux\n- [ ] FreeBSD\n- [ ] OpenBSD\n- [ ] Android\n- [ ] iOS\n- [ ] Nintendo Switch\n- [ ] PlayStation 5\n- [ ] Xbox\n- [ ] Web Browsers\n\n### Go Version (`go version`)\n\ngo version go1.21.1 darwin/amd64\n\n### What steps will reproduce the problem?\n\nRun this program:\r\n\r\n```go\r\nfunc init() {\r\n        defer func() {\r\n                if e := recover(); e == nil {\r\n                        panic(\"(*ebiten.Image).At before the main loop must panic but not\")\r\n                }\r\n        }()\r\n\r\n        done := make(chan struct{})\r\n        go func() {\r\n                select {\r\n                case <-done:\r\n                        return\r\n                case <-time.After(time.Second):\r\n                        panic(\"timeout\")\r\n                }\r\n        }()\r\n        img := ebiten.NewImage(1, 1)\r\n        img.At(0, 0)\r\n        close(done)\r\n}\r\n```\n\n### What is the expected result?\n\nThis test passes without errors\n\n### What happens instead?\n\n\"timeout\" is shown\n\n### Anything else you feel useful to add?\n\nThough this is an issue in v2.6, I am not sure I should backport the fix to v2.6 as this should not be so serious.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:21:12Z"
+    },
+    {
+        "id": "32887130842",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15585960241,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2f6df3d4d60ac0d5ed90474e3f0c372eb499aa50",
+            "before": "4eb9b3a152b57ad48aed99ebe2c64946b104238d",
+            "commits": [
+                {
+                    "sha": "2f6df3d4d60ac0d5ed90474e3f0c372eb499aa50",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "internal/ui: bug fix: panic at ReadPixels before running\n\nCloses #2820",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/2f6df3d4d60ac0d5ed90474e3f0c372eb499aa50"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:21:10Z"
+    },
+    {
+        "id": "32886108624",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15585412971,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "4eb9b3a152b57ad48aed99ebe2c64946b104238d",
+            "before": "a7b87fddb499747fbd9b539a0c40ee4359b0db11",
+            "commits": [
+                {
+                    "sha": "4eb9b3a152b57ad48aed99ebe2c64946b104238d",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "internal/ui: remove unused members",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/4eb9b3a152b57ad48aed99ebe2c64946b104238d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:00:05Z"
+    },
+    {
+        "id": "32885568492",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820",
+                "repository_url": "https://api.github.com/repos/hajimehoshi/ebiten",
+                "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/comments",
+                "events_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/events",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2820",
+                "id": 1964600612,
+                "node_id": "I_kwDOAKOZU851GW0k",
+                "number": 2820,
+                "title": "ebiten: (*ebiten.Image).At before the main loop didn't panic",
+                "user": {
+                    "login": "hajimehoshi",
+                    "id": 16950,
+                    "node_id": "MDQ6VXNlcjE2OTUw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hajimehoshi",
+                    "html_url": "https://github.com/hajimehoshi",
+                    "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                    "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                    "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                    "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 43656955,
+                        "node_id": "MDU6TGFiZWw0MzY1Njk1NQ==",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/bug",
+                        "name": "bug",
+                        "color": "D93F0B",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T01:18:56Z",
+                "updated_at": "2023-10-27T01:18:56Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "### Ebitengine Version\n\nv2.6.2\n\n### Operating System\n\n- [ ] Windows\n- [ ] macOS\n- [ ] Linux\n- [ ] FreeBSD\n- [ ] OpenBSD\n- [ ] Android\n- [ ] iOS\n- [ ] Nintendo Switch\n- [ ] PlayStation 5\n- [ ] Xbox\n- [ ] Web Browsers\n\n### Go Version (`go version`)\n\ngo version go1.21.1 darwin/amd64\n\n### What steps will reproduce the problem?\n\nRun this program:\r\n\r\n```go\r\nfunc init() {\r\n        defer func() {\r\n                if e := recover(); e == nil {\r\n                        panic(\"(*ebiten.Image).At before the main loop must panic but not\")\r\n                }\r\n        }()\r\n\r\n        done := make(chan struct{})\r\n        go func() {\r\n                select {\r\n                case <-done:\r\n                        return\r\n                case <-time.After(time.Second):\r\n                        panic(\"timeout\")\r\n                }\r\n        }()\r\n        img := ebiten.NewImage(1, 1)\r\n        img.At(0, 0)\r\n        close(done)\r\n}\r\n```\n\n### What is the expected result?\n\nThis test passes without errors\n\n### What happens instead?\n\n\"timeout\" is shown\n\n### Anything else you feel useful to add?\n\nThough this is an issue in v2.6, I am not sure I should backport the fix to v2.6 as this should not be so serious.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2820/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:18:57Z"
+    },
+    {
+        "id": "32885462172",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15585050596,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a7b87fddb499747fbd9b539a0c40ee4359b0db11",
+            "before": "55702a7c282d7ee3abb66750c753a2f3aded29a9",
+            "commits": [
+                {
+                    "sha": "a7b87fddb499747fbd9b539a0c40ee4359b0db11",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "examples/drag: use image.Alpha to detect user interaction",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/a7b87fddb499747fbd9b539a0c40ee4359b0db11"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:10:30Z"
+    },
+    {
+        "id": "32875667018",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15580114830,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/issue-1704-handleevent",
+            "head": "340c22d86b4cb5bfc909ee3c27a297ce74a82e7f",
+            "before": "2576e961540c6adccac55c2939e26ad6e64cccf2",
+            "commits": [
+                {
+                    "sha": "340c22d86b4cb5bfc909ee3c27a297ce74a82e7f",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "WIP: implement HandleEvent\n\nUpdates #1704",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/340c22d86b4cb5bfc909ee3c27a297ce74a82e7f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:40:46Z"
+    },
+    {
+        "id": "32874752022",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "ref": "issue-1704-handleevent",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Ebitengine - A dead simple 2D game engine for Go",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:06:32Z"
+    },
+    {
+        "id": "32865490583",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818",
+                "repository_url": "https://api.github.com/repos/hajimehoshi/ebiten",
+                "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/comments",
+                "events_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/events",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2818",
+                "id": 1963258182,
+                "node_id": "I_kwDOAKOZU851BPFG",
+                "number": 2818,
+                "title": "Can't send data between conn with net.Dial using ebitengine",
+                "user": {
+                    "login": "esa1234567",
+                    "id": 96101844,
+                    "node_id": "U_kgDOBbpl1A",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/96101844?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/esa1234567",
+                    "html_url": "https://github.com/esa1234567",
+                    "followers_url": "https://api.github.com/users/esa1234567/followers",
+                    "following_url": "https://api.github.com/users/esa1234567/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/esa1234567/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/esa1234567/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/esa1234567/subscriptions",
+                    "organizations_url": "https://api.github.com/users/esa1234567/orgs",
+                    "repos_url": "https://api.github.com/users/esa1234567/repos",
+                    "events_url": "https://api.github.com/users/esa1234567/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/esa1234567/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 43656955,
+                        "node_id": "MDU6TGFiZWw0MzY1Njk1NQ==",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/bug",
+                        "name": "bug",
+                        "color": "D93F0B",
+                        "default": true,
+                        "description": ""
+                    },
+                    {
+                        "id": 328303550,
+                        "node_id": "MDU6TGFiZWwzMjgzMDM1NTA=",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/os:linux",
+                        "name": "os:linux",
+                        "color": "c2e0c6",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T10:59:27Z",
+                "updated_at": "2023-10-26T11:09:44Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Ebitengine Version\r\n\r\nv2.6.2\r\n\r\n### Operating System\r\n\r\n- [ ] Windows\r\n- [ ] macOS\r\n- [X] Linux\r\n- [ ] FreeBSD\r\n- [ ] OpenBSD\r\n- [ ] Android\r\n- [ ] iOS\r\n- [ ] Nintendo Switch\r\n- [ ] PlayStation 5\r\n- [ ] Xbox\r\n- [ ] Web Browsers\r\n\r\n### Go Version (`go version`)\r\n\r\ngo1.21.2 linux/amd64\r\n\r\n### What steps will reproduce the problem?\r\n\r\nI have a game with a client and a server when I use conn.write and I check the server it doesn't write anything, here is my client.go with ebitengine:\r\n\r\n```go\r\npackage main\r\n\r\nimport (\r\n\t\"bytes\"\r\n\t\"image\"\r\n\t_ \"image/png\"\r\n\t\"io\"\r\n\t\"net\"\r\n\t\"os\"\r\n\t\"strconv\"\r\n\t\"strings\"\r\n\t\"time\"\r\n\r\n\t\"github.com/sirupsen/logrus\"\r\n\r\n\t\"github.com/hajimehoshi/ebiten/v2\"\r\n)\r\n\r\nconst (\r\n\tscreenWidth  = 320\r\n\tscreenHeight = 240\r\n\r\n\tframeOX     = 0\r\n\tframeOY     = 32\r\n\tframeWidth  = 32\r\n\tframeHeight = 32\r\n\tframeCount  = 8\r\n)\r\n\r\nvar (\r\n\trunnerImage     *ebiten.Image\r\n\tswordImage      *ebiten.Image\r\n\tgrassBlockImage *ebiten.Image\r\n\tcloudBlockImage *ebiten.Image\r\n\tswordAnimations [4]*ebiten.Image\r\n\r\n\tlog *logrus.Logger\r\n\r\n\tconn net.Conn\r\n\r\n\tticker = time.NewTicker(time.Second / 50)\r\n)\r\n\r\ntype Sword struct {\r\n\tx, y                     int\r\n\tthrowSword               bool\r\n\txThrowSword, yThrowSword int\r\n}\r\n\r\ntype Player struct {\r\n\tx       int\r\n\ty       float64\r\n\tdir     bool\r\n\tdirJump bool\r\n}\r\n\r\ntype Game struct {\r\n\tfirstPlayer  Player\r\n\tsecondPlayer Player\r\n\tfirstSword   Sword\r\n\tsecondSword  Sword\r\n}\r\n\r\nfunc imageToByteArray(filePath string) ([]byte, error) {\r\n\tfile, err := os.Open(filePath)\r\n\tif err != nil {\r\n\t\treturn nil, err\r\n\t}\r\n\tdefer file.Close()\r\n\r\n\tbyteArray, err := io.ReadAll(file)\r\n\tif err != nil {\r\n\t\treturn nil, err\r\n\t}\r\n\r\n\treturn byteArray, nil\r\n}\r\n\r\nfunc (g *Game) Update() error {\r\n\tvar err error\r\n\terr = g.handlePlayerInput()\r\n\tg.updateNetwork()\r\n\tg.handlePlayerCollisions()\r\n\tg.updatePlayerAndSwordPosition()\r\n\treturn err\r\n}\r\n\r\nfunc (g *Game) updateNetwork() {\r\n\t// Use a goroutine for network operations to avoid blocking the game loop.\r\n\tgo func() {\r\n\t\t// Send player coordinates.\r\n\t\t_, err := conn.Write([]byte(strconv.Itoa(g.firstPlayer.x) + \"-\" + strconv.Itoa(int(g.firstPlayer.y))))\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"Write error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\t\tlog.Infof(strconv.Itoa(g.firstPlayer.x) + \"-\" + strconv.Itoa(int(g.firstPlayer.y)))\r\n\r\n\t\t// Receive player coordinates from the server.\r\n\t\tbuffer := make([]byte, 1024)\r\n\t\tn, err := conn.Read(buffer)\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"Receive error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\t\txy := strings.Split(string(buffer[:n]), \"-\")\r\n\t\tx, err := strconv.Atoi(xy[0])\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"X conversion error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\t\ty, err := strconv.Atoi(xy[1])\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"Y conversion error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\r\n\t\t// Update the second player's position.\r\n\t\tg.secondPlayer.x = x\r\n\t\tg.secondPlayer.y = float64(y)\r\n\t}()\r\n}\r\n\r\nfunc (g *Game) handlePlayerCollisions() {\r\n\tif g.firstPlayer.x == g.secondSword.x && g.firstPlayer.y == float64(g.secondSword.y) {\r\n\t\tg.firstPlayer.x = 0\r\n\t}\r\n\r\n}\r\n\r\nfunc (g *Game) handlePlayerInput() error {\r\n\tif ebiten.IsKeyPressed(ebiten.KeyD) {\r\n\t\tg.firstPlayer.x++\r\n\t\tg.firstPlayer.dir = false\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyE) {\r\n\t\tg.firstSword.throwSword = true\r\n\t\tg.firstSword.xThrowSword = g.firstPlayer.x\r\n\t\tg.firstSword.yThrowSword = int(g.firstPlayer.y)\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeySlash) {\r\n\t\tg.secondSword.throwSword = true\r\n\t\tg.secondSword.xThrowSword = screenWidth - g.secondPlayer.x\r\n\t\tg.secondSword.yThrowSword = int(g.secondPlayer.y)\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyA) {\r\n\t\tg.firstPlayer.x--\r\n\t\tg.firstPlayer.dir = true\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyArrowRight) {\r\n\t\tg.secondPlayer.x--\r\n\t\tg.secondPlayer.dir = false\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyArrowLeft) {\r\n\t\tg.secondPlayer.x++\r\n\t\tg.secondPlayer.dir = true\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyEscape) {\r\n\t\treturn ebiten.Termination\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyW) && g.firstPlayer.y <= 0 {\r\n\t\tg.firstPlayer.dirJump = true\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyArrowUp) && g.secondPlayer.y <= 0 {\r\n\t\tg.secondPlayer.dirJump = true\r\n\t}\r\n\treturn nil\r\n}\r\n\r\nfunc (g *Game) updatePlayerAndSwordPosition() {\r\n\tselect {\r\n\tcase <-ticker.C:\r\n\t\tg.updatePlayerAndSword()\r\n\t}\r\n}\r\n\r\nfunc (g *Game) updatePlayerAndSword() {\r\n\tif g.firstPlayer.y >= 0 && !g.firstPlayer.dirJump {\r\n\t\tg.firstPlayer.y -= 1.9\r\n\t}\r\n\tif g.secondPlayer.y >= 0 && !g.secondPlayer.dirJump {\r\n\t\tg.secondPlayer.y -= 1.9\r\n\t}\r\n\tif g.firstPlayer.dirJump && g.firstPlayer.y != 30 {\r\n\t\tg.firstPlayer.y += 1.9\r\n\t}\r\n\tif g.secondPlayer.dirJump && g.secondPlayer.y != 30 {\r\n\t\tg.secondPlayer.y += 1.9\r\n\t}\r\n\tif g.secondPlayer.y >= 30 {\r\n\t\tg.secondPlayer.dirJump = false\r\n\t}\r\n\tif g.firstPlayer.y >= 30 {\r\n\t\tg.firstPlayer.dirJump = false\r\n\t}\r\n\tif g.firstSword.throwSword {\r\n\t\tg.firstSword.xThrowSword++\r\n\t}\r\n\tif g.firstSword.xThrowSword == 226 {\r\n\t\tg.firstSword.throwSword = false\r\n\t\tg.firstSword.xThrowSword = 0\r\n\t}\r\n\tif g.secondSword.throwSword {\r\n\t\tg.secondSword.xThrowSword--\r\n\t}\r\n\tif g.secondSword.xThrowSword == 0 {\r\n\t\tg.secondSword.throwSword = false\r\n\t\tg.secondSword.xThrowSword = 226\r\n\t}\r\n}\r\n\r\nfunc (g *Game) getPlayerHitbox(xPos int, yPos float64) image.Rectangle {\r\n\treturn image.Rect(xPos, int(yPos), xPos+frameWidth, int(yPos+frameHeight))\r\n}\r\n\r\nfunc (g *Game) drawSword(screen *ebiten.Image, op *ebiten.DrawImageOptions, xPos int, yPos float64) {\r\n\top.GeoM.Translate(float64(xPos), float64(194-yPos))\r\n\tscreen.DrawImage(swordImage, op)\r\n}\r\n\r\nfunc (g *Game) drawFirstSword(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.firstPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t\tg.drawSword(screen, &op, g.firstPlayer.x-24, g.firstPlayer.y-13)\r\n\t\tg.firstSword.x, g.firstSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x-24\r\n\t} else {\r\n\t\tg.drawSword(screen, &op, g.firstPlayer.x+24, g.firstPlayer.y-13)\r\n\t\tg.firstSword.x, g.firstSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x+24\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawSecondSword(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.secondPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t\tg.drawSword(screen, &op, screenWidth-g.secondPlayer.x-24, g.secondPlayer.y-13)\r\n\t\tg.secondSword.x, g.secondSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x-24\r\n\t} else {\r\n\t\tg.drawSword(screen, &op, screenWidth-g.secondPlayer.x+24, g.secondPlayer.y-13)\r\n\t\tg.secondSword.x, g.secondSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x+24\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawRunner(screen *ebiten.Image, op *ebiten.DrawImageOptions, xPos int, yPos float64, imageFramePos int) {\r\n\t// Draw the runner image\r\n\top.GeoM.Translate(float64(xPos), float64(194-yPos))\r\n\ti := (imageFramePos / 5) % frameCount\r\n\tsx, sy := frameOX+i*frameWidth, frameOY\r\n\tscreen.DrawImage(runnerImage.SubImage(image.Rect(sx, sy, sx+frameWidth, sy+frameHeight)).(*ebiten.Image), op)\r\n}\r\n\r\nfunc (g *Game) drawFirstRunner(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.firstPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t}\r\n\tg.drawRunner(screen, &op, g.firstPlayer.x, g.firstPlayer.y, g.firstPlayer.x)\r\n}\r\n\r\nfunc (g *Game) drawSecondRunner(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.secondPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t}\r\n\tg.drawRunner(screen, &op, screenWidth-g.secondPlayer.x, g.secondPlayer.y, g.secondPlayer.x) // Adjust the X-coordinate to reverse the image\r\n}\r\n\r\nfunc (g *Game) drawGrass(screen *ebiten.Image) {\r\n\tgrassBlockWidth := grassBlockImage.Bounds().Dx()\r\n\tfor i := 0; i < 226; i++ {\r\n\t\top := &ebiten.DrawImageOptions{}\r\n\t\top.GeoM.Translate(float64(i*grassBlockWidth), float64(226))\r\n\t\tscreen.DrawImage(grassBlockImage, op)\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawClouds(screen *ebiten.Image) {\r\n\tcloudBlockWidth := cloudBlockImage.Bounds().Dx()\r\n\tcloudBlockHeight := cloudBlockImage.Bounds().Dy()\r\n\r\n\t// Define the number of rows, columns, and clouds for the cloud grid\r\n\trows := 2\r\n\tcolumns := 4\r\n\tclouds := 3\r\n\tspacing := cloudBlockWidth // Initial spacing between clouds\r\n\r\n\tfor i := 0; i < clouds; i++ {\r\n\t\tfor j := 0; j < rows; j++ {\r\n\t\t\tfor k := 0; k < columns; k++ {\r\n\t\t\t\top := &ebiten.DrawImageOptions{}\r\n\t\t\t\top.GeoM.Translate(float64(k*cloudBlockWidth+spacing), float64(j*cloudBlockHeight)) // Adjust the Y-coordinate for rows\r\n\t\t\t\tscreen.DrawImage(cloudBlockImage, op)\r\n\t\t\t}\r\n\t\t}\r\n\t\t// Increase the spacing for the next cloud\r\n\t\tspacing += cloudBlockWidth\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawThrowingFirstSword(screen *ebiten.Image) {\r\n\tif g.firstSword.throwSword {\r\n\t\tvar img ebiten.Image\r\n\t\top := ebiten.DrawImageOptions{}\r\n\t\ti := (g.firstSword.xThrowSword / 4) % 4\r\n\t\tlog.Infof(\"i: %d xPos: %d\", i, g.firstSword.xThrowSword)\r\n\t\tswitch i {\r\n\t\tcase 0:\r\n\t\t\tlog.Info(\"Got into case 0\")\r\n\t\t\timg = *swordAnimations[0]\r\n\t\tcase 1:\r\n\t\t\tlog.Info(\"Got into case 1\")\r\n\t\t\timg = *swordAnimations[1]\r\n\t\tcase 2:\r\n\t\t\tlog.Info(\"Got into case 2\")\r\n\t\t\timg = *swordAnimations[2]\r\n\t\tcase 3:\r\n\t\t\tlog.Info(\"Got into case 3\")\r\n\t\t\timg = *swordAnimations[3]\r\n\t\t}\r\n\t\top.GeoM.Translate(float64(g.firstSword.xThrowSword), 194-float64(g.firstSword.yThrowSword))\r\n\t\tscreen.DrawImage(&img, &op)\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawThrowingSecondSword(screen *ebiten.Image) {\r\n\tif g.secondSword.throwSword {\r\n\t\tvar img ebiten.Image\r\n\t\top := ebiten.DrawImageOptions{}\r\n\t\ti := (g.secondSword.xThrowSword / 4) % 4\r\n\t\tlog.Infof(\"i: %d xPos: %d\", i, g.secondSword.xThrowSword)\r\n\t\tswitch i {\r\n\t\tcase 0:\r\n\t\t\tlog.Info(\"Got into case 0\")\r\n\t\t\timg = *swordAnimations[0]\r\n\t\tcase 1:\r\n\t\t\tlog.Info(\"Got into case 1\")\r\n\t\t\timg = *swordAnimations[1]\r\n\t\tcase 2:\r\n\t\t\tlog.Info(\"Got into case 2\")\r\n\t\t\timg = *swordAnimations[2]\r\n\t\tcase 3:\r\n\t\t\tlog.Info(\"Got into case 3\")\r\n\t\t\timg = *swordAnimations[3]\r\n\t\t}\r\n\t\top.GeoM.Translate(float64(g.secondSword.xThrowSword), 194-float64(g.secondSword.yThrowSword))\r\n\t\tscreen.DrawImage(&img, &op)\r\n\t}\r\n}\r\n\r\nfunc (g *Game) Draw(screen *ebiten.Image) {\r\n\tg.drawFirstRunner(screen)\r\n\tg.drawSecondRunner(screen)\r\n\tg.drawFirstSword(screen)\r\n\tg.drawSecondSword(screen)\r\n\tg.drawGrass(screen)\r\n\tg.drawClouds(screen)\r\n\tg.drawThrowingFirstSword(screen)\r\n\tg.drawThrowingSecondSword(screen)\r\n}\r\n\r\nfunc (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {\r\n\treturn screenWidth, screenHeight\r\n}\r\n\r\nfunc loadImage(imagePath string) *ebiten.Image {\r\n\tdata, err := imageToByteArray(imagePath)\r\n\tif err != nil {\r\n\t\tlog.Fatalf(\"could not log image from path %s: %v\", imagePath, err)\r\n\t}\r\n\timage, _, err := image.Decode(bytes.NewReader(data))\r\n\tif err != nil {\r\n\t\tlog.Fatalf(\"could not decode image from path %s: %v\", imagePath, err)\r\n\t}\r\n\treturn ebiten.NewImageFromImage(image)\r\n}\r\n\r\nfunc main() {\r\n\tlog = logrus.New()\r\n\tlog.SetLevel(logrus.InfoLevel)\r\n\tlog.SetFormatter(&logrus.JSONFormatter{})\r\n\tlogFile, err := os.OpenFile(\"log.log\", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)\r\n\tif err == nil {\r\n\t\tlog.SetOutput(logFile)\r\n\t} else {\r\n\t\tlog.Error(\"Failed to open log file: \", err)\r\n\t}\r\n\tconn, err = net.Dial(\"tcp\", \"localhost:8080\")\r\n\tif err != nil {\r\n\t\tlog.Errorf(\"Dial error: %v\", err)\r\n\t\treturn\r\n\t}\r\n\tdefer conn.Close()\r\n\tdefer logFile.Close()\r\n\tgrassBlockImage = loadImage(\"images/grassBlock.png\")\r\n\tcloudBlockImage = loadImage(\"images/cloudBlock.png\")\r\n\r\n\tswordAnimations[0] = loadImage(\"images/swordAnimations/rsword.png\")\r\n\tswordAnimations[1] = loadImage(\"images/swordAnimations/usword.png\")\r\n\tswordAnimations[2] = loadImage(\"images/swordAnimations/lsword.png\")\r\n\tswordAnimations[3] = loadImage(\"images/swordAnimations/dsword.png\")\r\n\r\n\trunnerImage = loadImage(\"images/runner.png\")\r\n\tswordImage = loadImage(\"images/sword.png\")\r\n\tebiten.SetFullscreen(true)\r\n\tebiten.SetWindowTitle(\"Bin Bog\")\r\n\tif err := ebiten.RunGame(&Game{}); err != nil {\r\n\t\tlog.Fatal(err)\r\n\t}\r\n}\r\n```\r\n\r\nThat is my client I am using and this is my server all the image directories are there and work fine here is my server:\r\n\r\n```go\r\npackage main\r\n\r\nimport (\r\n\t\"bufio\"\r\n\t\"fmt\"\r\n\t\"net\"\r\n)\r\n\r\nvar clients = make(map[net.Conn]bool)\r\nvar messages = make(chan string)\r\n\r\nfunc main() {\r\n\tlistener, err := net.Listen(\"tcp\", \":8080\")\r\n\tif err != nil {\r\n\t\tfmt.Println(\"Error starting the server:\", err)\r\n\t\treturn\r\n\t}\r\n\tdefer listener.Close()\r\n\r\n\tfmt.Println(\"Game server is running on :8080\")\r\n\r\n\tgo broadcastMessages()\r\n\r\n\tfor {\r\n\t\tconn, err := listener.Accept()\r\n\t\tif err != nil {\r\n\t\t\tfmt.Println(\"Error accepting connection:\", err)\r\n\t\t\tcontinue\r\n\t\t}\r\n\t\tclients[conn] = true\r\n\t\tgo handleClient(conn)\r\n\t}\r\n}\r\n\r\nfunc broadcastMessages() {\r\n\tfor {\r\n\t\tmessage := <-messages\r\n\t\tfor client := range clients {\r\n\t\t\t_, err := client.Write([]byte(message))\r\n\t\t\tfmt.Println(message)\r\n\t\t\tif err != nil {\r\n\t\t\t\tfmt.Println(\"Error writing to client:\", err)\r\n\t\t\t\tclient.Close()\r\n\t\t\t\tdelete(clients, client)\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\nfunc handleClient(client net.Conn) {\r\n\tdefer client.Close()\r\n\r\n\treader := bufio.NewReader(client)\r\n\tfor {\r\n\t\tmessage, err := reader.ReadString('\\n')\r\n\t\tif err != nil {\r\n\t\t\tfmt.Println(\"Client disconnected:\", client.RemoteAddr())\r\n\t\t\tdelete(clients, client)\r\n\t\t\treturn\r\n\t\t}\r\n\t\tmessages <- fmt.Sprintf(\"%s: %s\", client.RemoteAddr(), message)\r\n\t}\r\n}\r\n``` \r\n\r\n### What is the expected result?\r\n\r\nIt is expected to write data to the server. Instead the dialing and everything else works except the bit when sending data to the server I have tried this on a working client and it does work but without ebitengine.\r\n\r\n### What happens instead?\r\n\r\nNothing happens when I send it nothing from the server.\r\n\r\n### Anything else you feel useful to add?\r\n\r\nHere is the client that I use that works:\r\n\r\n```go\r\npackage main\r\n\r\nimport (\r\n\t\"fmt\"\r\n\t\"net\"\r\n)\r\n\r\nfunc main() {\r\n\t// Connect to the server running on localhost at port 8080\r\n\tconn, err := net.Dial(\"tcp\", \"localhost:8080\")\r\n\tif err != nil {\r\n\t\tfmt.Println(\"Error connecting to server:\", err)\r\n\t\treturn\r\n\t}\r\n\tdefer conn.Close()\r\n\r\n\t// Read input from the user\r\n\tfmt.Print(\"Enter a message: \")\r\n\tmessage := getUserInput()\r\n\r\n\t// Send the message to the server\r\n\t_, err = conn.Write([]byte(message))\r\n\tif err != nil {\r\n\t\tfmt.Println(\"Error sending message:\", err)\r\n\t\treturn\r\n\t}\r\n\r\n\t// Read and display the server's response\r\n\tbuffer := make([]byte, 1024)\r\n\tn, err := conn.Read(buffer)\r\n\tif err != nil {\r\n\t\tfmt.Println(\"Error reading response:\", err)\r\n\t\treturn\r\n\t}\r\n\r\n\tresponse := string(buffer[:n])\r\n\tfmt.Println(\"Server response:\", response)\r\n}\r\n\r\nfunc getUserInput() string {\r\n\tvar input string\r\n\t_, _ = fmt.Scanln(&input)\r\n\treturn input\r\n}\r\n``` ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/comments/1780906192",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2818#issuecomment-1780906192",
+                "issue_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818",
+                "id": 1780906192,
+                "node_id": "IC_kwDOAKOZU85qJnjQ",
+                "user": {
+                    "login": "hajimehoshi",
+                    "id": 16950,
+                    "node_id": "MDQ6VXNlcjE2OTUw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hajimehoshi",
+                    "html_url": "https://github.com/hajimehoshi",
+                    "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                    "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                    "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                    "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T11:09:44Z",
+                "updated_at": "2023-10-26T11:09:44Z",
+                "author_association": "OWNER",
+                "body": "```go\r\nfunc (g *Game) updatePlayerAndSwordPosition() {\r\n\tselect {\r\n\tcase <-ticker.C:\r\n\t\tg.updatePlayerAndSword()\r\n\t}\r\n}\r\n```\r\n\r\nPlease do not block your `Update`. Actually you don't need this function, as `Update` is called 60 times per second by default.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/comments/1780906192/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:09:45Z"
+    },
+    {
+        "id": "32865218618",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 96101844,
+            "login": "Esa824",
+            "display_login": "Esa824",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Esa824",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96101844?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818",
+                "repository_url": "https://api.github.com/repos/hajimehoshi/ebiten",
+                "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/comments",
+                "events_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/events",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2818",
+                "id": 1963258182,
+                "node_id": "I_kwDOAKOZU851BPFG",
+                "number": 2818,
+                "title": "Can't send data between conn with net.Dial using ebitengine",
+                "user": {
+                    "login": "esa1234567",
+                    "id": 96101844,
+                    "node_id": "U_kgDOBbpl1A",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/96101844?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/esa1234567",
+                    "html_url": "https://github.com/esa1234567",
+                    "followers_url": "https://api.github.com/users/esa1234567/followers",
+                    "following_url": "https://api.github.com/users/esa1234567/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/esa1234567/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/esa1234567/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/esa1234567/subscriptions",
+                    "organizations_url": "https://api.github.com/users/esa1234567/orgs",
+                    "repos_url": "https://api.github.com/users/esa1234567/repos",
+                    "events_url": "https://api.github.com/users/esa1234567/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/esa1234567/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 43656955,
+                        "node_id": "MDU6TGFiZWw0MzY1Njk1NQ==",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/bug",
+                        "name": "bug",
+                        "color": "D93F0B",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T10:59:27Z",
+                "updated_at": "2023-10-26T10:59:27Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Ebitengine Version\n\nv2.6.2\n\n### Operating System\n\n- [ ] Windows\n- [ ] macOS\n- [X] Linux\n- [ ] FreeBSD\n- [ ] OpenBSD\n- [ ] Android\n- [ ] iOS\n- [ ] Nintendo Switch\n- [ ] PlayStation 5\n- [ ] Xbox\n- [ ] Web Browsers\n\n### Go Version (`go version`)\n\ngo1.21.2 linux/amd64\n\n### What steps will reproduce the problem?\n\nI have a game with a client and a server when I use conn.write and I check the server it doesn't write anything, here is my client.go with ebitengine:\r\n\r\n```go\r\npackage main\r\n\r\nimport (\r\n\t\"bytes\"\r\n\t\"image\"\r\n\t_ \"image/png\"\r\n\t\"io\"\r\n\t\"net\"\r\n\t\"os\"\r\n\t\"strconv\"\r\n\t\"strings\"\r\n\t\"time\"\r\n\r\n\t\"github.com/sirupsen/logrus\"\r\n\r\n\t\"github.com/hajimehoshi/ebiten/v2\"\r\n)\r\n\r\nconst (\r\n\tscreenWidth  = 320\r\n\tscreenHeight = 240\r\n\r\n\tframeOX     = 0\r\n\tframeOY     = 32\r\n\tframeWidth  = 32\r\n\tframeHeight = 32\r\n\tframeCount  = 8\r\n)\r\n\r\nvar (\r\n\trunnerImage     *ebiten.Image\r\n\tswordImage      *ebiten.Image\r\n\tgrassBlockImage *ebiten.Image\r\n\tcloudBlockImage *ebiten.Image\r\n\tswordAnimations [4]*ebiten.Image\r\n\r\n\tlog *logrus.Logger\r\n\r\n\tconn net.Conn\r\n\r\n\tticker = time.NewTicker(time.Second / 50)\r\n)\r\n\r\ntype Sword struct {\r\n\tx, y                     int\r\n\tthrowSword               bool\r\n\txThrowSword, yThrowSword int\r\n}\r\n\r\ntype Player struct {\r\n\tx       int\r\n\ty       float64\r\n\tdir     bool\r\n\tdirJump bool\r\n}\r\n\r\ntype Game struct {\r\n\tfirstPlayer  Player\r\n\tsecondPlayer Player\r\n\tfirstSword   Sword\r\n\tsecondSword  Sword\r\n}\r\n\r\nfunc imageToByteArray(filePath string) ([]byte, error) {\r\n\tfile, err := os.Open(filePath)\r\n\tif err != nil {\r\n\t\treturn nil, err\r\n\t}\r\n\tdefer file.Close()\r\n\r\n\tbyteArray, err := io.ReadAll(file)\r\n\tif err != nil {\r\n\t\treturn nil, err\r\n\t}\r\n\r\n\treturn byteArray, nil\r\n}\r\n\r\nfunc (g *Game) Update() error {\r\n\tvar err error\r\n\terr = g.handlePlayerInput()\r\n\tg.updateNetwork()\r\n\tg.handlePlayerCollisions()\r\n\tg.updatePlayerAndSwordPosition()\r\n\treturn err\r\n}\r\n\r\nfunc (g *Game) updateNetwork() {\r\n\t// Use a goroutine for network operations to avoid blocking the game loop.\r\n\tgo func() {\r\n\t\t// Send player coordinates.\r\n\t\t_, err := conn.Write([]byte(strconv.Itoa(g.firstPlayer.x) + \"-\" + strconv.Itoa(int(g.firstPlayer.y))))\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"Write error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\t\tlog.Infof(strconv.Itoa(g.firstPlayer.x) + \"-\" + strconv.Itoa(int(g.firstPlayer.y)))\r\n\r\n\t\t// Receive player coordinates from the server.\r\n\t\tbuffer := make([]byte, 1024)\r\n\t\tn, err := conn.Read(buffer)\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"Receive error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\t\txy := strings.Split(string(buffer[:n]), \"-\")\r\n\t\tx, err := strconv.Atoi(xy[0])\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"X conversion error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\t\ty, err := strconv.Atoi(xy[1])\r\n\t\tif err != nil {\r\n\t\t\tlog.Errorf(\"Y conversion error: %v\", err)\r\n\t\t\treturn\r\n\t\t}\r\n\r\n\t\t// Update the second player's position.\r\n\t\tg.secondPlayer.x = x\r\n\t\tg.secondPlayer.y = float64(y)\r\n\t}()\r\n}\r\n\r\nfunc (g *Game) handlePlayerCollisions() {\r\n\tif g.firstPlayer.x == g.secondSword.x && g.firstPlayer.y == float64(g.secondSword.y) {\r\n\t\tg.firstPlayer.x = 0\r\n\t}\r\n\r\n}\r\n\r\nfunc (g *Game) handlePlayerInput() error {\r\n\tif ebiten.IsKeyPressed(ebiten.KeyD) {\r\n\t\tg.firstPlayer.x++\r\n\t\tg.firstPlayer.dir = false\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyE) {\r\n\t\tg.firstSword.throwSword = true\r\n\t\tg.firstSword.xThrowSword = g.firstPlayer.x\r\n\t\tg.firstSword.yThrowSword = int(g.firstPlayer.y)\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeySlash) {\r\n\t\tg.secondSword.throwSword = true\r\n\t\tg.secondSword.xThrowSword = screenWidth - g.secondPlayer.x\r\n\t\tg.secondSword.yThrowSword = int(g.secondPlayer.y)\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyA) {\r\n\t\tg.firstPlayer.x--\r\n\t\tg.firstPlayer.dir = true\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyArrowRight) {\r\n\t\tg.secondPlayer.x--\r\n\t\tg.secondPlayer.dir = false\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyArrowLeft) {\r\n\t\tg.secondPlayer.x++\r\n\t\tg.secondPlayer.dir = true\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyEscape) {\r\n\t\treturn ebiten.Termination\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyW) && g.firstPlayer.y <= 0 {\r\n\t\tg.firstPlayer.dirJump = true\r\n\t}\r\n\tif ebiten.IsKeyPressed(ebiten.KeyArrowUp) && g.secondPlayer.y <= 0 {\r\n\t\tg.secondPlayer.dirJump = true\r\n\t}\r\n\treturn nil\r\n}\r\n\r\nfunc (g *Game) updatePlayerAndSwordPosition() {\r\n\tselect {\r\n\tcase <-ticker.C:\r\n\t\tg.updatePlayerAndSword()\r\n\t}\r\n}\r\n\r\nfunc (g *Game) updatePlayerAndSword() {\r\n\tif g.firstPlayer.y >= 0 && !g.firstPlayer.dirJump {\r\n\t\tg.firstPlayer.y -= 1.9\r\n\t}\r\n\tif g.secondPlayer.y >= 0 && !g.secondPlayer.dirJump {\r\n\t\tg.secondPlayer.y -= 1.9\r\n\t}\r\n\tif g.firstPlayer.dirJump && g.firstPlayer.y != 30 {\r\n\t\tg.firstPlayer.y += 1.9\r\n\t}\r\n\tif g.secondPlayer.dirJump && g.secondPlayer.y != 30 {\r\n\t\tg.secondPlayer.y += 1.9\r\n\t}\r\n\tif g.secondPlayer.y >= 30 {\r\n\t\tg.secondPlayer.dirJump = false\r\n\t}\r\n\tif g.firstPlayer.y >= 30 {\r\n\t\tg.firstPlayer.dirJump = false\r\n\t}\r\n\tif g.firstSword.throwSword {\r\n\t\tg.firstSword.xThrowSword++\r\n\t}\r\n\tif g.firstSword.xThrowSword == 226 {\r\n\t\tg.firstSword.throwSword = false\r\n\t\tg.firstSword.xThrowSword = 0\r\n\t}\r\n\tif g.secondSword.throwSword {\r\n\t\tg.secondSword.xThrowSword--\r\n\t}\r\n\tif g.secondSword.xThrowSword == 0 {\r\n\t\tg.secondSword.throwSword = false\r\n\t\tg.secondSword.xThrowSword = 226\r\n\t}\r\n}\r\n\r\nfunc (g *Game) getPlayerHitbox(xPos int, yPos float64) image.Rectangle {\r\n\treturn image.Rect(xPos, int(yPos), xPos+frameWidth, int(yPos+frameHeight))\r\n}\r\n\r\nfunc (g *Game) drawSword(screen *ebiten.Image, op *ebiten.DrawImageOptions, xPos int, yPos float64) {\r\n\top.GeoM.Translate(float64(xPos), float64(194-yPos))\r\n\tscreen.DrawImage(swordImage, op)\r\n}\r\n\r\nfunc (g *Game) drawFirstSword(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.firstPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t\tg.drawSword(screen, &op, g.firstPlayer.x-24, g.firstPlayer.y-13)\r\n\t\tg.firstSword.x, g.firstSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x-24\r\n\t} else {\r\n\t\tg.drawSword(screen, &op, g.firstPlayer.x+24, g.firstPlayer.y-13)\r\n\t\tg.firstSword.x, g.firstSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x+24\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawSecondSword(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.secondPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t\tg.drawSword(screen, &op, screenWidth-g.secondPlayer.x-24, g.secondPlayer.y-13)\r\n\t\tg.secondSword.x, g.secondSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x-24\r\n\t} else {\r\n\t\tg.drawSword(screen, &op, screenWidth-g.secondPlayer.x+24, g.secondPlayer.y-13)\r\n\t\tg.secondSword.x, g.secondSword.y = int(g.firstPlayer.y-13), g.firstPlayer.x+24\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawRunner(screen *ebiten.Image, op *ebiten.DrawImageOptions, xPos int, yPos float64, imageFramePos int) {\r\n\t// Draw the runner image\r\n\top.GeoM.Translate(float64(xPos), float64(194-yPos))\r\n\ti := (imageFramePos / 5) % frameCount\r\n\tsx, sy := frameOX+i*frameWidth, frameOY\r\n\tscreen.DrawImage(runnerImage.SubImage(image.Rect(sx, sy, sx+frameWidth, sy+frameHeight)).(*ebiten.Image), op)\r\n}\r\n\r\nfunc (g *Game) drawFirstRunner(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.firstPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t}\r\n\tg.drawRunner(screen, &op, g.firstPlayer.x, g.firstPlayer.y, g.firstPlayer.x)\r\n}\r\n\r\nfunc (g *Game) drawSecondRunner(screen *ebiten.Image) {\r\n\top := ebiten.DrawImageOptions{}\r\n\tif g.secondPlayer.dir {\r\n\t\top.GeoM.Scale(-1, 1) // Flip the image horizontally\r\n\t}\r\n\tg.drawRunner(screen, &op, screenWidth-g.secondPlayer.x, g.secondPlayer.y, g.secondPlayer.x) // Adjust the X-coordinate to reverse the image\r\n}\r\n\r\nfunc (g *Game) drawGrass(screen *ebiten.Image) {\r\n\tgrassBlockWidth := grassBlockImage.Bounds().Dx()\r\n\tfor i := 0; i < 226; i++ {\r\n\t\top := &ebiten.DrawImageOptions{}\r\n\t\top.GeoM.Translate(float64(i*grassBlockWidth), float64(226))\r\n\t\tscreen.DrawImage(grassBlockImage, op)\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawClouds(screen *ebiten.Image) {\r\n\tcloudBlockWidth := cloudBlockImage.Bounds().Dx()\r\n\tcloudBlockHeight := cloudBlockImage.Bounds().Dy()\r\n\r\n\t// Define the number of rows, columns, and clouds for the cloud grid\r\n\trows := 2\r\n\tcolumns := 4\r\n\tclouds := 3\r\n\tspacing := cloudBlockWidth // Initial spacing between clouds\r\n\r\n\tfor i := 0; i < clouds; i++ {\r\n\t\tfor j := 0; j < rows; j++ {\r\n\t\t\tfor k := 0; k < columns; k++ {\r\n\t\t\t\top := &ebiten.DrawImageOptions{}\r\n\t\t\t\top.GeoM.Translate(float64(k*cloudBlockWidth+spacing), float64(j*cloudBlockHeight)) // Adjust the Y-coordinate for rows\r\n\t\t\t\tscreen.DrawImage(cloudBlockImage, op)\r\n\t\t\t}\r\n\t\t}\r\n\t\t// Increase the spacing for the next cloud\r\n\t\tspacing += cloudBlockWidth\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawThrowingFirstSword(screen *ebiten.Image) {\r\n\tif g.firstSword.throwSword {\r\n\t\tvar img ebiten.Image\r\n\t\top := ebiten.DrawImageOptions{}\r\n\t\ti := (g.firstSword.xThrowSword / 4) % 4\r\n\t\tlog.Infof(\"i: %d xPos: %d\", i, g.firstSword.xThrowSword)\r\n\t\tswitch i {\r\n\t\tcase 0:\r\n\t\t\tlog.Info(\"Got into case 0\")\r\n\t\t\timg = *swordAnimations[0]\r\n\t\tcase 1:\r\n\t\t\tlog.Info(\"Got into case 1\")\r\n\t\t\timg = *swordAnimations[1]\r\n\t\tcase 2:\r\n\t\t\tlog.Info(\"Got into case 2\")\r\n\t\t\timg = *swordAnimations[2]\r\n\t\tcase 3:\r\n\t\t\tlog.Info(\"Got into case 3\")\r\n\t\t\timg = *swordAnimations[3]\r\n\t\t}\r\n\t\top.GeoM.Translate(float64(g.firstSword.xThrowSword), 194-float64(g.firstSword.yThrowSword))\r\n\t\tscreen.DrawImage(&img, &op)\r\n\t}\r\n}\r\n\r\nfunc (g *Game) drawThrowingSecondSword(screen *ebiten.Image) {\r\n\tif g.secondSword.throwSword {\r\n\t\tvar img ebiten.Image\r\n\t\top := ebiten.DrawImageOptions{}\r\n\t\ti := (g.secondSword.xThrowSword / 4) % 4\r\n\t\tlog.Infof(\"i: %d xPos: %d\", i, g.secondSword.xThrowSword)\r\n\t\tswitch i {\r\n\t\tcase 0:\r\n\t\t\tlog.Info(\"Got into case 0\")\r\n\t\t\timg = *swordAnimations[0]\r\n\t\tcase 1:\r\n\t\t\tlog.Info(\"Got into case 1\")\r\n\t\t\timg = *swordAnimations[1]\r\n\t\tcase 2:\r\n\t\t\tlog.Info(\"Got into case 2\")\r\n\t\t\timg = *swordAnimations[2]\r\n\t\tcase 3:\r\n\t\t\tlog.Info(\"Got into case 3\")\r\n\t\t\timg = *swordAnimations[3]\r\n\t\t}\r\n\t\top.GeoM.Translate(float64(g.secondSword.xThrowSword), 194-float64(g.secondSword.yThrowSword))\r\n\t\tscreen.DrawImage(&img, &op)\r\n\t}\r\n}\r\n\r\nfunc (g *Game) Draw(screen *ebiten.Image) {\r\n\tg.drawFirstRunner(screen)\r\n\tg.drawSecondRunner(screen)\r\n\tg.drawFirstSword(screen)\r\n\tg.drawSecondSword(screen)\r\n\tg.drawGrass(screen)\r\n\tg.drawClouds(screen)\r\n\tg.drawThrowingFirstSword(screen)\r\n\tg.drawThrowingSecondSword(screen)\r\n}\r\n\r\nfunc (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {\r\n\treturn screenWidth, screenHeight\r\n}\r\n\r\nfunc loadImage(imagePath string) *ebiten.Image {\r\n\tdata, err := imageToByteArray(imagePath)\r\n\tif err != nil {\r\n\t\tlog.Fatalf(\"could not log image from path %s: %v\", imagePath, err)\r\n\t}\r\n\timage, _, err := image.Decode(bytes.NewReader(data))\r\n\tif err != nil {\r\n\t\tlog.Fatalf(\"could not decode image from path %s: %v\", imagePath, err)\r\n\t}\r\n\treturn ebiten.NewImageFromImage(image)\r\n}\r\n\r\nfunc main() {\r\n\tlog = logrus.New()\r\n\tlog.SetLevel(logrus.InfoLevel)\r\n\tlog.SetFormatter(&logrus.JSONFormatter{})\r\n\tlogFile, err := os.OpenFile(\"log.log\", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)\r\n\tif err == nil {\r\n\t\tlog.SetOutput(logFile)\r\n\t} else {\r\n\t\tlog.Error(\"Failed to open log file: \", err)\r\n\t}\r\n\tconn, err = net.Dial(\"tcp\", \"localhost:8080\")\r\n\tif err != nil {\r\n\t\tlog.Errorf(\"Dial error: %v\", err)\r\n\t\treturn\r\n\t}\r\n\tdefer conn.Close()\r\n\tdefer logFile.Close()\r\n\tgrassBlockImage = loadImage(\"images/grassBlock.png\")\r\n\tcloudBlockImage = loadImage(\"images/cloudBlock.png\")\r\n\r\n\tswordAnimations[0] = loadImage(\"images/swordAnimations/rsword.png\")\r\n\tswordAnimations[1] = loadImage(\"images/swordAnimations/usword.png\")\r\n\tswordAnimations[2] = loadImage(\"images/swordAnimations/lsword.png\")\r\n\tswordAnimations[3] = loadImage(\"images/swordAnimations/dsword.png\")\r\n\r\n\trunnerImage = loadImage(\"images/runner.png\")\r\n\tswordImage = loadImage(\"images/sword.png\")\r\n\tebiten.SetFullscreen(true)\r\n\tebiten.SetWindowTitle(\"Bin Bog\")\r\n\tif err := ebiten.RunGame(&Game{}); err != nil {\r\n\t\tlog.Fatal(err)\r\n\t}\r\n}\r\n```\r\n\r\nThat is my client I am using and this is my server all the image directories are there and work fine here is my server:\r\n\r\n```go\r\npackage main\r\n\r\nimport (\r\n\t\"bufio\"\r\n\t\"fmt\"\r\n\t\"net\"\r\n)\r\n\r\nvar clients = make(map[net.Conn]bool)\r\nvar messages = make(chan string)\r\n\r\nfunc main() {\r\n\tlistener, err := net.Listen(\"tcp\", \":8080\")\r\n\tif err != nil {\r\n\t\tfmt.Println(\"Error starting the server:\", err)\r\n\t\treturn\r\n\t}\r\n\tdefer listener.Close()\r\n\r\n\tfmt.Println(\"Game server is running on :8080\")\r\n\r\n\tgo broadcastMessages()\r\n\r\n\tfor {\r\n\t\tconn, err := listener.Accept()\r\n\t\tif err != nil {\r\n\t\t\tfmt.Println(\"Error accepting connection:\", err)\r\n\t\t\tcontinue\r\n\t\t}\r\n\t\tclients[conn] = true\r\n\t\tgo handleClient(conn)\r\n\t}\r\n}\r\n\r\nfunc broadcastMessages() {\r\n\tfor {\r\n\t\tmessage := <-messages\r\n\t\tfor client := range clients {\r\n\t\t\t_, err := client.Write([]byte(message))\r\n\t\t\tfmt.Println(message)\r\n\t\t\tif err != nil {\r\n\t\t\t\tfmt.Println(\"Error writing to client:\", err)\r\n\t\t\t\tclient.Close()\r\n\t\t\t\tdelete(clients, client)\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\nfunc handleClient(client net.Conn) {\r\n\tdefer client.Close()\r\n\r\n\treader := bufio.NewReader(client)\r\n\tfor {\r\n\t\tmessage, err := reader.ReadString('\\n')\r\n\t\tif err != nil {\r\n\t\t\tfmt.Println(\"Client disconnected:\", client.RemoteAddr())\r\n\t\t\tdelete(clients, client)\r\n\t\t\treturn\r\n\t\t}\r\n\t\tmessages <- fmt.Sprintf(\"%s: %s\", client.RemoteAddr(), message)\r\n\t}\r\n}\r\n``` \n\n### What is the expected result?\n\nIt is expected to write data to the server. Instead the dialing and everything else works except the bit when sending data to the server I have tried this on a working client and it does work but without ebitengine.\n\n### What happens instead?\n\nNothing happens when I send it nothing from the server.\n\n### Anything else you feel useful to add?\n\n_No response_",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2818/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:59:29Z"
+    },
+    {
+        "id": "32850679259",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1335661,
+            "login": "simon0191",
+            "display_login": "simon0191",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/simon0191",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1335661?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T22:11:58Z"
+    },
+    {
+        "id": "32845821722",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 17016792,
+            "login": "st-lucifer",
+            "display_login": "st-lucifer",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/st-lucifer",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17016792?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709970115,
+                "node_id": "R_kgDOKlFIww",
+                "name": "ebiten",
+                "full_name": "st-lucifer/ebiten",
+                "private": false,
+                "owner": {
+                    "login": "st-lucifer",
+                    "id": 17016792,
+                    "node_id": "MDQ6VXNlcjE3MDE2Nzky",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/17016792?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/st-lucifer",
+                    "html_url": "https://github.com/st-lucifer",
+                    "followers_url": "https://api.github.com/users/st-lucifer/followers",
+                    "following_url": "https://api.github.com/users/st-lucifer/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/st-lucifer/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/st-lucifer/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/st-lucifer/subscriptions",
+                    "organizations_url": "https://api.github.com/users/st-lucifer/orgs",
+                    "repos_url": "https://api.github.com/users/st-lucifer/repos",
+                    "events_url": "https://api.github.com/users/st-lucifer/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/st-lucifer/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/st-lucifer/ebiten",
+                "description": "Ebitengine - A dead simple 2D game engine for Go",
+                "fork": true,
+                "url": "https://api.github.com/repos/st-lucifer/ebiten",
+                "forks_url": "https://api.github.com/repos/st-lucifer/ebiten/forks",
+                "keys_url": "https://api.github.com/repos/st-lucifer/ebiten/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/st-lucifer/ebiten/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/st-lucifer/ebiten/teams",
+                "hooks_url": "https://api.github.com/repos/st-lucifer/ebiten/hooks",
+                "issue_events_url": "https://api.github.com/repos/st-lucifer/ebiten/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/st-lucifer/ebiten/events",
+                "assignees_url": "https://api.github.com/repos/st-lucifer/ebiten/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/st-lucifer/ebiten/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/st-lucifer/ebiten/tags",
+                "blobs_url": "https://api.github.com/repos/st-lucifer/ebiten/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/st-lucifer/ebiten/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/st-lucifer/ebiten/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/st-lucifer/ebiten/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/st-lucifer/ebiten/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/st-lucifer/ebiten/languages",
+                "stargazers_url": "https://api.github.com/repos/st-lucifer/ebiten/stargazers",
+                "contributors_url": "https://api.github.com/repos/st-lucifer/ebiten/contributors",
+                "subscribers_url": "https://api.github.com/repos/st-lucifer/ebiten/subscribers",
+                "subscription_url": "https://api.github.com/repos/st-lucifer/ebiten/subscription",
+                "commits_url": "https://api.github.com/repos/st-lucifer/ebiten/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/st-lucifer/ebiten/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/st-lucifer/ebiten/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/st-lucifer/ebiten/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/st-lucifer/ebiten/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/st-lucifer/ebiten/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/st-lucifer/ebiten/merges",
+                "archive_url": "https://api.github.com/repos/st-lucifer/ebiten/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/st-lucifer/ebiten/downloads",
+                "issues_url": "https://api.github.com/repos/st-lucifer/ebiten/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/st-lucifer/ebiten/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/st-lucifer/ebiten/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/st-lucifer/ebiten/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/st-lucifer/ebiten/labels{/name}",
+                "releases_url": "https://api.github.com/repos/st-lucifer/ebiten/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/st-lucifer/ebiten/deployments",
+                "created_at": "2023-10-25T18:33:02Z",
+                "updated_at": "2023-10-25T18:33:02Z",
+                "pushed_at": "2023-10-24T15:51:47Z",
+                "git_url": "git://github.com/st-lucifer/ebiten.git",
+                "ssh_url": "git@github.com:st-lucifer/ebiten.git",
+                "clone_url": "https://github.com/st-lucifer/ebiten.git",
+                "svn_url": "https://github.com/st-lucifer/ebiten",
+                "homepage": "https://ebitengine.org",
+                "size": 80156,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T18:33:03Z"
+    },
+    {
+        "id": "32826374847",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 70527730,
+            "login": "contreras-wk",
+            "display_login": "contreras-wk",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/contreras-wk",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70527730?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:36:06Z"
+    },
+    {
+        "id": "32825191186",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 37902977,
+            "login": "tuantuan118",
+            "display_login": "tuantuan118",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tuantuan118",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37902977?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T06:48:11Z"
+    },
+    {
+        "id": "32824768365",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1783008,
+            "login": "Disper",
+            "display_login": "Disper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Disper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1783008?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T06:28:19Z"
+    },
+    {
+        "id": "32820143756",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 46001524,
+            "login": "iamblackcat",
+            "display_login": "iamblackcat",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iamblackcat",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46001524?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T01:05:00Z"
+    },
+    {
+        "id": "32815443697",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 73080982,
+            "login": "icecreambash",
+            "display_login": "icecreambash",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/icecreambash",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73080982?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T20:18:28Z"
+    },
+    {
+        "id": "32810532626",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 566948,
+            "login": "fabiosoaza",
+            "display_login": "fabiosoaza",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fabiosoaza",
+            "avatar_url": "https://avatars.githubusercontent.com/u/566948?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T16:53:59Z"
+    },
+    {
+        "id": "32808858868",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15546888347,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "55702a7c282d7ee3abb66750c753a2f3aded29a9",
+            "before": "a3ba83c5dab09b02c451e0327b30924b563520fe",
+            "commits": [
+                {
+                    "sha": "55702a7c282d7ee3abb66750c753a2f3aded29a9",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "internal/atlas: refactoring: ensure ReadPixels to be processed in a frame\n\nThis enables to call (*Image).At from HandleInput, which might be\ncalled outside of a frame.\n\nUpdates #1704",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/55702a7c282d7ee3abb66750c753a2f3aded29a9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T15:51:49Z"
+    },
+    {
+        "id": "32801448711",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 17633733,
+            "login": "dushixiang",
+            "display_login": "dushixiang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dushixiang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17633733?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T11:51:39Z"
+    },
+    {
+        "id": "32792681305",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15539003954,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a3ba83c5dab09b02c451e0327b30924b563520fe",
+            "before": "f2acc3d9f7ed3841bc2cae5d3a6ae2dbe6a8a726",
+            "commits": [
+                {
+                    "sha": "a3ba83c5dab09b02c451e0327b30924b563520fe",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "internal/ui: bug fix: an error was ignored",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/a3ba83c5dab09b02c451e0327b30924b563520fe"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T05:45:05Z"
+    },
+    {
+        "id": "32792650225",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15538987760,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "f2acc3d9f7ed3841bc2cae5d3a6ae2dbe6a8a726",
+            "before": "2eca47605432eb72e6f96a3919ac5e5e40880815",
+            "commits": [
+                {
+                    "sha": "f2acc3d9f7ed3841bc2cae5d3a6ae2dbe6a8a726",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "internal/ui: refactoring",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/f2acc3d9f7ed3841bc2cae5d3a6ae2dbe6a8a726"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T05:42:50Z"
+    },
+    {
+        "id": "32788854797",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13499245,
+            "login": "zhangbiggs",
+            "display_login": "zhangbiggs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zhangbiggs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13499245?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T01:02:44Z"
+    },
+    {
+        "id": "32781382862",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 77882745,
+            "login": "behemothbucket",
+            "display_login": "behemothbucket",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/behemothbucket",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77882745?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T18:30:32Z"
+    },
+    {
+        "id": "32779961883",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15532531246,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2eca47605432eb72e6f96a3919ac5e5e40880815",
+            "before": "b94c3fa9bbe137fe9630210c1fddb1a08e424143",
+            "commits": [
+                {
+                    "sha": "2eca47605432eb72e6f96a3919ac5e5e40880815",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "internal/ui: bug fix: EndFrame was not called when layoutGame returned 0s",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/2eca47605432eb72e6f96a3919ac5e5e40880815"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T17:33:35Z"
+    },
+    {
+        "id": "32776337105",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16950,
+            "login": "hajimehoshi",
+            "display_login": "hajimehoshi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hajimehoshi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16950?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "repository_id": 10721619,
+            "push_id": 15530792128,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b94c3fa9bbe137fe9630210c1fddb1a08e424143",
+            "before": "f1999e5742b136f69ac4a64a3e124e343e9112fb",
+            "commits": [
+                {
+                    "sha": "b94c3fa9bbe137fe9630210c1fddb1a08e424143",
+                    "author": {
+                        "email": "hajimehoshi@gmail.com",
+                        "name": "Hajime Hoshi"
+                    },
+                    "message": "internal/atlas: split EndFrame into EndFrame and SwapBuffers\n\nThis enables to do something asynchronously while executing SwapBuffers\nin a different goroutine.\n\nThis is a preparation for HandleInput.\n\nUpdates #1704",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/commits/b94c3fa9bbe137fe9630210c1fddb1a08e424143"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T15:22:13Z"
+    },
+    {
+        "id": "32767096759",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 13394516,
+            "login": "Zyko0",
+            "display_login": "Zyko0",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Zyko0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13394516?"
+        },
+        "repo": {
+            "id": 10721619,
+            "name": "hajimehoshi/ebiten",
+            "url": "https://api.github.com/repos/hajimehoshi/ebiten"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2802",
+                "repository_url": "https://api.github.com/repos/hajimehoshi/ebiten",
+                "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2802/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2802/comments",
+                "events_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2802/events",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2802",
+                "id": 1926768552,
+                "node_id": "I_kwDOAKOZU85y2Ceo",
+                "number": 2802,
+                "title": "Shaders using an image's origin or size tend not to be batched",
+                "user": {
+                    "login": "Zyko0",
+                    "id": 13394516,
+                    "node_id": "MDQ6VXNlcjEzMzk0NTE2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13394516?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Zyko0",
+                    "html_url": "https://github.com/Zyko0",
+                    "followers_url": "https://api.github.com/users/Zyko0/followers",
+                    "following_url": "https://api.github.com/users/Zyko0/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Zyko0/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Zyko0/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Zyko0/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Zyko0/orgs",
+                    "repos_url": "https://api.github.com/users/Zyko0/repos",
+                    "events_url": "https://api.github.com/users/Zyko0/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Zyko0/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 930304187,
+                        "node_id": "MDU6TGFiZWw5MzAzMDQxODc=",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/request",
+                        "name": "request",
+                        "color": "bfd4f2",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1120938768,
+                        "node_id": "MDU6TGFiZWwxMTIwOTM4NzY4",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/performance",
+                        "name": "performance",
+                        "color": "bfd4f2",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 3249470281,
+                        "node_id": "MDU6TGFiZWwzMjQ5NDcwMjgx",
+                        "url": "https://api.github.com/repos/hajimehoshi/ebiten/labels/needs-investigation",
+                        "name": "needs-investigation",
+                        "color": "FEF2C0",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88",
+                    "html_url": "https://github.com/hajimehoshi/ebiten/milestone/88",
+                    "labels_url": "https://api.github.com/repos/hajimehoshi/ebiten/milestones/88/labels",
+                    "id": 8357691,
+                    "node_id": "MI_kwDOAKOZU84Af4c7",
+                    "number": 88,
+                    "title": "v2.7.0",
+                    "description": "",
+                    "creator": {
+                        "login": "hajimehoshi",
+                        "id": 16950,
+                        "node_id": "MDQ6VXNlcjE2OTUw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16950?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/hajimehoshi",
+                        "html_url": "https://github.com/hajimehoshi",
+                        "followers_url": "https://api.github.com/users/hajimehoshi/followers",
+                        "following_url": "https://api.github.com/users/hajimehoshi/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/hajimehoshi/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/hajimehoshi/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/hajimehoshi/subscriptions",
+                        "organizations_url": "https://api.github.com/users/hajimehoshi/orgs",
+                        "repos_url": "https://api.github.com/users/hajimehoshi/repos",
+                        "events_url": "https://api.github.com/users/hajimehoshi/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/hajimehoshi/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "open_issues": 59,
+                    "closed_issues": 10,
+                    "state": "open",
+                    "created_at": "2022-08-28T16:08:33Z",
+                    "updated_at": "2023-10-20T16:25:38Z",
+                    "due_on": null,
+                    "closed_at": null
+                },
+                "comments": 1,
+                "created_at": "2023-10-04T18:35:26Z",
+                "updated_at": "2023-10-23T10:16:02Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "### Operating System\r\n\r\n- [ ] Windows\r\n- [ ] macOS\r\n- [ ] Linux\r\n- [ ] FreeBSD\r\n- [ ] OpenBSD\r\n- [ ] Android\r\n- [ ] iOS\r\n- [ ] Nintendo Switch\r\n- [ ] PlayStation 5\r\n- [ ] Xbox\r\n- [ ] Web Browsers\r\n\r\n### What feature would you like to be added?\r\n\r\n*Following a discussion on discord*\r\n\r\nThe graphic commands `DrawTrianglesShader` and `DrawRectShader` with different source images and/or on different destination images cannot be batched if they use `origin` or `size` information about the images, even if the source and destination textures are the same for several consecutive calls, e.g:\r\n```go\r\nfunc Fragment(dst vec4, src vec2, color vec4) vec4 {\r\n  origin, size := imageSrc1Origin(), imageSrc1Size()\r\n  dstorigin, dstsize := imageDstOrigin(), imageDstSize()\r\n  // do whatever calculations because you need this (idk why but can happen)\r\n  return imageSrc1At(newSrc)\r\n}\r\n```\r\nBecause the information is stored in two uniforms, that need to be re-uploaded with the new values (https://github.com/hajimehoshi/ebiten/blob/v2.7.0-alpha.2/internal/graphics/shader.go#L77-L81)\r\n\r\nSuggestion (but I might be missing some details):\r\n- Introduce an integer ID for an image on a texture atlas\r\n- Have an UBO per atlas texture ([Uniform buffer object](https://www.khronos.org/opengl/wiki/Uniform_Buffer_Object)) storing `[N]vec2` for both origin, size (x2 or a `vec4`) of the N images (N can be a fixed limit per texture) that can be indexed by the image ID\r\n- Populate all ebitengine vertices with two internally reserved attributes (one for src image ID, another for dst image ID)\r\n  edit: Actually 5 should be reserved for the 4 sources images, and the 1 dst image\r\n- Declare two `varying int` (or an ivec2) on vertex/fragment's base code, and assign them IDs of src, dst images (from vertex attributes) (<https://jameshfisher.com/2017/10/19/glsl-varying/>) from the vertex shader.\r\n- The `varying` can be accessed from the Fragment shader for `imageSrcNOrigin`, `imageSrcNSize`, `imageDstOrigin`, `imageDstSize` to find origin and size information from either the `srcUBO[id]` or the `dstUBO[id]`\r\n\r\nI'm not sure it would work, since it's only theoretical from my point of view, so I might be missing crucial details.\r\nAnd even though there seems to exist counterparts for other graphic drivers, the above idea is opengl-specific in terms of wording at least.\r\n\r\n### Why is this needed?\r\n\r\nCustom shaders that make use of `origin` or `size` information from a source or a destination texture, don't make use of atlasing at all, which is unfortunate.\r\nThere's no way to batch them (e.g: 500 triangles with the above shader would be catastophic).\r\n\r\nThe usecase is not so uncommon, one could write their own `DrawImage` with their custom shader making use of origin, size information for a particular effect on all their images, and would be in this situation without control over batching.\r\n\r\nAn entrypoint or a first proof of concept could be (from the user side) to create its own image as an atlas texture, since `.SubImage` would contain the origin information, and provide it manually for source and destination in vertex attributes once there's support for more (see https://github.com/hajimehoshi/ebiten/issues/2640).\r\nIt would need 8 attributes to store `srcOriginX`, `srcOriginY`, `srcWidth`, `srcHeight`,  `dstOriginX`, `dstOriginY`, `dstWidth`, `dstHeight`, in order to \"emulate\" the 2 id attributes (for src and dst) that would represent the indices of respective UBOs, containing origin,size information.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2802/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2802/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/comments/1774868650",
+                "html_url": "https://github.com/hajimehoshi/ebiten/issues/2802#issuecomment-1774868650",
+                "issue_url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/2802",
+                "id": 1774868650,
+                "node_id": "IC_kwDOAKOZU85pyliq",
+                "user": {
+                    "login": "Zyko0",
+                    "id": 13394516,
+                    "node_id": "MDQ6VXNlcjEzMzk0NTE2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13394516?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Zyko0",
+                    "html_url": "https://github.com/Zyko0",
+                    "followers_url": "https://api.github.com/users/Zyko0/followers",
+                    "following_url": "https://api.github.com/users/Zyko0/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Zyko0/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Zyko0/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Zyko0/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Zyko0/orgs",
+                    "repos_url": "https://api.github.com/users/Zyko0/repos",
+                    "events_url": "https://api.github.com/users/Zyko0/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Zyko0/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T10:16:02Z",
+                "updated_at": "2023-10-23T10:16:02Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Note: I think this is called \"instancing\"",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hajimehoshi/ebiten/issues/comments/1774868650/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T10:16:03Z"
+    }
+]

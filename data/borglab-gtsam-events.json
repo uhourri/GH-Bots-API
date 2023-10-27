@@ -1,0 +1,1828 @@
+[
+    {
+        "id": "32886231293",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 101090861,
+            "login": "goodgoodliving",
+            "display_login": "goodgoodliving",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/goodgoodliving",
+            "avatar_url": "https://avatars.githubusercontent.com/u/101090861?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/1662",
+                "repository_url": "https://api.github.com/repos/borglab/gtsam",
+                "labels_url": "https://api.github.com/repos/borglab/gtsam/issues/1662/labels{/name}",
+                "comments_url": "https://api.github.com/repos/borglab/gtsam/issues/1662/comments",
+                "events_url": "https://api.github.com/repos/borglab/gtsam/issues/1662/events",
+                "html_url": "https://github.com/borglab/gtsam/issues/1662",
+                "id": 1964638209,
+                "node_id": "I_kwDOBSXK6M51GgAB",
+                "number": 1662,
+                "title": "In Python, I've defined a custom factor but I'm unsure how to compute the Jacobian matrix. Can GTSAM automatically handle differentiation? Are there relevant interfaces for this?",
+                "user": {
+                    "login": "goodgoodliving",
+                    "id": 101090861,
+                    "node_id": "U_kgDOBgaGLQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/101090861?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/goodgoodliving",
+                    "html_url": "https://github.com/goodgoodliving",
+                    "followers_url": "https://api.github.com/users/goodgoodliving/followers",
+                    "following_url": "https://api.github.com/users/goodgoodliving/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/goodgoodliving/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/goodgoodliving/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/goodgoodliving/subscriptions",
+                    "organizations_url": "https://api.github.com/users/goodgoodliving/orgs",
+                    "repos_url": "https://api.github.com/users/goodgoodliving/repos",
+                    "events_url": "https://api.github.com/users/goodgoodliving/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/goodgoodliving/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T02:09:37Z",
+                "updated_at": "2023-10-27T02:09:37Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "              > You create a custom function that computes `z-f(x)`. Then, in the `evaluateError` function of your customized factor, you can call the `numericalDerivative` function to compute the Jacobian numerically. Examples in `testNumericalDerivative.cpp` will help you get familiar with the function. \r\n\r\n@yetongumich \r\nHello, may I ask if it's possible to automatically solve for the Jacobian using GTSAM if I'm implementing a custom factor in Python, where I only know the error function and am not familiar with how to perform the Jacobian calculation? Are there relevant interfaces for this in GTSAM?\r\n\r\n_Originally posted by @goodgoodliving in https://github.com/borglab/gtsam/issues/1547#issuecomment-1782173621_\r\n            ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/1662/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/borglab/gtsam/issues/1662/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:09:38Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32886133079",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 101090861,
+            "login": "goodgoodliving",
+            "display_login": "goodgoodliving",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/goodgoodliving",
+            "avatar_url": "https://avatars.githubusercontent.com/u/101090861?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/1547",
+                "repository_url": "https://api.github.com/repos/borglab/gtsam",
+                "labels_url": "https://api.github.com/repos/borglab/gtsam/issues/1547/labels{/name}",
+                "comments_url": "https://api.github.com/repos/borglab/gtsam/issues/1547/comments",
+                "events_url": "https://api.github.com/repos/borglab/gtsam/issues/1547/events",
+                "html_url": "https://github.com/borglab/gtsam/issues/1547",
+                "id": 1762059909,
+                "node_id": "I_kwDOBSXK6M5pBuaF",
+                "number": 1547,
+                "title": "Custom factor without Jacobian",
+                "user": {
+                    "login": "shounak873",
+                    "id": 46797831,
+                    "node_id": "MDQ6VXNlcjQ2Nzk3ODMx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46797831?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/shounak873",
+                    "html_url": "https://github.com/shounak873",
+                    "followers_url": "https://api.github.com/users/shounak873/followers",
+                    "following_url": "https://api.github.com/users/shounak873/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/shounak873/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/shounak873/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/shounak873/subscriptions",
+                    "organizations_url": "https://api.github.com/users/shounak873/orgs",
+                    "repos_url": "https://api.github.com/users/shounak873/repos",
+                    "events_url": "https://api.github.com/users/shounak873/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/shounak873/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-06-18T00:46:03Z",
+                "updated_at": "2023-10-27T02:01:48Z",
+                "closed_at": "2023-07-11T15:20:46Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi, I want to create a custom factor but I am not sure how to get the analytic Jacobian. Can I just create the factor with the error formula z - f(x) and let gtsam calculate the Jacobian numerically? ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/1547/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/borglab/gtsam/issues/1547/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/comments/1782173621",
+                "html_url": "https://github.com/borglab/gtsam/issues/1547#issuecomment-1782173621",
+                "issue_url": "https://api.github.com/repos/borglab/gtsam/issues/1547",
+                "id": 1782173621,
+                "node_id": "IC_kwDOBSXK6M5qOc-1",
+                "user": {
+                    "login": "goodgoodliving",
+                    "id": 101090861,
+                    "node_id": "U_kgDOBgaGLQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/101090861?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/goodgoodliving",
+                    "html_url": "https://github.com/goodgoodliving",
+                    "followers_url": "https://api.github.com/users/goodgoodliving/followers",
+                    "following_url": "https://api.github.com/users/goodgoodliving/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/goodgoodliving/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/goodgoodliving/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/goodgoodliving/subscriptions",
+                    "organizations_url": "https://api.github.com/users/goodgoodliving/orgs",
+                    "repos_url": "https://api.github.com/users/goodgoodliving/repos",
+                    "events_url": "https://api.github.com/users/goodgoodliving/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/goodgoodliving/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T02:01:48Z",
+                "updated_at": "2023-10-27T02:01:48Z",
+                "author_association": "NONE",
+                "body": "> You create a custom function that computes `z-f(x)`. Then, in the `evaluateError` function of your customized factor, you can call the `numericalDerivative` function to compute the Jacobian numerically. Examples in `testNumericalDerivative.cpp` will help you get familiar with the function.\r\n\r\nHello, may I ask if it's possible to automatically solve for the Jacobian using GTSAM if I'm implementing a custom factor in Python, where I only know the error function and am not familiar with how to perform the Jacobian calculation? Are there relevant interfaces for this in GTSAM?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/comments/1782173621/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:01:48Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32875554791",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 86030027,
+            "login": "annanyatyagi12",
+            "display_login": "annanyatyagi12",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/annanyatyagi12",
+            "avatar_url": "https://avatars.githubusercontent.com/u/86030027?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/1661",
+                "repository_url": "https://api.github.com/repos/borglab/gtsam",
+                "labels_url": "https://api.github.com/repos/borglab/gtsam/issues/1661/labels{/name}",
+                "comments_url": "https://api.github.com/repos/borglab/gtsam/issues/1661/comments",
+                "events_url": "https://api.github.com/repos/borglab/gtsam/issues/1661/events",
+                "html_url": "https://github.com/borglab/gtsam/issues/1661",
+                "id": 1963939805,
+                "node_id": "I_kwDOBSXK6M51D1fd",
+                "number": 1661,
+                "title": "Pose2 theta coordinate convention",
+                "user": {
+                    "login": "annanyatyagi12",
+                    "id": 86030027,
+                    "node_id": "MDQ6VXNlcjg2MDMwMDI3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/86030027?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/annanyatyagi12",
+                    "html_url": "https://github.com/annanyatyagi12",
+                    "followers_url": "https://api.github.com/users/annanyatyagi12/followers",
+                    "following_url": "https://api.github.com/users/annanyatyagi12/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/annanyatyagi12/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/annanyatyagi12/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/annanyatyagi12/subscriptions",
+                    "organizations_url": "https://api.github.com/users/annanyatyagi12/orgs",
+                    "repos_url": "https://api.github.com/users/annanyatyagi12/repos",
+                    "events_url": "https://api.github.com/users/annanyatyagi12/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/annanyatyagi12/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T16:36:21Z",
+                "updated_at": "2023-10-26T16:36:21Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello, I'm a new user to building pose graphs using this library and would like some help to understand the coordinate convention of Pose2. The documentation [here](https://gtsam.org/doxygen/4.0.0/a02687.html) says that theta is the \"angle with the positive x axis\", which I believe is x to the right and y pointing forward. The [ROS convention](https://www.ros.org/reps/rep-0103.html) is shifted by 90 degrees such that x is pointing forward and y is to the left. I did a few calculations by hand and figured out that the value of theta should still be the same regardless of the frames, however when I feed in the yaw values that I'm receiving from my visual odometry measurements (in ROS convention), my pose graph diverges as such. Does anyone have any insight into this?\r\n![Figure_1](https://github.com/borglab/gtsam/assets/86030027/fcb67420-a9e4-4211-9ace-d3266d246cdb)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/1661/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/borglab/gtsam/issues/1661/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:36:22Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32824613127",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 32697515,
+            "login": "jukindle",
+            "display_login": "jukindle",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jukindle",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32697515?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/1659",
+                "repository_url": "https://api.github.com/repos/borglab/gtsam",
+                "labels_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/labels{/name}",
+                "comments_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/comments",
+                "events_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/events",
+                "html_url": "https://github.com/borglab/gtsam/issues/1659",
+                "id": 1956634232,
+                "node_id": "I_kwDOBSXK6M50n954",
+                "number": 1659,
+                "title": "Difference between Analytical and Numerical Jacobian for BetweenFactor",
+                "user": {
+                    "login": "jukindle",
+                    "id": 32697515,
+                    "node_id": "MDQ6VXNlcjMyNjk3NTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/32697515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jukindle",
+                    "html_url": "https://github.com/jukindle",
+                    "followers_url": "https://api.github.com/users/jukindle/followers",
+                    "following_url": "https://api.github.com/users/jukindle/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jukindle/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jukindle/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jukindle/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jukindle/orgs",
+                    "repos_url": "https://api.github.com/users/jukindle/repos",
+                    "events_url": "https://api.github.com/users/jukindle/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jukindle/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-23T08:31:44Z",
+                "updated_at": "2023-10-25T06:20:47Z",
+                "closed_at": "2023-10-25T06:20:46Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello!\r\n\r\nI basically tried to compare the analytical and numerical jacobians for the BetweenFactor and notices they differ. I think I am using the correct manifold update (from right) given that I am using the numerical derivative function from GTSAM itself. I would like to understand why they differ, i.e. at which point an approximation is made.\r\n\r\nDoes the difference come from the fact that for the analytical jacobian derivation we are not multiplying with the right jacobian, i.e. $H_1 = J_r H_{1\\ from\\ .between}$? If so, why aren't we doing this, is it that the calculation of J_r is costly and for small deviations anyway close to the Identity?\r\n\r\nHere's the example code I am using\r\n\r\n\r\n    #include <gtsam/slam/BetweenFactor.h>\r\n    #include <gtsam/inference/Symbol.h>\r\n    #include <gtsam/base/numericalDerivative.h>\r\n    #include <gtsam/geometry/Pose3.h>\r\n    \r\n    // Define error function for BetweenFactor\r\n    gtsam::Vector betweenFactorError(const gtsam::Pose3 &T1, const gtsam::Pose3 &T2, const gtsam::BetweenFactor<gtsam::Pose3> &factor)\r\n    {\r\n        return factor.evaluateError(T1, T2);\r\n    }\r\n    \r\n    int main()\r\n    {\r\n        // Create a random BetweenFactor\r\n        gtsam::Key key1 = gtsam::Symbol('T1', 0);\r\n        gtsam::Key key2 = gtsam::Symbol('T2', 0);\r\n        gtsam::Pose3 measuredDifference = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n        gtsam::SharedNoiseModel model = gtsam::noiseModel::Isotropic::Sigma(6, 0.1); // Assuming 6D error\r\n        gtsam::BetweenFactor<gtsam::Pose3> factor(key1, key2, measuredDifference, model);\r\n    \r\n        // Sample random poses\r\n        gtsam::Pose3 T1 = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n        gtsam::Pose3 T2 = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n    \r\n        // Compute the analytical Jacobians\r\n        gtsam::Matrix H1_analytical, H2_analytical;\r\n        factor.evaluateError(T1, T2, H1_analytical, H2_analytical);\r\n    \r\n        // Compute the numerical Jacobians\r\n        gtsam::Matrix H1_numerical = gtsam::numericalDerivative11<gtsam::Vector, gtsam::Pose3>(boost::bind(&betweenFactorError, _1, T2, factor), T1);\r\n        gtsam::Matrix H2_numerical = gtsam::numericalDerivative11<gtsam::Vector, gtsam::Pose3>(boost::bind(&betweenFactorError, T1, _1, factor), T2);\r\n    \r\n        // Compare the Jacobians\r\n        std::cout << \"Analytic H_WA:\\n\"\r\n                  << H1_analytical << std::endl;\r\n        std::cout << \"Numeric H_WA:\\n\"\r\n                  << H1_numerical << std::endl;\r\n    \r\n        std::cout << std::endl;\r\n        std::cout << \"Analytic H_AB:\\n\"\r\n                  << H2_analytical << std::endl;\r\n        std::cout << \"Numeric H_AB:\\n\"\r\n                  << H2_numerical << std::endl;\r\n    \r\n        return 0;\r\n    }\r\n\r\nwith the resulting output\r\n\r\n    Analytic H_WA:\r\n     -0.158304  -0.913121    -0.3757         -0         -0         -0\r\n      0.792649  -0.344409   0.503081         -0         -0         -0\r\n      0.588768   0.218158  -0.778305         -0         -0         -0\r\n      0.180432 -0.0921831    0.14802  -0.158304  -0.913121    -0.3757\r\n        0.4953   0.396486  -0.508955   0.792649  -0.344409   0.503081\r\n     -0.618301   0.240098   -0.40043   0.588768   0.218158  -0.778305\r\n    Numeric H_WA:\r\n      -0.529653   -0.713478   -0.528738           0           0           0\r\n        0.85708   -0.621987  -0.0196841           0           0           0\r\n       0.264351    0.393483   -0.909937           0           0           0\r\n      -0.361997 0.000131522    0.224496   -0.529653   -0.713478   -0.528738\r\n       0.132429   0.0729057    -0.83948     0.85708   -0.621987  -0.0196841\r\n      -0.828156    0.207672   -0.163757    0.264351    0.393483   -0.909937\r\n    \r\n    Analytic H_AB:\r\n    1 0 0 0 0 0\r\n    0 1 0 0 0 0\r\n    0 0 1 0 0 0\r\n    0 0 0 1 0 0\r\n    0 0 0 0 1 0\r\n    0 0 0 0 0 1\r\n    Numeric H_AB:\r\n      0.933985  -0.440099 -0.0559737          0          0          0\r\n      0.439665   0.883679    0.38425          0          0          0\r\n    -0.0592823  -0.383754   0.949692          0          0          0\r\n     -0.135217   -0.45016 -0.0199266   0.933985  -0.440099 -0.0559737\r\n      0.436924  -0.154545  0.0758573   0.439665   0.883679    0.38425\r\n      -0.12027 -0.0602826 -0.0194418 -0.0592823  -0.383754   0.949692\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/1659/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T06:20:48Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32824613019",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 32697515,
+            "login": "jukindle",
+            "display_login": "jukindle",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jukindle",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32697515?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/1659",
+                "repository_url": "https://api.github.com/repos/borglab/gtsam",
+                "labels_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/labels{/name}",
+                "comments_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/comments",
+                "events_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/events",
+                "html_url": "https://github.com/borglab/gtsam/issues/1659",
+                "id": 1956634232,
+                "node_id": "I_kwDOBSXK6M50n954",
+                "number": 1659,
+                "title": "Difference between Analytical and Numerical Jacobian for BetweenFactor",
+                "user": {
+                    "login": "jukindle",
+                    "id": 32697515,
+                    "node_id": "MDQ6VXNlcjMyNjk3NTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/32697515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jukindle",
+                    "html_url": "https://github.com/jukindle",
+                    "followers_url": "https://api.github.com/users/jukindle/followers",
+                    "following_url": "https://api.github.com/users/jukindle/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jukindle/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jukindle/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jukindle/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jukindle/orgs",
+                    "repos_url": "https://api.github.com/users/jukindle/repos",
+                    "events_url": "https://api.github.com/users/jukindle/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jukindle/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-23T08:31:44Z",
+                "updated_at": "2023-10-25T06:20:47Z",
+                "closed_at": "2023-10-25T06:20:46Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello!\r\n\r\nI basically tried to compare the analytical and numerical jacobians for the BetweenFactor and notices they differ. I think I am using the correct manifold update (from right) given that I am using the numerical derivative function from GTSAM itself. I would like to understand why they differ, i.e. at which point an approximation is made.\r\n\r\nDoes the difference come from the fact that for the analytical jacobian derivation we are not multiplying with the right jacobian, i.e. $H_1 = J_r H_{1\\ from\\ .between}$? If so, why aren't we doing this, is it that the calculation of J_r is costly and for small deviations anyway close to the Identity?\r\n\r\nHere's the example code I am using\r\n\r\n\r\n    #include <gtsam/slam/BetweenFactor.h>\r\n    #include <gtsam/inference/Symbol.h>\r\n    #include <gtsam/base/numericalDerivative.h>\r\n    #include <gtsam/geometry/Pose3.h>\r\n    \r\n    // Define error function for BetweenFactor\r\n    gtsam::Vector betweenFactorError(const gtsam::Pose3 &T1, const gtsam::Pose3 &T2, const gtsam::BetweenFactor<gtsam::Pose3> &factor)\r\n    {\r\n        return factor.evaluateError(T1, T2);\r\n    }\r\n    \r\n    int main()\r\n    {\r\n        // Create a random BetweenFactor\r\n        gtsam::Key key1 = gtsam::Symbol('T1', 0);\r\n        gtsam::Key key2 = gtsam::Symbol('T2', 0);\r\n        gtsam::Pose3 measuredDifference = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n        gtsam::SharedNoiseModel model = gtsam::noiseModel::Isotropic::Sigma(6, 0.1); // Assuming 6D error\r\n        gtsam::BetweenFactor<gtsam::Pose3> factor(key1, key2, measuredDifference, model);\r\n    \r\n        // Sample random poses\r\n        gtsam::Pose3 T1 = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n        gtsam::Pose3 T2 = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n    \r\n        // Compute the analytical Jacobians\r\n        gtsam::Matrix H1_analytical, H2_analytical;\r\n        factor.evaluateError(T1, T2, H1_analytical, H2_analytical);\r\n    \r\n        // Compute the numerical Jacobians\r\n        gtsam::Matrix H1_numerical = gtsam::numericalDerivative11<gtsam::Vector, gtsam::Pose3>(boost::bind(&betweenFactorError, _1, T2, factor), T1);\r\n        gtsam::Matrix H2_numerical = gtsam::numericalDerivative11<gtsam::Vector, gtsam::Pose3>(boost::bind(&betweenFactorError, T1, _1, factor), T2);\r\n    \r\n        // Compare the Jacobians\r\n        std::cout << \"Analytic H_WA:\\n\"\r\n                  << H1_analytical << std::endl;\r\n        std::cout << \"Numeric H_WA:\\n\"\r\n                  << H1_numerical << std::endl;\r\n    \r\n        std::cout << std::endl;\r\n        std::cout << \"Analytic H_AB:\\n\"\r\n                  << H2_analytical << std::endl;\r\n        std::cout << \"Numeric H_AB:\\n\"\r\n                  << H2_numerical << std::endl;\r\n    \r\n        return 0;\r\n    }\r\n\r\nwith the resulting output\r\n\r\n    Analytic H_WA:\r\n     -0.158304  -0.913121    -0.3757         -0         -0         -0\r\n      0.792649  -0.344409   0.503081         -0         -0         -0\r\n      0.588768   0.218158  -0.778305         -0         -0         -0\r\n      0.180432 -0.0921831    0.14802  -0.158304  -0.913121    -0.3757\r\n        0.4953   0.396486  -0.508955   0.792649  -0.344409   0.503081\r\n     -0.618301   0.240098   -0.40043   0.588768   0.218158  -0.778305\r\n    Numeric H_WA:\r\n      -0.529653   -0.713478   -0.528738           0           0           0\r\n        0.85708   -0.621987  -0.0196841           0           0           0\r\n       0.264351    0.393483   -0.909937           0           0           0\r\n      -0.361997 0.000131522    0.224496   -0.529653   -0.713478   -0.528738\r\n       0.132429   0.0729057    -0.83948     0.85708   -0.621987  -0.0196841\r\n      -0.828156    0.207672   -0.163757    0.264351    0.393483   -0.909937\r\n    \r\n    Analytic H_AB:\r\n    1 0 0 0 0 0\r\n    0 1 0 0 0 0\r\n    0 0 1 0 0 0\r\n    0 0 0 1 0 0\r\n    0 0 0 0 1 0\r\n    0 0 0 0 0 1\r\n    Numeric H_AB:\r\n      0.933985  -0.440099 -0.0559737          0          0          0\r\n      0.439665   0.883679    0.38425          0          0          0\r\n    -0.0592823  -0.383754   0.949692          0          0          0\r\n     -0.135217   -0.45016 -0.0199266   0.933985  -0.440099 -0.0559737\r\n      0.436924  -0.154545  0.0758573   0.439665   0.883679    0.38425\r\n      -0.12027 -0.0602826 -0.0194418 -0.0592823  -0.383754   0.949692\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/1659/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/comments/1778588811",
+                "html_url": "https://github.com/borglab/gtsam/issues/1659#issuecomment-1778588811",
+                "issue_url": "https://api.github.com/repos/borglab/gtsam/issues/1659",
+                "id": 1778588811,
+                "node_id": "IC_kwDOBSXK6M5qAxyL",
+                "user": {
+                    "login": "jukindle",
+                    "id": 32697515,
+                    "node_id": "MDQ6VXNlcjMyNjk3NTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/32697515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jukindle",
+                    "html_url": "https://github.com/jukindle",
+                    "followers_url": "https://api.github.com/users/jukindle/followers",
+                    "following_url": "https://api.github.com/users/jukindle/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jukindle/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jukindle/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jukindle/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jukindle/orgs",
+                    "repos_url": "https://api.github.com/users/jukindle/repos",
+                    "events_url": "https://api.github.com/users/jukindle/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jukindle/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T06:20:47Z",
+                "updated_at": "2023-10-25T06:20:47Z",
+                "author_association": "NONE",
+                "body": "It seems like the multiplication from left with the right jacobian is exactly the missing bit left away for efficiency reasons and which can be enabled by compiling with `GTSAM_SLOW_BUT_CORRECT_BETWEENFACTOR`:\r\n\r\nhttps://github.com/borglab/gtsam/blob/b5d19fb446c1bb7e04b06a1a1d5e73d9ea8a525c/gtsam/slam/BetweenFactor.h#L115\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/comments/1778588811/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T06:20:47Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32823826807",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14898560,
+            "login": "horimotz",
+            "display_login": "horimotz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/horimotz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14898560?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T05:35:54Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32818186184",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 21077486,
+            "login": "BowenBZ",
+            "display_login": "BowenBZ",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/BowenBZ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21077486?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T22:37:53Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32786590938",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "optimizer-params",
+            "ref_type": "branch",
+            "master_branch": "develop",
+            "description": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T22:24:50Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32786449364",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1660,
+            "pull_request": {
+                "url": "https://api.github.com/repos/borglab/gtsam/pulls/1660",
+                "id": 1570023330,
+                "node_id": "PR_kwDOBSXK6M5dlKei",
+                "html_url": "https://github.com/borglab/gtsam/pull/1660",
+                "diff_url": "https://github.com/borglab/gtsam/pull/1660.diff",
+                "patch_url": "https://github.com/borglab/gtsam/pull/1660.patch",
+                "issue_url": "https://api.github.com/repos/borglab/gtsam/issues/1660",
+                "number": 1660,
+                "state": "open",
+                "locked": false,
+                "title": "Chebyshev2 Improvements",
+                "user": {
+                    "login": "varunagrawal",
+                    "id": 975964,
+                    "node_id": "MDQ6VXNlcjk3NTk2NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/975964?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/varunagrawal",
+                    "html_url": "https://github.com/varunagrawal",
+                    "followers_url": "https://api.github.com/users/varunagrawal/followers",
+                    "following_url": "https://api.github.com/users/varunagrawal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/varunagrawal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/varunagrawal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/varunagrawal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/varunagrawal/orgs",
+                    "repos_url": "https://api.github.com/users/varunagrawal/repos",
+                    "events_url": "https://api.github.com/users/varunagrawal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/varunagrawal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "According to Trefethen, given N, we should form a polynomial with N+1 nodes, but we form a polynomial with N nodes (which is mathematically a N-1 degree polynomial).\r\n\r\nHence one of the bigger changes of this PR is to form a polynomial over N+1 nodes. This makes our code correspond directly to the math and makes comparison to Chebfun much easier.\r\n\r\nAdditionally, I've tightened some bounds checks and improved the overall API.",
+                "created_at": "2023-10-23T22:17:36Z",
+                "updated_at": "2023-10-23T22:17:36Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": {
+                    "login": "varunagrawal",
+                    "id": 975964,
+                    "node_id": "MDQ6VXNlcjk3NTk2NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/975964?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/varunagrawal",
+                    "html_url": "https://github.com/varunagrawal",
+                    "followers_url": "https://api.github.com/users/varunagrawal/followers",
+                    "following_url": "https://api.github.com/users/varunagrawal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/varunagrawal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/varunagrawal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/varunagrawal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/varunagrawal/orgs",
+                    "repos_url": "https://api.github.com/users/varunagrawal/repos",
+                    "events_url": "https://api.github.com/users/varunagrawal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/varunagrawal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "varunagrawal",
+                        "id": 975964,
+                        "node_id": "MDQ6VXNlcjk3NTk2NA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/975964?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/varunagrawal",
+                        "html_url": "https://github.com/varunagrawal",
+                        "followers_url": "https://api.github.com/users/varunagrawal/followers",
+                        "following_url": "https://api.github.com/users/varunagrawal/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/varunagrawal/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/varunagrawal/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/varunagrawal/subscriptions",
+                        "organizations_url": "https://api.github.com/users/varunagrawal/orgs",
+                        "repos_url": "https://api.github.com/users/varunagrawal/repos",
+                        "events_url": "https://api.github.com/users/varunagrawal/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/varunagrawal/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_reviewers": [
+                    {
+                        "login": "dellaert",
+                        "id": 10515273,
+                        "node_id": "MDQ6VXNlcjEwNTE1Mjcz",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/10515273?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/dellaert",
+                        "html_url": "https://github.com/dellaert",
+                        "followers_url": "https://api.github.com/users/dellaert/followers",
+                        "following_url": "https://api.github.com/users/dellaert/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/dellaert/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/dellaert/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/dellaert/subscriptions",
+                        "organizations_url": "https://api.github.com/users/dellaert/orgs",
+                        "repos_url": "https://api.github.com/users/dellaert/repos",
+                        "events_url": "https://api.github.com/users/dellaert/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/dellaert/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/borglab/gtsam/pulls/1660/commits",
+                "review_comments_url": "https://api.github.com/repos/borglab/gtsam/pulls/1660/comments",
+                "review_comment_url": "https://api.github.com/repos/borglab/gtsam/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/borglab/gtsam/issues/1660/comments",
+                "statuses_url": "https://api.github.com/repos/borglab/gtsam/statuses/fe7d87735216b701a85af6b51a59cf4cdfef1b3d",
+                "head": {
+                    "label": "borglab:chebyshev-improvements",
+                    "ref": "chebyshev-improvements",
+                    "sha": "fe7d87735216b701a85af6b51a59cf4cdfef1b3d",
+                    "user": {
+                        "login": "borglab",
+                        "id": 26720769,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjI2NzIwNzY5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/26720769?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/borglab",
+                        "html_url": "https://github.com/borglab",
+                        "followers_url": "https://api.github.com/users/borglab/followers",
+                        "following_url": "https://api.github.com/users/borglab/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/borglab/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/borglab/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/borglab/subscriptions",
+                        "organizations_url": "https://api.github.com/users/borglab/orgs",
+                        "repos_url": "https://api.github.com/users/borglab/repos",
+                        "events_url": "https://api.github.com/users/borglab/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/borglab/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 86362856,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NjM2Mjg1Ng==",
+                        "name": "gtsam",
+                        "full_name": "borglab/gtsam",
+                        "private": false,
+                        "owner": {
+                            "login": "borglab",
+                            "id": 26720769,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjI2NzIwNzY5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/borglab",
+                            "html_url": "https://github.com/borglab",
+                            "followers_url": "https://api.github.com/users/borglab/followers",
+                            "following_url": "https://api.github.com/users/borglab/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/borglab/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/borglab/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/borglab/subscriptions",
+                            "organizations_url": "https://api.github.com/users/borglab/orgs",
+                            "repos_url": "https://api.github.com/users/borglab/repos",
+                            "events_url": "https://api.github.com/users/borglab/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/borglab/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/borglab/gtsam",
+                        "description": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/borglab/gtsam",
+                        "forks_url": "https://api.github.com/repos/borglab/gtsam/forks",
+                        "keys_url": "https://api.github.com/repos/borglab/gtsam/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/borglab/gtsam/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/borglab/gtsam/teams",
+                        "hooks_url": "https://api.github.com/repos/borglab/gtsam/hooks",
+                        "issue_events_url": "https://api.github.com/repos/borglab/gtsam/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/borglab/gtsam/events",
+                        "assignees_url": "https://api.github.com/repos/borglab/gtsam/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/borglab/gtsam/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/borglab/gtsam/tags",
+                        "blobs_url": "https://api.github.com/repos/borglab/gtsam/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/borglab/gtsam/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/borglab/gtsam/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/borglab/gtsam/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/borglab/gtsam/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/borglab/gtsam/languages",
+                        "stargazers_url": "https://api.github.com/repos/borglab/gtsam/stargazers",
+                        "contributors_url": "https://api.github.com/repos/borglab/gtsam/contributors",
+                        "subscribers_url": "https://api.github.com/repos/borglab/gtsam/subscribers",
+                        "subscription_url": "https://api.github.com/repos/borglab/gtsam/subscription",
+                        "commits_url": "https://api.github.com/repos/borglab/gtsam/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/borglab/gtsam/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/borglab/gtsam/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/borglab/gtsam/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/borglab/gtsam/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/borglab/gtsam/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/borglab/gtsam/merges",
+                        "archive_url": "https://api.github.com/repos/borglab/gtsam/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/borglab/gtsam/downloads",
+                        "issues_url": "https://api.github.com/repos/borglab/gtsam/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/borglab/gtsam/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/borglab/gtsam/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/borglab/gtsam/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/borglab/gtsam/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/borglab/gtsam/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/borglab/gtsam/deployments",
+                        "created_at": "2017-03-27T17:12:06Z",
+                        "updated_at": "2023-10-23T18:46:13Z",
+                        "pushed_at": "2023-10-23T22:17:37Z",
+                        "git_url": "git://github.com/borglab/gtsam.git",
+                        "ssh_url": "git@github.com:borglab/gtsam.git",
+                        "clone_url": "https://github.com/borglab/gtsam.git",
+                        "svn_url": "https://github.com/borglab/gtsam",
+                        "homepage": "http://gtsam.org",
+                        "size": 72859,
+                        "stargazers_count": 2179,
+                        "watchers_count": 2179,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 697,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 88,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 697,
+                        "open_issues": 88,
+                        "watchers": 2179,
+                        "default_branch": "develop"
+                    }
+                },
+                "base": {
+                    "label": "borglab:develop",
+                    "ref": "develop",
+                    "sha": "b5d19fb446c1bb7e04b06a1a1d5e73d9ea8a525c",
+                    "user": {
+                        "login": "borglab",
+                        "id": 26720769,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjI2NzIwNzY5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/26720769?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/borglab",
+                        "html_url": "https://github.com/borglab",
+                        "followers_url": "https://api.github.com/users/borglab/followers",
+                        "following_url": "https://api.github.com/users/borglab/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/borglab/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/borglab/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/borglab/subscriptions",
+                        "organizations_url": "https://api.github.com/users/borglab/orgs",
+                        "repos_url": "https://api.github.com/users/borglab/repos",
+                        "events_url": "https://api.github.com/users/borglab/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/borglab/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 86362856,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NjM2Mjg1Ng==",
+                        "name": "gtsam",
+                        "full_name": "borglab/gtsam",
+                        "private": false,
+                        "owner": {
+                            "login": "borglab",
+                            "id": 26720769,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjI2NzIwNzY5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/borglab",
+                            "html_url": "https://github.com/borglab",
+                            "followers_url": "https://api.github.com/users/borglab/followers",
+                            "following_url": "https://api.github.com/users/borglab/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/borglab/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/borglab/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/borglab/subscriptions",
+                            "organizations_url": "https://api.github.com/users/borglab/orgs",
+                            "repos_url": "https://api.github.com/users/borglab/repos",
+                            "events_url": "https://api.github.com/users/borglab/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/borglab/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/borglab/gtsam",
+                        "description": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/borglab/gtsam",
+                        "forks_url": "https://api.github.com/repos/borglab/gtsam/forks",
+                        "keys_url": "https://api.github.com/repos/borglab/gtsam/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/borglab/gtsam/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/borglab/gtsam/teams",
+                        "hooks_url": "https://api.github.com/repos/borglab/gtsam/hooks",
+                        "issue_events_url": "https://api.github.com/repos/borglab/gtsam/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/borglab/gtsam/events",
+                        "assignees_url": "https://api.github.com/repos/borglab/gtsam/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/borglab/gtsam/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/borglab/gtsam/tags",
+                        "blobs_url": "https://api.github.com/repos/borglab/gtsam/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/borglab/gtsam/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/borglab/gtsam/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/borglab/gtsam/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/borglab/gtsam/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/borglab/gtsam/languages",
+                        "stargazers_url": "https://api.github.com/repos/borglab/gtsam/stargazers",
+                        "contributors_url": "https://api.github.com/repos/borglab/gtsam/contributors",
+                        "subscribers_url": "https://api.github.com/repos/borglab/gtsam/subscribers",
+                        "subscription_url": "https://api.github.com/repos/borglab/gtsam/subscription",
+                        "commits_url": "https://api.github.com/repos/borglab/gtsam/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/borglab/gtsam/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/borglab/gtsam/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/borglab/gtsam/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/borglab/gtsam/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/borglab/gtsam/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/borglab/gtsam/merges",
+                        "archive_url": "https://api.github.com/repos/borglab/gtsam/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/borglab/gtsam/downloads",
+                        "issues_url": "https://api.github.com/repos/borglab/gtsam/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/borglab/gtsam/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/borglab/gtsam/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/borglab/gtsam/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/borglab/gtsam/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/borglab/gtsam/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/borglab/gtsam/deployments",
+                        "created_at": "2017-03-27T17:12:06Z",
+                        "updated_at": "2023-10-23T18:46:13Z",
+                        "pushed_at": "2023-10-23T22:17:37Z",
+                        "git_url": "git://github.com/borglab/gtsam.git",
+                        "ssh_url": "git@github.com:borglab/gtsam.git",
+                        "clone_url": "https://github.com/borglab/gtsam.git",
+                        "svn_url": "https://github.com/borglab/gtsam",
+                        "homepage": "http://gtsam.org",
+                        "size": 72859,
+                        "stargazers_count": 2179,
+                        "watchers_count": 2179,
+                        "language": "C++",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 697,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 88,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 697,
+                        "open_issues": 88,
+                        "watchers": 2179,
+                        "default_branch": "develop"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/borglab/gtsam/pulls/1660"
+                    },
+                    "html": {
+                        "href": "https://github.com/borglab/gtsam/pull/1660"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/borglab/gtsam/issues/1660"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/borglab/gtsam/issues/1660/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/borglab/gtsam/pulls/1660/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/borglab/gtsam/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/borglab/gtsam/pulls/1660/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/borglab/gtsam/statuses/fe7d87735216b701a85af6b51a59cf4cdfef1b3d"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 5,
+                "additions": 156,
+                "deletions": 132,
+                "changed_files": 8
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T22:17:38Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32786387247",
+        "type": "PushEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "repository_id": 86362856,
+            "push_id": 15535669353,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/chebyshev-improvements",
+            "head": "fe7d87735216b701a85af6b51a59cf4cdfef1b3d",
+            "before": "79272bf8a8a1c06eecfad902937d7ef8bb4b8d5d",
+            "commits": [
+                {
+                    "sha": "3bff8ad3170a3433bb5af553dedf70f772609122",
+                    "author": {
+                        "email": "varagrawal@gmail.com",
+                        "name": "Varun Agrawal"
+                    },
+                    "message": "use weights_.size() instead of passing in N",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/borglab/gtsam/commits/3bff8ad3170a3433bb5af553dedf70f772609122"
+                },
+                {
+                    "sha": "9ee652c04a4b1d7236349d5b0b9763d69c8a3018",
+                    "author": {
+                        "email": "varagrawal@gmail.com",
+                        "name": "Varun Agrawal"
+                    },
+                    "message": "ParameterMatrix as a separate static method",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/borglab/gtsam/commits/9ee652c04a4b1d7236349d5b0b9763d69c8a3018"
+                },
+                {
+                    "sha": "fe7d87735216b701a85af6b51a59cf4cdfef1b3d",
+                    "author": {
+                        "email": "varagrawal@gmail.com",
+                        "name": "Varun Agrawal"
+                    },
+                    "message": "make Chebyshev nodes over N+1 points instead of N",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/borglab/gtsam/commits/fe7d87735216b701a85af6b51a59cf4cdfef1b3d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T22:14:27Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32781774064",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24444424,
+            "login": "bhaecke",
+            "display_login": "bhaecke",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bhaecke",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24444424?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T18:46:13Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32772152749",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 46716149,
+            "login": "guangkaixu",
+            "display_login": "guangkaixu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/guangkaixu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46716149?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T13:17:19Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32764145863",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 32697515,
+            "login": "jukindle",
+            "display_login": "jukindle",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jukindle",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32697515?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/borglab/gtsam/issues/1659",
+                "repository_url": "https://api.github.com/repos/borglab/gtsam",
+                "labels_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/labels{/name}",
+                "comments_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/comments",
+                "events_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/events",
+                "html_url": "https://github.com/borglab/gtsam/issues/1659",
+                "id": 1956634232,
+                "node_id": "I_kwDOBSXK6M50n954",
+                "number": 1659,
+                "title": "Difference between Analytical and Numerical Jacobian for BetweenFactor",
+                "user": {
+                    "login": "jukindle",
+                    "id": 32697515,
+                    "node_id": "MDQ6VXNlcjMyNjk3NTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/32697515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jukindle",
+                    "html_url": "https://github.com/jukindle",
+                    "followers_url": "https://api.github.com/users/jukindle/followers",
+                    "following_url": "https://api.github.com/users/jukindle/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jukindle/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jukindle/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jukindle/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jukindle/orgs",
+                    "repos_url": "https://api.github.com/users/jukindle/repos",
+                    "events_url": "https://api.github.com/users/jukindle/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jukindle/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-23T08:31:44Z",
+                "updated_at": "2023-10-23T08:31:44Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello!\r\n\r\nI basically tried to compare the analytical and numerical jacobians for the BetweenFactor and notices they differ. I think I am using the correct manifold update (from right) given that I am using the numerical derivative function from GTSAM itself. I would like to understand why they differ, i.e. at which point an approximation is made.\r\n\r\nDoes the difference come from the fact that for the analytical jacobian derivation we are not multiplying with the right jacobian, i.e. $H_1 = J_r H_{1\\ from\\ .between}$? If so, why aren't we doing this, is it that the calculation of J_r is costly and for small deviations anyway close to the Identity?\r\n\r\nHere's the example code I am using\r\n\r\n\r\n    #include <gtsam/slam/BetweenFactor.h>\r\n    #include <gtsam/inference/Symbol.h>\r\n    #include <gtsam/base/numericalDerivative.h>\r\n    #include <gtsam/geometry/Pose3.h>\r\n    \r\n    // Define error function for BetweenFactor\r\n    gtsam::Vector betweenFactorError(const gtsam::Pose3 &T1, const gtsam::Pose3 &T2, const gtsam::BetweenFactor<gtsam::Pose3> &factor)\r\n    {\r\n        return factor.evaluateError(T1, T2);\r\n    }\r\n    \r\n    int main()\r\n    {\r\n        // Create a random BetweenFactor\r\n        gtsam::Key key1 = gtsam::Symbol('T1', 0);\r\n        gtsam::Key key2 = gtsam::Symbol('T2', 0);\r\n        gtsam::Pose3 measuredDifference = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n        gtsam::SharedNoiseModel model = gtsam::noiseModel::Isotropic::Sigma(6, 0.1); // Assuming 6D error\r\n        gtsam::BetweenFactor<gtsam::Pose3> factor(key1, key2, measuredDifference, model);\r\n    \r\n        // Sample random poses\r\n        gtsam::Pose3 T1 = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n        gtsam::Pose3 T2 = gtsam::Pose3::Expmap(gtsam::Vector6::Random());\r\n    \r\n        // Compute the analytical Jacobians\r\n        gtsam::Matrix H1_analytical, H2_analytical;\r\n        factor.evaluateError(T1, T2, H1_analytical, H2_analytical);\r\n    \r\n        // Compute the numerical Jacobians\r\n        gtsam::Matrix H1_numerical = gtsam::numericalDerivative11<gtsam::Vector, gtsam::Pose3>(boost::bind(&betweenFactorError, _1, T2, factor), T1);\r\n        gtsam::Matrix H2_numerical = gtsam::numericalDerivative11<gtsam::Vector, gtsam::Pose3>(boost::bind(&betweenFactorError, T1, _1, factor), T2);\r\n    \r\n        // Compare the Jacobians\r\n        std::cout << \"Analytic H_WA:\\n\"\r\n                  << H1_analytical << std::endl;\r\n        std::cout << \"Numeric H_WA:\\n\"\r\n                  << H1_numerical << std::endl;\r\n    \r\n        std::cout << std::endl;\r\n        std::cout << \"Analytic H_AB:\\n\"\r\n                  << H2_analytical << std::endl;\r\n        std::cout << \"Numeric H_AB:\\n\"\r\n                  << H2_numerical << std::endl;\r\n    \r\n        return 0;\r\n    }\r\n\r\nwith the resulting output\r\n\r\n    Analytic H_WA:\r\n     -0.158304  -0.913121    -0.3757         -0         -0         -0\r\n      0.792649  -0.344409   0.503081         -0         -0         -0\r\n      0.588768   0.218158  -0.778305         -0         -0         -0\r\n      0.180432 -0.0921831    0.14802  -0.158304  -0.913121    -0.3757\r\n        0.4953   0.396486  -0.508955   0.792649  -0.344409   0.503081\r\n     -0.618301   0.240098   -0.40043   0.588768   0.218158  -0.778305\r\n    Numeric H_WA:\r\n      -0.529653   -0.713478   -0.528738           0           0           0\r\n        0.85708   -0.621987  -0.0196841           0           0           0\r\n       0.264351    0.393483   -0.909937           0           0           0\r\n      -0.361997 0.000131522    0.224496   -0.529653   -0.713478   -0.528738\r\n       0.132429   0.0729057    -0.83948     0.85708   -0.621987  -0.0196841\r\n      -0.828156    0.207672   -0.163757    0.264351    0.393483   -0.909937\r\n    \r\n    Analytic H_AB:\r\n    1 0 0 0 0 0\r\n    0 1 0 0 0 0\r\n    0 0 1 0 0 0\r\n    0 0 0 1 0 0\r\n    0 0 0 0 1 0\r\n    0 0 0 0 0 1\r\n    Numeric H_AB:\r\n      0.933985  -0.440099 -0.0559737          0          0          0\r\n      0.439665   0.883679    0.38425          0          0          0\r\n    -0.0592823  -0.383754   0.949692          0          0          0\r\n     -0.135217   -0.45016 -0.0199266   0.933985  -0.440099 -0.0559737\r\n      0.436924  -0.154545  0.0758573   0.439665   0.883679    0.38425\r\n      -0.12027 -0.0602826 -0.0194418 -0.0592823  -0.383754   0.949692\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/borglab/gtsam/issues/1659/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/borglab/gtsam/issues/1659/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:31:46Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32760540874",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 53460895,
+            "login": "993492185",
+            "display_login": "993492185",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/993492185",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53460895?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T05:50:28Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754673148",
+        "type": "PushEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "repository_id": 86362856,
+            "push_id": 15519900283,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/chi-squared-quantile",
+            "head": "25ebdd54fc23ca0624a42540e941cd04abc7eb9e",
+            "before": "6f386168a459db94f6cdda9e15ef3da499dc873d",
+            "commits": [
+                {
+                    "sha": "25ebdd54fc23ca0624a42540e941cd04abc7eb9e",
+                    "author": {
+                        "email": "varagrawal@gmail.com",
+                        "name": "Varun Agrawal"
+                    },
+                    "message": "add gamma_p_inverse_func",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/borglab/gtsam/commits/25ebdd54fc23ca0624a42540e941cd04abc7eb9e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-22T20:02:53Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754635989",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/align_align",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:58:02Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754629262",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/default-system-eigen",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:57:04Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754629118",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/cameraTemplateForAllSmartFactors",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:57:03Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754628760",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/cameraTemplateForAllSmartFactors",
+            "ref_type": "branch",
+            "master_branch": "develop",
+            "description": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:57:00Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754628305",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/cameraTemplateForAllSmartFactors",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:56:56Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754628120",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/logmap_expression",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:56:54Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754624595",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "fan/add_se23",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:56:24Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754624028",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "wrap/pybind-stl",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:56:19Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754622241",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "hotfix/fixes_from_4.3",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:56:04Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754622027",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "patch-ros-package-master",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:56:02Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754621797",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "update-ros-package-v3",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:56:00Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754621688",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/fan/Eigen",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:55:59Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754620998",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "wrapper-add-normalized-method-to-Rot3",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:55:53Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754620588",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/gchen/basis",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:55:49Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    },
+    {
+        "id": "32754620471",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 975964,
+            "login": "varunagrawal",
+            "display_login": "varunagrawal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/varunagrawal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/975964?"
+        },
+        "repo": {
+            "id": 86362856,
+            "name": "borglab/gtsam",
+            "url": "https://api.github.com/repos/borglab/gtsam"
+        },
+        "payload": {
+            "ref": "feature/visual-factor-getters",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-22T19:55:48Z",
+        "org": {
+            "id": 26720769,
+            "login": "borglab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/borglab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26720769?"
+        }
+    }
+]

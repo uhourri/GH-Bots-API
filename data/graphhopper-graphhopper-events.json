@@ -1,0 +1,2151 @@
+[
+    {
+        "id": "32893131333",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 18066720,
+            "login": "zhanghan2585",
+            "display_login": "zhanghan2585",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zhanghan2585",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18066720?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898",
+                "repository_url": "https://api.github.com/repos/graphhopper/graphhopper",
+                "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/labels{/name}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/comments",
+                "events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/events",
+                "html_url": "https://github.com/graphhopper/graphhopper/issues/2898",
+                "id": 1965058625,
+                "node_id": "I_kwDOADUcWs51IGpB",
+                "number": 2898,
+                "title": "Implementing railway route planning based on version 7.0",
+                "user": {
+                    "login": "zhanghan2585",
+                    "id": 18066720,
+                    "node_id": "MDQ6VXNlcjE4MDY2NzIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/18066720?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zhanghan2585",
+                    "html_url": "https://github.com/zhanghan2585",
+                    "followers_url": "https://api.github.com/users/zhanghan2585/followers",
+                    "following_url": "https://api.github.com/users/zhanghan2585/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zhanghan2585/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zhanghan2585/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zhanghan2585/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zhanghan2585/orgs",
+                    "repos_url": "https://api.github.com/users/zhanghan2585/repos",
+                    "events_url": "https://api.github.com/users/zhanghan2585/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zhanghan2585/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-27T08:47:41Z",
+                "updated_at": "2023-10-27T08:52:59Z",
+                "closed_at": "2023-10-27T08:49:27Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": " OTHER(\"other\"), MOTORWAY(\"motorway\"),\r\n    TRUNK(\"trunk\"), PRIMARY(\"primary\"), SECONDARY(\"secondary\"),\r\n    TERTIARY(\"tertiary\"), RESIDENTIAL(\"residential\"), UNCLASSIFIED(\"unclassified\"),\r\n    SERVICE(\"service\"), ROAD(\"road\"), TRACK(\"track\"),\r\n    BRIDLEWAY(\"bridleway\"), STEPS(\"steps\"), CYCLEWAY(\"cycleway\"),\r\n    PATH(\"path\"), LIVING_STREET(\"living_street\"), FOOTWAY(\"footway\"),\r\n    PEDESTRIAN(\"pedestrian\"), PLATFORM(\"platform\"), CORRIDOR(\"corridor\");\r\n\r\nHow do you define 'railway'? Can you provide some insights?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/comments/1782545692",
+                "html_url": "https://github.com/graphhopper/graphhopper/issues/2898#issuecomment-1782545692",
+                "issue_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898",
+                "id": 1782545692,
+                "node_id": "IC_kwDOADUcWs5qP30c",
+                "user": {
+                    "login": "zhanghan2585",
+                    "id": 18066720,
+                    "node_id": "MDQ6VXNlcjE4MDY2NzIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/18066720?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zhanghan2585",
+                    "html_url": "https://github.com/zhanghan2585",
+                    "followers_url": "https://api.github.com/users/zhanghan2585/followers",
+                    "following_url": "https://api.github.com/users/zhanghan2585/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zhanghan2585/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zhanghan2585/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zhanghan2585/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zhanghan2585/orgs",
+                    "repos_url": "https://api.github.com/users/zhanghan2585/repos",
+                    "events_url": "https://api.github.com/users/zhanghan2585/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zhanghan2585/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T08:52:59Z",
+                "updated_at": "2023-10-27T08:52:59Z",
+                "author_association": "NONE",
+                "body": "Hello,\r\n\r\nThis is an automated message from GraphHopper Forum to let you know that your account has been temporarily placed on hold as a precautionary measure.\r\n\r\nPlease do continue to browse, but you won\u2019t be able to reply or create topics until a [staff member](https://discuss.graphhopper.com/about) reviews your most recent posts. We apologize for the inconvenience.\r\n\r\nFor additional guidance, refer to our [community guidelines](https://discuss.graphhopper.com/guidelines).",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/comments/1782545692/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:53:00Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32892991627",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 18066720,
+            "login": "zhanghan2585",
+            "display_login": "zhanghan2585",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zhanghan2585",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18066720?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898",
+                "repository_url": "https://api.github.com/repos/graphhopper/graphhopper",
+                "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/labels{/name}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/comments",
+                "events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/events",
+                "html_url": "https://github.com/graphhopper/graphhopper/issues/2898",
+                "id": 1965058625,
+                "node_id": "I_kwDOADUcWs51IGpB",
+                "number": 2898,
+                "title": "Implementing railway route planning based on version 7.0",
+                "user": {
+                    "login": "zhanghan2585",
+                    "id": 18066720,
+                    "node_id": "MDQ6VXNlcjE4MDY2NzIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/18066720?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/zhanghan2585",
+                    "html_url": "https://github.com/zhanghan2585",
+                    "followers_url": "https://api.github.com/users/zhanghan2585/followers",
+                    "following_url": "https://api.github.com/users/zhanghan2585/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/zhanghan2585/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/zhanghan2585/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/zhanghan2585/subscriptions",
+                    "organizations_url": "https://api.github.com/users/zhanghan2585/orgs",
+                    "repos_url": "https://api.github.com/users/zhanghan2585/repos",
+                    "events_url": "https://api.github.com/users/zhanghan2585/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/zhanghan2585/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T08:47:41Z",
+                "updated_at": "2023-10-27T08:47:41Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": " OTHER(\"other\"), MOTORWAY(\"motorway\"),\r\n    TRUNK(\"trunk\"), PRIMARY(\"primary\"), SECONDARY(\"secondary\"),\r\n    TERTIARY(\"tertiary\"), RESIDENTIAL(\"residential\"), UNCLASSIFIED(\"unclassified\"),\r\n    SERVICE(\"service\"), ROAD(\"road\"), TRACK(\"track\"),\r\n    BRIDLEWAY(\"bridleway\"), STEPS(\"steps\"), CYCLEWAY(\"cycleway\"),\r\n    PATH(\"path\"), LIVING_STREET(\"living_street\"), FOOTWAY(\"footway\"),\r\n    PEDESTRIAN(\"pedestrian\"), PLATFORM(\"platform\"), CORRIDOR(\"corridor\");\r\n\r\nHow do you define 'railway'? Can you provide some insights?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2898/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:47:42Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32878526644",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 39195157,
+            "login": "perigoso",
+            "display_login": "perigoso",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/perigoso",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39195157?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:36:10Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32862258763",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 22315436,
+            "login": "otbutz",
+            "display_login": "otbutz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/otbutz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22315436?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896",
+                "repository_url": "https://api.github.com/repos/graphhopper/graphhopper",
+                "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/labels{/name}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/comments",
+                "events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/events",
+                "html_url": "https://github.com/graphhopper/graphhopper/pull/2896",
+                "id": 1959643411,
+                "node_id": "PR_kwDOADUcWs5dqVBb",
+                "number": 2896,
+                "title": "Fix indentation",
+                "user": {
+                    "login": "otbutz",
+                    "id": 22315436,
+                    "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/otbutz",
+                    "html_url": "https://github.com/otbutz",
+                    "followers_url": "https://api.github.com/users/otbutz/followers",
+                    "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                    "repos_url": "https://api.github.com/users/otbutz/repos",
+                    "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-24T16:28:48Z",
+                "updated_at": "2023-10-26T09:16:22Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896",
+                    "html_url": "https://github.com/graphhopper/graphhopper/pull/2896",
+                    "diff_url": "https://github.com/graphhopper/graphhopper/pull/2896.diff",
+                    "patch_url": "https://github.com/graphhopper/graphhopper/pull/2896.patch",
+                    "merged_at": null
+                },
+                "body": "The indentation of our config example was inconsistent.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/comments/1780728152",
+                "html_url": "https://github.com/graphhopper/graphhopper/pull/2896#issuecomment-1780728152",
+                "issue_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896",
+                "id": 1780728152,
+                "node_id": "IC_kwDOADUcWs5qI8FY",
+                "user": {
+                    "login": "otbutz",
+                    "id": 22315436,
+                    "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/otbutz",
+                    "html_url": "https://github.com/otbutz",
+                    "followers_url": "https://api.github.com/users/otbutz/followers",
+                    "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                    "repos_url": "https://api.github.com/users/otbutz/repos",
+                    "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T09:16:22Z",
+                "updated_at": "2023-10-26T09:16:22Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Fixed the indentation preset for json and yml and also reverted the profiles section changes.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/comments/1780728152/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:16:22Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32861896441",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 22315436,
+            "login": "otbutz",
+            "display_login": "otbutz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/otbutz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22315436?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896",
+                "repository_url": "https://api.github.com/repos/graphhopper/graphhopper",
+                "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/labels{/name}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/comments",
+                "events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/events",
+                "html_url": "https://github.com/graphhopper/graphhopper/pull/2896",
+                "id": 1959643411,
+                "node_id": "PR_kwDOADUcWs5dqVBb",
+                "number": 2896,
+                "title": "Fix indentation",
+                "user": {
+                    "login": "otbutz",
+                    "id": 22315436,
+                    "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/otbutz",
+                    "html_url": "https://github.com/otbutz",
+                    "followers_url": "https://api.github.com/users/otbutz/followers",
+                    "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                    "repos_url": "https://api.github.com/users/otbutz/repos",
+                    "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-24T16:28:48Z",
+                "updated_at": "2023-10-26T09:04:19Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896",
+                    "html_url": "https://github.com/graphhopper/graphhopper/pull/2896",
+                    "diff_url": "https://github.com/graphhopper/graphhopper/pull/2896.diff",
+                    "patch_url": "https://github.com/graphhopper/graphhopper/pull/2896.patch",
+                    "merged_at": null
+                },
+                "body": "The indentation of our config example was inconsistent.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/comments/1780708084",
+                "html_url": "https://github.com/graphhopper/graphhopper/pull/2896#issuecomment-1780708084",
+                "issue_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896",
+                "id": 1780708084,
+                "node_id": "IC_kwDOADUcWs5qI3L0",
+                "user": {
+                    "login": "otbutz",
+                    "id": 22315436,
+                    "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/otbutz",
+                    "html_url": "https://github.com/otbutz",
+                    "followers_url": "https://api.github.com/users/otbutz/followers",
+                    "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                    "repos_url": "https://api.github.com/users/otbutz/repos",
+                    "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T09:04:19Z",
+                "updated_at": "2023-10-26T09:04:19Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "I only changed the profiles section for consistency. The rest is the real problem here:\r\n\r\n![image](https://github.com/graphhopper/graphhopper/assets/22315436/1c4d24bd-1140-43a3-b07a-8ee07e699f54)\r\n\r\nMaybe I'm partly to blame for this mess:\r\n\r\nhttps://github.com/graphhopper/graphhopper/blob/a5ac0e43bd32283f546da7f24136da3defed6ed9/.editorconfig#L8\r\n\r\nThe indent_size should be changed for yml files.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/comments/1780708084/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:04:20Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32858778798",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22442035,
+            "login": "KangZehui",
+            "display_login": "KangZehui",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/KangZehui",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22442035?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:11:00Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32853102256",
+        "type": "PushEvent",
+        "actor": {
+            "id": 520916,
+            "login": "michaz",
+            "display_login": "michaz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/michaz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/520916?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "repository_id": 3480666,
+            "push_id": 15568907580,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a5ac0e43bd32283f546da7f24136da3defed6ed9",
+            "before": "7e0d17a79165146df1b6f09d4ccf1d356e2fced2",
+            "commits": [
+                {
+                    "sha": "a5ac0e43bd32283f546da7f24136da3defed6ed9",
+                    "author": {
+                        "email": "michael.zilske@tu-berlin.de",
+                        "name": "Michael Zilske"
+                    },
+                    "message": "dont throw up when 0 timesteps",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/a5ac0e43bd32283f546da7f24136da3defed6ed9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T00:56:34Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32844904171",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 904117,
+            "login": "timartlaw",
+            "display_login": "timartlaw",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/timartlaw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/904117?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:56:33Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32843040152",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 520916,
+            "login": "michaz",
+            "display_login": "michaz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/michaz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/520916?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709916959,
+                "node_id": "R_kgDOKlB5Hw",
+                "name": "graphhopper-matrix",
+                "full_name": "michaz/graphhopper-matrix",
+                "private": false,
+                "owner": {
+                    "login": "michaz",
+                    "id": 520916,
+                    "node_id": "MDQ6VXNlcjUyMDkxNg==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/520916?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/michaz",
+                    "html_url": "https://github.com/michaz",
+                    "followers_url": "https://api.github.com/users/michaz/followers",
+                    "following_url": "https://api.github.com/users/michaz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/michaz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/michaz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/michaz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/michaz/orgs",
+                    "repos_url": "https://api.github.com/users/michaz/repos",
+                    "events_url": "https://api.github.com/users/michaz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/michaz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/michaz/graphhopper-matrix",
+                "description": "Open source routing engine for OpenStreetMap. Use it as Java library or standalone web server.",
+                "fork": true,
+                "url": "https://api.github.com/repos/michaz/graphhopper-matrix",
+                "forks_url": "https://api.github.com/repos/michaz/graphhopper-matrix/forks",
+                "keys_url": "https://api.github.com/repos/michaz/graphhopper-matrix/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/michaz/graphhopper-matrix/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/michaz/graphhopper-matrix/teams",
+                "hooks_url": "https://api.github.com/repos/michaz/graphhopper-matrix/hooks",
+                "issue_events_url": "https://api.github.com/repos/michaz/graphhopper-matrix/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/michaz/graphhopper-matrix/events",
+                "assignees_url": "https://api.github.com/repos/michaz/graphhopper-matrix/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/michaz/graphhopper-matrix/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/michaz/graphhopper-matrix/tags",
+                "blobs_url": "https://api.github.com/repos/michaz/graphhopper-matrix/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/michaz/graphhopper-matrix/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/michaz/graphhopper-matrix/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/michaz/graphhopper-matrix/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/michaz/graphhopper-matrix/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/michaz/graphhopper-matrix/languages",
+                "stargazers_url": "https://api.github.com/repos/michaz/graphhopper-matrix/stargazers",
+                "contributors_url": "https://api.github.com/repos/michaz/graphhopper-matrix/contributors",
+                "subscribers_url": "https://api.github.com/repos/michaz/graphhopper-matrix/subscribers",
+                "subscription_url": "https://api.github.com/repos/michaz/graphhopper-matrix/subscription",
+                "commits_url": "https://api.github.com/repos/michaz/graphhopper-matrix/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/michaz/graphhopper-matrix/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/michaz/graphhopper-matrix/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/michaz/graphhopper-matrix/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/michaz/graphhopper-matrix/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/michaz/graphhopper-matrix/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/michaz/graphhopper-matrix/merges",
+                "archive_url": "https://api.github.com/repos/michaz/graphhopper-matrix/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/michaz/graphhopper-matrix/downloads",
+                "issues_url": "https://api.github.com/repos/michaz/graphhopper-matrix/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/michaz/graphhopper-matrix/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/michaz/graphhopper-matrix/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/michaz/graphhopper-matrix/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/michaz/graphhopper-matrix/labels{/name}",
+                "releases_url": "https://api.github.com/repos/michaz/graphhopper-matrix/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/michaz/graphhopper-matrix/deployments",
+                "created_at": "2023-10-25T16:44:08Z",
+                "updated_at": "2023-10-25T16:44:08Z",
+                "pushed_at": "2023-10-24T16:31:21Z",
+                "git_url": "git://github.com/michaz/graphhopper-matrix.git",
+                "ssh_url": "git@github.com:michaz/graphhopper-matrix.git",
+                "clone_url": "https://github.com/michaz/graphhopper-matrix.git",
+                "svn_url": "https://github.com/michaz/graphhopper-matrix",
+                "homepage": "https://www.graphhopper.com/open-source/",
+                "size": 134865,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:44:08Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32831075311",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 22315436,
+            "login": "otbutz",
+            "display_login": "otbutz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/otbutz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22315436?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2897",
+                "repository_url": "https://api.github.com/repos/graphhopper/graphhopper",
+                "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2897/labels{/name}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2897/comments",
+                "events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2897/events",
+                "html_url": "https://github.com/graphhopper/graphhopper/issues/2897",
+                "id": 1961043600,
+                "node_id": "I_kwDOADUcWs504yaQ",
+                "number": 2897,
+                "title": "CarAverageSpeedParser should use estimated max speed",
+                "user": {
+                    "login": "otbutz",
+                    "id": 22315436,
+                    "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/otbutz",
+                    "html_url": "https://github.com/otbutz",
+                    "followers_url": "https://api.github.com/users/otbutz/followers",
+                    "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                    "repos_url": "https://api.github.com/users/otbutz/repos",
+                    "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T10:17:13Z",
+                "updated_at": "2023-10-25T10:17:13Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "The `MaxSpeedCalculator` is currently called in `GraphHopper.postImport()` to fill in the missing max_speed values. This is too late for the values to be picked up by the `CarAverageSpeedParser`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2897/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2897/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:17:14Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32809894723",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 22315436,
+            "login": "otbutz",
+            "display_login": "otbutz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/otbutz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22315436?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 2896,
+            "pull_request": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896",
+                "id": 1571377243,
+                "node_id": "PR_kwDOADUcWs5dqVBb",
+                "html_url": "https://github.com/graphhopper/graphhopper/pull/2896",
+                "diff_url": "https://github.com/graphhopper/graphhopper/pull/2896.diff",
+                "patch_url": "https://github.com/graphhopper/graphhopper/pull/2896.patch",
+                "issue_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896",
+                "number": 2896,
+                "state": "open",
+                "locked": false,
+                "title": "Fix indentation",
+                "user": {
+                    "login": "otbutz",
+                    "id": 22315436,
+                    "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/otbutz",
+                    "html_url": "https://github.com/otbutz",
+                    "followers_url": "https://api.github.com/users/otbutz/followers",
+                    "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                    "repos_url": "https://api.github.com/users/otbutz/repos",
+                    "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Please read [our contributing guide](https://github.com/graphhopper/graphhopper/blob/master/CONTRIBUTING.md) and note that also your contribution falls under the Apache License 2.0 as outlined there.\r\n\r\nYour first contribution should include a change where you add yourself to the CONTRIBUTORS.md file.\r\n",
+                "created_at": "2023-10-24T16:28:48Z",
+                "updated_at": "2023-10-24T16:28:48Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": true,
+                "commits_url": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896/commits",
+                "review_comments_url": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896/comments",
+                "review_comment_url": "https://api.github.com/repos/graphhopper/graphhopper/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/comments",
+                "statuses_url": "https://api.github.com/repos/graphhopper/graphhopper/statuses/becfa53ce57ea2c9514b434c4dcf79718f30a1c3",
+                "head": {
+                    "label": "otbutz:patch-3",
+                    "ref": "patch-3",
+                    "sha": "becfa53ce57ea2c9514b434c4dcf79718f30a1c3",
+                    "user": {
+                        "login": "otbutz",
+                        "id": 22315436,
+                        "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/otbutz",
+                        "html_url": "https://github.com/otbutz",
+                        "followers_url": "https://api.github.com/users/otbutz/followers",
+                        "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                        "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                        "repos_url": "https://api.github.com/users/otbutz/repos",
+                        "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 204879895,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyMDQ4Nzk4OTU=",
+                        "name": "graphhopper",
+                        "full_name": "otbutz/graphhopper",
+                        "private": false,
+                        "owner": {
+                            "login": "otbutz",
+                            "id": 22315436,
+                            "node_id": "MDQ6VXNlcjIyMzE1NDM2",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/22315436?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/otbutz",
+                            "html_url": "https://github.com/otbutz",
+                            "followers_url": "https://api.github.com/users/otbutz/followers",
+                            "following_url": "https://api.github.com/users/otbutz/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/otbutz/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/otbutz/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/otbutz/subscriptions",
+                            "organizations_url": "https://api.github.com/users/otbutz/orgs",
+                            "repos_url": "https://api.github.com/users/otbutz/repos",
+                            "events_url": "https://api.github.com/users/otbutz/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/otbutz/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/otbutz/graphhopper",
+                        "description": "An open source route planning library and server using OpenStreetMap.",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/otbutz/graphhopper",
+                        "forks_url": "https://api.github.com/repos/otbutz/graphhopper/forks",
+                        "keys_url": "https://api.github.com/repos/otbutz/graphhopper/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/otbutz/graphhopper/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/otbutz/graphhopper/teams",
+                        "hooks_url": "https://api.github.com/repos/otbutz/graphhopper/hooks",
+                        "issue_events_url": "https://api.github.com/repos/otbutz/graphhopper/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/otbutz/graphhopper/events",
+                        "assignees_url": "https://api.github.com/repos/otbutz/graphhopper/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/otbutz/graphhopper/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/otbutz/graphhopper/tags",
+                        "blobs_url": "https://api.github.com/repos/otbutz/graphhopper/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/otbutz/graphhopper/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/otbutz/graphhopper/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/otbutz/graphhopper/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/otbutz/graphhopper/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/otbutz/graphhopper/languages",
+                        "stargazers_url": "https://api.github.com/repos/otbutz/graphhopper/stargazers",
+                        "contributors_url": "https://api.github.com/repos/otbutz/graphhopper/contributors",
+                        "subscribers_url": "https://api.github.com/repos/otbutz/graphhopper/subscribers",
+                        "subscription_url": "https://api.github.com/repos/otbutz/graphhopper/subscription",
+                        "commits_url": "https://api.github.com/repos/otbutz/graphhopper/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/otbutz/graphhopper/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/otbutz/graphhopper/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/otbutz/graphhopper/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/otbutz/graphhopper/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/otbutz/graphhopper/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/otbutz/graphhopper/merges",
+                        "archive_url": "https://api.github.com/repos/otbutz/graphhopper/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/otbutz/graphhopper/downloads",
+                        "issues_url": "https://api.github.com/repos/otbutz/graphhopper/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/otbutz/graphhopper/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/otbutz/graphhopper/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/otbutz/graphhopper/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/otbutz/graphhopper/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/otbutz/graphhopper/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/otbutz/graphhopper/deployments",
+                        "created_at": "2019-08-28T08:03:59Z",
+                        "updated_at": "2022-10-31T15:07:50Z",
+                        "pushed_at": "2023-10-24T16:27:57Z",
+                        "git_url": "git://github.com/otbutz/graphhopper.git",
+                        "ssh_url": "git@github.com:otbutz/graphhopper.git",
+                        "clone_url": "https://github.com/otbutz/graphhopper.git",
+                        "svn_url": "https://github.com/otbutz/graphhopper",
+                        "homepage": "https://www.graphhopper.com/open-source/",
+                        "size": 108661,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "Java",
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "graphhopper:master",
+                    "ref": "master",
+                    "sha": "7e0d17a79165146df1b6f09d4ccf1d356e2fced2",
+                    "user": {
+                        "login": "graphhopper",
+                        "id": 2264498,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyNjQ0OTg=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/2264498?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/graphhopper",
+                        "html_url": "https://github.com/graphhopper",
+                        "followers_url": "https://api.github.com/users/graphhopper/followers",
+                        "following_url": "https://api.github.com/users/graphhopper/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/graphhopper/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/graphhopper/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/graphhopper/subscriptions",
+                        "organizations_url": "https://api.github.com/users/graphhopper/orgs",
+                        "repos_url": "https://api.github.com/users/graphhopper/repos",
+                        "events_url": "https://api.github.com/users/graphhopper/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/graphhopper/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 3480666,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkzNDgwNjY2",
+                        "name": "graphhopper",
+                        "full_name": "graphhopper/graphhopper",
+                        "private": false,
+                        "owner": {
+                            "login": "graphhopper",
+                            "id": 2264498,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyNjQ0OTg=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/graphhopper",
+                            "html_url": "https://github.com/graphhopper",
+                            "followers_url": "https://api.github.com/users/graphhopper/followers",
+                            "following_url": "https://api.github.com/users/graphhopper/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/graphhopper/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/graphhopper/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/graphhopper/subscriptions",
+                            "organizations_url": "https://api.github.com/users/graphhopper/orgs",
+                            "repos_url": "https://api.github.com/users/graphhopper/repos",
+                            "events_url": "https://api.github.com/users/graphhopper/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/graphhopper/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/graphhopper/graphhopper",
+                        "description": "Open source routing engine for OpenStreetMap. Use it as Java library or standalone web server.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/graphhopper/graphhopper",
+                        "forks_url": "https://api.github.com/repos/graphhopper/graphhopper/forks",
+                        "keys_url": "https://api.github.com/repos/graphhopper/graphhopper/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/graphhopper/graphhopper/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/graphhopper/graphhopper/teams",
+                        "hooks_url": "https://api.github.com/repos/graphhopper/graphhopper/hooks",
+                        "issue_events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/graphhopper/graphhopper/events",
+                        "assignees_url": "https://api.github.com/repos/graphhopper/graphhopper/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/graphhopper/graphhopper/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/graphhopper/graphhopper/tags",
+                        "blobs_url": "https://api.github.com/repos/graphhopper/graphhopper/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/graphhopper/graphhopper/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/graphhopper/graphhopper/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/graphhopper/graphhopper/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/graphhopper/graphhopper/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/graphhopper/graphhopper/languages",
+                        "stargazers_url": "https://api.github.com/repos/graphhopper/graphhopper/stargazers",
+                        "contributors_url": "https://api.github.com/repos/graphhopper/graphhopper/contributors",
+                        "subscribers_url": "https://api.github.com/repos/graphhopper/graphhopper/subscribers",
+                        "subscription_url": "https://api.github.com/repos/graphhopper/graphhopper/subscription",
+                        "commits_url": "https://api.github.com/repos/graphhopper/graphhopper/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/graphhopper/graphhopper/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/graphhopper/graphhopper/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/graphhopper/graphhopper/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/graphhopper/graphhopper/merges",
+                        "archive_url": "https://api.github.com/repos/graphhopper/graphhopper/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/graphhopper/graphhopper/downloads",
+                        "issues_url": "https://api.github.com/repos/graphhopper/graphhopper/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/graphhopper/graphhopper/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/graphhopper/graphhopper/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/graphhopper/graphhopper/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/graphhopper/graphhopper/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/graphhopper/graphhopper/deployments",
+                        "created_at": "2012-02-18T19:57:38Z",
+                        "updated_at": "2023-10-24T10:24:32Z",
+                        "pushed_at": "2023-10-24T16:28:49Z",
+                        "git_url": "git://github.com/graphhopper/graphhopper.git",
+                        "ssh_url": "git@github.com:graphhopper/graphhopper.git",
+                        "clone_url": "https://github.com/graphhopper/graphhopper.git",
+                        "svn_url": "https://github.com/graphhopper/graphhopper",
+                        "homepage": "https://www.graphhopper.com/open-source/",
+                        "size": 134865,
+                        "stargazers_count": 4362,
+                        "watchers_count": 4362,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 1452,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 225,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "astar",
+                            "dijkstra",
+                            "directions",
+                            "geospatial",
+                            "graphhopper",
+                            "isochrones",
+                            "java",
+                            "map-matching",
+                            "openstreetmap",
+                            "pathfinding",
+                            "public-transportation",
+                            "routing",
+                            "routing-engine"
+                        ],
+                        "visibility": "public",
+                        "forks": 1452,
+                        "open_issues": 225,
+                        "watchers": 4362,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896"
+                    },
+                    "html": {
+                        "href": "https://github.com/graphhopper/graphhopper/pull/2896"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/graphhopper/graphhopper/issues/2896/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/graphhopper/graphhopper/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/graphhopper/graphhopper/pulls/2896/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/graphhopper/graphhopper/statuses/becfa53ce57ea2c9514b434c4dcf79718f30a1c3"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": true,
+                "commits": 1,
+                "additions": 32,
+                "deletions": 32,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-24T16:28:50Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32799746700",
+        "type": "PushEvent",
+        "actor": {
+            "id": 17603532,
+            "login": "easbar",
+            "display_login": "easbar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/easbar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17603532?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "repository_id": 3480666,
+            "push_id": 15542444741,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/custom_exp",
+            "head": "fb909d95a7f07607635931b1b7c89463770d6187",
+            "before": "7bad57e0f8c357e5024e4f8b84dfc2288e85bbac",
+            "commits": [
+                {
+                    "sha": "fb909d95a7f07607635931b1b7c89463770d6187",
+                    "author": {
+                        "email": "easbar.mail@posteo.net",
+                        "name": "easbar"
+                    },
+                    "message": "speed",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/fb909d95a7f07607635931b1b7c89463770d6187"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T10:40:58Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32799331558",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7317712,
+            "login": "houcros",
+            "display_login": "houcros",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/houcros",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7317712?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T10:24:32Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32791626860",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 91839365,
+            "login": "alicia-lyu",
+            "display_login": "alicia-lyu",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alicia-lyu",
+            "avatar_url": "https://avatars.githubusercontent.com/u/91839365?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T04:26:06Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32790558048",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 558808,
+            "login": "alwayrun",
+            "display_login": "alwayrun",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alwayrun",
+            "avatar_url": "https://avatars.githubusercontent.com/u/558808?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-24T03:04:06Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32788894667",
+        "type": "PushEvent",
+        "actor": {
+            "id": 520916,
+            "login": "michaz",
+            "display_login": "michaz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/michaz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/520916?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "repository_id": 3480666,
+            "push_id": 15536983173,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/patterns",
+            "head": "99682c42c3df04226349421c82c44fa0474eedb4",
+            "before": "68f39560466183fe5c053810515c21906689d18e",
+            "commits": [
+                {
+                    "sha": "99682c42c3df04226349421c82c44fa0474eedb4",
+                    "author": {
+                        "email": "michael.zilske@tu-berlin.de",
+                        "name": "Michael Zilske"
+                    },
+                    "message": "\"hot\"-fix loading order",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/99682c42c3df04226349421c82c44fa0474eedb4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T01:05:36Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32780866244",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 22458948,
+            "login": "felipemendes1994",
+            "display_login": "felipemendes1994",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/felipemendes1994",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22458948?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2895",
+                "repository_url": "https://api.github.com/repos/graphhopper/graphhopper",
+                "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2895/labels{/name}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2895/comments",
+                "events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2895/events",
+                "html_url": "https://github.com/graphhopper/graphhopper/issues/2895",
+                "id": 1957732505,
+                "node_id": "I_kwDOADUcWs50sKCZ",
+                "number": 2895,
+                "title": "Could not create weighting for profile: 'truck'",
+                "user": {
+                    "login": "felipemendes1994",
+                    "id": 22458948,
+                    "node_id": "MDQ6VXNlcjIyNDU4OTQ4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22458948?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/felipemendes1994",
+                    "html_url": "https://github.com/felipemendes1994",
+                    "followers_url": "https://api.github.com/users/felipemendes1994/followers",
+                    "following_url": "https://api.github.com/users/felipemendes1994/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/felipemendes1994/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/felipemendes1994/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/felipemendes1994/subscriptions",
+                    "organizations_url": "https://api.github.com/users/felipemendes1994/orgs",
+                    "repos_url": "https://api.github.com/users/felipemendes1994/repos",
+                    "events_url": "https://api.github.com/users/felipemendes1994/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/felipemendes1994/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-23T18:09:56Z",
+                "updated_at": "2023-10-23T18:09:56Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello, \r\n\r\nI'm trying to run Graph Hopper in my k8s cluster, and I just changed to 8 version, and I've been facing a problem when trying to compile my PBF for the new version.\r\n\r\nI'm receiving the following error:\r\n```\r\njava.lang.IllegalArgumentException: Could not create weighting for profile: 'truck'.\r\nProfile: name=truck|vehicle=roads|weighting=custom|turnCosts=false|hints={custom_model_files=[truck.json], custom_model=distanceInfluence=1.0|headingPenalty=null|speedStatements=[{\"if\": \"true\", \"limit_to\": car_average_speed * 0.9}, {\"if\": \"true\", \"limit_to\": 95}]|priorityStatements=[{\"if\": \"road_access == PRIVATE\", \"multiply_by\": 0}, {\"if\": \"car_access == false || hgv == NO || max_width < 3 || max_height < 4\", \"multiply_by\": 0}]|areas=[]}\r\nError: Cannot compile expression: priority entry invalid condition \"car_access == false || hgv == NO || max_width < 3 || max_height < 4\": 'hgv' not available\r\n\tat com.graphhopper.GraphHopper.checkProfilesConsistency(GraphHopper.java:1122)\r\n\tat com.graphhopper.GraphHopper.process(GraphHopper.java:881)\r\n\tat com.graphhopper.GraphHopper.importOrLoad(GraphHopper.java:840)\r\n\tat com.graphhopper.http.GraphHopperManaged.start(GraphHopperManaged.java:44)\r\n\tat io.dropwizard.lifecycle.JettyManaged.doStart(JettyManaged.java:27)\r\n\tat org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)\r\n\tat org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)\r\n\tat org.eclipse.jetty.server.Server.start(Server.java:423)\r\n\tat org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)\r\n\tat org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)\r\n\tat org.eclipse.jetty.server.Server.doStart(Server.java:387)\r\n\tat org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)\r\n\tat io.dropwizard.cli.ServerCommand.run(ServerCommand.java:52)\r\n\tat io.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:68)\r\n\tat io.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:98)\r\n\tat io.dropwizard.cli.Cli.run(Cli.java:78)\r\n\tat io.dropwizard.Application.run(Application.java:94)\r\n\tat com.graphhopper.application.GraphHopperApplication.main(GraphHopperApplication.java:38)\r\n```\r\n\r\nI browsed into other issues here on GitHub, but non helped me.\r\n\r\nHere it is my config.yml file:\r\n```yml\r\ngraphhopper:\r\n    datareader.file: \"\"\r\n    graph.location: graph-cache\r\n    custom_models.directory: /graphhopper/profiles\r\n    profiles:\r\n    - name: car\r\n        vehicle: car\r\n        custom_model:\r\n        distance_influence: 70\r\n    - name: truck\r\n        vehicle: roads\r\n        weighting: custom\r\n        custom_model_files: [ truck.json ]\r\n    profiles_ch:\r\n    - profile: car\r\n    - profile: truck\r\n    profiles_lm: []\r\n    prepare.subnetworks.threads: 1\r\n    routing.non_ch.max_waypoint_distance: 1000000\r\n    import.osm.ignored_highways: footway,cycleway,path,pedestrian,steps\r\n    graph.dataaccess.default_type: RAM_STORE\r\n    graph.flag_encoders: roads|hgv=true\r\nserver:\r\n    application_connectors:\r\n    - type: http\r\n    port: 8989\r\n    bind_host: localhost\r\n    max_request_header_size: 50k\r\n    request_log:\r\n        appenders: []\r\n    admin_connectors:\r\n    - type: http\r\n    port: 8990\r\n    bind_host: localhost\r\nlogging:\r\n    appenders:\r\n    - type: file\r\n        time_zone: UTC\r\n        current_log_filename: logs/graphhopper.log\r\n        log_format: \"%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n\"\r\n        archive: true\r\n        archived_log_filename_pattern: ./logs/graphhopper-%d.log.gz\r\n        archived_file_count: 30\r\n        never_block: true\r\n    - type: console\r\n        time_zone: UTC\r\n        log_format: \"%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n\"\r\n    loggers:\r\n    \"com.graphhopper.osm_warnings\":\r\n        level: DEBUG\r\n        additive: false\r\n        appenders:\r\n        - type: file\r\n            currentLogFilename: logs/osm_warnings.log\r\n            archive: false\r\n            logFormat: '[%level] %msg%n'\r\n```\r\n\r\nthe truck.json file that I placed in my graphopper, [is exactly the same in this repo](https://github.com/graphhopper/graphhopper/blob/master/core/src/main/resources/com/graphhopper/custom_models/truck.json). When I was using version 7, this problem did not occur.\r\n\r\nCan sameone help me, please?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2895/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2895/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T18:09:58Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32777869872",
+        "type": "PushEvent",
+        "actor": {
+            "id": 17603532,
+            "login": "easbar",
+            "display_login": "easbar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/easbar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17603532?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "repository_id": 3480666,
+            "push_id": 15531518036,
+            "size": 8,
+            "distinct_size": 1,
+            "ref": "refs/heads/custom_exp",
+            "head": "7bad57e0f8c357e5024e4f8b84dfc2288e85bbac",
+            "before": "a61c072c0a11f7cab010c998fc55c7b3a5e88f9d",
+            "commits": [
+                {
+                    "sha": "1e224ae6bb1807ebc5037fb8de07c4f7cfaee749",
+                    "author": {
+                        "email": "graphhopper@gmx.de",
+                        "name": "Peter"
+                    },
+                    "message": "8.0 release - change readme",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/1e224ae6bb1807ebc5037fb8de07c4f7cfaee749"
+                },
+                {
+                    "sha": "c4fcb402dbc6407613be4ad7c1f165ec83b081fb",
+                    "author": {
+                        "email": "graphhopper@gmx.de",
+                        "name": "Peter"
+                    },
+                    "message": "9.0-SNAPSHOT",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/c4fcb402dbc6407613be4ad7c1f165ec83b081fb"
+                },
+                {
+                    "sha": "aa2ffd42999513cca9fc2fd8104486973430227e",
+                    "author": {
+                        "email": "graphhopper@gmx.de",
+                        "name": "Peter"
+                    },
+                    "message": "changelog: set release date",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/aa2ffd42999513cca9fc2fd8104486973430227e"
+                },
+                {
+                    "sha": "c721fa322f448976355951504525353d36bd6c36",
+                    "author": {
+                        "email": "graphhopper@gmx.de",
+                        "name": "Peter"
+                    },
+                    "message": "move to JDK17 (#2827)\n\n* move to JDK17\r\n\r\n* Update pom.xml\r\n\r\nCo-authored-by: otbutz <tbutz@optitool.de>\r\n\r\n* simplify cleanMappedByteBuffer\r\n\r\n---------\r\n\r\nCo-authored-by: otbutz <tbutz@optitool.de>",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/c721fa322f448976355951504525353d36bd6c36"
+                },
+                {
+                    "sha": "2fc9f1994887b400240b3320f705149cfacad780",
+                    "author": {
+                        "email": "graphhopper@gmx.de",
+                        "name": "Peter"
+                    },
+                    "message": "appveyor should use jdk17 too, #2827",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/2fc9f1994887b400240b3320f705149cfacad780"
+                },
+                {
+                    "sha": "d2b8596b8fd185ab0cf5229ca912407efe8847db",
+                    "author": {
+                        "email": "easbar.mail@posteo.net",
+                        "name": "Andi"
+                    },
+                    "message": "Remove hidden evs (#2891)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/d2b8596b8fd185ab0cf5229ca912407efe8847db"
+                },
+                {
+                    "sha": "4be9ffc2c7b256ae6fbb952ad70b3759fc708f42",
+                    "author": {
+                        "email": "easbar.mail@posteo.net",
+                        "name": "Andi"
+                    },
+                    "message": "Allow querying for arbitrary geometry in location index (#2890)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/4be9ffc2c7b256ae6fbb952ad70b3759fc708f42"
+                },
+                {
+                    "sha": "7bad57e0f8c357e5024e4f8b84dfc2288e85bbac",
+                    "author": {
+                        "email": "easbar.mail@posteo.net",
+                        "name": "easbar"
+                    },
+                    "message": "Merge branch 'master' into custom_exp",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/commits/7bad57e0f8c357e5024e4f8b84dfc2288e85bbac"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-23T16:13:43Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32763927320",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 32765578,
+            "login": "lukasalexanderweber",
+            "display_login": "lukasalexanderweber",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lukasalexanderweber",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32765578?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2894",
+                "repository_url": "https://api.github.com/repos/graphhopper/graphhopper",
+                "labels_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2894/labels{/name}",
+                "comments_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2894/comments",
+                "events_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2894/events",
+                "html_url": "https://github.com/graphhopper/graphhopper/issues/2894",
+                "id": 1956620758,
+                "node_id": "I_kwDOADUcWs50n6nW",
+                "number": 2894,
+                "title": "Setting a EncodedValueFactory fails if the EnumEncodedValue class is not within `com.graphhopper.routing.ev` package",
+                "user": {
+                    "login": "lukasalexanderweber",
+                    "id": 32765578,
+                    "node_id": "MDQ6VXNlcjMyNzY1NTc4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/32765578?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lukasalexanderweber",
+                    "html_url": "https://github.com/lukasalexanderweber",
+                    "followers_url": "https://api.github.com/users/lukasalexanderweber/followers",
+                    "following_url": "https://api.github.com/users/lukasalexanderweber/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lukasalexanderweber/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lukasalexanderweber/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lukasalexanderweber/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lukasalexanderweber/orgs",
+                    "repos_url": "https://api.github.com/users/lukasalexanderweber/repos",
+                    "events_url": "https://api.github.com/users/lukasalexanderweber/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lukasalexanderweber/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-23T08:23:51Z",
+                "updated_at": "2023-10-23T08:23:51Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "**Describe the bug**\r\nI needed some time to understand that setting a EncodedValueFactory fails if the EnumEncodedValue class is not within `com.graphhopper.routing.ev` package.\r\nhttps://github.com/graphhopper/graphhopper/blob/7e0d17a79165146df1b6f09d4ccf1d356e2fced2/core/src/main/java/com/graphhopper/routing/weighting/custom/CustomModelParser.java#L283\r\n\r\n**To Reproduce**\r\n\r\nCreate a package `com.test.publictransport` with an EncodedValueFactory:\r\n\r\n```\r\npublic class BusEncodedValueFactory extends DefaultEncodedValueFactory {\r\n\r\n\tpublic BusEncodedValueFactory() {\r\n\t\tsuper();\r\n\t}\r\n\r\n\t@Override\r\n\tpublic EncodedValue create(String name, PMap properties) {\r\n\t\tif (Bus.KEY.equals(name)) {\r\n\t\t\treturn new EnumEncodedValue<>(Bus.KEY, Bus.class);\r\n\t\t}  else {\r\n\t\t\treturn super.create(name, properties);\r\n\t\t}\r\n\r\n\t}\r\n}\r\n```\r\n\r\nand a `Bus` Enum:\r\n\r\n```\r\npublic enum Bus {\r\n\tMISSING, YES, DESIGNATED, DESTINATION, NO;\r\n\r\n\tpublic static final String KEY = \"bus\";\r\n\r\n\tpublic static EnumEncodedValue<Bus> create() {\r\n\t\treturn new EnumEncodedValue<>(Bus.KEY, Bus.class);\r\n\t}\r\n\r\n\t@Override\r\n\tpublic String toString() {\r\n\t\treturn Helper.toLowerCase(super.toString());\r\n\t}\r\n\r\n\tpublic static Bus find(String name) {\r\n\t\tif (name == null)\r\n\t\t\treturn MISSING;\r\n\t\ttry {\r\n\t\t\treturn Bus.valueOf(Helper.toUpperCase(name));\r\n\t\t} catch (IllegalArgumentException ex) {\r\n\t\t\treturn MISSING;\r\n\t\t}\r\n\t}\r\n}\r\n```\r\n\r\n\r\nIf you set a `BusEncodedValueFactory` instance via `hopper.setEncodedValueFactory` you should get the following error:\r\n\r\n`java.lang.IllegalStateException: Could not deserialize encoded value: {\"className\":\"com.graphhopper.routing.ev.EnumEncodedValue\",\"name\":\"bus\",\"bits\":3,\"min_storable_value\":0,\"max_storable_value\":7,\"max_value\":4,\"negate_reverse_direction\":false,\"store_two_directions\":false,\"fwd_data_index\":2,\"bwd_data_index\":0,\"fwd_shift\":8,\"bwd_shift\":-1,\"fwd_mask\":1792,\"bwd_mask\":0,\"enum_type\":\"com.graphhopper.routing.ev.Bus\"}, error: Cannot construct instance of `java.lang.Class`, problem: com.graphhopper.routing.ev.Bus`\r\n\r\n**Expected behavior**\r\n\r\n- the factory should be loaded correctly OR \r\n- it should be documented e.g. in `setEncodedValueFactory` that you have to place the enums into `com.graphhopper.routing.ev` OR\r\n- give the user the possibility to specify another location for Janino imports\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2894/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/graphhopper/graphhopper/issues/2894/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T08:23:53Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32758367944",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 3241146,
+            "login": "aiddroid",
+            "display_login": "aiddroid",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/aiddroid",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3241146?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T02:59:18Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32757174953",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14291641,
+            "login": "wshunvx",
+            "display_login": "wshunvx",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wshunvx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14291641?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T01:23:15Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32753144066",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 37148546,
+            "login": "robertionut95b",
+            "display_login": "robertionut95b",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/robertionut95b",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37148546?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T16:50:57Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32751835223",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22128729,
+            "login": "Shikhar03Stark",
+            "display_login": "Shikhar03Stark",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Shikhar03Stark",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22128729?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T14:14:39Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32746482596",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 17958776,
+            "login": "Kennethguerra3",
+            "display_login": "Kennethguerra3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Kennethguerra3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17958776?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "forkee": {
+                "id": 708241673,
+                "node_id": "R_kgDOKjbpCQ",
+                "name": "graphhopper",
+                "full_name": "Kennethguerra3/graphhopper",
+                "private": false,
+                "owner": {
+                    "login": "Kennethguerra3",
+                    "id": 17958776,
+                    "node_id": "MDQ6VXNlcjE3OTU4Nzc2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/17958776?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Kennethguerra3",
+                    "html_url": "https://github.com/Kennethguerra3",
+                    "followers_url": "https://api.github.com/users/Kennethguerra3/followers",
+                    "following_url": "https://api.github.com/users/Kennethguerra3/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Kennethguerra3/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Kennethguerra3/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Kennethguerra3/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Kennethguerra3/orgs",
+                    "repos_url": "https://api.github.com/users/Kennethguerra3/repos",
+                    "events_url": "https://api.github.com/users/Kennethguerra3/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Kennethguerra3/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/Kennethguerra3/graphhopper",
+                "description": "Open source routing engine for OpenStreetMap. Use it as Java library or standalone web server.",
+                "fork": true,
+                "url": "https://api.github.com/repos/Kennethguerra3/graphhopper",
+                "forks_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/forks",
+                "keys_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/teams",
+                "hooks_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/hooks",
+                "issue_events_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/events",
+                "assignees_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/tags",
+                "blobs_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/languages",
+                "stargazers_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/stargazers",
+                "contributors_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/contributors",
+                "subscribers_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/subscribers",
+                "subscription_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/subscription",
+                "commits_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/merges",
+                "archive_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/downloads",
+                "issues_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/labels{/name}",
+                "releases_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/Kennethguerra3/graphhopper/deployments",
+                "created_at": "2023-10-22T00:27:09Z",
+                "updated_at": "2023-10-22T00:27:09Z",
+                "pushed_at": "2023-10-19T14:38:06Z",
+                "git_url": "git://github.com/Kennethguerra3/graphhopper.git",
+                "ssh_url": "git@github.com:Kennethguerra3/graphhopper.git",
+                "clone_url": "https://github.com/Kennethguerra3/graphhopper.git",
+                "svn_url": "https://github.com/Kennethguerra3/graphhopper",
+                "homepage": "https://www.graphhopper.com/open-source/",
+                "size": 135350,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-22T00:27:10Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32742158973",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 42138252,
+            "login": "RGdevlop",
+            "display_login": "RGdevlop",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/RGdevlop",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42138252?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T13:58:50Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32727954571",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 32356716,
+            "login": "Hw4Sw",
+            "display_login": "Hw4Sw",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hw4Sw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32356716?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T16:09:38Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32723957111",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 378938,
+            "login": "shirmanov",
+            "display_login": "shirmanov",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shirmanov",
+            "avatar_url": "https://avatars.githubusercontent.com/u/378938?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T13:46:18Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32711413001",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5792205,
+            "login": "chethanbandi",
+            "display_login": "chethanbandi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/chethanbandi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5792205?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T05:04:45Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32710044048",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 79208736,
+            "login": "vampire-droid",
+            "display_login": "vampire-droid",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/vampire-droid",
+            "avatar_url": "https://avatars.githubusercontent.com/u/79208736?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T03:17:06Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    },
+    {
+        "id": "32708660200",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 11960206,
+            "login": "jhd147350",
+            "display_login": "jhd147350",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jhd147350",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11960206?"
+        },
+        "repo": {
+            "id": 3480666,
+            "name": "graphhopper/graphhopper",
+            "url": "https://api.github.com/repos/graphhopper/graphhopper"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-20T01:32:36Z",
+        "org": {
+            "id": 2264498,
+            "login": "graphhopper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/graphhopper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2264498?"
+        }
+    }
+]

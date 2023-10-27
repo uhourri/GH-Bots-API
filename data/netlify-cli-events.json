@@ -1,0 +1,3170 @@
+[
+    {
+        "id": "32897381040",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4162329,
+            "login": "eduardoboucas",
+            "display_login": "eduardoboucas",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eduardoboucas",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4162329?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15591095499,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feat/blobs-context",
+            "head": "77eff2254a210fc5840a7dc33ac752d2df2a32f3",
+            "before": "ecb4a2aac65da2571566a23512db4d5d94123309",
+            "commits": [
+                {
+                    "sha": "77eff2254a210fc5840a7dc33ac752d2df2a32f3",
+                    "author": {
+                        "email": "mail@eduardoboucas.com",
+                        "name": "Eduardo Bou\u00e7as"
+                    },
+                    "message": "chore: add tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/77eff2254a210fc5840a7dc33ac752d2df2a32f3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:39:53Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32896681278",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4162329,
+            "login": "eduardoboucas",
+            "display_login": "eduardoboucas",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eduardoboucas",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4162329?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "ref": "feat/blobs-context",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Netlify Command Line Interface",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:10:30Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32882321343",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 184589,
+            "login": "yoniholmes",
+            "display_login": "yoniholmes",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/yoniholmes",
+            "avatar_url": "https://avatars.githubusercontent.com/u/184589?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/netlify/cli/issues/6096",
+                "repository_url": "https://api.github.com/repos/netlify/cli",
+                "labels_url": "https://api.github.com/repos/netlify/cli/issues/6096/labels{/name}",
+                "comments_url": "https://api.github.com/repos/netlify/cli/issues/6096/comments",
+                "events_url": "https://api.github.com/repos/netlify/cli/issues/6096/events",
+                "html_url": "https://github.com/netlify/cli/issues/6096",
+                "id": 1964394617,
+                "node_id": "I_kwDOAX6B3s51Fkh5",
+                "number": 6096,
+                "title": "The only header path supported is '/*'",
+                "user": {
+                    "login": "yoniholmes",
+                    "id": 184589,
+                    "node_id": "MDQ6VXNlcjE4NDU4OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/184589?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/yoniholmes",
+                    "html_url": "https://github.com/yoniholmes",
+                    "followers_url": "https://api.github.com/users/yoniholmes/followers",
+                    "following_url": "https://api.github.com/users/yoniholmes/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/yoniholmes/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/yoniholmes/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/yoniholmes/subscriptions",
+                    "organizations_url": "https://api.github.com/users/yoniholmes/orgs",
+                    "repos_url": "https://api.github.com/users/yoniholmes/repos",
+                    "events_url": "https://api.github.com/users/yoniholmes/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/yoniholmes/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1914147433,
+                        "node_id": "MDU6TGFiZWwxOTE0MTQ3NDMz",
+                        "url": "https://api.github.com/repos/netlify/cli/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "d73a4a",
+                        "default": false,
+                        "description": "code to address defects in shipped code"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T21:27:49Z",
+                "updated_at": "2023-10-26T21:27:49Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Describe the bug\n\nI lost several hours trying to apply custom headers for the path: `/es`, only no matter what I tried it failed.\r\n\r\nI tried:\r\n\r\n1. Swapping the order of header declarations\r\n2. Both `/es` and `/es/*`\r\n3. Both `_headers` and `netlify.toml` files\r\n4. All combinations of the above\r\n\r\nIn all cases, only `/*` was supported for returning headers of any kind, for any path.\r\n\r\nLater, I discovered the issues only occurred when running `netlify dev`. When I deploy to netlify the `/es/*` is honoured, and different headers are returned in my preview environment.\n\n### Steps to reproduce\n\n1. Create a `_headers` file.\r\n2. In the `_headers` file, create some HTTP headers for the path `/*`\r\n3. In the `_headers` file now create some HTTP headers for any other path\r\n4. Run your app locally via `netlify dev`\r\n5. Observe that only the `/*` headers are served, the other path headers are never returned.\n\n### Configuration\n\nNote this is the `_headers` file (with other headers removed)\r\n\r\n```\r\n/*\r\n  Content-Language: en\r\n\r\n/es/*\r\n  Content-Language: es\r\n```\r\n\r\nThe same issue occurred in my `netlify.toml` file if I tried it there (deleting `_headers` first):\r\n\r\n```\r\n# Default headers for all paths\r\n[[headers]]\r\n  for = \"/*\"\r\n  [headers.values]\r\n  Content-Language = \"en\"\r\n\r\n# Headers specifically for Spanish paths\r\n[[headers]]\r\n  for = \"/es/*\"\r\n  [headers.values]\r\n  Content-Language = \"es\"\r\n```\n\n### Environment\n\n  System:\r\n    OS: macOS 13.3.1\r\n    CPU: (4) x64 Intel(R) Core(TM) i7-7660U CPU @ 2.50GHz\r\n    Memory: 299.94 MB / 16.00 GB\r\n    Shell: 5.9 - /bin/zsh\r\n  Binaries:\r\n    Node: 16.15.0 - ~/.nvm/versions/node/v16.15.0/bin/node\r\n    npm: 8.5.5 - ~/.nvm/versions/node/v16.15.0/bin/npm\r\n  npmGlobalPackages:\r\n    netlify-cli: 16.9.2",
+                "reactions": {
+                    "url": "https://api.github.com/repos/netlify/cli/issues/6096/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/netlify/cli/issues/6096/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T21:27:50Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32880204221",
+        "type": "PushEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15582335817,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/dependabot/npm_and_yarn/crypto-js-4.2.0",
+            "head": "c88dcdb282b3a47bdd4387a5aaee056c3e31116b",
+            "before": "bb41a67c307e8ab329082390cb5d72a0daf649e1",
+            "commits": [
+                {
+                    "sha": "e6990b6b5f1123d47bdf015652e8380779061f0c",
+                    "author": {
+                        "email": "sarah.etter@netlify.com",
+                        "name": "Sarah Etter"
+                    },
+                    "message": "chore: remove unused dependencies (#6090)\n\nCo-authored-by: Karin Hendrikse <30577427+khendrikse@users.noreply.github.com>",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/e6990b6b5f1123d47bdf015652e8380779061f0c"
+                },
+                {
+                    "sha": "c88dcdb282b3a47bdd4387a5aaee056c3e31116b",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "chore(deps): bump crypto-js from 4.1.1 to 4.2.0\n\nBumps [crypto-js](https://github.com/brix/crypto-js) from 4.1.1 to 4.2.0.\n- [Commits](https://github.com/brix/crypto-js/compare/4.1.1...4.2.0)\n\n---\nupdated-dependencies:\n- dependency-name: crypto-js\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/c88dcdb282b3a47bdd4387a5aaee056c3e31116b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:48:13Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32880197947",
+        "type": "CommitCommentEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "comment": {
+                "url": "https://api.github.com/repos/netlify/cli/comments/131015463",
+                "html_url": "https://github.com/netlify/cli/commit/e6990b6b5f1123d47bdf015652e8380779061f0c#commitcomment-131015463",
+                "id": 131015463,
+                "node_id": "CC_kwDOAX6B3s4HzyMn",
+                "user": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "position": null,
+                "line": null,
+                "path": null,
+                "commit_id": "e6990b6b5f1123d47bdf015652e8380779061f0c",
+                "created_at": "2023-10-26T19:47:56Z",
+                "updated_at": "2023-10-26T19:47:56Z",
+                "author_association": "NONE",
+                "body": "## \ud83d\udcca Benchmark results\n\n- **Dependency count**: 1,665\n- **Package size**: 496 MB\n<!--delta:post-package-size@[{\"__commit\":\"e6990b6b5f1123d47bdf015652e8380779061f0c\",\"dependencyCount\":1665,\"packageSize\":495996},{\"__commit\":\"8a65ef35f07e8332c8f98b1b9ed8c78d682edfde\",\"dependencyCount\":1668,\"packageSize\":496588},{\"__commit\":\"1e78527a0bf463f81288567ff1be735d46b416e4\",\"dependencyCount\":1668,\"packageSize\":496588},{\"__commit\":\"a84d2ff3c57591e95ab38c630fd5b0c00cb77d6d\",\"dependencyCount\":1668,\"packageSize\":496592},{\"__commit\":\"8935ee67f8aac21fd893fde2728e6abd7326e5dc\",\"dependencyCount\":1668,\"packageSize\":496588},{\"__commit\":\"27e66103f491e4adfa22116b94e3e4f651136e09\",\"dependencyCount\":1668,\"packageSize\":496584},{\"__commit\":\"d78ec3bb19441eccb51f0814bec77d4318ebd291\",\"dependencyCount\":1656,\"packageSize\":480164},{\"__commit\":\"8dffc002d23ecb92446443f532ac1f3f36304b7e\",\"dependencyCount\":1656,\"packageSize\":480164},{\"__commit\":\"0fed4c1e9e19fd324eb76955f50a192aad388dce\",\"dependencyCount\":1655,\"packageSize\":479996},{\"__commit\":\"20d6fefebba72fb2a7d25e2ccbb2900c6c50dd8e\",\"dependencyCount\":1655,\"packageSize\":479988},{\"__commit\":\"f7518f9893c1aff53929396658d15b9ce43c83b6\",\"dependencyCount\":1655,\"packageSize\":479988},{\"__commit\":\"c46f2443d0be48828be8b54518921ba567ca32b6\",\"dependencyCount\":1654,\"packageSize\":477448},{\"__commit\":\"c868c7f3f41aff30441c12ba618976eaa9b88cdb\",\"dependencyCount\":1654,\"packageSize\":477444},{\"__commit\":\"2c7626ab2491bf1aa7c091cbdcf51a91a4d214aa\",\"dependencyCount\":1654,\"packageSize\":477444},{\"__commit\":\"aa9b0be3b6f91df45e136cbdca3a92f7a04a0d7e\",\"dependencyCount\":1654,\"packageSize\":477440},{\"__commit\":\"52f5d9f1f9ec23cf7ab19bf08ad9c1641489099c\",\"dependencyCount\":1360,\"packageSize\":363100},{\"__commit\":\"e9e1503a577bfa6d9aaefe704f0df1d6661a5a23\",\"dependencyCount\":1360,\"packageSize\":363104},{\"__commit\":\"9b1da5207cf64bb3bad965ff42d7d6a40b562c44\",\"dependencyCount\":1360,\"packageSize\":363100},{\"__commit\":\"c88e35a3f0c9bdfc9bb561a496cb88be240912f8\",\"dependencyCount\":1360,\"packageSize\":363100},{\"__commit\":\"98af6482e647849d00e009530602837cb250bbe1\",\"dependencyCount\":1371,\"packageSize\":379100},{\"__commit\":\"2a4d3ddf3a64bb9b417b3fc8d55e2fa505b7a6f9\",\"dependencyCount\":1389,\"packageSize\":391912},{\"__commit\":\"06e302b2742766925d379e82f9088c9402f606e7\",\"dependencyCount\":1389,\"packageSize\":391916},{\"__commit\":\"f8a97036cb570e8dec35e630807c485da6d647d1\",\"dependencyCount\":1387,\"packageSize\":391472},{\"__commit\":\"2a688760c93fd64b60fe7db41b033aa73c6aab8d\",\"dependencyCount\":1369,\"packageSize\":378648},{\"__commit\":\"9c505f17db0a09935c83ddbe0dd410bfac225c06\",\"dependencyCount\":1369,\"packageSize\":378644},{\"__commit\":\"96c0e4e473aa3f4284295b240a7b6e642c6522e0\",\"dependencyCount\":1369,\"packageSize\":378644},{\"__commit\":\"3dee20ceff9c25385769511c19cfa54ca8666e42\",\"dependencyCount\":1369,\"packageSize\":378640},{\"__commit\":\"8e0d28d49996cb9503c61e4673ac50133858c1d4\",\"dependencyCount\":1369,\"packageSize\":378644},{\"__commit\":\"e811548e2a75a45157c45ea0d4cd31de2a59d276\",\"dependencyCount\":1369,\"packageSize\":378644},{\"__commit\":\"88f21740091135f82dfa54c72e4810df354c73c4\",\"dependencyCount\":1370,\"packageSize\":378800}]-->",
+                "reactions": {
+                    "url": "https://api.github.com/repos/netlify/cli/comments/131015463/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                }
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:47:56Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32880164684",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49736102,
+            "login": "kodiakhq[bot]",
+            "display_login": "kodiakhq",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kodiakhq[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49736102?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "ref": "se/remove-unused",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:46:27Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32880164299",
+        "type": "PushEvent",
+        "actor": {
+            "id": 49736102,
+            "login": "kodiakhq[bot]",
+            "display_login": "kodiakhq",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kodiakhq[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49736102?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15582316622,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "e6990b6b5f1123d47bdf015652e8380779061f0c",
+            "before": "8a65ef35f07e8332c8f98b1b9ed8c78d682edfde",
+            "commits": [
+                {
+                    "sha": "e6990b6b5f1123d47bdf015652e8380779061f0c",
+                    "author": {
+                        "email": "sarah.etter@netlify.com",
+                        "name": "Sarah Etter"
+                    },
+                    "message": "chore: remove unused dependencies (#6090)\n\nCo-authored-by: Karin Hendrikse <30577427+khendrikse@users.noreply.github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/e6990b6b5f1123d47bdf015652e8380779061f0c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:46:26Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32880163907",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 49736102,
+            "login": "kodiakhq[bot]",
+            "display_login": "kodiakhq",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kodiakhq[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49736102?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 6090,
+            "pull_request": {
+                "url": "https://api.github.com/repos/netlify/cli/pulls/6090",
+                "id": 1571658637,
+                "node_id": "PR_kwDOAX6B3s5drZuN",
+                "html_url": "https://github.com/netlify/cli/pull/6090",
+                "diff_url": "https://github.com/netlify/cli/pull/6090.diff",
+                "patch_url": "https://github.com/netlify/cli/pull/6090.patch",
+                "issue_url": "https://api.github.com/repos/netlify/cli/issues/6090",
+                "number": 6090,
+                "state": "closed",
+                "locked": false,
+                "title": "chore: remove unused dependencies",
+                "user": {
+                    "login": "sarahetter",
+                    "id": 4700602,
+                    "node_id": "MDQ6VXNlcjQ3MDA2MDI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4700602?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sarahetter",
+                    "html_url": "https://github.com/sarahetter",
+                    "followers_url": "https://api.github.com/users/sarahetter/followers",
+                    "following_url": "https://api.github.com/users/sarahetter/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sarahetter/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sarahetter/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sarahetter/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sarahetter/orgs",
+                    "repos_url": "https://api.github.com/users/sarahetter/repos",
+                    "events_url": "https://api.github.com/users/sarahetter/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sarahetter/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "\ud83c\udf89 Thanks for submitting a pull request! \ud83c\udf89\r\n\r\n#### Summary\r\n\r\nRemoves unused dependencies\r\n\r\n<!--\r\nExplain the **motivation** for making this change. What existing problem does the pull request solve and how?\r\n-->\r\n\r\n---\r\n\r\nFor us to review and ship your PR efficiently, please perform the following steps:\r\n\r\n- [ ] Open a [bug/issue](https://github.com/netlify/cli/issues/new/choose) before writing your code \ud83e\uddd1\u200d\ud83d\udcbb. This ensures we can discuss the changes and get feedback from everyone that should be involved. If you\\`re fixing a typo or something that\\`s on fire \ud83d\udd25 (e.g. incident related), you can skip this step.\r\n- [ ] Read the [contribution guidelines](../CONTRIBUTING.md) \ud83d\udcd6. This ensures your code follows our style guide and\r\n      passes our tests.\r\n- [ ] Update or add tests (if any source code was changed or added) \ud83e\uddea\r\n- [ ] Update or add documentation (if features were changed or added) \ud83d\udcdd\r\n- [ ] Make sure the status checks below are successful \u2705\r\n\r\n**A picture of a cute animal (not mandatory, but encouraged)**\r\n",
+                "created_at": "2023-10-24T19:46:37Z",
+                "updated_at": "2023-10-26T19:46:24Z",
+                "closed_at": "2023-10-26T19:46:24Z",
+                "merged_at": "2023-10-26T19:46:24Z",
+                "merge_commit_sha": "e6990b6b5f1123d47bdf015652e8380779061f0c",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 3208597647,
+                        "node_id": "MDU6TGFiZWwzMjA4NTk3NjQ3",
+                        "url": "https://api.github.com/repos/netlify/cli/labels/automerge",
+                        "name": "automerge",
+                        "color": "0E8A16",
+                        "default": false,
+                        "description": "Add to Kodiak auto merge queue"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/netlify/cli/pulls/6090/commits",
+                "review_comments_url": "https://api.github.com/repos/netlify/cli/pulls/6090/comments",
+                "review_comment_url": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/netlify/cli/issues/6090/comments",
+                "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/cbfdd17fd0b08d926f4b92819de22be5c4889efc",
+                "head": {
+                    "label": "netlify:se/remove-unused",
+                    "ref": "se/remove-unused",
+                    "sha": "cbfdd17fd0b08d926f4b92819de22be5c4889efc",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T19:46:24Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 179255,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 241,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 241,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "netlify:main",
+                    "ref": "main",
+                    "sha": "8a65ef35f07e8332c8f98b1b9ed8c78d682edfde",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T19:46:24Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 179255,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 241,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 241,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6090"
+                    },
+                    "html": {
+                        "href": "https://github.com/netlify/cli/pull/6090"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6090"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6090/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6090/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6090/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/netlify/cli/statuses/cbfdd17fd0b08d926f4b92819de22be5c4889efc"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "kodiakhq[bot]",
+                    "id": 49736102,
+                    "node_id": "MDM6Qm90NDk3MzYxMDI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/29196?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kodiakhq%5Bbot%5D",
+                    "html_url": "https://github.com/apps/kodiakhq",
+                    "followers_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kodiakhq%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "comments": 1,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 2,
+                "additions": 0,
+                "deletions": 82,
+                "changed_files": 2
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:46:25Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32879750383",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15582113194,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "29bdca56ead5567a741d0c779af59cc202b3df89",
+            "before": "e912caa0c00eb73ca81bbbc749221969a298c78b",
+            "commits": [
+                {
+                    "sha": "738395885a78dfe069b9024d3f7137eddf2179e1",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: specify default export",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/738395885a78dfe069b9024d3f7137eddf2179e1"
+                },
+                {
+                    "sha": "29bdca56ead5567a741d0c779af59cc202b3df89",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: export",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/29bdca56ead5567a741d0c779af59cc202b3df89"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:27:27Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32879357532",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15581918778,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "e912caa0c00eb73ca81bbbc749221969a298c78b",
+            "before": "8df695266575d228d0dd04c87222714a86db66bb",
+            "commits": [
+                {
+                    "sha": "e912caa0c00eb73ca81bbbc749221969a298c78b",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: missed a file extension",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/e912caa0c00eb73ca81bbbc749221969a298c78b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:10:35Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32879109996",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15581794504,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "8df695266575d228d0dd04c87222714a86db66bb",
+            "before": "44e31e3264b1d4c05d74c19bba20f738e48c118d",
+            "commits": [
+                {
+                    "sha": "8df695266575d228d0dd04c87222714a86db66bb",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: more import statements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/8df695266575d228d0dd04c87222714a86db66bb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:00:14Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32879074707",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15581778002,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "44e31e3264b1d4c05d74c19bba20f738e48c118d",
+            "before": "956e99b79469986afe8fdd155c50c4394a41a149",
+            "commits": [
+                {
+                    "sha": "44e31e3264b1d4c05d74c19bba20f738e48c118d",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: import statement",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/44e31e3264b1d4c05d74c19bba20f738e48c118d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:58:48Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878871160",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15581679425,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "956e99b79469986afe8fdd155c50c4394a41a149",
+            "before": "15d40b770d1b289f83011cf326610b7546440986",
+            "commits": [
+                {
+                    "sha": "956e99b79469986afe8fdd155c50c4394a41a149",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: import statement",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/956e99b79469986afe8fdd155c50c4394a41a149"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:50:24Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878641861",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1700316008,
+                "node_id": "PRR_kwDOAX6B3s5lWMNo",
+                "user": {
+                    "login": "ericapisani",
+                    "id": 5655473,
+                    "node_id": "MDQ6VXNlcjU2NTU0NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5655473?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ericapisani",
+                    "html_url": "https://github.com/ericapisani",
+                    "followers_url": "https://api.github.com/users/ericapisani/followers",
+                    "following_url": "https://api.github.com/users/ericapisani/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ericapisani/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ericapisani/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ericapisani/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ericapisani/orgs",
+                    "repos_url": "https://api.github.com/users/ericapisani/repos",
+                    "events_url": "https://api.github.com/users/ericapisani/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ericapisani/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "commit_id": "421c60681f2b34f3efd75c526cf5537690865190",
+                "submitted_at": "2023-10-26T18:31:05Z",
+                "state": "dismissed",
+                "html_url": "https://github.com/netlify/cli/pull/6095#pullrequestreview-1700316008",
+                "pull_request_url": "https://api.github.com/repos/netlify/cli/pulls/6095",
+                "author_association": "CONTRIBUTOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/netlify/cli/pull/6095#pullrequestreview-1700316008"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/netlify/cli/pulls/6095",
+                "id": 1575358414,
+                "node_id": "PR_kwDOAX6B3s5d5g_O",
+                "html_url": "https://github.com/netlify/cli/pull/6095",
+                "diff_url": "https://github.com/netlify/cli/pull/6095.diff",
+                "patch_url": "https://github.com/netlify/cli/pull/6095.patch",
+                "issue_url": "https://api.github.com/repos/netlify/cli/issues/6095",
+                "number": 6095,
+                "state": "open",
+                "locked": false,
+                "title": "chore: remove sdk dependency",
+                "user": {
+                    "login": "sarahetter",
+                    "id": 4700602,
+                    "node_id": "MDQ6VXNlcjQ3MDA2MDI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4700602?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sarahetter",
+                    "html_url": "https://github.com/sarahetter",
+                    "followers_url": "https://api.github.com/users/sarahetter/followers",
+                    "following_url": "https://api.github.com/users/sarahetter/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sarahetter/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sarahetter/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sarahetter/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sarahetter/orgs",
+                    "repos_url": "https://api.github.com/users/sarahetter/repos",
+                    "events_url": "https://api.github.com/users/sarahetter/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sarahetter/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "\ud83c\udf89 Thanks for submitting a pull request! \ud83c\udf89\r\n\r\n#### Summary\r\n\r\nRemoves SDK as a dependency\r\n---\r\n\r\nFor us to review and ship your PR efficiently, please perform the following steps:\r\n\r\n- [ ] Open a [bug/issue](https://github.com/netlify/cli/issues/new/choose) before writing your code \ud83e\uddd1\u200d\ud83d\udcbb. This ensures we can discuss the changes and get feedback from everyone that should be involved. If you\\`re fixing a typo or something that\\`s on fire \ud83d\udd25 (e.g. incident related), you can skip this step.\r\n- [ ] Read the [contribution guidelines](../CONTRIBUTING.md) \ud83d\udcd6. This ensures your code follows our style guide and\r\n      passes our tests.\r\n- [ ] Update or add tests (if any source code was changed or added) \ud83e\uddea\r\n- [ ] Update or add documentation (if features were changed or added) \ud83d\udcdd\r\n- [ ] Make sure the status checks below are successful \u2705\r\n\r\n**A picture of a cute animal (not mandatory, but encouraged)**\r\n",
+                "created_at": "2023-10-26T18:28:59Z",
+                "updated_at": "2023-10-26T18:40:56Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "c2ee6e05995d1c3d7c226c9f29d42ac3919a2ebd",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/netlify/cli/pulls/6095/commits",
+                "review_comments_url": "https://api.github.com/repos/netlify/cli/pulls/6095/comments",
+                "review_comment_url": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/netlify/cli/issues/6095/comments",
+                "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/5216b0a0d0275f778a8645fb9511985e11bde97d",
+                "head": {
+                    "label": "netlify:se/remove-sdk-dep",
+                    "ref": "se/remove-sdk-dep",
+                    "sha": "5216b0a0d0275f778a8645fb9511985e11bde97d",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T18:40:53Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 181425,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 242,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 242,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "netlify:main",
+                    "ref": "main",
+                    "sha": "8a65ef35f07e8332c8f98b1b9ed8c78d682edfde",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T18:40:53Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 181425,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 242,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 242,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095"
+                    },
+                    "html": {
+                        "href": "https://github.com/netlify/cli/pull/6095"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6095"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6095/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/netlify/cli/statuses/5216b0a0d0275f778a8645fb9511985e11bde97d"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:40:56Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878641001",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4700602,
+            "login": "sarahetter",
+            "display_login": "sarahetter",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sarahetter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4700602?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15581569318,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/se/remove-sdk-dep",
+            "head": "5216b0a0d0275f778a8645fb9511985e11bde97d",
+            "before": "421c60681f2b34f3efd75c526cf5537690865190",
+            "commits": [
+                {
+                    "sha": "519d9302c17c6c45925699dbe3812027f3bd5f55",
+                    "author": {
+                        "email": "sarah.etter@netlify.com",
+                        "name": "Sarah Etter"
+                    },
+                    "message": "chore: fs not fs-extra",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/519d9302c17c6c45925699dbe3812027f3bd5f55"
+                },
+                {
+                    "sha": "5216b0a0d0275f778a8645fb9511985e11bde97d",
+                    "author": {
+                        "email": "sarah.etter@netlify.com",
+                        "name": "Sarah Etter"
+                    },
+                    "message": "chore: format",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/5216b0a0d0275f778a8645fb9511985e11bde97d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:40:54Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878403231",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1700316008,
+                "node_id": "PRR_kwDOAX6B3s5lWMNo",
+                "user": {
+                    "login": "ericapisani",
+                    "id": 5655473,
+                    "node_id": "MDQ6VXNlcjU2NTU0NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5655473?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ericapisani",
+                    "html_url": "https://github.com/ericapisani",
+                    "followers_url": "https://api.github.com/users/ericapisani/followers",
+                    "following_url": "https://api.github.com/users/ericapisani/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ericapisani/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ericapisani/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ericapisani/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ericapisani/orgs",
+                    "repos_url": "https://api.github.com/users/ericapisani/repos",
+                    "events_url": "https://api.github.com/users/ericapisani/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ericapisani/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "commit_id": "421c60681f2b34f3efd75c526cf5537690865190",
+                "submitted_at": "2023-10-26T18:31:05Z",
+                "state": "approved",
+                "html_url": "https://github.com/netlify/cli/pull/6095#pullrequestreview-1700316008",
+                "pull_request_url": "https://api.github.com/repos/netlify/cli/pulls/6095",
+                "author_association": "CONTRIBUTOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/netlify/cli/pull/6095#pullrequestreview-1700316008"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/netlify/cli/pulls/6095",
+                "id": 1575358414,
+                "node_id": "PR_kwDOAX6B3s5d5g_O",
+                "html_url": "https://github.com/netlify/cli/pull/6095",
+                "diff_url": "https://github.com/netlify/cli/pull/6095.diff",
+                "patch_url": "https://github.com/netlify/cli/pull/6095.patch",
+                "issue_url": "https://api.github.com/repos/netlify/cli/issues/6095",
+                "number": 6095,
+                "state": "open",
+                "locked": false,
+                "title": "chore: remove sdk dependency",
+                "user": {
+                    "login": "sarahetter",
+                    "id": 4700602,
+                    "node_id": "MDQ6VXNlcjQ3MDA2MDI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4700602?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sarahetter",
+                    "html_url": "https://github.com/sarahetter",
+                    "followers_url": "https://api.github.com/users/sarahetter/followers",
+                    "following_url": "https://api.github.com/users/sarahetter/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sarahetter/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sarahetter/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sarahetter/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sarahetter/orgs",
+                    "repos_url": "https://api.github.com/users/sarahetter/repos",
+                    "events_url": "https://api.github.com/users/sarahetter/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sarahetter/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "\ud83c\udf89 Thanks for submitting a pull request! \ud83c\udf89\r\n\r\n#### Summary\r\n\r\nRemoves SDK as a dependency\r\n---\r\n\r\nFor us to review and ship your PR efficiently, please perform the following steps:\r\n\r\n- [ ] Open a [bug/issue](https://github.com/netlify/cli/issues/new/choose) before writing your code \ud83e\uddd1\u200d\ud83d\udcbb. This ensures we can discuss the changes and get feedback from everyone that should be involved. If you\\`re fixing a typo or something that\\`s on fire \ud83d\udd25 (e.g. incident related), you can skip this step.\r\n- [ ] Read the [contribution guidelines](../CONTRIBUTING.md) \ud83d\udcd6. This ensures your code follows our style guide and\r\n      passes our tests.\r\n- [ ] Update or add tests (if any source code was changed or added) \ud83e\uddea\r\n- [ ] Update or add documentation (if features were changed or added) \ud83d\udcdd\r\n- [ ] Make sure the status checks below are successful \u2705\r\n\r\n**A picture of a cute animal (not mandatory, but encouraged)**\r\n",
+                "created_at": "2023-10-26T18:28:59Z",
+                "updated_at": "2023-10-26T18:31:05Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "c2ee6e05995d1c3d7c226c9f29d42ac3919a2ebd",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/netlify/cli/pulls/6095/commits",
+                "review_comments_url": "https://api.github.com/repos/netlify/cli/pulls/6095/comments",
+                "review_comment_url": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/netlify/cli/issues/6095/comments",
+                "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/421c60681f2b34f3efd75c526cf5537690865190",
+                "head": {
+                    "label": "netlify:se/remove-sdk-dep",
+                    "ref": "se/remove-sdk-dep",
+                    "sha": "421c60681f2b34f3efd75c526cf5537690865190",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T18:29:45Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 181425,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 242,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 242,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "netlify:main",
+                    "ref": "main",
+                    "sha": "8a65ef35f07e8332c8f98b1b9ed8c78d682edfde",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T18:29:45Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 181425,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 242,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 242,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095"
+                    },
+                    "html": {
+                        "href": "https://github.com/netlify/cli/pull/6095"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6095"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6095/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/netlify/cli/statuses/421c60681f2b34f3efd75c526cf5537690865190"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:31:06Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878400956",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/netlify/cli/issues/6095",
+                "repository_url": "https://api.github.com/repos/netlify/cli",
+                "labels_url": "https://api.github.com/repos/netlify/cli/issues/6095/labels{/name}",
+                "comments_url": "https://api.github.com/repos/netlify/cli/issues/6095/comments",
+                "events_url": "https://api.github.com/repos/netlify/cli/issues/6095/events",
+                "html_url": "https://github.com/netlify/cli/pull/6095",
+                "id": 1964121506,
+                "node_id": "PR_kwDOAX6B3s5d5g_O",
+                "number": 6095,
+                "title": "chore: remove sdk dependency",
+                "user": {
+                    "login": "sarahetter",
+                    "id": 4700602,
+                    "node_id": "MDQ6VXNlcjQ3MDA2MDI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4700602?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sarahetter",
+                    "html_url": "https://github.com/sarahetter",
+                    "followers_url": "https://api.github.com/users/sarahetter/followers",
+                    "following_url": "https://api.github.com/users/sarahetter/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sarahetter/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sarahetter/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sarahetter/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sarahetter/orgs",
+                    "repos_url": "https://api.github.com/users/sarahetter/repos",
+                    "events_url": "https://api.github.com/users/sarahetter/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sarahetter/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T18:28:59Z",
+                "updated_at": "2023-10-26T18:31:00Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/netlify/cli/pulls/6095",
+                    "html_url": "https://github.com/netlify/cli/pull/6095",
+                    "diff_url": "https://github.com/netlify/cli/pull/6095.diff",
+                    "patch_url": "https://github.com/netlify/cli/pull/6095.patch",
+                    "merged_at": null
+                },
+                "body": "\ud83c\udf89 Thanks for submitting a pull request! \ud83c\udf89\r\n\r\n#### Summary\r\n\r\nRemoves SDK as a dependency\r\n---\r\n\r\nFor us to review and ship your PR efficiently, please perform the following steps:\r\n\r\n- [ ] Open a [bug/issue](https://github.com/netlify/cli/issues/new/choose) before writing your code \ud83e\uddd1\u200d\ud83d\udcbb. This ensures we can discuss the changes and get feedback from everyone that should be involved. If you\\`re fixing a typo or something that\\`s on fire \ud83d\udd25 (e.g. incident related), you can skip this step.\r\n- [ ] Read the [contribution guidelines](../CONTRIBUTING.md) \ud83d\udcd6. This ensures your code follows our style guide and\r\n      passes our tests.\r\n- [ ] Update or add tests (if any source code was changed or added) \ud83e\uddea\r\n- [ ] Update or add documentation (if features were changed or added) \ud83d\udcdd\r\n- [ ] Make sure the status checks below are successful \u2705\r\n\r\n**A picture of a cute animal (not mandatory, but encouraged)**\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/netlify/cli/issues/6095/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/netlify/cli/issues/6095/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/netlify/cli/issues/comments/1781643640",
+                "html_url": "https://github.com/netlify/cli/pull/6095#issuecomment-1781643640",
+                "issue_url": "https://api.github.com/repos/netlify/cli/issues/6095",
+                "id": 1781643640,
+                "node_id": "IC_kwDOAX6B3s5qMbl4",
+                "user": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T18:31:00Z",
+                "updated_at": "2023-10-26T18:31:00Z",
+                "author_association": "NONE",
+                "body": "## \ud83d\udcca Benchmark results\n\n*Comparing with 8a65ef35f07e8332c8f98b1b9ed8c78d682edfde*\n\n- **Dependency count**: 1,375 \u2b07\ufe0f **21.31% decrease** vs. 8a65ef35f07e8332c8f98b1b9ed8c78d682edfde\n- **Package size**: 381 MB \u2b07\ufe0f **30.32% decrease** vs. 8a65ef35f07e8332c8f98b1b9ed8c78d682edfde\n<!--delta:post-package-size@{}-->",
+                "reactions": {
+                    "url": "https://api.github.com/repos/netlify/cli/issues/comments/1781643640/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:31:00Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878367612",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15581438000,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "15d40b770d1b289f83011cf326610b7546440986",
+            "before": "7309c97dfda2e590562625e052965e36f2f857d1",
+            "commits": [
+                {
+                    "sha": "15d40b770d1b289f83011cf326610b7546440986",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "test: fix import",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/15d40b770d1b289f83011cf326610b7546440986"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:29:39Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878349366",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4700602,
+            "login": "sarahetter",
+            "display_login": "sarahetter",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sarahetter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4700602?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 6095,
+            "pull_request": {
+                "url": "https://api.github.com/repos/netlify/cli/pulls/6095",
+                "id": 1575358414,
+                "node_id": "PR_kwDOAX6B3s5d5g_O",
+                "html_url": "https://github.com/netlify/cli/pull/6095",
+                "diff_url": "https://github.com/netlify/cli/pull/6095.diff",
+                "patch_url": "https://github.com/netlify/cli/pull/6095.patch",
+                "issue_url": "https://api.github.com/repos/netlify/cli/issues/6095",
+                "number": 6095,
+                "state": "open",
+                "locked": false,
+                "title": "chore: remove sdk dependency",
+                "user": {
+                    "login": "sarahetter",
+                    "id": 4700602,
+                    "node_id": "MDQ6VXNlcjQ3MDA2MDI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4700602?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/sarahetter",
+                    "html_url": "https://github.com/sarahetter",
+                    "followers_url": "https://api.github.com/users/sarahetter/followers",
+                    "following_url": "https://api.github.com/users/sarahetter/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/sarahetter/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/sarahetter/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/sarahetter/subscriptions",
+                    "organizations_url": "https://api.github.com/users/sarahetter/orgs",
+                    "repos_url": "https://api.github.com/users/sarahetter/repos",
+                    "events_url": "https://api.github.com/users/sarahetter/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/sarahetter/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "\ud83c\udf89 Thanks for submitting a pull request! \ud83c\udf89\r\n\r\n#### Summary\r\n\r\nRemoves SDK as a dependency\r\n---\r\n\r\nFor us to review and ship your PR efficiently, please perform the following steps:\r\n\r\n- [ ] Open a [bug/issue](https://github.com/netlify/cli/issues/new/choose) before writing your code \ud83e\uddd1\u200d\ud83d\udcbb. This ensures we can discuss the changes and get feedback from everyone that should be involved. If you\\`re fixing a typo or something that\\`s on fire \ud83d\udd25 (e.g. incident related), you can skip this step.\r\n- [ ] Read the [contribution guidelines](../CONTRIBUTING.md) \ud83d\udcd6. This ensures your code follows our style guide and\r\n      passes our tests.\r\n- [ ] Update or add tests (if any source code was changed or added) \ud83e\uddea\r\n- [ ] Update or add documentation (if features were changed or added) \ud83d\udcdd\r\n- [ ] Make sure the status checks below are successful \u2705\r\n\r\n**A picture of a cute animal (not mandatory, but encouraged)**\r\n",
+                "created_at": "2023-10-26T18:28:59Z",
+                "updated_at": "2023-10-26T18:29:00Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [
+                    {
+                        "name": "ecosystem-pod-composable-tooling",
+                        "id": 8254612,
+                        "node_id": "T_kwDOAHhuCc4AffSU",
+                        "slug": "ecosystem-pod-composable-tooling",
+                        "description": "for composable-tooling pod members, formerly ecosystem-pod-integrations",
+                        "privacy": "closed",
+                        "notification_setting": "notifications_enabled",
+                        "url": "https://api.github.com/organizations/7892489/team/8254612",
+                        "html_url": "https://github.com/orgs/netlify/teams/ecosystem-pod-composable-tooling",
+                        "members_url": "https://api.github.com/organizations/7892489/team/8254612/members{/member}",
+                        "repositories_url": "https://api.github.com/organizations/7892489/team/8254612/repos",
+                        "permission": "pull",
+                        "parent": null
+                    }
+                ],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/netlify/cli/pulls/6095/commits",
+                "review_comments_url": "https://api.github.com/repos/netlify/cli/pulls/6095/comments",
+                "review_comment_url": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/netlify/cli/issues/6095/comments",
+                "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/421c60681f2b34f3efd75c526cf5537690865190",
+                "head": {
+                    "label": "netlify:se/remove-sdk-dep",
+                    "ref": "se/remove-sdk-dep",
+                    "sha": "421c60681f2b34f3efd75c526cf5537690865190",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T18:29:00Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 181425,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 242,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 242,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "netlify:main",
+                    "ref": "main",
+                    "sha": "8a65ef35f07e8332c8f98b1b9ed8c78d682edfde",
+                    "user": {
+                        "login": "netlify",
+                        "id": 7892489,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/netlify",
+                        "html_url": "https://github.com/netlify",
+                        "followers_url": "https://api.github.com/users/netlify/followers",
+                        "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                        "organizations_url": "https://api.github.com/users/netlify/orgs",
+                        "repos_url": "https://api.github.com/users/netlify/repos",
+                        "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/netlify/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 25067998,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyNTA2Nzk5OA==",
+                        "name": "cli",
+                        "full_name": "netlify/cli",
+                        "private": false,
+                        "owner": {
+                            "login": "netlify",
+                            "id": 7892489,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/netlify",
+                            "html_url": "https://github.com/netlify",
+                            "followers_url": "https://api.github.com/users/netlify/followers",
+                            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+                            "organizations_url": "https://api.github.com/users/netlify/orgs",
+                            "repos_url": "https://api.github.com/users/netlify/repos",
+                            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/netlify/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/netlify/cli",
+                        "description": "Netlify Command Line Interface",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/netlify/cli",
+                        "forks_url": "https://api.github.com/repos/netlify/cli/forks",
+                        "keys_url": "https://api.github.com/repos/netlify/cli/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/netlify/cli/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/netlify/cli/teams",
+                        "hooks_url": "https://api.github.com/repos/netlify/cli/hooks",
+                        "issue_events_url": "https://api.github.com/repos/netlify/cli/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/netlify/cli/events",
+                        "assignees_url": "https://api.github.com/repos/netlify/cli/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/netlify/cli/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/netlify/cli/tags",
+                        "blobs_url": "https://api.github.com/repos/netlify/cli/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/netlify/cli/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/netlify/cli/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/netlify/cli/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/netlify/cli/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/netlify/cli/languages",
+                        "stargazers_url": "https://api.github.com/repos/netlify/cli/stargazers",
+                        "contributors_url": "https://api.github.com/repos/netlify/cli/contributors",
+                        "subscribers_url": "https://api.github.com/repos/netlify/cli/subscribers",
+                        "subscription_url": "https://api.github.com/repos/netlify/cli/subscription",
+                        "commits_url": "https://api.github.com/repos/netlify/cli/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/netlify/cli/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/netlify/cli/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/netlify/cli/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/netlify/cli/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/netlify/cli/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/netlify/cli/merges",
+                        "archive_url": "https://api.github.com/repos/netlify/cli/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/netlify/cli/downloads",
+                        "issues_url": "https://api.github.com/repos/netlify/cli/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/netlify/cli/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/netlify/cli/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/netlify/cli/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/netlify/cli/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/netlify/cli/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/netlify/cli/deployments",
+                        "created_at": "2014-10-11T07:29:59Z",
+                        "updated_at": "2023-10-25T10:35:02Z",
+                        "pushed_at": "2023-10-26T18:29:00Z",
+                        "git_url": "git://github.com/netlify/cli.git",
+                        "ssh_url": "git@github.com:netlify/cli.git",
+                        "clone_url": "https://github.com/netlify/cli.git",
+                        "svn_url": "https://github.com/netlify/cli",
+                        "homepage": "http://cli.netlify.com",
+                        "size": 181425,
+                        "stargazers_count": 1489,
+                        "watchers_count": 1489,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 344,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 242,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "cli",
+                            "netlify"
+                        ],
+                        "visibility": "public",
+                        "forks": 344,
+                        "open_issues": 242,
+                        "watchers": 1489,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095"
+                    },
+                    "html": {
+                        "href": "https://github.com/netlify/cli/pull/6095"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6095"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/issues/6095/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/netlify/cli/pulls/6095/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/netlify/cli/statuses/421c60681f2b34f3efd75c526cf5537690865190"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 3,
+                "additions": 332,
+                "deletions": 4196,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:29:01Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878335799",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4700602,
+            "login": "sarahetter",
+            "display_login": "sarahetter",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sarahetter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4700602?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15581424127,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/se/remove-sdk-dep",
+            "head": "421c60681f2b34f3efd75c526cf5537690865190",
+            "before": "b2366a3d600b745d285b6391aee46dfe6b5b6343",
+            "commits": [
+                {
+                    "sha": "421c60681f2b34f3efd75c526cf5537690865190",
+                    "author": {
+                        "email": "sarah.etter@netlify.com",
+                        "name": "Sarah Etter"
+                    },
+                    "message": "chore: remove unused imports",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/421c60681f2b34f3efd75c526cf5537690865190"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:28:26Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32878297799",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4700602,
+            "login": "sarahetter",
+            "display_login": "sarahetter",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sarahetter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4700602?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "ref": "se/remove-sdk-dep",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Netlify Command Line Interface",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:26:48Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32876487441",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15580510972,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "7309c97dfda2e590562625e052965e36f2f857d1",
+            "before": "8e46584f2a8d72a6879f151b969d00ffdfca6a7c",
+            "commits": [
+                {
+                    "sha": "7309c97dfda2e590562625e052965e36f2f857d1",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: update filenames",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/7309c97dfda2e590562625e052965e36f2f857d1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:13:11Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32876377716",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15580456434,
+            "size": 5,
+            "distinct_size": 5,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "8e46584f2a8d72a6879f151b969d00ffdfca6a7c",
+            "before": "a3bcc23f9d6fd843f3f70a2cb979a48b23edac36",
+            "commits": [
+                {
+                    "sha": "aa02c1cd72931940345f790d7b14ba5189eca391",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert site-builder.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/aa02c1cd72931940345f790d7b14ba5189eca391"
+                },
+                {
+                    "sha": "5059ee4011980215f5f202a9ba88c8e5681fe002",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert utils/pause.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/5059ee4011980215f5f202a9ba88c8e5681fe002"
+                },
+                {
+                    "sha": "7c094120115200a3e9d56e82508e2742430cc326",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: imports",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/7c094120115200a3e9d56e82508e2742430cc326"
+                },
+                {
+                    "sha": "2556003542cf746d83c422b305e0e4770c4350d9",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: remove files that are no longer used",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/2556003542cf746d83c422b305e0e4770c4350d9"
+                },
+                {
+                    "sha": "8e46584f2a8d72a6879f151b969d00ffdfca6a7c",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "style: lint issues",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/8e46584f2a8d72a6879f151b969d00ffdfca6a7c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:08:45Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32876005038",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15580272319,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "a3bcc23f9d6fd843f3f70a2cb979a48b23edac36",
+            "before": "151119210dae610100df67c5cd75c1c572b9f615",
+            "commits": [
+                {
+                    "sha": "a3bcc23f9d6fd843f3f70a2cb979a48b23edac36",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert external-server-cli.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/a3bcc23f9d6fd843f3f70a2cb979a48b23edac36"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:53:53Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32875959731",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15580251716,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "151119210dae610100df67c5cd75c1c572b9f615",
+            "before": "b32bb2b62f386081915bc3652625ed95342475ce",
+            "commits": [
+                {
+                    "sha": "c4b4d68d1efe8b00f79e8ff3fe944f5e7b24ba04",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert utils/handle-questons.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/c4b4d68d1efe8b00f79e8ff3fe944f5e7b24ba04"
+                },
+                {
+                    "sha": "666aa5de729fb39f3f2a05b5f22fa208bd023f80",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert utils/process.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/666aa5de729fb39f3f2a05b5f22fa208bd023f80"
+                },
+                {
+                    "sha": "151119210dae610100df67c5cd75c1c572b9f615",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert call-cli to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/151119210dae610100df67c5cd75c1c572b9f615"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:52:10Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32875780444",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15580169028,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "b32bb2b62f386081915bc3652625ed95342475ce",
+            "before": "b10c57070351d7809ec679580b037467d5288784",
+            "commits": [
+                {
+                    "sha": "1e60f90f0271a9840f1a259258590c6973613c1e",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert create-live-test-site to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/1e60f90f0271a9840f1a259258590c6973613c1e"
+                },
+                {
+                    "sha": "0d397620647fb109dbfd01757184eb7e4a6b7126",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert utils/dev-server.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/0d397620647fb109dbfd01757184eb7e4a6b7126"
+                },
+                {
+                    "sha": "b32bb2b62f386081915bc3652625ed95342475ce",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: fix issues found by linter",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/b32bb2b62f386081915bc3652625ed95342475ce"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:45:16Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32875430906",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15580001176,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "b10c57070351d7809ec679580b037467d5288784",
+            "before": "d0f83c7960c35785ec20f38f715ef87a65e6e523",
+            "commits": [
+                {
+                    "sha": "964fd0fb4cc1586d51a73945f9a8ebc3822b7637",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert tests/integration/utils/external-server.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/964fd0fb4cc1586d51a73945f9a8ebc3822b7637"
+                },
+                {
+                    "sha": "e4806a098d30e42bfbe777b29470af6d299c6b7c",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert mock-api.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/e4806a098d30e42bfbe777b29470af6d299c6b7c"
+                },
+                {
+                    "sha": "a35bd98dc58e4ebd273ac769e584645ae621c268",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "style: lint",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/a35bd98dc58e4ebd273ac769e584645ae621c268"
+                },
+                {
+                    "sha": "b10c57070351d7809ec679580b037467d5288784",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "style: lint",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/b10c57070351d7809ec679580b037467d5288784"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:31:32Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32875290639",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15579933660,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "d0f83c7960c35785ec20f38f715ef87a65e6e523",
+            "before": "7c950ab203f08125581ea03f5debd941a8f24a10",
+            "commits": [
+                {
+                    "sha": "56ae13c72d969d4a772685633f04d9b5fcc69429",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert tests/integration/utils/mock-execa.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/56ae13c72d969d4a772685633f04d9b5fcc69429"
+                },
+                {
+                    "sha": "d0f83c7960c35785ec20f38f715ef87a65e6e523",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "style: lint",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/d0f83c7960c35785ec20f38f715ef87a65e6e523"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:26:14Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32875222148",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15579900686,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "7c950ab203f08125581ea03f5debd941a8f24a10",
+            "before": "d3a413ff47a5ff710b0f0e04affe45a2585bf94b",
+            "commits": [
+                {
+                    "sha": "7c950ab203f08125581ea03f5debd941a8f24a10",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert tests/integration/utils/snapshots.cjs to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/7c950ab203f08125581ea03f5debd941a8f24a10"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:23:41Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    },
+    {
+        "id": "32875185258",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5655473,
+            "login": "ericapisani",
+            "display_login": "ericapisani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericapisani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5655473?"
+        },
+        "repo": {
+            "id": 25067998,
+            "name": "netlify/cli",
+            "url": "https://api.github.com/repos/netlify/cli"
+        },
+        "payload": {
+            "repository_id": 25067998,
+            "push_id": 15579882800,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/ericapisani/ct-69-finish-conversion-to-esm",
+            "head": "d3a413ff47a5ff710b0f0e04affe45a2585bf94b",
+            "before": "f885ae645964066d597ffa6d7a1cbf2860204b10",
+            "commits": [
+                {
+                    "sha": "2397d77269ca4ec9d85950fad27055061ce5c2a9",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "refactor: convert cli-path to ESM",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/2397d77269ca4ec9d85950fad27055061ce5c2a9"
+                },
+                {
+                    "sha": "d3a413ff47a5ff710b0f0e04affe45a2585bf94b",
+                    "author": {
+                        "email": "pisani.erica@gmail.com",
+                        "name": "Erica Pisani"
+                    },
+                    "message": "fix: issues raised with linter",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/netlify/cli/commits/d3a413ff47a5ff710b0f0e04affe45a2585bf94b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:22:18Z",
+        "org": {
+            "id": 7892489,
+            "login": "netlify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/netlify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?"
+        }
+    }
+]

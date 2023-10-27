@@ -1,0 +1,2126 @@
+[
+    {
+        "id": "32748184714",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 573429,
+            "login": "cwkirchner",
+            "display_login": "cwkirchner",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cwkirchner",
+            "avatar_url": "https://avatars.githubusercontent.com/u/573429?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T05:44:10Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32730339034",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2694233,
+            "login": "Rudometov",
+            "display_login": "Rudometov",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rudometov",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2694233?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15504274617,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "8ffa94d858593e085f7729c65786da976b3c5985",
+            "before": "d57e202626e75d4446ac60151d55566dda65fbb6",
+            "commits": [
+                {
+                    "sha": "8ffa94d858593e085f7729c65786da976b3c5985",
+                    "author": {
+                        "email": "alvdavi@amazon.com",
+                        "name": "David Alvarez"
+                    },
+                    "message": "Persist unix-like permissions in windows zip files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/8ffa94d858593e085f7729c65786da976b3c5985"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-20T17:58:10Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32730338815",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 2694233,
+            "login": "Rudometov",
+            "display_login": "Rudometov",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rudometov",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2694233?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 410,
+            "pull_request": {
+                "url": "https://api.github.com/repos/corretto/corretto-8/pulls/410",
+                "id": 1007929968,
+                "node_id": "PR_kwDOCVWGls48E8pw",
+                "html_url": "https://github.com/corretto/corretto-8/pull/410",
+                "diff_url": "https://github.com/corretto/corretto-8/pull/410.diff",
+                "patch_url": "https://github.com/corretto/corretto-8/pull/410.patch",
+                "issue_url": "https://api.github.com/repos/corretto/corretto-8/issues/410",
+                "number": 410,
+                "state": "closed",
+                "locked": false,
+                "title": "Persist unix-like permissions in windows zip files",
+                "user": {
+                    "login": "alvdavi",
+                    "id": 12403364,
+                    "node_id": "MDQ6VXNlcjEyNDAzMzY0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12403364?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alvdavi",
+                    "html_url": "https://github.com/alvdavi",
+                    "followers_url": "https://api.github.com/users/alvdavi/followers",
+                    "following_url": "https://api.github.com/users/alvdavi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alvdavi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alvdavi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alvdavi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alvdavi/orgs",
+                    "repos_url": "https://api.github.com/users/alvdavi/repos",
+                    "events_url": "https://api.github.com/users/alvdavi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alvdavi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Our current build logic produces zip files that contain unix file permission metadata, but the permission information is incorrect. This means that if the zip files are extracted by a posix aware application, they will extract the files with the wrong permission. An example of this would be the cygwin version of `unzip`. Because the tool is posix aware, and from it's perspective is running in a posix system, by default it will try to restore the permissions present in the zip file metadata. From cygwin perspective, those permissions will be applied. This includes not giving execute permissions to the different `.exe` and `.dll` files, which will cause issues.\r\n\r\nFixing this is not a trivial task. Although the gradle zip task is able to write those permissions, gradle in cygwin is running on top of a win32 VM. It bypasses the cygwin posix implementation completely. That is why files copied (or zipped) within gradle will have the default permission (644 for files, 755 for directories) regardless of what permissions they had originally. In order to fix this, we need to ensure the final zipping is done with a posix aware application, and that the permissions in the folder we zip are correct.\r\n\r\nThis is done by setting a packaging dir where we stage the desired files. A call to find/chmod will restore the original permissions, and we use zip directly instead of the zip task for generating the final file.\r\n\r\nEnsuring we pick the proper version of `find` and `zip` is not trivial, as win32 versions of those tools exist, and `find` is even present in the `Windows\\System32` folder. This is problematic because gradle may decide to find those tools instead of the cygwin ones during the exec task. This happens because even if cygwin will convert the `PATH` environment variable from the Windows format to the Unix format for posix apps, it won't do the reverse. If `c:\\bin` is in the path, a posix app will see `/cygdrive/c/bin`, but if `/usr/bin` is in the path, a W32 app will not see `c:\\tools\\cygwin\\rootdir\\bin` (if that is where the folder maps to). In order to minimize this, we make calls go through `bash` first. This solves a very common scenario. If `$PATH` looks like `/usr/bin:/cygdrive/c/Windows/System32:/cygdrive/c/tools/cygwin/root/bin`, asking gradle to execute `find.exe` will find `C:\\Windows\\System32\\find.exe` first, as the `/usr/bin` is ignored. By calling `bash -c find`, gradle will find bash in `c:\\tools\\cygwin\\root\\bin\\bash.exe` and then bash will receive the full env, understand `/usr/bin` and locate `/usr/bin/find.exe`. Same for zip (although not present in the `c:\\windows\\system32` it is possible it is still located with higher priority by win32 applications than the cygwin zip",
+                "created_at": "2022-07-26T00:49:32Z",
+                "updated_at": "2023-10-20T17:58:08Z",
+                "closed_at": "2023-10-20T17:58:08Z",
+                "merged_at": "2023-10-20T17:58:08Z",
+                "merge_commit_sha": "8ffa94d858593e085f7729c65786da976b3c5985",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "mrserb",
+                        "id": 14138494,
+                        "node_id": "MDQ6VXNlcjE0MTM4NDk0",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/14138494?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/mrserb",
+                        "html_url": "https://github.com/mrserb",
+                        "followers_url": "https://api.github.com/users/mrserb/followers",
+                        "following_url": "https://api.github.com/users/mrserb/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/mrserb/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/mrserb/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/mrserb/subscriptions",
+                        "organizations_url": "https://api.github.com/users/mrserb/orgs",
+                        "repos_url": "https://api.github.com/users/mrserb/repos",
+                        "events_url": "https://api.github.com/users/mrserb/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/mrserb/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/corretto/corretto-8/pulls/410/commits",
+                "review_comments_url": "https://api.github.com/repos/corretto/corretto-8/pulls/410/comments",
+                "review_comment_url": "https://api.github.com/repos/corretto/corretto-8/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/corretto/corretto-8/issues/410/comments",
+                "statuses_url": "https://api.github.com/repos/corretto/corretto-8/statuses/d880577e1e5885bff6f375a13c7cd4df79aa88c9",
+                "head": {
+                    "label": "alvdavi:cygwin-permissions",
+                    "ref": "cygwin-permissions",
+                    "sha": "d880577e1e5885bff6f375a13c7cd4df79aa88c9",
+                    "user": {
+                        "login": "alvdavi",
+                        "id": 12403364,
+                        "node_id": "MDQ6VXNlcjEyNDAzMzY0",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/12403364?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/alvdavi",
+                        "html_url": "https://github.com/alvdavi",
+                        "followers_url": "https://api.github.com/users/alvdavi/followers",
+                        "following_url": "https://api.github.com/users/alvdavi/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/alvdavi/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/alvdavi/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/alvdavi/subscriptions",
+                        "organizations_url": "https://api.github.com/users/alvdavi/orgs",
+                        "repos_url": "https://api.github.com/users/alvdavi/repos",
+                        "events_url": "https://api.github.com/users/alvdavi/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/alvdavi/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 171381420,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxNzEzODE0MjA=",
+                        "name": "corretto-8",
+                        "full_name": "alvdavi/corretto-8",
+                        "private": false,
+                        "owner": {
+                            "login": "alvdavi",
+                            "id": 12403364,
+                            "node_id": "MDQ6VXNlcjEyNDAzMzY0",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/12403364?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/alvdavi",
+                            "html_url": "https://github.com/alvdavi",
+                            "followers_url": "https://api.github.com/users/alvdavi/followers",
+                            "following_url": "https://api.github.com/users/alvdavi/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/alvdavi/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/alvdavi/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/alvdavi/subscriptions",
+                            "organizations_url": "https://api.github.com/users/alvdavi/orgs",
+                            "repos_url": "https://api.github.com/users/alvdavi/repos",
+                            "events_url": "https://api.github.com/users/alvdavi/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/alvdavi/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/alvdavi/corretto-8",
+                        "description": "Amazon Corretto 8 is a no-cost, multi-platform, production-ready distribution of OpenJDK 8",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/alvdavi/corretto-8",
+                        "forks_url": "https://api.github.com/repos/alvdavi/corretto-8/forks",
+                        "keys_url": "https://api.github.com/repos/alvdavi/corretto-8/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/alvdavi/corretto-8/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/alvdavi/corretto-8/teams",
+                        "hooks_url": "https://api.github.com/repos/alvdavi/corretto-8/hooks",
+                        "issue_events_url": "https://api.github.com/repos/alvdavi/corretto-8/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/alvdavi/corretto-8/events",
+                        "assignees_url": "https://api.github.com/repos/alvdavi/corretto-8/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/alvdavi/corretto-8/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/alvdavi/corretto-8/tags",
+                        "blobs_url": "https://api.github.com/repos/alvdavi/corretto-8/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/alvdavi/corretto-8/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/alvdavi/corretto-8/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/alvdavi/corretto-8/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/alvdavi/corretto-8/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/alvdavi/corretto-8/languages",
+                        "stargazers_url": "https://api.github.com/repos/alvdavi/corretto-8/stargazers",
+                        "contributors_url": "https://api.github.com/repos/alvdavi/corretto-8/contributors",
+                        "subscribers_url": "https://api.github.com/repos/alvdavi/corretto-8/subscribers",
+                        "subscription_url": "https://api.github.com/repos/alvdavi/corretto-8/subscription",
+                        "commits_url": "https://api.github.com/repos/alvdavi/corretto-8/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/alvdavi/corretto-8/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/alvdavi/corretto-8/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/alvdavi/corretto-8/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/alvdavi/corretto-8/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/alvdavi/corretto-8/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/alvdavi/corretto-8/merges",
+                        "archive_url": "https://api.github.com/repos/alvdavi/corretto-8/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/alvdavi/corretto-8/downloads",
+                        "issues_url": "https://api.github.com/repos/alvdavi/corretto-8/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/alvdavi/corretto-8/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/alvdavi/corretto-8/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/alvdavi/corretto-8/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/alvdavi/corretto-8/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/alvdavi/corretto-8/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/alvdavi/corretto-8/deployments",
+                        "created_at": "2019-02-19T01:14:02Z",
+                        "updated_at": "2019-06-13T00:05:20Z",
+                        "pushed_at": "2022-10-12T18:24:27Z",
+                        "git_url": "git://github.com/alvdavi/corretto-8.git",
+                        "ssh_url": "git@github.com:alvdavi/corretto-8.git",
+                        "clone_url": "https://github.com/alvdavi/corretto-8.git",
+                        "svn_url": "https://github.com/alvdavi/corretto-8",
+                        "homepage": "",
+                        "size": 210664,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "Java",
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 1,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "gpl-2.0",
+                            "name": "GNU General Public License v2.0",
+                            "spdx_id": "GPL-2.0",
+                            "url": "https://api.github.com/licenses/gpl-2.0",
+                            "node_id": "MDc6TGljZW5zZTg="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 1,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "corretto:develop",
+                    "ref": "develop",
+                    "sha": "1f14ba489c5bbb208bc624722329c293396d40f8",
+                    "user": {
+                        "login": "corretto",
+                        "id": 44104058,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ0MTA0MDU4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/44104058?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/corretto",
+                        "html_url": "https://github.com/corretto",
+                        "followers_url": "https://api.github.com/users/corretto/followers",
+                        "following_url": "https://api.github.com/users/corretto/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/corretto/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/corretto/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/corretto/subscriptions",
+                        "organizations_url": "https://api.github.com/users/corretto/orgs",
+                        "repos_url": "https://api.github.com/users/corretto/repos",
+                        "events_url": "https://api.github.com/users/corretto/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/corretto/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 156599958,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxNTY1OTk5NTg=",
+                        "name": "corretto-8",
+                        "full_name": "corretto/corretto-8",
+                        "private": false,
+                        "owner": {
+                            "login": "corretto",
+                            "id": 44104058,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ0MTA0MDU4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/corretto",
+                            "html_url": "https://github.com/corretto",
+                            "followers_url": "https://api.github.com/users/corretto/followers",
+                            "following_url": "https://api.github.com/users/corretto/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/corretto/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/corretto/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/corretto/subscriptions",
+                            "organizations_url": "https://api.github.com/users/corretto/orgs",
+                            "repos_url": "https://api.github.com/users/corretto/repos",
+                            "events_url": "https://api.github.com/users/corretto/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/corretto/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/corretto/corretto-8",
+                        "description": "Amazon Corretto 8 is a no-cost, multi-platform, production-ready distribution of OpenJDK 8",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/corretto/corretto-8",
+                        "forks_url": "https://api.github.com/repos/corretto/corretto-8/forks",
+                        "keys_url": "https://api.github.com/repos/corretto/corretto-8/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/corretto/corretto-8/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/corretto/corretto-8/teams",
+                        "hooks_url": "https://api.github.com/repos/corretto/corretto-8/hooks",
+                        "issue_events_url": "https://api.github.com/repos/corretto/corretto-8/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/corretto/corretto-8/events",
+                        "assignees_url": "https://api.github.com/repos/corretto/corretto-8/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/corretto/corretto-8/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/corretto/corretto-8/tags",
+                        "blobs_url": "https://api.github.com/repos/corretto/corretto-8/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/corretto/corretto-8/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/corretto/corretto-8/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/corretto/corretto-8/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/corretto/corretto-8/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/corretto/corretto-8/languages",
+                        "stargazers_url": "https://api.github.com/repos/corretto/corretto-8/stargazers",
+                        "contributors_url": "https://api.github.com/repos/corretto/corretto-8/contributors",
+                        "subscribers_url": "https://api.github.com/repos/corretto/corretto-8/subscribers",
+                        "subscription_url": "https://api.github.com/repos/corretto/corretto-8/subscription",
+                        "commits_url": "https://api.github.com/repos/corretto/corretto-8/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/corretto/corretto-8/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/corretto/corretto-8/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/corretto/corretto-8/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/corretto/corretto-8/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/corretto/corretto-8/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/corretto/corretto-8/merges",
+                        "archive_url": "https://api.github.com/repos/corretto/corretto-8/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/corretto/corretto-8/downloads",
+                        "issues_url": "https://api.github.com/repos/corretto/corretto-8/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/corretto/corretto-8/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/corretto/corretto-8/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/corretto/corretto-8/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/corretto/corretto-8/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/corretto/corretto-8/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/corretto/corretto-8/deployments",
+                        "created_at": "2018-11-07T19:49:10Z",
+                        "updated_at": "2023-10-20T08:45:23Z",
+                        "pushed_at": "2023-10-20T17:58:08Z",
+                        "git_url": "git://github.com/corretto/corretto-8.git",
+                        "ssh_url": "git@github.com:corretto/corretto-8.git",
+                        "clone_url": "https://github.com/corretto/corretto-8.git",
+                        "svn_url": "https://github.com/corretto/corretto-8",
+                        "homepage": "",
+                        "size": 218322,
+                        "stargazers_count": 2078,
+                        "watchers_count": 2078,
+                        "language": "Java",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 219,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 49,
+                        "license": {
+                            "key": "gpl-2.0",
+                            "name": "GNU General Public License v2.0",
+                            "spdx_id": "GPL-2.0",
+                            "url": "https://api.github.com/licenses/gpl-2.0",
+                            "node_id": "MDc6TGljZW5zZTg="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 219,
+                        "open_issues": 49,
+                        "watchers": 2078,
+                        "default_branch": "develop"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/corretto/corretto-8/pulls/410"
+                    },
+                    "html": {
+                        "href": "https://github.com/corretto/corretto-8/pull/410"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/corretto/corretto-8/issues/410"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/corretto/corretto-8/issues/410/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/corretto/corretto-8/pulls/410/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/corretto/corretto-8/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/corretto/corretto-8/pulls/410/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/corretto/corretto-8/statuses/d880577e1e5885bff6f375a13c7cd4df79aa88c9"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "Rudometov",
+                    "id": 2694233,
+                    "node_id": "MDQ6VXNlcjI2OTQyMzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2694233?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Rudometov",
+                    "html_url": "https://github.com/Rudometov",
+                    "followers_url": "https://api.github.com/users/Rudometov/followers",
+                    "following_url": "https://api.github.com/users/Rudometov/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Rudometov/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Rudometov/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Rudometov/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Rudometov/orgs",
+                    "repos_url": "https://api.github.com/users/Rudometov/repos",
+                    "events_url": "https://api.github.com/users/Rudometov/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Rudometov/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 89,
+                "deletions": 37,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T17:58:09Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32682598345",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15480597614,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "83cac7fa6ee1d5bb959699ea9f8a7bcf59294854",
+            "before": "e979d570fcce3e0009791f99d506ae6d780cc6c5",
+            "commits": [
+                {
+                    "sha": "1e9eb5305384b74704023ca4f30919e3a77188ae",
+                    "author": {
+                        "email": "serb@openjdk.org",
+                        "name": "Sergey Bylokhov"
+                    },
+                    "message": "8312535: MidiSystem.getSoundbank() throws unexpected SecurityException\n\nBackport-of: 87298d2ade41c689d3140981a123b0e9130fc651",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/1e9eb5305384b74704023ca4f30919e3a77188ae"
+                },
+                {
+                    "sha": "83cac7fa6ee1d5bb959699ea9f8a7bcf59294854",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Merge upstream-dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/83cac7fa6ee1d5bb959699ea9f8a7bcf59294854"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T08:03:16Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32682597501",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15480597203,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/upstream-dev",
+            "head": "1e9eb5305384b74704023ca4f30919e3a77188ae",
+            "before": "c85131730b684f6d1ed92c39587dd84a00ca3371",
+            "commits": [
+                {
+                    "sha": "1e9eb5305384b74704023ca4f30919e3a77188ae",
+                    "author": {
+                        "email": "serb@openjdk.org",
+                        "name": "Sergey Bylokhov"
+                    },
+                    "message": "8312535: MidiSystem.getSoundbank() throws unexpected SecurityException\n\nBackport-of: 87298d2ade41c689d3140981a123b0e9130fc651",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/1e9eb5305384b74704023ca4f30919e3a77188ae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-19T08:03:14Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32648957471",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15463970361,
+            "size": 3,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "e979d570fcce3e0009791f99d506ae6d780cc6c5",
+            "before": "2534042ff2cd77d13875cebac618dd42e1a6320e",
+            "commits": [
+                {
+                    "sha": "bbf2e9a6da49cb4eb793c42b2b38c927bf9865ba",
+                    "author": {
+                        "email": "abakhtin@openjdk.org",
+                        "name": "Alexey Bakhtin"
+                    },
+                    "message": "8285398: Cache the results of constraint checks\n\nReviewed-by: phh\nBackport-of: 00e9c96d51bec53d4ae8a07c9c98af2c62f3d290",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/bbf2e9a6da49cb4eb793c42b2b38c927bf9865ba"
+                },
+                {
+                    "sha": "c85131730b684f6d1ed92c39587dd84a00ca3371",
+                    "author": {
+                        "email": "abakhtin@openjdk.org",
+                        "name": "Alexey Bakhtin"
+                    },
+                    "message": "8285696: AlgorithmConstraints:permits not throwing IllegalArgumentException when 'alg'  is null\n\nReviewed-by: sgehwolf\nBackport-of: 47951655acacba515c0d69f5192257664f887dba",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/c85131730b684f6d1ed92c39587dd84a00ca3371"
+                },
+                {
+                    "sha": "e979d570fcce3e0009791f99d506ae6d780cc6c5",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Merge upstream-dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/e979d570fcce3e0009791f99d506ae6d780cc6c5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T08:03:43Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32648956444",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15463969887,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/upstream-dev",
+            "head": "c85131730b684f6d1ed92c39587dd84a00ca3371",
+            "before": "0bc5d68d20efa9286a415a227a785a75bc6f08e9",
+            "commits": [
+                {
+                    "sha": "bbf2e9a6da49cb4eb793c42b2b38c927bf9865ba",
+                    "author": {
+                        "email": "abakhtin@openjdk.org",
+                        "name": "Alexey Bakhtin"
+                    },
+                    "message": "8285398: Cache the results of constraint checks\n\nReviewed-by: phh\nBackport-of: 00e9c96d51bec53d4ae8a07c9c98af2c62f3d290",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/bbf2e9a6da49cb4eb793c42b2b38c927bf9865ba"
+                },
+                {
+                    "sha": "c85131730b684f6d1ed92c39587dd84a00ca3371",
+                    "author": {
+                        "email": "abakhtin@openjdk.org",
+                        "name": "Alexey Bakhtin"
+                    },
+                    "message": "8285696: AlgorithmConstraints:permits not throwing IllegalArgumentException when 'alg'  is null\n\nReviewed-by: sgehwolf\nBackport-of: 47951655acacba515c0d69f5192257664f887dba",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/c85131730b684f6d1ed92c39587dd84a00ca3371"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T08:03:41Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32647336837",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15463200658,
+            "size": 12,
+            "distinct_size": 0,
+            "ref": "refs/heads/upstream",
+            "head": "9499e54ebbab17b0f5e48be27c0c7f90806a3c40",
+            "before": "b24b03f9dbeb2c1e8b5cb0279659eee489bd9df4",
+            "commits": [
+                {
+                    "sha": "1d6f9bd1ea09eb7866cdd1462b24e2c8801f7513",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8209115: adjust libsplashscreen linux ppc64le builds for easier libpng update\n\nReviewed-by: andrew, phh\nBackport-of: e4fdd0391733756f5b898371a66b38869d625c77",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/1d6f9bd1ea09eb7866cdd1462b24e2c8801f7513"
+                },
+                {
+                    "sha": "dd6efb10c26453229dc262f8366af64bd97a9b7f",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8242330: Arrays should be cloned in several JAAS Callback classes\n\nReviewed-by: andrew\nBackport-of: 8cd9241448f818b5e307d408ac4395b518791096",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/dd6efb10c26453229dc262f8366af64bd97a9b7f"
+                },
+                {
+                    "sha": "50d9af9b9371bedf971ee8c4c73283391f0ebb82",
+                    "author": {
+                        "email": "jvanek@openjdk.org",
+                        "name": "Ji\u0159\u00ed Van\u011bk"
+                    },
+                    "message": "8283441: C2: segmentation fault in ciMethodBlocks::make_block_at(int)\n\nReviewed-by: mbalao\nBackport-of: 947869609ce6b74d4d28f79724b823d8781adbed",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/50d9af9b9371bedf971ee8c4c73283391f0ebb82"
+                },
+                {
+                    "sha": "9d59e5b0a94f65bb9a60f23fc472db3a7c0c81f7",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8295685: Update Libpng to 1.6.38\n\nReviewed-by: andrew\nBackport-of: d183dc25f7360c3012726acf8c03874df6fc41a4",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/9d59e5b0a94f65bb9a60f23fc472db3a7c0c81f7"
+                },
+                {
+                    "sha": "dc7013e0d9853cfe99307eb8d2fc4e5f76e14b4a",
+                    "author": {
+                        "email": "avoitylov@openjdk.org",
+                        "name": "Alexei Voitylov"
+                    },
+                    "message": "8297856: Improve handling of Bidi characters\n\nReviewed-by: mbalao, andrew\nBackport-of: 244b89fc786894cb8cca742f91875ebb98b603ff",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/dc7013e0d9853cfe99307eb8d2fc4e5f76e14b4a"
+                },
+                {
+                    "sha": "6930f190778e62c88ee0d7d382f61515031563e4",
+                    "author": {
+                        "email": "dcherepanov@azul.com",
+                        "name": "Dmitry Cherepanov"
+                    },
+                    "message": "8303384: Improved communication in CORBA\n\nReviewed-by: mbalao, andrew",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/6930f190778e62c88ee0d7d382f61515031563e4"
+                },
+                {
+                    "sha": "9b6da14435a1c39d9a64b872357467bc54cd1df2",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8305815: Update Libpng to 1.6.39\n\nReviewed-by: phh, andrew\nBackport-of: c1f759e9d01d646eac69442452151b0467eab306",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/9b6da14435a1c39d9a64b872357467bc54cd1df2"
+                },
+                {
+                    "sha": "32ec85f1ee2c9d1cc5109d4c4678d2aadf6dbf09",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8309966: Enhanced TLS connections\n\nReviewed-by: mbalao, andrew\nBackport-of: d25ee81f56d67f2c51ba8b8c59f470c6f88ae47f",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/32ec85f1ee2c9d1cc5109d4c4678d2aadf6dbf09"
+                },
+                {
+                    "sha": "33f3f1c76562c4a3073ce4d1fba60e93c7f56fac",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8284910: Buffer clean in PasswordCallback\n\nReviewed-by: mbalao, andrew\nBackport-of: 89fd6d34f859d61d9cf5a1edf9419eee7c338390",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/33f3f1c76562c4a3073ce4d1fba60e93c7f56fac"
+                },
+                {
+                    "sha": "dee2d2de8e939a09f5abebc478b919fdb289748e",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8286503: Enhance security classes\n\nReviewed-by: mbalao, andrew\nBackport-of: 7f5e120a631ffda3e6d5efc03bae572b21877b69",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/dee2d2de8e939a09f5abebc478b919fdb289748e"
+                },
+                {
+                    "sha": "47a816eab013aa94237887d401bdbe32073c0afa",
+                    "author": {
+                        "email": "simonis@openjdk.org",
+                        "name": "Volker Simonis"
+                    },
+                    "message": "8315135: Memory leak in the native implementation of Pack200.Unpacker.unpack()\n\nReviewed-by: andrew\nBackport-of: b77c161e7509aa3b09ebf3e6b2b1490c0667bbdc",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/47a816eab013aa94237887d401bdbe32073c0afa"
+                },
+                {
+                    "sha": "9499e54ebbab17b0f5e48be27c0c7f90806a3c40",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8317040: Exclude cleaner test failing on older releases\n\nReviewed-by: mbalao, andrew, clanger",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/9499e54ebbab17b0f5e48be27c0c7f90806a3c40"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-18T07:02:51Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32637905831",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 107525009,
+            "login": "rgithubli",
+            "display_login": "rgithubli",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rgithubli",
+            "avatar_url": "https://avatars.githubusercontent.com/u/107525009?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "ref": "8.392.08.1",
+            "ref_type": "tag",
+            "master_branch": "develop",
+            "description": "Amazon Corretto 8 is a no-cost, multi-platform, production-ready distribution of OpenJDK 8",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-17T21:13:23Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32637905592",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 107525009,
+            "login": "rgithubli",
+            "display_login": "rgithubli",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rgithubli",
+            "avatar_url": "https://avatars.githubusercontent.com/u/107525009?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/corretto/corretto-8/releases/125500927",
+                "assets_url": "https://api.github.com/repos/corretto/corretto-8/releases/125500927/assets",
+                "upload_url": "https://uploads.github.com/repos/corretto/corretto-8/releases/125500927/assets{?name,label}",
+                "html_url": "https://github.com/corretto/corretto-8/releases/tag/8.392.08.1",
+                "id": 125500927,
+                "author": {
+                    "login": "rgithubli",
+                    "id": 107525009,
+                    "node_id": "U_kgDOBmizkQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/107525009?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rgithubli",
+                    "html_url": "https://github.com/rgithubli",
+                    "followers_url": "https://api.github.com/users/rgithubli/followers",
+                    "following_url": "https://api.github.com/users/rgithubli/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rgithubli/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rgithubli/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rgithubli/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rgithubli/orgs",
+                    "repos_url": "https://api.github.com/users/rgithubli/repos",
+                    "events_url": "https://api.github.com/users/rgithubli/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rgithubli/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOCVWGls4Hev3_",
+                "tag_name": "8.392.08.1",
+                "target_commitish": "release-8.392.08.1",
+                "name": "8.392.08.1",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-10-17T15:35:01Z",
+                "published_at": "2023-10-17T21:13:22Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/corretto/corretto-8/tarball/8.392.08.1",
+                "zipball_url": "https://api.github.com/repos/corretto/corretto-8/zipball/8.392.08.1",
+                "body": "For release notes see : [CHANGELOG.md](https://github.com/corretto/corretto-8/blob/release-8.392.08.1/CHANGELOG.md)\r\n\r\n### Download Links\r\n|Platform   |Type   |Download Link  |Checksum (MD5) / Checksum (SHA256) |Sig File   |\r\n|---    |---    |---    |---    |---    |\r\n|[Linux x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html)  |JDK    | [java-1.8.0-amazon-corretto-jdk_8.392.08-1_amd64.deb](https://corretto.aws/downloads/resources/8.392.08.1/java-1.8.0-amazon-corretto-jdk_8.392.08-1_amd64.deb) | `b2cf08135ac3e98c9942e53b7b89be9e` /<br /> `2e3a5ec8510ab261c7cbb794e4e545bae14314d0241c28f3fa91cb16fde54afb` |  |\r\n|[Linux x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html)  |JDK    | [java-1.8.0-amazon-corretto-devel-1.8.0_392.b08-1.x86_64.rpm](https://corretto.aws/downloads/resources/8.392.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_392.b08-1.x86_64.rpm) | `631c3c1c7ab0617c76b687dc0920ff56` /<br /> `a4bfce6049d828adc1e8ed000e29dad1473ead95b177b43852e275cb42bdff33` |  |\r\n|[Linux x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html)  |JDK    | [amazon-corretto-8.392.08.1-linux-x64.tar.gz](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-linux-x64.tar.gz) | `9150220dd85732840409cdb6be1a85f3` /<br /> `ffabf152c42d091ff16c920f0c4e267a4f13598bdbda2b32dd78a24054d97c0d` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-linux-x64.tar.gz.sig) |\r\n|[Linux aarch64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html)  |JDK    |[java-1.8.0-amazon-corretto-jdk_8.392.08-1_arm64.deb](https://corretto.aws/downloads/resources/8.392.08.1/java-1.8.0-amazon-corretto-jdk_8.392.08-1_arm64.deb) | `cbf25ba771f20a45a9cf33304fda7b11` /<br /> `970e6a7b6c9fb2412d157d18e52a0e37869979cd9cf791815d8b4bbae7f27926` |  |\r\n|[Linux aarch64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html)  |JDK    |[java-1.8.0-amazon-corretto-devel-1.8.0_392.b08-1.aarch64.rpm](https://corretto.aws/downloads/resources/8.392.08.1/java-1.8.0-amazon-corretto-devel-1.8.0_392.b08-1.aarch64.rpm) | `38305bc96bc0e59c0a354325d8bf3649` /<br /> `2f41f0451b12323b3517c602d31deed00e90dfb6ea5f0602d0d896b1fdd01ecf` |  |\r\n|[Linux aarch64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html)  |JDK    |[amazon-corretto-8.392.08.1-linux-aarch64.tar.gz](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-linux-aarch64.tar.gz) | `b06a18446a50c09a541af3921e677a8e` /<br /> `25f2bf6103c97cc44371d888b649449178baeaa4033d1867a3d12bc328e96cd4` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-linux-aarch64.tar.gz.sig) |\r\n|[Windows x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JDK    |[amazon-corretto-8.392.08.1-windows-x64-jdk.msi](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x64-jdk.msi) | `5832b6ddc0b621fdd4dc90f197fd4c33` /<br /> `256f9a99106454abb3a47c8dd803b89df4e971c82f4827812a5b050226f102cf` |  |\r\n|[Windows x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JDK    |[amazon-corretto-8.392.08.1-windows-x64-jdk.zip](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x64-jdk.zip) | `a8f583a242d450e3237614a29287e7f2` /<br /> `c771169e909459d6f6c3cf68e3a4200af420ae3313cf27423395eb3c0e811016` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x64-jdk.zip.sig) |\r\n|[Windows x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JRE    |[amazon-corretto-8.392.08.1-windows-x64-jre.zip](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x64-jre.zip) | `1fcf229721c9db0b1a23c3c2c841db67` /<br /> `b944ad739b8dbf55bb093916148c8c0805f7b8a146eeb545a42f1b515e687f53` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x64-jre.zip.sig) |\r\n|[Windows x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JRE    |[amazon-corretto-8.392.08.1-windows-x64-jre.msi](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x64-jre.msi) | `76b3a2867d7fdca3566e225f993d710b` /<br /> `f784bd3f248ca87326aac63db4705c45b4dc64d75c6959a9fdefb8a84558a799` |  |\r\n|[Windows x86](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JDK    |[amazon-corretto-8.392.08.1-windows-x86-jdk.msi](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x86-jdk.msi) | `67d4a8803b7729a9c98e1c8e7f5a4c15` /<br /> `7f8343d3b7f71be719d5428a41032dad5fc1d1fccfdb8fe0fdeac12029b43c73` |  |\r\n|[Windows x86](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JDK    |[amazon-corretto-8.392.08.1-windows-x86-jdk.zip](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x86-jdk.zip) | `3fc4d34006f5bc56bc51ae1b74a1f0c8` /<br /> `47b9fa69716dcc651b538428d1ed60c6a7683164a6b4c23687c7af960e2f876b` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x86-jdk.zip.sig) |\r\n|[Windows x86](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JRE    |[amazon-corretto-8.392.08.1-windows-x86-jre.zip](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x86-jre.zip) | `1c35c72a84a2d14f9fb0c0132f0998f6` /<br /> `a9957c604d9ea0265b5880a5f1fc33f6889dbafd84a728b46ddcca52b83c5564` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x86-jre.zip.sig) |\r\n|[Windows x86](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/windows-7-install.html)    |JRE    |[amazon-corretto-8.392.08.1-windows-x86-jre.msi](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-windows-x86-jre.msi) | `d3d458b1511fe52e4d4be33f0ececf06` /<br /> `dff174f5214c040eafa5a079ff3811469924f48dcff2fda7249c0673d82f6070` |  |\r\n|[macOS x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/macos-install.html)  |JDK    |[amazon-corretto-8.392.08.1-macosx-x64.pkg](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-macosx-x64.pkg) | `139b83f3fa480714ce73ade5ed8a5848` /<br /> `f6524417a1c9cef7c4e766409809ddcdbcd9ed5f2e0bd777804c7cc4a6055eac` |  |\r\n|[macOS x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/macos-install.html)  |JDK    |[amazon-corretto-8.392.08.1-macosx-x64.tar.gz](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-macosx-x64.tar.gz) | `de0722842fccc373df8242e9c1a9e956` /<br /> `2ea69e415912f7ad5358d016b1a82068e36c2a625d8573cd28c1c2a9a5b39cba` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-macosx-x64.tar.gz.sig) |\r\n|[macOS aarch64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/macos-install.html)  |JDK    |[amazon-corretto-8.392.08.1-macosx-aarch64.pkg](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-macosx-aarch64.pkg) | `73af31998b93b1be67d1bccedb5da3a9` /<br /> `c9c9d9004ed11487a37a274cb1e230bc90ff730ea78cefd7fcd75c635e82c650` |  |\r\n|[macOS aarch64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/macos-install.html)  |JDK    |[amazon-corretto-8.392.08.1-macosx-aarch64.tar.gz](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-macosx-aarch64.tar.gz) | `7a558196946e36972bec11555b3fbd31` /<br /> `eb1aedaad5505605f17a81692f9882edbcb69f34494330dd5cd2a31f65bbd0e0` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-macosx-aarch64.tar.gz.sig) |\r\n|[Alpine Linux x64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html)|JDK | [amazon-corretto-8.392.08.1-alpine-linux-x64.tar.gz](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-alpine-linux-x64.tar.gz) | `c69bf3363bee52bdc48020dd83474358` /<br /> `eed89e435c9b3cd8971dc845e5633bd5087c17faa84c98250a9eb84dba93bcb9` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-alpine-linux-x64.tar.gz.sig) |\r\n|[Alpine Linux aarch64](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html) |JDK | [amazon-corretto-8.392.08.1-alpine-linux-aarch64.tar.gz](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-alpine-linux-aarch64.tar.gz) | `df2fbb28feea6c893dd80333dc2e0d05` /<br /> `dba985b1304ef08cb3c60c6baeb536665a32d6f99fe5c7bb7a0319d7035388c6` | [Download](https://corretto.aws/downloads/resources/8.392.08.1/amazon-corretto-8.392.08.1-alpine-linux-aarch64.tar.gz.sig) |",
+                "short_description_html": "<p>For release notes see : <a href=\"https://github.com/corretto/corretto-8/blob/release-8.392.08.1/CHANGELOG.md\">CHANGELOG.md</a></p>\n<h3>Download Links</h3>\n<table>\n<thead>\n<tr>\n<th>Platform</th>\n<th>Type</th>\n<th>Download Link</th>\n<th>Checksum (MD5) / Checksum (SHA256)</th>\n<th>Sig File</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html\" rel=\"nofollow\">Linux x64</a></td>\n<td>JDK</td>\n<td><a href=\"https://corretto.aws/downloads/resources/8.392.08.1/java-1.8.0-amazon-corretto-jdk_8.392.08-1_amd64.deb\" rel=\"nofollow\">java-1.8.0-amazon-corretto-jdk_8.392.08-1_amd64.deb</a></td>\n<td><code>b\u2026</code></td>\n</tr>\n</tbody>\n</table>",
+                "is_short_description_html_truncated": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-17T21:13:22Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32637841925",
+        "type": "PushEvent",
+        "actor": {
+            "id": 107525009,
+            "login": "rgithubli",
+            "display_login": "rgithubli",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rgithubli",
+            "avatar_url": "https://avatars.githubusercontent.com/u/107525009?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15458298640,
+            "size": 15,
+            "distinct_size": 0,
+            "ref": "refs/heads/develop",
+            "head": "d57e202626e75d4446ac60151d55566dda65fbb6",
+            "before": "426f21b55a5d8fe0af60dcf0a25e286708ec5baa",
+            "commits": [
+                {
+                    "sha": "1d6f9bd1ea09eb7866cdd1462b24e2c8801f7513",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8209115: adjust libsplashscreen linux ppc64le builds for easier libpng update\n\nReviewed-by: andrew, phh\nBackport-of: e4fdd0391733756f5b898371a66b38869d625c77",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/1d6f9bd1ea09eb7866cdd1462b24e2c8801f7513"
+                },
+                {
+                    "sha": "dd6efb10c26453229dc262f8366af64bd97a9b7f",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8242330: Arrays should be cloned in several JAAS Callback classes\n\nReviewed-by: andrew\nBackport-of: 8cd9241448f818b5e307d408ac4395b518791096",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/dd6efb10c26453229dc262f8366af64bd97a9b7f"
+                },
+                {
+                    "sha": "50d9af9b9371bedf971ee8c4c73283391f0ebb82",
+                    "author": {
+                        "email": "jvanek@openjdk.org",
+                        "name": "Ji\u0159\u00ed Van\u011bk"
+                    },
+                    "message": "8283441: C2: segmentation fault in ciMethodBlocks::make_block_at(int)\n\nReviewed-by: mbalao\nBackport-of: 947869609ce6b74d4d28f79724b823d8781adbed",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/50d9af9b9371bedf971ee8c4c73283391f0ebb82"
+                },
+                {
+                    "sha": "9d59e5b0a94f65bb9a60f23fc472db3a7c0c81f7",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8295685: Update Libpng to 1.6.38\n\nReviewed-by: andrew\nBackport-of: d183dc25f7360c3012726acf8c03874df6fc41a4",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/9d59e5b0a94f65bb9a60f23fc472db3a7c0c81f7"
+                },
+                {
+                    "sha": "dc7013e0d9853cfe99307eb8d2fc4e5f76e14b4a",
+                    "author": {
+                        "email": "avoitylov@openjdk.org",
+                        "name": "Alexei Voitylov"
+                    },
+                    "message": "8297856: Improve handling of Bidi characters\n\nReviewed-by: mbalao, andrew\nBackport-of: 244b89fc786894cb8cca742f91875ebb98b603ff",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/dc7013e0d9853cfe99307eb8d2fc4e5f76e14b4a"
+                },
+                {
+                    "sha": "6930f190778e62c88ee0d7d382f61515031563e4",
+                    "author": {
+                        "email": "dcherepanov@azul.com",
+                        "name": "Dmitry Cherepanov"
+                    },
+                    "message": "8303384: Improved communication in CORBA\n\nReviewed-by: mbalao, andrew",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/6930f190778e62c88ee0d7d382f61515031563e4"
+                },
+                {
+                    "sha": "9b6da14435a1c39d9a64b872357467bc54cd1df2",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8305815: Update Libpng to 1.6.39\n\nReviewed-by: phh, andrew\nBackport-of: c1f759e9d01d646eac69442452151b0467eab306",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/9b6da14435a1c39d9a64b872357467bc54cd1df2"
+                },
+                {
+                    "sha": "32ec85f1ee2c9d1cc5109d4c4678d2aadf6dbf09",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8309966: Enhanced TLS connections\n\nReviewed-by: mbalao, andrew\nBackport-of: d25ee81f56d67f2c51ba8b8c59f470c6f88ae47f",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/32ec85f1ee2c9d1cc5109d4c4678d2aadf6dbf09"
+                },
+                {
+                    "sha": "33f3f1c76562c4a3073ce4d1fba60e93c7f56fac",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8284910: Buffer clean in PasswordCallback\n\nReviewed-by: mbalao, andrew\nBackport-of: 89fd6d34f859d61d9cf5a1edf9419eee7c338390",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/33f3f1c76562c4a3073ce4d1fba60e93c7f56fac"
+                },
+                {
+                    "sha": "dee2d2de8e939a09f5abebc478b919fdb289748e",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8286503: Enhance security classes\n\nReviewed-by: mbalao, andrew\nBackport-of: 7f5e120a631ffda3e6d5efc03bae572b21877b69",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/dee2d2de8e939a09f5abebc478b919fdb289748e"
+                },
+                {
+                    "sha": "47a816eab013aa94237887d401bdbe32073c0afa",
+                    "author": {
+                        "email": "simonis@openjdk.org",
+                        "name": "Volker Simonis"
+                    },
+                    "message": "8315135: Memory leak in the native implementation of Pack200.Unpacker.unpack()\n\nReviewed-by: andrew\nBackport-of: b77c161e7509aa3b09ebf3e6b2b1490c0667bbdc",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/47a816eab013aa94237887d401bdbe32073c0afa"
+                },
+                {
+                    "sha": "9499e54ebbab17b0f5e48be27c0c7f90806a3c40",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8317040: Exclude cleaner test failing on older releases\n\nReviewed-by: mbalao, andrew, clanger",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/9499e54ebbab17b0f5e48be27c0c7f90806a3c40"
+                },
+                {
+                    "sha": "d6c8165fe3bcf5c3675a801a65314275acae1f4e",
+                    "author": {
+                        "email": "AutumnCapasso@gmail.com",
+                        "name": "Autumn808"
+                    },
+                    "message": "Merge jdk8u392-b08",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/d6c8165fe3bcf5c3675a801a65314275acae1f4e"
+                },
+                {
+                    "sha": "8f57865133b09529db0b7745f78e044def012011",
+                    "author": {
+                        "email": "benty@amazon.com",
+                        "name": "Ben Taylor"
+                    },
+                    "message": "Update version to 8.392.08.1",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/8f57865133b09529db0b7745f78e044def012011"
+                },
+                {
+                    "sha": "d57e202626e75d4446ac60151d55566dda65fbb6",
+                    "author": {
+                        "email": "ruiamzn@amazon.com",
+                        "name": "Rui Li"
+                    },
+                    "message": "Update change log for 8.392.08.1",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/d57e202626e75d4446ac60151d55566dda65fbb6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-17T21:10:41Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32637830954",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 107525009,
+            "login": "rgithubli",
+            "display_login": "rgithubli",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rgithubli",
+            "avatar_url": "https://avatars.githubusercontent.com/u/107525009?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "ref": "release-8.392.08.1",
+            "ref_type": "branch",
+            "master_branch": "develop",
+            "description": "Amazon Corretto 8 is a no-cost, multi-platform, production-ready distribution of OpenJDK 8",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-17T21:10:15Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32615608674",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15447560739,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "2534042ff2cd77d13875cebac618dd42e1a6320e",
+            "before": "7518513f8f3004eed4c72b9f402e6b63cb55df28",
+            "commits": [
+                {
+                    "sha": "0bc5d68d20efa9286a415a227a785a75bc6f08e9",
+                    "author": {
+                        "email": "chadrako@amazon.com",
+                        "name": "Chad Rakoczy"
+                    },
+                    "message": "8311813: C1: Uninitialized PhiResolver::_loop field\n\nBackport-of: 489a32fe40e2a2c539296d51d4ffc0abc036d33c",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/0bc5d68d20efa9286a415a227a785a75bc6f08e9"
+                },
+                {
+                    "sha": "2534042ff2cd77d13875cebac618dd42e1a6320e",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Merge upstream-dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/2534042ff2cd77d13875cebac618dd42e1a6320e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-17T08:03:45Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32615607644",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15447560261,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/upstream-dev",
+            "head": "0bc5d68d20efa9286a415a227a785a75bc6f08e9",
+            "before": "edef564a8b544d9d1f42bc4c95fb693e88beab22",
+            "commits": [
+                {
+                    "sha": "0bc5d68d20efa9286a415a227a785a75bc6f08e9",
+                    "author": {
+                        "email": "chadrako@amazon.com",
+                        "name": "Chad Rakoczy"
+                    },
+                    "message": "8311813: C1: Uninitialized PhiResolver::_loop field\n\nBackport-of: 489a32fe40e2a2c539296d51d4ffc0abc036d33c",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/0bc5d68d20efa9286a415a227a785a75bc6f08e9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-17T08:03:43Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32583085524",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15431606265,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "7518513f8f3004eed4c72b9f402e6b63cb55df28",
+            "before": "140cc84f2564ff6df2bb120dbb9f8cd930d867b3",
+            "commits": [
+                {
+                    "sha": "edef564a8b544d9d1f42bc4c95fb693e88beab22",
+                    "author": {
+                        "email": "inakonechnyy@openjdk.org",
+                        "name": "Ilarion Nakonechnyy"
+                    },
+                    "message": "8207404: MulticastSocket tests failing on AIX\n\nReviewed-by: phh\nBackport-of: bc651663e31ddf05d59bfe6fc7a70c3a7ed708af",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/edef564a8b544d9d1f42bc4c95fb693e88beab22"
+                },
+                {
+                    "sha": "7518513f8f3004eed4c72b9f402e6b63cb55df28",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Merge upstream-dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/7518513f8f3004eed4c72b9f402e6b63cb55df28"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-16T08:03:41Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32583084707",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15431605895,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/upstream-dev",
+            "head": "edef564a8b544d9d1f42bc4c95fb693e88beab22",
+            "before": "27608e1e36154fcbedc627bc2afa965b1a06ebfb",
+            "commits": [
+                {
+                    "sha": "edef564a8b544d9d1f42bc4c95fb693e88beab22",
+                    "author": {
+                        "email": "inakonechnyy@openjdk.org",
+                        "name": "Ilarion Nakonechnyy"
+                    },
+                    "message": "8207404: MulticastSocket tests failing on AIX\n\nReviewed-by: phh\nBackport-of: bc651663e31ddf05d59bfe6fc7a70c3a7ed708af",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/edef564a8b544d9d1f42bc4c95fb693e88beab22"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-16T08:03:39Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32493442329",
+        "type": "PushEvent",
+        "actor": {
+            "id": 34965675,
+            "login": "Autumn808",
+            "display_login": "Autumn808",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Autumn808",
+            "avatar_url": "https://avatars.githubusercontent.com/u/34965675?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15383397857,
+            "size": 2,
+            "distinct_size": 0,
+            "ref": "refs/heads/upstream-dev",
+            "head": "27608e1e36154fcbedc627bc2afa965b1a06ebfb",
+            "before": "f4260a4deed5210fc56f08774e8ca50cf6f7cc8e",
+            "commits": [
+                {
+                    "sha": "27058b26e6fff1c10eefe2cc3dd026c4418f65f9",
+                    "author": {
+                        "email": "zzambers@openjdk.org",
+                        "name": "Zdenek Zambersky"
+                    },
+                    "message": "8307837: [8u] Check step in GHA should also print errors\n\nReviewed-by: andrew",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/27058b26e6fff1c10eefe2cc3dd026c4418f65f9"
+                },
+                {
+                    "sha": "27608e1e36154fcbedc627bc2afa965b1a06ebfb",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8242330: Arrays should be cloned in several JAAS Callback classes\n\nReviewed-by: andrew\nBackport-of: 8cd9241448f818b5e307d408ac4395b518791096",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/27608e1e36154fcbedc627bc2afa965b1a06ebfb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-11T19:43:03Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32492571114",
+        "type": "PushEvent",
+        "actor": {
+            "id": 34965675,
+            "login": "Autumn808",
+            "display_login": "Autumn808",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Autumn808",
+            "avatar_url": "https://avatars.githubusercontent.com/u/34965675?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15382978587,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/nightly",
+            "head": "140cc84f2564ff6df2bb120dbb9f8cd930d867b3",
+            "before": "5761be8c00911566a781e1beb006bf40c124124a",
+            "commits": [
+                {
+                    "sha": "27058b26e6fff1c10eefe2cc3dd026c4418f65f9",
+                    "author": {
+                        "email": "zzambers@openjdk.org",
+                        "name": "Zdenek Zambersky"
+                    },
+                    "message": "8307837: [8u] Check step in GHA should also print errors\n\nReviewed-by: andrew",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/27058b26e6fff1c10eefe2cc3dd026c4418f65f9"
+                },
+                {
+                    "sha": "27608e1e36154fcbedc627bc2afa965b1a06ebfb",
+                    "author": {
+                        "email": "yan@openjdk.org",
+                        "name": "Yuri Nesterenko"
+                    },
+                    "message": "8242330: Arrays should be cloned in several JAAS Callback classes\n\nReviewed-by: andrew\nBackport-of: 8cd9241448f818b5e307d408ac4395b518791096",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/27608e1e36154fcbedc627bc2afa965b1a06ebfb"
+                },
+                {
+                    "sha": "140cc84f2564ff6df2bb120dbb9f8cd930d867b3",
+                    "author": {
+                        "email": "AutumnCapasso@gmail.com",
+                        "name": "Autumn808"
+                    },
+                    "message": "Merge upstream-jdk8u-dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/140cc84f2564ff6df2bb120dbb9f8cd930d867b3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-11T19:04:37Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32151774208",
+        "type": "PushEvent",
+        "actor": {
+            "id": 61068077,
+            "login": "lutkerd",
+            "display_login": "lutkerd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lutkerd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/61068077?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15206010233,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "5761be8c00911566a781e1beb006bf40c124124a",
+            "before": "f415c4b3d21acfd5c036853ac6e29b11407ca337",
+            "commits": [
+                {
+                    "sha": "426f21b55a5d8fe0af60dcf0a25e286708ec5baa",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Update Corretto version to match upstream: 8.392.07.1",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/426f21b55a5d8fe0af60dcf0a25e286708ec5baa"
+                },
+                {
+                    "sha": "5761be8c00911566a781e1beb006bf40c124124a",
+                    "author": {
+                        "email": "lutkerd@amazon.com",
+                        "name": "Dan Lutker"
+                    },
+                    "message": "Merge develop",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/5761be8c00911566a781e1beb006bf40c124124a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-27T18:07:49Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32133089364",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15196990954,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "426f21b55a5d8fe0af60dcf0a25e286708ec5baa",
+            "before": "5895fccf25416e2c589e7fe12622f1a7570a635b",
+            "commits": [
+                {
+                    "sha": "426f21b55a5d8fe0af60dcf0a25e286708ec5baa",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Update Corretto version to match upstream: 8.392.07.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/426f21b55a5d8fe0af60dcf0a25e286708ec5baa"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-27T07:02:50Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32131362956",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14367431,
+            "login": "MetalistPavlenko",
+            "display_login": "MetalistPavlenko",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MetalistPavlenko",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14367431?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-27T05:31:15Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32102658381",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15181853313,
+            "size": 3,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "f415c4b3d21acfd5c036853ac6e29b11407ca337",
+            "before": "6a6f90d463867f407b4d65119e771581dd8014b3",
+            "commits": [
+                {
+                    "sha": "961ab463974b7d05600b826303f9111c4f367a04",
+                    "author": {
+                        "email": "jvanek@openjdk.org",
+                        "name": "Ji\u0159\u00ed Van\u011bk"
+                    },
+                    "message": "8283441: C2: segmentation fault in ciMethodBlocks::make_block_at(int)\n\nReviewed-by: mbalao\nBackport-of: 947869609ce6b74d4d28f79724b823d8781adbed",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/961ab463974b7d05600b826303f9111c4f367a04"
+                },
+                {
+                    "sha": "f4260a4deed5210fc56f08774e8ca50cf6f7cc8e",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8305815: Update Libpng to 1.6.39\n\nReviewed-by: phh, andrew\nBackport-of: c1f759e9d01d646eac69442452151b0467eab306",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/f4260a4deed5210fc56f08774e8ca50cf6f7cc8e"
+                },
+                {
+                    "sha": "f415c4b3d21acfd5c036853ac6e29b11407ca337",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Merge upstream-dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/f415c4b3d21acfd5c036853ac6e29b11407ca337"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-26T08:03:33Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32102657732",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15181852998,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/upstream-dev",
+            "head": "f4260a4deed5210fc56f08774e8ca50cf6f7cc8e",
+            "before": "a9e2be4802c602cad94349f25a88e5ba2c965978",
+            "commits": [
+                {
+                    "sha": "961ab463974b7d05600b826303f9111c4f367a04",
+                    "author": {
+                        "email": "jvanek@openjdk.org",
+                        "name": "Ji\u0159\u00ed Van\u011bk"
+                    },
+                    "message": "8283441: C2: segmentation fault in ciMethodBlocks::make_block_at(int)\n\nReviewed-by: mbalao\nBackport-of: 947869609ce6b74d4d28f79724b823d8781adbed",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/961ab463974b7d05600b826303f9111c4f367a04"
+                },
+                {
+                    "sha": "f4260a4deed5210fc56f08774e8ca50cf6f7cc8e",
+                    "author": {
+                        "email": "mbalao@openjdk.org",
+                        "name": "Martin Balao"
+                    },
+                    "message": "8305815: Update Libpng to 1.6.39\n\nReviewed-by: phh, andrew\nBackport-of: c1f759e9d01d646eac69442452151b0467eab306",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/f4260a4deed5210fc56f08774e8ca50cf6f7cc8e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-26T08:03:31Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32022379449",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12962462,
+            "login": "hdzitao",
+            "display_login": "hdzitao",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hdzitao",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12962462?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-22T06:10:49Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32021025207",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2062387,
+            "login": "bw2k",
+            "display_login": "bw2k",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bw2k",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062387?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-22T04:35:52Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "32019650612",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 46811694,
+            "login": "ahxiaoqi",
+            "display_login": "ahxiaoqi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ahxiaoqi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46811694?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-22T02:36:32Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "31994002290",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15124648056,
+            "size": 3,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "6a6f90d463867f407b4d65119e771581dd8014b3",
+            "before": "3c592ddc2102488c4eab38dcae5338feaf11a99f",
+            "commits": [
+                {
+                    "sha": "ee4caa8b41570edb5137eaa30a8867de2cae4e5d",
+                    "author": {
+                        "email": "abakhtin@openjdk.org",
+                        "name": "Alexey Bakhtin"
+                    },
+                    "message": "8029995: accept yes/no for boolean krb5.conf settings\n\nReviewed-by: andrew\nBackport-of: 9bae1e597b2d884e1d8a2a7a499b8d83ec002dbd",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/ee4caa8b41570edb5137eaa30a8867de2cae4e5d"
+                },
+                {
+                    "sha": "a9e2be4802c602cad94349f25a88e5ba2c965978",
+                    "author": {
+                        "email": "andrew@openjdk.org",
+                        "name": "Andrew John Hughes"
+                    },
+                    "message": "Merge",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/a9e2be4802c602cad94349f25a88e5ba2c965978"
+                },
+                {
+                    "sha": "6a6f90d463867f407b4d65119e771581dd8014b3",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Merge upstream-dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/6a6f90d463867f407b4d65119e771581dd8014b3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-21T08:03:32Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "31994001436",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15124647598,
+            "size": 6,
+            "distinct_size": 2,
+            "ref": "refs/heads/upstream-dev",
+            "head": "a9e2be4802c602cad94349f25a88e5ba2c965978",
+            "before": "5b76d03291edd805ce594972a108c305a32ac478",
+            "commits": [
+                {
+                    "sha": "599bb77c451274bacdb38cb7fd2d8fe658846ab3",
+                    "author": {
+                        "email": "abakhtin@openjdk.org",
+                        "name": "Alexey Bakhtin"
+                    },
+                    "message": "8225687: Newly added sspi.cpp in JDK-6722928 still contains some small errors\n\nReviewed-by: andrew\nBackport-of: e03c2a270b291e7b1edcf4df491d6d386a882a87",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/599bb77c451274bacdb38cb7fd2d8fe658846ab3"
+                },
+                {
+                    "sha": "e74d29d67429a8059ec168882ee3b540dea67a1f",
+                    "author": {
+                        "email": "sgehwolf@openjdk.org",
+                        "name": "Severin Gehwolf"
+                    },
+                    "message": "8295894: Remove SECOM certificate that is expiring in September 2023\n\nReviewed-by: andrew\nBackport-of: b40b1ca1f6ab606387bb1a466810f0e23dead560",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/e74d29d67429a8059ec168882ee3b540dea67a1f"
+                },
+                {
+                    "sha": "0ee1400d7be107fec86a40900f21be0b6edfcdfc",
+                    "author": {
+                        "email": "andrew@openjdk.org",
+                        "name": "Andrew John Hughes"
+                    },
+                    "message": "Merge",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/0ee1400d7be107fec86a40900f21be0b6edfcdfc"
+                },
+                {
+                    "sha": "05254efcaeac3b6149b9b11c46c861da8bfe2249",
+                    "author": {
+                        "email": "andrew@openjdk.org",
+                        "name": "Andrew John Hughes"
+                    },
+                    "message": "Merge",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/05254efcaeac3b6149b9b11c46c861da8bfe2249"
+                },
+                {
+                    "sha": "ee4caa8b41570edb5137eaa30a8867de2cae4e5d",
+                    "author": {
+                        "email": "abakhtin@openjdk.org",
+                        "name": "Alexey Bakhtin"
+                    },
+                    "message": "8029995: accept yes/no for boolean krb5.conf settings\n\nReviewed-by: andrew\nBackport-of: 9bae1e597b2d884e1d8a2a7a499b8d83ec002dbd",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/ee4caa8b41570edb5137eaa30a8867de2cae4e5d"
+                },
+                {
+                    "sha": "a9e2be4802c602cad94349f25a88e5ba2c965978",
+                    "author": {
+                        "email": "andrew@openjdk.org",
+                        "name": "Andrew John Hughes"
+                    },
+                    "message": "Merge",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/a9e2be4802c602cad94349f25a88e5ba2c965978"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-21T08:03:30Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "31969170817",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7660424,
+            "login": "lovebingo",
+            "display_login": "lovebingo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lovebingo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7660424?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-09-20T11:50:22Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    },
+    {
+        "id": "31962908674",
+        "type": "PushEvent",
+        "actor": {
+            "id": 41898282,
+            "login": "github-actions[bot]",
+            "display_login": "github-actions",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/41898282?"
+        },
+        "repo": {
+            "id": 156599958,
+            "name": "corretto/corretto-8",
+            "url": "https://api.github.com/repos/corretto/corretto-8"
+        },
+        "payload": {
+            "repository_id": 156599958,
+            "push_id": 15109299776,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/nightly",
+            "head": "3c592ddc2102488c4eab38dcae5338feaf11a99f",
+            "before": "671e0bcfdfadc3e9db8d2464cd9cd41392124795",
+            "commits": [
+                {
+                    "sha": "3c592ddc2102488c4eab38dcae5338feaf11a99f",
+                    "author": {
+                        "email": "no-reply@amazon.com",
+                        "name": "corretto-github-robot"
+                    },
+                    "message": "Update Corretto version to match upstream: 8.392.01.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/corretto/corretto-8/commits/3c592ddc2102488c4eab38dcae5338feaf11a99f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-09-20T08:03:26Z",
+        "org": {
+            "id": 44104058,
+            "login": "corretto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/corretto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44104058?"
+        }
+    }
+]

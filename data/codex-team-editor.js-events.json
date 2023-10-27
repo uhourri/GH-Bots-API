@@ -1,0 +1,2006 @@
+[
+    {
+        "id": "32896569637",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 30334325,
+            "login": "Serdnaley",
+            "display_login": "Serdnaley",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Serdnaley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30334325?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:05:54Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32895655494",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 620479,
+            "login": "sodapanda",
+            "display_login": "sodapanda",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sodapanda",
+            "avatar_url": "https://avatars.githubusercontent.com/u/620479?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:27:57Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32892333490",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 7627744,
+            "login": "ls84",
+            "display_login": "ls84",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ls84",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7627744?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/2509",
+                "repository_url": "https://api.github.com/repos/codex-team/editor.js",
+                "labels_url": "https://api.github.com/repos/codex-team/editor.js/issues/2509/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codex-team/editor.js/issues/2509/comments",
+                "events_url": "https://api.github.com/repos/codex-team/editor.js/issues/2509/events",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2509",
+                "id": 1940564123,
+                "node_id": "I_kwDOAs3DF85zqqib",
+                "number": 2509,
+                "title": "Editor render issue with data props",
+                "user": {
+                    "login": "altumsoftwareds",
+                    "id": 145126851,
+                    "node_id": "U_kgDOCKZ1ww",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/145126851?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/altumsoftwareds",
+                    "html_url": "https://github.com/altumsoftwareds",
+                    "followers_url": "https://api.github.com/users/altumsoftwareds/followers",
+                    "following_url": "https://api.github.com/users/altumsoftwareds/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/altumsoftwareds/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/altumsoftwareds/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/altumsoftwareds/subscriptions",
+                    "organizations_url": "https://api.github.com/users/altumsoftwareds/orgs",
+                    "repos_url": "https://api.github.com/users/altumsoftwareds/repos",
+                    "events_url": "https://api.github.com/users/altumsoftwareds/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/altumsoftwareds/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 292788893,
+                        "node_id": "MDU6TGFiZWwyOTI3ODg4OTM=",
+                        "url": "https://api.github.com/repos/codex-team/editor.js/labels/bug",
+                        "name": "bug",
+                        "color": "ffedee",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2023-10-12T18:31:57Z",
+                "updated_at": "2023-10-27T08:22:08Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I am waiting when I will get response with some structure and I need to pass it to Editor. \r\n\r\n\r\n( I also see such error in console: `Block \u00abparagraph\u00bb skipped because saved data is invalid` ) \r\n\r\nso on initial render editor triggers `onChange` method with empty data `{time: 1697134792817, blocks: Array(0), version: '2.28.0'}` ( I tested it using setTimeout ) \r\n\r\nand it overrides data I save in useState. That's why I see empty editor. \r\n\r\nFull code : \r\n\r\n\r\n```\r\nimport React from \"react\";\r\nimport { Button, styled, TextField } from \"@mui/material\";\r\nimport { PolicyCybertaskContext } from \"..\";\r\nimport { Column, Row } from \"components/containers\";\r\nimport Widget from \"components/widget\";\r\nimport { CopyAll } from \"@mui/icons-material\";\r\nimport {\r\n    UpdatePolicySectionDtoInput,\r\n    useUpdatePolicySectionMutation,\r\n} from \"lib/apollo/types\";\r\nimport dynamic from \"next/dynamic\";\r\nimport { editorDataTransform } from \"lib/utils/editorDataTransform\";\r\n\r\ninterface Props {\r\n    onPrev: () => void;\r\n    onNext: () => void;\r\n    section: number;\r\n    item: number;\r\n}\r\n\r\nconst Editor = dynamic(() => import(\"components/Editor\"), {\r\n    ssr: false,\r\n  });\r\n\r\nconst PolicySections: React.FC<Props> = ({ onPrev, onNext, section, item }) => {\r\n    const { template, policy } = React.useContext(PolicyCybertaskContext);\r\n    const [error, setError] = React.useState<string>();\r\n    const [answer, setAnswer] = React.useState<any>({});\r\n    const [updateSection] = useUpdatePolicySectionMutation();\r\n\r\n    React.useEffect(() => {\r\n        if (!policy || !policy.policySections[section]) {\r\n            setAnswer({});\r\n            return;\r\n        }\r\n        const currentItem = policy.policySections[section].items[item];\r\n        if (!currentItem) {\r\n            setAnswer({});\r\n        } else {\r\n            setAnswer(editorDataTransform(currentItem));\r\n        }\r\n    }, [section, item, policy]);\r\n\r\n    const save = () => {\r\n        setError(undefined);\r\n        if (!policy?.policySections[section]) return;\r\n\r\n        const dto: UpdatePolicySectionDtoInput = {\r\n            id: policy.policySections[section].id,\r\n            items: policy.policySections[section].items[item]\r\n                ? policy.policySections[section].items.map((a, index) => {\r\n                      if (index === item) {\r\n                          return JSON.stringify(answer);\r\n                      }\r\n                      return a;\r\n                  })\r\n                : [...policy.policySections[section].items, JSON.stringify(answer)],\r\n        };\r\n\r\n        updateSection({ variables: { dto } });\r\n    };\r\n\r\n    const saveAndGoBack = () => {\r\n        if (answer.length === 0) {\r\n            setError(\"This field is required.\");\r\n            return;\r\n        }\r\n        save();\r\n        onPrev();\r\n    };\r\n\r\n    const saveAndContinue = () => {\r\n        if (answer.blocks.length === 0) {\r\n            setError(\"This field is required.\");\r\n            return;\r\n        }\r\n        save();\r\n        onNext();\r\n    };\r\n\r\n    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {\r\n        setError(undefined);\r\n        setAnswer(e.target.value);\r\n    };\r\n\r\n    const copyExample = () => {\r\n        if (\r\n            template?.templatePolicy.templatePolicySections[section]\r\n                .templatePolicySectionItems[item].exampleAnswer\r\n        )\r\n            setAnswer(\r\n                template?.templatePolicy.templatePolicySections[section]\r\n                    .templatePolicySectionItems[item].exampleAnswer\r\n            );\r\n    };\r\n\r\n    console.log(policy?.policySections)\r\n    console.log(item)\r\n    console.log(answer)\r\n\r\n    return (\r\n        <Container>\r\n            <QuestionBox color=\"primary\">\r\n                {\r\n                    template?.templatePolicy.templatePolicySections[section]\r\n                        .templatePolicySectionItems[item].question\r\n                }\r\n            </QuestionBox>\r\n            <Row>\r\n                <Widget color=\"complimentary3.lightest\" sx={{ width: \"50%\" }}>\r\n                    <HeaderRow>\r\n                        <h4>Example answer</h4>\r\n                        <Button\r\n                            variant=\"text\"\r\n                            sx={{ padding: \"0\" }}\r\n                            onClick={copyExample}\r\n                        >\r\n                            <CopyAll />\r\n                        </Button>\r\n                    </HeaderRow>\r\n                    {template?.templatePolicy.templatePolicySections[\r\n                        section\r\n                    ].templatePolicySectionItems[item].exampleAnswer\r\n                        .split(\"\\n\")\r\n                        .map((line, i) => (\r\n                            <p key={i}>{line}</p>\r\n                        ))}\r\n                </Widget>\r\n                <Widget color=\"complimentary3.lightest\" sx={{ width: \"50%\" }}>\r\n                    <Row>\r\n                        <h4>Your answer</h4>\r\n                    </Row>\r\n                    <p>{JSON.stringify(answer)}</p>\r\n                    <Editor data={answer} onChange={(data) => {\r\n                        console.log('data', data)\r\n                        setAnswer(data)\r\n                        // if(data.blocks.length !== 0){\r\n                        //     setTimeout(()=> {setAnswer(data)},3000)\r\n                        // }\r\n                    }} editorblock={`editorjs-container-${section}`}/>\r\n                </Widget>\r\n            </Row>\r\n        </Container>\r\n    );\r\n};\r\n\r\n```\r\n![\u0411\u0435\u0437\u044b\u043c\u044f\u043d\u043d\u044b\u0439](https://github.com/codex-team/editor.js/assets/145126851/97a51f48-4ad8-4d5d-9222-e1128e0e762d)\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/2509/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codex-team/editor.js/issues/2509/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1782503119",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2509#issuecomment-1782503119",
+                "issue_url": "https://api.github.com/repos/codex-team/editor.js/issues/2509",
+                "id": 1782503119,
+                "node_id": "IC_kwDOAs3DF85qPtbP",
+                "user": {
+                    "login": "ls84",
+                    "id": 7627744,
+                    "node_id": "MDQ6VXNlcjc2Mjc3NDQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7627744?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ls84",
+                    "html_url": "https://github.com/ls84",
+                    "followers_url": "https://api.github.com/users/ls84/followers",
+                    "following_url": "https://api.github.com/users/ls84/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ls84/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ls84/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ls84/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ls84/orgs",
+                    "repos_url": "https://api.github.com/users/ls84/repos",
+                    "events_url": "https://api.github.com/users/ls84/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ls84/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T08:22:08Z",
+                "updated_at": "2023-10-27T08:22:08Z",
+                "author_association": "NONE",
+                "body": "> @ls84 where to put `editor.save()` else, for example?\r\n\r\nI am guessing the problem of `Block \u00abparagraph\u00bb skipped because saved data is invalid` is caused by saving data before it's ready to be saved out. My solution was to bind `editor.save()` to a button click action. Hope this helps",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1782503119/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:22:09Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32886763804",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 21265666,
+            "login": "mavdotso",
+            "display_login": "mavdotso",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mavdotso",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21265666?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:51:59Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32881514284",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4156131,
+            "login": "skylerberg",
+            "display_login": "skylerberg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/skylerberg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4156131?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:47:55Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32879407183",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 595512,
+            "login": "johanneswilm",
+            "display_login": "johanneswilm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johanneswilm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/595512?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/2510",
+                "repository_url": "https://api.github.com/repos/codex-team/editor.js",
+                "labels_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/comments",
+                "events_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/events",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2510",
+                "id": 1941618562,
+                "node_id": "I_kwDOAs3DF85zur-C",
+                "number": 2510,
+                "title": "Remove execCommand",
+                "user": {
+                    "login": "johanneswilm",
+                    "id": 595512,
+                    "node_id": "MDQ6VXNlcjU5NTUxMg==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/595512?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/johanneswilm",
+                    "html_url": "https://github.com/johanneswilm",
+                    "followers_url": "https://api.github.com/users/johanneswilm/followers",
+                    "following_url": "https://api.github.com/users/johanneswilm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/johanneswilm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/johanneswilm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/johanneswilm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/johanneswilm/orgs",
+                    "repos_url": "https://api.github.com/users/johanneswilm/repos",
+                    "events_url": "https://api.github.com/users/johanneswilm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/johanneswilm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-13T09:46:00Z",
+                "updated_at": "2023-10-26T19:12:40Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "This has been discussed previously in https://github.com/codex-team/editor.js/issues/2211 . \r\n\r\nThe Input events spec has in fact been implemented in every browser (Chrome, Webkit, Firefox) and has been shipped for several years already. All the main editors (ProseMirror, Trix, CKEditor 5, etc.) have stopped using execCommand several years ago. Even without input events, there are better ways of achieving the same as one can do with execCommand.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781751255",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2510#issuecomment-1781751255",
+                "issue_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510",
+                "id": 1781751255,
+                "node_id": "IC_kwDOAs3DF85qM13X",
+                "user": {
+                    "login": "johanneswilm",
+                    "id": 595512,
+                    "node_id": "MDQ6VXNlcjU5NTUxMg==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/595512?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/johanneswilm",
+                    "html_url": "https://github.com/johanneswilm",
+                    "followers_url": "https://api.github.com/users/johanneswilm/followers",
+                    "following_url": "https://api.github.com/users/johanneswilm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/johanneswilm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/johanneswilm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/johanneswilm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/johanneswilm/orgs",
+                    "repos_url": "https://api.github.com/users/johanneswilm/repos",
+                    "events_url": "https://api.github.com/users/johanneswilm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/johanneswilm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T19:12:39Z",
+                "updated_at": "2023-10-26T19:12:39Z",
+                "author_association": "NONE",
+                "body": "@Ice-mourne That is true. However by avoiding using execcommand and native dom changes, you avoid adding items not the undo stack and therefore avoid having users lose their texts.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781751255/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T19:12:40Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32876990621",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 77716865,
+            "login": "Ice-mourne",
+            "display_login": "Ice-mourne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ice-mourne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77716865?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/2510",
+                "repository_url": "https://api.github.com/repos/codex-team/editor.js",
+                "labels_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/comments",
+                "events_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/events",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2510",
+                "id": 1941618562,
+                "node_id": "I_kwDOAs3DF85zur-C",
+                "number": 2510,
+                "title": "Remove execCommand",
+                "user": {
+                    "login": "johanneswilm",
+                    "id": 595512,
+                    "node_id": "MDQ6VXNlcjU5NTUxMg==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/595512?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/johanneswilm",
+                    "html_url": "https://github.com/johanneswilm",
+                    "followers_url": "https://api.github.com/users/johanneswilm/followers",
+                    "following_url": "https://api.github.com/users/johanneswilm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/johanneswilm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/johanneswilm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/johanneswilm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/johanneswilm/orgs",
+                    "repos_url": "https://api.github.com/users/johanneswilm/repos",
+                    "events_url": "https://api.github.com/users/johanneswilm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/johanneswilm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-13T09:46:00Z",
+                "updated_at": "2023-10-26T17:32:49Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "This has been discussed previously in https://github.com/codex-team/editor.js/issues/2211 . \r\n\r\nThe Input events spec has in fact been implemented in every browser (Chrome, Webkit, Firefox) and has been shipped for several years already. All the main editors (ProseMirror, Trix, CKEditor 5, etc.) have stopped using execCommand several years ago. Even without input events, there are better ways of achieving the same as one can do with execCommand.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781547748",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2510#issuecomment-1781547748",
+                "issue_url": "https://api.github.com/repos/codex-team/editor.js/issues/2510",
+                "id": 1781547748,
+                "node_id": "IC_kwDOAs3DF85qMELk",
+                "user": {
+                    "login": "Ice-mourne",
+                    "id": 77716865,
+                    "node_id": "MDQ6VXNlcjc3NzE2ODY1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/77716865?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Ice-mourne",
+                    "html_url": "https://github.com/Ice-mourne",
+                    "followers_url": "https://api.github.com/users/Ice-mourne/followers",
+                    "following_url": "https://api.github.com/users/Ice-mourne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Ice-mourne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Ice-mourne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Ice-mourne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Ice-mourne/orgs",
+                    "repos_url": "https://api.github.com/users/Ice-mourne/repos",
+                    "events_url": "https://api.github.com/users/Ice-mourne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Ice-mourne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T17:32:48Z",
+                "updated_at": "2023-10-26T17:32:48Z",
+                "author_association": "NONE",
+                "body": "If you split text by pressing enter and try to undo it, it will break it seems like a problem with undo itself",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781547748/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:32:49Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32873290452",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 19706530,
+            "login": "morne-insight",
+            "display_login": "morne-insight",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/morne-insight",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19706530?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:17:37Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32871683534",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 51978077,
+            "login": "doubleyooz",
+            "display_login": "doubleyooz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/doubleyooz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/51978077?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/2314",
+                "repository_url": "https://api.github.com/repos/codex-team/editor.js",
+                "labels_url": "https://api.github.com/repos/codex-team/editor.js/issues/2314/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codex-team/editor.js/issues/2314/comments",
+                "events_url": "https://api.github.com/repos/codex-team/editor.js/issues/2314/events",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2314",
+                "id": 1633799853,
+                "node_id": "I_kwDOAs3DF85hYc6t",
+                "number": 2314,
+                "title": "Editor.js renders duplicate blocks when used in Svelte component",
+                "user": {
+                    "login": "TuzSeRik",
+                    "id": 34165921,
+                    "node_id": "MDQ6VXNlcjM0MTY1OTIx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/34165921?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/TuzSeRik",
+                    "html_url": "https://github.com/TuzSeRik",
+                    "followers_url": "https://api.github.com/users/TuzSeRik/followers",
+                    "following_url": "https://api.github.com/users/TuzSeRik/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/TuzSeRik/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/TuzSeRik/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/TuzSeRik/subscriptions",
+                    "organizations_url": "https://api.github.com/users/TuzSeRik/orgs",
+                    "repos_url": "https://api.github.com/users/TuzSeRik/repos",
+                    "events_url": "https://api.github.com/users/TuzSeRik/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/TuzSeRik/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 292788893,
+                        "node_id": "MDU6TGFiZWwyOTI3ODg4OTM=",
+                        "url": "https://api.github.com/repos/codex-team/editor.js/labels/bug",
+                        "name": "bug",
+                        "color": "ffedee",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2023-03-21T12:19:07Z",
+                "updated_at": "2023-10-26T14:29:14Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Editor.js instance renders the same data from 1 to 3 times, when used with Svelte && SvelteKit.\r\n\r\nSteps to reproduce:\r\n1. Create Editor.svelte component to house Editor.js instance\r\n```\r\n<script>\r\n  import { onMount } from \"svelte\";\r\n  \r\n  import EditorJS from '@editorjs/editorjs';\r\n  import Header from '@editorjs/header';\r\n  \r\n  export let isReadOnly = true;\r\n  export let data = {};\r\n  \r\n  let editor;\r\n  async function startEditor() {\r\n    editor = new EditorJS({\r\n      holder: 'editorjs',\r\n      readOnly: isReadOnly,\r\n      data: data,\r\n      tools: {\r\n         header: Header,\r\n      },\r\n    });\r\n  }\r\n  \r\n  onMount(startEditor);\r\n  \r\n  $: if (data && editor) {\r\n    console.log(\"Editor - Update - Update: \"\r\n      + (\"Updating editor with \" + JSON.stringify(data)));\r\n    \r\n    editor.isReady.then(() => {\r\n      editor.clear();\r\n      editor.render(data);\r\n    });\r\n  }  \r\n</script>\r\n\r\n<div id=\"editorjs\" class=\"editor\"></div>\r\n\r\n<style>\r\n    .editor {\r\n        margin-top: 1rem;\r\n        border: 1px solid black;\r\n        height: 500px;\r\n    }\r\n    \r\n</style>\r\n```\r\n2. Use this component in the outer component\r\n```\r\n<script>\r\n\r\n -- fetchData omitted. The issue persists even if data is passed to the render function manually\r\n -- Render still caused by completion of fetchData though\r\n \r\n    onMount(fetchData);\r\n</script>\r\n\r\n<div>\r\n  <Editor isReadOnly={true} data={page.data} />\r\n</div>\r\n```\r\n3. Open the site either in dev mode or preview\r\n\r\nExpected behaviour:\r\nData is always rendered once\r\n\r\nScreenshots:\r\n\r\nData block duplicated\r\n<img width=\"898\" alt=\"image\" src=\"https://user-images.githubusercontent.com/34165921/226594517-b650e0d1-456e-477d-998c-8104846c0a54.png\">\r\n\r\nDuplicated when only one fetch and one render called\r\n<img width=\"956\" alt=\"image\" src=\"https://user-images.githubusercontent.com/34165921/226602842-fc81dc9c-ec3d-4165-95db-419ce629e3f2.png\">\r\n\r\nDevice, Browser, OS:\r\nWindows 11, Chrome 111.0.5563.65\r\n\r\nEditor.js version:\r\n2.26.5\r\n\r\nPlugins you use with their versions:\r\nHeader - 2.7.0\r\n\r\nSvelte and SvelteKit versions:\r\n3.54.0 && 1.5.0\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/2314/reactions",
+                    "total_count": 1,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 1
+                },
+                "timeline_url": "https://api.github.com/repos/codex-team/editor.js/issues/2314/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781246781",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2314#issuecomment-1781246781",
+                "issue_url": "https://api.github.com/repos/codex-team/editor.js/issues/2314",
+                "id": 1781246781,
+                "node_id": "IC_kwDOAs3DF85qK6s9",
+                "user": {
+                    "login": "doubleyooz",
+                    "id": 51978077,
+                    "node_id": "MDQ6VXNlcjUxOTc4MDc3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/51978077?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/doubleyooz",
+                    "html_url": "https://github.com/doubleyooz",
+                    "followers_url": "https://api.github.com/users/doubleyooz/followers",
+                    "following_url": "https://api.github.com/users/doubleyooz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/doubleyooz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/doubleyooz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/doubleyooz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/doubleyooz/orgs",
+                    "repos_url": "https://api.github.com/users/doubleyooz/repos",
+                    "events_url": "https://api.github.com/users/doubleyooz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/doubleyooz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T14:29:14Z",
+                "updated_at": "2023-10-26T14:29:14Z",
+                "author_association": "NONE",
+                "body": "the same happens in nuxt 3, it looks like the only way is to call destroy() and re-instantiate the editor.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781246781/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:29:15Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32871664331",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 51978077,
+            "login": "doubleyooz",
+            "display_login": "doubleyooz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/doubleyooz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/51978077?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/1182",
+                "repository_url": "https://api.github.com/repos/codex-team/editor.js",
+                "labels_url": "https://api.github.com/repos/codex-team/editor.js/issues/1182/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codex-team/editor.js/issues/1182/comments",
+                "events_url": "https://api.github.com/repos/codex-team/editor.js/issues/1182/events",
+                "html_url": "https://github.com/codex-team/editor.js/issues/1182",
+                "id": 630032366,
+                "node_id": "MDU6SXNzdWU2MzAwMzIzNjY=",
+                "number": 1182,
+                "title": "[Bug] -  Error during delete a block by index",
+                "user": {
+                    "login": "nicolapagni",
+                    "id": 17281895,
+                    "node_id": "MDQ6VXNlcjE3MjgxODk1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/17281895?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/nicolapagni",
+                    "html_url": "https://github.com/nicolapagni",
+                    "followers_url": "https://api.github.com/users/nicolapagni/followers",
+                    "following_url": "https://api.github.com/users/nicolapagni/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/nicolapagni/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/nicolapagni/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/nicolapagni/subscriptions",
+                    "organizations_url": "https://api.github.com/users/nicolapagni/orgs",
+                    "repos_url": "https://api.github.com/users/nicolapagni/repos",
+                    "events_url": "https://api.github.com/users/nicolapagni/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/nicolapagni/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 292788893,
+                        "node_id": "MDU6TGFiZWwyOTI3ODg4OTM=",
+                        "url": "https://api.github.com/repos/codex-team/editor.js/labels/bug",
+                        "name": "bug",
+                        "color": "ffedee",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2020-06-03T14:13:50Z",
+                "updated_at": "2023-10-26T14:28:41Z",
+                "closed_at": "2020-08-27T16:16:32Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I've installed the v2.18 to try the new feature about deleting specific block by index.\r\nI can notice that now I see a warning if I try to delete a block by an invalid index..ok, but now I see this error:\r\n\r\nInstead, if I try to delete though the same code the firt element It seems work fine..\r\n\r\n` Cannot read property 'lastInput' of undefined\r\n`\r\nSteps to reproduce:\r\n1. Create a new editor instance\r\n2. As first block (for example), insert a paragraph with something write\r\n3. As second one insert a paragraph too\r\n4. call after adding the second one the following code: `this.api.blocks.getBlockByIndex(1);`\r\n\r\nExpected behavior:\r\nThe block should be removed.\r\n\r\n\r\nScreenshots:\r\n<img width=\"421\" alt=\"editorjs-error\" src=\"https://user-images.githubusercontent.com/17281895/83647219-f4eb9e80-a5b4-11ea-92a2-953b7ca8cbaa.png\">\r\n\r\nmain.js is the file where I call the delete function.\r\n\r\n\r\nDevice, Browser, OS: \r\nChrome v83.0.4103.61, Windows 10\r\n\r\nEditor.js version: 2.18\r\n\r\n\r\n<!--\r\n\ud83e\udd2b If you like Editor.js, please consider supporting us via OpenCollective:\r\nhttps://opencollective.com/editorjs\r\n-->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/1182/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codex-team/editor.js/issues/1182/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781245743",
+                "html_url": "https://github.com/codex-team/editor.js/issues/1182#issuecomment-1781245743",
+                "issue_url": "https://api.github.com/repos/codex-team/editor.js/issues/1182",
+                "id": 1781245743,
+                "node_id": "IC_kwDOAs3DF85qK6cv",
+                "user": {
+                    "login": "doubleyooz",
+                    "id": 51978077,
+                    "node_id": "MDQ6VXNlcjUxOTc4MDc3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/51978077?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/doubleyooz",
+                    "html_url": "https://github.com/doubleyooz",
+                    "followers_url": "https://api.github.com/users/doubleyooz/followers",
+                    "following_url": "https://api.github.com/users/doubleyooz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/doubleyooz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/doubleyooz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/doubleyooz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/doubleyooz/orgs",
+                    "repos_url": "https://api.github.com/users/doubleyooz/repos",
+                    "events_url": "https://api.github.com/users/doubleyooz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/doubleyooz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T14:28:40Z",
+                "updated_at": "2023-10-26T14:28:40Z",
+                "author_association": "NONE",
+                "body": "the same happens in nuxt 3, looks like the only way is to call destroy() and re-instantiate the editor.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1781245743/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:28:41Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32871555060",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 79415352,
+            "login": "Trawmoney",
+            "display_login": "Trawmoney",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Trawmoney",
+            "avatar_url": "https://avatars.githubusercontent.com/u/79415352?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "forkee": {
+                "id": 710354149,
+                "node_id": "R_kgDOKlck5Q",
+                "name": "editor.js",
+                "full_name": "Trawmoney/editor.js",
+                "private": false,
+                "owner": {
+                    "login": "Trawmoney",
+                    "id": 79415352,
+                    "node_id": "MDQ6VXNlcjc5NDE1MzUy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/79415352?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Trawmoney",
+                    "html_url": "https://github.com/Trawmoney",
+                    "followers_url": "https://api.github.com/users/Trawmoney/followers",
+                    "following_url": "https://api.github.com/users/Trawmoney/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Trawmoney/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Trawmoney/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Trawmoney/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Trawmoney/orgs",
+                    "repos_url": "https://api.github.com/users/Trawmoney/repos",
+                    "events_url": "https://api.github.com/users/Trawmoney/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Trawmoney/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/Trawmoney/editor.js",
+                "description": "A block-style editor with clean JSON output",
+                "fork": true,
+                "url": "https://api.github.com/repos/Trawmoney/editor.js",
+                "forks_url": "https://api.github.com/repos/Trawmoney/editor.js/forks",
+                "keys_url": "https://api.github.com/repos/Trawmoney/editor.js/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/Trawmoney/editor.js/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/Trawmoney/editor.js/teams",
+                "hooks_url": "https://api.github.com/repos/Trawmoney/editor.js/hooks",
+                "issue_events_url": "https://api.github.com/repos/Trawmoney/editor.js/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/Trawmoney/editor.js/events",
+                "assignees_url": "https://api.github.com/repos/Trawmoney/editor.js/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/Trawmoney/editor.js/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/Trawmoney/editor.js/tags",
+                "blobs_url": "https://api.github.com/repos/Trawmoney/editor.js/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/Trawmoney/editor.js/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/Trawmoney/editor.js/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/Trawmoney/editor.js/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/Trawmoney/editor.js/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/Trawmoney/editor.js/languages",
+                "stargazers_url": "https://api.github.com/repos/Trawmoney/editor.js/stargazers",
+                "contributors_url": "https://api.github.com/repos/Trawmoney/editor.js/contributors",
+                "subscribers_url": "https://api.github.com/repos/Trawmoney/editor.js/subscribers",
+                "subscription_url": "https://api.github.com/repos/Trawmoney/editor.js/subscription",
+                "commits_url": "https://api.github.com/repos/Trawmoney/editor.js/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/Trawmoney/editor.js/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/Trawmoney/editor.js/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/Trawmoney/editor.js/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/Trawmoney/editor.js/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/Trawmoney/editor.js/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/Trawmoney/editor.js/merges",
+                "archive_url": "https://api.github.com/repos/Trawmoney/editor.js/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/Trawmoney/editor.js/downloads",
+                "issues_url": "https://api.github.com/repos/Trawmoney/editor.js/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/Trawmoney/editor.js/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/Trawmoney/editor.js/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/Trawmoney/editor.js/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/Trawmoney/editor.js/labels{/name}",
+                "releases_url": "https://api.github.com/repos/Trawmoney/editor.js/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/Trawmoney/editor.js/deployments",
+                "created_at": "2023-10-26T14:25:27Z",
+                "updated_at": "2023-10-26T14:25:27Z",
+                "pushed_at": "2023-10-23T11:48:47Z",
+                "git_url": "git://github.com/Trawmoney/editor.js.git",
+                "ssh_url": "git@github.com:Trawmoney/editor.js.git",
+                "clone_url": "https://github.com/Trawmoney/editor.js.git",
+                "svn_url": "https://github.com/Trawmoney/editor.js",
+                "homepage": "https://editorjs.io",
+                "size": 19900,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:25:29Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32870112312",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 124444520,
+            "login": "Mohamed-lifa7",
+            "display_login": "Mohamed-lifa7",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Mohamed-lifa7",
+            "avatar_url": "https://avatars.githubusercontent.com/u/124444520?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:43:58Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32862684224",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 87016480,
+            "login": "ahisboe",
+            "display_login": "ahisboe",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ahisboe",
+            "avatar_url": "https://avatars.githubusercontent.com/u/87016480?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/2110",
+                "repository_url": "https://api.github.com/repos/codex-team/editor.js",
+                "labels_url": "https://api.github.com/repos/codex-team/editor.js/issues/2110/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codex-team/editor.js/issues/2110/comments",
+                "events_url": "https://api.github.com/repos/codex-team/editor.js/issues/2110/events",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2110",
+                "id": 1320870131,
+                "node_id": "I_kwDOAs3DF85OuuDz",
+                "number": 2110,
+                "title": "[Bug] Undo is ignored, when Copy-paste 2-3 paragraph from Wikipedia",
+                "user": {
+                    "login": "Ashish-Raturi",
+                    "id": 50191855,
+                    "node_id": "MDQ6VXNlcjUwMTkxODU1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/50191855?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Ashish-Raturi",
+                    "html_url": "https://github.com/Ashish-Raturi",
+                    "followers_url": "https://api.github.com/users/Ashish-Raturi/followers",
+                    "following_url": "https://api.github.com/users/Ashish-Raturi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Ashish-Raturi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Ashish-Raturi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Ashish-Raturi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Ashish-Raturi/orgs",
+                    "repos_url": "https://api.github.com/users/Ashish-Raturi/repos",
+                    "events_url": "https://api.github.com/users/Ashish-Raturi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Ashish-Raturi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 292788893,
+                        "node_id": "MDU6TGFiZWwyOTI3ODg4OTM=",
+                        "url": "https://api.github.com/repos/codex-team/editor.js/labels/bug",
+                        "name": "bug",
+                        "color": "ffedee",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2022-07-28T12:38:37Z",
+                "updated_at": "2023-10-26T09:30:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "When a user pastes text into the editor and uses the 'undo' function, then it should undo the paste.\r\nInstead, the undo is ignored\r\n\r\nSteps to reproduce:\r\n1. Go to Wikipedia\r\n2. Select and copy 2-3  paragraph\r\n3. Paste in the editor.\r\n4. Then the editor ignores the undo & redo.\r\n\r\nExpected behavior:\r\nThe editor should undo the paste.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/2110/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codex-team/editor.js/issues/2110/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1780751371",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2110#issuecomment-1780751371",
+                "issue_url": "https://api.github.com/repos/codex-team/editor.js/issues/2110",
+                "id": 1780751371,
+                "node_id": "IC_kwDOAs3DF85qJBwL",
+                "user": {
+                    "login": "ahisboe",
+                    "id": 87016480,
+                    "node_id": "MDQ6VXNlcjg3MDE2NDgw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/87016480?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ahisboe",
+                    "html_url": "https://github.com/ahisboe",
+                    "followers_url": "https://api.github.com/users/ahisboe/followers",
+                    "following_url": "https://api.github.com/users/ahisboe/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ahisboe/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ahisboe/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ahisboe/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ahisboe/orgs",
+                    "repos_url": "https://api.github.com/users/ahisboe/repos",
+                    "events_url": "https://api.github.com/users/ahisboe/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ahisboe/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T09:30:38Z",
+                "updated_at": "2023-10-26T09:30:38Z",
+                "author_association": "NONE",
+                "body": "+2",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/comments/1780751371/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:30:39Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32861271382",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 75741975,
+            "login": "abesan27",
+            "display_login": "abesan27",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/abesan27",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75741975?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:43:20Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32860789543",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 128767151,
+            "login": "haai-team",
+            "display_login": "haai-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haai-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/128767151?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:26:28Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32858942272",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 43264181,
+            "login": "lycoris-xmin",
+            "display_login": "lycoris-xmin",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lycoris-xmin",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43264181?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:17:44Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32856203543",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48850806,
+            "login": "isLzg",
+            "display_login": "isLzg",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/isLzg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48850806?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:50:48Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32856074077",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1707844,
+            "login": "asfixia",
+            "display_login": "asfixia",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/asfixia",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1707844?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:41:11Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32852187610",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 88011011,
+            "login": "cloudy95",
+            "display_login": "cloudy95",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cloudy95",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88011011?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "forkee": {
+                "id": 710058159,
+                "node_id": "R_kgDOKlKgrw",
+                "name": "editor.js",
+                "full_name": "cloudy95/editor.js",
+                "private": false,
+                "owner": {
+                    "login": "cloudy95",
+                    "id": 88011011,
+                    "node_id": "MDQ6VXNlcjg4MDExMDEx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/88011011?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/cloudy95",
+                    "html_url": "https://github.com/cloudy95",
+                    "followers_url": "https://api.github.com/users/cloudy95/followers",
+                    "following_url": "https://api.github.com/users/cloudy95/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/cloudy95/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/cloudy95/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/cloudy95/subscriptions",
+                    "organizations_url": "https://api.github.com/users/cloudy95/orgs",
+                    "repos_url": "https://api.github.com/users/cloudy95/repos",
+                    "events_url": "https://api.github.com/users/cloudy95/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/cloudy95/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/cloudy95/editor.js",
+                "description": "A block-style editor with clean JSON output",
+                "fork": true,
+                "url": "https://api.github.com/repos/cloudy95/editor.js",
+                "forks_url": "https://api.github.com/repos/cloudy95/editor.js/forks",
+                "keys_url": "https://api.github.com/repos/cloudy95/editor.js/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/cloudy95/editor.js/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/cloudy95/editor.js/teams",
+                "hooks_url": "https://api.github.com/repos/cloudy95/editor.js/hooks",
+                "issue_events_url": "https://api.github.com/repos/cloudy95/editor.js/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/cloudy95/editor.js/events",
+                "assignees_url": "https://api.github.com/repos/cloudy95/editor.js/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/cloudy95/editor.js/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/cloudy95/editor.js/tags",
+                "blobs_url": "https://api.github.com/repos/cloudy95/editor.js/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/cloudy95/editor.js/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/cloudy95/editor.js/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/cloudy95/editor.js/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/cloudy95/editor.js/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/cloudy95/editor.js/languages",
+                "stargazers_url": "https://api.github.com/repos/cloudy95/editor.js/stargazers",
+                "contributors_url": "https://api.github.com/repos/cloudy95/editor.js/contributors",
+                "subscribers_url": "https://api.github.com/repos/cloudy95/editor.js/subscribers",
+                "subscription_url": "https://api.github.com/repos/cloudy95/editor.js/subscription",
+                "commits_url": "https://api.github.com/repos/cloudy95/editor.js/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/cloudy95/editor.js/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/cloudy95/editor.js/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/cloudy95/editor.js/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/cloudy95/editor.js/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/cloudy95/editor.js/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/cloudy95/editor.js/merges",
+                "archive_url": "https://api.github.com/repos/cloudy95/editor.js/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/cloudy95/editor.js/downloads",
+                "issues_url": "https://api.github.com/repos/cloudy95/editor.js/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/cloudy95/editor.js/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/cloudy95/editor.js/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/cloudy95/editor.js/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/cloudy95/editor.js/labels{/name}",
+                "releases_url": "https://api.github.com/repos/cloudy95/editor.js/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/cloudy95/editor.js/deployments",
+                "created_at": "2023-10-25T23:47:43Z",
+                "updated_at": "2023-10-25T23:47:43Z",
+                "pushed_at": "2023-10-23T11:48:47Z",
+                "git_url": "git://github.com/cloudy95/editor.js.git",
+                "ssh_url": "git@github.com:cloudy95/editor.js.git",
+                "clone_url": "https://github.com/cloudy95/editor.js.git",
+                "svn_url": "https://github.com/cloudy95/editor.js",
+                "homepage": "https://editorjs.io",
+                "size": 19900,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T23:47:43Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32849987171",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1445564,
+            "login": "DanHugoDanHugo",
+            "display_login": "DanHugoDanHugo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/DanHugoDanHugo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1445564?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T21:34:55Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32848837426",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 180068,
+            "login": "coderofsalvation",
+            "display_login": "coderofsalvation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/coderofsalvation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/180068?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:39:57Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32845026942",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 30862662,
+            "login": "linus-jansson",
+            "display_login": "linus-jansson",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/linus-jansson",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30862662?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T18:01:28Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32844954269",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 73292240,
+            "login": "Forest-Fish",
+            "display_login": "Forest-Fish",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Forest-Fish",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73292240?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:58:36Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32840703963",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 86894639,
+            "login": "korzyk123",
+            "display_login": "korzyk123",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/korzyk123",
+            "avatar_url": "https://avatars.githubusercontent.com/u/86894639?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T15:23:40Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32840702683",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 86894639,
+            "login": "korzyk123",
+            "display_login": "korzyk123",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/korzyk123",
+            "avatar_url": "https://avatars.githubusercontent.com/u/86894639?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T15:23:38Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32839834110",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 71768840,
+            "login": "incubated-geek-cc",
+            "display_login": "incubated-geek-cc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/incubated-geek-cc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71768840?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:57:45Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32834970202",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 37673095,
+            "login": "xkzl",
+            "display_login": "xkzl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/xkzl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37673095?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/codex-team/editor.js/issues/2522",
+                "repository_url": "https://api.github.com/repos/codex-team/editor.js",
+                "labels_url": "https://api.github.com/repos/codex-team/editor.js/issues/2522/labels{/name}",
+                "comments_url": "https://api.github.com/repos/codex-team/editor.js/issues/2522/comments",
+                "events_url": "https://api.github.com/repos/codex-team/editor.js/issues/2522/events",
+                "html_url": "https://github.com/codex-team/editor.js/issues/2522",
+                "id": 1961320660,
+                "node_id": "I_kwDOAs3DF85052DU",
+                "number": 2522,
+                "title": "Soft line break issue: Chrome VS safari",
+                "user": {
+                    "login": "xkzl",
+                    "id": 37673095,
+                    "node_id": "MDQ6VXNlcjM3NjczMDk1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37673095?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/xkzl",
+                    "html_url": "https://github.com/xkzl",
+                    "followers_url": "https://api.github.com/users/xkzl/followers",
+                    "following_url": "https://api.github.com/users/xkzl/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/xkzl/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/xkzl/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/xkzl/subscriptions",
+                    "organizations_url": "https://api.github.com/users/xkzl/orgs",
+                    "repos_url": "https://api.github.com/users/xkzl/repos",
+                    "events_url": "https://api.github.com/users/xkzl/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/xkzl/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 292788893,
+                        "node_id": "MDU6TGFiZWwyOTI3ODg4OTM=",
+                        "url": "https://api.github.com/repos/codex-team/editor.js/labels/bug",
+                        "name": "bug",
+                        "color": "ffedee",
+                        "default": true,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T12:35:34Z",
+                "updated_at": "2023-10-25T12:35:34Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I have EditorJS 2.26 and I noticed a difference in behavior between Safari and Chrome.\r\nWhen making a soft line break, safari is returning a <div> block while chrome is returning a <br>\r\n\r\n1. Open a new EditorJS instance\r\n2. Write some text and make a soft line break: Enter+Shift\r\n\r\nThe main issue behind this behavior is that the <div> gets sanitized and the carriage return disappear.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/codex-team/editor.js/issues/2522/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/codex-team/editor.js/issues/2522/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:35:35Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32833187829",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 35087490,
+            "login": "litaohe",
+            "display_login": "litaohe",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/litaohe",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35087490?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709777869,
+                "node_id": "R_kgDOKk5ZzQ",
+                "name": "editor.js",
+                "full_name": "litaohe/editor.js",
+                "private": false,
+                "owner": {
+                    "login": "litaohe",
+                    "id": 35087490,
+                    "node_id": "MDQ6VXNlcjM1MDg3NDkw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/35087490?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/litaohe",
+                    "html_url": "https://github.com/litaohe",
+                    "followers_url": "https://api.github.com/users/litaohe/followers",
+                    "following_url": "https://api.github.com/users/litaohe/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/litaohe/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/litaohe/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/litaohe/subscriptions",
+                    "organizations_url": "https://api.github.com/users/litaohe/orgs",
+                    "repos_url": "https://api.github.com/users/litaohe/repos",
+                    "events_url": "https://api.github.com/users/litaohe/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/litaohe/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/litaohe/editor.js",
+                "description": "A block-style editor with clean JSON output",
+                "fork": true,
+                "url": "https://api.github.com/repos/litaohe/editor.js",
+                "forks_url": "https://api.github.com/repos/litaohe/editor.js/forks",
+                "keys_url": "https://api.github.com/repos/litaohe/editor.js/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/litaohe/editor.js/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/litaohe/editor.js/teams",
+                "hooks_url": "https://api.github.com/repos/litaohe/editor.js/hooks",
+                "issue_events_url": "https://api.github.com/repos/litaohe/editor.js/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/litaohe/editor.js/events",
+                "assignees_url": "https://api.github.com/repos/litaohe/editor.js/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/litaohe/editor.js/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/litaohe/editor.js/tags",
+                "blobs_url": "https://api.github.com/repos/litaohe/editor.js/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/litaohe/editor.js/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/litaohe/editor.js/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/litaohe/editor.js/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/litaohe/editor.js/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/litaohe/editor.js/languages",
+                "stargazers_url": "https://api.github.com/repos/litaohe/editor.js/stargazers",
+                "contributors_url": "https://api.github.com/repos/litaohe/editor.js/contributors",
+                "subscribers_url": "https://api.github.com/repos/litaohe/editor.js/subscribers",
+                "subscription_url": "https://api.github.com/repos/litaohe/editor.js/subscription",
+                "commits_url": "https://api.github.com/repos/litaohe/editor.js/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/litaohe/editor.js/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/litaohe/editor.js/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/litaohe/editor.js/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/litaohe/editor.js/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/litaohe/editor.js/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/litaohe/editor.js/merges",
+                "archive_url": "https://api.github.com/repos/litaohe/editor.js/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/litaohe/editor.js/downloads",
+                "issues_url": "https://api.github.com/repos/litaohe/editor.js/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/litaohe/editor.js/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/litaohe/editor.js/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/litaohe/editor.js/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/litaohe/editor.js/labels{/name}",
+                "releases_url": "https://api.github.com/repos/litaohe/editor.js/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/litaohe/editor.js/deployments",
+                "created_at": "2023-10-25T11:34:54Z",
+                "updated_at": "2023-10-25T11:34:54Z",
+                "pushed_at": "2023-10-23T11:48:47Z",
+                "git_url": "git://github.com/litaohe/editor.js.git",
+                "ssh_url": "git@github.com:litaohe/editor.js.git",
+                "clone_url": "https://github.com/litaohe/editor.js.git",
+                "svn_url": "https://github.com/litaohe/editor.js",
+                "homepage": "https://editorjs.io",
+                "size": 19900,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:34:55Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32833185104",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 35087490,
+            "login": "litaohe",
+            "display_login": "litaohe",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/litaohe",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35087490?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:34:49Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    },
+    {
+        "id": "32833158759",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 36050037,
+            "login": "IterativeEngineering",
+            "display_login": "IterativeEngineering",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/IterativeEngineering",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36050037?"
+        },
+        "repo": {
+            "id": 47039255,
+            "name": "codex-team/editor.js",
+            "url": "https://api.github.com/repos/codex-team/editor.js"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709777461,
+                "node_id": "R_kgDOKk5YNQ",
+                "name": "editor.js",
+                "full_name": "IterativeEngineering/editor.js",
+                "private": false,
+                "owner": {
+                    "login": "IterativeEngineering",
+                    "id": 36050037,
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjM2MDUwMDM3",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36050037?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/IterativeEngineering",
+                    "html_url": "https://github.com/IterativeEngineering",
+                    "followers_url": "https://api.github.com/users/IterativeEngineering/followers",
+                    "following_url": "https://api.github.com/users/IterativeEngineering/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/IterativeEngineering/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/IterativeEngineering/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/IterativeEngineering/subscriptions",
+                    "organizations_url": "https://api.github.com/users/IterativeEngineering/orgs",
+                    "repos_url": "https://api.github.com/users/IterativeEngineering/repos",
+                    "events_url": "https://api.github.com/users/IterativeEngineering/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/IterativeEngineering/received_events",
+                    "type": "Organization",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/IterativeEngineering/editor.js",
+                "description": "A block-style editor with clean JSON output",
+                "fork": true,
+                "url": "https://api.github.com/repos/IterativeEngineering/editor.js",
+                "forks_url": "https://api.github.com/repos/IterativeEngineering/editor.js/forks",
+                "keys_url": "https://api.github.com/repos/IterativeEngineering/editor.js/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/IterativeEngineering/editor.js/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/IterativeEngineering/editor.js/teams",
+                "hooks_url": "https://api.github.com/repos/IterativeEngineering/editor.js/hooks",
+                "issue_events_url": "https://api.github.com/repos/IterativeEngineering/editor.js/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/IterativeEngineering/editor.js/events",
+                "assignees_url": "https://api.github.com/repos/IterativeEngineering/editor.js/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/IterativeEngineering/editor.js/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/IterativeEngineering/editor.js/tags",
+                "blobs_url": "https://api.github.com/repos/IterativeEngineering/editor.js/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/IterativeEngineering/editor.js/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/IterativeEngineering/editor.js/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/IterativeEngineering/editor.js/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/IterativeEngineering/editor.js/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/IterativeEngineering/editor.js/languages",
+                "stargazers_url": "https://api.github.com/repos/IterativeEngineering/editor.js/stargazers",
+                "contributors_url": "https://api.github.com/repos/IterativeEngineering/editor.js/contributors",
+                "subscribers_url": "https://api.github.com/repos/IterativeEngineering/editor.js/subscribers",
+                "subscription_url": "https://api.github.com/repos/IterativeEngineering/editor.js/subscription",
+                "commits_url": "https://api.github.com/repos/IterativeEngineering/editor.js/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/IterativeEngineering/editor.js/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/IterativeEngineering/editor.js/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/IterativeEngineering/editor.js/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/IterativeEngineering/editor.js/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/IterativeEngineering/editor.js/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/IterativeEngineering/editor.js/merges",
+                "archive_url": "https://api.github.com/repos/IterativeEngineering/editor.js/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/IterativeEngineering/editor.js/downloads",
+                "issues_url": "https://api.github.com/repos/IterativeEngineering/editor.js/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/IterativeEngineering/editor.js/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/IterativeEngineering/editor.js/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/IterativeEngineering/editor.js/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/IterativeEngineering/editor.js/labels{/name}",
+                "releases_url": "https://api.github.com/repos/IterativeEngineering/editor.js/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/IterativeEngineering/editor.js/deployments",
+                "created_at": "2023-10-25T11:33:49Z",
+                "updated_at": "2023-10-25T11:33:49Z",
+                "pushed_at": "2023-10-23T11:48:47Z",
+                "git_url": "git://github.com/IterativeEngineering/editor.js.git",
+                "ssh_url": "git@github.com:IterativeEngineering/editor.js.git",
+                "clone_url": "https://github.com/IterativeEngineering/editor.js.git",
+                "svn_url": "https://github.com/IterativeEngineering/editor.js",
+                "homepage": "https://editorjs.io",
+                "size": 19900,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T11:33:50Z",
+        "org": {
+            "id": 16060815,
+            "login": "codex-team",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/codex-team",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16060815?"
+        }
+    }
+]

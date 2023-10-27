@@ -1,0 +1,3033 @@
+[
+    {
+        "id": "32893124474",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 55741317,
+            "login": "ztz970628",
+            "display_login": "ztz970628",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ztz970628",
+            "avatar_url": "https://avatars.githubusercontent.com/u/55741317?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:52:44Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32891706245",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 136661228,
+            "login": "wangrun500382",
+            "display_login": "wangrun500382",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/wangrun500382",
+            "avatar_url": "https://avatars.githubusercontent.com/u/136661228?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:57:22Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32890851538",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9861446,
+            "login": "freefer",
+            "display_login": "freefer",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/freefer",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9861446?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11593",
+                "id": 1964761734,
+                "node_id": "I_kwDOADcI0s51G-KG",
+                "number": 11593,
+                "title": "how to get  new Cesium.SampledProperty pitch angle direction angle and roll angle in",
+                "user": {
+                    "login": "freefer",
+                    "id": 9861446,
+                    "node_id": "MDQ6VXNlcjk4NjE0NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9861446?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/freefer",
+                    "html_url": "https://github.com/freefer",
+                    "followers_url": "https://api.github.com/users/freefer/followers",
+                    "following_url": "https://api.github.com/users/freefer/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/freefer/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/freefer/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/freefer/subscriptions",
+                    "organizations_url": "https://api.github.com/users/freefer/orgs",
+                    "repos_url": "https://api.github.com/users/freefer/repos",
+                    "events_url": "https://api.github.com/users/freefer/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/freefer/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-27T04:49:48Z",
+                "updated_at": "2023-10-27T07:21:21Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "\u6211\u8bbe\u7f6e\u4e86\u5b9e\u4f53\u7684orientation \u4e3a sampledOrientationProperty=new Cesium.SampledProperty(Cesium.Quaternion)\uff1b\u5e76\u4e14\u6dfb\u52a0\u4e86\u65f6\u5e8f\u65b9\u5411\u4fe1\u606f\r\n  const time = Cesium.JulianDate.addSeconds(\r\n        start,\r\n        xxx,\r\n        new Cesium.JulianDate()\r\n      );\r\nvar pitch = Cesium.Math.toRadians(90);\r\n      var heading = Cesium.Math.toRadians(0);\r\n      var roll = Cesium.Math.toRadians(0);\r\n      var hpr = new Cesium.HeadingPitchRoll(heading, pitch, roll);\r\n      var quaternion = Cesium.Transforms.headingPitchRollQuaternion(\r\n        position,\r\n        hpr,\r\n        Cesium.Ellipsoid.WGS84,\r\n        Cesium.Transforms.localFrameToFixedFrameGenerator(\r\n          \"north\",\r\n          \"west\"\r\n        )\r\n      ); \r\n    sampledOrientationProperty.addSample(time, quaternion);\r\nNow I'm through clock.onTick event ,get entity orientation = sampledOrientationProperty.getValue(time); how get pitch angle, direction angle, roll angle on orientation ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782424357",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11593#issuecomment-1782424357",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593",
+                "id": 1782424357,
+                "node_id": "IC_kwDOADcI0s5qPaMl",
+                "user": {
+                    "login": "freefer",
+                    "id": 9861446,
+                    "node_id": "MDQ6VXNlcjk4NjE0NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9861446?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/freefer",
+                    "html_url": "https://github.com/freefer",
+                    "followers_url": "https://api.github.com/users/freefer/followers",
+                    "following_url": "https://api.github.com/users/freefer/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/freefer/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/freefer/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/freefer/subscriptions",
+                    "organizations_url": "https://api.github.com/users/freefer/orgs",
+                    "repos_url": "https://api.github.com/users/freefer/repos",
+                    "events_url": "https://api.github.com/users/freefer/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/freefer/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T07:21:20Z",
+                "updated_at": "2023-10-27T07:21:20Z",
+                "author_association": "NONE",
+                "body": "  var fix = Cesium.Transforms.localFrameToFixedFrameGenerator(\r\n      \"north\",\r\n      \"west\"\r\n    );\r\n    var modelMatrix = entity.computeModelMatrix(t);\r\n    var hpr = Cesium.Transforms.fixedFrameToHeadingPitchRoll(modelMatrix, Cesium.Ellipsoid.WGS84,fix);\r\n    var roll = Cesium.Math.toDegrees(hpr.roll);\r\n    var pitch = Cesium.Math.toDegrees(hpr.pitch);\r\n    var heading = Cesium.Math.toDegrees(hpr.heading);\r\n Would this be a good way to achieve the desired result\uff1f",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782424357/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:21:21Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32888219156",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 9861446,
+            "login": "freefer",
+            "display_login": "freefer",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/freefer",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9861446?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11593",
+                "id": 1964761734,
+                "node_id": "I_kwDOADcI0s51G-KG",
+                "number": 11593,
+                "title": "how to get  new Cesium.SampledProperty pitch angle direction angle and roll angle in",
+                "user": {
+                    "login": "freefer",
+                    "id": 9861446,
+                    "node_id": "MDQ6VXNlcjk4NjE0NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9861446?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/freefer",
+                    "html_url": "https://github.com/freefer",
+                    "followers_url": "https://api.github.com/users/freefer/followers",
+                    "following_url": "https://api.github.com/users/freefer/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/freefer/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/freefer/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/freefer/subscriptions",
+                    "organizations_url": "https://api.github.com/users/freefer/orgs",
+                    "repos_url": "https://api.github.com/users/freefer/repos",
+                    "events_url": "https://api.github.com/users/freefer/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/freefer/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T04:49:48Z",
+                "updated_at": "2023-10-27T04:49:48Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "\u6211\u8bbe\u7f6e\u4e86\u5b9e\u4f53\u7684orientation \u4e3a sampledOrientationProperty=new Cesium.SampledProperty(Cesium.Quaternion)\uff1b\u5e76\u4e14\u6dfb\u52a0\u4e86\u65f6\u5e8f\u65b9\u5411\u4fe1\u606f\r\n  const time = Cesium.JulianDate.addSeconds(\r\n        start,\r\n        xxx,\r\n        new Cesium.JulianDate()\r\n      );\r\nvar pitch = Cesium.Math.toRadians(90);\r\n      var heading = Cesium.Math.toRadians(0);\r\n      var roll = Cesium.Math.toRadians(0);\r\n      var hpr = new Cesium.HeadingPitchRoll(heading, pitch, roll);\r\n      var quaternion = Cesium.Transforms.headingPitchRollQuaternion(\r\n        position,\r\n        hpr,\r\n        Cesium.Ellipsoid.WGS84,\r\n        Cesium.Transforms.localFrameToFixedFrameGenerator(\r\n          \"north\",\r\n          \"west\"\r\n        )\r\n      ); \r\n    sampledOrientationProperty.addSample(time, quaternion);\r\nNow I'm through clock.onTick event ,get entity orientation = sampledOrientationProperty.getValue(time); how get pitch angle, direction angle, roll angle on orientation ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11593/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T04:49:50Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32886385363",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5511539,
+            "login": "jade-zhang",
+            "display_login": "jade-zhang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jade-zhang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5511539?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T02:21:41Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32885690766",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 40687748,
+            "login": "entenity",
+            "display_login": "entenity",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/entenity",
+            "avatar_url": "https://avatars.githubusercontent.com/u/40687748?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11590",
+                "id": 1963786054,
+                "node_id": "I_kwDOADcI0s51DP9G",
+                "number": 11590,
+                "title": "VoxelPrimitive and PolygonGeometry",
+                "user": {
+                    "login": "entenity",
+                    "id": 40687748,
+                    "node_id": "MDQ6VXNlcjQwNjg3NzQ4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/40687748?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/entenity",
+                    "html_url": "https://github.com/entenity",
+                    "followers_url": "https://api.github.com/users/entenity/followers",
+                    "following_url": "https://api.github.com/users/entenity/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/entenity/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/entenity/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/entenity/subscriptions",
+                    "organizations_url": "https://api.github.com/users/entenity/orgs",
+                    "repos_url": "https://api.github.com/users/entenity/repos",
+                    "events_url": "https://api.github.com/users/entenity/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/entenity/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5381878715,
+                        "node_id": "LA_kwDOADcI0s8AAAABQMjzuw",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/needs%20feedback",
+                        "name": "needs feedback",
+                        "color": "E85975",
+                        "default": false,
+                        "description": "On hold until additional info is supplied"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-26T15:07:04Z",
+                "updated_at": "2023-10-27T01:29:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Why don't the latitude and longitude boundaries drawn by PolygonGeometry and VoxelPrimitive coincide and don't stick to the ground when VoxelPrimitive's minimum height is 0\r\n![image](https://github.com/CesiumGS/cesium/assets/40687748/ed2b9308-7e30-41c5-b796-d4fec5752b67)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782151478",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11590#issuecomment-1782151478",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590",
+                "id": 1782151478,
+                "node_id": "IC_kwDOADcI0s5qOXk2",
+                "user": {
+                    "login": "entenity",
+                    "id": 40687748,
+                    "node_id": "MDQ6VXNlcjQwNjg3NzQ4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/40687748?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/entenity",
+                    "html_url": "https://github.com/entenity",
+                    "followers_url": "https://api.github.com/users/entenity/followers",
+                    "following_url": "https://api.github.com/users/entenity/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/entenity/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/entenity/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/entenity/subscriptions",
+                    "organizations_url": "https://api.github.com/users/entenity/orgs",
+                    "repos_url": "https://api.github.com/users/entenity/repos",
+                    "events_url": "https://api.github.com/users/entenity/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/entenity/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T01:29:00Z",
+                "updated_at": "2023-10-27T01:29:00Z",
+                "author_association": "NONE",
+                "body": "// there is voxelPrimitive's minBounds and maxBounds\r\nconst min = Cesium.Cartographic.fromDegrees(106.99, 32.99, 0);\r\nconst max = Cesium.Cartographic.fromDegrees(121.39, 44.69, 6500);\r\nconst minBounds = new Cesium.Cartesian3(min.longitude, min.latitude, min.height);\r\nconst maxBounds = new Cesium.Cartesian3(max.longitude, max.latitude, max.height);\r\n\r\n// there is polygonGeometry\r\nconst degreesArray = [\r\n    [106.99,  44.69,  0],\r\n    [106.99,  32.99,  0],\r\n    [121.39,  32.99,  0],\r\n    [121.39,  44.69,  0]\r\n  ];\r\nconst polygonPoints = Cesium.Cartesian3.fromDegreesArrayHeights(degreesArray.flat());\r\nconst polygon = new Cesium.PolygonGeometry({\r\n  polygonHierarchy: new Cesium.PolygonHierarchy(polygonPoints),\r\n  extrudedHeight: maxZ,\r\n  perPositionHeight: false,\r\n  height: minZ,\r\n  vertexFormat: Cesium.VertexFormat.POSITION_AND_NORMAL\r\n});\r\nviewer.scene.primitives.add(\r\n  new Cesium.Primitive({\r\n    geometryInstances: new Cesium.GeometryInstance({\r\n      geometry: polygonGeometry!,\r\n      id: 'PolygonGeometry'\r\n    }),\r\n    appearance: new Cesium.EllipsoidSurfaceAppearance({\r\n      aboveGround: false,\r\n      material\r\n    })\r\n  })\r\n);\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782151478/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T01:29:01Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32885299008",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 20767375,
+            "login": "LyjPeppers",
+            "display_login": "LyjPeppers",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LyjPeppers",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20767375?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11584",
+                "id": 1961364702,
+                "node_id": "I_kwDOADcI0s506Aze",
+                "number": 11584,
+                "title": "A viewportQuad  causes  a groundPrimitive to exhibit overlapping!",
+                "user": {
+                    "login": "LyjPeppers",
+                    "id": 20767375,
+                    "node_id": "MDQ6VXNlcjIwNzY3Mzc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20767375?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LyjPeppers",
+                    "html_url": "https://github.com/LyjPeppers",
+                    "followers_url": "https://api.github.com/users/LyjPeppers/followers",
+                    "following_url": "https://api.github.com/users/LyjPeppers/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LyjPeppers/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LyjPeppers/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LyjPeppers/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LyjPeppers/orgs",
+                    "repos_url": "https://api.github.com/users/LyjPeppers/repos",
+                    "events_url": "https://api.github.com/users/LyjPeppers/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LyjPeppers/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 653779,
+                        "node_id": "MDU6TGFiZWw2NTM3Nzk=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/type%20-%20bug",
+                        "name": "type - bug",
+                        "color": "d7e102",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 626673221,
+                        "node_id": "MDU6TGFiZWw2MjY2NzMyMjE=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/category%20-%20architecture%20/%20api",
+                        "name": "category - architecture / api",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 626688113,
+                        "node_id": "MDU6TGFiZWw2MjY2ODgxMTM=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/category%20-%20polygons/geometry",
+                        "name": "category - polygons/geometry",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-25T12:57:25Z",
+                "updated_at": "2023-10-27T00:57:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "When the width or height of the ViewportQuad is less than 20, it causes GroundPrimitive to exhibit overlapping!\r\n![image](https://github.com/CesiumGS/cesium/assets/20767375/af5a190c-647b-4c8d-b2b1-fb2491f4e55a)\r\n\r\n\r\nSandcastle example:\r\n    https://sandcastle.cesium.com/#c=lVnbTiNHEP0ViycjoaGr770LKLskykbKZUM2eYn3YbAHGMX2oJkxhET8e055sAG3tbUBZLB7+kxdTp2qHqbNsutHd3V1X7Wj09Gyuh+dV129WhR/rD8bTw6m6/fnzbIv62XVTg4O306W/D1d771turqv8Se2/zlZjvD19Iu/iEyRUvTBJ+909NEfPS9qXbgUnVHeeGejIzusfT7ag2MLpfBqbPDkDIVdnJScS8p7S8oaAccan6LxnlJ8DeOVihRsUtEn42VzyBuYolxMO+ZEF7y2lKxWlL4Ag+gE5Skm0soYZ3dhEoLmXEhekw0SjrMal1LQpHMcQwp30DZqCcb6QMkbjXjmMMR5NM45JeKY5LxHrF2MGY7lb9I+xuRFHKOCVkDSlOO4EIldh/MSjg42Bm2RlRxGpUBWG6RLhjFKIx0gWh5l47QNxsFi5SQckA8+MYcyGB2jTsEYhEhEiUCAXyrk3NGcLEpsqhhkCtF6Tq3KvSILUjkdTJBhkgpeRYQxQ1EhuQB+goZRjDHfD3eMLochBDkS6GzEgkA5BEPGBMoYyBXhmOvgg5gqoyAXBvdWIcdRWimfuHzlioAhUDtvQhbkCDKAyWyQGGSYDG4grSp3KxpCkDx0VVQLcig/DbNTjkLOohYgOjpKImiQKpSPDyYXQUitcwTfkiym1kaoe4Jq2j04BDYHFJiEAltigldoBzkKEXqR5UyJXjnmqSco7x4cg+Cg0tHWtITjnbFKRxt0yHE8jIFPClSUcIKKwaGajcpE0BFB2iCRYIaM40AelHTMZcfB2Bg4guTF+IQYkkVytc2o7LRG9BAeJ4cnwv8QLBQzR4FioL9CNaIEA63gzpSS2VVBrwgiQKxIKPgo4njEEO18t0UABppuoCiJvig7T9ZEjXmGUBUZDNjnSGuEWXkRBxMB7mqi1jlOwCSE2cMakmAoGagmjxEZijMBfR5gSkbBYKVDSFr7HCah4DCCKQi2hKNCwKyTCL8zHMyBJiqkEZ1YxFGWXeLOn+N4xCUZngzEUTDpoJ23GHnyIKM+kSnjNX4kHJS44y6std2DAyVBnJ1KEgwGZVDN+Jj2uBV4VNaQWok6EAuL+RNjDWVeAQIw6EIhGskrJAmWI4xokxkOsg4ZtN59Mcg8/4M2xnlUso86m/9xKEg8TomTIGAgvBaV5Y3NYTRm+hC59qyE46G9LKb4znBC4DHacc8XYVh0k0YA9sCQR5nDVEWyOVprtAH07pThwEpt0bUwKco4xJWlMfFQfsrCYIDZI6WvQLGQUXBH57mCCqB9JBSdDGNQhok1MDuqRWtBTy6LIMOAxuAa2l5+cjSoOWhgwj1E5iDfGLjRhffA4Fxqo+IjjUxkxyQG51PuFaZSxAbGYnKX6oo8LAFxwu4Eh3nDYBRHsjQqT4LhRsIntUQ5DliDj8Ep75yIw/Mtjgno/zkOtBQnCeLwSThoJwhj0jmIx4AM0UGIJAwLw+GUzRMOFD5b8fAltQc0T+BEBCjRHo94luJR04tC6jDlIDoua3ucKcWtjAfOJEYGuVYsyCabS4GD1mEsGERKFmQcRSAY0BaT43BleQit9iIBA9IEoSOVEwemwiMcR9xXmBMwBCe0fZ+7FdA2eRi3cjfH2ZDptedsDhgMyDbhMCgOTEAByRwfHTMU9AzH412ycjVAVNAGMNbY3BrMJuiqIKnxYs55OFt3K70HBz8YCRQ/sxK5w4MtisL5DIcf+kCxUeghijCWM2EJ2pPB4DTtUBIuWidp6f99mDdZfi4W5e14PKuu26rqDkenZ5uHjOdl2+OvcmmKq7ZZfDtcMS6KYnPx8LBxeNTYTatlNTp9elxZrN9ief27uG6b1XL2sa0XdV/fVV1RzmZjNuHFM83vX18z/ncw8bpqFlXfPvyAm5TLadW9ebVpZ3Wz63nfq8s/NvOH62a52fV89Wh0Oyx9qKu2bKc3e/dtF8fbB6uHL6KMpU8Pt9Wbza53w/vi4sPvP73fXvf4vKXs+7a+XPXs1AtTps28abco5/xu1893m53r1KwvGT8DvIrrsEiFOhqtX9Tw4g6fr3+26HH7Vz17M5octDerxeWT95ODp8WtB9N52XX1VT0tORavfD/PlopP311cvPvh5/XeR9x9YM8TX6blArEtuqrnZ9tDYmZV19fLNcAW96KaIgDX8yfHNxR917bly6xMlo8vyXlfz/obkJPU29Hx8UirzcJl8zc+Hkh6+5qeO4/bb5u2/3VVZrR9z6ytl9dbw8YI7wA4a8v796urq6r9UNXXN/3RYAfywN6zfbAFFhTdTXMPM67KeVetrT44Ojjp+od5dbZJxzf1gi0Yrdo5KvC4rxa38xK+H1+upn9VfTHtOgbkS0+OX249mdV3SObpnv8VDPnDytVqPv+t/qeaHJydHOP6bOu8KdnHX+6qdl4+8GU3dPbj8CH04OQYb/fv7Jtmflm2O8j/AQ\r\n\r\nBrowser:  Chrome  118.0.5993.117\r\n\r\nOperating System: Windows 10\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782131774",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11584#issuecomment-1782131774",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584",
+                "id": 1782131774,
+                "node_id": "IC_kwDOADcI0s5qOSw-",
+                "user": {
+                    "login": "LyjPeppers",
+                    "id": 20767375,
+                    "node_id": "MDQ6VXNlcjIwNzY3Mzc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20767375?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LyjPeppers",
+                    "html_url": "https://github.com/LyjPeppers",
+                    "followers_url": "https://api.github.com/users/LyjPeppers/followers",
+                    "following_url": "https://api.github.com/users/LyjPeppers/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LyjPeppers/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LyjPeppers/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LyjPeppers/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LyjPeppers/orgs",
+                    "repos_url": "https://api.github.com/users/LyjPeppers/repos",
+                    "events_url": "https://api.github.com/users/LyjPeppers/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LyjPeppers/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T00:57:38Z",
+                "updated_at": "2023-10-27T00:57:38Z",
+                "author_association": "NONE",
+                "body": "All right!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782131774/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T00:57:39Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32883815164",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 484870,
+            "login": "chris-cooper",
+            "display_login": "chris-cooper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/chris-cooper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/484870?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/9748",
+                "id": 976640954,
+                "node_id": "MDU6SXNzdWU5NzY2NDA5NTQ=",
+                "number": 9748,
+                "title": "Scaling of some tilesets in 2D mode",
+                "user": {
+                    "login": "chris-cooper",
+                    "id": 484870,
+                    "node_id": "MDQ6VXNlcjQ4NDg3MA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/484870?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/chris-cooper",
+                    "html_url": "https://github.com/chris-cooper",
+                    "followers_url": "https://api.github.com/users/chris-cooper/followers",
+                    "following_url": "https://api.github.com/users/chris-cooper/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/chris-cooper/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/chris-cooper/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/chris-cooper/subscriptions",
+                    "organizations_url": "https://api.github.com/users/chris-cooper/orgs",
+                    "repos_url": "https://api.github.com/users/chris-cooper/repos",
+                    "events_url": "https://api.github.com/users/chris-cooper/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/chris-cooper/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 653779,
+                        "node_id": "MDU6TGFiZWw2NTM3Nzk=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/type%20-%20bug",
+                        "name": "type - bug",
+                        "color": "d7e102",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 626690566,
+                        "node_id": "MDU6TGFiZWw2MjY2OTA1NjY=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/category%20-%202d%20/%20columbus%20view",
+                        "name": "category - 2d / columbus view",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2021-08-23T05:17:15Z",
+                "updated_at": "2023-10-26T22:59:55Z",
+                "closed_at": "2023-10-26T22:59:55Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "There is a strange scaling being applied to tiles in this scenario:\r\n- `SceneMode.SCENE2D`\r\n- `mapProjection: new Cesium.WebMercatorProjection()`\r\n- tileset uses a geographic [`region`](https://github.com/CesiumGS/3d-tiles/tree/main/specification#bounding-volumes) for the tiles rather than bounds \r\n\r\n[Sandcastle example](https://sandcastle.cesium.com/#c=bVLBbtswDP0VIpc6QyZn3XbJ0mBoUmCHdQvmorv4Ittsok4WDUl24A7999GWnXpbTxLJ90i+J8Ux7OmEFvZaGg8FOnUwUFKBGipLjSqwgKyFazReYwtJ6zyWLjWNtNAo7KhXYPAEW6bWpbjvc1E6y/t4S8ZLZdCmswX8Tg1AKau9pUfMvSKzmlJ/YnaLNpee7Asimqfmef4pDHQ5GuR5YbDoQy71p+iW5trQLOlyt5wSyfbm283ljnGhiVcaHXqGBl5lVam8atAJWRRRt+NkqXC8390FVtRrAKitXsGFEHEiy0rjTnoZ/wWNB8L5Eg9zxaMjc7EIbQrM6kNypFPnE1t8TbUplDnck65LXIG3NfbQZ7Zh3ksY21iURcs+lcphhxD+iCZ6qE1vG0QDbg7DxoNnT0TlHUUhB6MZizGeKP/CA3iVvfL58Yc0BzyTAJbi4+IlersUl5Nw3DAbxCTVES0Ky+1qB2/gg1iO4Hm4dMqCRtZBLMSeWNVEDFpL9iwlJ+NIo9B0GCoDn4/ZYrZ2vtW4GWd8VmVF1ndPFvGD8fettPT8Qlmd/+I1c+cCH2AdT6nrQjWgiqtX/jLkWjrHlYda60Q9YTrbrGPG/0fV1Lv4vUGrZdvBju82X0NSCLGOOXyd6Yl0Ju0/nf8A)\r\n\r\nYou can see the effect on features near the edge being scaled towards the centre (highlighted in red):\r\n\r\n![image](https://user-images.githubusercontent.com/484870/130393726-b5d97218-5f17-44a7-9962-f17b3c537ff9.png)\r\n\r\nThe result on another tileset:\r\n![image](https://user-images.githubusercontent.com/484870/130393382-feceb1c8-31d4-45d8-8211-d98221888dca.png)\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T22:59:56Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32883814163",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 484870,
+            "login": "chris-cooper",
+            "display_login": "chris-cooper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/chris-cooper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/484870?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/9748",
+                "id": 976640954,
+                "node_id": "MDU6SXNzdWU5NzY2NDA5NTQ=",
+                "number": 9748,
+                "title": "Scaling of some tilesets in 2D mode",
+                "user": {
+                    "login": "chris-cooper",
+                    "id": 484870,
+                    "node_id": "MDQ6VXNlcjQ4NDg3MA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/484870?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/chris-cooper",
+                    "html_url": "https://github.com/chris-cooper",
+                    "followers_url": "https://api.github.com/users/chris-cooper/followers",
+                    "following_url": "https://api.github.com/users/chris-cooper/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/chris-cooper/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/chris-cooper/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/chris-cooper/subscriptions",
+                    "organizations_url": "https://api.github.com/users/chris-cooper/orgs",
+                    "repos_url": "https://api.github.com/users/chris-cooper/repos",
+                    "events_url": "https://api.github.com/users/chris-cooper/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/chris-cooper/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 653779,
+                        "node_id": "MDU6TGFiZWw2NTM3Nzk=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/type%20-%20bug",
+                        "name": "type - bug",
+                        "color": "d7e102",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 626690566,
+                        "node_id": "MDU6TGFiZWw2MjY2OTA1NjY=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/category%20-%202d%20/%20columbus%20view",
+                        "name": "category - 2d / columbus view",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2021-08-23T05:17:15Z",
+                "updated_at": "2023-10-26T22:59:51Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "There is a strange scaling being applied to tiles in this scenario:\r\n- `SceneMode.SCENE2D`\r\n- `mapProjection: new Cesium.WebMercatorProjection()`\r\n- tileset uses a geographic [`region`](https://github.com/CesiumGS/3d-tiles/tree/main/specification#bounding-volumes) for the tiles rather than bounds \r\n\r\n[Sandcastle example](https://sandcastle.cesium.com/#c=bVLBbtswDP0VIpc6QyZn3XbJ0mBoUmCHdQvmorv4Ittsok4WDUl24A7999GWnXpbTxLJ90i+J8Ux7OmEFvZaGg8FOnUwUFKBGipLjSqwgKyFazReYwtJ6zyWLjWNtNAo7KhXYPAEW6bWpbjvc1E6y/t4S8ZLZdCmswX8Tg1AKau9pUfMvSKzmlJ/YnaLNpee7Asimqfmef4pDHQ5GuR5YbDoQy71p+iW5trQLOlyt5wSyfbm283ljnGhiVcaHXqGBl5lVam8atAJWRRRt+NkqXC8390FVtRrAKitXsGFEHEiy0rjTnoZ/wWNB8L5Eg9zxaMjc7EIbQrM6kNypFPnE1t8TbUplDnck65LXIG3NfbQZ7Zh3ksY21iURcs+lcphhxD+iCZ6qE1vG0QDbg7DxoNnT0TlHUUhB6MZizGeKP/CA3iVvfL58Yc0BzyTAJbi4+IlersUl5Nw3DAbxCTVES0Ky+1qB2/gg1iO4Hm4dMqCRtZBLMSeWNVEDFpL9iwlJ+NIo9B0GCoDn4/ZYrZ2vtW4GWd8VmVF1ndPFvGD8fettPT8Qlmd/+I1c+cCH2AdT6nrQjWgiqtX/jLkWjrHlYda60Q9YTrbrGPG/0fV1Lv4vUGrZdvBju82X0NSCLGOOXyd6Yl0Ju0/nf8A)\r\n\r\nYou can see the effect on features near the edge being scaled towards the centre (highlighted in red):\r\n\r\n![image](https://user-images.githubusercontent.com/484870/130393726-b5d97218-5f17-44a7-9962-f17b3c537ff9.png)\r\n\r\nThe result on another tileset:\r\n![image](https://user-images.githubusercontent.com/484870/130393382-feceb1c8-31d4-45d8-8211-d98221888dca.png)\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782018181",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/9748#issuecomment-1782018181",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/9748",
+                "id": 1782018181,
+                "node_id": "IC_kwDOADcI0s5qN3CF",
+                "user": {
+                    "login": "chris-cooper",
+                    "id": 484870,
+                    "node_id": "MDQ6VXNlcjQ4NDg3MA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/484870?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/chris-cooper",
+                    "html_url": "https://github.com/chris-cooper",
+                    "followers_url": "https://api.github.com/users/chris-cooper/followers",
+                    "following_url": "https://api.github.com/users/chris-cooper/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/chris-cooper/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/chris-cooper/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/chris-cooper/subscriptions",
+                    "organizations_url": "https://api.github.com/users/chris-cooper/orgs",
+                    "repos_url": "https://api.github.com/users/chris-cooper/repos",
+                    "events_url": "https://api.github.com/users/chris-cooper/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/chris-cooper/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T22:59:51Z",
+                "updated_at": "2023-10-26T22:59:51Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "This appears to be fixed with the `projectTo2D` option: https://github.com/CesiumGS/cesium/pull/10384",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1782018181/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T22:59:51Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32880924721",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 48362463,
+            "login": "angrycat9000",
+            "display_login": "angrycat9000",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/angrycat9000",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48362463?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11592",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11592/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11592/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11592/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11592",
+                "id": 1964311094,
+                "node_id": "I_kwDOADcI0s51FQI2",
+                "number": 11592,
+                "title": "Make collections iterable",
+                "user": {
+                    "login": "angrycat9000",
+                    "id": 48362463,
+                    "node_id": "MDQ6VXNlcjQ4MzYyNDYz",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48362463?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/angrycat9000",
+                    "html_url": "https://github.com/angrycat9000",
+                    "followers_url": "https://api.github.com/users/angrycat9000/followers",
+                    "following_url": "https://api.github.com/users/angrycat9000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/angrycat9000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/angrycat9000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/angrycat9000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/angrycat9000/orgs",
+                    "repos_url": "https://api.github.com/users/angrycat9000/repos",
+                    "events_url": "https://api.github.com/users/angrycat9000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/angrycat9000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T20:20:11Z",
+                "updated_at": "2023-10-26T20:20:11Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Right now to iterate over a collection I have do a for loop with the index and then call  `get` to get the object.\r\n```js\r\nfor(let i = 0; i < viewer.imageryLayers.length; i++ ) {\r\n  const layer = viewer.imageryLayers.get(i);\r\n  // do something with layer\r\n}\r\n```\r\n\r\nIt would be nicer if the collections provided iterators so I could do:\r\n```js\r\nfor(const layer of viewer.imageryLayers) {\r\n   // do something with layer\r\n}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11592/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11592/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T20:20:13Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32876416084",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11590",
+                "id": 1963786054,
+                "node_id": "I_kwDOADcI0s51DP9G",
+                "number": 11590,
+                "title": "VoxelPrimitive and PolygonGeometry",
+                "user": {
+                    "login": "entenity",
+                    "id": 40687748,
+                    "node_id": "MDQ6VXNlcjQwNjg3NzQ4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/40687748?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/entenity",
+                    "html_url": "https://github.com/entenity",
+                    "followers_url": "https://api.github.com/users/entenity/followers",
+                    "following_url": "https://api.github.com/users/entenity/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/entenity/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/entenity/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/entenity/subscriptions",
+                    "organizations_url": "https://api.github.com/users/entenity/orgs",
+                    "repos_url": "https://api.github.com/users/entenity/repos",
+                    "events_url": "https://api.github.com/users/entenity/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/entenity/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T15:07:04Z",
+                "updated_at": "2023-10-26T17:10:16Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Why don't the latitude and longitude boundaries drawn by PolygonGeometry and VoxelPrimitive coincide and don't stick to the ground when VoxelPrimitive's minimum height is 0\r\n![image](https://github.com/CesiumGS/cesium/assets/40687748/ed2b9308-7e30-41c5-b796-d4fec5752b67)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781516973",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11590#issuecomment-1781516973",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590",
+                "id": 1781516973,
+                "node_id": "IC_kwDOADcI0s5qL8qt",
+                "user": {
+                    "login": "ggetz",
+                    "id": 4439461,
+                    "node_id": "MDQ6VXNlcjQ0Mzk0NjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4439461?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ggetz",
+                    "html_url": "https://github.com/ggetz",
+                    "followers_url": "https://api.github.com/users/ggetz/followers",
+                    "following_url": "https://api.github.com/users/ggetz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ggetz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ggetz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ggetz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ggetz/orgs",
+                    "repos_url": "https://api.github.com/users/ggetz/repos",
+                    "events_url": "https://api.github.com/users/ggetz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ggetz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T17:10:16Z",
+                "updated_at": "2023-10-26T17:10:16Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Hi @entenity,\r\n\r\nWould you be able to include a [Sandcastle example](https://sandcastle.cesium.com/) that replicates the issue? That would help us give us more context to determine the issue. Thanks!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781516973/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:10:17Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32876372266",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 13347321,
+            "login": "danchaotaiyang",
+            "display_login": "danchaotaiyang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danchaotaiyang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13347321?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11591",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11591/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11591/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11591/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11591",
+                "id": 1963999517,
+                "node_id": "I_kwDOADcI0s51EEEd",
+                "number": 11591,
+                "title": "The example code in the provided link needs to be updated.",
+                "user": {
+                    "login": "danchaotaiyang",
+                    "id": 13347321,
+                    "node_id": "MDQ6VXNlcjEzMzQ3MzIx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13347321?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/danchaotaiyang",
+                    "html_url": "https://github.com/danchaotaiyang",
+                    "followers_url": "https://api.github.com/users/danchaotaiyang/followers",
+                    "following_url": "https://api.github.com/users/danchaotaiyang/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/danchaotaiyang/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/danchaotaiyang/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/danchaotaiyang/subscriptions",
+                    "organizations_url": "https://api.github.com/users/danchaotaiyang/orgs",
+                    "repos_url": "https://api.github.com/users/danchaotaiyang/repos",
+                    "events_url": "https://api.github.com/users/danchaotaiyang/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/danchaotaiyang/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T17:08:30Z",
+                "updated_at": "2023-10-26T17:08:30Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nThanks for helping us improve Cesium! Please describe what the expected behavior is vs what actually happens.\r\n\r\nCreating a Sandcastle example (https://sandcastle.cesium.com) that reproduces the issue helps us a lot in tracking down bugs. Paste the link you get from the \"Share\" button in Sandcastle below.\r\n-->\r\n\r\nSandcastle example:\r\n\r\nBrowser:\r\n\r\nOperating System:\r\n\r\n<!--\r\n\r\nIf you can also contribute a fix, we'd absolutely appreciate it! Fixing a bug in Cesium often means fixing a bug for thousands of applications and millions of end users.\r\n\r\nCheck out the contributor guide to get started:\r\n\r\nhttps://github.com/CesiumGS/cesium/blob/main/CONTRIBUTING.md\r\n\r\nJust let us know you're working on it and we'd be happy to provide advice and feedback.\r\n\r\n-->\r\n\r\nhttps://cesium.com/learn/cesiumjs-learn/cesiumjs-3d-tiles-styling/\r\n\r\nThe example code in the provided link needs to be updated.\r\n\u94fe\u63a5\u4e2d\u7684\u793a\u4f8b\u4ee3\u7801\u9700\u8981\u66f4\u65b0\u4e86\r\n\r\n![image](https://github.com/CesiumGS/cesium/assets/13347321/d681904e-1195-4b66-ade2-6b0e40bc3643)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11591/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11591/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:08:32Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32874424278",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22477298,
+            "login": "lectrician1",
+            "display_login": "lectrician1",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lectrician1",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22477298?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:55:11Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32872949222",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 40687748,
+            "login": "entenity",
+            "display_login": "entenity",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/entenity",
+            "avatar_url": "https://avatars.githubusercontent.com/u/40687748?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11590",
+                "id": 1963786054,
+                "node_id": "I_kwDOADcI0s51DP9G",
+                "number": 11590,
+                "title": "VoxelPrimitive and PolygonGeometry",
+                "user": {
+                    "login": "entenity",
+                    "id": 40687748,
+                    "node_id": "MDQ6VXNlcjQwNjg3NzQ4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/40687748?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/entenity",
+                    "html_url": "https://github.com/entenity",
+                    "followers_url": "https://api.github.com/users/entenity/followers",
+                    "following_url": "https://api.github.com/users/entenity/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/entenity/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/entenity/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/entenity/subscriptions",
+                    "organizations_url": "https://api.github.com/users/entenity/orgs",
+                    "repos_url": "https://api.github.com/users/entenity/repos",
+                    "events_url": "https://api.github.com/users/entenity/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/entenity/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T15:07:04Z",
+                "updated_at": "2023-10-26T15:07:04Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Why don't the latitude and longitude boundaries drawn by PolygonGeometry and VoxelPrimitive coincide and don't stick to the ground when VoxelPrimitive's minimum height is 0\r\n![image](https://github.com/CesiumGS/cesium/assets/40687748/ed2b9308-7e30-41c5-b796-d4fec5752b67)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11590/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T15:07:06Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32871584844",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11559",
+                "id": 1932239626,
+                "node_id": "I_kwDOADcI0s5zK6MK",
+                "number": 11559,
+                "title": "About building locally",
+                "user": {
+                    "login": "verybigzhouhai",
+                    "id": 37999729,
+                    "node_id": "MDQ6VXNlcjM3OTk5NzI5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37999729?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/verybigzhouhai",
+                    "html_url": "https://github.com/verybigzhouhai",
+                    "followers_url": "https://api.github.com/users/verybigzhouhai/followers",
+                    "following_url": "https://api.github.com/users/verybigzhouhai/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/verybigzhouhai/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/verybigzhouhai/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/verybigzhouhai/subscriptions",
+                    "organizations_url": "https://api.github.com/users/verybigzhouhai/orgs",
+                    "repos_url": "https://api.github.com/users/verybigzhouhai/repos",
+                    "events_url": "https://api.github.com/users/verybigzhouhai/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/verybigzhouhai/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5381878715,
+                        "node_id": "LA_kwDOADcI0s8AAAABQMjzuw",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/needs%20feedback",
+                        "name": "needs feedback",
+                        "color": "E85975",
+                        "default": false,
+                        "description": "On hold until additional info is supplied"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2023-10-09T03:27:48Z",
+                "updated_at": "2023-10-26T14:26:21Z",
+                "closed_at": "2023-10-26T14:26:21Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi\uff0c\r\n    When I add a class in the engine folder, how to reference it in widgets? For example, when I add a Cesium3DFilesetBak class (rename it after copying the Cesium3DFileset class), the buildWidgets process will report an error when I execute the npm run release command. The reference here seems to come from node_ Modules, the class I added cannot be recognized.\r\n    What should be done correctly when adding a class and referencing it in Widgets?\r\n![image](https://github.com/CesiumGS/cesium/assets/37999729/7f01e14c-1408-4eba-8d43-3bfb197a3b1d)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781241347",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11559#issuecomment-1781241347",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559",
+                "id": 1781241347,
+                "node_id": "IC_kwDOADcI0s5qK5YD",
+                "user": {
+                    "login": "ggetz",
+                    "id": 4439461,
+                    "node_id": "MDQ6VXNlcjQ0Mzk0NjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4439461?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ggetz",
+                    "html_url": "https://github.com/ggetz",
+                    "followers_url": "https://api.github.com/users/ggetz/followers",
+                    "following_url": "https://api.github.com/users/ggetz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ggetz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ggetz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ggetz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ggetz/orgs",
+                    "repos_url": "https://api.github.com/users/ggetz/repos",
+                    "events_url": "https://api.github.com/users/ggetz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ggetz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T14:26:21Z",
+                "updated_at": "2023-10-26T14:26:21Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "> When executing the npm run release, the buildEngine command should be executed first, followed by buildWidgets. However, in Widgets/.../Viewer.js, import {xxx} from \"@ cesium/engine\" directly introduces the dependency module from @ cesium/engine, which means it accesses \"node_ Tmodules\" folder, but the classes I added myself only exist in the package folder?\r\n\r\nAh, so you are running a build command after installing cesium as a node module and adding a new class?\r\n\r\nI would not recommend this approach. Generally, it is not recommended to manually add or change code in the `node_module` directly. And secondly, cesium build commands are designed to be run from a cesium developer context, not from within the context of the installed node module. \r\n\r\nInstead, any new code should be added to your project directly. Could you tell us a bit more about the code you're looking to add? We may have some recommendations on how to architect your solution.\r\n\r\nFinally, CesiumJS is a big project, so we use GitHub for feature requests and bug tracking exclusively. In the future, please take any questions to the [Cesium Forum](https://community.cesium.com/) where there are members of the community and developers from the team who can help. Thanks!\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781241347/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:26:22Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32871585080",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11559",
+                "id": 1932239626,
+                "node_id": "I_kwDOADcI0s5zK6MK",
+                "number": 11559,
+                "title": "About building locally",
+                "user": {
+                    "login": "verybigzhouhai",
+                    "id": 37999729,
+                    "node_id": "MDQ6VXNlcjM3OTk5NzI5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37999729?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/verybigzhouhai",
+                    "html_url": "https://github.com/verybigzhouhai",
+                    "followers_url": "https://api.github.com/users/verybigzhouhai/followers",
+                    "following_url": "https://api.github.com/users/verybigzhouhai/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/verybigzhouhai/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/verybigzhouhai/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/verybigzhouhai/subscriptions",
+                    "organizations_url": "https://api.github.com/users/verybigzhouhai/orgs",
+                    "repos_url": "https://api.github.com/users/verybigzhouhai/repos",
+                    "events_url": "https://api.github.com/users/verybigzhouhai/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/verybigzhouhai/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5381878715,
+                        "node_id": "LA_kwDOADcI0s8AAAABQMjzuw",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/needs%20feedback",
+                        "name": "needs feedback",
+                        "color": "E85975",
+                        "default": false,
+                        "description": "On hold until additional info is supplied"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2023-10-09T03:27:48Z",
+                "updated_at": "2023-10-26T14:26:21Z",
+                "closed_at": "2023-10-26T14:26:21Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Hi\uff0c\r\n    When I add a class in the engine folder, how to reference it in widgets? For example, when I add a Cesium3DFilesetBak class (rename it after copying the Cesium3DFileset class), the buildWidgets process will report an error when I execute the npm run release command. The reference here seems to come from node_ Modules, the class I added cannot be recognized.\r\n    What should be done correctly when adding a class and referencing it in Widgets?\r\n![image](https://github.com/CesiumGS/cesium/assets/37999729/7f01e14c-1408-4eba-8d43-3bfb197a3b1d)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11559/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:26:22Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32871069959",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11584",
+                "id": 1961364702,
+                "node_id": "I_kwDOADcI0s506Aze",
+                "number": 11584,
+                "title": "A viewportQuad  causes  a groundPrimitive to exhibit overlapping!",
+                "user": {
+                    "login": "LyjPeppers",
+                    "id": 20767375,
+                    "node_id": "MDQ6VXNlcjIwNzY3Mzc1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20767375?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LyjPeppers",
+                    "html_url": "https://github.com/LyjPeppers",
+                    "followers_url": "https://api.github.com/users/LyjPeppers/followers",
+                    "following_url": "https://api.github.com/users/LyjPeppers/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LyjPeppers/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LyjPeppers/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LyjPeppers/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LyjPeppers/orgs",
+                    "repos_url": "https://api.github.com/users/LyjPeppers/repos",
+                    "events_url": "https://api.github.com/users/LyjPeppers/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LyjPeppers/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5381878715,
+                        "node_id": "LA_kwDOADcI0s8AAAABQMjzuw",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/needs%20feedback",
+                        "name": "needs feedback",
+                        "color": "E85975",
+                        "default": false,
+                        "description": "On hold until additional info is supplied"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-25T12:57:25Z",
+                "updated_at": "2023-10-26T14:11:52Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "When the width or height of the ViewportQuad is less than 20, it causes GroundPrimitive to exhibit overlapping!\r\n![image](https://github.com/CesiumGS/cesium/assets/20767375/af5a190c-647b-4c8d-b2b1-fb2491f4e55a)\r\n\r\n\r\nSandcastle example:\r\n    https://sandcastle.cesium.com/#c=lVnbTiNHEP0ViycjoaGr770LKLskykbKZUM2eYn3YbAHGMX2oJkxhET8e055sAG3tbUBZLB7+kxdTp2qHqbNsutHd3V1X7Wj09Gyuh+dV129WhR/rD8bTw6m6/fnzbIv62XVTg4O306W/D1d771turqv8Se2/zlZjvD19Iu/iEyRUvTBJ+909NEfPS9qXbgUnVHeeGejIzusfT7ag2MLpfBqbPDkDIVdnJScS8p7S8oaAccan6LxnlJ8DeOVihRsUtEn42VzyBuYolxMO+ZEF7y2lKxWlL4Ag+gE5Skm0soYZ3dhEoLmXEhekw0SjrMal1LQpHMcQwp30DZqCcb6QMkbjXjmMMR5NM45JeKY5LxHrF2MGY7lb9I+xuRFHKOCVkDSlOO4EIldh/MSjg42Bm2RlRxGpUBWG6RLhjFKIx0gWh5l47QNxsFi5SQckA8+MYcyGB2jTsEYhEhEiUCAXyrk3NGcLEpsqhhkCtF6Tq3KvSILUjkdTJBhkgpeRYQxQ1EhuQB+goZRjDHfD3eMLochBDkS6GzEgkA5BEPGBMoYyBXhmOvgg5gqoyAXBvdWIcdRWimfuHzlioAhUDtvQhbkCDKAyWyQGGSYDG4grSp3KxpCkDx0VVQLcig/DbNTjkLOohYgOjpKImiQKpSPDyYXQUitcwTfkiym1kaoe4Jq2j04BDYHFJiEAltigldoBzkKEXqR5UyJXjnmqSco7x4cg+Cg0tHWtITjnbFKRxt0yHE8jIFPClSUcIKKwaGajcpE0BFB2iCRYIaM40AelHTMZcfB2Bg4guTF+IQYkkVytc2o7LRG9BAeJ4cnwv8QLBQzR4FioL9CNaIEA63gzpSS2VVBrwgiQKxIKPgo4njEEO18t0UABppuoCiJvig7T9ZEjXmGUBUZDNjnSGuEWXkRBxMB7mqi1jlOwCSE2cMakmAoGagmjxEZijMBfR5gSkbBYKVDSFr7HCah4DCCKQi2hKNCwKyTCL8zHMyBJiqkEZ1YxFGWXeLOn+N4xCUZngzEUTDpoJ23GHnyIKM+kSnjNX4kHJS44y6std2DAyVBnJ1KEgwGZVDN+Jj2uBV4VNaQWok6EAuL+RNjDWVeAQIw6EIhGskrJAmWI4xokxkOsg4ZtN59Mcg8/4M2xnlUso86m/9xKEg8TomTIGAgvBaV5Y3NYTRm+hC59qyE46G9LKb4znBC4DHacc8XYVh0k0YA9sCQR5nDVEWyOVprtAH07pThwEpt0bUwKco4xJWlMfFQfsrCYIDZI6WvQLGQUXBH57mCCqB9JBSdDGNQhok1MDuqRWtBTy6LIMOAxuAa2l5+cjSoOWhgwj1E5iDfGLjRhffA4Fxqo+IjjUxkxyQG51PuFaZSxAbGYnKX6oo8LAFxwu4Eh3nDYBRHsjQqT4LhRsIntUQ5DliDj8Ep75yIw/Mtjgno/zkOtBQnCeLwSThoJwhj0jmIx4AM0UGIJAwLw+GUzRMOFD5b8fAltQc0T+BEBCjRHo94luJR04tC6jDlIDoua3ucKcWtjAfOJEYGuVYsyCabS4GD1mEsGERKFmQcRSAY0BaT43BleQit9iIBA9IEoSOVEwemwiMcR9xXmBMwBCe0fZ+7FdA2eRi3cjfH2ZDptedsDhgMyDbhMCgOTEAByRwfHTMU9AzH412ycjVAVNAGMNbY3BrMJuiqIKnxYs55OFt3K70HBz8YCRQ/sxK5w4MtisL5DIcf+kCxUeghijCWM2EJ2pPB4DTtUBIuWidp6f99mDdZfi4W5e14PKuu26rqDkenZ5uHjOdl2+OvcmmKq7ZZfDtcMS6KYnPx8LBxeNTYTatlNTp9elxZrN9ief27uG6b1XL2sa0XdV/fVV1RzmZjNuHFM83vX18z/ncw8bpqFlXfPvyAm5TLadW9ebVpZ3Wz63nfq8s/NvOH62a52fV89Wh0Oyx9qKu2bKc3e/dtF8fbB6uHL6KMpU8Pt9Wbza53w/vi4sPvP73fXvf4vKXs+7a+XPXs1AtTps28abco5/xu1893m53r1KwvGT8DvIrrsEiFOhqtX9Tw4g6fr3+26HH7Vz17M5octDerxeWT95ODp8WtB9N52XX1VT0tORavfD/PlopP311cvPvh5/XeR9x9YM8TX6blArEtuqrnZ9tDYmZV19fLNcAW96KaIgDX8yfHNxR917bly6xMlo8vyXlfz/obkJPU29Hx8UirzcJl8zc+Hkh6+5qeO4/bb5u2/3VVZrR9z6ytl9dbw8YI7wA4a8v796urq6r9UNXXN/3RYAfywN6zfbAFFhTdTXMPM67KeVetrT44Ojjp+od5dbZJxzf1gi0Yrdo5KvC4rxa38xK+H1+upn9VfTHtOgbkS0+OX249mdV3SObpnv8VDPnDytVqPv+t/qeaHJydHOP6bOu8KdnHX+6qdl4+8GU3dPbj8CH04OQYb/fv7Jtmflm2O8j/AQ\r\n\r\nBrowser:  Chrome  118.0.5993.117\r\n\r\nOperating System: Windows 10\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781214605",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11584#issuecomment-1781214605",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11584",
+                "id": 1781214605,
+                "node_id": "IC_kwDOADcI0s5qKy2N",
+                "user": {
+                    "login": "ggetz",
+                    "id": 4439461,
+                    "node_id": "MDQ6VXNlcjQ0Mzk0NjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4439461?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ggetz",
+                    "html_url": "https://github.com/ggetz",
+                    "followers_url": "https://api.github.com/users/ggetz/followers",
+                    "following_url": "https://api.github.com/users/ggetz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ggetz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ggetz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ggetz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ggetz/orgs",
+                    "repos_url": "https://api.github.com/users/ggetz/repos",
+                    "events_url": "https://api.github.com/users/ggetz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ggetz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T14:11:52Z",
+                "updated_at": "2023-10-26T14:11:52Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Thanks @LyjPeppers!\r\n\r\nI am able to duplicate after moving the camera a bit.\r\n\r\nLookin through the codebase, I don't think ViewportQuad is used much, though it is still technically part of the public API. At somepoint, we may even consider removing it to reduce the library footprint size.\r\n\r\nI would recommend seeing if any other [primitive geometry](https://cesium.com/learn/cesiumjs-learn/cesiumjs-geometry-appearances/) works for your case.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781214605/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T14:11:52Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32870610539",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "repository_id": 3606738,
+            "push_id": 15577672126,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/google-attribute",
+            "head": "63bfcdc949df1812f0c658ccd0263ed323d00200",
+            "before": "5cb8f0cf851b265a1ee96946d5fcfdd839a81484",
+            "commits": [
+                {
+                    "sha": "63bfcdc949df1812f0c658ccd0263ed323d00200",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Update CHANGES.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/63bfcdc949df1812f0c658ccd0263ed323d00200"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:58:34Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32870594051",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 30242416,
+            "login": "cesium-concierge",
+            "display_login": "cesium-concierge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cesium-concierge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30242416?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589/events",
+                "html_url": "https://github.com/CesiumGS/cesium/pull/11589",
+                "id": 1963643917,
+                "node_id": "PR_kwDOADcI0s5d34X2",
+                "number": 11589,
+                "title": "Minimum required attribution for Google 3D Tiles",
+                "user": {
+                    "login": "ggetz",
+                    "id": 4439461,
+                    "node_id": "MDQ6VXNlcjQ0Mzk0NjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4439461?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ggetz",
+                    "html_url": "https://github.com/ggetz",
+                    "followers_url": "https://api.github.com/users/ggetz/followers",
+                    "following_url": "https://api.github.com/users/ggetz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ggetz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ggetz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ggetz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ggetz/orgs",
+                    "repos_url": "https://api.github.com/users/ggetz/repos",
+                    "events_url": "https://api.github.com/users/ggetz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ggetz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T13:57:59Z",
+                "updated_at": "2023-10-26T13:58:05Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/pulls/11589",
+                    "html_url": "https://github.com/CesiumGS/cesium/pull/11589",
+                    "diff_url": "https://github.com/CesiumGS/cesium/pull/11589.diff",
+                    "patch_url": "https://github.com/CesiumGS/cesium/pull/11589.patch",
+                    "merged_at": null
+                },
+                "body": "By default, `createGooglePhotorealistic3DTileset` no longer shows credits on screen, as this is compliant with the minimum required attribution. Traditionally CesiumJS uses the minimum necessary to be compliant as to avoid any confusion about what is required.\r\n\r\nTo restore this behavior, pass the option `showCreditsOnScreen: true`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781184461",
+                "html_url": "https://github.com/CesiumGS/cesium/pull/11589#issuecomment-1781184461",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589",
+                "id": 1781184461,
+                "node_id": "IC_kwDOADcI0s5qKrfN",
+                "user": {
+                    "login": "cesium-concierge",
+                    "id": 30242416,
+                    "node_id": "MDQ6VXNlcjMwMjQyNDE2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/30242416?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/cesium-concierge",
+                    "html_url": "https://github.com/cesium-concierge",
+                    "followers_url": "https://api.github.com/users/cesium-concierge/followers",
+                    "following_url": "https://api.github.com/users/cesium-concierge/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/cesium-concierge/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/cesium-concierge/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/cesium-concierge/subscriptions",
+                    "organizations_url": "https://api.github.com/users/cesium-concierge/orgs",
+                    "repos_url": "https://api.github.com/users/cesium-concierge/repos",
+                    "events_url": "https://api.github.com/users/cesium-concierge/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/cesium-concierge/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T13:58:04Z",
+                "updated_at": "2023-10-26T13:58:04Z",
+                "author_association": "NONE",
+                "body": "Thanks for the pull request @ggetz!\n* :heavy_check_mark: Signed CLA found.\n* :grey_question: Unit tests were not updated.\n    * Make sure you've [updated tests](https://github.com/CesiumGS/cesium/tree/main/Documentation/Contributors/TestingGuide) to reflect your changes, added tests for any new code, and ran the code coverage tool.\n\nReviewers, don't forget to make sure that:\n\n- [ ] Cesium Viewer works.\n- [ ] Works in 2D/CV.\n\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781184461/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:58:05Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32870591806",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 11589,
+            "pull_request": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/pulls/11589",
+                "id": 1574929910,
+                "node_id": "PR_kwDOADcI0s5d34X2",
+                "html_url": "https://github.com/CesiumGS/cesium/pull/11589",
+                "diff_url": "https://github.com/CesiumGS/cesium/pull/11589.diff",
+                "patch_url": "https://github.com/CesiumGS/cesium/pull/11589.patch",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589",
+                "number": 11589,
+                "state": "open",
+                "locked": false,
+                "title": "Minimum required attribution for Google 3D Tiles",
+                "user": {
+                    "login": "ggetz",
+                    "id": 4439461,
+                    "node_id": "MDQ6VXNlcjQ0Mzk0NjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4439461?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ggetz",
+                    "html_url": "https://github.com/ggetz",
+                    "followers_url": "https://api.github.com/users/ggetz/followers",
+                    "following_url": "https://api.github.com/users/ggetz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ggetz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ggetz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ggetz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ggetz/orgs",
+                    "repos_url": "https://api.github.com/users/ggetz/repos",
+                    "events_url": "https://api.github.com/users/ggetz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ggetz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "By default, `createGooglePhotorealistic3DTileset` no longer shows credits on screen, as this is compliant with the minimum required attribution. Traditionally CesiumJS uses the minimum necessary to be compliant as to avoid any confusion about what is required.\r\n\r\nTo restore this behavior, pass the option `showCreditsOnScreen: true`.",
+                "created_at": "2023-10-26T13:57:59Z",
+                "updated_at": "2023-10-26T13:57:59Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "jjhembd",
+                        "id": 41167620,
+                        "node_id": "MDQ6VXNlcjQxMTY3NjIw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/41167620?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/jjhembd",
+                        "html_url": "https://github.com/jjhembd",
+                        "followers_url": "https://api.github.com/users/jjhembd/followers",
+                        "following_url": "https://api.github.com/users/jjhembd/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/jjhembd/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/jjhembd/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/jjhembd/subscriptions",
+                        "organizations_url": "https://api.github.com/users/jjhembd/orgs",
+                        "repos_url": "https://api.github.com/users/jjhembd/repos",
+                        "events_url": "https://api.github.com/users/jjhembd/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/jjhembd/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/CesiumGS/cesium/pulls/11589/commits",
+                "review_comments_url": "https://api.github.com/repos/CesiumGS/cesium/pulls/11589/comments",
+                "review_comment_url": "https://api.github.com/repos/CesiumGS/cesium/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11589/comments",
+                "statuses_url": "https://api.github.com/repos/CesiumGS/cesium/statuses/5cb8f0cf851b265a1ee96946d5fcfdd839a81484",
+                "head": {
+                    "label": "CesiumGS:google-attribute",
+                    "ref": "google-attribute",
+                    "sha": "5cb8f0cf851b265a1ee96946d5fcfdd839a81484",
+                    "user": {
+                        "login": "CesiumGS",
+                        "id": 54716382,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU0NzE2Mzgy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/54716382?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/CesiumGS",
+                        "html_url": "https://github.com/CesiumGS",
+                        "followers_url": "https://api.github.com/users/CesiumGS/followers",
+                        "following_url": "https://api.github.com/users/CesiumGS/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/CesiumGS/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/CesiumGS/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/CesiumGS/subscriptions",
+                        "organizations_url": "https://api.github.com/users/CesiumGS/orgs",
+                        "repos_url": "https://api.github.com/users/CesiumGS/repos",
+                        "events_url": "https://api.github.com/users/CesiumGS/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/CesiumGS/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 3606738,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkzNjA2NzM4",
+                        "name": "cesium",
+                        "full_name": "CesiumGS/cesium",
+                        "private": false,
+                        "owner": {
+                            "login": "CesiumGS",
+                            "id": 54716382,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjU0NzE2Mzgy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/CesiumGS",
+                            "html_url": "https://github.com/CesiumGS",
+                            "followers_url": "https://api.github.com/users/CesiumGS/followers",
+                            "following_url": "https://api.github.com/users/CesiumGS/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/CesiumGS/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/CesiumGS/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/CesiumGS/subscriptions",
+                            "organizations_url": "https://api.github.com/users/CesiumGS/orgs",
+                            "repos_url": "https://api.github.com/users/CesiumGS/repos",
+                            "events_url": "https://api.github.com/users/CesiumGS/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/CesiumGS/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/CesiumGS/cesium",
+                        "description": "An open-source JavaScript library for world-class 3D globes and maps :earth_americas:",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/CesiumGS/cesium",
+                        "forks_url": "https://api.github.com/repos/CesiumGS/cesium/forks",
+                        "keys_url": "https://api.github.com/repos/CesiumGS/cesium/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/CesiumGS/cesium/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/CesiumGS/cesium/teams",
+                        "hooks_url": "https://api.github.com/repos/CesiumGS/cesium/hooks",
+                        "issue_events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/CesiumGS/cesium/events",
+                        "assignees_url": "https://api.github.com/repos/CesiumGS/cesium/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/CesiumGS/cesium/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/CesiumGS/cesium/tags",
+                        "blobs_url": "https://api.github.com/repos/CesiumGS/cesium/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/CesiumGS/cesium/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/CesiumGS/cesium/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/CesiumGS/cesium/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/CesiumGS/cesium/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/CesiumGS/cesium/languages",
+                        "stargazers_url": "https://api.github.com/repos/CesiumGS/cesium/stargazers",
+                        "contributors_url": "https://api.github.com/repos/CesiumGS/cesium/contributors",
+                        "subscribers_url": "https://api.github.com/repos/CesiumGS/cesium/subscribers",
+                        "subscription_url": "https://api.github.com/repos/CesiumGS/cesium/subscription",
+                        "commits_url": "https://api.github.com/repos/CesiumGS/cesium/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/CesiumGS/cesium/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/CesiumGS/cesium/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/CesiumGS/cesium/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/CesiumGS/cesium/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/CesiumGS/cesium/merges",
+                        "archive_url": "https://api.github.com/repos/CesiumGS/cesium/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/CesiumGS/cesium/downloads",
+                        "issues_url": "https://api.github.com/repos/CesiumGS/cesium/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/CesiumGS/cesium/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/CesiumGS/cesium/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/CesiumGS/cesium/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/CesiumGS/cesium/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/CesiumGS/cesium/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/CesiumGS/cesium/deployments",
+                        "created_at": "2012-03-02T22:27:14Z",
+                        "updated_at": "2023-10-26T11:06:50Z",
+                        "pushed_at": "2023-10-26T13:58:00Z",
+                        "git_url": "git://github.com/CesiumGS/cesium.git",
+                        "ssh_url": "git@github.com:CesiumGS/cesium.git",
+                        "clone_url": "https://github.com/CesiumGS/cesium.git",
+                        "svn_url": "https://github.com/CesiumGS/cesium",
+                        "homepage": "https://cesium.com/cesiumjs/",
+                        "size": 682526,
+                        "stargazers_count": 11141,
+                        "watchers_count": 11141,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 3303,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1300,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "3d",
+                            "3d-globe",
+                            "3d-tiles",
+                            "cesium",
+                            "czml",
+                            "geospatial",
+                            "gis",
+                            "gltf",
+                            "webgl"
+                        ],
+                        "visibility": "public",
+                        "forks": 3303,
+                        "open_issues": 1300,
+                        "watchers": 11141,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "CesiumGS:main",
+                    "ref": "main",
+                    "sha": "4ebc3b4d87e829e976f71e05ed37dbd1fccc3d1f",
+                    "user": {
+                        "login": "CesiumGS",
+                        "id": 54716382,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU0NzE2Mzgy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/54716382?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/CesiumGS",
+                        "html_url": "https://github.com/CesiumGS",
+                        "followers_url": "https://api.github.com/users/CesiumGS/followers",
+                        "following_url": "https://api.github.com/users/CesiumGS/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/CesiumGS/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/CesiumGS/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/CesiumGS/subscriptions",
+                        "organizations_url": "https://api.github.com/users/CesiumGS/orgs",
+                        "repos_url": "https://api.github.com/users/CesiumGS/repos",
+                        "events_url": "https://api.github.com/users/CesiumGS/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/CesiumGS/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 3606738,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkzNjA2NzM4",
+                        "name": "cesium",
+                        "full_name": "CesiumGS/cesium",
+                        "private": false,
+                        "owner": {
+                            "login": "CesiumGS",
+                            "id": 54716382,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjU0NzE2Mzgy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/CesiumGS",
+                            "html_url": "https://github.com/CesiumGS",
+                            "followers_url": "https://api.github.com/users/CesiumGS/followers",
+                            "following_url": "https://api.github.com/users/CesiumGS/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/CesiumGS/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/CesiumGS/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/CesiumGS/subscriptions",
+                            "organizations_url": "https://api.github.com/users/CesiumGS/orgs",
+                            "repos_url": "https://api.github.com/users/CesiumGS/repos",
+                            "events_url": "https://api.github.com/users/CesiumGS/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/CesiumGS/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/CesiumGS/cesium",
+                        "description": "An open-source JavaScript library for world-class 3D globes and maps :earth_americas:",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/CesiumGS/cesium",
+                        "forks_url": "https://api.github.com/repos/CesiumGS/cesium/forks",
+                        "keys_url": "https://api.github.com/repos/CesiumGS/cesium/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/CesiumGS/cesium/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/CesiumGS/cesium/teams",
+                        "hooks_url": "https://api.github.com/repos/CesiumGS/cesium/hooks",
+                        "issue_events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/CesiumGS/cesium/events",
+                        "assignees_url": "https://api.github.com/repos/CesiumGS/cesium/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/CesiumGS/cesium/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/CesiumGS/cesium/tags",
+                        "blobs_url": "https://api.github.com/repos/CesiumGS/cesium/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/CesiumGS/cesium/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/CesiumGS/cesium/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/CesiumGS/cesium/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/CesiumGS/cesium/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/CesiumGS/cesium/languages",
+                        "stargazers_url": "https://api.github.com/repos/CesiumGS/cesium/stargazers",
+                        "contributors_url": "https://api.github.com/repos/CesiumGS/cesium/contributors",
+                        "subscribers_url": "https://api.github.com/repos/CesiumGS/cesium/subscribers",
+                        "subscription_url": "https://api.github.com/repos/CesiumGS/cesium/subscription",
+                        "commits_url": "https://api.github.com/repos/CesiumGS/cesium/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/CesiumGS/cesium/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/CesiumGS/cesium/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/CesiumGS/cesium/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/CesiumGS/cesium/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/CesiumGS/cesium/merges",
+                        "archive_url": "https://api.github.com/repos/CesiumGS/cesium/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/CesiumGS/cesium/downloads",
+                        "issues_url": "https://api.github.com/repos/CesiumGS/cesium/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/CesiumGS/cesium/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/CesiumGS/cesium/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/CesiumGS/cesium/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/CesiumGS/cesium/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/CesiumGS/cesium/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/CesiumGS/cesium/deployments",
+                        "created_at": "2012-03-02T22:27:14Z",
+                        "updated_at": "2023-10-26T11:06:50Z",
+                        "pushed_at": "2023-10-26T13:58:00Z",
+                        "git_url": "git://github.com/CesiumGS/cesium.git",
+                        "ssh_url": "git@github.com:CesiumGS/cesium.git",
+                        "clone_url": "https://github.com/CesiumGS/cesium.git",
+                        "svn_url": "https://github.com/CesiumGS/cesium",
+                        "homepage": "https://cesium.com/cesiumjs/",
+                        "size": 682526,
+                        "stargazers_count": 11141,
+                        "watchers_count": 11141,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 3303,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1300,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "3d",
+                            "3d-globe",
+                            "3d-tiles",
+                            "cesium",
+                            "czml",
+                            "geospatial",
+                            "gis",
+                            "gltf",
+                            "webgl"
+                        ],
+                        "visibility": "public",
+                        "forks": 3303,
+                        "open_issues": 1300,
+                        "watchers": 11141,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/CesiumGS/cesium/pulls/11589"
+                    },
+                    "html": {
+                        "href": "https://github.com/CesiumGS/cesium/pull/11589"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/CesiumGS/cesium/issues/11589"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/CesiumGS/cesium/issues/11589/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/CesiumGS/cesium/pulls/11589/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/CesiumGS/cesium/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/CesiumGS/cesium/pulls/11589/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/CesiumGS/cesium/statuses/5cb8f0cf851b265a1ee96946d5fcfdd839a81484"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 1,
+                "changed_files": 2
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:58:01Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32870527361",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "ref": "google-attribute",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "An open-source JavaScript library for world-class 3D globes and maps :earth_americas:",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:56:10Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32869901676",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11588",
+                "id": 1962756531,
+                "node_id": "I_kwDOADcI0s50_Umz",
+                "number": 11588,
+                "title": "Link 404 in document",
+                "user": {
+                    "login": "danchaotaiyang",
+                    "id": 13347321,
+                    "node_id": "MDQ6VXNlcjEzMzQ3MzIx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13347321?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/danchaotaiyang",
+                    "html_url": "https://github.com/danchaotaiyang",
+                    "followers_url": "https://api.github.com/users/danchaotaiyang/followers",
+                    "following_url": "https://api.github.com/users/danchaotaiyang/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/danchaotaiyang/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/danchaotaiyang/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/danchaotaiyang/subscriptions",
+                    "organizations_url": "https://api.github.com/users/danchaotaiyang/orgs",
+                    "repos_url": "https://api.github.com/users/danchaotaiyang/repos",
+                    "events_url": "https://api.github.com/users/danchaotaiyang/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/danchaotaiyang/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T05:54:48Z",
+                "updated_at": "2023-10-26T13:37:35Z",
+                "closed_at": "2023-10-26T13:37:35Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nThanks for helping us improve Cesium! Please describe what the expected behavior is vs what actually happens.\r\n\r\nCreating a Sandcastle example (https://sandcastle.cesium.com) that reproduces the issue helps us a lot in tracking down bugs. Paste the link you get from the \"Share\" button in Sandcastle below.\r\n-->\r\n\r\nSandcastle example: https://cesium.com/learn/cesiumjs-learn/cesiumjs-terrain/\r\n\r\nBrowser: All\r\n\r\nOperating System: All\r\n\r\n<!--\r\n\r\nIf you can also contribute a fix, we'd absolutely appreciate it! Fixing a bug in Cesium often means fixing a bug for thousands of applications and millions of end users.\r\n\r\nCheck out the contributor guide to get started:\r\n\r\nhttps://github.com/CesiumGS/cesium/blob/main/CONTRIBUTING.md\r\n\r\nJust let us know you're working on it and we'd be happy to provide advice and feedback.\r\n\r\n-->\r\n\r\nhttps://cesium.com/learn/cesiumjs-learn/cesiumjs-terrain/\r\n\r\nIn this link\r\nThe link shown in the figure is 404.\r\n\r\n\u5728\u8fd9\u4e2a\u94fe\u63a5\u4e2d\r\n\u5982\u56fe\u6240\u793a\u7684\u94fe\u63a5\u662f404\u3002\r\n\r\n![image](https://github.com/CesiumGS/cesium/assets/13347321/5904e270-fec2-48bf-a5cc-15666cb0045b)\r\n\r\nhttps://cesium.com/learn/cesiumjs-learn/cesiumjs-imagery/\r\n\r\nIn this link\r\nThe link shown in the figure is 'Page not found'. \r\n\r\n\u5728\u8fd9\u4e2a\u94fe\u63a5\u4e2d\r\n\u5982\u56fe\u6240\u793a\u7684\u94fe\u63a5\u662f'Page not found'\r\n\r\n![image](https://github.com/CesiumGS/cesium/assets/13347321/87d1a69b-c3df-4297-a144-d8ec24b19122)\r\n\r\nCan the above provide accessible links?\r\n\u4ee5\u4e0a\u662f\u5426\u80fd\u591f\u63d0\u4f9b\u53ef\u8bbf\u95ee\u7684\u94fe\u63a5?\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:37:36Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32869901437",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11588",
+                "id": 1962756531,
+                "node_id": "I_kwDOADcI0s50_Umz",
+                "number": 11588,
+                "title": "Link 404 in document",
+                "user": {
+                    "login": "danchaotaiyang",
+                    "id": 13347321,
+                    "node_id": "MDQ6VXNlcjEzMzQ3MzIx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13347321?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/danchaotaiyang",
+                    "html_url": "https://github.com/danchaotaiyang",
+                    "followers_url": "https://api.github.com/users/danchaotaiyang/followers",
+                    "following_url": "https://api.github.com/users/danchaotaiyang/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/danchaotaiyang/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/danchaotaiyang/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/danchaotaiyang/subscriptions",
+                    "organizations_url": "https://api.github.com/users/danchaotaiyang/orgs",
+                    "repos_url": "https://api.github.com/users/danchaotaiyang/repos",
+                    "events_url": "https://api.github.com/users/danchaotaiyang/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/danchaotaiyang/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-26T05:54:48Z",
+                "updated_at": "2023-10-26T13:37:35Z",
+                "closed_at": "2023-10-26T13:37:35Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nThanks for helping us improve Cesium! Please describe what the expected behavior is vs what actually happens.\r\n\r\nCreating a Sandcastle example (https://sandcastle.cesium.com) that reproduces the issue helps us a lot in tracking down bugs. Paste the link you get from the \"Share\" button in Sandcastle below.\r\n-->\r\n\r\nSandcastle example: https://cesium.com/learn/cesiumjs-learn/cesiumjs-terrain/\r\n\r\nBrowser: All\r\n\r\nOperating System: All\r\n\r\n<!--\r\n\r\nIf you can also contribute a fix, we'd absolutely appreciate it! Fixing a bug in Cesium often means fixing a bug for thousands of applications and millions of end users.\r\n\r\nCheck out the contributor guide to get started:\r\n\r\nhttps://github.com/CesiumGS/cesium/blob/main/CONTRIBUTING.md\r\n\r\nJust let us know you're working on it and we'd be happy to provide advice and feedback.\r\n\r\n-->\r\n\r\nhttps://cesium.com/learn/cesiumjs-learn/cesiumjs-terrain/\r\n\r\nIn this link\r\nThe link shown in the figure is 404.\r\n\r\n\u5728\u8fd9\u4e2a\u94fe\u63a5\u4e2d\r\n\u5982\u56fe\u6240\u793a\u7684\u94fe\u63a5\u662f404\u3002\r\n\r\n![image](https://github.com/CesiumGS/cesium/assets/13347321/5904e270-fec2-48bf-a5cc-15666cb0045b)\r\n\r\nhttps://cesium.com/learn/cesiumjs-learn/cesiumjs-imagery/\r\n\r\nIn this link\r\nThe link shown in the figure is 'Page not found'. \r\n\r\n\u5728\u8fd9\u4e2a\u94fe\u63a5\u4e2d\r\n\u5982\u56fe\u6240\u793a\u7684\u94fe\u63a5\u662f'Page not found'\r\n\r\n![image](https://github.com/CesiumGS/cesium/assets/13347321/87d1a69b-c3df-4297-a144-d8ec24b19122)\r\n\r\nCan the above provide accessible links?\r\n\u4ee5\u4e0a\u662f\u5426\u80fd\u591f\u63d0\u4f9b\u53ef\u8bbf\u95ee\u7684\u94fe\u63a5?\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781146350",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11588#issuecomment-1781146350",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588",
+                "id": 1781146350,
+                "node_id": "IC_kwDOADcI0s5qKiLu",
+                "user": {
+                    "login": "ggetz",
+                    "id": 4439461,
+                    "node_id": "MDQ6VXNlcjQ0Mzk0NjE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4439461?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ggetz",
+                    "html_url": "https://github.com/ggetz",
+                    "followers_url": "https://api.github.com/users/ggetz/followers",
+                    "following_url": "https://api.github.com/users/ggetz/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ggetz/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ggetz/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ggetz/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ggetz/orgs",
+                    "repos_url": "https://api.github.com/users/ggetz/repos",
+                    "events_url": "https://api.github.com/users/ggetz/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ggetz/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T13:37:35Z",
+                "updated_at": "2023-10-26T13:37:35Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Thanks @danchaotaiyang! I've corrected the links on the website. The new version should be published shortly!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1781146350/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:37:36Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32865415151",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 22996438,
+            "login": "maotong06",
+            "display_login": "maotong06",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/maotong06",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22996438?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:06:50Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32859050738",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5630262,
+            "login": "swaylq",
+            "display_login": "swaylq",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/swaylq",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5630262?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T07:22:05Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32857202658",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 13347321,
+            "login": "danchaotaiyang",
+            "display_login": "danchaotaiyang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danchaotaiyang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13347321?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11588",
+                "id": 1962756531,
+                "node_id": "I_kwDOADcI0s50_Umz",
+                "number": 11588,
+                "title": "Link 404 in document",
+                "user": {
+                    "login": "danchaotaiyang",
+                    "id": 13347321,
+                    "node_id": "MDQ6VXNlcjEzMzQ3MzIx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13347321?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/danchaotaiyang",
+                    "html_url": "https://github.com/danchaotaiyang",
+                    "followers_url": "https://api.github.com/users/danchaotaiyang/followers",
+                    "following_url": "https://api.github.com/users/danchaotaiyang/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/danchaotaiyang/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/danchaotaiyang/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/danchaotaiyang/subscriptions",
+                    "organizations_url": "https://api.github.com/users/danchaotaiyang/orgs",
+                    "repos_url": "https://api.github.com/users/danchaotaiyang/repos",
+                    "events_url": "https://api.github.com/users/danchaotaiyang/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/danchaotaiyang/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T05:54:48Z",
+                "updated_at": "2023-10-26T05:54:48Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!--\r\nThanks for helping us improve Cesium! Please describe what the expected behavior is vs what actually happens.\r\n\r\nCreating a Sandcastle example (https://sandcastle.cesium.com) that reproduces the issue helps us a lot in tracking down bugs. Paste the link you get from the \"Share\" button in Sandcastle below.\r\n-->\r\n\r\nSandcastle example: https://cesium.com/learn/cesiumjs-learn/cesiumjs-terrain/\r\n\r\nBrowser: All\r\n\r\nOperating System: All\r\n\r\n<!--\r\n\r\nIf you can also contribute a fix, we'd absolutely appreciate it! Fixing a bug in Cesium often means fixing a bug for thousands of applications and millions of end users.\r\n\r\nCheck out the contributor guide to get started:\r\n\r\nhttps://github.com/CesiumGS/cesium/blob/main/CONTRIBUTING.md\r\n\r\nJust let us know you're working on it and we'd be happy to provide advice and feedback.\r\n\r\n-->\r\n\r\nhttps://cesium.com/learn/cesiumjs-learn/cesiumjs-terrain/\r\n\r\nIn this link\r\nThe link shown in the figure is 404. Can you provide an accessible link\r\n\r\n\u5728\u8fd9\u4e2a\u94fe\u63a5\u4e2d\r\n\u5982\u56fe\u6240\u793a\u7684\u94fe\u63a5\u662f404\uff0c\u662f\u5426\u80fd\u591f\u63d0\u4f9b\u4e00\u4e2a\u53ef\u8bbf\u95ee\u7684\u94fe\u63a5\r\n\r\n![image](https://github.com/CesiumGS/cesium/assets/13347321/5904e270-fec2-48bf-a5cc-15666cb0045b)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11588/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T05:54:50Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32855908030",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 988754,
+            "login": "leyewen",
+            "display_login": "leyewen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leyewen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/988754?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T04:28:43Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32854430108",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 86149525,
+            "login": "s3xysteak",
+            "display_login": "s3xysteak",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/s3xysteak",
+            "avatar_url": "https://avatars.githubusercontent.com/u/86149525?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11306",
+                "repository_url": "https://api.github.com/repos/CesiumGS/cesium",
+                "labels_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11306/labels{/name}",
+                "comments_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11306/comments",
+                "events_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11306/events",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11306",
+                "id": 1724083710,
+                "node_id": "I_kwDOADcI0s5mw23-",
+                "number": 11306,
+                "title": "Create new simple example with vue2 and vite",
+                "user": {
+                    "login": "brunokunace",
+                    "id": 16597320,
+                    "node_id": "MDQ6VXNlcjE2NTk3MzIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16597320?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/brunokunace",
+                    "html_url": "https://github.com/brunokunace",
+                    "followers_url": "https://api.github.com/users/brunokunace/followers",
+                    "following_url": "https://api.github.com/users/brunokunace/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/brunokunace/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/brunokunace/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/brunokunace/subscriptions",
+                    "organizations_url": "https://api.github.com/users/brunokunace/orgs",
+                    "repos_url": "https://api.github.com/users/brunokunace/repos",
+                    "events_url": "https://api.github.com/users/brunokunace/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/brunokunace/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 16995136,
+                        "node_id": "MDU6TGFiZWwxNjk5NTEzNg==",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/category%20-%20doc",
+                        "name": "category - doc",
+                        "color": "bfdadc",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 504228939,
+                        "node_id": "MDU6TGFiZWw1MDQyMjg5Mzk=",
+                        "url": "https://api.github.com/repos/CesiumGS/cesium/labels/onramping",
+                        "name": "onramping",
+                        "color": "c2e0c6",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2023-05-24T14:03:42Z",
+                "updated_at": "2023-10-26T02:35:21Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "\r\nHi everyone, im trying to create a simple example with vue2+vite and cesium 1.105.2\r\n\r\nI use a vite plugin to copy node files to public:\r\n\r\n//vite.config.js\r\n```\r\nimport copy from \"rollup-plugin-copy\";\r\n...\r\n\r\n      copy({\r\n          targets: [\r\n              { src: \"node_modules/@cesium/engine/Source/*\", dest: \"public/\" },\r\n              { src: \"node_modules/@cesium/engine/Source/WorkersES6/*\", dest: \"public/Workers\" },\r\n              { src: \"node_modules/@cesium/widgets/Source/*\", dest: \"public/Widgets\" },\r\n          ],\r\n          hook: 'buildStart'\r\n      })\r\n```\r\n\r\nand all files i need are copied to /public folder and its nice.\r\n\r\nBut when i try to initialize the script bellow, i receive these erros in console and the result a black sky with start moving\r\n\r\n```\r\n//Hello world example code used\r\n\r\n      Cesium.Ion.defaultAccessToken = CESIUM_KEY\r\n\r\n      const viewer = new Cesium.Viewer('cesiumContainer');\r\n```\r\n\r\nError:\r\nNote. /Workers/createVerticesFromHeightmap.js is working in the indicated path.\r\n\r\n<img width=\"796\" alt=\"image\" src=\"https://github.com/CesiumGS/cesium/assets/16597320/6a58b579-341f-4ad8-aa2c-4b4218e5d702\">\r\n\r\nResult screen:\r\n<img width=\"967\" alt=\"image\" src=\"https://github.com/CesiumGS/cesium/assets/16597320/7d44eb29-25af-4990-8f96-4c6dd7089185\">\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/11306/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11306/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1780323112",
+                "html_url": "https://github.com/CesiumGS/cesium/issues/11306#issuecomment-1780323112",
+                "issue_url": "https://api.github.com/repos/CesiumGS/cesium/issues/11306",
+                "id": 1780323112,
+                "node_id": "IC_kwDOADcI0s5qHZMo",
+                "user": {
+                    "login": "s3xysteak",
+                    "id": 86149525,
+                    "node_id": "MDQ6VXNlcjg2MTQ5NTI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/86149525?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/s3xysteak",
+                    "html_url": "https://github.com/s3xysteak",
+                    "followers_url": "https://api.github.com/users/s3xysteak/followers",
+                    "following_url": "https://api.github.com/users/s3xysteak/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/s3xysteak/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/s3xysteak/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/s3xysteak/subscriptions",
+                    "organizations_url": "https://api.github.com/users/s3xysteak/orgs",
+                    "repos_url": "https://api.github.com/users/s3xysteak/repos",
+                    "events_url": "https://api.github.com/users/s3xysteak/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/s3xysteak/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T02:35:21Z",
+                "updated_at": "2023-10-26T02:35:21Z",
+                "author_association": "NONE",
+                "body": "I found maybe a good solution to solve the problem. Here is the code [simply-cesium-vite-vue](https://github.com/s3xysteak/simply-cesium-vite-vue). Hope it helpful.\r\nOn my laptop, the bundling process only took 717ms, and the resulting \"dist\" folder was only 11.1 MB in size.\r\nI have provided a detailed explanation of my approach in the readme. If there's anything I can assist you with, please feel free to ask. If you have any suggestions or improvements, I welcome them as well!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/issues/comments/1780323112/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T02:35:22Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32853889731",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "ref": "google-ion",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-26T01:55:04Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    },
+    {
+        "id": "32853889425",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4439461,
+            "login": "ggetz",
+            "display_login": "ggetz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ggetz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4439461?"
+        },
+        "repo": {
+            "id": 3606738,
+            "name": "CesiumGS/cesium",
+            "url": "https://api.github.com/repos/CesiumGS/cesium"
+        },
+        "payload": {
+            "repository_id": 3606738,
+            "push_id": 15569349945,
+            "size": 8,
+            "distinct_size": 3,
+            "ref": "refs/heads/main",
+            "head": "4ebc3b4d87e829e976f71e05ed37dbd1fccc3d1f",
+            "before": "18a2f401aef417ed8c5c51fac76a1e506aa0c021",
+            "commits": [
+                {
+                    "sha": "ceb030aee748212311dc989340f262fb3e2e69c8",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Google P3DT via Cesium ion by default",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/ceb030aee748212311dc989340f262fb3e2e69c8"
+                },
+                {
+                    "sha": "ccfba58400d6250bffc6ee27ad23474148acc6a7",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Merge tag '1.110' into google-ion\n\n1.110 release",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/ccfba58400d6250bffc6ee27ad23474148acc6a7"
+                },
+                {
+                    "sha": "f3794870414e93ef1f8693cc8eb16f2dee1b19ec",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Update ion asset ID, CHANGES.md",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/f3794870414e93ef1f8693cc8eb16f2dee1b19ec"
+                },
+                {
+                    "sha": "f4550d811a60c1b27feb3b7f27c0bef2156e77a6",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Update for 1.110.1 release",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/f4550d811a60c1b27feb3b7f27c0bef2156e77a6"
+                },
+                {
+                    "sha": "a47f67def1a592432c70bf357021798b23f07f05",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Correct date in CHANGES.md",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/a47f67def1a592432c70bf357021798b23f07f05"
+                },
+                {
+                    "sha": "11eebeb39e17caf865102e95f499acb4f631445a",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Merge branch 'main' into google-ion",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/11eebeb39e17caf865102e95f499acb4f631445a"
+                },
+                {
+                    "sha": "4b8ad9e2e30f95915fe049961a8aa14f7871127f",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "prettier",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/4b8ad9e2e30f95915fe049961a8aa14f7871127f"
+                },
+                {
+                    "sha": "4ebc3b4d87e829e976f71e05ed37dbd1fccc3d1f",
+                    "author": {
+                        "email": "gabby@cesium.com",
+                        "name": "Gabby Getz"
+                    },
+                    "message": "Merge pull request #11587 from CesiumGS/google-ion\n\nAdjust Google Photorealistic 3D Tiles defaults",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CesiumGS/cesium/commits/4ebc3b4d87e829e976f71e05ed37dbd1fccc3d1f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T01:55:03Z",
+        "org": {
+            "id": 54716382,
+            "login": "CesiumGS",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CesiumGS",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54716382?"
+        }
+    }
+]

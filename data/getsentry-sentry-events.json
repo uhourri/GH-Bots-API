@@ -1,0 +1,3123 @@
+[
+    {
+        "id": "32897225934",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 25980868,
+            "login": "dalnoki",
+            "display_login": "dalnoki",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dalnoki",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25980868?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 58923,
+            "pull_request": {
+                "url": "https://api.github.com/repos/getsentry/sentry/pulls/58923",
+                "id": 1576431320,
+                "node_id": "PR_kwDOAA1TcM5d9m7Y",
+                "html_url": "https://github.com/getsentry/sentry/pull/58923",
+                "diff_url": "https://github.com/getsentry/sentry/pull/58923.diff",
+                "patch_url": "https://github.com/getsentry/sentry/pull/58923.patch",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/58923",
+                "number": 58923,
+                "state": "open",
+                "locked": false,
+                "title": "Fix typo \"breadpad\"",
+                "user": {
+                    "login": "dalnoki",
+                    "id": 25980868,
+                    "node_id": "MDQ6VXNlcjI1OTgwODY4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25980868?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dalnoki",
+                    "html_url": "https://github.com/dalnoki",
+                    "followers_url": "https://api.github.com/users/dalnoki/followers",
+                    "following_url": "https://api.github.com/users/dalnoki/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dalnoki/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dalnoki/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dalnoki/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dalnoki/orgs",
+                    "repos_url": "https://api.github.com/users/dalnoki/repos",
+                    "events_url": "https://api.github.com/users/dalnoki/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dalnoki/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "\r\n\r\n<!-- Describe your PR here. -->\r\nDebug Information Files should show Breakpad instead of Breadpad\r\n\r\n\r\n<!--\r\n\r\n  Sentry employees and contractors can delete or ignore the following.\r\n\r\n-->\r\n\r\n### Legal Boilerplate\r\n\r\nLook, I get it. The entity doing business as \"Sentry\" was incorporated in the State of Delaware in 2015 as Functional Software, Inc. and is gonna need some rights from me in order to utilize my contributions in this here PR. So here's the deal: I retain all rights, title and interest in and to my contributions, and by keeping this boilerplate intact I confirm that Sentry can use, modify, copy, and redistribute my contributions, under Sentry's choice of terms.\r\n",
+                "created_at": "2023-10-27T11:33:13Z",
+                "updated_at": "2023-10-27T11:33:13Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/getsentry/sentry/pulls/58923/commits",
+                "review_comments_url": "https://api.github.com/repos/getsentry/sentry/pulls/58923/comments",
+                "review_comment_url": "https://api.github.com/repos/getsentry/sentry/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/58923/comments",
+                "statuses_url": "https://api.github.com/repos/getsentry/sentry/statuses/dd786416cda3bda9342bf1332ace7fe621dc8e7d",
+                "head": {
+                    "label": "getsentry:zsofia/typofix",
+                    "ref": "zsofia/typofix",
+                    "sha": "dd786416cda3bda9342bf1332ace7fe621dc8e7d",
+                    "user": {
+                        "login": "getsentry",
+                        "id": 1396951,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzOTY5NTE=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/getsentry",
+                        "html_url": "https://github.com/getsentry",
+                        "followers_url": "https://api.github.com/users/getsentry/followers",
+                        "following_url": "https://api.github.com/users/getsentry/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/getsentry/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/getsentry/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/getsentry/subscriptions",
+                        "organizations_url": "https://api.github.com/users/getsentry/orgs",
+                        "repos_url": "https://api.github.com/users/getsentry/repos",
+                        "events_url": "https://api.github.com/users/getsentry/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/getsentry/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 873328,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NzMzMjg=",
+                        "name": "sentry",
+                        "full_name": "getsentry/sentry",
+                        "private": false,
+                        "owner": {
+                            "login": "getsentry",
+                            "id": 1396951,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzOTY5NTE=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/getsentry",
+                            "html_url": "https://github.com/getsentry",
+                            "followers_url": "https://api.github.com/users/getsentry/followers",
+                            "following_url": "https://api.github.com/users/getsentry/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/getsentry/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/getsentry/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/getsentry/subscriptions",
+                            "organizations_url": "https://api.github.com/users/getsentry/orgs",
+                            "repos_url": "https://api.github.com/users/getsentry/repos",
+                            "events_url": "https://api.github.com/users/getsentry/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/getsentry/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/getsentry/sentry",
+                        "description": "Developer-first error tracking and performance monitoring",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/getsentry/sentry",
+                        "forks_url": "https://api.github.com/repos/getsentry/sentry/forks",
+                        "keys_url": "https://api.github.com/repos/getsentry/sentry/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/getsentry/sentry/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/getsentry/sentry/teams",
+                        "hooks_url": "https://api.github.com/repos/getsentry/sentry/hooks",
+                        "issue_events_url": "https://api.github.com/repos/getsentry/sentry/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/getsentry/sentry/events",
+                        "assignees_url": "https://api.github.com/repos/getsentry/sentry/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/getsentry/sentry/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/getsentry/sentry/tags",
+                        "blobs_url": "https://api.github.com/repos/getsentry/sentry/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/getsentry/sentry/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/getsentry/sentry/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/getsentry/sentry/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/getsentry/sentry/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/getsentry/sentry/languages",
+                        "stargazers_url": "https://api.github.com/repos/getsentry/sentry/stargazers",
+                        "contributors_url": "https://api.github.com/repos/getsentry/sentry/contributors",
+                        "subscribers_url": "https://api.github.com/repos/getsentry/sentry/subscribers",
+                        "subscription_url": "https://api.github.com/repos/getsentry/sentry/subscription",
+                        "commits_url": "https://api.github.com/repos/getsentry/sentry/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/getsentry/sentry/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/getsentry/sentry/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/getsentry/sentry/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/getsentry/sentry/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/getsentry/sentry/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/getsentry/sentry/merges",
+                        "archive_url": "https://api.github.com/repos/getsentry/sentry/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/getsentry/sentry/downloads",
+                        "issues_url": "https://api.github.com/repos/getsentry/sentry/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/getsentry/sentry/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/getsentry/sentry/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/getsentry/sentry/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/getsentry/sentry/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/getsentry/sentry/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/getsentry/sentry/deployments",
+                        "created_at": "2010-08-30T22:06:41Z",
+                        "updated_at": "2023-10-27T09:50:54Z",
+                        "pushed_at": "2023-10-27T11:33:14Z",
+                        "git_url": "git://github.com/getsentry/sentry.git",
+                        "ssh_url": "git@github.com:getsentry/sentry.git",
+                        "clone_url": "https://github.com/getsentry/sentry.git",
+                        "svn_url": "https://github.com/getsentry/sentry",
+                        "homepage": "https://sentry.io",
+                        "size": 438413,
+                        "stargazers_count": 35422,
+                        "watchers_count": 35422,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 3989,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1656,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "apm",
+                            "crash-reporting",
+                            "crash-reports",
+                            "csp-report",
+                            "devops",
+                            "django",
+                            "error-logging",
+                            "error-monitoring",
+                            "hacktoberfest",
+                            "monitor",
+                            "monitoring",
+                            "python",
+                            "sentry",
+                            "tag-production"
+                        ],
+                        "visibility": "public",
+                        "forks": 3989,
+                        "open_issues": 1656,
+                        "watchers": 35422,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "getsentry:master",
+                    "ref": "master",
+                    "sha": "ea1023245fa1962fc3989cb5bb016f6c70b3ea57",
+                    "user": {
+                        "login": "getsentry",
+                        "id": 1396951,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzOTY5NTE=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/getsentry",
+                        "html_url": "https://github.com/getsentry",
+                        "followers_url": "https://api.github.com/users/getsentry/followers",
+                        "following_url": "https://api.github.com/users/getsentry/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/getsentry/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/getsentry/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/getsentry/subscriptions",
+                        "organizations_url": "https://api.github.com/users/getsentry/orgs",
+                        "repos_url": "https://api.github.com/users/getsentry/repos",
+                        "events_url": "https://api.github.com/users/getsentry/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/getsentry/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 873328,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NzMzMjg=",
+                        "name": "sentry",
+                        "full_name": "getsentry/sentry",
+                        "private": false,
+                        "owner": {
+                            "login": "getsentry",
+                            "id": 1396951,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzOTY5NTE=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/getsentry",
+                            "html_url": "https://github.com/getsentry",
+                            "followers_url": "https://api.github.com/users/getsentry/followers",
+                            "following_url": "https://api.github.com/users/getsentry/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/getsentry/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/getsentry/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/getsentry/subscriptions",
+                            "organizations_url": "https://api.github.com/users/getsentry/orgs",
+                            "repos_url": "https://api.github.com/users/getsentry/repos",
+                            "events_url": "https://api.github.com/users/getsentry/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/getsentry/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/getsentry/sentry",
+                        "description": "Developer-first error tracking and performance monitoring",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/getsentry/sentry",
+                        "forks_url": "https://api.github.com/repos/getsentry/sentry/forks",
+                        "keys_url": "https://api.github.com/repos/getsentry/sentry/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/getsentry/sentry/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/getsentry/sentry/teams",
+                        "hooks_url": "https://api.github.com/repos/getsentry/sentry/hooks",
+                        "issue_events_url": "https://api.github.com/repos/getsentry/sentry/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/getsentry/sentry/events",
+                        "assignees_url": "https://api.github.com/repos/getsentry/sentry/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/getsentry/sentry/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/getsentry/sentry/tags",
+                        "blobs_url": "https://api.github.com/repos/getsentry/sentry/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/getsentry/sentry/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/getsentry/sentry/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/getsentry/sentry/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/getsentry/sentry/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/getsentry/sentry/languages",
+                        "stargazers_url": "https://api.github.com/repos/getsentry/sentry/stargazers",
+                        "contributors_url": "https://api.github.com/repos/getsentry/sentry/contributors",
+                        "subscribers_url": "https://api.github.com/repos/getsentry/sentry/subscribers",
+                        "subscription_url": "https://api.github.com/repos/getsentry/sentry/subscription",
+                        "commits_url": "https://api.github.com/repos/getsentry/sentry/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/getsentry/sentry/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/getsentry/sentry/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/getsentry/sentry/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/getsentry/sentry/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/getsentry/sentry/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/getsentry/sentry/merges",
+                        "archive_url": "https://api.github.com/repos/getsentry/sentry/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/getsentry/sentry/downloads",
+                        "issues_url": "https://api.github.com/repos/getsentry/sentry/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/getsentry/sentry/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/getsentry/sentry/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/getsentry/sentry/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/getsentry/sentry/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/getsentry/sentry/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/getsentry/sentry/deployments",
+                        "created_at": "2010-08-30T22:06:41Z",
+                        "updated_at": "2023-10-27T09:50:54Z",
+                        "pushed_at": "2023-10-27T11:33:14Z",
+                        "git_url": "git://github.com/getsentry/sentry.git",
+                        "ssh_url": "git@github.com:getsentry/sentry.git",
+                        "clone_url": "https://github.com/getsentry/sentry.git",
+                        "svn_url": "https://github.com/getsentry/sentry",
+                        "homepage": "https://sentry.io",
+                        "size": 438413,
+                        "stargazers_count": 35422,
+                        "watchers_count": 35422,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 3989,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1656,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "apm",
+                            "crash-reporting",
+                            "crash-reports",
+                            "csp-report",
+                            "devops",
+                            "django",
+                            "error-logging",
+                            "error-monitoring",
+                            "hacktoberfest",
+                            "monitor",
+                            "monitoring",
+                            "python",
+                            "sentry",
+                            "tag-production"
+                        ],
+                        "visibility": "public",
+                        "forks": 3989,
+                        "open_issues": 1656,
+                        "watchers": 35422,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/58923"
+                    },
+                    "html": {
+                        "href": "https://github.com/getsentry/sentry/pull/58923"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/issues/58923"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/issues/58923/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/58923/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/58923/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/statuses/dd786416cda3bda9342bf1332ace7fe621dc8e7d"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 1,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:33:15Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32897187811",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 25980868,
+            "login": "dalnoki",
+            "display_login": "dalnoki",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dalnoki",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25980868?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "zsofia/typofix",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "Developer-first error tracking and performance monitoring",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:31:38Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32897185300",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25980868,
+            "login": "dalnoki",
+            "display_login": "dalnoki",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dalnoki",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25980868?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "repository_id": 873328,
+            "push_id": 15591000314,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/zsofia/typofix",
+            "head": "dd786416cda3bda9342bf1332ace7fe621dc8e7d",
+            "before": "ea1023245fa1962fc3989cb5bb016f6c70b3ea57",
+            "commits": [
+                {
+                    "sha": "dd786416cda3bda9342bf1332ace7fe621dc8e7d",
+                    "author": {
+                        "email": "dalnokipapp.zsofia@gmail.com",
+                        "name": "Zsofia"
+                    },
+                    "message": "Fix typo \"breadpad\"",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/dd786416cda3bda9342bf1332ace7fe621dc8e7d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:31:31Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32895019437",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2119212,
+            "login": "jsoref",
+            "display_login": "jsoref",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jsoref",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2119212?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/36053",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/36053/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/36053/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/36053/events",
+                "html_url": "https://github.com/getsentry/sentry/pull/36053",
+                "id": 1284816773,
+                "node_id": "PR_kwDOAA1TcM46Xcij",
+                "number": 36053,
+                "title": "Spelling owners sentry dev",
+                "user": {
+                    "login": "jsoref",
+                    "id": 2119212,
+                    "node_id": "MDQ6VXNlcjIxMTkyMTI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2119212?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jsoref",
+                    "html_url": "https://github.com/jsoref",
+                    "followers_url": "https://api.github.com/users/jsoref/followers",
+                    "following_url": "https://api.github.com/users/jsoref/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jsoref/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jsoref/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jsoref/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jsoref/orgs",
+                    "repos_url": "https://api.github.com/users/jsoref/repos",
+                    "events_url": "https://api.github.com/users/jsoref/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jsoref/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5829942710,
+                        "node_id": "LA_kwDOAA1TcM8AAAABW33dtg",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Stale",
+                        "name": "Stale",
+                        "color": "8D5494",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "evanpurkhiser",
+                    "id": 1421724,
+                    "node_id": "MDQ6VXNlcjE0MjE3MjQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1421724?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/evanpurkhiser",
+                    "html_url": "https://github.com/evanpurkhiser",
+                    "followers_url": "https://api.github.com/users/evanpurkhiser/followers",
+                    "following_url": "https://api.github.com/users/evanpurkhiser/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/evanpurkhiser/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/evanpurkhiser/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/evanpurkhiser/subscriptions",
+                    "organizations_url": "https://api.github.com/users/evanpurkhiser/orgs",
+                    "repos_url": "https://api.github.com/users/evanpurkhiser/repos",
+                    "events_url": "https://api.github.com/users/evanpurkhiser/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/evanpurkhiser/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "evanpurkhiser",
+                        "id": 1421724,
+                        "node_id": "MDQ6VXNlcjE0MjE3MjQ=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1421724?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/evanpurkhiser",
+                        "html_url": "https://github.com/evanpurkhiser",
+                        "followers_url": "https://api.github.com/users/evanpurkhiser/followers",
+                        "following_url": "https://api.github.com/users/evanpurkhiser/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/evanpurkhiser/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/evanpurkhiser/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/evanpurkhiser/subscriptions",
+                        "organizations_url": "https://api.github.com/users/evanpurkhiser/orgs",
+                        "repos_url": "https://api.github.com/users/evanpurkhiser/repos",
+                        "events_url": "https://api.github.com/users/evanpurkhiser/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/evanpurkhiser/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-06-26T06:04:00Z",
+                "updated_at": "2023-10-27T10:04:04Z",
+                "closed_at": "2023-10-27T07:00:40Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/pulls/36053",
+                    "html_url": "https://github.com/getsentry/sentry/pull/36053",
+                    "diff_url": "https://github.com/getsentry/sentry/pull/36053.diff",
+                    "patch_url": "https://github.com/getsentry/sentry/pull/36053.patch",
+                    "merged_at": null
+                },
+                "body": "\r\n\r\n<!-- Describe your PR here. -->\r\n\r\nThis is split from #35947\r\n\r\n<!--\r\n\r\n  Sentry employees and contractors can delete or ignore the following.\r\n\r\n-->\r\n\r\n### Legal Boilerplate\r\n\r\nLook, I get it. The entity doing business as \"Sentry\" was incorporated in the State of Delaware in 2015 as Functional Software, Inc. and is gonna need some rights from me in order to utilize my contributions in this here PR. So here's the deal: I retain all rights, title and interest in and to my contributions, and by keeping this boilerplate intact I confirm that Sentry can use, modify, copy, and redistribute my contributions, under Sentry's choice of terms.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/36053/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/36053/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782645581",
+                "html_url": "https://github.com/getsentry/sentry/pull/36053#issuecomment-1782645581",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/36053",
+                "id": 1782645581,
+                "node_id": "IC_kwDOAA1TcM5qQQNN",
+                "user": {
+                    "login": "jsoref",
+                    "id": 2119212,
+                    "node_id": "MDQ6VXNlcjIxMTkyMTI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2119212?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jsoref",
+                    "html_url": "https://github.com/jsoref",
+                    "followers_url": "https://api.github.com/users/jsoref/followers",
+                    "following_url": "https://api.github.com/users/jsoref/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jsoref/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jsoref/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jsoref/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jsoref/orgs",
+                    "repos_url": "https://api.github.com/users/jsoref/repos",
+                    "events_url": "https://api.github.com/users/jsoref/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jsoref/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T10:04:03Z",
+                "updated_at": "2023-10-27T10:04:03Z",
+                "author_association": "NONE",
+                "body": "@evanpurkhiser ? \ud83d\ude26 ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782645581/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:04:04Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32894929791",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2119212,
+            "login": "jsoref",
+            "display_login": "jsoref",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jsoref",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2119212?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/36048",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/36048/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/36048/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/36048/events",
+                "html_url": "https://github.com/getsentry/sentry/pull/36048",
+                "id": 1284813158,
+                "node_id": "PR_kwDOAA1TcM46XbyD",
+                "number": 36048,
+                "title": "Spelling prof",
+                "user": {
+                    "login": "jsoref",
+                    "id": 2119212,
+                    "node_id": "MDQ6VXNlcjIxMTkyMTI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2119212?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jsoref",
+                    "html_url": "https://github.com/jsoref",
+                    "followers_url": "https://api.github.com/users/jsoref/followers",
+                    "following_url": "https://api.github.com/users/jsoref/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jsoref/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jsoref/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jsoref/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jsoref/orgs",
+                    "repos_url": "https://api.github.com/users/jsoref/repos",
+                    "events_url": "https://api.github.com/users/jsoref/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jsoref/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5829942710,
+                        "node_id": "LA_kwDOAA1TcM8AAAABW33dtg",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Stale",
+                        "name": "Stale",
+                        "color": "8D5494",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-06-26T05:45:13Z",
+                "updated_at": "2023-10-27T10:00:40Z",
+                "closed_at": "2023-10-27T07:00:40Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/pulls/36048",
+                    "html_url": "https://github.com/getsentry/sentry/pull/36048",
+                    "diff_url": "https://github.com/getsentry/sentry/pull/36048.diff",
+                    "patch_url": "https://github.com/getsentry/sentry/pull/36048.patch",
+                    "merged_at": null
+                },
+                "body": "\r\n\r\n<!-- Describe your PR here. -->\r\n\r\nThis is a subset of #35947 -- https://github.com/getsentry/sentry/pull/35947#pullrequestreview-1018957940 per @ryan953 \r\n\r\n\r\n\r\n<!--\r\n\r\n  Sentry employees and contractors can delete or ignore the following.\r\n\r\n-->\r\n\r\n### Legal Boilerplate\r\n\r\nLook, I get it. The entity doing business as \"Sentry\" was incorporated in the State of Delaware in 2015 as Functional Software, Inc. and is gonna need some rights from me in order to utilize my contributions in this here PR. So here's the deal: I retain all rights, title and interest in and to my contributions, and by keeping this boilerplate intact I confirm that Sentry can use, modify, copy, and redistribute my contributions, under Sentry's choice of terms.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/36048/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/36048/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782640861",
+                "html_url": "https://github.com/getsentry/sentry/pull/36048#issuecomment-1782640861",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/36048",
+                "id": 1782640861,
+                "node_id": "IC_kwDOAA1TcM5qQPDd",
+                "user": {
+                    "login": "jsoref",
+                    "id": 2119212,
+                    "node_id": "MDQ6VXNlcjIxMTkyMTI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2119212?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jsoref",
+                    "html_url": "https://github.com/jsoref",
+                    "followers_url": "https://api.github.com/users/jsoref/followers",
+                    "following_url": "https://api.github.com/users/jsoref/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jsoref/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jsoref/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jsoref/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jsoref/orgs",
+                    "repos_url": "https://api.github.com/users/jsoref/repos",
+                    "events_url": "https://api.github.com/users/jsoref/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jsoref/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T10:00:40Z",
+                "updated_at": "2023-10-27T10:00:40Z",
+                "author_association": "NONE",
+                "body": "@corps if I tried to resubmit would this be seen? It looks like the loud bot has been replaced by a quiet-kill bot...",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782640861/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:00:41Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32894671217",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1990198,
+            "login": "erdinc09",
+            "display_login": "erdinc09",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/erdinc09",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1990198?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:50:54Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32894552607",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 66042841,
+            "login": "getsantry[bot]",
+            "display_login": "getsantry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/getsantry[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/66042841?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/58922",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/events",
+                "html_url": "https://github.com/getsentry/sentry/issues/58922",
+                "id": 1965157263,
+                "node_id": "I_kwDOAA1TcM51IeuP",
+                "number": 58922,
+                "title": "Add OS security patch level to default tags",
+                "user": {
+                    "login": "androideveloper",
+                    "id": 1249919,
+                    "node_id": "MDQ6VXNlcjEyNDk5MTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1249919?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/androideveloper",
+                    "html_url": "https://github.com/androideveloper",
+                    "followers_url": "https://api.github.com/users/androideveloper/followers",
+                    "following_url": "https://api.github.com/users/androideveloper/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/androideveloper/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/androideveloper/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/androideveloper/subscriptions",
+                    "organizations_url": "https://api.github.com/users/androideveloper/orgs",
+                    "repos_url": "https://api.github.com/users/androideveloper/repos",
+                    "events_url": "https://api.github.com/users/androideveloper/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/androideveloper/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5480753605,
+                        "node_id": "LA_kwDOAA1TcM8AAAABRq2pxQ",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Waiting%20for:%20Support",
+                        "name": "Waiting for: Support",
+                        "color": "8D5494",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-27T09:46:20Z",
+                "updated_at": "2023-10-27T09:46:24Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Problem Statement\n\nThere are security patches from OS vendors, that break critical parts of the storage and break librarires and apps. It happened recently with a security patch from Samsung. See more info [here](https://github.com/oblador/react-native-keychain/issues/617).\n\n### Solution Brainstorm\n\nIn order to investigate this type of issues, it's valuable to have OS security patch level reported to sentry tags. We've now added it manually on our side, but I think it would be great to have it by default coming from Sentry.\n\n### Product Area\n\nIssues",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/58922/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782621043",
+                "html_url": "https://github.com/getsentry/sentry/issues/58922#issuecomment-1782621043",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/58922",
+                "id": 1782621043,
+                "node_id": "IC_kwDOAA1TcM5qQKNz",
+                "user": {
+                    "login": "getsantry[bot]",
+                    "id": 66042841,
+                    "node_id": "MDM6Qm90NjYwNDI4NDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/66573?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/getsantry%5Bbot%5D",
+                    "html_url": "https://github.com/apps/getsantry",
+                    "followers_url": "https://api.github.com/users/getsantry%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/getsantry%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/getsantry%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/getsantry%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/getsantry%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/getsantry%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/getsantry%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/getsantry%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/getsantry%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T09:46:24Z",
+                "updated_at": "2023-10-27T09:46:24Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Assigning to @getsentry/support for [routing](https://open.sentry.io/triage/#2-route) \u23f2\ufe0f",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782621043/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:46:25Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32894551466",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1249919,
+            "login": "androideveloper",
+            "display_login": "androideveloper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/androideveloper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1249919?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/58922",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/events",
+                "html_url": "https://github.com/getsentry/sentry/issues/58922",
+                "id": 1965157263,
+                "node_id": "I_kwDOAA1TcM51IeuP",
+                "number": 58922,
+                "title": "Add OS security patch level to default tags",
+                "user": {
+                    "login": "androideveloper",
+                    "id": 1249919,
+                    "node_id": "MDQ6VXNlcjEyNDk5MTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1249919?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/androideveloper",
+                    "html_url": "https://github.com/androideveloper",
+                    "followers_url": "https://api.github.com/users/androideveloper/followers",
+                    "following_url": "https://api.github.com/users/androideveloper/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/androideveloper/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/androideveloper/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/androideveloper/subscriptions",
+                    "organizations_url": "https://api.github.com/users/androideveloper/orgs",
+                    "repos_url": "https://api.github.com/users/androideveloper/repos",
+                    "events_url": "https://api.github.com/users/androideveloper/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/androideveloper/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T09:46:20Z",
+                "updated_at": "2023-10-27T09:46:20Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Problem Statement\n\nThere are security patches from OS vendors, that break critical parts of the storage and break librarires and apps. It happened recently with a security patch from Samsung. See more info [here](https://github.com/oblador/react-native-keychain/issues/617).\n\n### Solution Brainstorm\n\nIn order to investigate this type of issues, it's valuable to have OS security patch level reported to sentry tags. We've now added it manually on our side, but I think it would be great to have it by default coming from Sentry.\n\n### Product Area\n\nIssues",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/58922/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/58922/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:46:22Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32893508462",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 66042841,
+            "login": "getsantry[bot]",
+            "display_login": "getsantry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/getsantry[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/66042841?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/58921",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/events",
+                "html_url": "https://github.com/getsentry/sentry/issues/58921",
+                "id": 1965092605,
+                "node_id": "I_kwDOAA1TcM51IO79",
+                "number": 58921,
+                "title": "Allow \"Additional data\" (extra) to be displayed in Slack integration notification",
+                "user": {
+                    "login": "rdsedmundo",
+                    "id": 5482378,
+                    "node_id": "MDQ6VXNlcjU0ODIzNzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5482378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rdsedmundo",
+                    "html_url": "https://github.com/rdsedmundo",
+                    "followers_url": "https://api.github.com/users/rdsedmundo/followers",
+                    "following_url": "https://api.github.com/users/rdsedmundo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rdsedmundo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rdsedmundo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rdsedmundo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rdsedmundo/orgs",
+                    "repos_url": "https://api.github.com/users/rdsedmundo/repos",
+                    "events_url": "https://api.github.com/users/rdsedmundo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rdsedmundo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5480753605,
+                        "node_id": "LA_kwDOAA1TcM8AAAABRq2pxQ",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Waiting%20for:%20Support",
+                        "name": "Waiting for: Support",
+                        "color": "8D5494",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-27T09:06:59Z",
+                "updated_at": "2023-10-27T09:07:03Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Problem Statement\n\nI want to be able to send additional data from an event and have it showing up in Slack directly, for quicker triages.\r\n\r\nExample:\r\n```\r\n  Sentry.captureMessage('Test 1', {\r\n    extra: {\r\n      test: 'test',\r\n      now: Date.now(),\r\n      now_iso: new Date(),\r\n    },\r\n  });\r\n```\r\n\r\nWhich displays in Sentry here:\r\n<img width=\"1450\" alt=\"Screenshot 2023-10-27 at 9 03 45 AM\" src=\"https://github.com/getsentry/sentry/assets/5482378/17b91fd8-3b3d-487d-b9b4-7441092b17cb\">\r\n\r\nBut nothing appears in Slack, I even tried to set the tags option in the alerts notification to include `extra`, but I think it's considered something else and not really a tag internally. \r\n\n\n### Solution Brainstorm\n\nIt would be nice to have an option where it would be displayed, even if it's under a 3-backtick markdown block. \n\n### Product Area\n\nAlerts",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/58921/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782565939",
+                "html_url": "https://github.com/getsentry/sentry/issues/58921#issuecomment-1782565939",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/58921",
+                "id": 1782565939,
+                "node_id": "IC_kwDOAA1TcM5qP8wz",
+                "user": {
+                    "login": "getsantry[bot]",
+                    "id": 66042841,
+                    "node_id": "MDM6Qm90NjYwNDI4NDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/66573?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/getsantry%5Bbot%5D",
+                    "html_url": "https://github.com/apps/getsantry",
+                    "followers_url": "https://api.github.com/users/getsantry%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/getsantry%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/getsantry%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/getsantry%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/getsantry%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/getsantry%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/getsantry%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/getsantry%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/getsantry%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T09:07:03Z",
+                "updated_at": "2023-10-27T09:07:03Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Assigning to @getsentry/support for [routing](https://open.sentry.io/triage/#2-route) \u23f2\ufe0f",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782565939/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:07:04Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32893507201",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5482378,
+            "login": "rdsedmundo",
+            "display_login": "rdsedmundo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rdsedmundo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5482378?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/58921",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/events",
+                "html_url": "https://github.com/getsentry/sentry/issues/58921",
+                "id": 1965092605,
+                "node_id": "I_kwDOAA1TcM51IO79",
+                "number": 58921,
+                "title": "Allow \"Additional data\" (extra) to be displayed in Slack integration notification",
+                "user": {
+                    "login": "rdsedmundo",
+                    "id": 5482378,
+                    "node_id": "MDQ6VXNlcjU0ODIzNzg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5482378?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/rdsedmundo",
+                    "html_url": "https://github.com/rdsedmundo",
+                    "followers_url": "https://api.github.com/users/rdsedmundo/followers",
+                    "following_url": "https://api.github.com/users/rdsedmundo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/rdsedmundo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/rdsedmundo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/rdsedmundo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/rdsedmundo/orgs",
+                    "repos_url": "https://api.github.com/users/rdsedmundo/repos",
+                    "events_url": "https://api.github.com/users/rdsedmundo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/rdsedmundo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T09:06:59Z",
+                "updated_at": "2023-10-27T09:06:59Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Problem Statement\n\nI want to be able to send additional data from an event and have it showing up in Slack directly, for quicker triages.\r\n\r\nExample:\r\n```\r\n  Sentry.captureMessage('Test 1', {\r\n    extra: {\r\n      test: 'test',\r\n      now: Date.now(),\r\n      now_iso: new Date(),\r\n    },\r\n  });\r\n```\r\n\r\nWhich displays in Sentry here:\r\n<img width=\"1450\" alt=\"Screenshot 2023-10-27 at 9 03 45 AM\" src=\"https://github.com/getsentry/sentry/assets/5482378/17b91fd8-3b3d-487d-b9b4-7441092b17cb\">\r\n\r\nBut nothing appears in Slack, I even tried to set the tags option in the alerts notification to include `extra`, but I think it's considered something else and not really a tag internally. \r\n\n\n### Solution Brainstorm\n\nIt would be nice to have an option where it would be displayed, even if it's under a 3-backtick markdown block. \n\n### Product Area\n\nAlerts",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/58921/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/58921/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:07:01Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32893300056",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 6508377,
+            "login": "Jesse-Box",
+            "display_login": "Jesse-Box",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Jesse-Box",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6508377?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/58147",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/events",
+                "html_url": "https://github.com/getsentry/sentry/issues/58147",
+                "id": 1944598096,
+                "node_id": "I_kwDOAA1TcM5z6DZQ",
+                "number": 58147,
+                "title": "Platform Icons suck in dark mode",
+                "user": {
+                    "login": "Jesse-Box",
+                    "id": 6508377,
+                    "node_id": "MDQ6VXNlcjY1MDgzNzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6508377?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Jesse-Box",
+                    "html_url": "https://github.com/Jesse-Box",
+                    "followers_url": "https://api.github.com/users/Jesse-Box/followers",
+                    "following_url": "https://api.github.com/users/Jesse-Box/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Jesse-Box/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Jesse-Box/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Jesse-Box/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Jesse-Box/orgs",
+                    "repos_url": "https://api.github.com/users/Jesse-Box/repos",
+                    "events_url": "https://api.github.com/users/Jesse-Box/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Jesse-Box/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "Jesse-Box",
+                    "id": 6508377,
+                    "node_id": "MDQ6VXNlcjY1MDgzNzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6508377?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Jesse-Box",
+                    "html_url": "https://github.com/Jesse-Box",
+                    "followers_url": "https://api.github.com/users/Jesse-Box/followers",
+                    "following_url": "https://api.github.com/users/Jesse-Box/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Jesse-Box/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Jesse-Box/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Jesse-Box/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Jesse-Box/orgs",
+                    "repos_url": "https://api.github.com/users/Jesse-Box/repos",
+                    "events_url": "https://api.github.com/users/Jesse-Box/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Jesse-Box/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "Jesse-Box",
+                        "id": 6508377,
+                        "node_id": "MDQ6VXNlcjY1MDgzNzc=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/6508377?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/Jesse-Box",
+                        "html_url": "https://github.com/Jesse-Box",
+                        "followers_url": "https://api.github.com/users/Jesse-Box/followers",
+                        "following_url": "https://api.github.com/users/Jesse-Box/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/Jesse-Box/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/Jesse-Box/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/Jesse-Box/subscriptions",
+                        "organizations_url": "https://api.github.com/users/Jesse-Box/orgs",
+                        "repos_url": "https://api.github.com/users/Jesse-Box/repos",
+                        "events_url": "https://api.github.com/users/Jesse-Box/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/Jesse-Box/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-16T07:52:00Z",
+                "updated_at": "2023-10-27T08:59:12Z",
+                "closed_at": "2023-10-27T08:59:12Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "### Problem\nRead the title\n\n### Acceptance Criteria\nNo matter the theme, the svg graphics are visible\n```[tasklist]\n### Tasks\n- [x] Node\n- [x] Serverless Category (AWS, Google Cloud, Azure Functions, Serverless)\n- [x] Desktop Category (Mac OS, .NET Java etc.)\n- [x] Mobile Category (Android iOS, React Native etc.\n- [x] Javascript\n- [x] Server Category (The rest)\n```\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/58147/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:59:13Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32893299893",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 6508377,
+            "login": "Jesse-Box",
+            "display_login": "Jesse-Box",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Jesse-Box",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6508377?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/58147",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/events",
+                "html_url": "https://github.com/getsentry/sentry/issues/58147",
+                "id": 1944598096,
+                "node_id": "I_kwDOAA1TcM5z6DZQ",
+                "number": 58147,
+                "title": "Platform Icons suck in dark mode",
+                "user": {
+                    "login": "Jesse-Box",
+                    "id": 6508377,
+                    "node_id": "MDQ6VXNlcjY1MDgzNzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6508377?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Jesse-Box",
+                    "html_url": "https://github.com/Jesse-Box",
+                    "followers_url": "https://api.github.com/users/Jesse-Box/followers",
+                    "following_url": "https://api.github.com/users/Jesse-Box/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Jesse-Box/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Jesse-Box/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Jesse-Box/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Jesse-Box/orgs",
+                    "repos_url": "https://api.github.com/users/Jesse-Box/repos",
+                    "events_url": "https://api.github.com/users/Jesse-Box/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Jesse-Box/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "Jesse-Box",
+                    "id": 6508377,
+                    "node_id": "MDQ6VXNlcjY1MDgzNzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6508377?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Jesse-Box",
+                    "html_url": "https://github.com/Jesse-Box",
+                    "followers_url": "https://api.github.com/users/Jesse-Box/followers",
+                    "following_url": "https://api.github.com/users/Jesse-Box/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Jesse-Box/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Jesse-Box/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Jesse-Box/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Jesse-Box/orgs",
+                    "repos_url": "https://api.github.com/users/Jesse-Box/repos",
+                    "events_url": "https://api.github.com/users/Jesse-Box/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Jesse-Box/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "Jesse-Box",
+                        "id": 6508377,
+                        "node_id": "MDQ6VXNlcjY1MDgzNzc=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/6508377?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/Jesse-Box",
+                        "html_url": "https://github.com/Jesse-Box",
+                        "followers_url": "https://api.github.com/users/Jesse-Box/followers",
+                        "following_url": "https://api.github.com/users/Jesse-Box/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/Jesse-Box/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/Jesse-Box/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/Jesse-Box/subscriptions",
+                        "organizations_url": "https://api.github.com/users/Jesse-Box/orgs",
+                        "repos_url": "https://api.github.com/users/Jesse-Box/repos",
+                        "events_url": "https://api.github.com/users/Jesse-Box/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/Jesse-Box/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-16T07:52:00Z",
+                "updated_at": "2023-10-27T08:59:12Z",
+                "closed_at": "2023-10-27T08:59:12Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "### Problem\nRead the title\n\n### Acceptance Criteria\nNo matter the theme, the svg graphics are visible\n```[tasklist]\n### Tasks\n- [x] Node\n- [x] Serverless Category (AWS, Google Cloud, Azure Functions, Serverless)\n- [x] Desktop Category (Mac OS, .NET Java etc.)\n- [x] Mobile Category (Android iOS, React Native etc.\n- [x] Javascript\n- [x] Server Category (The rest)\n```\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/58147/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/58147/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782554441",
+                "html_url": "https://github.com/getsentry/sentry/issues/58147#issuecomment-1782554441",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/58147",
+                "id": 1782554441,
+                "node_id": "IC_kwDOAA1TcM5qP59J",
+                "user": {
+                    "login": "Jesse-Box",
+                    "id": 6508377,
+                    "node_id": "MDQ6VXNlcjY1MDgzNzc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6508377?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Jesse-Box",
+                    "html_url": "https://github.com/Jesse-Box",
+                    "followers_url": "https://api.github.com/users/Jesse-Box/followers",
+                    "following_url": "https://api.github.com/users/Jesse-Box/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Jesse-Box/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Jesse-Box/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Jesse-Box/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Jesse-Box/orgs",
+                    "repos_url": "https://api.github.com/users/Jesse-Box/repos",
+                    "events_url": "https://api.github.com/users/Jesse-Box/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Jesse-Box/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T08:59:12Z",
+                "updated_at": "2023-10-27T08:59:12Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Marking this as done",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782554441/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:59:13Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32893298036",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2443292,
+            "login": "philipphofmann",
+            "display_login": "philipphofmann",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/philipphofmann",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2443292?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "repository_id": 873328,
+            "push_id": 15589079486,
+            "size": 200,
+            "distinct_size": 1,
+            "ref": "refs/heads/ref/sdk-crashes-extenable-settings",
+            "head": "44154146e1e989ae46450d0315ff55dc3432ddb0",
+            "before": "b6ddb08ab65206c73d8568051330ac78f9fca094",
+            "commits": [
+                {
+                    "sha": "16383e900aced193f938ee1121c7f6edd8f60f35",
+                    "author": {
+                        "email": "luca.forstner@sentry.io",
+                        "name": "Luca Forstner"
+                    },
+                    "message": "fix(source-map-debugger): Normalize source map reference headers before access (#58680)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/16383e900aced193f938ee1121c7f6edd8f60f35"
+                },
+                {
+                    "sha": "ada3a92ef1e509bda56619fe27875e9a68aa5266",
+                    "author": {
+                        "email": "riccardo.busetti@sentry.io",
+                        "name": "Riccardo Busetti"
+                    },
+                    "message": "feat(events-stats): Add support for comparison in metrics timeseries queries (#58587)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/ada3a92ef1e509bda56619fe27875e9a68aa5266"
+                },
+                {
+                    "sha": "b5a6f680deffa6c5c244c3eb2dffe7367053e06b",
+                    "author": {
+                        "email": "5281987+RaduW@users.noreply.github.com",
+                        "name": "Radu Woinaroski"
+                    },
+                    "message": "feat(inbound-filters) Add edge legacy option to legacy-browser inbound filters, (back-end) (#58606)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/b5a6f680deffa6c5c244c3eb2dffe7367053e06b"
+                },
+                {
+                    "sha": "42a96048cadc2c17817fac73e85dfcd95cff4f25",
+                    "author": {
+                        "email": "alex.tarasov@sentry.io",
+                        "name": "Alexander Tarasov"
+                    },
+                    "message": "fix(notifications): use html template instead of dynamic html params where needed (#58658)\n\nAfter releasing https://github.com/getsentry/sentry/pull/58227, some\r\nemail notifications become broken. Example:\r\n<img width=\"692\" alt=\"image\"\r\nsrc=\"https://github.com/getsentry/sentry/assets/1127549/281171a9-74dc-4c2f-b724-f7bc8d7e52a9\">\r\n\r\nThe cause is that `format_html` escaped template parameters that\r\ncontained HTML code in cases such as:\r\n```\r\nhtml_params[\"version\"] = f'<a href=\"{version_url}\">{escape(self.version_parsed)}</a>'\r\n```\r\nFrom security perspective, this was kinda correct behavior, since\r\nparameter contains untrusted HTML. When building HTML, we should use\r\nHTML-specific templates instead.\r\n\r\nThis PR:\r\n* Updates the signature of the `get_description()` method in the base\r\nGroupActivityNotification class and in all inherited classes:\r\n  * old output: template, parameters, html_parameters (optional)\r\n  * new output: text_template, html_template (optional), parameters\r\n* The set of parameters would be the same for both modes -- text and\r\nHTML\r\n  * But we are going to redefine HTML template where needed.\r\n* Redefines HTML templates for two cases:\r\n* RegressionActivityNotification (fixes the above bug) -- we want to\r\nrender release link as `<a href>` tag\r\n  * ResolvedInReleaseActivityNotification -- same\r\n* The HTML template for most of cases is None and therefore normal text\r\ntemplate is used.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/42a96048cadc2c17817fac73e85dfcd95cff4f25"
+                },
+                {
+                    "sha": "5eb4b5804d0f1c7b80cb0d22809b65beadd14e2c",
+                    "author": {
+                        "email": "riccardo.busetti@sentry.io",
+                        "name": "Riccardo Busetti"
+                    },
+                    "message": "Revert \"Revert \"fix(crons): Correctly compute next_checkin for tz aware monitors (#58550)\"\" (#58686)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/5eb4b5804d0f1c7b80cb0d22809b65beadd14e2c"
+                },
+                {
+                    "sha": "7b681d9da52b5f9cb00bd90b96391b4650673506",
+                    "author": {
+                        "email": "86684834+obostjancic@users.noreply.github.com",
+                        "name": "Ogi"
+                    },
+                    "message": "fix(ddm): use 10s granularity only for custom metrics (#58688)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/7b681d9da52b5f9cb00bd90b96391b4650673506"
+                },
+                {
+                    "sha": "f48992b762733589aa79c8242dcbb3510c347da9",
+                    "author": {
+                        "email": "anton.pirker@sentry.io",
+                        "name": "Anton Pirker"
+                    },
+                    "message": "Renamed 'account number' to correct name 'Account ID' (#58320)\n\nIn AWS it is called `Account ID` and not `Account number`.\r\nRenamed all visible occurrences in AWS Lambda integration.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/f48992b762733589aa79c8242dcbb3510c347da9"
+                },
+                {
+                    "sha": "af38bb391cb315ae17a823471f24864053470679",
+                    "author": {
+                        "email": "5281987+RaduW@users.noreply.github.com",
+                        "name": "Radu Woinaroski"
+                    },
+                    "message": "feat(inbound-filters) Add edge legacy option to legacy-browser inbound filters (front-end) (#58600)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/af38bb391cb315ae17a823471f24864053470679"
+                },
+                {
+                    "sha": "eb0abbcfd308d42a071f93327327184bbe93cb2c",
+                    "author": {
+                        "email": "86684834+obostjancic@users.noreply.github.com",
+                        "name": "Ogi"
+                    },
+                    "message": "fix(alerts): use metrics enhanced dataset (#58681)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/eb0abbcfd308d42a071f93327327184bbe93cb2c"
+                },
+                {
+                    "sha": "945e6373a55435f0eef5a80e6c4298ea0806d19e",
+                    "author": {
+                        "email": "mark@mark-story.com",
+                        "name": "Mark Story"
+                    },
+                    "message": "feat(hybridcloud) Make error embed view use region URLs v2  (#58660)\n\nMulligan on https://github.com/getsentry/sentry/pull/58608 as those\r\nchanges imported a dev dependency which\r\ndoesn't exist in production builds.\r\n\r\nThis reverts commit\r\nhttps://github.com/getsentry/sentry/commit/17daa1f4ef4ef6f0a4abcd3ce567424f7fab550b\r\nand doesn't include the problematic import.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/945e6373a55435f0eef5a80e6c4298ea0806d19e"
+                },
+                {
+                    "sha": "e3383344323e786d9b2dadae596f1717cfee8f74",
+                    "author": {
+                        "email": "leander.rodrigues@sentry.io",
+                        "name": "Leander Rodrigues"
+                    },
+                    "message": "tests(hybrid-cloud): Stabilize slack webhook tests (#58691)\n\nTagged most of these tests as `region_silo_test` since that is the silo\r\nwhere the business logic will actually execute. Had to break out the\r\n`IdentityView` tests though since they are returned from the control\r\nsilo.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/e3383344323e786d9b2dadae596f1717cfee8f74"
+                },
+                {
+                    "sha": "bba7aa46d24f01c4778dfc1022998362ecab42ff",
+                    "author": {
+                        "email": "86684834+obostjancic@users.noreply.github.com",
+                        "name": "Ogi"
+                    },
+                    "message": "fix(alerts): flag check (#58692)",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/bba7aa46d24f01c4778dfc1022998362ecab42ff"
+                },
+                {
+                    "sha": "3fcc71105f1a8facfc4b830a5757940bfc11fae9",
+                    "author": {
+                        "email": "ryan.albrecht@sentry.io",
+                        "name": "Ryan Albrecht"
+                    },
+                    "message": "feat(replay): Put \"beta\" badge on the Selectors tab label, instead of the page title (#58645)\n\nTranslate the \"Replays\" and \"Selectors\" tabs on the replay index page.\r\n\r\nalso refactored the path/url stuff to remove string concatenation.\r\nShould be easier to spot the urls if someone's browsing through the\r\ncodebase.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/3fcc71105f1a8facfc4b830a5757940bfc11fae9"
+                },
+                {
+                    "sha": "91fa412520f8aecc746c326bf3fac409d187c1d6",
+                    "author": {
+                        "email": "leander.rodrigues@sentry.io",
+                        "name": "Leander Rodrigues"
+                    },
+                    "message": "tests(hybrid-cloud): Stabilize Bitbucket Parser tests (#58693)\n\nUsed `eu` as a key for a missing region, but didn't override the region\r\nconfig for the testcase. Resolved for Bitbucket and Bitbucket Server.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/91fa412520f8aecc746c326bf3fac409d187c1d6"
+                },
+                {
+                    "sha": "825eabab40bfe334814e701d3e15f14ecdd6324d",
+                    "author": {
+                        "email": "132939361+sentaur-athena@users.noreply.github.com",
+                        "name": "Athena Moghaddam"
+                    },
+                    "message": "fix(provisioning): user id instead of email for partner user (#58672)\n\nBefore we got an email and found the user from that email which is\r\nreally not necessary. This is one specific user for each partner, let's\r\nstore user_id instead and get directly to user from id.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/825eabab40bfe334814e701d3e15f14ecdd6324d"
+                },
+                {
+                    "sha": "163a929ac6ed5efc04046b072ce59a53bc8116d9",
+                    "author": {
+                        "email": "56095982+michellewzhang@users.noreply.github.com",
+                        "name": "Michelle Zhang"
+                    },
+                    "message": "ref(feedback): bring back tags in feedback details (#58673)\n\nsome tags are back! others, like `locale`, `replay,` and `platform`, are\r\nunavailable right now though\r\n\r\n\r\n<img width=\"692\" alt=\"SCR-20231023-ptwv\"\r\nsrc=\"https://github.com/getsentry/sentry/assets/56095982/7fe879cc-4761-439d-95dd-89569342a421\">",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/163a929ac6ed5efc04046b072ce59a53bc8116d9"
+                },
+                {
+                    "sha": "46baa74d6b3a568250957d5138d6171808b24c52",
+                    "author": {
+                        "email": "getsentry-bot@users.noreply.github.com",
+                        "name": "Sentry Bot"
+                    },
+                    "message": "meta(routing) Sync with product-owners.yml in security-as-code@de0b0fe7 (#58698)\n\nSyncing with\r\n[product-owners.yml](https://github.com/getsentry/security-as-code/blob/de0b0fe73661bf71412f7cb7377f37a6460df6fb/rbac/lib/product-owners.yml)\r\n([docs](https://www.notion.so/473791bae5bf43399d46093050b77bf0)).\r\n\r\n---------\r\n\r\nCo-authored-by: getsantry[bot] <getsantry[bot]@users.noreply.github.com>\r\nCo-authored-by: Hubert Deng <hubert.deng@sentry.io>",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/46baa74d6b3a568250957d5138d6171808b24c52"
+                },
+                {
+                    "sha": "0cee47c6a9bc29ab0e863079cee9b8ec7e1d44ae",
+                    "author": {
+                        "email": "azaslavsky@users.noreply.github.com",
+                        "name": "Alex Zaslavsky"
+                    },
+                    "message": "ref(backup): Simplify some import logic (#58628)\n\nSome of the user model logic was very difficult to follow, which this PR\r\naims to simplify. In essence, there were too many placed where we marked\r\nmodels `ImportKind.Existing`, when really they should just be\r\n`ImoportKind.Inserted` due to `post_save` shenanigans.\r\n\r\nAdditionally, `UserPermission` and `UserEmail` logic has been cleaned up\r\nand looks more uniform now, and comments have been added where things\r\nget a bit subtle.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/0cee47c6a9bc29ab0e863079cee9b8ec7e1d44ae"
+                },
+                {
+                    "sha": "98258d24dcbdfa0910fb67bacb270c535079e58d",
+                    "author": {
+                        "email": "56095982+michellewzhang@users.noreply.github.com",
+                        "name": "Michelle Zhang"
+                    },
+                    "message": "ref(bug reports): remove display of name for now (#58659)\n\n<img width=\"797\" alt=\"SCR-20231023-nhod\"\r\nsrc=\"https://github.com/getsentry/sentry/assets/56095982/27de0e5d-8e8b-44d7-9664-122ddf669a8e\">",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/98258d24dcbdfa0910fb67bacb270c535079e58d"
+                },
+                {
+                    "sha": "19f7f07bd3f23dd6e6c74f349141b3b542c8bfcb",
+                    "author": {
+                        "email": "billyvg@users.noreply.github.com",
+                        "name": "Billy Vong"
+                    },
+                    "message": "feat(feedback): Remove old feedback widget and replace with SDK version (#58305)\n\nThis will be disabled until we add the feedback widget in getsentry.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/19f7f07bd3f23dd6e6c74f349141b3b542c8bfcb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:59:08Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32891848123",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2443292,
+            "login": "philipphofmann",
+            "display_login": "philipphofmann",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/philipphofmann",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2443292?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "repository_id": 873328,
+            "push_id": 15588388315,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/ref/sdk-crashes-extenable-settings",
+            "head": "b6ddb08ab65206c73d8568051330ac78f9fca094",
+            "before": "28a0b836aa66b7b2eb050d54c4f69ef238d88a2f",
+            "commits": [
+                {
+                    "sha": "b6ddb08ab65206c73d8568051330ac78f9fca094",
+                    "author": {
+                        "email": "philipp.hofmann@sentry.io",
+                        "name": "Philipp Hofmann"
+                    },
+                    "message": "use f-strings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getsentry/sentry/commits/b6ddb08ab65206c73d8568051330ac78f9fca094"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T08:03:04Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32891634392",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 10446666,
+            "login": "ulfeng",
+            "display_login": "ulfeng",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ulfeng",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10446666?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:54:22Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32891400767",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 22429695,
+            "login": "codecov[bot]",
+            "display_login": "codecov",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codecov[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22429695?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/56002",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/56002/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/56002/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/56002/events",
+                "html_url": "https://github.com/getsentry/sentry/pull/56002",
+                "id": 1890829866,
+                "node_id": "PR_kwDOAA1TcM5aCktc",
+                "number": 56002,
+                "title": "Add option to displayEventId in embed error page",
+                "user": {
+                    "login": "Ten0",
+                    "id": 9094255,
+                    "node_id": "MDQ6VXNlcjkwOTQyNTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9094255?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Ten0",
+                    "html_url": "https://github.com/Ten0",
+                    "followers_url": "https://api.github.com/users/Ten0/followers",
+                    "following_url": "https://api.github.com/users/Ten0/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Ten0/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Ten0/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Ten0/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Ten0/orgs",
+                    "repos_url": "https://api.github.com/users/Ten0/repos",
+                    "events_url": "https://api.github.com/users/Ten0/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Ten0/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4207051418,
+                        "node_id": "LA_kwDOAA1TcM76woKa",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Scope:%20Backend",
+                        "name": "Scope: Backend",
+                        "color": "F5B000",
+                        "default": false,
+                        "description": "Automatically applied to PRs that change backend components"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": {
+                    "login": "lforst",
+                    "id": 8118419,
+                    "node_id": "MDQ6VXNlcjgxMTg0MTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8118419?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lforst",
+                    "html_url": "https://github.com/lforst",
+                    "followers_url": "https://api.github.com/users/lforst/followers",
+                    "following_url": "https://api.github.com/users/lforst/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lforst/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lforst/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lforst/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lforst/orgs",
+                    "repos_url": "https://api.github.com/users/lforst/repos",
+                    "events_url": "https://api.github.com/users/lforst/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lforst/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "lforst",
+                        "id": 8118419,
+                        "node_id": "MDQ6VXNlcjgxMTg0MTk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/8118419?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/lforst",
+                        "html_url": "https://github.com/lforst",
+                        "followers_url": "https://api.github.com/users/lforst/followers",
+                        "following_url": "https://api.github.com/users/lforst/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/lforst/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/lforst/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/lforst/subscriptions",
+                        "organizations_url": "https://api.github.com/users/lforst/orgs",
+                        "repos_url": "https://api.github.com/users/lforst/repos",
+                        "events_url": "https://api.github.com/users/lforst/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/lforst/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-09-11T16:05:48Z",
+                "updated_at": "2023-10-27T07:44:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/pulls/56002",
+                    "html_url": "https://github.com/getsentry/sentry/pull/56002",
+                    "diff_url": "https://github.com/getsentry/sentry/pull/56002.diff",
+                    "patch_url": "https://github.com/getsentry/sentry/pull/56002.patch",
+                    "merged_at": null
+                },
+                "body": "Helps https://github.com/getsentry/sentry-javascript/issues/8997\r\n\r\nThis allows displaying the sentry event UUID so that users can easily refer to the errors they have encountered when discussing with devs: (sorry for french in screenshot)\r\n![image](https://github.com/getsentry/sentry/assets/9094255/6689a804-cac2-4b9a-9458-d27af887abdd)\r\n\r\nNB: I haven't done anything fancy with the copy button - notably it doesn't change design on hover - (I'm no front dev so help is welcome).\r\n\r\n### Legal Boilerplate\r\n\r\nLook, I get it. The entity doing business as \"Sentry\" was incorporated in the State of Delaware in 2015 as Functional Software, Inc. and is gonna need some rights from me in order to utilize my contributions in this here PR. So here's the deal: I retain all rights, title and interest in and to my contributions, and by keeping this boilerplate intact I confirm that Sentry can use, modify, copy, and redistribute my contributions, under Sentry's choice of terms.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/56002/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/56002/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782454059",
+                "html_url": "https://github.com/getsentry/sentry/pull/56002#issuecomment-1782454059",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/56002",
+                "id": 1782454059,
+                "node_id": "IC_kwDOAA1TcM5qPhcr",
+                "user": {
+                    "login": "codecov[bot]",
+                    "id": 22429695,
+                    "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codecov%5Bbot%5D",
+                    "html_url": "https://github.com/apps/codecov",
+                    "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T07:44:37Z",
+                "updated_at": "2023-10-27T07:44:37Z",
+                "author_association": "NONE",
+                "body": "## [Codecov](https://app.codecov.io/gh/getsentry/sentry/pull/56002?src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=getsentry) Report\n> Merging [#56002](https://app.codecov.io/gh/getsentry/sentry/pull/56002?src=pr&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=getsentry) (bc3e518) into [master](https://app.codecov.io/gh/getsentry/sentry/commit/00fb8dda9c62d24c25dfd82f30f2d603ba5fc9cf?el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=getsentry) (00fb8dd) will **decrease** coverage by `1.94%`.\n> Report is 402 commits behind head on master.\n> The diff coverage is `100.00%`.\n\n```diff\n@@            Coverage Diff             @@\n##           master   #56002      +/-   ##\n==========================================\n- Coverage   79.11%   77.17%   -1.94%     \n==========================================\n  Files        5144     5155      +11     \n  Lines      224118   233276    +9158     \n  Branches    37741    40509    +2768     \n==========================================\n+ Hits       177305   180038    +2733     \n- Misses      41136    47437    +6301     \n- Partials     5677     5801     +124     \n```\n\n| [Files](https://app.codecov.io/gh/getsentry/sentry/pull/56002?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=getsentry) | Coverage \u0394 | |\n|---|---|---|\n| [src/sentry/web/frontend/error\\_page\\_embed.py](https://app.codecov.io/gh/getsentry/sentry/pull/56002?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=getsentry#diff-c3JjL3NlbnRyeS93ZWIvZnJvbnRlbmQvZXJyb3JfcGFnZV9lbWJlZC5weQ==) | `94.11% <100.00%> (+0.04%)` | :arrow_up: |\n\n... and [272 files with indirect coverage changes](https://app.codecov.io/gh/getsentry/sentry/pull/56002/indirect-changes?src=pr&el=tree-more&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=getsentry)\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782454059/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:44:38Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32891129207",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 8118419,
+            "login": "lforst",
+            "display_login": "lforst",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lforst",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8118419?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "reopened",
+            "number": 56002,
+            "pull_request": {
+                "url": "https://api.github.com/repos/getsentry/sentry/pulls/56002",
+                "id": 1510624092,
+                "node_id": "PR_kwDOAA1TcM5aCktc",
+                "html_url": "https://github.com/getsentry/sentry/pull/56002",
+                "diff_url": "https://github.com/getsentry/sentry/pull/56002.diff",
+                "patch_url": "https://github.com/getsentry/sentry/pull/56002.patch",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/56002",
+                "number": 56002,
+                "state": "open",
+                "locked": false,
+                "title": "Add option to displayEventId in embed error page",
+                "user": {
+                    "login": "Ten0",
+                    "id": 9094255,
+                    "node_id": "MDQ6VXNlcjkwOTQyNTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9094255?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Ten0",
+                    "html_url": "https://github.com/Ten0",
+                    "followers_url": "https://api.github.com/users/Ten0/followers",
+                    "following_url": "https://api.github.com/users/Ten0/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Ten0/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Ten0/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Ten0/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Ten0/orgs",
+                    "repos_url": "https://api.github.com/users/Ten0/repos",
+                    "events_url": "https://api.github.com/users/Ten0/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Ten0/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "Helps https://github.com/getsentry/sentry-javascript/issues/8997\r\n\r\nThis allows displaying the sentry event UUID so that users can easily refer to the errors they have encountered when discussing with devs: (sorry for french in screenshot)\r\n![image](https://github.com/getsentry/sentry/assets/9094255/6689a804-cac2-4b9a-9458-d27af887abdd)\r\n\r\nNB: I haven't done anything fancy with the copy button - notably it doesn't change design on hover - (I'm no front dev so help is welcome).\r\n\r\n### Legal Boilerplate\r\n\r\nLook, I get it. The entity doing business as \"Sentry\" was incorporated in the State of Delaware in 2015 as Functional Software, Inc. and is gonna need some rights from me in order to utilize my contributions in this here PR. So here's the deal: I retain all rights, title and interest in and to my contributions, and by keeping this boilerplate intact I confirm that Sentry can use, modify, copy, and redistribute my contributions, under Sentry's choice of terms.\r\n",
+                "created_at": "2023-09-11T16:05:48Z",
+                "updated_at": "2023-10-27T07:33:11Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "3c0cad8f45f4704643e53d9c158690e03ed5e572",
+                "assignee": {
+                    "login": "lforst",
+                    "id": 8118419,
+                    "node_id": "MDQ6VXNlcjgxMTg0MTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8118419?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lforst",
+                    "html_url": "https://github.com/lforst",
+                    "followers_url": "https://api.github.com/users/lforst/followers",
+                    "following_url": "https://api.github.com/users/lforst/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lforst/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lforst/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lforst/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lforst/orgs",
+                    "repos_url": "https://api.github.com/users/lforst/repos",
+                    "events_url": "https://api.github.com/users/lforst/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lforst/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "lforst",
+                        "id": 8118419,
+                        "node_id": "MDQ6VXNlcjgxMTg0MTk=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/8118419?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/lforst",
+                        "html_url": "https://github.com/lforst",
+                        "followers_url": "https://api.github.com/users/lforst/followers",
+                        "following_url": "https://api.github.com/users/lforst/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/lforst/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/lforst/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/lforst/subscriptions",
+                        "organizations_url": "https://api.github.com/users/lforst/orgs",
+                        "repos_url": "https://api.github.com/users/lforst/repos",
+                        "events_url": "https://api.github.com/users/lforst/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/lforst/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 4207051418,
+                        "node_id": "LA_kwDOAA1TcM76woKa",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Scope:%20Backend",
+                        "name": "Scope: Backend",
+                        "color": "F5B000",
+                        "default": false,
+                        "description": "Automatically applied to PRs that change backend components"
+                    },
+                    {
+                        "id": 5829942710,
+                        "node_id": "LA_kwDOAA1TcM8AAAABW33dtg",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Stale",
+                        "name": "Stale",
+                        "color": "8D5494",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/getsentry/sentry/pulls/56002/commits",
+                "review_comments_url": "https://api.github.com/repos/getsentry/sentry/pulls/56002/comments",
+                "review_comment_url": "https://api.github.com/repos/getsentry/sentry/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/56002/comments",
+                "statuses_url": "https://api.github.com/repos/getsentry/sentry/statuses/bc3e518e8ac00385ce4336b85c28078336a820cc",
+                "head": {
+                    "label": "Ten0:error_page_display_event_id",
+                    "ref": "error_page_display_event_id",
+                    "sha": "bc3e518e8ac00385ce4336b85c28078336a820cc",
+                    "user": {
+                        "login": "Ten0",
+                        "id": 9094255,
+                        "node_id": "MDQ6VXNlcjkwOTQyNTU=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/9094255?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/Ten0",
+                        "html_url": "https://github.com/Ten0",
+                        "followers_url": "https://api.github.com/users/Ten0/followers",
+                        "following_url": "https://api.github.com/users/Ten0/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/Ten0/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/Ten0/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/Ten0/subscriptions",
+                        "organizations_url": "https://api.github.com/users/Ten0/orgs",
+                        "repos_url": "https://api.github.com/users/Ten0/repos",
+                        "events_url": "https://api.github.com/users/Ten0/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/Ten0/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 690083455,
+                        "node_id": "R_kgDOKSHWfw",
+                        "name": "sentry",
+                        "full_name": "Ten0/sentry",
+                        "private": false,
+                        "owner": {
+                            "login": "Ten0",
+                            "id": 9094255,
+                            "node_id": "MDQ6VXNlcjkwOTQyNTU=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/9094255?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/Ten0",
+                            "html_url": "https://github.com/Ten0",
+                            "followers_url": "https://api.github.com/users/Ten0/followers",
+                            "following_url": "https://api.github.com/users/Ten0/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/Ten0/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/Ten0/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/Ten0/subscriptions",
+                            "organizations_url": "https://api.github.com/users/Ten0/orgs",
+                            "repos_url": "https://api.github.com/users/Ten0/repos",
+                            "events_url": "https://api.github.com/users/Ten0/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/Ten0/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/Ten0/sentry",
+                        "description": "Developer-first error tracking and performance monitoring",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/Ten0/sentry",
+                        "forks_url": "https://api.github.com/repos/Ten0/sentry/forks",
+                        "keys_url": "https://api.github.com/repos/Ten0/sentry/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/Ten0/sentry/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/Ten0/sentry/teams",
+                        "hooks_url": "https://api.github.com/repos/Ten0/sentry/hooks",
+                        "issue_events_url": "https://api.github.com/repos/Ten0/sentry/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/Ten0/sentry/events",
+                        "assignees_url": "https://api.github.com/repos/Ten0/sentry/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/Ten0/sentry/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/Ten0/sentry/tags",
+                        "blobs_url": "https://api.github.com/repos/Ten0/sentry/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/Ten0/sentry/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/Ten0/sentry/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/Ten0/sentry/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/Ten0/sentry/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/Ten0/sentry/languages",
+                        "stargazers_url": "https://api.github.com/repos/Ten0/sentry/stargazers",
+                        "contributors_url": "https://api.github.com/repos/Ten0/sentry/contributors",
+                        "subscribers_url": "https://api.github.com/repos/Ten0/sentry/subscribers",
+                        "subscription_url": "https://api.github.com/repos/Ten0/sentry/subscription",
+                        "commits_url": "https://api.github.com/repos/Ten0/sentry/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/Ten0/sentry/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/Ten0/sentry/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/Ten0/sentry/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/Ten0/sentry/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/Ten0/sentry/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/Ten0/sentry/merges",
+                        "archive_url": "https://api.github.com/repos/Ten0/sentry/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/Ten0/sentry/downloads",
+                        "issues_url": "https://api.github.com/repos/Ten0/sentry/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/Ten0/sentry/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/Ten0/sentry/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/Ten0/sentry/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/Ten0/sentry/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/Ten0/sentry/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/Ten0/sentry/deployments",
+                        "created_at": "2023-09-11T13:54:09Z",
+                        "updated_at": "2023-09-11T13:54:09Z",
+                        "pushed_at": "2023-10-19T07:02:15Z",
+                        "git_url": "git://github.com/Ten0/sentry.git",
+                        "ssh_url": "git@github.com:Ten0/sentry.git",
+                        "clone_url": "https://github.com/Ten0/sentry.git",
+                        "svn_url": "https://github.com/Ten0/sentry",
+                        "homepage": "https://sentry.io",
+                        "size": 357410,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "getsentry:master",
+                    "ref": "master",
+                    "sha": "ea1023245fa1962fc3989cb5bb016f6c70b3ea57",
+                    "user": {
+                        "login": "getsentry",
+                        "id": 1396951,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzOTY5NTE=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/getsentry",
+                        "html_url": "https://github.com/getsentry",
+                        "followers_url": "https://api.github.com/users/getsentry/followers",
+                        "following_url": "https://api.github.com/users/getsentry/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/getsentry/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/getsentry/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/getsentry/subscriptions",
+                        "organizations_url": "https://api.github.com/users/getsentry/orgs",
+                        "repos_url": "https://api.github.com/users/getsentry/repos",
+                        "events_url": "https://api.github.com/users/getsentry/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/getsentry/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 873328,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NzMzMjg=",
+                        "name": "sentry",
+                        "full_name": "getsentry/sentry",
+                        "private": false,
+                        "owner": {
+                            "login": "getsentry",
+                            "id": 1396951,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjEzOTY5NTE=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/getsentry",
+                            "html_url": "https://github.com/getsentry",
+                            "followers_url": "https://api.github.com/users/getsentry/followers",
+                            "following_url": "https://api.github.com/users/getsentry/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/getsentry/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/getsentry/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/getsentry/subscriptions",
+                            "organizations_url": "https://api.github.com/users/getsentry/orgs",
+                            "repos_url": "https://api.github.com/users/getsentry/repos",
+                            "events_url": "https://api.github.com/users/getsentry/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/getsentry/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/getsentry/sentry",
+                        "description": "Developer-first error tracking and performance monitoring",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/getsentry/sentry",
+                        "forks_url": "https://api.github.com/repos/getsentry/sentry/forks",
+                        "keys_url": "https://api.github.com/repos/getsentry/sentry/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/getsentry/sentry/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/getsentry/sentry/teams",
+                        "hooks_url": "https://api.github.com/repos/getsentry/sentry/hooks",
+                        "issue_events_url": "https://api.github.com/repos/getsentry/sentry/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/getsentry/sentry/events",
+                        "assignees_url": "https://api.github.com/repos/getsentry/sentry/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/getsentry/sentry/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/getsentry/sentry/tags",
+                        "blobs_url": "https://api.github.com/repos/getsentry/sentry/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/getsentry/sentry/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/getsentry/sentry/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/getsentry/sentry/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/getsentry/sentry/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/getsentry/sentry/languages",
+                        "stargazers_url": "https://api.github.com/repos/getsentry/sentry/stargazers",
+                        "contributors_url": "https://api.github.com/repos/getsentry/sentry/contributors",
+                        "subscribers_url": "https://api.github.com/repos/getsentry/sentry/subscribers",
+                        "subscription_url": "https://api.github.com/repos/getsentry/sentry/subscription",
+                        "commits_url": "https://api.github.com/repos/getsentry/sentry/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/getsentry/sentry/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/getsentry/sentry/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/getsentry/sentry/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/getsentry/sentry/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/getsentry/sentry/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/getsentry/sentry/merges",
+                        "archive_url": "https://api.github.com/repos/getsentry/sentry/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/getsentry/sentry/downloads",
+                        "issues_url": "https://api.github.com/repos/getsentry/sentry/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/getsentry/sentry/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/getsentry/sentry/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/getsentry/sentry/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/getsentry/sentry/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/getsentry/sentry/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/getsentry/sentry/deployments",
+                        "created_at": "2010-08-30T22:06:41Z",
+                        "updated_at": "2023-10-27T07:07:08Z",
+                        "pushed_at": "2023-10-27T07:00:50Z",
+                        "git_url": "git://github.com/getsentry/sentry.git",
+                        "ssh_url": "git@github.com:getsentry/sentry.git",
+                        "clone_url": "https://github.com/getsentry/sentry.git",
+                        "svn_url": "https://github.com/getsentry/sentry",
+                        "homepage": "https://sentry.io",
+                        "size": 438574,
+                        "stargazers_count": 35420,
+                        "watchers_count": 35420,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 3989,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1654,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "apm",
+                            "crash-reporting",
+                            "crash-reports",
+                            "csp-report",
+                            "devops",
+                            "django",
+                            "error-logging",
+                            "error-monitoring",
+                            "hacktoberfest",
+                            "monitor",
+                            "monitoring",
+                            "python",
+                            "sentry",
+                            "tag-production"
+                        ],
+                        "visibility": "public",
+                        "forks": 3989,
+                        "open_issues": 1654,
+                        "watchers": 35420,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/56002"
+                    },
+                    "html": {
+                        "href": "https://github.com/getsentry/sentry/pull/56002"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/issues/56002"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/issues/56002/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/56002/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/pulls/56002/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/getsentry/sentry/statuses/bc3e518e8ac00385ce4336b85c28078336a820cc"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 2,
+                "review_comments": 2,
+                "maintainer_can_modify": true,
+                "commits": 2,
+                "additions": 23,
+                "deletions": 3,
+                "changed_files": 2
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:33:12Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890534750",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 6889433,
+            "login": "MwumLi",
+            "display_login": "MwumLi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/MwumLi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6889433?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:07:08Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890453239",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 96223747,
+            "login": "Pree-04",
+            "display_login": "Pree-04",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Pree-04",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96223747?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:03:26Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890412166",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4294069,
+            "login": "0o001",
+            "display_login": "0o001",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/0o001",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4294069?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/55126",
+                "repository_url": "https://api.github.com/repos/getsentry/sentry",
+                "labels_url": "https://api.github.com/repos/getsentry/sentry/issues/55126/labels{/name}",
+                "comments_url": "https://api.github.com/repos/getsentry/sentry/issues/55126/comments",
+                "events_url": "https://api.github.com/repos/getsentry/sentry/issues/55126/events",
+                "html_url": "https://github.com/getsentry/sentry/pull/55126",
+                "id": 1857686628,
+                "node_id": "PR_kwDOAA1TcM5YTOH6",
+                "number": 55126,
+                "title": "fix: metrics.timer typo",
+                "user": {
+                    "login": "0o001",
+                    "id": 4294069,
+                    "node_id": "MDQ6VXNlcjQyOTQwNjk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4294069?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/0o001",
+                    "html_url": "https://github.com/0o001",
+                    "followers_url": "https://api.github.com/users/0o001/followers",
+                    "following_url": "https://api.github.com/users/0o001/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/0o001/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/0o001/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/0o001/subscriptions",
+                    "organizations_url": "https://api.github.com/users/0o001/orgs",
+                    "repos_url": "https://api.github.com/users/0o001/repos",
+                    "events_url": "https://api.github.com/users/0o001/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/0o001/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4207051418,
+                        "node_id": "LA_kwDOAA1TcM76woKa",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Scope:%20Backend",
+                        "name": "Scope: Backend",
+                        "color": "F5B000",
+                        "default": false,
+                        "description": "Automatically applied to PRs that change backend components"
+                    },
+                    {
+                        "id": 5829942710,
+                        "node_id": "LA_kwDOAA1TcM8AAAABW33dtg",
+                        "url": "https://api.github.com/repos/getsentry/sentry/labels/Stale",
+                        "name": "Stale",
+                        "color": "8D5494",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-08-19T11:52:11Z",
+                "updated_at": "2023-10-27T07:01:32Z",
+                "closed_at": "2023-10-27T07:00:40Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/pulls/55126",
+                    "html_url": "https://github.com/getsentry/sentry/pull/55126",
+                    "diff_url": "https://github.com/getsentry/sentry/pull/55126.diff",
+                    "patch_url": "https://github.com/getsentry/sentry/pull/55126.patch",
+                    "merged_at": null
+                },
+                "body": "\r\n\r\n<!-- Describe your PR here. -->\r\n\r\n\r\n\r\n<!--\r\n\r\n  Sentry employees and contractors can delete or ignore the following.\r\n\r\n-->\r\n\r\n### Legal Boilerplate\r\n\r\nLook, I get it. The entity doing business as \"Sentry\" was incorporated in the State of Delaware in 2015 as Functional Software, Inc. and is gonna need some rights from me in order to utilize my contributions in this here PR. So here's the deal: I retain all rights, title and interest in and to my contributions, and by keeping this boilerplate intact I confirm that Sentry can use, modify, copy, and redistribute my contributions, under Sentry's choice of terms.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/55126/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/getsentry/sentry/issues/55126/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782402219",
+                "html_url": "https://github.com/getsentry/sentry/pull/55126#issuecomment-1782402219",
+                "issue_url": "https://api.github.com/repos/getsentry/sentry/issues/55126",
+                "id": 1782402219,
+                "node_id": "IC_kwDOAA1TcM5qPUyr",
+                "user": {
+                    "login": "0o001",
+                    "id": 4294069,
+                    "node_id": "MDQ6VXNlcjQyOTQwNjk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4294069?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/0o001",
+                    "html_url": "https://github.com/0o001",
+                    "followers_url": "https://api.github.com/users/0o001/followers",
+                    "following_url": "https://api.github.com/users/0o001/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/0o001/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/0o001/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/0o001/subscriptions",
+                    "organizations_url": "https://api.github.com/users/0o001/orgs",
+                    "repos_url": "https://api.github.com/users/0o001/repos",
+                    "events_url": "https://api.github.com/users/0o001/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/0o001/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T07:01:31Z",
+                "updated_at": "2023-10-27T07:01:31Z",
+                "author_association": "NONE",
+                "body": "@armenzg ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/getsentry/sentry/issues/comments/1782402219/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:01:32Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399825",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/cbor-web-9.0.0",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399818",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/react-aria/separator-3.3.1",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399803",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/jest-fail-on-console-3.1.1",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399821",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/react-aria/button-3.8.0",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399820",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/react-stately/numberfield-3.4.1",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399801",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/monaco-editor/react-4.5.2",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399804",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/react-aria/button-3.8.1",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399787",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/emotion/react-11.11.1",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399814",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/css-loader-6.7.3",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    },
+    {
+        "id": "32890399830",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 873328,
+            "name": "getsentry/sentry",
+            "url": "https://api.github.com/repos/getsentry/sentry"
+        },
+        "payload": {
+            "ref": "dependabot/npm_and_yarn/react-stately/numberfield-3.5.0",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:00:58Z",
+        "org": {
+            "id": 1396951,
+            "login": "getsentry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getsentry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1396951?"
+        }
+    }
+]

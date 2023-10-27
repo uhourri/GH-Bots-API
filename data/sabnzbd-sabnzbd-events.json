@@ -1,0 +1,2846 @@
+[
+    {
+        "id": "32895436279",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16778130,
+            "login": "sabnzbd-automation",
+            "display_login": "sabnzbd-automation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sabnzbd-automation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16778130?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15590120988,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "e571165c151c0f59965a6552945986652d7d25b5",
+            "before": "1513664b5f3e689fe9051ce00e58f43b6df6b10f",
+            "commits": [
+                {
+                    "sha": "e571165c151c0f59965a6552945986652d7d25b5",
+                    "author": {
+                        "email": "bugs@sabnzbd.org",
+                        "name": "SABnzbd Automation"
+                    },
+                    "message": "Update translatable texts\n[skip ci]",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/e571165c151c0f59965a6552945986652d7d25b5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:20:01Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32895433006",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2685",
+                "id": 1900307461,
+                "node_id": "I_kwDOACFguM5xRGQF",
+                "number": 2685,
+                "title": "Crashes when saving config due to concurrent access",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 540445709,
+                        "node_id": "MDU6TGFiZWw1NDA0NDU3MDk=",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Help%20Wanted",
+                        "name": "Help Wanted",
+                        "color": "B85EC9",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-09-18T07:10:23Z",
+                "updated_at": "2023-10-27T10:19:54Z",
+                "closed_at": "2023-10-27T10:19:20Z",
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "We have had intermitting failures of the CI on `test_api_watched_now`.\r\nTurns out the problem is that `CFG_DATABASE` changes size (see traceback below).\r\n\r\nI always found the whole setup of the `config.py` very very ugly with all it's `global`'s, just never got around to making a good class-based refactor.\r\nIf we do a refactor we can introduce proper locks around this.\r\n\r\nFor now marking it as `xfail`.\r\n\r\n```\r\n2023-09-17T19:08:35.3862707Z Traceback (most recent call last):\r\n2023-09-17T19:08:35.3863442Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\_cprequest.py\", line 638, in respond\r\n2023-09-17T19:08:35.3863941Z     self._do_respond(path_info)\r\n2023-09-17T19:08:35.3864605Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\_cprequest.py\", line 697, in _do_respond\r\n2023-09-17T19:08:35.3865110Z     response.body = self.handler()\r\n2023-09-17T19:08:35.3865782Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\lib\\encoding.py\", line 223, in __call__\r\n2023-09-17T19:08:35.3866308Z     self.body = self.oldhandler(*args, **kwargs)\r\n2023-09-17T19:08:35.3866996Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\_cpdispatch.py\", line 54, in __call__\r\n2023-09-17T19:08:35.3867516Z     return self.callable(*self.args, **self.kwargs)\r\n2023-09-17T19:08:35.3868015Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\interface.py\", line 191, in internal_wrap\r\n2023-09-17T19:08:35.3868441Z     return wrap_func(*args, **kwargs)\r\n2023-09-17T19:08:35.3868872Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\interface.py\", line 467, in api\r\n2023-09-17T19:08:35.3869323Z     return api_handler(kwargs)\r\n2023-09-17T19:08:35.3869750Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\api.py\", line 105, in api_handler\r\n2023-09-17T19:08:35.3870219Z     response = _api_table.get(mode, (_api_undefined, 2))[0](name, kwargs)\r\n2023-09-17T19:08:35.3870722Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\api.py\", line 131, in _api_set_config\r\n2023-09-17T19:08:35.3871100Z     config.save_config()\r\n2023-09-17T19:08:35.3871513Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\decorators.py\", line 39, in call_func\r\n2023-09-17T19:08:35.3871910Z     return func(*args, **kw)\r\n2023-09-17T19:08:35.3872339Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\config.py\", line 962, in save_config\r\n2023-09-17T19:08:35.3872741Z     for section in CFG_DATABASE:\r\n2023-09-17T19:08:35.3873112Z RuntimeError: dictionary changed size during iteration\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1782666794",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2685#issuecomment-1782666794",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685",
+                "id": 1782666794,
+                "node_id": "IC_kwDOACFguM5qQVYq",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T10:19:54Z",
+                "updated_at": "2023-10-27T10:19:54Z",
+                "author_association": "MEMBER",
+                "body": "We still should do a `class` based refactor..",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1782666794/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:19:55Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32895423339",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "ref": "bugfix/configlock",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:19:34Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32895417654",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2685",
+                "id": 1900307461,
+                "node_id": "I_kwDOACFguM5xRGQF",
+                "number": 2685,
+                "title": "Crashes when saving config due to concurrent access",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 540445709,
+                        "node_id": "MDU6TGFiZWw1NDA0NDU3MDk=",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Help%20Wanted",
+                        "name": "Help Wanted",
+                        "color": "B85EC9",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-09-18T07:10:23Z",
+                "updated_at": "2023-10-27T10:19:20Z",
+                "closed_at": "2023-10-27T10:19:20Z",
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "We have had intermitting failures of the CI on `test_api_watched_now`.\r\nTurns out the problem is that `CFG_DATABASE` changes size (see traceback below).\r\n\r\nI always found the whole setup of the `config.py` very very ugly with all it's `global`'s, just never got around to making a good class-based refactor.\r\nIf we do a refactor we can introduce proper locks around this.\r\n\r\nFor now marking it as `xfail`.\r\n\r\n```\r\n2023-09-17T19:08:35.3862707Z Traceback (most recent call last):\r\n2023-09-17T19:08:35.3863442Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\_cprequest.py\", line 638, in respond\r\n2023-09-17T19:08:35.3863941Z     self._do_respond(path_info)\r\n2023-09-17T19:08:35.3864605Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\_cprequest.py\", line 697, in _do_respond\r\n2023-09-17T19:08:35.3865110Z     response.body = self.handler()\r\n2023-09-17T19:08:35.3865782Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\lib\\encoding.py\", line 223, in __call__\r\n2023-09-17T19:08:35.3866308Z     self.body = self.oldhandler(*args, **kwargs)\r\n2023-09-17T19:08:35.3866996Z   File \"c:\\users\\runneradmin\\.virtualenvs\\.venv\\lib\\site-packages\\cherrypy\\_cpdispatch.py\", line 54, in __call__\r\n2023-09-17T19:08:35.3867516Z     return self.callable(*self.args, **self.kwargs)\r\n2023-09-17T19:08:35.3868015Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\interface.py\", line 191, in internal_wrap\r\n2023-09-17T19:08:35.3868441Z     return wrap_func(*args, **kwargs)\r\n2023-09-17T19:08:35.3868872Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\interface.py\", line 467, in api\r\n2023-09-17T19:08:35.3869323Z     return api_handler(kwargs)\r\n2023-09-17T19:08:35.3869750Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\api.py\", line 105, in api_handler\r\n2023-09-17T19:08:35.3870219Z     response = _api_table.get(mode, (_api_undefined, 2))[0](name, kwargs)\r\n2023-09-17T19:08:35.3870722Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\api.py\", line 131, in _api_set_config\r\n2023-09-17T19:08:35.3871100Z     config.save_config()\r\n2023-09-17T19:08:35.3871513Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\decorators.py\", line 39, in call_func\r\n2023-09-17T19:08:35.3871910Z     return func(*args, **kw)\r\n2023-09-17T19:08:35.3872339Z   File \"D:\\a\\sabnzbd\\sabnzbd\\sabnzbd\\config.py\", line 962, in save_config\r\n2023-09-17T19:08:35.3872741Z     for section in CFG_DATABASE:\r\n2023-09-17T19:08:35.3873112Z RuntimeError: dictionary changed size during iteration\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2685/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:19:21Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32895417112",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15590111301,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "1513664b5f3e689fe9051ce00e58f43b6df6b10f",
+            "before": "0132d81c43b493927028881f6d98b01d9857e88c",
+            "commits": [
+                {
+                    "sha": "1513664b5f3e689fe9051ce00e58f43b6df6b10f",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Lock all config dict operations\n\nCloses #2685",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/1513664b5f3e689fe9051ce00e58f43b6df6b10f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:19:20Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32895042525",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 796194,
+            "login": "Marsup",
+            "display_login": "Marsup",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Marsup",
+            "avatar_url": "https://avatars.githubusercontent.com/u/796194?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 9,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-27T10:04:57Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1782646817",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1782646817",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1782646817,
+                "node_id": "IC_kwDOACFguM5qQQgh",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T10:04:57Z",
+                "updated_at": "2023-10-27T10:04:57Z",
+                "author_association": "NONE",
+                "body": "So is there a workaround that I could use to make it happen? A pre-queue script maybe?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1782646817/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:04:58Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32895007558",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15589906575,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/bugfix/configlock",
+            "head": "1567d0409b7f14a79f799a9c472a211b930cf4a8",
+            "before": "ac6f0e215c4e2f7e34c940212bd96d98aee10f0c",
+            "commits": [
+                {
+                    "sha": "1567d0409b7f14a79f799a9c472a211b930cf4a8",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Lock all config dict operations",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/1567d0409b7f14a79f799a9c472a211b930cf4a8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:03:36Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32894802599",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "ref": "bugfix/configlock",
+            "ref_type": "branch",
+            "master_branch": "develop",
+            "description": "SABnzbd - The automated Usenet download tool",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:55:52Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32894221819",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-27T09:33:52Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1782603628",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1782603628",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1782603628,
+                "node_id": "IC_kwDOACFguM5qQF9s",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-27T09:33:52Z",
+                "updated_at": "2023-10-27T09:33:52Z",
+                "author_association": "MEMBER",
+                "body": "I don't think I want to fix this, because adding jobs (not the fetch) as paused is the more expected behaviour. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1782603628/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T09:33:52Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32848611417",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 796194,
+            "login": "Marsup",
+            "display_login": "Marsup",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Marsup",
+            "avatar_url": "https://avatars.githubusercontent.com/u/796194?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T20:29:35Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1780006773",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1780006773",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1780006773,
+                "node_id": "IC_kwDOACFguM5qGL91",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T20:29:35Z",
+                "updated_at": "2023-10-25T20:29:35Z",
+                "author_association": "NONE",
+                "body": "Kind of, since RSS is a bit unpredictable, sometimes filters are not that effective, and I've found myself grabbing way too many entries on some occasions and got reprimanded for that as it was way beyond an acceptable use limit. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1780006773/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:29:36Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32848482683",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T20:23:53Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779998880",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1779998880",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1779998880,
+                "node_id": "IC_kwDOACFguM5qGKCg",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T20:23:52Z",
+                "updated_at": "2023-10-25T20:23:52Z",
+                "author_association": "MEMBER",
+                "body": "But what's the problem if they are grabbed, but are then paused? You have a grab limit?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779998880/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:23:53Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32848430070",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 796194,
+            "login": "Marsup",
+            "display_login": "Marsup",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Marsup",
+            "avatar_url": "https://avatars.githubusercontent.com/u/796194?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T20:21:35Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779995647",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1779995647",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1779995647,
+                "node_id": "IC_kwDOACFguM5qGJP_",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T20:21:34Z",
+                "updated_at": "2023-10-25T20:21:34Z",
+                "author_association": "NONE",
+                "body": "My own use case is that I can decently filter RSS entries with advanced regexes, but it's never flawless (and probably won't ever be), and I want to evaluate manually whether I actually want to download or not after that 1st pass of filters. If paused jobs coming from RSS are not grabbed until unpaused, that would work for me as well, I don't need a global pause, I just thought it was the way it would work. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779995647/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:21:35Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32848377226",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T20:19:14Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779992510",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1779992510",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1779992510,
+                "node_id": "IC_kwDOACFguM5qGIe-",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T20:19:13Z",
+                "updated_at": "2023-10-25T20:19:13Z",
+                "author_association": "MEMBER",
+                "body": "People want that, to decided themselves when or if they want to download a job at all.\r\nThat's why we also have it in the Categories settings and it can be set from pre-queue script.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779992510/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T20:19:14Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32847452068",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 500882,
+            "login": "thezoggy",
+            "display_login": "thezoggy",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thezoggy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/500882?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T19:40:21Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779937114",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1779937114",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1779937114,
+                "node_id": "IC_kwDOACFguM5qF69a",
+                "user": {
+                    "login": "thezoggy",
+                    "id": 500882,
+                    "node_id": "MDQ6VXNlcjUwMDg4Mg==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/500882?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thezoggy",
+                    "html_url": "https://github.com/thezoggy",
+                    "followers_url": "https://api.github.com/users/thezoggy/followers",
+                    "following_url": "https://api.github.com/users/thezoggy/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thezoggy/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thezoggy/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thezoggy/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thezoggy/orgs",
+                    "repos_url": "https://api.github.com/users/thezoggy/repos",
+                    "events_url": "https://api.github.com/users/thezoggy/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thezoggy/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T19:40:20Z",
+                "updated_at": "2023-10-25T19:40:20Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "What's the actual use case of passing a paused job. Pausing the feed/in pausing should just be that.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779937114/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T19:40:21Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32846708598",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T19:09:24Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779888584",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1779888584",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1779888584,
+                "node_id": "IC_kwDOACFguM5qFvHI",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T19:09:24Z",
+                "updated_at": "2023-10-25T19:09:24Z",
+                "author_association": "MEMBER",
+                "body": "This leaves another question: after you unpause the URL-grab, the resulting actual download, should it be paused or unpaused?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779888584/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T19:09:25Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32846542972",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T19:02:33Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779878532",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719#issuecomment-1779878532",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "id": 1779878532,
+                "node_id": "IC_kwDOACFguM5qFsqE",
+                "user": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T19:02:32Z",
+                "updated_at": "2023-10-25T19:02:32Z",
+                "author_association": "MEMBER",
+                "body": "Yes indeed, this is broken when the URL's come from the RSS.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments/1779878532/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T19:02:33Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32846015180",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 796194,
+            "login": "Marsup",
+            "display_login": "Marsup",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Marsup",
+            "avatar_url": "https://avatars.githubusercontent.com/u/796194?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2719",
+                "id": 1962012729,
+                "node_id": "I_kwDOACFguM508fA5",
+                "number": 2719,
+                "title": "Pausing URL grabber regression",
+                "user": {
+                    "login": "Marsup",
+                    "id": 796194,
+                    "node_id": "MDQ6VXNlcjc5NjE5NA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/796194?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Marsup",
+                    "html_url": "https://github.com/Marsup",
+                    "followers_url": "https://api.github.com/users/Marsup/followers",
+                    "following_url": "https://api.github.com/users/Marsup/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Marsup/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Marsup/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Marsup/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Marsup/orgs",
+                    "repos_url": "https://api.github.com/users/Marsup/repos",
+                    "events_url": "https://api.github.com/users/Marsup/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Marsup/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-25T18:40:58Z",
+                "updated_at": "2023-10-25T18:40:58Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\n\n4.1.0\n\n### Operating system\n\nLinux\n\n### Using Docker image\n\nlinuxserver\n\n### Description\n\nHi,\r\n\r\nI'm a new user to SABnzbd and am trying to use something that was mentioned in [an old issue](https://github.com/sabnzbd/sabnzbd/issues/988). This feature supposedly pauses the URL grabber under certain conditions, but unsuccessfully so far. I asked on Discord and was advised to create an issue.\r\n\r\nI was under the impression that maybe having both SABnzbd paused and a RSS defaulting downloads to paused would simply create an entry in the queue without actually downloading the nzb file, but it looks like it does. I have a succession of those lines in the log:\r\n```\r\n[rss:474] Starting scheduled RSS read-out...\r\n[rss:656] Adding https://...\r\n[urlgrabber:400] Fetching https://...\r\n[urlgrabber:120] Grabbing URL https://\r\n```\r\nIndicating that it is indeed fetching the file, but it is confirmed by the indexer anyway.\r\n\r\nAm I misunderstanding the original issue? (in which case this would become a feature request)\r\nWas there a regression at some point in history?\r\n\r\nThanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2719/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T18:40:59Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32838499853",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16778130,
+            "login": "sabnzbd-automation",
+            "display_login": "sabnzbd-automation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sabnzbd-automation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16778130?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15561675701,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "0132d81c43b493927028881f6d98b01d9857e88c",
+            "before": "8d32da8b2792e9ded118b498ff63245049ddc171",
+            "commits": [
+                {
+                    "sha": "0132d81c43b493927028881f6d98b01d9857e88c",
+                    "author": {
+                        "email": "bugs@sabnzbd.org",
+                        "name": "SABnzbd Automation"
+                    },
+                    "message": "Update translatable texts\n[skip ci]",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/0132d81c43b493927028881f6d98b01d9857e88c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:19:42Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32838473065",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "ref": "feature/handle_folders",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:18:59Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32838470948",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2717",
+                "repository_url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2717/labels{/name}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2717/comments",
+                "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2717/events",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/issues/2717",
+                "id": 1956573088,
+                "node_id": "I_kwDOACFguM50nu-g",
+                "number": 2717,
+                "title": "[BUG] Temporary Download Folder creates subdirectory",
+                "user": {
+                    "login": "Kazuto",
+                    "id": 25435034,
+                    "node_id": "MDQ6VXNlcjI1NDM1MDM0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25435034?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Kazuto",
+                    "html_url": "https://github.com/Kazuto",
+                    "followers_url": "https://api.github.com/users/Kazuto/followers",
+                    "following_url": "https://api.github.com/users/Kazuto/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Kazuto/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Kazuto/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Kazuto/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Kazuto/orgs",
+                    "repos_url": "https://api.github.com/users/Kazuto/repos",
+                    "events_url": "https://api.github.com/users/Kazuto/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Kazuto/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 34141153,
+                        "node_id": "MDU6TGFiZWwzNDE0MTE1Mw==",
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels/Bug",
+                        "name": "Bug",
+                        "color": "e10c02",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2023-10-23T07:56:31Z",
+                "updated_at": "2023-10-25T14:18:55Z",
+                "closed_at": "2023-10-25T14:18:55Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### SABnzbd version\r\n\r\n4.0.3\r\n\r\n### Operating system\r\n\r\nWindows (Docker)\r\n\r\n### Using Docker image\r\n\r\nlinuxserver\r\n\r\n### Description\r\n\r\n### Current Behavior\r\n\r\nSelecting a directory except `/incomplete-downloads` creates a subdirectory called `incomplete`, so basically choosing `downloads/incomplete` creates `downloads/incomplete/incomplete`.\r\n\r\nChoosing just `downloads` is not allowed because `The Completed Download Folder cannot be the same or a subfolder of the Temporary Download Folder`.\r\n\r\n**Example 1**\r\n- `/downloads/complete` -> Completed downloads\r\n- `/downloads/incomplete` -> Incompleted downloads\r\n\r\nThe latter will be `/downloads/incomplete/incomplete` even though they are already two distinct directories.\r\n\r\n**Example 2**\r\n- `/downloads/complete` -> Completed downloads\r\n- `/incomplete-downloads` -> Incompleted downloads\r\n\r\nThe latter does not create a subdirectory.\r\n\r\n**Example 3**\r\n- `/downloads/complete` -> Completed downloads\r\n- `/downloads` -> Incompleted downloads\r\n\r\nThe latter won't work even though it would automatically create a subdirectory called `incomplete` making it `/downloads/incomplete` and again two distinct directories.\r\n\r\nThis means that somewhere in the codebase a path/string match is done for `/incomplete-downloads` and if the path does not match a subdirectory is created, though not checking if the path base dir is the same as as `Completed Download Folder` and creating a subdirectory then.\r\n\r\n### Expected Behavior\r\n\r\nThe application checks the path, compares it to the base path of `Completed Download Folder` and only throws the error if both paths truly are the same.\r\n\r\nIf `Temporary Download Folder`\r\n- is `/incomplete-downloads` => do nothing\r\n- is a sibling of `Completed Download Folder` => do nothing\r\n- is the parent of `Completed Download Folder` => create directory `incomplete` and update path\r\n- is the same as `Completed Download Folder` => throws the error\r\n\r\nI hope this gets my point across.\r\n\r\nThis was the behaviour when switching from the official `sabnzbd/sabnzbd` image which I've used before, but ran on version 3.2.1 and is not available anymore unfortunately.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2717/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2717/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:18:56Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32838470108",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15561660602,
+            "size": 2,
+            "distinct_size": 0,
+            "ref": "refs/heads/develop",
+            "head": "8d32da8b2792e9ded118b498ff63245049ddc171",
+            "before": "d0166b5a5c22b1e5e7409896436a55283d539a6d",
+            "commits": [
+                {
+                    "sha": "b5fbc8af8623ef22a6a25cf120fdf154f5ace456",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Refactor handling of Complete vs Incomplete check\n\nCloses #2717",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/b5fbc8af8623ef22a6a25cf120fdf154f5ace456"
+                },
+                {
+                    "sha": "8d32da8b2792e9ded118b498ff63245049ddc171",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Refactor of some parts of Config saving",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/8d32da8b2792e9ded118b498ff63245049ddc171"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:18:54Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32838050784",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15561456447,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/feature/handle_folders",
+            "head": "8d32da8b2792e9ded118b498ff63245049ddc171",
+            "before": "29b76c9bd3d916f16490ee0b53a927236020ecf2",
+            "commits": [
+                {
+                    "sha": "b5fbc8af8623ef22a6a25cf120fdf154f5ace456",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Refactor handling of Complete vs Incomplete check\n\nCloses #2717",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/b5fbc8af8623ef22a6a25cf120fdf154f5ace456"
+                },
+                {
+                    "sha": "8d32da8b2792e9ded118b498ff63245049ddc171",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Refactor of some parts of Config saving",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/8d32da8b2792e9ded118b498ff63245049ddc171"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T14:07:06Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32836582245",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15560760296,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feature/handle_folders",
+            "head": "29b76c9bd3d916f16490ee0b53a927236020ecf2",
+            "before": "958e3d56572fc50bf66ee2bcfeceefd83593a3e4",
+            "commits": [
+                {
+                    "sha": "29b76c9bd3d916f16490ee0b53a927236020ecf2",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Update tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/29b76c9bd3d916f16490ee0b53a927236020ecf2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:24:21Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32836317863",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15560630465,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/feature/handle_folders",
+            "head": "958e3d56572fc50bf66ee2bcfeceefd83593a3e4",
+            "before": "93e7cc400f68907108df51e3c197b9aa1e6357e4",
+            "commits": [
+                {
+                    "sha": "1a0394a5472c6e516f7e5920766bffc63c240d6c",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Small refactor of Config saving",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/1a0394a5472c6e516f7e5920766bffc63c240d6c"
+                },
+                {
+                    "sha": "958e3d56572fc50bf66ee2bcfeceefd83593a3e4",
+                    "author": {
+                        "email": "safihre@sabnzbd.org",
+                        "name": "Safihre"
+                    },
+                    "message": "Update tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/958e3d56572fc50bf66ee2bcfeceefd83593a3e4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:16:33Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32835823649",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 84471300,
+            "login": "canh25xp",
+            "display_login": "canh25xp",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canh25xp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/84471300?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:01:52Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32835802498",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "ref": "feature/handle_folders",
+            "ref_type": "branch",
+            "master_branch": "develop",
+            "description": "SABnzbd - The automated Usenet download tool",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T13:01:14Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32830615747",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16778130,
+            "login": "sabnzbd-automation",
+            "display_login": "sabnzbd-automation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sabnzbd-automation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16778130?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15557803687,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "d0166b5a5c22b1e5e7409896436a55283d539a6d",
+            "before": "ada77d6970d78f167ad311e7f6873d9abed42de8",
+            "commits": [
+                {
+                    "sha": "d0166b5a5c22b1e5e7409896436a55283d539a6d",
+                    "author": {
+                        "email": "bugs@sabnzbd.org",
+                        "name": "SABnzbd Automation"
+                    },
+                    "message": "Update translatable texts\n[skip ci]",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/d0166b5a5c22b1e5e7409896436a55283d539a6d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:01:26Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32830594491",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "ref": "renovate/all",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:00:45Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32830594026",
+        "type": "PushEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "repository_id": 2187448,
+            "push_id": 15557793034,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/develop",
+            "head": "ada77d6970d78f167ad311e7f6873d9abed42de8",
+            "before": "9f8758b2426592d0f297f154c4f7e7da5593c71c",
+            "commits": [
+                {
+                    "sha": "ada77d6970d78f167ad311e7f6873d9abed42de8",
+                    "author": {
+                        "email": "29139614+renovate[bot]@users.noreply.github.com",
+                        "name": "renovate[bot]"
+                    },
+                    "message": "Update all dependencies (#2716)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits/ada77d6970d78f167ad311e7f6873d9abed42de8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:00:44Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    },
+    {
+        "id": "32830593718",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 5703454,
+            "login": "Safihre",
+            "display_login": "Safihre",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Safihre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5703454?"
+        },
+        "repo": {
+            "id": 2187448,
+            "name": "sabnzbd/sabnzbd",
+            "url": "https://api.github.com/repos/sabnzbd/sabnzbd"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 2716,
+            "pull_request": {
+                "url": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/2716",
+                "id": 1568578048,
+                "node_id": "PR_kwDOACFguM5dfpoA",
+                "html_url": "https://github.com/sabnzbd/sabnzbd/pull/2716",
+                "diff_url": "https://github.com/sabnzbd/sabnzbd/pull/2716.diff",
+                "patch_url": "https://github.com/sabnzbd/sabnzbd/pull/2716.patch",
+                "issue_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2716",
+                "number": 2716,
+                "state": "closed",
+                "locked": false,
+                "title": "Update all dependencies",
+                "user": {
+                    "login": "renovate[bot]",
+                    "id": 29139614,
+                    "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/renovate%5Bbot%5D",
+                    "html_url": "https://github.com/apps/renovate",
+                    "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "body": "[![Mend Renovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)\n\nThis PR contains the following updates:\n\n| Package | Change | Age | Adoption | Passing | Confidence |\n|---|---|---|---|---|---|\n| [cryptography](https://togithub.com/pyca/cryptography) ([changelog](https://cryptography.io/en/latest/changelog/)) | `==41.0.4` -> `==41.0.5` | [![age](https://developer.mend.io/api/mc/badges/age/pypi/cryptography/41.0.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://developer.mend.io/api/mc/badges/adoption/pypi/cryptography/41.0.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://developer.mend.io/api/mc/badges/compatibility/pypi/cryptography/41.0.4/41.0.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://developer.mend.io/api/mc/badges/confidence/pypi/cryptography/41.0.4/41.0.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) |\n| [pytest](https://docs.pytest.org/en/latest/) ([source](https://togithub.com/pytest-dev/pytest), [changelog](https://docs.pytest.org/en/stable/changelog.html)) | `==7.4.2` -> `==7.4.3` | [![age](https://developer.mend.io/api/mc/badges/age/pypi/pytest/7.4.3?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://developer.mend.io/api/mc/badges/adoption/pypi/pytest/7.4.3?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://developer.mend.io/api/mc/badges/compatibility/pypi/pytest/7.4.2/7.4.3?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://developer.mend.io/api/mc/badges/confidence/pypi/pytest/7.4.2/7.4.3?slim=true)](https://docs.renovatebot.com/merge-confidence/) |\n\n---\n\n### Release Notes\n\n<details>\n<summary>pyca/cryptography (cryptography)</summary>\n\n### [`v41.0.5`](https://togithub.com/pyca/cryptography/compare/41.0.4...41.0.5)\n\n[Compare Source](https://togithub.com/pyca/cryptography/compare/41.0.4...41.0.5)\n\n</details>\n\n<details>\n<summary>pytest-dev/pytest (pytest)</summary>\n\n### [`v7.4.3`](https://togithub.com/pytest-dev/pytest/compare/7.4.2...v7.4.3)\n\n[Compare Source](https://togithub.com/pytest-dev/pytest/compare/7.4.2...v7.4.3)\n\n</details>\n\n---\n\n### Configuration\n\n\ud83d\udcc5 **Schedule**: Branch creation - \"before 8am on Monday\" (UTC), Automerge - At any time (no schedule defined).\n\n\ud83d\udea6 **Automerge**: Enabled.\n\n\u267b **Rebasing**: Whenever PR becomes conflicted, or you tick the rebase/retry checkbox.\n\n\ud83d\udc7b **Immortal**: This PR will be recreated if closed unmerged. Get [config help](https://togithub.com/renovatebot/renovate/discussions) if that's undesired.\n\n---\n\n - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, check this box\n\n---\n\nThis PR has been generated by [Mend Renovate](https://www.mend.io/free-developer-tools/renovate/). View repository job log [here](https://developer.mend.io/github/sabnzbd/sabnzbd).\n<!--renovate-debug:eyJjcmVhdGVkSW5WZXIiOiIzNy4xOS4yIiwidXBkYXRlZEluVmVyIjoiMzcuMzEuNSIsInRhcmdldEJyYW5jaCI6ImRldmVsb3AifQ==-->\n",
+                "created_at": "2023-10-23T06:59:47Z",
+                "updated_at": "2023-10-25T10:00:42Z",
+                "closed_at": "2023-10-25T10:00:42Z",
+                "merged_at": "2023-10-25T10:00:42Z",
+                "merge_commit_sha": "ada77d6970d78f167ad311e7f6873d9abed42de8",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/2716/commits",
+                "review_comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/2716/comments",
+                "review_comment_url": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2716/comments",
+                "statuses_url": "https://api.github.com/repos/sabnzbd/sabnzbd/statuses/60160152dfe2c3ce951c3ca263680949d8a4ab05",
+                "head": {
+                    "label": "sabnzbd:renovate/all",
+                    "ref": "renovate/all",
+                    "sha": "60160152dfe2c3ce951c3ca263680949d8a4ab05",
+                    "user": {
+                        "login": "sabnzbd",
+                        "id": 960698,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjk2MDY5OA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/960698?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sabnzbd",
+                        "html_url": "https://github.com/sabnzbd",
+                        "followers_url": "https://api.github.com/users/sabnzbd/followers",
+                        "following_url": "https://api.github.com/users/sabnzbd/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sabnzbd/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sabnzbd/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sabnzbd/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sabnzbd/orgs",
+                        "repos_url": "https://api.github.com/users/sabnzbd/repos",
+                        "events_url": "https://api.github.com/users/sabnzbd/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sabnzbd/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 2187448,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyMTg3NDQ4",
+                        "name": "sabnzbd",
+                        "full_name": "sabnzbd/sabnzbd",
+                        "private": false,
+                        "owner": {
+                            "login": "sabnzbd",
+                            "id": 960698,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjk2MDY5OA==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/960698?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sabnzbd",
+                            "html_url": "https://github.com/sabnzbd",
+                            "followers_url": "https://api.github.com/users/sabnzbd/followers",
+                            "following_url": "https://api.github.com/users/sabnzbd/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sabnzbd/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sabnzbd/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sabnzbd/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sabnzbd/orgs",
+                            "repos_url": "https://api.github.com/users/sabnzbd/repos",
+                            "events_url": "https://api.github.com/users/sabnzbd/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sabnzbd/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/sabnzbd/sabnzbd",
+                        "description": "SABnzbd - The automated Usenet download tool",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                        "forks_url": "https://api.github.com/repos/sabnzbd/sabnzbd/forks",
+                        "keys_url": "https://api.github.com/repos/sabnzbd/sabnzbd/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sabnzbd/sabnzbd/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sabnzbd/sabnzbd/teams",
+                        "hooks_url": "https://api.github.com/repos/sabnzbd/sabnzbd/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/events",
+                        "assignees_url": "https://api.github.com/repos/sabnzbd/sabnzbd/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sabnzbd/sabnzbd/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sabnzbd/sabnzbd/tags",
+                        "blobs_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sabnzbd/sabnzbd/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sabnzbd/sabnzbd/languages",
+                        "stargazers_url": "https://api.github.com/repos/sabnzbd/sabnzbd/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sabnzbd/sabnzbd/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sabnzbd/sabnzbd/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sabnzbd/sabnzbd/subscription",
+                        "commits_url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sabnzbd/sabnzbd/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sabnzbd/sabnzbd/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sabnzbd/sabnzbd/merges",
+                        "archive_url": "https://api.github.com/repos/sabnzbd/sabnzbd/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sabnzbd/sabnzbd/downloads",
+                        "issues_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sabnzbd/sabnzbd/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sabnzbd/sabnzbd/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sabnzbd/sabnzbd/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/deployments",
+                        "created_at": "2011-08-10T20:28:06Z",
+                        "updated_at": "2023-10-23T13:36:59Z",
+                        "pushed_at": "2023-10-25T10:00:42Z",
+                        "git_url": "git://github.com/sabnzbd/sabnzbd.git",
+                        "ssh_url": "git@github.com:sabnzbd/sabnzbd.git",
+                        "clone_url": "https://github.com/sabnzbd/sabnzbd.git",
+                        "svn_url": "https://github.com/sabnzbd/sabnzbd",
+                        "homepage": "http://sabnzbd.org",
+                        "size": 176714,
+                        "stargazers_count": 1973,
+                        "watchers_count": 1973,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 336,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 23,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "binary-newsreader",
+                            "python",
+                            "usenet"
+                        ],
+                        "visibility": "public",
+                        "forks": 336,
+                        "open_issues": 23,
+                        "watchers": 1973,
+                        "default_branch": "develop"
+                    }
+                },
+                "base": {
+                    "label": "sabnzbd:develop",
+                    "ref": "develop",
+                    "sha": "9f8758b2426592d0f297f154c4f7e7da5593c71c",
+                    "user": {
+                        "login": "sabnzbd",
+                        "id": 960698,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjk2MDY5OA==",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/960698?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/sabnzbd",
+                        "html_url": "https://github.com/sabnzbd",
+                        "followers_url": "https://api.github.com/users/sabnzbd/followers",
+                        "following_url": "https://api.github.com/users/sabnzbd/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/sabnzbd/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/sabnzbd/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/sabnzbd/subscriptions",
+                        "organizations_url": "https://api.github.com/users/sabnzbd/orgs",
+                        "repos_url": "https://api.github.com/users/sabnzbd/repos",
+                        "events_url": "https://api.github.com/users/sabnzbd/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/sabnzbd/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 2187448,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkyMTg3NDQ4",
+                        "name": "sabnzbd",
+                        "full_name": "sabnzbd/sabnzbd",
+                        "private": false,
+                        "owner": {
+                            "login": "sabnzbd",
+                            "id": 960698,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjk2MDY5OA==",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/960698?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/sabnzbd",
+                            "html_url": "https://github.com/sabnzbd",
+                            "followers_url": "https://api.github.com/users/sabnzbd/followers",
+                            "following_url": "https://api.github.com/users/sabnzbd/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/sabnzbd/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/sabnzbd/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/sabnzbd/subscriptions",
+                            "organizations_url": "https://api.github.com/users/sabnzbd/orgs",
+                            "repos_url": "https://api.github.com/users/sabnzbd/repos",
+                            "events_url": "https://api.github.com/users/sabnzbd/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/sabnzbd/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/sabnzbd/sabnzbd",
+                        "description": "SABnzbd - The automated Usenet download tool",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/sabnzbd/sabnzbd",
+                        "forks_url": "https://api.github.com/repos/sabnzbd/sabnzbd/forks",
+                        "keys_url": "https://api.github.com/repos/sabnzbd/sabnzbd/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/sabnzbd/sabnzbd/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/sabnzbd/sabnzbd/teams",
+                        "hooks_url": "https://api.github.com/repos/sabnzbd/sabnzbd/hooks",
+                        "issue_events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/sabnzbd/sabnzbd/events",
+                        "assignees_url": "https://api.github.com/repos/sabnzbd/sabnzbd/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/sabnzbd/sabnzbd/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/sabnzbd/sabnzbd/tags",
+                        "blobs_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/sabnzbd/sabnzbd/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/sabnzbd/sabnzbd/languages",
+                        "stargazers_url": "https://api.github.com/repos/sabnzbd/sabnzbd/stargazers",
+                        "contributors_url": "https://api.github.com/repos/sabnzbd/sabnzbd/contributors",
+                        "subscribers_url": "https://api.github.com/repos/sabnzbd/sabnzbd/subscribers",
+                        "subscription_url": "https://api.github.com/repos/sabnzbd/sabnzbd/subscription",
+                        "commits_url": "https://api.github.com/repos/sabnzbd/sabnzbd/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/sabnzbd/sabnzbd/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/sabnzbd/sabnzbd/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/sabnzbd/sabnzbd/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/sabnzbd/sabnzbd/merges",
+                        "archive_url": "https://api.github.com/repos/sabnzbd/sabnzbd/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/sabnzbd/sabnzbd/downloads",
+                        "issues_url": "https://api.github.com/repos/sabnzbd/sabnzbd/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/sabnzbd/sabnzbd/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/sabnzbd/sabnzbd/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/sabnzbd/sabnzbd/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/sabnzbd/sabnzbd/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/sabnzbd/sabnzbd/deployments",
+                        "created_at": "2011-08-10T20:28:06Z",
+                        "updated_at": "2023-10-23T13:36:59Z",
+                        "pushed_at": "2023-10-25T10:00:42Z",
+                        "git_url": "git://github.com/sabnzbd/sabnzbd.git",
+                        "ssh_url": "git@github.com:sabnzbd/sabnzbd.git",
+                        "clone_url": "https://github.com/sabnzbd/sabnzbd.git",
+                        "svn_url": "https://github.com/sabnzbd/sabnzbd",
+                        "homepage": "http://sabnzbd.org",
+                        "size": 176714,
+                        "stargazers_count": 1973,
+                        "watchers_count": 1973,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": true,
+                        "forks_count": 336,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 23,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "binary-newsreader",
+                            "python",
+                            "usenet"
+                        ],
+                        "visibility": "public",
+                        "forks": 336,
+                        "open_issues": 23,
+                        "watchers": 1973,
+                        "default_branch": "develop"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/2716"
+                    },
+                    "html": {
+                        "href": "https://github.com/sabnzbd/sabnzbd/pull/2716"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2716"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/sabnzbd/sabnzbd/issues/2716/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/2716/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/sabnzbd/sabnzbd/pulls/2716/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/sabnzbd/sabnzbd/statuses/60160152dfe2c3ce951c3ca263680949d8a4ab05"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "Safihre",
+                    "id": 5703454,
+                    "node_id": "MDQ6VXNlcjU3MDM0NTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5703454?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Safihre",
+                    "html_url": "https://github.com/Safihre",
+                    "followers_url": "https://api.github.com/users/Safihre/followers",
+                    "following_url": "https://api.github.com/users/Safihre/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Safihre/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Safihre/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Safihre/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Safihre/orgs",
+                    "repos_url": "https://api.github.com/users/Safihre/repos",
+                    "events_url": "https://api.github.com/users/Safihre/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Safihre/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 3,
+                "deletions": 3,
+                "changed_files": 3
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:00:43Z",
+        "org": {
+            "id": 960698,
+            "login": "sabnzbd",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/sabnzbd",
+            "avatar_url": "https://avatars.githubusercontent.com/u/960698?"
+        }
+    }
+]

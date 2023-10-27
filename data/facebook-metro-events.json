@@ -1,0 +1,2463 @@
+[
+    {
+        "id": "32879032037",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 63902795,
+            "login": "bedre7",
+            "display_login": "bedre7",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bedre7",
+            "avatar_url": "https://avatars.githubusercontent.com/u/63902795?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/858",
+                "repository_url": "https://api.github.com/repos/facebook/metro",
+                "labels_url": "https://api.github.com/repos/facebook/metro/issues/858/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/858/comments",
+                "events_url": "https://api.github.com/repos/facebook/metro/issues/858/events",
+                "html_url": "https://github.com/facebook/metro/issues/858",
+                "id": 1348936871,
+                "node_id": "I_kwDOBI9cts5QZySn",
+                "number": 858,
+                "title": "serializeError is not a function",
+                "user": {
+                    "login": "psamim",
+                    "id": 1868679,
+                    "node_id": "MDQ6VXNlcjE4Njg2Nzk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1868679?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/psamim",
+                    "html_url": "https://github.com/psamim",
+                    "followers_url": "https://api.github.com/users/psamim/followers",
+                    "following_url": "https://api.github.com/users/psamim/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/psamim/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/psamim/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/psamim/subscriptions",
+                    "organizations_url": "https://api.github.com/users/psamim/orgs",
+                    "repos_url": "https://api.github.com/users/psamim/repos",
+                    "events_url": "https://api.github.com/users/psamim/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/psamim/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2022-08-24T06:31:54Z",
+                "updated_at": "2023-10-26T18:57:02Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Do you want to request a *feature* or report a *bug*?**\r\nA bug\r\n\r\n**What is the current behaviour?**\r\nI get the below error:\r\n\r\n```\r\nRuntimeError: abort(TypeError: serializeError is not a function). Build with -s ASSERTIONS=1 for more info.\r\n    at process.abort (C:\\Users\\Admin\\Desktop\\project\\my-app\\node_modules\\metro-hermes-compiler\\src\\emhermesc.js:402:15)\r\n    at process.emit (node:events:539:35)\r\n    at emit (node:internal/process/promises:140:20)\r\n    at processPromiseRejections (node:internal/process/promises:274:27)\r\n    at processTicksAndRejections (node:internal/process/task_queues:97:32)\r\n```\r\n\r\n**If the current behaviour is a bug, please provide the steps to reproduce and a minimal repository on GitHub that we can `yarn install` and `yarn test`.**\r\n\r\nI created a project using expo. Then I run `npm start`. When I change a character, the compilation is triggered. If there is syntax error, expo and metro exit with the above error\r\n\r\n**What is the expected behaviour?**\r\nTo display the error and not exit, waiting for changes.\r\n\r\n**Please provide your exact Metro configuration and mention your Metro, node, yarn/npm version and operating system.**\r\nOS: Windows 10\r\nRunning React Native using expo in PowerShell,\r\nnpm 8.11\r\nnode 16.16\r\n\r\nthe output of `npm ls metro-hermes-compiler`:\r\n```\r\nnpm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.\r\n\u2514\u2500\u252c react-native@0.69.4\r\n  \u2514\u2500\u252c @react-native-community/cli@8.0.6\r\n    \u2514\u2500\u252c @react-native-community/cli-plugin-metro@8.0.4\r\n      \u2514\u2500\u252c metro@0.70.3\r\n        \u251c\u2500\u2500 metro-hermes-compiler@0.70.3\r\n        \u2514\u2500\u252c metro-transform-worker@0.70.3\r\n          \u2514\u2500\u2500 metro-hermes-compiler@0.70.3 deduped\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/858/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebook/metro/issues/858/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/comments/1781721066",
+                "html_url": "https://github.com/facebook/metro/issues/858#issuecomment-1781721066",
+                "issue_url": "https://api.github.com/repos/facebook/metro/issues/858",
+                "id": 1781721066,
+                "node_id": "IC_kwDOBI9cts5qMufq",
+                "user": {
+                    "login": "bedre7",
+                    "id": 63902795,
+                    "node_id": "MDQ6VXNlcjYzOTAyNzk1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/63902795?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/bedre7",
+                    "html_url": "https://github.com/bedre7",
+                    "followers_url": "https://api.github.com/users/bedre7/followers",
+                    "following_url": "https://api.github.com/users/bedre7/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/bedre7/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/bedre7/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/bedre7/subscriptions",
+                    "organizations_url": "https://api.github.com/users/bedre7/orgs",
+                    "repos_url": "https://api.github.com/users/bedre7/repos",
+                    "events_url": "https://api.github.com/users/bedre7/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/bedre7/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-26T18:57:02Z",
+                "updated_at": "2023-10-26T18:57:02Z",
+                "author_association": "NONE",
+                "body": "were you able to solve the problem? I'm having the same issue",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/comments/1781721066/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T18:57:02Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32876219192",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 117474095,
+            "login": "thomasaugot",
+            "display_login": "thomasaugot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomasaugot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/117474095?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/1125",
+                "repository_url": "https://api.github.com/repos/facebook/metro",
+                "labels_url": "https://api.github.com/repos/facebook/metro/issues/1125/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/1125/comments",
+                "events_url": "https://api.github.com/repos/facebook/metro/issues/1125/events",
+                "html_url": "https://github.com/facebook/metro/issues/1125",
+                "id": 1963990908,
+                "node_id": "I_kwDOBI9cts51EB98",
+                "number": 1125,
+                "title": "React-Native ERROR Invariant Violation: `new NativeEventEmitter()` requires a non-null argument., \"myApp\" has not been registered. iOS only",
+                "user": {
+                    "login": "thomasaugot",
+                    "id": 117474095,
+                    "node_id": "U_kgDOBwCDLw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/117474095?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomasaugot",
+                    "html_url": "https://github.com/thomasaugot",
+                    "followers_url": "https://api.github.com/users/thomasaugot/followers",
+                    "following_url": "https://api.github.com/users/thomasaugot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomasaugot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomasaugot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomasaugot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomasaugot/orgs",
+                    "repos_url": "https://api.github.com/users/thomasaugot/repos",
+                    "events_url": "https://api.github.com/users/thomasaugot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomasaugot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-26T17:02:21Z",
+                "updated_at": "2023-10-26T17:02:21Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "We are facing issues when trying to build our app on iOS only. An entire week trying everything and now we are just checking package after package, and yet still unable to find a solution...\r\nAll packages are up to date, it builds perfectly on Android, but iOS will build successfully yet throw the error: \r\n\r\n``` ERROR  Invariant Violation: `new NativeEventEmitter()` requires a non-null argument., js engine: hermes  LOG  Running \"myApp\" with {\"rootTag\":41,\"initialProps\":{}}  ERROR  Invariant Violation: \"myApp\" has not been registered. This can happen if: * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project. * A module failed to load due to an error and `AppRegistry.register component` wasn't called., js engine: hermes ```\r\n\r\nWe have tried deleting the Pods, Podfile.lock, deleting node modules, npm install --force, pod install, pod update, even pod deintegrate, pod init, everything we found a bit everywhere on Google, nothing ever worked. We are sure of the app name \"myApp\" , as you can see in the following files: \r\n\r\n```\r\n/**\r\n* Metro configuration for React Native\r\n* [https://github.com/facebook/react-native](https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Ffacebook%2Freact-native&data=05%7C01%7C%7C7d0de339685e4d3773ae08dbd644cc13%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638339363183246835%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=E6SSblrcUZf7r5o9IpyunXzXFziWbJ6M3Hc%2FfKv%2BFis%3D&reserved=0)\r\n*\r\n* @format\r\n*/\r\n\r\nmodule.exports = {\r\ntransformer: {\r\ngetTransformOptions: async () => ({\r\ntransform: {\r\nexperimentalImportSupport: false,\r\ninlineRequires: true,\r\n},\r\n}),\r\n},\r\nresolver: {\r\nsourceExts: ['jsx', 'js', 'ts', 'tsx', 'cjs', 'json'],\r\n},\r\n};\r\n```\r\n\r\nSystem:\r\n    OS: macOS 12.6.8\r\n    CPU: (4) x64 Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz\r\n    Memory: 652.14 MB / 8.00 GB\r\n    Shell: 5.8.1 - /bin/zsh\r\n  Binaries:\r\n    Node: 20.4.0 - /usr/local/bin/node\r\n    Yarn: Not Found\r\n    npm: 9.7.2 - /usr/local/bin/npm\r\n    Watchman: 2023.07.10.00 - /usr/local/bin/watchman\r\n  Managers:\r\n    CocoaPods: 1.12.1 - /Users/armandpetit/.rvm/gems/ruby-2.7.4/bin/pod\r\n  SDKs:\r\n    iOS SDK:\r\n      Platforms: DriverKit 22.2, iOS 16.2, macOS 13.1, tvOS 16.1, watchOS 9.1\r\n    Android SDK: Not Found\r\n  IDEs:\r\n    Android Studio: 2022.2 AI-222.4459.24.2221.9862592\r\n    Xcode: 14.2/14C18 - /usr/bin/xcodebuild\r\n  Languages:\r\n    Java: 11.0.18 - /usr/bin/javac\r\n  npmPackages:\r\n    @react-native-community/cli: Not Found\r\n    react: 18.2.0 => 18.2.0\r\n    react-native: 0.71.6 => 0.71.6\r\n    react-native-macos: Not Found\r\n  npmGlobalPackages:\r\n    *react-native*: Not Found\r\n\r\n```\r\n/////// Index.js /**\r\n * @format\r\n */\r\n\r\nimport {AppRegistry} from 'react-native';\r\nimport App from './App';\r\n\r\nAppRegistry.registerComponent('myApp', () => App);\r\n```\r\n\r\n```\r\n/////// package.json\r\n{\r\n  \"name\": \"myApp\",\r\n  \"version\": \"1.0.0\",\r\n  \"private\": true,\r\n  \"scripts\": {\r\n    \"android\": \"react-native run-android\",\r\n    \"ios\": \"react-native run-ios --simulator=\\\"iPhone 14\\\"\",\r\n    \"clean\": \"rm -rf node_modules && npm i\",\r\n    \"hard-clean-ios\": \"cd ios && rm -rf Pods && rm -rf build && pod cache clean --all && pod install && cd ..\",\r\n    \"hard-clean-android\": \"rm -rf node_modules && npm i && cd android && ./gradlew clean && cd ..\",\r\n    \"delete-cache\": \"watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf $TMPDIR/metro-* && rm -rf $TMPDIR/haste-* && rm -rf node_modules/ && npm cache clean --force && npm install && npm start -- --reset-cache\",\r\n    \"lint\": \"eslint .\",\r\n    \"start\": \"react-native start\",\r\n    \"test\": \"jest\",\r\n    \"clean:ios\": \"rm -rf ios/build\"\r\n  },\r\n  \"reactNativePermissionsIOS\": [\r\n    \"BluetoothPeripheral\",\r\n    \"FaceID\",\r\n    \"LocationAccuracy\",\r\n    \"LocationAlways\",\r\n    \"LocationWhenInUse\"\r\n  ],\r\n  \"dependencies\": {\r\n    \"@react-native-async-storage/async-storage\": \"^1.19.3\",\r\n    \"@react-native-community/checkbox\": \"^0.5.16\",\r\n    \"@react-native-community/netinfo\": \"^9.4.1\",\r\n    \"@react-native/metro-config\": \"^0.74.0\",\r\n    \"@react-navigation/bottom-tabs\": \"^6.5.9\",\r\n    \"@react-navigation/native\": \"^6.1.8\",\r\n    \"@react-navigation/native-stack\": \"^6.9.14\",\r\n    \"date-fns\": \"^2.30.0\",\r\n    \"lottie-react-native\": \"^6.3.1\",\r\n    \"moment\": \"^2.29.4\",\r\n    \"react\": \"18.2.0\",\r\n    \"react-native\": \"0.72.4\",\r\n    \"react-native-base64\": \"^0.2.1\",\r\n    \"react-native-ble-plx\": \"^3.0.0\",\r\n    \"react-native-bluetooth-state-manager\": \"^1.3.5\",\r\n    \"react-native-config\": \"^1.5.1\",\r\n    \"react-native-date-picker\": \"^4.3.3\",\r\n    \"react-native-device-info\": \"^10.11.0\",\r\n    \"react-native-flash-message\": \"^0.4.2\",\r\n    \"react-native-gradle-plugin\": \"^0.71.19\",\r\n    \"react-native-location-enabler\": \"^4.1.1\",\r\n    \"react-native-permissions\": \"^3.9.3\",\r\n    \"react-native-rename\": \"^3.2.13\",\r\n    \"react-native-safe-area\": \"^0.5.1\",\r\n    \"react-native-safe-area-context\": \"^4.7.2\",\r\n    \"react-native-screens\": \"^3.25.0\",\r\n    \"react-native-splash-screen\": \"^3.3.0\",\r\n    \"react-native-vector-icons\": \"^9.2.0\",\r\n    \"react-native-version\": \"^4.0.0\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"@babel/core\": \"^7.23.0\",\r\n    \"@babel/preset-env\": \"^7.22.20\",\r\n    \"@babel/runtime\": \"^7.23.1\",\r\n    \"@react-native-community/eslint-config\": \"^3.2.0\",\r\n    \"@tsconfig/react-native\": \"^2.0.3\",\r\n    \"@types/jest\": \"^29.5.5\",\r\n    \"@types/react\": \"^18.2.28\",\r\n    \"@types/react-native-base64\": \"^0.2.0\",\r\n    \"@types/react-native-vector-icons\": \"^6.4.15\",\r\n    \"@types/react-test-renderer\": \"^18.0.3\",\r\n    \"babel-jest\": \"^29.7.0\",\r\n    \"eslint\": \"^8.51.0\",\r\n    \"jest\": \"^29.7.0\",\r\n    \"metro-react-native-babel-preset\": \"^0.73.9\",\r\n    \"prettier\": \"^2.8.8\",\r\n    \"react-test-renderer\": \"18.2.0\",\r\n    \"typescript\": \"4.8.4\"\r\n  },\r\n  \"jest\": {\r\n    \"preset\": \"react-native\"\r\n  }\r\n}\r\n```\r\n```\r\n////// Podfile\r\n\r\nrequire_relative '../node_modules/react-native/scripts/react_native_pods'\r\nrequire_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'\r\n\r\nplatform :ios, min_ios_version_supported\r\nprepare_react_native_project!\r\n\r\n# If you are using a `react-native-flipper` your iOS build will fail when `NO_FLIPPER=1` is set.\r\n# because `react-native-flipper` depends on (FlipperKit,...) that will be excluded\r\n#\r\n# To fix this you can also exclude `react-native-flipper` using a `react-native.config.js`\r\n# ```js\r\n# module.exports = {\r\n#   dependencies: {\r\n#     ...(process.env.NO_FLIPPER ? { 'react-native-flipper': { platforms: { ios: null } } } : {}),\r\n# ```\r\nflipper_config = ENV['NO_FLIPPER'] == \"1\" ? FlipperConfiguration.disabled : FlipperConfiguration.enabled\r\n\r\n# use_frameworks!\r\n\r\ntarget 'myApp' do\r\n  config = use_native_modules!\r\n\r\n  permissions_path = '../node_modules/react-native-permissions/ios'\r\n\r\n  pod 'Permission-FaceID', :path => \"#{permissions_path}/FaceID\"\r\n  pod 'Permission-LocationAccuracy', :path => \"#{permissions_path}/LocationAccuracy\"\r\n  pod 'Permission-LocationAlways', :path => \"#{permissions_path}/LocationAlways\"\r\n  pod 'Permission-LocationWhenInUse', :path => \"#{permissions_path}/LocationWhenInUse\"\r\n\r\n  # Flags change depending on the env values.\r\n  flags = get_default_flags()\r\n\r\n  use_react_native!(\r\n    :path => config[:reactNativePath],\r\n    # Hermes is now enabled by default. Disable by setting this flag to false.\r\n    # Upcoming versions of React Native may rely on get_default_flags(), but\r\n    # we make it explicit here to aid in the React Native upgrade process.\r\n    :hermes_enabled => flags[:hermes_enabled],\r\n    :fabric_enabled => flags[:fabric_enabled],\r\n    # Enables Flipper.\r\n    #\r\n    # Note that if you have use_frameworks! enabled, Flipper will not work and\r\n    # you should disable the next line.\r\n    :flipper_configuration => flipper_config,\r\n    # An absolute path to your application root.\r\n    :app_path => \"#{Pod::Config.instance.installation_root}/..\"\r\n  )\r\n\r\n  # pre_install do |installer|\r\n  #   Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}\r\n  \r\n  #   installer.pod_targets.each do |pod|\r\n  #     if pod.name.eql?('RNPermissions') || pod.name.start_with?('Permission-')\r\n  #       def pod.build_type;\r\n  #         # Uncomment the line corresponding to your CocoaPods version\r\n  #         # Pod::BuildType.static_library # >= 1.9\r\n  #         # Pod::Target::BuildType.static_library # < 1.9\r\n  #       end\r\n  #     end\r\n  #   end\r\n  # end\r\n\r\n  ENVFILES = {\r\n  'Debug' => '$(PODS_ROOT)/../../.env.dev',\r\n  'Release' => '$(PODS_ROOT)/../../.env.prod',\r\n}\r\n\r\n  post_install do |installer|\r\n    react_native_post_install(\r\n      installer,\r\n      # Set `mac_catalyst_enabled` to `true` in order to apply patches\r\n      # necessary for Mac Catalyst builds\r\n      :mac_catalyst_enabled => false\r\n    )\r\n    installer.pods_project.targets.each do |target|\r\n      target.build_configurations.each do |config|\r\n        if target.name == 'react-native-config'\r\n          config.build_settings['ENVFILE'] = ENVFILES[config.name]\r\n        end\r\n      end\r\n    end\r\n    __apply_Xcode_12_5_M1_post_install_workaround(installer)\r\n  end\r\nend\r\n\r\n```\r\n\r\n```\r\n/////// AppDelegate.mm\r\n#import \"AppDelegate.h\"\r\n\r\n#import <React/RCTBundleURLProvider.h>\r\n\r\n@implementation AppDelegate\r\n\r\n- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions\r\n{\r\n  self.moduleName = @\"myApp\";\r\n  // You can add your custom initial props in the dictionary below.\r\n  // They will be passed down to the ViewController used by React Native.\r\n  self.initialProps = @{};\r\n\r\n  return [super application:application didFinishLaunchingWithOptions:launchOptions];\r\n}\r\n\r\n- (NSURL *)sourceURLForBridge:(RCTBridge *)bridge\r\n{\r\n#if DEBUG\r\n  return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@\"index\"];\r\n#else\r\n  return [[NSBundle mainBundle] URLForResource:@\"main\" withExtension:@\"jsbundle\"];\r\n#endif\r\n}\r\n\r\n/// This method controls whether the `concurrentRoot`feature of React18 is turned on or off.\r\n///\r\n/// @see: https://reactjs.org/blog/2022/03/29/react-v18.html\r\n/// @note: This requires to be rendering on Fabric (i.e. on the New Architecture).\r\n/// @return: `true` if the `concurrentRoot` feature is enabled. Otherwise, it returns `false`.\r\n- (BOOL)concurrentRootEnabled\r\n{\r\n  return true;\r\n}\r\n\r\n@end\r\n\r\n```\r\n\r\nCan't figure out what we are missing. Any help would be amazing :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/1125/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebook/metro/issues/1125/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T17:02:22Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32876128810",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6422482,
+            "login": "facebook-github-bot",
+            "display_login": "facebook-github-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/facebook-github-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6422482?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "repository_id": 76504246,
+            "push_id": 15580332834,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "20df4ecd6456f994511290375d1fa6f13b902267",
+            "before": "9732f4acaa01a295fccc01043da7d67bd5abf4eb",
+            "commits": [
+                {
+                    "sha": "20df4ecd6456f994511290375d1fa6f13b902267",
+                    "author": {
+                        "email": "robhogan@meta.com",
+                        "name": "Rob Hogan"
+                    },
+                    "message": "Add unstable_enableWorkerThreads options to transformer and watcher\n\nSummary:\nAdd two options to use Node worker threads rather than `child_process` for Metro's transformer and watcher. This directly corresponds to `jest-worker`'s `enableWorkerThreads` option.\n\nThese are largely for internal experimentation - it's likely the options will be removed and worker threads will be enabled by default as non-breaking change in a subsequent release.\n\nChangelog:\n```\n* **[Experimental]:** Add `unstable_workerThreads` options to `transformer` and `watcher` configuration.\n```\n\nReviewed By: motiz88\n\nDifferential Revision: D50655866\n\nfbshipit-source-id: 498b6a73b11e00c12d109bf6d00d345939aaba0a",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/20df4ecd6456f994511290375d1fa6f13b902267"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-26T16:58:53Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32857397869",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 12692762,
+            "login": "nguyengiang160692",
+            "display_login": "nguyengiang160692",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nguyengiang160692",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12692762?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T06:05:44Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32853924232",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24296018,
+            "login": "harrytran998",
+            "display_login": "harrytran998",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/harrytran998",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24296018?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T01:57:20Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32850726561",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 42952,
+            "login": "dreamcodez",
+            "display_login": "dreamcodez",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dreamcodez",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42952?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T22:14:40Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32844250654",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2590098,
+            "login": "robhogan",
+            "display_login": "robhogan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/robhogan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2590098?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "ref": "v0.80.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:29:44Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32844249929",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 2590098,
+            "login": "robhogan",
+            "display_login": "robhogan",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/robhogan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2590098?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/facebook/metro/releases/122419668",
+                "assets_url": "https://api.github.com/repos/facebook/metro/releases/122419668/assets",
+                "upload_url": "https://uploads.github.com/repos/facebook/metro/releases/122419668/assets{?name,label}",
+                "html_url": "https://github.com/facebook/metro/releases/tag/v0.80.0",
+                "id": 122419668,
+                "author": {
+                    "login": "robhogan",
+                    "id": 2590098,
+                    "node_id": "MDQ6VXNlcjI1OTAwOTg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2590098?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/robhogan",
+                    "html_url": "https://github.com/robhogan",
+                    "followers_url": "https://api.github.com/users/robhogan/followers",
+                    "following_url": "https://api.github.com/users/robhogan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/robhogan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/robhogan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/robhogan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/robhogan/orgs",
+                    "repos_url": "https://api.github.com/users/robhogan/repos",
+                    "events_url": "https://api.github.com/users/robhogan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/robhogan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOBI9cts4HS_nU",
+                "tag_name": "v0.80.0",
+                "target_commitish": "9732f4acaa01a295fccc01043da7d67bd5abf4eb",
+                "name": "v0.80.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2023-10-25T12:53:16Z",
+                "published_at": "2023-10-25T17:29:41Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/facebook/metro/tarball/v0.80.0",
+                "zipball_url": "https://api.github.com/repos/facebook/metro/zipball/v0.80.0",
+                "body": "* **[Breaking]:** Remove `metro-runtime/src/modules/fast-refresh` and `react-refresh` dependency - now owned by RN's Babel preset. (https://github.com/facebook/metro/commit/855796816a941ca14e025df3f5a80fcd63bfbc21 by @robhogan)\r\n* **[Breaking]:** `metro-babel-register`: Switch to Hermes parser, only apply Flow transforms to `.js`. (https://github.com/facebook/metro/commit/ca0f89c26d27604e0dfdab857823a99378db7b48 by @pieterv)\r\n* **[Feature]:** `metro-babel-register`: Support export-namespace-from and Flow enums. (https://github.com/facebook/metro/commit/ca0f89c26d27604e0dfdab857823a99378db7b48 by @pieterv)\r\n* **[Fix]:** Removing an async/lazy import may incorrectly free its target. (https://github.com/facebook/metro/commit/5f446f3e98e0ead8b62345fe13afccc53826c8b7 by @robhogan)\r\n\r\n\r\n**NB:** `metro-react-native-interop-tools` has been removed and will receive no further updates. (https://github.com/facebook/metro/commit/c084066d35492dd39227e03442d6c3a4e0299dd9 by @GijsWeterings)\r\n\r\n **Full Changelog**: https://github.com/facebook/metro/compare/v0.79.1...v0.80.0",
+                "mentions_count": 3,
+                "mentions": [
+                    {
+                        "avatar_url": "https://avatars.githubusercontent.com/u/438482?v=4",
+                        "login": "pieterv",
+                        "profile_name": "Pieter Vanderwerff",
+                        "profile_url": "https://github.com/pieterv",
+                        "avatar_user_actor": true
+                    },
+                    {
+                        "avatar_url": "https://avatars.githubusercontent.com/u/2590098?v=4",
+                        "login": "robhogan",
+                        "profile_name": "Rob Hogan",
+                        "profile_url": "https://github.com/robhogan",
+                        "avatar_user_actor": true
+                    },
+                    {
+                        "avatar_url": "https://avatars.githubusercontent.com/u/5946346?v=4",
+                        "login": "GijsWeterings",
+                        "profile_name": "Gijs Weterings",
+                        "profile_url": "https://github.com/GijsWeterings",
+                        "avatar_user_actor": true
+                    }
+                ],
+                "short_description_html": "<ul>\n<li>\n<strong>[Breaking]:</strong> Remove <code>metro-runtime/src/modules/fast-refresh</code> and <code>react-refresh</code> dependency - now owned by RN's Babel preset. (<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/facebook/metro/commit/855796816a941ca14e025df3f5a80fcd63bfbc21/hovercard\" href=\"https://github.com/facebook/metro/commit/855796816a941ca14e025df3f5a80fcd63bfbc21\"><tt>8557968</tt></a> by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/robhogan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/robhogan\">@robhogan</a>)</li>\n<li>\n<strong>[Breaking]:</strong> <code>metro-babel-register</code>: Switch to Hermes p\u2026</li>\n</ul>",
+                "is_short_description_html_truncated": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T17:29:42Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32835732549",
+        "type": "PushEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "repository_id": 76504246,
+            "push_id": 15560338767,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/dependabot/npm_and_yarn/website/babel/traverse-7.23.2",
+            "head": "c8e17162a7efa51627c4b8513841fbfa85b7fd71",
+            "before": "8f08d453ee7a09edaf756fe10dc0fbfd7e401986",
+            "commits": [
+                {
+                    "sha": "9732f4acaa01a295fccc01043da7d67bd5abf4eb",
+                    "author": {
+                        "email": "robhogan@meta.com",
+                        "name": "Rob Hogan"
+                    },
+                    "message": "Publish v0.80.0\n\nSummary: Bump Metro from v0.79.1 to v0.80.0\n\nReviewed By: GijsWeterings\n\nDifferential Revision: D49591396\n\nfbshipit-source-id: 19fa7393417217ced48d5b55989f8e83cb42d176",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/9732f4acaa01a295fccc01043da7d67bd5abf4eb"
+                },
+                {
+                    "sha": "c8e17162a7efa51627c4b8513841fbfa85b7fd71",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump @babel/traverse from 7.18.9 to 7.23.2 in /website\n\nBumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.9 to 7.23.2.\n- [Release notes](https://github.com/babel/babel/releases)\n- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)\n\n---\nupdated-dependencies:\n- dependency-name: \"@babel/traverse\"\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/c8e17162a7efa51627c4b8513841fbfa85b7fd71"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:59:12Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32835732458",
+        "type": "PushEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "repository_id": 76504246,
+            "push_id": 15560338730,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/dependabot/npm_and_yarn/babel/traverse-7.23.2",
+            "head": "5ebab10cd525477bddf455120104d438c6061d6d",
+            "before": "5757af85eddeba5038b9cbe2c97c370d60c80474",
+            "commits": [
+                {
+                    "sha": "9732f4acaa01a295fccc01043da7d67bd5abf4eb",
+                    "author": {
+                        "email": "robhogan@meta.com",
+                        "name": "Rob Hogan"
+                    },
+                    "message": "Publish v0.80.0\n\nSummary: Bump Metro from v0.79.1 to v0.80.0\n\nReviewed By: GijsWeterings\n\nDifferential Revision: D49591396\n\nfbshipit-source-id: 19fa7393417217ced48d5b55989f8e83cb42d176",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/9732f4acaa01a295fccc01043da7d67bd5abf4eb"
+                },
+                {
+                    "sha": "5ebab10cd525477bddf455120104d438c6061d6d",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump @babel/traverse from 7.20.5 to 7.23.2\n\nBumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.20.5 to 7.23.2.\n- [Release notes](https://github.com/babel/babel/releases)\n- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)\n\n---\nupdated-dependencies:\n- dependency-name: \"@babel/traverse\"\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/5ebab10cd525477bddf455120104d438c6061d6d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:59:12Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32835702286",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6422482,
+            "login": "facebook-github-bot",
+            "display_login": "facebook-github-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/facebook-github-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6422482?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "repository_id": 76504246,
+            "push_id": 15560323270,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "9732f4acaa01a295fccc01043da7d67bd5abf4eb",
+            "before": "aa2c790eee65e6e85a3e7119416822ed252ac956",
+            "commits": [
+                {
+                    "sha": "9732f4acaa01a295fccc01043da7d67bd5abf4eb",
+                    "author": {
+                        "email": "robhogan@meta.com",
+                        "name": "Rob Hogan"
+                    },
+                    "message": "Publish v0.80.0\n\nSummary: Bump Metro from v0.79.1 to v0.80.0\n\nReviewed By: GijsWeterings\n\nDifferential Revision: D49591396\n\nfbshipit-source-id: 19fa7393417217ced48d5b55989f8e83cb42d176",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/9732f4acaa01a295fccc01043da7d67bd5abf4eb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-25T12:58:19Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32825881841",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 76982270,
+            "login": "Richard-Zhang1019",
+            "display_login": "Richard-Zhang1019",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Richard-Zhang1019",
+            "avatar_url": "https://avatars.githubusercontent.com/u/76982270?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T07:17:18Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32822831472",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4966345,
+            "login": "hieuhani",
+            "display_login": "hieuhani",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hieuhani",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4966345?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T04:27:43Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32809967055",
+        "type": "PushEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "repository_id": 76504246,
+            "push_id": 15547426184,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/dependabot/npm_and_yarn/babel/traverse-7.23.2",
+            "head": "5757af85eddeba5038b9cbe2c97c370d60c80474",
+            "before": "156082b6d22b22b9a3667bef67daa06752512d3f",
+            "commits": [
+                {
+                    "sha": "aa2c790eee65e6e85a3e7119416822ed252ac956",
+                    "author": {
+                        "email": "samzhou19815@meta.com",
+                        "name": "Sam Zhou"
+                    },
+                    "message": "Deploy 0.219.4 to xplat\n\nSummary:\nX-link: https://github.com/facebook/react-native/pull/41173\n\nChangelog: [Internal]\n\nReviewed By: gkz\n\nDifferential Revision: D50589991\n\nfbshipit-source-id: c221988e75fccccabec8ee69f6941bb83e42a052",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/aa2c790eee65e6e85a3e7119416822ed252ac956"
+                },
+                {
+                    "sha": "5757af85eddeba5038b9cbe2c97c370d60c80474",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump @babel/traverse from 7.20.5 to 7.23.2\n\nBumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.20.5 to 7.23.2.\n- [Release notes](https://github.com/babel/babel/releases)\n- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)\n\n---\nupdated-dependencies:\n- dependency-name: \"@babel/traverse\"\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/5757af85eddeba5038b9cbe2c97c370d60c80474"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T16:31:32Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32809951144",
+        "type": "PushEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "repository_id": 76504246,
+            "push_id": 15547418490,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/dependabot/npm_and_yarn/website/babel/traverse-7.23.2",
+            "head": "8f08d453ee7a09edaf756fe10dc0fbfd7e401986",
+            "before": "3fb8bf4601ef6048daf5a4fdc0df91c045abcc05",
+            "commits": [
+                {
+                    "sha": "aa2c790eee65e6e85a3e7119416822ed252ac956",
+                    "author": {
+                        "email": "samzhou19815@meta.com",
+                        "name": "Sam Zhou"
+                    },
+                    "message": "Deploy 0.219.4 to xplat\n\nSummary:\nX-link: https://github.com/facebook/react-native/pull/41173\n\nChangelog: [Internal]\n\nReviewed By: gkz\n\nDifferential Revision: D50589991\n\nfbshipit-source-id: c221988e75fccccabec8ee69f6941bb83e42a052",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/aa2c790eee65e6e85a3e7119416822ed252ac956"
+                },
+                {
+                    "sha": "8f08d453ee7a09edaf756fe10dc0fbfd7e401986",
+                    "author": {
+                        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+                        "name": "dependabot[bot]"
+                    },
+                    "message": "Bump @babel/traverse from 7.18.9 to 7.23.2 in /website\n\nBumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.9 to 7.23.2.\n- [Release notes](https://github.com/babel/babel/releases)\n- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)\n\n---\nupdated-dependencies:\n- dependency-name: \"@babel/traverse\"\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/8f08d453ee7a09edaf756fe10dc0fbfd7e401986"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T16:30:55Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32809931490",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6422482,
+            "login": "facebook-github-bot",
+            "display_login": "facebook-github-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/facebook-github-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6422482?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "repository_id": 76504246,
+            "push_id": 15547409039,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "aa2c790eee65e6e85a3e7119416822ed252ac956",
+            "before": "a84a1c7d2e7e310ae9c6b53381963ea252aef21f",
+            "commits": [
+                {
+                    "sha": "aa2c790eee65e6e85a3e7119416822ed252ac956",
+                    "author": {
+                        "email": "samzhou19815@meta.com",
+                        "name": "Sam Zhou"
+                    },
+                    "message": "Deploy 0.219.4 to xplat\n\nSummary:\nX-link: https://github.com/facebook/react-native/pull/41173\n\nChangelog: [Internal]\n\nReviewed By: gkz\n\nDifferential Revision: D50589991\n\nfbshipit-source-id: c221988e75fccccabec8ee69f6941bb83e42a052",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/facebook/metro/commits/aa2c790eee65e6e85a3e7119416822ed252ac956"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2023-10-24T16:30:13Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32785153767",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 65553080,
+            "login": "codecov-commenter",
+            "display_login": "codecov-commenter",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codecov-commenter",
+            "avatar_url": "https://avatars.githubusercontent.com/u/65553080?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/1123",
+                "repository_url": "https://api.github.com/repos/facebook/metro",
+                "labels_url": "https://api.github.com/repos/facebook/metro/issues/1123/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/1123/comments",
+                "events_url": "https://api.github.com/repos/facebook/metro/issues/1123/events",
+                "html_url": "https://github.com/facebook/metro/pull/1123",
+                "id": 1958024261,
+                "node_id": "PR_kwDOBI9cts5dk31U",
+                "number": 1123,
+                "title": "Bump actions/checkout from 4.1.0 to 4.1.1",
+                "user": {
+                    "login": "dependabot[bot]",
+                    "id": 49699333,
+                    "node_id": "MDM6Qm90NDk2OTkzMzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/dependabot",
+                    "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 500981201,
+                        "node_id": "MDU6TGFiZWw1MDA5ODEyMDE=",
+                        "url": "https://api.github.com/repos/facebook/metro/labels/CLA%20Signed",
+                        "name": "CLA Signed",
+                        "color": "FFFFFF",
+                        "default": false,
+                        "description": "This label is managed by the Facebook bot. Authors need to sign the CLA before a PR can be reviewed."
+                    },
+                    {
+                        "id": 1645719733,
+                        "node_id": "MDU6TGFiZWwxNjQ1NzE5NzMz",
+                        "url": "https://api.github.com/repos/facebook/metro/labels/dependencies",
+                        "name": "dependencies",
+                        "color": "0366d6",
+                        "default": false,
+                        "description": "Pull requests that update a dependency file"
+                    },
+                    {
+                        "id": 5287488324,
+                        "node_id": "LA_kwDOBI9cts8AAAABOyirRA",
+                        "url": "https://api.github.com/repos/facebook/metro/labels/github_actions",
+                        "name": "github_actions",
+                        "color": "000000",
+                        "default": false,
+                        "description": "Pull requests that update GitHub Actions code"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-23T21:06:47Z",
+                "updated_at": "2023-10-23T21:10:36Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/facebook/metro/pulls/1123",
+                    "html_url": "https://github.com/facebook/metro/pull/1123",
+                    "diff_url": "https://github.com/facebook/metro/pull/1123.diff",
+                    "patch_url": "https://github.com/facebook/metro/pull/1123.patch",
+                    "merged_at": null
+                },
+                "body": "Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.0 to 4.1.1.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/checkout/releases\">actions/checkout's releases</a>.</em></p>\n<blockquote>\n<h2>v4.1.1</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>Update CODEOWNERS to Launch team by <a href=\"https://github.com/joshmgross\"><code>@\u200bjoshmgross</code></a> in <a href=\"https://redirect.github.com/actions/checkout/pull/1510\">actions/checkout#1510</a></li>\n<li>Correct link to GitHub Docs by <a href=\"https://github.com/peterbe\"><code>@\u200bpeterbe</code></a> in <a href=\"https://redirect.github.com/actions/checkout/pull/1511\">actions/checkout#1511</a></li>\n<li>Link to release page from what's new section by <a href=\"https://github.com/cory-miller\"><code>@\u200bcory-miller</code></a> in <a href=\"https://redirect.github.com/actions/checkout/pull/1514\">actions/checkout#1514</a></li>\n</ul>\n<h2>New Contributors</h2>\n<ul>\n<li><a href=\"https://github.com/joshmgross\"><code>@\u200bjoshmgross</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/checkout/pull/1510\">actions/checkout#1510</a></li>\n<li><a href=\"https://github.com/peterbe\"><code>@\u200bpeterbe</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/checkout/pull/1511\">actions/checkout#1511</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/checkout/compare/v4.1.0...v4.1.1\">https://github.com/actions/checkout/compare/v4.1.0...v4.1.1</a></p>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/checkout/blob/main/CHANGELOG.md\">actions/checkout's changelog</a>.</em></p>\n<blockquote>\n<h1>Changelog</h1>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/checkout/commit/b4ffde65f46336ab88eb53be808477a3936bae11\"><code>b4ffde6</code></a> Link to release page from what's new section (<a href=\"https://redirect.github.com/actions/checkout/issues/1514\">#1514</a>)</li>\n<li><a href=\"https://github.com/actions/checkout/commit/8530928916aaef40f59e6f221989ccb31f5759e7\"><code>8530928</code></a> Correct link to GitHub Docs (<a href=\"https://redirect.github.com/actions/checkout/issues/1511\">#1511</a>)</li>\n<li><a href=\"https://github.com/actions/checkout/commit/7cdaf2fbc075e6f3b9ca94cfd6cec5adc8a75622\"><code>7cdaf2f</code></a> Update CODEOWNERS to Launch team (<a href=\"https://redirect.github.com/actions/checkout/issues/1510\">#1510</a>)</li>\n<li>See full diff in <a href=\"https://github.com/actions/checkout/compare/v4.1.0...v4.1.1\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/checkout&package-manager=github_actions&previous-version=4.1.0&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/1123/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebook/metro/issues/1123/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/comments/1776027230",
+                "html_url": "https://github.com/facebook/metro/pull/1123#issuecomment-1776027230",
+                "issue_url": "https://api.github.com/repos/facebook/metro/issues/1123",
+                "id": 1776027230,
+                "node_id": "IC_kwDOBI9cts5p3AZe",
+                "user": {
+                    "login": "codecov-commenter",
+                    "id": 65553080,
+                    "node_id": "MDQ6VXNlcjY1NTUzMDgw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/65553080?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codecov-commenter",
+                    "html_url": "https://github.com/codecov-commenter",
+                    "followers_url": "https://api.github.com/users/codecov-commenter/followers",
+                    "following_url": "https://api.github.com/users/codecov-commenter/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codecov-commenter/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codecov-commenter/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codecov-commenter/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codecov-commenter/orgs",
+                    "repos_url": "https://api.github.com/users/codecov-commenter/repos",
+                    "events_url": "https://api.github.com/users/codecov-commenter/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codecov-commenter/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-23T21:10:36Z",
+                "updated_at": "2023-10-23T21:10:36Z",
+                "author_association": "NONE",
+                "body": "## [Codecov](https://app.codecov.io/gh/facebook/metro/pull/1123?src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=facebook) Report\nAll modified and coverable lines are covered by tests :white_check_mark:\n> Comparison is base [(`a84a1c7`)](https://app.codecov.io/gh/facebook/metro/commit/a84a1c7d2e7e310ae9c6b53381963ea252aef21f?el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=facebook) 83.11% compared to head [(`9bb4643`)](https://app.codecov.io/gh/facebook/metro/pull/1123?src=pr&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=facebook) 83.11%.\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@           Coverage Diff           @@\n##             main    #1123   +/-   ##\n=======================================\n  Coverage   83.11%   83.11%           \n=======================================\n  Files         206      206           \n  Lines       10542    10542           \n  Branches     2613     2613           \n=======================================\n  Hits         8762     8762           \n  Misses       1780     1780           \n```\n\n\n\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/facebook/metro/pull/1123?src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=facebook).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=facebook).\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/comments/1776027230/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T21:10:36Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32785072880",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1124,
+            "pull_request": {
+                "url": "https://api.github.com/repos/facebook/metro/pulls/1124",
+                "id": 1569947018,
+                "node_id": "PR_kwDOBI9cts5dk32K",
+                "html_url": "https://github.com/facebook/metro/pull/1124",
+                "diff_url": "https://github.com/facebook/metro/pull/1124.diff",
+                "patch_url": "https://github.com/facebook/metro/pull/1124.patch",
+                "issue_url": "https://api.github.com/repos/facebook/metro/issues/1124",
+                "number": 1124,
+                "state": "open",
+                "locked": false,
+                "title": "Bump actions/setup-node from 3.8.1 to 4.0.0",
+                "user": {
+                    "login": "dependabot[bot]",
+                    "id": 49699333,
+                    "node_id": "MDM6Qm90NDk2OTkzMzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/dependabot",
+                    "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "body": "Bumps [actions/setup-node](https://github.com/actions/setup-node) from 3.8.1 to 4.0.0.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/setup-node/releases\">actions/setup-node's releases</a>.</em></p>\n<blockquote>\n<h2>v4.0.0</h2>\n<h2>What's Changed</h2>\n<p>In scope of this release we changed version of node runtime for action from node16 to node20 and updated dependencies in <a href=\"https://redirect.github.com/actions/setup-node/pull/866\">actions/setup-node#866</a></p>\n<p>Besides, release contains such changes as:</p>\n<ul>\n<li>Upgrade actions/checkout to v4 by <a href=\"https://github.com/gmembre-zenika\"><code>@\u200bgmembre-zenika</code></a> in <a href=\"https://redirect.github.com/actions/setup-node/pull/868\">actions/setup-node#868</a></li>\n<li>Update actions/checkout for documentation and yaml by <a href=\"https://github.com/dmitry-shibanov\"><code>@\u200bdmitry-shibanov</code></a> in <a href=\"https://redirect.github.com/actions/setup-node/pull/876\">actions/setup-node#876</a></li>\n</ul>\n<h2>New Contributors</h2>\n<ul>\n<li><a href=\"https://github.com/gmembre-zenika\"><code>@\u200bgmembre-zenika</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/setup-node/pull/868\">actions/setup-node#868</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/setup-node/compare/v3...v4.0.0\">https://github.com/actions/setup-node/compare/v3...v4.0.0</a></p>\n<h2>v3.8.2</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>Update semver by <a href=\"https://github.com/dmitry-shibanov\"><code>@\u200bdmitry-shibanov</code></a> in <a href=\"https://redirect.github.com/actions/setup-node/pull/861\">actions/setup-node#861</a></li>\n<li>Update temp directory creation by <a href=\"https://github.com/nikolai-laevskii\"><code>@\u200bnikolai-laevskii</code></a> in <a href=\"https://redirect.github.com/actions/setup-node/pull/859\">actions/setup-node#859</a></li>\n<li>Bump <code>@\u200bbabel/traverse</code> from 7.15.4 to 7.23.2 by <a href=\"https://github.com/dependabot\"><code>@\u200bdependabot</code></a> in <a href=\"https://redirect.github.com/actions/setup-node/pull/870\">actions/setup-node#870</a></li>\n<li>Add notice about binaries not being updated yet by <a href=\"https://github.com/nikolai-laevskii\"><code>@\u200bnikolai-laevskii</code></a> in <a href=\"https://redirect.github.com/actions/setup-node/pull/872\">actions/setup-node#872</a></li>\n<li>Update toolkit cache and core by <a href=\"https://github.com/dmitry-shibanov\"><code>@\u200bdmitry-shibanov</code></a> and <a href=\"https://github.com/seongwon-privatenote\"><code>@\u200bseongwon-privatenote</code></a> in <a href=\"https://redirect.github.com/actions/setup-node/pull/875\">actions/setup-node#875</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/setup-node/compare/v3...v3.8.2\">https://github.com/actions/setup-node/compare/v3...v3.8.2</a></p>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/setup-node/commit/8f152de45cc393bb48ce5d89d36b731f54556e65\"><code>8f152de</code></a> Update actions/checkout for documentation and yaml (<a href=\"https://redirect.github.com/actions/setup-node/issues/876\">#876</a>)</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/23755b521f87533c8ed7f8fb13674f9021579e34\"><code>23755b5</code></a> upgrade actions/checkout to v4 (<a href=\"https://redirect.github.com/actions/setup-node/issues/868\">#868</a>)</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/54534a2a9ba7308e8a8995af3104899e6a95b681\"><code>54534a2</code></a> Change node version for action to node20 (<a href=\"https://redirect.github.com/actions/setup-node/issues/866\">#866</a>)</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/1a4442cacd436585916779262731d5b162bc6ec7\"><code>1a4442c</code></a> Update toolkit cache and core (<a href=\"https://redirect.github.com/actions/setup-node/issues/875\">#875</a>)</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/6e9e44895f11c5489716beba7b3be1cd4d76f8e9\"><code>6e9e448</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/setup-node/issues/872\">#872</a> from akv-platform/add-notice-about-binaries-not-being...</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/e52912ef25bc38da27c83c00c3c61bbb5b7bddc3\"><code>e52912e</code></a> Update tests</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/ac16ae42d727f28d8231c7ce87ef399a68ce8d80\"><code>ac16ae4</code></a> Update message to use waning instead of info</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/5a8d9111e32e049e80167427e34aad324f306b77\"><code>5a8d911</code></a> Update build</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/9e956a555c2c3d534ac93f57280063bfa7c63468\"><code>9e956a5</code></a> Add notice about binaries not being updated yet</li>\n<li><a href=\"https://github.com/actions/setup-node/commit/7da2a7eb0c8ca16886c2abd4199f2cdda6f64dd4\"><code>7da2a7e</code></a> Bump <code>@\u200bbabel/traverse</code> from 7.15.4 to 7.23.2 (<a href=\"https://redirect.github.com/actions/setup-node/issues/870\">#870</a>)</li>\n<li>Additional commits viewable in <a href=\"https://github.com/actions/setup-node/compare/v3.8.1...v4.0.0\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/setup-node&package-manager=github_actions&previous-version=3.8.1&new-version=4.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>",
+                "created_at": "2023-10-23T21:06:49Z",
+                "updated_at": "2023-10-23T21:06:51Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "56763325e8bdd2b44e971ac7b658220bede8fa21",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 1645719733,
+                        "node_id": "MDU6TGFiZWwxNjQ1NzE5NzMz",
+                        "url": "https://api.github.com/repos/facebook/metro/labels/dependencies",
+                        "name": "dependencies",
+                        "color": "0366d6",
+                        "default": false,
+                        "description": "Pull requests that update a dependency file"
+                    },
+                    {
+                        "id": 5287488324,
+                        "node_id": "LA_kwDOBI9cts8AAAABOyirRA",
+                        "url": "https://api.github.com/repos/facebook/metro/labels/github_actions",
+                        "name": "github_actions",
+                        "color": "000000",
+                        "default": false,
+                        "description": "Pull requests that update GitHub Actions code"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/facebook/metro/pulls/1124/commits",
+                "review_comments_url": "https://api.github.com/repos/facebook/metro/pulls/1124/comments",
+                "review_comment_url": "https://api.github.com/repos/facebook/metro/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/1124/comments",
+                "statuses_url": "https://api.github.com/repos/facebook/metro/statuses/7454e3459b889afcda4ecdeb77f753b733568bca",
+                "head": {
+                    "label": "facebook:dependabot/github_actions/actions/setup-node-4.0.0",
+                    "ref": "dependabot/github_actions/actions/setup-node-4.0.0",
+                    "sha": "7454e3459b889afcda4ecdeb77f753b733568bca",
+                    "user": {
+                        "login": "facebook",
+                        "id": 69631,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/facebook",
+                        "html_url": "https://github.com/facebook",
+                        "followers_url": "https://api.github.com/users/facebook/followers",
+                        "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                        "organizations_url": "https://api.github.com/users/facebook/orgs",
+                        "repos_url": "https://api.github.com/users/facebook/repos",
+                        "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/facebook/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 76504246,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3NjUwNDI0Ng==",
+                        "name": "metro",
+                        "full_name": "facebook/metro",
+                        "private": false,
+                        "owner": {
+                            "login": "facebook",
+                            "id": 69631,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/facebook",
+                            "html_url": "https://github.com/facebook",
+                            "followers_url": "https://api.github.com/users/facebook/followers",
+                            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                            "organizations_url": "https://api.github.com/users/facebook/orgs",
+                            "repos_url": "https://api.github.com/users/facebook/repos",
+                            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/facebook/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/facebook/metro",
+                        "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/facebook/metro",
+                        "forks_url": "https://api.github.com/repos/facebook/metro/forks",
+                        "keys_url": "https://api.github.com/repos/facebook/metro/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/facebook/metro/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/facebook/metro/teams",
+                        "hooks_url": "https://api.github.com/repos/facebook/metro/hooks",
+                        "issue_events_url": "https://api.github.com/repos/facebook/metro/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/facebook/metro/events",
+                        "assignees_url": "https://api.github.com/repos/facebook/metro/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/facebook/metro/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/facebook/metro/tags",
+                        "blobs_url": "https://api.github.com/repos/facebook/metro/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/facebook/metro/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/facebook/metro/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/facebook/metro/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/facebook/metro/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/facebook/metro/languages",
+                        "stargazers_url": "https://api.github.com/repos/facebook/metro/stargazers",
+                        "contributors_url": "https://api.github.com/repos/facebook/metro/contributors",
+                        "subscribers_url": "https://api.github.com/repos/facebook/metro/subscribers",
+                        "subscription_url": "https://api.github.com/repos/facebook/metro/subscription",
+                        "commits_url": "https://api.github.com/repos/facebook/metro/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/facebook/metro/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/facebook/metro/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/facebook/metro/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/facebook/metro/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/facebook/metro/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/facebook/metro/merges",
+                        "archive_url": "https://api.github.com/repos/facebook/metro/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/facebook/metro/downloads",
+                        "issues_url": "https://api.github.com/repos/facebook/metro/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/facebook/metro/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/facebook/metro/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/facebook/metro/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/facebook/metro/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/facebook/metro/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/facebook/metro/deployments",
+                        "created_at": "2016-12-14T23:02:54Z",
+                        "updated_at": "2023-10-23T18:33:49Z",
+                        "pushed_at": "2023-10-23T21:06:50Z",
+                        "git_url": "git://github.com/facebook/metro.git",
+                        "ssh_url": "git@github.com:facebook/metro.git",
+                        "clone_url": "https://github.com/facebook/metro.git",
+                        "svn_url": "https://github.com/facebook/metro",
+                        "homepage": "https://facebook.github.io/metro",
+                        "size": 37179,
+                        "stargazers_count": 4915,
+                        "watchers_count": 4915,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 671,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 291,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bundler",
+                            "javascript",
+                            "react-native"
+                        ],
+                        "visibility": "public",
+                        "forks": 671,
+                        "open_issues": 291,
+                        "watchers": 4915,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "facebook:main",
+                    "ref": "main",
+                    "sha": "a84a1c7d2e7e310ae9c6b53381963ea252aef21f",
+                    "user": {
+                        "login": "facebook",
+                        "id": 69631,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/facebook",
+                        "html_url": "https://github.com/facebook",
+                        "followers_url": "https://api.github.com/users/facebook/followers",
+                        "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                        "organizations_url": "https://api.github.com/users/facebook/orgs",
+                        "repos_url": "https://api.github.com/users/facebook/repos",
+                        "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/facebook/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 76504246,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3NjUwNDI0Ng==",
+                        "name": "metro",
+                        "full_name": "facebook/metro",
+                        "private": false,
+                        "owner": {
+                            "login": "facebook",
+                            "id": 69631,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/facebook",
+                            "html_url": "https://github.com/facebook",
+                            "followers_url": "https://api.github.com/users/facebook/followers",
+                            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                            "organizations_url": "https://api.github.com/users/facebook/orgs",
+                            "repos_url": "https://api.github.com/users/facebook/repos",
+                            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/facebook/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/facebook/metro",
+                        "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/facebook/metro",
+                        "forks_url": "https://api.github.com/repos/facebook/metro/forks",
+                        "keys_url": "https://api.github.com/repos/facebook/metro/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/facebook/metro/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/facebook/metro/teams",
+                        "hooks_url": "https://api.github.com/repos/facebook/metro/hooks",
+                        "issue_events_url": "https://api.github.com/repos/facebook/metro/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/facebook/metro/events",
+                        "assignees_url": "https://api.github.com/repos/facebook/metro/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/facebook/metro/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/facebook/metro/tags",
+                        "blobs_url": "https://api.github.com/repos/facebook/metro/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/facebook/metro/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/facebook/metro/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/facebook/metro/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/facebook/metro/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/facebook/metro/languages",
+                        "stargazers_url": "https://api.github.com/repos/facebook/metro/stargazers",
+                        "contributors_url": "https://api.github.com/repos/facebook/metro/contributors",
+                        "subscribers_url": "https://api.github.com/repos/facebook/metro/subscribers",
+                        "subscription_url": "https://api.github.com/repos/facebook/metro/subscription",
+                        "commits_url": "https://api.github.com/repos/facebook/metro/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/facebook/metro/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/facebook/metro/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/facebook/metro/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/facebook/metro/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/facebook/metro/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/facebook/metro/merges",
+                        "archive_url": "https://api.github.com/repos/facebook/metro/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/facebook/metro/downloads",
+                        "issues_url": "https://api.github.com/repos/facebook/metro/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/facebook/metro/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/facebook/metro/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/facebook/metro/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/facebook/metro/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/facebook/metro/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/facebook/metro/deployments",
+                        "created_at": "2016-12-14T23:02:54Z",
+                        "updated_at": "2023-10-23T18:33:49Z",
+                        "pushed_at": "2023-10-23T21:06:50Z",
+                        "git_url": "git://github.com/facebook/metro.git",
+                        "ssh_url": "git@github.com:facebook/metro.git",
+                        "clone_url": "https://github.com/facebook/metro.git",
+                        "svn_url": "https://github.com/facebook/metro",
+                        "homepage": "https://facebook.github.io/metro",
+                        "size": 37179,
+                        "stargazers_count": 4915,
+                        "watchers_count": 4915,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 671,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 291,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bundler",
+                            "javascript",
+                            "react-native"
+                        ],
+                        "visibility": "public",
+                        "forks": 671,
+                        "open_issues": 291,
+                        "watchers": 4915,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/1124"
+                    },
+                    "html": {
+                        "href": "https://github.com/facebook/metro/pull/1124"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/facebook/metro/issues/1124"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/facebook/metro/issues/1124/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/1124/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/1124/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/facebook/metro/statuses/7454e3459b889afcda4ecdeb77f753b733568bca"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": true,
+                "rebaseable": true,
+                "mergeable_state": "unstable",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 1,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T21:06:51Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32785072599",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "ref": "dependabot/github_actions/actions/setup-node-4.0.0",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T21:06:51Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32785072035",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "ref": "dependabot/github_actions/actions/checkout-4.1.1",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2023-10-23T21:06:49Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32785071972",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 49699333,
+            "login": "dependabot[bot]",
+            "display_login": "dependabot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dependabot[bot]",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49699333?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1123,
+            "pull_request": {
+                "url": "https://api.github.com/repos/facebook/metro/pulls/1123",
+                "id": 1569946964,
+                "node_id": "PR_kwDOBI9cts5dk31U",
+                "html_url": "https://github.com/facebook/metro/pull/1123",
+                "diff_url": "https://github.com/facebook/metro/pull/1123.diff",
+                "patch_url": "https://github.com/facebook/metro/pull/1123.patch",
+                "issue_url": "https://api.github.com/repos/facebook/metro/issues/1123",
+                "number": 1123,
+                "state": "open",
+                "locked": false,
+                "title": "Bump actions/checkout from 4.1.0 to 4.1.1",
+                "user": {
+                    "login": "dependabot[bot]",
+                    "id": 49699333,
+                    "node_id": "MDM6Qm90NDk2OTkzMzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+                    "html_url": "https://github.com/apps/dependabot",
+                    "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "body": "Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.0 to 4.1.1.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/checkout/releases\">actions/checkout's releases</a>.</em></p>\n<blockquote>\n<h2>v4.1.1</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>Update CODEOWNERS to Launch team by <a href=\"https://github.com/joshmgross\"><code>@\u200bjoshmgross</code></a> in <a href=\"https://redirect.github.com/actions/checkout/pull/1510\">actions/checkout#1510</a></li>\n<li>Correct link to GitHub Docs by <a href=\"https://github.com/peterbe\"><code>@\u200bpeterbe</code></a> in <a href=\"https://redirect.github.com/actions/checkout/pull/1511\">actions/checkout#1511</a></li>\n<li>Link to release page from what's new section by <a href=\"https://github.com/cory-miller\"><code>@\u200bcory-miller</code></a> in <a href=\"https://redirect.github.com/actions/checkout/pull/1514\">actions/checkout#1514</a></li>\n</ul>\n<h2>New Contributors</h2>\n<ul>\n<li><a href=\"https://github.com/joshmgross\"><code>@\u200bjoshmgross</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/checkout/pull/1510\">actions/checkout#1510</a></li>\n<li><a href=\"https://github.com/peterbe\"><code>@\u200bpeterbe</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/checkout/pull/1511\">actions/checkout#1511</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/checkout/compare/v4.1.0...v4.1.1\">https://github.com/actions/checkout/compare/v4.1.0...v4.1.1</a></p>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/checkout/blob/main/CHANGELOG.md\">actions/checkout's changelog</a>.</em></p>\n<blockquote>\n<h1>Changelog</h1>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/checkout/commit/b4ffde65f46336ab88eb53be808477a3936bae11\"><code>b4ffde6</code></a> Link to release page from what's new section (<a href=\"https://redirect.github.com/actions/checkout/issues/1514\">#1514</a>)</li>\n<li><a href=\"https://github.com/actions/checkout/commit/8530928916aaef40f59e6f221989ccb31f5759e7\"><code>8530928</code></a> Correct link to GitHub Docs (<a href=\"https://redirect.github.com/actions/checkout/issues/1511\">#1511</a>)</li>\n<li><a href=\"https://github.com/actions/checkout/commit/7cdaf2fbc075e6f3b9ca94cfd6cec5adc8a75622\"><code>7cdaf2f</code></a> Update CODEOWNERS to Launch team (<a href=\"https://redirect.github.com/actions/checkout/issues/1510\">#1510</a>)</li>\n<li>See full diff in <a href=\"https://github.com/actions/checkout/compare/v4.1.0...v4.1.1\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/checkout&package-manager=github_actions&previous-version=4.1.0&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>",
+                "created_at": "2023-10-23T21:06:47Z",
+                "updated_at": "2023-10-23T21:06:48Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "a09345e96fa592aecf5acde11ae482e6ab770a15",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 1645719733,
+                        "node_id": "MDU6TGFiZWwxNjQ1NzE5NzMz",
+                        "url": "https://api.github.com/repos/facebook/metro/labels/dependencies",
+                        "name": "dependencies",
+                        "color": "0366d6",
+                        "default": false,
+                        "description": "Pull requests that update a dependency file"
+                    },
+                    {
+                        "id": 5287488324,
+                        "node_id": "LA_kwDOBI9cts8AAAABOyirRA",
+                        "url": "https://api.github.com/repos/facebook/metro/labels/github_actions",
+                        "name": "github_actions",
+                        "color": "000000",
+                        "default": false,
+                        "description": "Pull requests that update GitHub Actions code"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/facebook/metro/pulls/1123/commits",
+                "review_comments_url": "https://api.github.com/repos/facebook/metro/pulls/1123/comments",
+                "review_comment_url": "https://api.github.com/repos/facebook/metro/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/1123/comments",
+                "statuses_url": "https://api.github.com/repos/facebook/metro/statuses/9bb4643ceedd3861ec3769d4c7a456c2d5f1b779",
+                "head": {
+                    "label": "facebook:dependabot/github_actions/actions/checkout-4.1.1",
+                    "ref": "dependabot/github_actions/actions/checkout-4.1.1",
+                    "sha": "9bb4643ceedd3861ec3769d4c7a456c2d5f1b779",
+                    "user": {
+                        "login": "facebook",
+                        "id": 69631,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/facebook",
+                        "html_url": "https://github.com/facebook",
+                        "followers_url": "https://api.github.com/users/facebook/followers",
+                        "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                        "organizations_url": "https://api.github.com/users/facebook/orgs",
+                        "repos_url": "https://api.github.com/users/facebook/repos",
+                        "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/facebook/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 76504246,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3NjUwNDI0Ng==",
+                        "name": "metro",
+                        "full_name": "facebook/metro",
+                        "private": false,
+                        "owner": {
+                            "login": "facebook",
+                            "id": 69631,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/facebook",
+                            "html_url": "https://github.com/facebook",
+                            "followers_url": "https://api.github.com/users/facebook/followers",
+                            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                            "organizations_url": "https://api.github.com/users/facebook/orgs",
+                            "repos_url": "https://api.github.com/users/facebook/repos",
+                            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/facebook/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/facebook/metro",
+                        "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/facebook/metro",
+                        "forks_url": "https://api.github.com/repos/facebook/metro/forks",
+                        "keys_url": "https://api.github.com/repos/facebook/metro/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/facebook/metro/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/facebook/metro/teams",
+                        "hooks_url": "https://api.github.com/repos/facebook/metro/hooks",
+                        "issue_events_url": "https://api.github.com/repos/facebook/metro/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/facebook/metro/events",
+                        "assignees_url": "https://api.github.com/repos/facebook/metro/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/facebook/metro/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/facebook/metro/tags",
+                        "blobs_url": "https://api.github.com/repos/facebook/metro/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/facebook/metro/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/facebook/metro/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/facebook/metro/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/facebook/metro/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/facebook/metro/languages",
+                        "stargazers_url": "https://api.github.com/repos/facebook/metro/stargazers",
+                        "contributors_url": "https://api.github.com/repos/facebook/metro/contributors",
+                        "subscribers_url": "https://api.github.com/repos/facebook/metro/subscribers",
+                        "subscription_url": "https://api.github.com/repos/facebook/metro/subscription",
+                        "commits_url": "https://api.github.com/repos/facebook/metro/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/facebook/metro/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/facebook/metro/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/facebook/metro/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/facebook/metro/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/facebook/metro/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/facebook/metro/merges",
+                        "archive_url": "https://api.github.com/repos/facebook/metro/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/facebook/metro/downloads",
+                        "issues_url": "https://api.github.com/repos/facebook/metro/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/facebook/metro/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/facebook/metro/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/facebook/metro/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/facebook/metro/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/facebook/metro/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/facebook/metro/deployments",
+                        "created_at": "2016-12-14T23:02:54Z",
+                        "updated_at": "2023-10-23T18:33:49Z",
+                        "pushed_at": "2023-10-23T21:06:47Z",
+                        "git_url": "git://github.com/facebook/metro.git",
+                        "ssh_url": "git@github.com:facebook/metro.git",
+                        "clone_url": "https://github.com/facebook/metro.git",
+                        "svn_url": "https://github.com/facebook/metro",
+                        "homepage": "https://facebook.github.io/metro",
+                        "size": 37179,
+                        "stargazers_count": 4915,
+                        "watchers_count": 4915,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 671,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 290,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bundler",
+                            "javascript",
+                            "react-native"
+                        ],
+                        "visibility": "public",
+                        "forks": 671,
+                        "open_issues": 290,
+                        "watchers": 4915,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "facebook:main",
+                    "ref": "main",
+                    "sha": "a84a1c7d2e7e310ae9c6b53381963ea252aef21f",
+                    "user": {
+                        "login": "facebook",
+                        "id": 69631,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/facebook",
+                        "html_url": "https://github.com/facebook",
+                        "followers_url": "https://api.github.com/users/facebook/followers",
+                        "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                        "organizations_url": "https://api.github.com/users/facebook/orgs",
+                        "repos_url": "https://api.github.com/users/facebook/repos",
+                        "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/facebook/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 76504246,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk3NjUwNDI0Ng==",
+                        "name": "metro",
+                        "full_name": "facebook/metro",
+                        "private": false,
+                        "owner": {
+                            "login": "facebook",
+                            "id": 69631,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/facebook",
+                            "html_url": "https://github.com/facebook",
+                            "followers_url": "https://api.github.com/users/facebook/followers",
+                            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+                            "organizations_url": "https://api.github.com/users/facebook/orgs",
+                            "repos_url": "https://api.github.com/users/facebook/repos",
+                            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/facebook/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/facebook/metro",
+                        "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/facebook/metro",
+                        "forks_url": "https://api.github.com/repos/facebook/metro/forks",
+                        "keys_url": "https://api.github.com/repos/facebook/metro/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/facebook/metro/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/facebook/metro/teams",
+                        "hooks_url": "https://api.github.com/repos/facebook/metro/hooks",
+                        "issue_events_url": "https://api.github.com/repos/facebook/metro/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/facebook/metro/events",
+                        "assignees_url": "https://api.github.com/repos/facebook/metro/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/facebook/metro/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/facebook/metro/tags",
+                        "blobs_url": "https://api.github.com/repos/facebook/metro/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/facebook/metro/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/facebook/metro/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/facebook/metro/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/facebook/metro/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/facebook/metro/languages",
+                        "stargazers_url": "https://api.github.com/repos/facebook/metro/stargazers",
+                        "contributors_url": "https://api.github.com/repos/facebook/metro/contributors",
+                        "subscribers_url": "https://api.github.com/repos/facebook/metro/subscribers",
+                        "subscription_url": "https://api.github.com/repos/facebook/metro/subscription",
+                        "commits_url": "https://api.github.com/repos/facebook/metro/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/facebook/metro/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/facebook/metro/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/facebook/metro/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/facebook/metro/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/facebook/metro/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/facebook/metro/merges",
+                        "archive_url": "https://api.github.com/repos/facebook/metro/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/facebook/metro/downloads",
+                        "issues_url": "https://api.github.com/repos/facebook/metro/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/facebook/metro/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/facebook/metro/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/facebook/metro/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/facebook/metro/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/facebook/metro/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/facebook/metro/deployments",
+                        "created_at": "2016-12-14T23:02:54Z",
+                        "updated_at": "2023-10-23T18:33:49Z",
+                        "pushed_at": "2023-10-23T21:06:47Z",
+                        "git_url": "git://github.com/facebook/metro.git",
+                        "ssh_url": "git@github.com:facebook/metro.git",
+                        "clone_url": "https://github.com/facebook/metro.git",
+                        "svn_url": "https://github.com/facebook/metro",
+                        "homepage": "https://facebook.github.io/metro",
+                        "size": 37179,
+                        "stargazers_count": 4915,
+                        "watchers_count": 4915,
+                        "language": "JavaScript",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 671,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 290,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "bundler",
+                            "javascript",
+                            "react-native"
+                        ],
+                        "visibility": "public",
+                        "forks": 671,
+                        "open_issues": 290,
+                        "watchers": 4915,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/1123"
+                    },
+                    "html": {
+                        "href": "https://github.com/facebook/metro/pull/1123"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/facebook/metro/issues/1123"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/facebook/metro/issues/1123/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/1123/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/facebook/metro/pulls/1123/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/facebook/metro/statuses/9bb4643ceedd3861ec3769d4c7a456c2d5f1b779"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": true,
+                "rebaseable": true,
+                "mergeable_state": "unstable",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 1,
+                "deletions": 1,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T21:06:49Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32781473220",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 145295387,
+            "login": "meslubi2021",
+            "display_login": "meslubi2021",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/meslubi2021",
+            "avatar_url": "https://avatars.githubusercontent.com/u/145295387?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "forkee": {
+                "id": 708964427,
+                "node_id": "R_kgDOKkHwSw",
+                "name": "metro",
+                "full_name": "mesloubi2021/metro",
+                "private": false,
+                "owner": {
+                    "login": "mesloubi2021",
+                    "id": 145295387,
+                    "node_id": "U_kgDOCKkIGw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/145295387?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mesloubi2021",
+                    "html_url": "https://github.com/mesloubi2021",
+                    "followers_url": "https://api.github.com/users/mesloubi2021/followers",
+                    "following_url": "https://api.github.com/users/mesloubi2021/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mesloubi2021/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mesloubi2021/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mesloubi2021/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mesloubi2021/orgs",
+                    "repos_url": "https://api.github.com/users/mesloubi2021/repos",
+                    "events_url": "https://api.github.com/users/mesloubi2021/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mesloubi2021/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/mesloubi2021/metro",
+                "description": "\ud83d\ude87 The JavaScript bundler for React Native",
+                "fork": true,
+                "url": "https://api.github.com/repos/mesloubi2021/metro",
+                "forks_url": "https://api.github.com/repos/mesloubi2021/metro/forks",
+                "keys_url": "https://api.github.com/repos/mesloubi2021/metro/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/mesloubi2021/metro/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/mesloubi2021/metro/teams",
+                "hooks_url": "https://api.github.com/repos/mesloubi2021/metro/hooks",
+                "issue_events_url": "https://api.github.com/repos/mesloubi2021/metro/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/mesloubi2021/metro/events",
+                "assignees_url": "https://api.github.com/repos/mesloubi2021/metro/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/mesloubi2021/metro/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/mesloubi2021/metro/tags",
+                "blobs_url": "https://api.github.com/repos/mesloubi2021/metro/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/mesloubi2021/metro/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/mesloubi2021/metro/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/mesloubi2021/metro/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/mesloubi2021/metro/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/mesloubi2021/metro/languages",
+                "stargazers_url": "https://api.github.com/repos/mesloubi2021/metro/stargazers",
+                "contributors_url": "https://api.github.com/repos/mesloubi2021/metro/contributors",
+                "subscribers_url": "https://api.github.com/repos/mesloubi2021/metro/subscribers",
+                "subscription_url": "https://api.github.com/repos/mesloubi2021/metro/subscription",
+                "commits_url": "https://api.github.com/repos/mesloubi2021/metro/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/mesloubi2021/metro/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/mesloubi2021/metro/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/mesloubi2021/metro/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/mesloubi2021/metro/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/mesloubi2021/metro/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/mesloubi2021/metro/merges",
+                "archive_url": "https://api.github.com/repos/mesloubi2021/metro/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/mesloubi2021/metro/downloads",
+                "issues_url": "https://api.github.com/repos/mesloubi2021/metro/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/mesloubi2021/metro/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/mesloubi2021/metro/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/mesloubi2021/metro/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/mesloubi2021/metro/labels{/name}",
+                "releases_url": "https://api.github.com/repos/mesloubi2021/metro/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/mesloubi2021/metro/deployments",
+                "created_at": "2023-10-23T18:34:15Z",
+                "updated_at": "2023-10-23T18:34:15Z",
+                "pushed_at": "2023-10-20T04:08:16Z",
+                "git_url": "git://github.com/mesloubi2021/metro.git",
+                "ssh_url": "git@github.com:mesloubi2021/metro.git",
+                "clone_url": "https://github.com/mesloubi2021/metro.git",
+                "svn_url": "https://github.com/mesloubi2021/metro",
+                "homepage": "https://facebook.github.io/metro",
+                "size": 37179,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T18:34:16Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32781462492",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 145295387,
+            "login": "meslubi2021",
+            "display_login": "meslubi2021",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/meslubi2021",
+            "avatar_url": "https://avatars.githubusercontent.com/u/145295387?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T18:33:49Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32781462211",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 145295387,
+            "login": "meslubi2021",
+            "display_login": "meslubi2021",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/meslubi2021",
+            "avatar_url": "https://avatars.githubusercontent.com/u/145295387?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-23T18:33:48Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32759025837",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 122200551,
+            "login": "Sulochan-khadka",
+            "display_login": "Sulochan-khadka",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Sulochan-khadka",
+            "avatar_url": "https://avatars.githubusercontent.com/u/122200551?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/1122",
+                "repository_url": "https://api.github.com/repos/facebook/metro",
+                "labels_url": "https://api.github.com/repos/facebook/metro/issues/1122/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/1122/comments",
+                "events_url": "https://api.github.com/repos/facebook/metro/issues/1122/events",
+                "html_url": "https://github.com/facebook/metro/issues/1122",
+                "id": 1956300431,
+                "node_id": "I_kwDOBI9cts50msaP",
+                "number": 1122,
+                "title": "Duplicate files error while running was as react-native backend after reloading.",
+                "user": {
+                    "login": "Sulochan-khadka",
+                    "id": 122200551,
+                    "node_id": "U_kgDOB0ih5w",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/122200551?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Sulochan-khadka",
+                    "html_url": "https://github.com/Sulochan-khadka",
+                    "followers_url": "https://api.github.com/users/Sulochan-khadka/followers",
+                    "following_url": "https://api.github.com/users/Sulochan-khadka/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Sulochan-khadka/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Sulochan-khadka/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Sulochan-khadka/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Sulochan-khadka/orgs",
+                    "repos_url": "https://api.github.com/users/Sulochan-khadka/repos",
+                    "events_url": "https://api.github.com/users/Sulochan-khadka/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Sulochan-khadka/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-23T03:54:57Z",
+                "updated_at": "2023-10-23T03:54:57Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "The aim of the solution is to be able to run aws as react-native backend smoothly.\r\n\r\nCurrent status:\r\nDuplicateError: Duplicated files or mocks. Please check the console for more info\r\n    at setModule (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro-file-map/src/index.js:450:17)\r\n    at workerReply (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro-file-map/src/index.js:507:9)\r\n\r\nmockPath1: 'amplify/backend/function/rideshare06b2bc5606b2bc56PostConfirmation/src/package.json',\r\n  mockPath2: 'amplify/#current-cloud-backend/function/rideshare06b2bc5606b2bc56PostConfirmation/src/package.json'\r\n}\r\nError: Duplicated files or mocks. Please check the console for more info\r\n    at setModule (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro-file-map/src/index.js:450:17)\r\n    at workerReply (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro-file-map/src/index.js:507:9)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\r\n    at async Promise.all (index 19)\r\n    at async HasteMap._applyFileDelta (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro-file-map/src/index.js:672:7)\r\n    at async /Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro-file-map/src/index.js:327:9\r\n    at async DependencyGraph.ready (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro/src/node-haste/DependencyGraph.js:95:5)\r\n    at async Bundler.ready (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro/src/Bundler.js:69:5)\r\n    at async IncrementalBundler.ready (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro/src/IncrementalBundler.js:289:5)\r\n    at async Server.ready (/Users/sulochankhadka/Desktop/RideShare/RideShare/node_modules/metro/src/Server.js:1085:5)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/1122/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebook/metro/issues/1122/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-23T03:54:59Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32754896969",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 26139299,
+            "login": "echarbeto",
+            "display_login": "echarbeto",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/echarbeto",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26139299?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T20:32:34Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32747465138",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 29562453,
+            "login": "zachhhhh",
+            "display_login": "zachhhhh",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/zachhhhh",
+            "avatar_url": "https://avatars.githubusercontent.com/u/29562453?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-22T03:25:29Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32744961216",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 17231906,
+            "login": "liuyunqiang",
+            "display_login": "liuyunqiang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/liuyunqiang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17231906?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/1121",
+                "repository_url": "https://api.github.com/repos/facebook/metro",
+                "labels_url": "https://api.github.com/repos/facebook/metro/issues/1121/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/1121/comments",
+                "events_url": "https://api.github.com/repos/facebook/metro/issues/1121/events",
+                "html_url": "https://github.com/facebook/metro/issues/1121",
+                "id": 1955647715,
+                "node_id": "I_kwDOBI9cts50kNDj",
+                "number": 1121,
+                "title": "Could not find or use auto-linked framework 'CoreAudioTypes': framework 'CoreAudioTypes' not found",
+                "user": {
+                    "login": "liuyunqiang",
+                    "id": 17231906,
+                    "node_id": "MDQ6VXNlcjE3MjMxOTA2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/17231906?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/liuyunqiang",
+                    "html_url": "https://github.com/liuyunqiang",
+                    "followers_url": "https://api.github.com/users/liuyunqiang/followers",
+                    "following_url": "https://api.github.com/users/liuyunqiang/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/liuyunqiang/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/liuyunqiang/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/liuyunqiang/subscriptions",
+                    "organizations_url": "https://api.github.com/users/liuyunqiang/orgs",
+                    "repos_url": "https://api.github.com/users/liuyunqiang/repos",
+                    "events_url": "https://api.github.com/users/liuyunqiang/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/liuyunqiang/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-21T20:06:51Z",
+                "updated_at": "2023-10-21T20:06:51Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Could not find or use auto-linked framework 'CoreAudioTypes': framework 'CoreAudioTypes' not found",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/1121/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebook/metro/issues/1121/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-21T20:06:52Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32738735702",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 63723008,
+            "login": "abhinavdeshmukh2101",
+            "display_login": "abhinavdeshmukh2101",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/abhinavdeshmukh2101",
+            "avatar_url": "https://avatars.githubusercontent.com/u/63723008?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-21T05:57:24Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "32716079358",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 43407798,
+            "login": "cbdeveloper",
+            "display_login": "cbdeveloper",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cbdeveloper",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43407798?"
+        },
+        "repo": {
+            "id": 76504246,
+            "name": "facebook/metro",
+            "url": "https://api.github.com/repos/facebook/metro"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/facebook/metro/issues/1053",
+                "repository_url": "https://api.github.com/repos/facebook/metro",
+                "labels_url": "https://api.github.com/repos/facebook/metro/issues/1053/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebook/metro/issues/1053/comments",
+                "events_url": "https://api.github.com/repos/facebook/metro/issues/1053/events",
+                "html_url": "https://github.com/facebook/metro/issues/1053",
+                "id": 1838110975,
+                "node_id": "I_kwDOBI9cts5tj1j_",
+                "number": 1053,
+                "title": "Trying to use `unstable_enableSymlinks: true` in yarn workspace monorepo with `react-native: 0.72.3`",
+                "user": {
+                    "login": "cbdeveloper",
+                    "id": 43407798,
+                    "node_id": "MDQ6VXNlcjQzNDA3Nzk4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/43407798?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/cbdeveloper",
+                    "html_url": "https://github.com/cbdeveloper",
+                    "followers_url": "https://api.github.com/users/cbdeveloper/followers",
+                    "following_url": "https://api.github.com/users/cbdeveloper/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/cbdeveloper/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/cbdeveloper/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/cbdeveloper/subscriptions",
+                    "organizations_url": "https://api.github.com/users/cbdeveloper/orgs",
+                    "repos_url": "https://api.github.com/users/cbdeveloper/repos",
+                    "events_url": "https://api.github.com/users/cbdeveloper/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/cbdeveloper/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-08-06T08:35:33Z",
+                "updated_at": "2023-10-20T08:48:58Z",
+                "closed_at": "2023-10-20T08:48:58Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!-- *Before creating an issue please make sure you are using the latest version of Metro, try re-installing your node_modules folder and run Metro once with `--reset-cache` to see if that fixes the problem you are experiencing.* -->\r\n\r\n**Do you want to request a *feature* or report a *bug*?** \r\n\r\npossilbe bug\r\n\r\n**What is the current behavior?** \r\n\r\nMetro does not seem to be following my symlinked package (yarn workspace monorepo) even though I've activated the `unstable_enableSymlinks: true` option in the config.\r\n\r\n**If the current behavior is a bug, please provide the steps to reproduce and a minimal repository on GitHub that we can `yarn install` and `yarn test`.**\r\n\r\nI've created a repo to reproduce the issue:\r\n\r\nhttps://github.com/cbdeveloper/rep-react-native-072-symlinks-monorepo\r\n\r\n**What is the expected behavior?**\r\n\r\nThis repo is a reproducible example of a GitHub issue.\r\n\r\n# To reproduce it\r\n\r\n- Clone the repo\r\n- `yarn install`\r\n- `cd apps/myapp`\r\n- `yarn run android`\r\n\r\nSee the [metro.config.js](./apps/myapp/metro.config.js) file, and toggle between options 1 and 2.\r\n\r\n```\r\nconst config = {\r\n  // OPTION 1 - DOES NOT WORK\r\n  // resolver: {\r\n  //   unstable_enableSymlinks: true,\r\n  // },\r\n\r\n  // OPTION 2 - WORKS\r\n  watchFolders: [\r\n    path.resolve(__dirname, './node_modules/@my-app/foo')\r\n  ]\r\n};\r\n```\r\n\r\n## Monorepo structure\r\n\r\nThis is the intended project structure:\r\n\r\n- apps\r\n  - Deployable applications\r\n- packages\r\n  - Shared packages\r\n\r\nApps should be able to import and build code from the shared packages.\r\n\r\n## nohoist\r\n\r\nthis project workspace is using `\"nohoist\": [ \"**\" ]`, as I had some errors when trying to `yarn run android` without it.\r\n\r\n##  `unstable_enableSymlinks` issue\r\n\r\nAfter reading the following article, I was under the impression that the only thing I had to do was to add `resolver: { unstable_enableSymlinks: true }` to my Metro config and everything would work.\r\n\r\n[React Native 0.72 - Symlink Support, Better Errors, and more](https://reactnative.dev/blog/2023/06/21/0.72-metro-package-exports-symlinks#enabling-beta-features)\r\n\r\nThis is the import I'm making in `App.tsx`:\r\n\r\n```\r\nimport { FOO } from '@my-app/foo';\r\n```\r\n\r\nNote: `@my-app/foo` is listed as a dependency of `myapp` and I can correctly see the symlink on `myapp` `node_modules` added by the yarn workspace.\r\n\r\nUnfortunately, when I tried that, I got the following error:\r\n\r\n> error: Error: Unable to resolve module @my-app/foo from /apps/myapp/App.tsx: @my-app/foo could not be found within the project or in these directories:\r\n  node_modules\r\n  ../../node_modules\r\n\r\nMeaning Metro it's not following symlinks correctly.\r\n\r\nThe weird thing is that if I remove the `unstable_enableSymlinks` resolve config and simply add the path as a watch folder, it works.\r\n\r\nThis works:\r\n\r\n```\r\nwatchFolders: [\r\n  path.resolve(__dirname, './node_modules/@my-app/foo')\r\n]\r\n```\r\n\r\nThis does not work:\r\n\r\n```\r\nresolver: {\r\n  unstable_enableSymlinks: true,\r\n}\r\n```\r\n\r\n**Questions:**\r\n\r\n- Am I doing some wrong here?\r\n- I also tried it with `projectRoot: path.resolve(__dirname, '../..'),` and I got the same error.\r\n- Is there any documentation on the `unstable_enableSymlinks` config? I didn't find anything on [metro docs](https://facebook.github.io/metro/docs/local-development).\r\n\r\nThank you\r\n\r\n**Please provide your exact Metro configuration and mention your Metro, node, yarn/npm version and operating system.**\r\n\r\n```\r\nMacOS Ventura 13.5\r\nnode v16.17.1\r\nyarn 1.22.19\r\n\"react\": \"18.2.0\",\r\n\"react-native\": \"0.72.3\",\r\n\"metro-core\": \"0.76.7\" (installed by react-native)\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebook/metro/issues/1053/reactions",
+                    "total_count": 3,
+                    "+1": 3,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebook/metro/issues/1053/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-20T08:48:59Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    }
+]

@@ -1,0 +1,2099 @@
+[
+    {
+        "id": "32897195956",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 30062474,
+            "login": "icsl-Jeon",
+            "display_login": "icsl-Jeon",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/icsl-Jeon",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30062474?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T11:31:59Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32895469871",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 140074762,
+            "login": "kevin-guimard-ext",
+            "display_login": "kevin-guimard-ext",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kevin-guimard-ext",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140074762?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5360",
+                "repository_url": "https://api.github.com/repos/facebookresearch/fairseq",
+                "labels_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5360/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5360/comments",
+                "events_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5360/events",
+                "html_url": "https://github.com/facebookresearch/fairseq/issues/5360",
+                "id": 1965218514,
+                "node_id": "I_kwDOBhEUd851ItrS",
+                "number": 5360,
+                "title": "Installation fails on Windows",
+                "user": {
+                    "login": "kevin-guimard-ext",
+                    "id": 140074762,
+                    "node_id": "U_kgDOCFlfCg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140074762?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kevin-guimard-ext",
+                    "html_url": "https://github.com/kevin-guimard-ext",
+                    "followers_url": "https://api.github.com/users/kevin-guimard-ext/followers",
+                    "following_url": "https://api.github.com/users/kevin-guimard-ext/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kevin-guimard-ext/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kevin-guimard-ext/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kevin-guimard-ext/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kevin-guimard-ext/orgs",
+                    "repos_url": "https://api.github.com/users/kevin-guimard-ext/repos",
+                    "events_url": "https://api.github.com/users/kevin-guimard-ext/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kevin-guimard-ext/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 679100392,
+                        "node_id": "MDU6TGFiZWw2NzkxMDAzOTI=",
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq/labels/bug",
+                        "name": "bug",
+                        "color": "ee0701",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 1737615870,
+                        "node_id": "MDU6TGFiZWwxNzM3NjE1ODcw",
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq/labels/needs%20triage",
+                        "name": "needs triage",
+                        "color": "B7950B",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2023-10-27T10:21:09Z",
+                "updated_at": "2023-10-27T10:21:09Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## \ud83d\udc1b Bug\r\n\r\nThe fairseq package cannot be installed on Windows 10. I tried with python version 3.8, 3.9 and 3.10 to no avail.\r\n\r\n### To Reproduce\r\n\r\nSteps to reproduce the behavior:\r\n\r\n1. Run cmd 'pip install fairseq'\r\n2. Error:\r\n\r\n> module.obj : error LNK2001: unresolved external symbol __imp__PyModule_Create2\r\n> build\\lib.win32-cpython-38\\fairseq\\libbleu.cp38-win_amd64.pyd : fatal error LNK1120: 1 unresolved external\r\n\r\n### Environment\r\n - fairseq Version (e.g., \r\n - 1.0 or main): 0.12.2\r\n - PyTorch Version (e.g., 1.0)\r\n - OS (e.g., Linux): Windows 10\r\n - How you installed fairseq (`pip`, source): pip\r\n - Build command you used (if compiling from source):\r\n - Python version: 3.8\r\n - CUDA/cuDNN version:\r\n - GPU models and configuration:\r\n - Any other relevant information:\r\n\r\n### Additional context\r\n\r\n<!-- Add any other context about the problem here. -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5360/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5360/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-27T10:21:11Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32891468008",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 50992197,
+            "login": "HTRwalnut",
+            "display_login": "HTRwalnut",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/HTRwalnut",
+            "avatar_url": "https://avatars.githubusercontent.com/u/50992197?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T07:47:26Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32887677505",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 142075961,
+            "login": "mysticMate",
+            "display_login": "mysticMate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mysticMate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/142075961?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T04:06:49Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32887230523",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 18238763,
+            "login": "jwwangchn",
+            "display_login": "jwwangchn",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwwangchn",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18238763?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-27T03:29:20Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32870405743",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 33023171,
+            "login": "WasedaMagina",
+            "display_login": "WasedaMagina",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/WasedaMagina",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33023171?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:52:38Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32869768891",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 36411617,
+            "login": "CheshireCC",
+            "display_login": "CheshireCC",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CheshireCC",
+            "avatar_url": "https://avatars.githubusercontent.com/u/36411617?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T13:33:40Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32866314771",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 25183310,
+            "login": "bukefenjie",
+            "display_login": "bukefenjie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bukefenjie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25183310?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:41:34Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32865694902",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5959778,
+            "login": "basahiy",
+            "display_login": "basahiy",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/basahiy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5959778?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:17:33Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32865530078",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 612343,
+            "login": "ixiami1314",
+            "display_login": "ixiami1314",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ixiami1314",
+            "avatar_url": "https://avatars.githubusercontent.com/u/612343?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "forkee": {
+                "id": 710270770,
+                "node_id": "R_kgDOKlXfMg",
+                "name": "fairseq",
+                "full_name": "ixiami1314/fairseq",
+                "private": false,
+                "owner": {
+                    "login": "ixiami1314",
+                    "id": 612343,
+                    "node_id": "MDQ6VXNlcjYxMjM0Mw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/612343?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ixiami1314",
+                    "html_url": "https://github.com/ixiami1314",
+                    "followers_url": "https://api.github.com/users/ixiami1314/followers",
+                    "following_url": "https://api.github.com/users/ixiami1314/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/ixiami1314/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/ixiami1314/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/ixiami1314/subscriptions",
+                    "organizations_url": "https://api.github.com/users/ixiami1314/orgs",
+                    "repos_url": "https://api.github.com/users/ixiami1314/repos",
+                    "events_url": "https://api.github.com/users/ixiami1314/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/ixiami1314/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/ixiami1314/fairseq",
+                "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+                "fork": true,
+                "url": "https://api.github.com/repos/ixiami1314/fairseq",
+                "forks_url": "https://api.github.com/repos/ixiami1314/fairseq/forks",
+                "keys_url": "https://api.github.com/repos/ixiami1314/fairseq/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/ixiami1314/fairseq/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/ixiami1314/fairseq/teams",
+                "hooks_url": "https://api.github.com/repos/ixiami1314/fairseq/hooks",
+                "issue_events_url": "https://api.github.com/repos/ixiami1314/fairseq/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/ixiami1314/fairseq/events",
+                "assignees_url": "https://api.github.com/repos/ixiami1314/fairseq/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/ixiami1314/fairseq/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/ixiami1314/fairseq/tags",
+                "blobs_url": "https://api.github.com/repos/ixiami1314/fairseq/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/ixiami1314/fairseq/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/ixiami1314/fairseq/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/ixiami1314/fairseq/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/ixiami1314/fairseq/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/ixiami1314/fairseq/languages",
+                "stargazers_url": "https://api.github.com/repos/ixiami1314/fairseq/stargazers",
+                "contributors_url": "https://api.github.com/repos/ixiami1314/fairseq/contributors",
+                "subscribers_url": "https://api.github.com/repos/ixiami1314/fairseq/subscribers",
+                "subscription_url": "https://api.github.com/repos/ixiami1314/fairseq/subscription",
+                "commits_url": "https://api.github.com/repos/ixiami1314/fairseq/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/ixiami1314/fairseq/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/ixiami1314/fairseq/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/ixiami1314/fairseq/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/ixiami1314/fairseq/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/ixiami1314/fairseq/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/ixiami1314/fairseq/merges",
+                "archive_url": "https://api.github.com/repos/ixiami1314/fairseq/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/ixiami1314/fairseq/downloads",
+                "issues_url": "https://api.github.com/repos/ixiami1314/fairseq/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/ixiami1314/fairseq/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/ixiami1314/fairseq/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/ixiami1314/fairseq/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/ixiami1314/fairseq/labels{/name}",
+                "releases_url": "https://api.github.com/repos/ixiami1314/fairseq/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/ixiami1314/fairseq/deployments",
+                "created_at": "2023-10-26T11:11:11Z",
+                "updated_at": "2023-10-26T11:11:11Z",
+                "pushed_at": "2023-10-25T16:06:34Z",
+                "git_url": "git://github.com/ixiami1314/fairseq.git",
+                "ssh_url": "git@github.com:ixiami1314/fairseq.git",
+                "clone_url": "https://github.com/ixiami1314/fairseq.git",
+                "svn_url": "https://github.com/ixiami1314/fairseq",
+                "homepage": null,
+                "size": 25645,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T11:11:12Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32864802077",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 135701940,
+            "login": "kishanprmr",
+            "display_login": "kishanprmr",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kishanprmr",
+            "avatar_url": "https://avatars.githubusercontent.com/u/135701940?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T10:43:44Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32863544320",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 11054835,
+            "login": "supersimplesoft",
+            "display_login": "supersimplesoft",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/supersimplesoft",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11054835?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "forkee": {
+                "id": 710242686,
+                "node_id": "R_kgDOKlVxfg",
+                "name": "fairseq",
+                "full_name": "supersimplesoft/fairseq",
+                "private": false,
+                "owner": {
+                    "login": "supersimplesoft",
+                    "id": 11054835,
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjExMDU0ODM1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/11054835?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/supersimplesoft",
+                    "html_url": "https://github.com/supersimplesoft",
+                    "followers_url": "https://api.github.com/users/supersimplesoft/followers",
+                    "following_url": "https://api.github.com/users/supersimplesoft/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/supersimplesoft/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/supersimplesoft/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/supersimplesoft/subscriptions",
+                    "organizations_url": "https://api.github.com/users/supersimplesoft/orgs",
+                    "repos_url": "https://api.github.com/users/supersimplesoft/repos",
+                    "events_url": "https://api.github.com/users/supersimplesoft/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/supersimplesoft/received_events",
+                    "type": "Organization",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/supersimplesoft/fairseq",
+                "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+                "fork": true,
+                "url": "https://api.github.com/repos/supersimplesoft/fairseq",
+                "forks_url": "https://api.github.com/repos/supersimplesoft/fairseq/forks",
+                "keys_url": "https://api.github.com/repos/supersimplesoft/fairseq/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/supersimplesoft/fairseq/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/supersimplesoft/fairseq/teams",
+                "hooks_url": "https://api.github.com/repos/supersimplesoft/fairseq/hooks",
+                "issue_events_url": "https://api.github.com/repos/supersimplesoft/fairseq/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/supersimplesoft/fairseq/events",
+                "assignees_url": "https://api.github.com/repos/supersimplesoft/fairseq/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/supersimplesoft/fairseq/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/supersimplesoft/fairseq/tags",
+                "blobs_url": "https://api.github.com/repos/supersimplesoft/fairseq/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/supersimplesoft/fairseq/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/supersimplesoft/fairseq/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/supersimplesoft/fairseq/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/supersimplesoft/fairseq/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/supersimplesoft/fairseq/languages",
+                "stargazers_url": "https://api.github.com/repos/supersimplesoft/fairseq/stargazers",
+                "contributors_url": "https://api.github.com/repos/supersimplesoft/fairseq/contributors",
+                "subscribers_url": "https://api.github.com/repos/supersimplesoft/fairseq/subscribers",
+                "subscription_url": "https://api.github.com/repos/supersimplesoft/fairseq/subscription",
+                "commits_url": "https://api.github.com/repos/supersimplesoft/fairseq/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/supersimplesoft/fairseq/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/supersimplesoft/fairseq/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/supersimplesoft/fairseq/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/supersimplesoft/fairseq/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/supersimplesoft/fairseq/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/supersimplesoft/fairseq/merges",
+                "archive_url": "https://api.github.com/repos/supersimplesoft/fairseq/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/supersimplesoft/fairseq/downloads",
+                "issues_url": "https://api.github.com/repos/supersimplesoft/fairseq/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/supersimplesoft/fairseq/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/supersimplesoft/fairseq/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/supersimplesoft/fairseq/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/supersimplesoft/fairseq/labels{/name}",
+                "releases_url": "https://api.github.com/repos/supersimplesoft/fairseq/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/supersimplesoft/fairseq/deployments",
+                "created_at": "2023-10-26T09:59:37Z",
+                "updated_at": "2023-10-26T09:59:37Z",
+                "pushed_at": "2023-10-25T16:06:34Z",
+                "git_url": "git://github.com/supersimplesoft/fairseq.git",
+                "ssh_url": "git@github.com:supersimplesoft/fairseq.git",
+                "clone_url": "https://github.com/supersimplesoft/fairseq.git",
+                "svn_url": "https://github.com/supersimplesoft/fairseq",
+                "homepage": null,
+                "size": 25645,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:59:38Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32863254530",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 60062777,
+            "login": "ma3q1h",
+            "display_login": "ma3q1h",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ma3q1h",
+            "avatar_url": "https://avatars.githubusercontent.com/u/60062777?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T09:49:49Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32861644582",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 10129633,
+            "login": "a1004123217",
+            "display_login": "a1004123217",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/a1004123217",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10129633?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:56:03Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32861002270",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 73676846,
+            "login": "iGangao",
+            "display_login": "iGangao",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/iGangao",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73676846?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T08:33:50Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32857907747",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 8172694,
+            "login": "seonghobae",
+            "display_login": "seonghobae",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/seonghobae",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8172694?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T06:31:29Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32857600037",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 107811426,
+            "login": "Jensinjames",
+            "display_login": "Jensinjames",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Jensinjames",
+            "avatar_url": "https://avatars.githubusercontent.com/u/107811426?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T06:16:16Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32854181882",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 6835500,
+            "login": "lonjaju",
+            "display_login": "lonjaju",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lonjaju",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6835500?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T02:16:49Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32854169965",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7575539,
+            "login": "Zenine",
+            "display_login": "Zenine",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Zenine",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7575539?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T02:15:57Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32852827227",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 68981137,
+            "login": "forallx94",
+            "display_login": "forallx94",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/forallx94",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68981137?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-26T00:35:34Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32850696003",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 13888527,
+            "login": "xbiggyl",
+            "display_login": "xbiggyl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/xbiggyl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13888527?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T22:12:56Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32845512339",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 19658300,
+            "login": "majiayu000",
+            "display_login": "majiayu000",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/majiayu000",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19658300?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359",
+                "repository_url": "https://api.github.com/repos/facebookresearch/fairseq",
+                "labels_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/comments",
+                "events_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/events",
+                "html_url": "https://github.com/facebookresearch/fairseq/pull/5359",
+                "id": 1960987845,
+                "node_id": "PR_kwDOBhEUd85du0HR",
+                "number": 5359,
+                "title": "Add support for Python3.11",
+                "user": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 679100442,
+                        "node_id": "MDU6TGFiZWw2NzkxMDA0NDI=",
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq/labels/CLA%20Signed",
+                        "name": "CLA Signed",
+                        "color": "009900",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2023-10-25T09:47:41Z",
+                "updated_at": "2023-10-25T18:20:39Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359",
+                    "html_url": "https://github.com/facebookresearch/fairseq/pull/5359",
+                    "diff_url": "https://github.com/facebookresearch/fairseq/pull/5359.diff",
+                    "patch_url": "https://github.com/facebookresearch/fairseq/pull/5359.patch",
+                    "merged_at": null
+                },
+                "body": "# Before submitting\r\n\r\n- [\u221a] Was this discussed/approved via a Github issue? (no need for typos, doc improvements)\r\n- [\u221a] Did you read the [contributor guideline](https://github.com/pytorch/fairseq/blob/main/CONTRIBUTING.md)?\r\n- [\u221a] Did you make sure to update the docs?\r\n- [\u221a] Did you write any new necessary tests?\r\n\r\n## What does this PR do?\r\nFixes #5012 (issue).\r\nThis PR updates supports for Python 3.11 and also add the adaptation of hydra by updating the version of hydra to 1.3.2.\r\n\r\n## PR review\r\nAnyone in the community is free to review the PR once the tests have passed.\r\nIf we didn't discuss your PR in Github issues there's a high chance it will not be merged.\r\n\r\n## Did you have fun?\r\nSure!\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1779816038",
+                "html_url": "https://github.com/facebookresearch/fairseq/pull/5359#issuecomment-1779816038",
+                "issue_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359",
+                "id": 1779816038,
+                "node_id": "IC_kwDOBhEUd85qFdZm",
+                "user": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T18:20:39Z",
+                "updated_at": "2023-10-25T18:20:39Z",
+                "author_association": "NONE",
+                "body": "Sorry for I didn't go through a lot of tests. I am pretty new to this lib.\r\n\r\nThis seems an error for omegaconf(any version) which is not compatible for Python 3.11's dataclasses.\r\n\r\nI fix this by change code in `omegaconf/omegaconf.py`\r\n\r\nJust like below:\r\n```py\r\nfrom dataclasses import _MISSING_TYPE\r\n...\r\n...\r\n\r\n\r\n\r\n    @staticmethod\r\n    def _create_impl(  # noqa F811\r\n        obj: Any = _EMPTY_MARKER_, parent: Optional[BaseContainer] = None\r\n    ) -> Union[DictConfig, ListConfig]:\r\n        try:\r\n           ...\r\n           ...\r\n                    if isinstance(obj, type):\r\n                        raise ValidationError(\r\n                            f\"Input class '{obj.__name__}' is not a structured config. \"\r\n                            \"did you forget to decorate it as a dataclass?\"\r\n                        )\r\n\r\n\r\n                    # Add a judgement for missing type\r\n                    elif isinstance(obj, _MISSING_TYPE):\r\n                        return DictConfig(content={}, parent=parent)\r\n\r\n                    else:\r\n                        raise ValidationError(\r\n                            f\"Object of unsupported type: '{type(obj).__name__}'\"\r\n                        )\r\n```\r\n\r\nIt looks like I need to improve compatibility with other libraries first.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1779816038/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T18:20:40Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32842462339",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 123164531,
+            "login": "mdmalhou",
+            "display_login": "mdmalhou",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mdmalhou",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123164531?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359",
+                "repository_url": "https://api.github.com/repos/facebookresearch/fairseq",
+                "labels_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/comments",
+                "events_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/events",
+                "html_url": "https://github.com/facebookresearch/fairseq/pull/5359",
+                "id": 1960987845,
+                "node_id": "PR_kwDOBhEUd85du0HR",
+                "number": 5359,
+                "title": "Add support for Python3.11",
+                "user": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 679100442,
+                        "node_id": "MDU6TGFiZWw2NzkxMDA0NDI=",
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq/labels/CLA%20Signed",
+                        "name": "CLA Signed",
+                        "color": "009900",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2023-10-25T09:47:41Z",
+                "updated_at": "2023-10-25T16:22:18Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359",
+                    "html_url": "https://github.com/facebookresearch/fairseq/pull/5359",
+                    "diff_url": "https://github.com/facebookresearch/fairseq/pull/5359.diff",
+                    "patch_url": "https://github.com/facebookresearch/fairseq/pull/5359.patch",
+                    "merged_at": null
+                },
+                "body": "# Before submitting\r\n\r\n- [\u221a] Was this discussed/approved via a Github issue? (no need for typos, doc improvements)\r\n- [\u221a] Did you read the [contributor guideline](https://github.com/pytorch/fairseq/blob/main/CONTRIBUTING.md)?\r\n- [\u221a] Did you make sure to update the docs?\r\n- [\u221a] Did you write any new necessary tests?\r\n\r\n## What does this PR do?\r\nFixes #5012 (issue).\r\nThis PR updates supports for Python 3.11 and also add the adaptation of hydra by updating the version of hydra to 1.3.2.\r\n\r\n## PR review\r\nAnyone in the community is free to review the PR once the tests have passed.\r\nIf we didn't discuss your PR in Github issues there's a high chance it will not be merged.\r\n\r\n## Did you have fun?\r\nSure!\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1779634288",
+                "html_url": "https://github.com/facebookresearch/fairseq/pull/5359#issuecomment-1779634288",
+                "issue_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359",
+                "id": 1779634288,
+                "node_id": "IC_kwDOBhEUd85qExBw",
+                "user": {
+                    "login": "mdmalhou",
+                    "id": 123164531,
+                    "node_id": "U_kgDOB1dXcw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/123164531?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mdmalhou",
+                    "html_url": "https://github.com/mdmalhou",
+                    "followers_url": "https://api.github.com/users/mdmalhou/followers",
+                    "following_url": "https://api.github.com/users/mdmalhou/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mdmalhou/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mdmalhou/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mdmalhou/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mdmalhou/orgs",
+                    "repos_url": "https://api.github.com/users/mdmalhou/repos",
+                    "events_url": "https://api.github.com/users/mdmalhou/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mdmalhou/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T16:22:18Z",
+                "updated_at": "2023-10-25T16:22:18Z",
+                "author_association": "NONE",
+                "body": "Switching the operator from `<` to `>` for `omegaconf` is not a good idea in general if you don't know why it was there in the first place. Anyways, there is still an issue with the dependencies. I get this error when running the preprocess command\r\n```\r\nfairseq-preprocess \\\r\n    --only-source \\\r\n    --trainpref $TEXT/wiki.train.tokens \\\r\n    --validpref $TEXT/wiki.valid.tokens \\\r\n    --testpref $TEXT/wiki.test.tokens \\\r\n    --destdir data-bin/wikitext-103 \\\r\n    --workers 5\r\ncommon - <dataclasses._MISSING_TYPE object at 0x7f881a973490>\r\nTraceback (most recent call last):\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/bin/fairseq-preprocess\", line 5, in <module>\r\n    from fairseq_cli.preprocess import cli_main\r\n  File \"/mnt/c/Users/mohamed/phd/fairseq/fairseq_cli/preprocess.py\", line 18, in <module>\r\n    from fairseq import options, tasks, utils\r\n  File \"/mnt/c/Users/mohamed/phd/fairseq/fairseq/__init__.py\", line 31, in <module>\r\n    hydra_init()\r\n  File \"/mnt/c/Users/mohamed/phd/fairseq/fairseq/dataclass/initialize.py\", line 24, in hydra_init\r\n    cs.store(name=k, node=v)\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/lib/python3.11/site-packages/hydra/core/config_store.py\", line 85, in store\r\n    cfg = OmegaConf.structured(node)\r\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/lib/python3.11/site-packages/omegaconf/omegaconf.py\", line 125, in structured\r\n    return OmegaConf.create(obj, parent, flags)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/lib/python3.11/site-packages/omegaconf/omegaconf.py\", line 178, in create\r\n    return OmegaConf._create_impl(\r\n           ^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/lib/python3.11/site-packages/omegaconf/omegaconf.py\", line 900, in _create_impl\r\n    format_and_raise(node=None, key=None, value=None, msg=str(e), cause=e)\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/lib/python3.11/site-packages/omegaconf/_utils.py\", line 899, in format_and_raise\r\n    _raise(ex, cause)\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/lib/python3.11/site-packages/omegaconf/_utils.py\", line 797, in _raise\r\n    raise ex.with_traceback(sys.exc_info()[2])  # set env var OC_CAUSE=1 for full trace\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/mohamed/miniconda3/envs/fairseq/lib/python3.11/site-packages/omegaconf/omegaconf.py\", line 896, in _create_impl\r\n    raise ValidationError(\r\nomegaconf.errors.ValidationError: Object of unsupported type: '_MISSING_TYPE'\r\n    full_key: \r\n    object_type=None\r\n  ```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1779634288/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:22:19Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32842061463",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 19658300,
+            "login": "majiayu000",
+            "display_login": "majiayu000",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/majiayu000",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19658300?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359",
+                "repository_url": "https://api.github.com/repos/facebookresearch/fairseq",
+                "labels_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/comments",
+                "events_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/events",
+                "html_url": "https://github.com/facebookresearch/fairseq/pull/5359",
+                "id": 1960987845,
+                "node_id": "PR_kwDOBhEUd85du0HR",
+                "number": 5359,
+                "title": "Add support for Python3.11",
+                "user": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 679100442,
+                        "node_id": "MDU6TGFiZWw2NzkxMDA0NDI=",
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq/labels/CLA%20Signed",
+                        "name": "CLA Signed",
+                        "color": "009900",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-10-25T09:47:41Z",
+                "updated_at": "2023-10-25T16:08:02Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359",
+                    "html_url": "https://github.com/facebookresearch/fairseq/pull/5359",
+                    "diff_url": "https://github.com/facebookresearch/fairseq/pull/5359.diff",
+                    "patch_url": "https://github.com/facebookresearch/fairseq/pull/5359.patch",
+                    "merged_at": null
+                },
+                "body": "# Before submitting\r\n\r\n- [\u221a] Was this discussed/approved via a Github issue? (no need for typos, doc improvements)\r\n- [\u221a] Did you read the [contributor guideline](https://github.com/pytorch/fairseq/blob/main/CONTRIBUTING.md)?\r\n- [\u221a] Did you make sure to update the docs?\r\n- [\u221a] Did you write any new necessary tests?\r\n\r\n## What does this PR do?\r\nFixes #5012 (issue).\r\nThis PR updates supports for Python 3.11 and also add the adaptation of hydra by updating the version of hydra to 1.3.2.\r\n\r\n## PR review\r\nAnyone in the community is free to review the PR once the tests have passed.\r\nIf we didn't discuss your PR in Github issues there's a high chance it will not be merged.\r\n\r\n## Did you have fun?\r\nSure!\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1779610183",
+                "html_url": "https://github.com/facebookresearch/fairseq/pull/5359#issuecomment-1779610183",
+                "issue_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359",
+                "id": 1779610183,
+                "node_id": "IC_kwDOBhEUd85qErJH",
+                "user": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T16:08:01Z",
+                "updated_at": "2023-10-25T16:08:01Z",
+                "author_association": "NONE",
+                "body": "Fix a dependency conflicts.\r\nNow anyone use Python 3.11 can install this lib by \r\n```\r\ngit clone https://github.com/pytorch/fairseq\r\ncd fairseq\r\npip install --editable ./\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1779610183/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T16:08:02Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32832206343",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 37301465,
+            "login": "Exgc",
+            "display_login": "Exgc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Exgc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37301465?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T10:58:10Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32830396149",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 19658300,
+            "login": "majiayu000",
+            "display_login": "majiayu000",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/majiayu000",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19658300?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5191",
+                "repository_url": "https://api.github.com/repos/facebookresearch/fairseq",
+                "labels_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5191/labels{/name}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5191/comments",
+                "events_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5191/events",
+                "html_url": "https://github.com/facebookresearch/fairseq/issues/5191",
+                "id": 1740771736,
+                "node_id": "I_kwDOBhEUd85nwhGY",
+                "number": 5191,
+                "title": "Support for Python 3.11",
+                "user": {
+                    "login": "thyripian",
+                    "id": 110140474,
+                    "node_id": "U_kgDOBpCcOg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/110140474?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thyripian",
+                    "html_url": "https://github.com/thyripian",
+                    "followers_url": "https://api.github.com/users/thyripian/followers",
+                    "following_url": "https://api.github.com/users/thyripian/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thyripian/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thyripian/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thyripian/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thyripian/orgs",
+                    "repos_url": "https://api.github.com/users/thyripian/repos",
+                    "events_url": "https://api.github.com/users/thyripian/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thyripian/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 679100392,
+                        "node_id": "MDU6TGFiZWw2NzkxMDAzOTI=",
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq/labels/bug",
+                        "name": "bug",
+                        "color": "ee0701",
+                        "default": true,
+                        "description": null
+                    },
+                    {
+                        "id": 1737615870,
+                        "node_id": "MDU6TGFiZWwxNzM3NjE1ODcw",
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq/labels/needs%20triage",
+                        "name": "needs triage",
+                        "color": "B7950B",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2023-06-05T02:18:53Z",
+                "updated_at": "2023-10-25T09:54:03Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## \ud83d\udc1b Bug\r\n\r\nMaking recommended modifications to config.py from separate [issue](https://github.com/facebookresearch/fairseq/pull/5062) to allow 3.11 compatibility break fairseq and or runtime compatibility with hydra.\r\n\r\n### Windows 10 machine, Python 3.11.3, fairseq==0.12.2, omegaconf==2.0.6, hydra-core==1.0.7, running LASER3 embed models and nllb-200-distilled-600M.\r\n\r\nSteps to reproduce the behavior (**always include the command you ran**):\r\n\r\n1. Run cmd './embed.sh [inp_file] [out_file] gle_Latn'\r\n2. See error\r\n\r\n#### Traceback in attached image\r\n\r\n### Expected behavior\r\nExpected process to run as intended. \r\n\r\n### Environment\r\n\r\n - fairseq Version (e.g., 1.0 or main): 0.12.2\r\n - PyTorch Version (e.g., 1.0): 2.0.1\r\n - OS (e.g., Linux): Windows 10\r\n - How you installed fairseq (`pip`, source): git clone, pip install --editable\r\n - Build command you used (if compiling from source): python setup.py build develop\r\n - Python version: 3.11.3\r\n - CUDA/cuDNN version:  n/a\r\n - GPU models and configuration: n/a\r\n - Any other relevant information: I've been trying to figure this out since Friday (6/2/2023). Please help. I'd like to get some kind of progress by the end of the day tomorrow.\r\n\r\n\r\n![fairseq_error_traceback](https://github.com/facebookresearch/fairseq/assets/110140474/72950fa5-28b9-4074-999a-48dc92b85f76)\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5191/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5191/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1778911774",
+                "html_url": "https://github.com/facebookresearch/fairseq/issues/5191#issuecomment-1778911774",
+                "issue_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5191",
+                "id": 1778911774,
+                "node_id": "IC_kwDOBhEUd85qCAoe",
+                "user": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2023-10-25T09:54:02Z",
+                "updated_at": "2023-10-25T09:54:02Z",
+                "author_association": "NONE",
+                "body": "Maybe this can fix this issue.\r\n\r\n#5359",
+                "reactions": {
+                    "url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments/1778911774/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:54:03Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32830206329",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 19658300,
+            "login": "majiayu000",
+            "display_login": "majiayu000",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/majiayu000",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19658300?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 5359,
+            "pull_request": {
+                "url": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359",
+                "id": 1572553169,
+                "node_id": "PR_kwDOBhEUd85du0HR",
+                "html_url": "https://github.com/facebookresearch/fairseq/pull/5359",
+                "diff_url": "https://github.com/facebookresearch/fairseq/pull/5359.diff",
+                "patch_url": "https://github.com/facebookresearch/fairseq/pull/5359.patch",
+                "issue_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359",
+                "number": 5359,
+                "state": "open",
+                "locked": false,
+                "title": "Add support for Python3.11",
+                "user": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "# Before submitting\r\n\r\n- [\u221a] Was this discussed/approved via a Github issue? (no need for typos, doc improvements)\r\n- [\u221a] Did you read the [contributor guideline](https://github.com/pytorch/fairseq/blob/main/CONTRIBUTING.md)?\r\n- [\u221a] Did you make sure to update the docs?\r\n- [\u221a] Did you write any new necessary tests?\r\n\r\n## What does this PR do?\r\nFixes #5012 (issue).\r\nThis PR updates supports for Python 3.11 and also add the adaptation of hydra by updating the version of hydra to 1.3.2.\r\n\r\n## PR review\r\nAnyone in the community is free to review the PR once the tests have passed.\r\nIf we didn't discuss your PR in Github issues there's a high chance it will not be merged.\r\n\r\n## Did you have fun?\r\nSure!\r\n",
+                "created_at": "2023-10-25T09:47:41Z",
+                "updated_at": "2023-10-25T09:47:41Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359/commits",
+                "review_comments_url": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359/comments",
+                "review_comment_url": "https://api.github.com/repos/facebookresearch/fairseq/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/comments",
+                "statuses_url": "https://api.github.com/repos/facebookresearch/fairseq/statuses/2fa0768c2115b0a4c207cfa3e1b3e4ff3ad9a00c",
+                "head": {
+                    "label": "majiayu000:main",
+                    "ref": "main",
+                    "sha": "2fa0768c2115b0a4c207cfa3e1b3e4ff3ad9a00c",
+                    "user": {
+                        "login": "majiayu000",
+                        "id": 19658300,
+                        "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/majiayu000",
+                        "html_url": "https://github.com/majiayu000",
+                        "followers_url": "https://api.github.com/users/majiayu000/followers",
+                        "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                        "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                        "repos_url": "https://api.github.com/users/majiayu000/repos",
+                        "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 709718814,
+                        "node_id": "R_kgDOKk1zHg",
+                        "name": "fairseq",
+                        "full_name": "majiayu000/fairseq",
+                        "private": false,
+                        "owner": {
+                            "login": "majiayu000",
+                            "id": 19658300,
+                            "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/majiayu000",
+                            "html_url": "https://github.com/majiayu000",
+                            "followers_url": "https://api.github.com/users/majiayu000/followers",
+                            "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                            "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                            "repos_url": "https://api.github.com/users/majiayu000/repos",
+                            "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/majiayu000/fairseq",
+                        "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+                        "fork": true,
+                        "url": "https://api.github.com/repos/majiayu000/fairseq",
+                        "forks_url": "https://api.github.com/repos/majiayu000/fairseq/forks",
+                        "keys_url": "https://api.github.com/repos/majiayu000/fairseq/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/majiayu000/fairseq/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/majiayu000/fairseq/teams",
+                        "hooks_url": "https://api.github.com/repos/majiayu000/fairseq/hooks",
+                        "issue_events_url": "https://api.github.com/repos/majiayu000/fairseq/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/majiayu000/fairseq/events",
+                        "assignees_url": "https://api.github.com/repos/majiayu000/fairseq/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/majiayu000/fairseq/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/majiayu000/fairseq/tags",
+                        "blobs_url": "https://api.github.com/repos/majiayu000/fairseq/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/majiayu000/fairseq/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/majiayu000/fairseq/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/majiayu000/fairseq/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/majiayu000/fairseq/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/majiayu000/fairseq/languages",
+                        "stargazers_url": "https://api.github.com/repos/majiayu000/fairseq/stargazers",
+                        "contributors_url": "https://api.github.com/repos/majiayu000/fairseq/contributors",
+                        "subscribers_url": "https://api.github.com/repos/majiayu000/fairseq/subscribers",
+                        "subscription_url": "https://api.github.com/repos/majiayu000/fairseq/subscription",
+                        "commits_url": "https://api.github.com/repos/majiayu000/fairseq/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/majiayu000/fairseq/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/majiayu000/fairseq/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/majiayu000/fairseq/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/majiayu000/fairseq/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/majiayu000/fairseq/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/majiayu000/fairseq/merges",
+                        "archive_url": "https://api.github.com/repos/majiayu000/fairseq/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/majiayu000/fairseq/downloads",
+                        "issues_url": "https://api.github.com/repos/majiayu000/fairseq/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/majiayu000/fairseq/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/majiayu000/fairseq/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/majiayu000/fairseq/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/majiayu000/fairseq/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/majiayu000/fairseq/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/majiayu000/fairseq/deployments",
+                        "created_at": "2023-10-25T09:01:35Z",
+                        "updated_at": "2023-10-25T09:40:20Z",
+                        "pushed_at": "2023-10-25T09:40:03Z",
+                        "git_url": "git://github.com/majiayu000/fairseq.git",
+                        "ssh_url": "git@github.com:majiayu000/fairseq.git",
+                        "clone_url": "https://github.com/majiayu000/fairseq.git",
+                        "svn_url": "https://github.com/majiayu000/fairseq",
+                        "homepage": null,
+                        "size": 25645,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "Python",
+                        "has_issues": false,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "facebookresearch:main",
+                    "ref": "main",
+                    "sha": "da8fb630880d529ab47e53381c30ddc8ad235216",
+                    "user": {
+                        "login": "facebookresearch",
+                        "id": 16943930,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2OTQzOTMw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16943930?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/facebookresearch",
+                        "html_url": "https://github.com/facebookresearch",
+                        "followers_url": "https://api.github.com/users/facebookresearch/followers",
+                        "following_url": "https://api.github.com/users/facebookresearch/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/facebookresearch/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/facebookresearch/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/facebookresearch/subscriptions",
+                        "organizations_url": "https://api.github.com/users/facebookresearch/orgs",
+                        "repos_url": "https://api.github.com/users/facebookresearch/repos",
+                        "events_url": "https://api.github.com/users/facebookresearch/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/facebookresearch/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 101782647,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMDE3ODI2NDc=",
+                        "name": "fairseq",
+                        "full_name": "facebookresearch/fairseq",
+                        "private": false,
+                        "owner": {
+                            "login": "facebookresearch",
+                            "id": 16943930,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2OTQzOTMw",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/facebookresearch",
+                            "html_url": "https://github.com/facebookresearch",
+                            "followers_url": "https://api.github.com/users/facebookresearch/followers",
+                            "following_url": "https://api.github.com/users/facebookresearch/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/facebookresearch/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/facebookresearch/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/facebookresearch/subscriptions",
+                            "organizations_url": "https://api.github.com/users/facebookresearch/orgs",
+                            "repos_url": "https://api.github.com/users/facebookresearch/repos",
+                            "events_url": "https://api.github.com/users/facebookresearch/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/facebookresearch/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/facebookresearch/fairseq",
+                        "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/facebookresearch/fairseq",
+                        "forks_url": "https://api.github.com/repos/facebookresearch/fairseq/forks",
+                        "keys_url": "https://api.github.com/repos/facebookresearch/fairseq/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/facebookresearch/fairseq/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/facebookresearch/fairseq/teams",
+                        "hooks_url": "https://api.github.com/repos/facebookresearch/fairseq/hooks",
+                        "issue_events_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/facebookresearch/fairseq/events",
+                        "assignees_url": "https://api.github.com/repos/facebookresearch/fairseq/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/facebookresearch/fairseq/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/facebookresearch/fairseq/tags",
+                        "blobs_url": "https://api.github.com/repos/facebookresearch/fairseq/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/facebookresearch/fairseq/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/facebookresearch/fairseq/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/facebookresearch/fairseq/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/facebookresearch/fairseq/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/facebookresearch/fairseq/languages",
+                        "stargazers_url": "https://api.github.com/repos/facebookresearch/fairseq/stargazers",
+                        "contributors_url": "https://api.github.com/repos/facebookresearch/fairseq/contributors",
+                        "subscribers_url": "https://api.github.com/repos/facebookresearch/fairseq/subscribers",
+                        "subscription_url": "https://api.github.com/repos/facebookresearch/fairseq/subscription",
+                        "commits_url": "https://api.github.com/repos/facebookresearch/fairseq/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/facebookresearch/fairseq/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/facebookresearch/fairseq/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/facebookresearch/fairseq/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/facebookresearch/fairseq/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/facebookresearch/fairseq/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/facebookresearch/fairseq/merges",
+                        "archive_url": "https://api.github.com/repos/facebookresearch/fairseq/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/facebookresearch/fairseq/downloads",
+                        "issues_url": "https://api.github.com/repos/facebookresearch/fairseq/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/facebookresearch/fairseq/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/facebookresearch/fairseq/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/facebookresearch/fairseq/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/facebookresearch/fairseq/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/facebookresearch/fairseq/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/facebookresearch/fairseq/deployments",
+                        "created_at": "2017-08-29T16:26:12Z",
+                        "updated_at": "2023-10-25T09:40:56Z",
+                        "pushed_at": "2023-10-25T09:47:42Z",
+                        "git_url": "git://github.com/facebookresearch/fairseq.git",
+                        "ssh_url": "git@github.com:facebookresearch/fairseq.git",
+                        "clone_url": "https://github.com/facebookresearch/fairseq.git",
+                        "svn_url": "https://github.com/facebookresearch/fairseq",
+                        "homepage": null,
+                        "size": 25645,
+                        "stargazers_count": 27793,
+                        "watchers_count": 27793,
+                        "language": "Python",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 6194,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1139,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "artificial-intelligence",
+                            "python",
+                            "pytorch"
+                        ],
+                        "visibility": "public",
+                        "forks": 6194,
+                        "open_issues": 1139,
+                        "watchers": 27793,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359"
+                    },
+                    "html": {
+                        "href": "https://github.com/facebookresearch/fairseq/pull/5359"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/facebookresearch/fairseq/issues/5359/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/facebookresearch/fairseq/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/facebookresearch/fairseq/pulls/5359/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/facebookresearch/fairseq/statuses/2fa0768c2115b0a4c207cfa3e1b3e4ff3ad9a00c"
+                    }
+                },
+                "author_association": "NONE",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": true,
+                "commits": 1,
+                "additions": 18,
+                "deletions": 15,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:47:43Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32830006221",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 26158085,
+            "login": "lq147258369",
+            "display_login": "lq147258369",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lq147258369",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26158085?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:40:56Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32829421497",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 14801111,
+            "login": "dyustc",
+            "display_login": "dyustc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dyustc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14801111?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:21:24Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    },
+    {
+        "id": "32828820963",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 19658300,
+            "login": "majiayu000",
+            "display_login": "majiayu000",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/majiayu000",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19658300?"
+        },
+        "repo": {
+            "id": 101782647,
+            "name": "facebookresearch/fairseq",
+            "url": "https://api.github.com/repos/facebookresearch/fairseq"
+        },
+        "payload": {
+            "forkee": {
+                "id": 709718814,
+                "node_id": "R_kgDOKk1zHg",
+                "name": "fairseq",
+                "full_name": "majiayu000/fairseq",
+                "private": false,
+                "owner": {
+                    "login": "majiayu000",
+                    "id": 19658300,
+                    "node_id": "MDQ6VXNlcjE5NjU4MzAw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/19658300?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/majiayu000",
+                    "html_url": "https://github.com/majiayu000",
+                    "followers_url": "https://api.github.com/users/majiayu000/followers",
+                    "following_url": "https://api.github.com/users/majiayu000/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/majiayu000/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/majiayu000/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/majiayu000/subscriptions",
+                    "organizations_url": "https://api.github.com/users/majiayu000/orgs",
+                    "repos_url": "https://api.github.com/users/majiayu000/repos",
+                    "events_url": "https://api.github.com/users/majiayu000/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/majiayu000/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/majiayu000/fairseq",
+                "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+                "fork": true,
+                "url": "https://api.github.com/repos/majiayu000/fairseq",
+                "forks_url": "https://api.github.com/repos/majiayu000/fairseq/forks",
+                "keys_url": "https://api.github.com/repos/majiayu000/fairseq/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/majiayu000/fairseq/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/majiayu000/fairseq/teams",
+                "hooks_url": "https://api.github.com/repos/majiayu000/fairseq/hooks",
+                "issue_events_url": "https://api.github.com/repos/majiayu000/fairseq/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/majiayu000/fairseq/events",
+                "assignees_url": "https://api.github.com/repos/majiayu000/fairseq/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/majiayu000/fairseq/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/majiayu000/fairseq/tags",
+                "blobs_url": "https://api.github.com/repos/majiayu000/fairseq/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/majiayu000/fairseq/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/majiayu000/fairseq/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/majiayu000/fairseq/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/majiayu000/fairseq/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/majiayu000/fairseq/languages",
+                "stargazers_url": "https://api.github.com/repos/majiayu000/fairseq/stargazers",
+                "contributors_url": "https://api.github.com/repos/majiayu000/fairseq/contributors",
+                "subscribers_url": "https://api.github.com/repos/majiayu000/fairseq/subscribers",
+                "subscription_url": "https://api.github.com/repos/majiayu000/fairseq/subscription",
+                "commits_url": "https://api.github.com/repos/majiayu000/fairseq/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/majiayu000/fairseq/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/majiayu000/fairseq/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/majiayu000/fairseq/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/majiayu000/fairseq/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/majiayu000/fairseq/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/majiayu000/fairseq/merges",
+                "archive_url": "https://api.github.com/repos/majiayu000/fairseq/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/majiayu000/fairseq/downloads",
+                "issues_url": "https://api.github.com/repos/majiayu000/fairseq/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/majiayu000/fairseq/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/majiayu000/fairseq/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/majiayu000/fairseq/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/majiayu000/fairseq/labels{/name}",
+                "releases_url": "https://api.github.com/repos/majiayu000/fairseq/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/majiayu000/fairseq/deployments",
+                "created_at": "2023-10-25T09:01:35Z",
+                "updated_at": "2023-10-25T09:01:35Z",
+                "pushed_at": "2023-10-23T17:43:44Z",
+                "git_url": "git://github.com/majiayu000/fairseq.git",
+                "ssh_url": "git@github.com:majiayu000/fairseq.git",
+                "clone_url": "https://github.com/majiayu000/fairseq.git",
+                "svn_url": "https://github.com/majiayu000/fairseq",
+                "homepage": null,
+                "size": 25645,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "has_discussions": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": null,
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2023-10-25T09:01:36Z",
+        "org": {
+            "id": 16943930,
+            "login": "facebookresearch",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebookresearch",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16943930?"
+        }
+    }
+]
